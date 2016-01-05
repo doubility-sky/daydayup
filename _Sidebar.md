@@ -1,21 +1,21 @@
 
 * [[Home]]
-* computer science
+* [[computer science]]
     - [[data structure]]
     - [[algorithms]]
     - [[operating system]]
     - [[compiler]]
     - [[networking]]
-* programming langauge
+* [[programming langauge]]
     - [[golang]]
     - [[rust]]
     - [[python]]
     - [[ruby]]
     - [[lua]]
-* platform
+* [[mobile development]]
     - [[iOS]]
     - [[android]]
-* game development
+* [[game development]]
     - [[unity3d]]
     - [[skynet]]
     - [[gonet]]
