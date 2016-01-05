@@ -1,5 +1,5 @@
 ## 莫等闲，空悲切！
-* [home page]([Home])
+* [home page]([[Home]])
 * programming langauge
     - [[golang]]
 * platform
