@@ -32,6 +32,8 @@
     - [[egret]]
     - [[skynet]]
     - [[gonet]]
+* [[tools]]
+    - [[atom editor]]
 * [[others]]
     - [[tips]]
 * [[test]]
