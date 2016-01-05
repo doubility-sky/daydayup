@@ -1,4 +1,4 @@
-### 莫等闲，空悲切！
+# Navigation
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
