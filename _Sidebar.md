@@ -1,10 +1,17 @@
 ## 莫等闲，空悲切！
 * [[Home]]
+* computer science
+    - [[data structure]]
+    - [[algorithms]]
+    - [[operating system]]
+    - [[compiler]]
+    - TODO ...
 * programming langauge
     - [[golang]]
     - [[rust]]
-    - [[lua]]
+    - [[python]]
     - [[ruby]]
+    - [[lua]]
 * platform
     - [[iOS]]
     - [[android]]
