@@ -36,6 +36,7 @@
 * [[tools]]
     - [[atom editor]]
 * [[cheat sheet]]
+* [[essay]]
 * [[others]]
 * [[test]]
 
