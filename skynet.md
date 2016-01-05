@@ -1,12 +1,14 @@
+# Skynet 学习
+fork了一份[副本](https://github.com/doubility-sky/skynet)到本组织，
+是否需要将本页wiki内容转移至相关的[wiki页面](https://github.com/doubility-sky/skynet/wiki)？ 
 
-官方 wiki ，不过我感觉不先看点儿前面的，直接看有点儿云里雾里
-https://github.com/cloudwu/skynet/wiki
 
-云风的博客标签，信息量很大
-http://blog.codingnow.com/eo/skynet/  
+## 资料
+[官方wiki](https://github.com/cloudwu/skynet/wiki) 直接看有点儿云里雾里。
 
-两个简明 pdf 
-https://github.com/wangdali/skynet-note/tree/master/doc  
+[云风的博客skynet标签](http://blog.codingnow.com/eo/skynet/) 信息量很大，慢慢看。
 
-其他人的收集 （杂)
-http://skynetclub.github.io/skynet/resource.html   
+[wangdaili的github](https://github.com/wangdali/skynet-note/tree/master/doc) 两个简明 pdf 。
+
+[大杂烩收集](http://skynetclub.github.io/skynet/resource.html) 乱。
+   
