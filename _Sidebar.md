@@ -1,4 +1,4 @@
-
+莫等闲，空悲切！
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
@@ -24,5 +24,4 @@
     - [[skynet]]
     - [[gonet]]
 
-## TODO ...
-## 莫等闲，空悲切！
+TODO ...
