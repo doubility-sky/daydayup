@@ -1,6 +1,6 @@
 # Day Day Up ~ o(^▽^)o
 
-## 请先看这里：[掌握markdown语法](https://guides.github.com/features/mastering-markdown/)
+## 请先看这里：[掌握markdown语法](https://guides.github.com/features/mastering-markdown/)（仅需3分钟）
 
 ## 持续跟进
 - 点击右上角Watching按钮。
