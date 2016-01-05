@@ -1,7 +1,4 @@
-Welcome to the daydayup wiki!
-
-人要是没有梦想，和咸鱼有什么分别？
-
+Day Day Up o(^▽^)o
 
 Wiki 编写准则草稿：
 - 外部文章或资料直接放链接，跳转方便。
