@@ -1,4 +1,4 @@
-# Navigation
+# 莫等闲！
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
