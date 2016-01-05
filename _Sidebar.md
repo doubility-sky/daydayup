@@ -13,6 +13,8 @@
     - [[python]]
     - [[ruby]]
     - [[lua]]
+    - [[haskell]]
+    - [[lisp family]]
 * [[system development]]
     - [[embedded]]
 * [[application development]]
