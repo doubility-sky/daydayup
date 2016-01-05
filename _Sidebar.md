@@ -1,4 +1,4 @@
-# 莫等闲！
+# 骚年！莫等闲！
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
@@ -40,5 +40,3 @@
 * [[essay]]
 * [[others]]
 * [[test]]
-
-TODO ...
