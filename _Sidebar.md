@@ -35,8 +35,8 @@
     - [[pomelo]]
 * [[tools]]
     - [[atom editor]]
+* [[cheat sheet]]
 * [[others]]
-    - [[tips]]
 * [[test]]
 
 TODO ...
