@@ -1,4 +1,6 @@
 # Day Day Up ~ o(^▽^)o
+![Well well well](https://avatars2.githubusercontent.com/u/16560830?v=3&s=200) 代表~~逗比~~人民欢迎你。
+
 
 ## 请先看这里：[掌握markdown语法](https://guides.github.com/features/mastering-markdown/)（仅需3分钟）
 - wiki撰写页面也有markdown相关语法参考
