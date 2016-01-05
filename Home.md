@@ -1,10 +1,10 @@
 # Day Day Up ~ o(^▽^)o
 
 ## 持续跟进
-- 点击右上角的[Watching按钮](https://github.com/doubility-sky/daydayup/subscription)
-- 有待讨论研究的课题发issue。
+- 点击右上角Watching按钮。
+- 有待讨论研究的课题发[issue](https://github.com/doubility-sky/daydayup/issues)
 
-这样大家可以实时接收到issue的讨论邮件，并会详细存档，有助于将来按图回忆，少走弯路。
+这样大家便可实时接收到[issue](https://github.com/doubility-sky/daydayup/issues)的讨论邮件，并会详细存档，有助于将来按图回忆，少走弯路。
 
 ## 撰写约定
 - 三分钟[学会markdown语法](https://guides.github.com/features/mastering-markdown/)
