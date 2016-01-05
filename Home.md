@@ -1,4 +1,4 @@
-# Day Day Up ~ o(^▽^)o
+# Day Day Up !
 ![Well well well](https://avatars2.githubusercontent.com/u/16560830?v=3&s=200 "前进吧骚年！伟大的领袖看好你呦！") 
 >代表~~逗比~~人民欢迎你！
 
