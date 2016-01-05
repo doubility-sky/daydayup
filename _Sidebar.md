@@ -32,6 +32,7 @@
     - [[egret]]
     - [[skynet]]
     - [[gonet]]
+    - [[pomelo]]
 * [[tools]]
     - [[atom editor]]
 * [[others]]
