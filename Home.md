@@ -1,5 +1,5 @@
 # Day Day Up ~ o(^▽^)o
-![Well well well](https://avatars2.githubusercontent.com/u/16560830?v=3&s=200 "焦点不要为我停留，前进吧骚年！伟大的领袖看好你呦！") 
+![Well well well](https://avatars2.githubusercontent.com/u/16560830?v=3&s=200 "前进吧骚年！伟大的领袖看好你呦！") 
 >代表~~逗比~~人民欢迎你！
 
 ## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
