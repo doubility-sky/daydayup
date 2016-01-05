@@ -2,7 +2,8 @@
 * [[Home]]
 * programming langauge
     - [[golang]]
-    * [[rust]]
+    - [[rust]]
+        + [[lua]]
 * platform
     - [[iOS]]
     - [[android]]
