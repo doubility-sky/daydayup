@@ -14,7 +14,7 @@
     - [[ruby]]
     - [[lua]]
 * [[system development]]
-    - [[Embedded]]
+    - [[embedded]]
 * [[application development]]
     - [[desktop development]]
         + [[unix like]]
