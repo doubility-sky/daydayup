@@ -14,7 +14,7 @@
     - [[lua]]
 * [[platform development]]
     - [[desktop development]]
-        + [[Unix like]]
+        + [[unix like]]
         + [[windows]]
     + [[mobile development]]
         - [[iOS]]
