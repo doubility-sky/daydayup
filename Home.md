@@ -3,8 +3,8 @@
 >代表~~逗比~~人民欢迎你！
 
 ## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
-- wiki撰写页面也有`markdown`相关语法参考
-- wiki撰写页面可进行 `Preview`
+- wiki撰写页面_也_有`markdown`相关语法参考
+- wiki撰写页面**可**进行 `Preview`
 
 ```python
 print("Hello World!") # 我是python，我高亮！
