@@ -3,7 +3,8 @@
 * programming langauge
     - [[golang]]
     - [[rust]]
-        + [[lua]]
+    - [[lua]]
+    - [[ruby]]
 * platform
     - [[iOS]]
     - [[android]]
