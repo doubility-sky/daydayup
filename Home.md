@@ -1,11 +1,15 @@
 # Day Day Up ~ o(^▽^)o
 ![Well well well](https://avatars2.githubusercontent.com/u/16560830?v=3&s=200 "焦点不要为我停留，前进吧骚年！伟大的领袖看好你呦！") 
->代表~~逗比~~人民欢迎你。
-
+>代表~~逗比~~人民欢迎你！
 
 ## 请先看这里：[掌握markdown语法](https://guides.github.com/features/mastering-markdown/)（仅需3分钟）
 - wiki撰写页面也有`markdown`相关语法参考
 - wiki撰写页面可进行 `Preview`
+
+```python
+print("Hello World!") # 我是python，我高亮！
+```
+
 
 ## 持续跟进
 - 点击右上角`Watching`按钮。
