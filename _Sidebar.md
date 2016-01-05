@@ -7,7 +7,7 @@
     - [[compiler]]
     - [[networking]]
 * [[programming langauge]]
-    - [[c/c++]]
+    - [c/c++](wiki/C-and-C-plus-plus "我很特殊，我还会浮动哦！")
     - [[golang]]
     - [[rust]]
     - [[python]]
