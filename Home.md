@@ -24,3 +24,7 @@ print("Hello World!") # 我是python，我高亮！
     + 做好分类管理。
     * 命名斟酌，方便浏览。
     - 层级适度（3级以内为佳）。
+
+
+## 文献
+[markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax.text "四级过了没？")
