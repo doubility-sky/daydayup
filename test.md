@@ -1,5 +1,7 @@
 Loading Markdown Test:
 
+* [标题](#代码)
+
 # 标题
 # h1 
 ## h2
@@ -13,5 +15,29 @@ Loading Markdown Test:
 - __also bold__
 
 # 斜体
-1. *italic*
+- *italic*
 - _also italic_
+
+# 链接
+[baidu](http://www.baidu.com)
+---------
+[markdown][1]
+
+# 图片
+
+# 代码
+`void fun() {
+    return;
+}`
+
+***
+>
+```c++
+void fun() {
+    return;
+}
+```
+
+
+
+[1]: http://zh.wikipedia.com/wiki/Markdown 
