@@ -2,6 +2,12 @@
 ![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.png "前进吧骚年！伟大的领袖看好你呦！") 
 >代表~~逗比~~人民欢迎你！
 
+## Introduction
+- 程序猿学习交流
+- 大部分背景为（始于但不限于）游戏开发
+- 积累，交流，进步，自由
+- 感谢郭嘉
+
 ## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
 - wiki撰写页面_也_有`markdown`相关语法参考
 - wiki撰写页面**可**进行 `Preview`
