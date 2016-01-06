@@ -17,16 +17,12 @@ Loading Markdown Test:
 ###### h6
 
 # 字体
-1. **bold**
-1. __also bold__
-
-
-1. *italic*
-1. _also italic_
-
-
-1. ***bold and italic***
-1. ___also bold and italic___
+*   **bold**
+*   __also bold__
+*   *italic*
+*   _also italic_
+*   ***bold and italic***
+*   ___also bold and italic___
  
 # 链接
 [baidu](http://www.baidu.com)
