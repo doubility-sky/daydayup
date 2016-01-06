@@ -17,6 +17,8 @@
     - [[erlang]]
     - [[haskell]]
     - [[lisp family]]
+    - [[html5]]
+    - [[javascript]]
 * [[system development]]
     - [[embedded]]
 * [[application development]]
