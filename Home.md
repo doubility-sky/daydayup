@@ -27,4 +27,4 @@ print("Hello World!") # 我是python，我高亮！
 
 
 ## 文献
-[markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax.text "四级过了没？")
+[markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax "四级过了没？")
