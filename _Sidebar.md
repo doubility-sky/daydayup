@@ -7,6 +7,7 @@
     - [[compiler]]
     - [[networking]]
     - [[computer organization]]
+    - [[computer graphics]]
 * [[programming langauge]]
     - [c/c++](wiki/C-and-C-plus-plus "我很特殊，我还会浮动哦！")
     - [[golang]]
@@ -32,6 +33,7 @@
         - [[node.js]]
 * [[game development]]
     - [[game client]]
+        - [[computer graphics]]
         - [[egret]]
         - [[cocos2dx]]
         - [[unity3d]]
