@@ -43,7 +43,13 @@ print("Hello World!") # 我是python，我高亮！
 - [[tools]] - [[editor]]部分，[[atom-editor]] 插件推荐
 
 ####### [Hantao Sun](https://github.com/sunhantao)
-- [[lua]] 
+- [[lua]] - 开始
+- [[iOS]] - 添加学习资料
+- [[android]] - 添加学习资料
+- [[unity3d]] - todo
+- [[golang]] - todo
+- [[html5]] - 添加学习资料
+- [[javascript]] - 添加学习资料
  
 ####### ice
 - [[skynet]]  
