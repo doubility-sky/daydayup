@@ -13,8 +13,8 @@
 ### 网络模型:
 - 异步网络库, 使用通用C/C++技术, 方便跨平台移植, 如: boost::asio, libuv 等.
 - 自实现网络库(win:IOCP  linux:epoll).  或包装 libuv.
-- golang [CSP(Communicating Sequential Processes)模式](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
-- erlang [Actor模式](https://en.wikipedia.org/wiki/Actor_model)
+- [[golang]] - [CSP(Communicating Sequential Processes)模式](https://en.wikipedia.org/wiki/Communicating_sequential_processes)
+- [[erlang]] - [Actor模式](https://en.wikipedia.org/wiki/Actor_model)
 
 ### 通讯协议:
 - JSON通用简单，但数据包过于庞大. 
