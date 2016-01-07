@@ -35,9 +35,12 @@ print("Hello World!") # 我是python，我高亮！
 ### [Hanlei Qin](https://github.com/qinhanlei)
 - [[home]] - almost done
 - [[golang]] - todo
+- [[iOS]] - todo
+- [[android]] - todo
+- [[unity3d]] - todo
 - [[game server]] - todo
 - [[skynet]] - doing
-- [[tools]]  
+- [[tools]] - doing
 
 ### [Hantao Sun](https://github.com/sunhantao)
 - [[lua]] 
