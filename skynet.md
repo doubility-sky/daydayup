@@ -27,7 +27,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   大杂烩收集，比较乱
    
 
-## 学习心得
+## 学习日志
 - [[skynet learn qhl]]
 
 
