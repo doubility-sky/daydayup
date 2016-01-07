@@ -33,9 +33,10 @@ print("Hello World!") # 我是python，我高亮！
 
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
 ### [Hanlei Qin](https://github.com/qinhanlei)
-- [[home]] done
-- [[game server]]  todo
-- [[skynet]]  doing
+- [[home]] - almost done
+- [[golang]] - todo
+- [[game server]] - todo
+- [[skynet]] - doing
 - [[tools]]  
 
 ### [Hantao Sun](https://github.com/sunhantao)
