@@ -34,13 +34,13 @@ print("Hello World!") # 我是python，我高亮！
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
 ### [Hanlei Qin](https://github.com/qinhanlei)
 - [[home]] - almost done
-- [[golang]] - todo
+- [[golang]] - 简单概念链接
 - [[iOS]] - todo
 - [[android]] - todo
 - [[unity3d]] - todo
-- [[game server]] - todo
-- [[skynet]] - doing
-- [[tools]] - doing
+- [[game server]] - 旧文整理 
+- [[skynet]] - 部分资料链接
+- [[tools]] - 编辑器部分，[atom-editor] 插件推荐
 
 ### [Hantao Sun](https://github.com/sunhantao)
 - [[lua]] 
