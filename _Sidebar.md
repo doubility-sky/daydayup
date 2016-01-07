@@ -42,6 +42,7 @@
         - [[pomelo]]
 * [[tools]]
     - [[atom editor]]
+    - [[git]]
 * [[cheat sheet]]
 * [[essay]]
 * [[others]]
