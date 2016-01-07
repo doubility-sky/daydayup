@@ -47,6 +47,7 @@ print("Hello World!") # 我是python，我高亮！
  
 ####### ice
 - [[skynet]]  
+- [[redis]]
 
 ####### [qx-coding](https://github.com/qx-coding)
 - todo
