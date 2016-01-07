@@ -31,6 +31,25 @@ print("Hello World!") # 我是python，我高亮！
     * 命名斟酌，方便浏览。
     - 层级适度（3级以内为佳）。
 
+## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
+### [Hanlei Qin](https://github.com/qinhanlei)
+- [[home]] done
+- [[game server]]  todo
+- [[skynet]]  doing
+- [[tools]]  
+
+### [Hantao Sun](https://github.com/sunhantao)
+- [[lua]] 
+ 
+### ice
+- [[skynet]]  
+
+### [qx-coding](https://github.com/qx-coding)
+- todo
+
+### [acmercyj](https://github.com/acmercyj)
+- todo
+
 
 ## 文献
 [markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax "四级过了没？")
