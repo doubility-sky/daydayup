@@ -42,7 +42,7 @@
         - [[pomelo]]
 * [[tools]]
     - [[editor]]
-        - [[atom editor]]
+        - [[atom]](wiki/atom-editor "GitHub 出品")
     - [[git]]
 * [[cheat sheet]]
 * [[essay]]
