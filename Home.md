@@ -23,7 +23,7 @@ print("Hello World!") # 我是python，我高亮！
 这样大家便可实时接收到[issue](https://github.com/doubility-sky/daydayup/issues)的讨论邮件，并会详细存档，有助于将来按图回忆，少走弯路。
 
 ## 撰写约定
-- 外部文章或资料直接放链接，跳转方便。
+- 外部文章或资料直接放链接，跳转方便。外部链接尽量是自己看过的，有用的。
 - 我们自己的经验就用`markdown`语法来写成相应的记录。
 - 尽量写好`Edit Message`，方便wiki内容出错恢复。
 - 右侧导航目录编写方法：
