@@ -37,6 +37,7 @@
         - [[unity3d]]
         - [[unreal]]
     - [[game server]]
+        - [[smart fox]]
         - [[skynet]]
         - [[gonet]]
         - [[pomelo]]
