@@ -15,14 +15,15 @@ http://golang.org/
 
 
 ## 理念与思想
-## 并发 
+#### 并发 
 - http://concur.rspace.googlecode.com/hg/talk/concur.html#landing-slide  
   golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌顶之作  
-## CSP (Communicating sequential processes)  
+
+#### CSP (Communicating sequential processes)  
 - https://en.wikipedia.org/wiki/Communicating_sequential_processes  
 - Hoare 快速排序，图灵奖得主  
   http://c2.com/cgi/wiki?CarHoare  
-- http://www.usingcsp.com/cspbook.pdf  
+  http://www.usingcsp.com/cspbook.pdf  
 
 ## 学习资料
 - https://tour.golang.org/  
