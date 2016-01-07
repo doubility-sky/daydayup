@@ -32,7 +32,7 @@ print("Hello World!") # 我是python，我高亮！
     - 层级适度（3级以内为佳）。
 
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
-### [Hanlei Qin](https://github.com/qinhanlei)
+####### [Hanlei Qin](https://github.com/qinhanlei)
 - [[home]] - 完成雏形
 - [[golang]] - 简单概念链接
 - [[iOS]] - todo
@@ -42,16 +42,16 @@ print("Hello World!") # 我是python，我高亮！
 - [[skynet]] - 部分资料链接
 - [[tools]] - [[editor]]部分，[[atom-editor]] 插件推荐
 
-### [Hantao Sun](https://github.com/sunhantao)
+####### [Hantao Sun](https://github.com/sunhantao)
 - [[lua]] 
  
-### ice
+####### ice
 - [[skynet]]  
 
-### [qx-coding](https://github.com/qx-coding)
+####### [qx-coding](https://github.com/qx-coding)
 - todo
 
-### [acmercyj](https://github.com/acmercyj)
+####### [acmercyj](https://github.com/acmercyj)
 - todo
 
 
