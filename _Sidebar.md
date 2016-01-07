@@ -41,9 +41,9 @@
         - [[gonet]]
         - [[pomelo]]
 * [[tools]]
+    - [[git]]
     - [[editor]]
         - [atom](wiki/atom-editor "GitHub 出品")
-    - [[git]]
 * [[cheat sheet]]
 * [[essay]]
 * [[others]]
