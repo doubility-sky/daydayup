@@ -35,7 +35,7 @@ print("Hello World!") # 我是python，我高亮！
     - 层级适度（3级以内为佳）。
 - **如对某页wiki有异议**
     1. 明显错误，直接修改。如：我国 ~~无~~雾 霾
-    2. 发[issue](https://github.com/doubility-sky/daydayup/issues/new) 
+    2. 不确定，值得讨论，抒发自己的看法请[打开新的issue](https://github.com/doubility-sky/daydayup/issues/new) 
     3. 描述清楚疑问，贴上相关链接
     4. 并@页面相关人员 （详见下方贡献列表） 或本组织全体人员。
 
