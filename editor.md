@@ -11,6 +11,8 @@
 * 小清新
     - sublime
     - notepad++ (Windows Only)
+* 重量级
+    - [source insight](http://www.sourceinsight.com/) 收费，windows only
 
 ## Note
 鉴于我们都喜欢 GitHub，没有什么个人偏好的话，强烈推荐 **[atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")** !
