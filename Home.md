@@ -18,7 +18,10 @@ print("Hello World!") # 我是python，我高亮！
 
 ## 持续跟进
 - 点击右上角`Watching`按钮。
-- 有待讨论研究的课题发[issue](https://github.com/doubility-sky/daydayup/issues)
+- 有待讨论研究的 课题 
+    1. 查看[issue](https://github.com/doubility-sky/daydayup/issues)，搜索是否有相关话题。
+    2. 有则直接跟进讨论。
+    3. 没有则 [打开新的issue](https://github.com/doubility-sky/daydayup/issues/new)。
 
 这样大家便可实时接收到[issue](https://github.com/doubility-sky/daydayup/issues)的讨论邮件，并会详细存档，有助于将来按图回忆，少走弯路。
 
@@ -30,6 +33,11 @@ print("Hello World!") # 我是python，我高亮！
     + 做好分类管理。
     * 命名斟酌，方便浏览。
     - 层级适度（3级以内为佳）。
+- **如对某页wiki有异议**
+    1. 明显错误，直接修改。如：我国 ~~无~~雾 霾
+    2. 发[issue](https://github.com/doubility-sky/daydayup/issues/new) 
+    3. 描述清楚疑问，贴上相关链接
+    4. 并@页面相关人员 （详见下方贡献列表） 或本组织全体人员。
 
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
 ####### [Hanlei Qin](https://github.com/qinhanlei)
