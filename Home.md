@@ -11,6 +11,11 @@
 ## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
 - wiki撰写页面_也_有`markdown`相关语法参考
 - wiki撰写页面**可**进行 `Preview`
+- 简单的编写/更改，直接在浏览器中进行足矣
+- **编写复杂的，长篇文章**：
+  1. clone [本wiki的git库](https://github.com/doubility-sky/daydayup.wiki.git)  
+  2. 使用 [[atom editor]] 来撰写，支持 Markdown.
+  3. 使用 [[git]] push 更改
 
 ```python
 print("Hello World!") # 我是python，我高亮！
