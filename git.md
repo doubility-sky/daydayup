@@ -28,6 +28,7 @@ https://git-scm.com/
 - https://guides.github.com/  
   注意看本组织在哪里？  
 
-
-
+## git flow : 项目开发分支模型
+- [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
+- [git flow翻译](http://www.ituring.com.cn/article/56870)
 
