@@ -41,14 +41,14 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 # 集群
 - https://github.com/cloudwu/skynet/wiki/Cluster  
 
-## 节点
+#### 节点
 - 每个 skynet 节点有不同的 id 。  
 - 允许 255 个 skynet 节点部署在不同的机器上协作
 - 每个节点都是一个 slave
 - 选某个slave配置standalone来启动一个cmaster 服务，该节点同时为master
 - master 节点用于协调 slave 组网
 
-## harbor
+#### harbor
 - 通讯由一个独立的 harbor 服务来完成  
 - harbor id 用 handle 高8位来标记
 - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
