@@ -59,7 +59,7 @@ print("Hello World!") # 我是python，我高亮！
 - [[html5]] - 添加学习资料
 - [[javascript]] - 添加学习资料
  
-####### ice
+####### [13ice](https://github.com/13ice)
 - [[skynet]]  
 - [[redis]]
 
