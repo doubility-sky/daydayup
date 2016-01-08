@@ -1,5 +1,5 @@
 # Day Day Up !
-![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.git "前进吧骚年！伟大的领袖看好你呦！")
+![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.gif "前进吧骚年！伟大的领袖看好你呦！")
 >代表~~逗比~~人民欢迎你！还你一片妹有~~雾霾~~的天空。
 
 ## Introduction
