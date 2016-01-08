@@ -1,5 +1,5 @@
 # Day Day Up !
-![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.png "前进吧骚年！伟大的领袖看好你呦！") 
+![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.git "前进吧骚年！伟大的领袖看好你呦！")
 >代表~~逗比~~人民欢迎你！还你一片妹有~~雾霾~~的天空。
 
 ## Introduction
@@ -18,7 +18,7 @@ print("Hello World!") # 我是python，我高亮！
 
 ## 持续跟进
 - 点击右上角`Watching`按钮。
-- 有待讨论研究的 课题 
+- 有待讨论研究的 课题
     1. 查看[issue](https://github.com/doubility-sky/daydayup/issues)，搜索是否有相关话题。
     2. 有则直接跟进讨论。
     3. 没有则 [打开新的issue](https://github.com/doubility-sky/daydayup/issues/new)。
@@ -35,7 +35,7 @@ print("Hello World!") # 我是python，我高亮！
     - 层级适度（3级以内为佳）。
 - **如对某页wiki有异议**
     1. 明显错误，直接修改。如：我国 ~~无~~雾 霾
-    2. 不确定，值得讨论，抒发自己的看法请[打开新的issue](https://github.com/doubility-sky/daydayup/issues/new) 
+    2. 不确定，值得讨论，抒发自己的看法请[打开新的issue](https://github.com/doubility-sky/daydayup/issues/new)
     3. 描述清楚疑问，贴上相关链接
     4. 并@页面相关人员 （详见下方贡献列表） 或本组织全体人员。
 
@@ -46,7 +46,7 @@ print("Hello World!") # 我是python，我高亮！
 - [[iOS]] - todo
 - [[android]] - todo
 - [[unity3d]] - todo
-- [[game server]] - 旧文整理 
+- [[game server]] - 旧文整理
 - [[skynet]] - 部分资料链接
 - [[tools]] - [[editor]]部分，[[atom-editor]] 插件推荐
 
@@ -58,7 +58,7 @@ print("Hello World!") # 我是python，我高亮！
 - [[golang]] - todo
 - [[html5]] - 添加学习资料
 - [[javascript]] - 添加学习资料
- 
+
 ####### [13ice](https://github.com/13ice)
 - [[skynet]]  
 - [[redis]]
