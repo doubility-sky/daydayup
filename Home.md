@@ -69,7 +69,7 @@ print("Hello World!") # 我是python，我高亮！
 - [[redis]]
 
 ####### [qx-coding](https://github.com/qx-coding)
-- todo
+- [[lua]] - 学习
 
 ####### [acmercyj](https://github.com/acmercyj)
 - todo
