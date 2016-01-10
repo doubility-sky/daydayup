@@ -3,6 +3,22 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 ~~是否需要将本页wiki内容转移至相关的[wiki页面](https://github.com/doubility-sky/skynet/wiki)？~~   
 算了，暂时还是在这里汇总为主吧。
 
+# 资料汇总
+### 阅读
+- https://github.com/cloudwu/skynet/wiki    
+  Skynet Wiki 直接看有点儿云里雾里。
+- http://blog.codingnow.com/eo/skynet/   
+  云风的博客skynet标签，信息量大  
+- https://github.com/wangdali/skynet-note/tree/master/doc  
+  wangdaili的github，两个简明 pdf:
+- http://skynetclub.github.io/skynet/resource.html  
+  大杂烩收集，比较乱
+
+### 视频
+- http://gad.qq.com/content/coursedetail?id=467  
+  腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”
+- http://gad.qq.com/article/detail/5257
+  “云风：基于 Actor 模式的开源框架” ppt
 
 # 设计理念
 - 作者的设计综述：http://blog.codingnow.com/2012/09/the_design_of_skynet.html
@@ -52,17 +68,6 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - 通讯由一个独立的 harbor 服务来完成  
 - harbor id 用 handle 高8位来标记
 - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
-
-
-# 参考文献
-- https://github.com/cloudwu/skynet/wiki    
-  Skynet Wiki 直接看有点儿云里雾里。
-- http://blog.codingnow.com/eo/skynet/   
-  云风的博客skynet标签，信息量大  
-- https://github.com/wangdali/skynet-note/tree/master/doc  
-  wangdaili的github，两个简明 pdf:
-- http://skynetclub.github.io/skynet/resource.html  
-  大杂烩收集，比较乱
 
 ## 学习日志
 - [[skynet learn qhl]]
