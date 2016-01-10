@@ -6,22 +6,26 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 # 资料汇总
 ### 阅读
 - https://github.com/cloudwu/skynet/wiki    
-  Skynet Wiki 直接看有点儿云里雾里。
+  官方git库wiki。信息量大，但比较详实。
 - http://blog.codingnow.com/eo/skynet/   
-  云风的博客skynet标签，信息量大  
-- https://github.com/wangdali/skynet-note/tree/master/doc  
-  wangdaili的github，两个简明 pdf:
-- http://skynetclub.github.io/skynet/resource.html  
-  大杂烩收集，比较乱
+  云风的博客skynet标签，第一作者描述下的发展历史，信息量大。  
 
 ### 视频
 - http://gad.qq.com/content/coursedetail?id=467  
   腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”
-- http://gad.qq.com/article/detail/5257
+- http://gad.qq.com/article/detail/5257  
   “云风：基于 Actor 模式的开源框架” ppt
 
-# 设计理念
-- 作者的设计综述：http://blog.codingnow.com/2012/09/the_design_of_skynet.html
+## 其他
+- https://github.com/wangdali/skynet-note/tree/master/doc  
+  wangdaili的github，两个简明 pdf
+- http://skynetclub.github.io/skynet/resource.html  
+  大杂烩收集，比较乱
+
+# 概览
+### 设计理念
+- 作者的设计综述：  
+  http://blog.codingnow.com/2012/09/the_design_of_skynet.html
 - 单进程多线程  
 - 核心功能：服务    
 - 主张所有的服务都在同一个 OS 进程中协作完成
