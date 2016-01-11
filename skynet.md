@@ -60,19 +60,34 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - 如需自主逻辑，可用 Skynet 系统提供的 timeout 消息，定期触发。
 
 # 集群
-- https://github.com/cloudwu/skynet/wiki/Cluster  
+- https://github.com/cloudwu/skynet/wiki/Cluster
+- http://blog.codingnow.com/2014/06/skynet_cluster.html
+- 如果你仅仅是单台物理机的计算能力不足，那么最优的策略是选用更多核心的机器。
+- 在同一进程内，skynet 可以保持最高的并行能力，充分利用物理机的多核心，远比增加物理机性价比高得多。
+- 当单台机器的处理能力达到极限后，可以考虑通过内置的 master/slave 机制来扩展。
 
-#### 节点
+### Master/Slave 
+- 对单台物理机计算能力不足情况下的补充
+- 整个网络中任意一个节点都必须正常工作，节点间的联系也不可断开。  
+    1. 这就好比你一台物理机上如果插了多块 CPU ，任意一个损坏都会导致整台机器不能正常工作一样。
+    2. 不要把这个模式用于跨机房的组网，所有 slave 节点都应该在同一局域网内。
+
+##### 节点
 - 每个 skynet 节点有不同的 id 。  
 - 允许 255 个 skynet 节点部署在不同的机器上协作
 - 每个节点都是一个 slave
 - 选某个slave配置standalone来启动一个cmaster 服务，该节点同时为master
 - master 节点用于协调 slave 组网
 
-#### harbor
+##### harbor
 - 通讯由一个独立的 harbor 服务来完成  
 - harbor id 用 handle 高8位来标记
 - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
+
+### Cluster
+- 多组 Master/Slave 网络。
+- 部署多组 master/slave 网络，然后再用 cluster 将它们联系起来。
+- 比较简单的结构是，每个集群中每个节点都配置为单节点模式（将 harbor id 设置为 0）。
 
 ## 学习日志
 - [[skynet learn qhl]]
