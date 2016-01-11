@@ -12,7 +12,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 
 ### 视频
 - http://gad.qq.com/content/coursedetail?id=467  
-  腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”
+  腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”    
+  视频开头所提到的 [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)  
 - http://gad.qq.com/article/detail/5257  
   “云风：基于 Actor 模式的开源框架” ppt
 
