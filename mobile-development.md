@@ -1,1 +1,1 @@
-todo
+[android和iOS平台的崩溃捕获和收集](http://www.cnblogs.com/sevenyuan/p/4347757.html)
