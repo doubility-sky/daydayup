@@ -9,6 +9,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   官方git库wiki。信息量大，但比较详实。
 - http://blog.codingnow.com/eo/skynet/   
   云风的博客skynet标签，第一作者描述下的发展历史，信息量大。  
+  倒序阅读，一窥详尽发展。  
 
 ### 视频
 - http://gad.qq.com/content/coursedetail?id=467  
@@ -30,6 +31,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - 单进程多线程  
 - 核心功能：服务    
 - 主张所有的服务都在同一个 OS 进程中协作完成
+- 可以视Skynet为一个简单的操作系统，每个服务都是这个系统中的进程。
 - 核心层内，不考虑跨机通讯的机制
 - 不为单独一个服务的崩溃，重启等提供相应的支持 （**任其崩溃哲学**）
 
@@ -58,6 +60,12 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 
 #### 扩展
 - 如需自主逻辑，可用 Skynet 系统提供的 timeout 消息，定期触发。
+
+### Lua
+- https://github.com/cloudwu/skynet/wiki/LuaAPI
+- 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
+- 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
+- **不可混用coroutine !!!** https://github.com/cloudwu/skynet/wiki/Coroutine
 
 # 集群
 - https://github.com/cloudwu/skynet/wiki/Cluster
@@ -88,6 +96,9 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - 多组 Master/Slave 网络。
 - 部署多组 master/slave 网络，然后再用 cluster 将它们联系起来。
 - 比较简单的结构是，每个集群中每个节点都配置为单节点模式（将 harbor id 设置为 0）。
+
+# Snax
+- 一个方便 skynet 服务实现的简单框架。Snax: Sn-Skynet; ax-???
 
 ## 学习日志
 - [[skynet learn qhl]]
