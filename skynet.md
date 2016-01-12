@@ -63,7 +63,9 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - https://github.com/cloudwu/skynet/wiki/LuaAPI
 - 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
 - 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
-- **不可混用coroutine !!!** https://github.com/cloudwu/skynet/wiki/Coroutine
+- **不可混用coroutine !!!** https://github.com/cloudwu/skynet/wiki/Coroutine 
+- skynet里的coroutine http://blog.codingnow.com/2015/12/skynet_coroutine.html
+
 
 # 集群
 - https://github.com/cloudwu/skynet/wiki/Cluster
