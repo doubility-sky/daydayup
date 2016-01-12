@@ -2,7 +2,7 @@
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
-    - [[algorithms]]
+    - [[algorithm]]
     - [[operating system]]
     - [[compiler]]
     - [[networking]]
