@@ -86,6 +86,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - master 节点用于协调 slave 组网
 
 ##### harbor
+- http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html
 - 通讯由一个独立的 harbor 服务来完成  
 - harbor id 用 handle 高8位来标记
 - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
@@ -103,3 +104,21 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - https://github.com/dpull/skynet-mingw  
   windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
 
+# Tools
+- https://github.com/cloudwu/skynet/wiki/Profile
+
+# 实战经验谈
+### [云风blog的skynet标签](http://blog.codingnow.com/eo/skynet/)
+以下*斜体字*为摘要，连接上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+- http://blog.codingnow.com/2014/10/skynet_overload.html  
+  skynet 服务的过载保护 - *《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...*
+- http://blog.codingnow.com/2014/07/skynet_response.html   
+  skynet 中如何实现邮件达到通知服务 - *讨论如何实现一个邮件通知服务...*
+- http://blog.codingnow.com/2014/03/mmzb_redis.html  
+  谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) 
+- http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
+  skynet 服务启动优化 - *手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...*
+- http://blog.codingnow.com/2013/06/skynet_watchdog.html  
+  skynet 下的用户登陆问题 - *今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...*
+- http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
+  并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
