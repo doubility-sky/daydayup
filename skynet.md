@@ -42,9 +42,9 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   以“邮件往来”方式解释actor交互模型，比喻生动，易理解
 
 
-# 服务 Service
+# 服务
 #### 定义
-- 从动态库（so 文件）中启动起来的一个符合规范的 C 模块，改模块称为服务。
+- 从动态库（so 文件）中启动起来的一个符合规范的 C 模块，该模块称为服务(service)。
 - 每个服务都是被一个个消息包驱动，当没有包到来的时候，它们就会处于挂起状态，对 CPU 资源零消耗。
 
 #### 属性
@@ -59,15 +59,19 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 #### 扩展
 - 如需自主逻辑，可用 Skynet 系统提供的 timeout 消息，定期触发。
 
-### Lua
+# Lua
 - https://github.com/cloudwu/skynet/wiki/LuaAPI
 - 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
 - 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
 - **不可混用coroutine !!!** https://github.com/cloudwu/skynet/wiki/Coroutine 
 - skynet里的coroutine http://blog.codingnow.com/2015/12/skynet_coroutine.html
 
+### Skynet 中的 Lua修改版
+- https://github.com/cloudwu/skynet/wiki/CodeCache
+- http://blog.codingnow.com/2014/03/lua_shared_proto.html  
+  在不同的 lua vm 间共享 Proto
 
-# 集群
+# 集群 
 - https://github.com/cloudwu/skynet/wiki/Cluster
 - http://blog.codingnow.com/2014/06/skynet_cluster.html
 - 如果你仅仅是单台物理机的计算能力不足，那么最优的策略是选用更多核心的机器。
@@ -124,7 +128,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - https://github.com/dpull/skynet-mingw  
   windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
 
-# Tools
+# 工具
 - https://github.com/cloudwu/skynet/wiki/Profile
 
 # 实战经验谈
