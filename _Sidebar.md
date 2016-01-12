@@ -35,6 +35,7 @@
     - [[game client]]
         - [[computer graphics]]
         - [[egret]]
+        - [[ejoy2d]]
         - [[cocos2dx]]
         - [[unity3d]]
         - [[unreal]]
