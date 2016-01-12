@@ -130,6 +130,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 
 # 工具
 - https://github.com/cloudwu/skynet/wiki/Profile
+- https://github.com/cloudwu/skynet/wiki/DebugConsole
 
 # 实战经验谈
 ### [云风blog的skynet标签](http://blog.codingnow.com/eo/skynet/)
