@@ -4,25 +4,23 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 算了，暂时还是在这里汇总为主吧。
 
 # 资料汇总
-### 阅读
 - https://github.com/cloudwu/skynet/wiki    
-  官方git库wiki。信息量大，但比较详实。
+  **官方git库wiki**，信息量大，内容详实。
 - http://blog.codingnow.com/eo/skynet/   
-  云风的博客skynet标签，第一作者描述下的发展历史，信息量大。  
+  **云风的博客skynet标签**，第一作者描述下的发展历史，信息量大。  
   倒序阅读，一窥详尽发展。  
-
-### 视频
 - http://gad.qq.com/content/coursedetail?id=467  
   腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”    
   视频开头所提到的 [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)  
 - http://gad.qq.com/article/detail/5257  
   “云风：基于 Actor 模式的开源框架” ppt
 
-## 其他
+#### 其他
 - https://github.com/wangdali/skynet-note/tree/master/doc  
   wangdaili的github，两个简明 pdf
 - http://skynetclub.github.io/skynet/resource.html  
   大杂烩收集，比较乱
+
 
 # 概览
 ### 设计理念
@@ -100,5 +98,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 # Snax
 - 一个方便 skynet 服务实现的简单框架。Snax: Sn-Skynet; ax-???
 
-## 学习日志
-- [[skynet learn qhl]]
+# Run Skynet
+- https://github.com/cloudwu/skynet/wiki/Build
+- https://github.com/dpull/skynet-mingw  
+  windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
+
