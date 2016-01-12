@@ -97,13 +97,15 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - 比较简单的结构是，每个集群中每个节点都配置为单节点模式（将 harbor id 设置为 0）。
 
 # 通讯
+- http://blog.codingnow.com/2015/08/skynet_cluster_rpc_limit.html  
+  去掉 skynet 中 cluster rpc 的消息长度限制
 - http://blog.codingnow.com/2015/01/skynet_netpack.html  
   为什么 skynet 提供的包协议只用 2 个字节表示包长度
 - http://blog.codingnow.com/2014/04/skynet_gate_lua_version.html  
-  对 skynet 的 gate 服务的重构 - 以下为相关摘要 
+  对 skynet 的 gate 服务的重构
 
->
-&emsp;&emsp;目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 google proto buffer 用的 varint ，但最后都放弃了。  
+**摘要:**  
+>&emsp;&emsp;目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 google proto buffer 用的 varint ，但最后都放弃了。  
 &emsp;&emsp;考虑到实现的便捷，通常收到长度后，会在内存考虑指定长度的 buffer 等待后续的数据输入。这样，如果有大量攻击者发送超长包头，就会让服务器内存瞬间消进。所以，这种协议只要实现的不小心，很容易变成攻击弱点。  
 &emsp;&emsp;注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。  
 &emsp;&emsp;游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。
