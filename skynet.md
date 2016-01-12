@@ -123,6 +123,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 # 实战经验谈
 ### [云风blog的skynet标签](http://blog.codingnow.com/eo/skynet/)
 以下*斜体字*为摘要，链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+- http://blog.codingnow.com/2015/04/skynet_mmo.html  
+  基于 skynet 的 MMO 服务器设计 - *陌陌 带了他们的一个 CP 到我们公司咨询一下 skynet 做 mmo 游戏项目中遇到的一些问题...*
 - http://blog.codingnow.com/2014/10/skynet_overload.html  
   skynet 服务的过载保护 - *《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...*
 - http://blog.codingnow.com/2014/07/skynet_response.html   
