@@ -13,7 +13,9 @@
 - wiki撰写页面**可**进行 `Preview`
 - 简单的编写/更改，直接在浏览器中进行足矣
 - **编写复杂的，长篇文章**：
-  1. clone 本wiki的git库 [HTTPS](https://github.com/doubility-sky/daydayup.wiki.git)/[SSH](git@github.com:doubility-sky/daydayup.wiki.git)  
+  1. clone 本wiki的git库 
+      - ```https://github.com/doubility-sky/daydayup.wiki.git```
+      - ```git@github.com:doubility-sky/daydayup.wiki.git```
   2. 使用 [[atom editor]] 来撰写，支持 Markdown.
   3. 使用 [[git]] push 更改
 
