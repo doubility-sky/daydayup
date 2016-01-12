@@ -109,7 +109,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 
 # 实战经验谈
 ### [云风blog的skynet标签](http://blog.codingnow.com/eo/skynet/)
-以下*斜体字*为摘要，连接上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+以下*斜体字*为摘要，链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
 - http://blog.codingnow.com/2014/10/skynet_overload.html  
   skynet 服务的过载保护 - *《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...*
 - http://blog.codingnow.com/2014/07/skynet_response.html   
