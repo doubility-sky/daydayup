@@ -112,7 +112,10 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。  
 
 # Snax
+- https://github.com/cloudwu/skynet/wiki/Snax
 - 一个方便 skynet 服务实现的简单框架。Snax: Sn-Skynet; ax-???
+- http://blog.codingnow.com/2015/11/rpc.html   
+  RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*
 
 # Run Skynet
 - https://github.com/cloudwu/skynet/wiki/Build
