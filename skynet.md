@@ -59,7 +59,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 #### 扩展
 - 如需自主逻辑，可用 Skynet 系统提供的 timeout 消息，定期触发。
 
-# Lua
+# [Lua](http://cloudwu.github.io/lua53doc/)
 - https://github.com/cloudwu/skynet/wiki/LuaAPI
 - 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
 - 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
