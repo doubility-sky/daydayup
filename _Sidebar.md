@@ -37,6 +37,7 @@
         - [[egret]]
         - [[ejoy2d]]
         - [[cocos2dx]]
+        - [[gameplay3d]]
         - [[unity3d]]
         - [[unreal]]
     - [[game server]]
