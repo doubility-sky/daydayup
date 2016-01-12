@@ -9,7 +9,7 @@ Loading Markdown Test:
 
 
 # 标题
-# h1 
+# h1
 ## h2
 ### h3
 #### h4
@@ -23,7 +23,7 @@ Loading Markdown Test:
 *   _also italic_
 *   ***bold and italic***
 *   ___also bold and italic___
- 
+
 # 链接
 [baidu](http://www.baidu.com)
 ---------
@@ -41,11 +41,15 @@ Loading Markdown Test:
 ***
 >
 ```c++
+// 我是C++，我高亮！
 void fun() {
     return;
 }
 ```
+```python
+# 我是python，我高亮！
+print("Hello World!")
+```
 
 
-
-[1]: http://zh.wikipedia.com/wiki/Markdown 
+[1]: http://zh.wikipedia.com/wiki/Markdown
