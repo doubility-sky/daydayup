@@ -10,7 +10,7 @@
     - [[computer graphics]]
 * [[programming langauge]]
     - [[c]]
-    - [c++](wiki/C-plus-plus)
+    - [c++](wiki/c-plus-plus)
     - [[java]]
     - [[c#]]
     - [[golang]]
