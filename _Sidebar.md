@@ -10,6 +10,8 @@
     - [[computer graphics]]
 * [[programming langauge]]
     - [c/c++](wiki/C-and-C-plus-plus "我很特殊，我还会浮动哦！")
+    - [[java]]
+    - [[c#]]
     - [[golang]]
     - [[rust]]
     - [[python]]
