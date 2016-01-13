@@ -1,4 +1,4 @@
-# Time waits for nobody
+# Contents
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
