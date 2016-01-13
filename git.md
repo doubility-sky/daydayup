@@ -1,10 +1,13 @@
 https://git-scm.com/
 
 
-## How to learn
+# How to learn
 - 最佳文档都在这里了 https://git-scm.com/doc
 - 基本这本书就够了https://git-scm.com/book/en/v2
 - 中文在这里 https://git-scm.com/book/zh
+
+### 换行符 CRLF 问题
+- [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
 
 ## Git 
 - https://git-scm.com/downloads  
