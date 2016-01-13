@@ -1,4 +1,4 @@
-# 骚年！莫等闲！
+# Time waits for nobody
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
