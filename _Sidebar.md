@@ -9,7 +9,8 @@
     - [[computer organization]]
     - [[computer graphics]]
 * [[programming langauge]]
-    - [c/c++](wiki/C-and-C-plus-plus "我很特殊，我还会浮动哦！")
+    - [[c]]
+    - [c++](wiki/C-plus-plus)
     - [[java]]
     - [[c#]]
     - [[golang]]
