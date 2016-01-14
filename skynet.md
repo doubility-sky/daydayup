@@ -21,6 +21,10 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   wangdaili的github，两个简明 pdf
 - http://skynetclub.github.io/skynet/resource.html  
   大杂烩收集，比较乱
+- http://www.jiandan.ren/tag/skynet/  
+  hello skynet
+- http://my.oschina.net/u/186074/blog/495002  
+  阅读笔记
 
 
 # 概览
