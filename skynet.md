@@ -145,12 +145,31 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 &emsp;&emsp;游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。
 大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。  
 
+# Gate
+- 是一个早于 socket API 的解决大量网络链接的实现。
+- [Skynet Wiki](https://github.com/cloudwu/skynet/wiki)：*要做到给客户端提供服务，还需要使用 Socket API ，或者使用已经编写好的 GateServer 模板解决大量客户端接入的问题。*
+- [设计综述](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)中搜索 gate，云风曾回复道：
+    - *gate 现在已经不是核心组件. 建议直接用 socket 库编写你需要的业务.现有 gate 的功能,可以通过阅读 gate 的源码了解.*
+    - *PTYPE_CLIENT 是历史遗留的. 原本 gate 服务是先于现在的 socket 模块实现的.PTYPE_CLIENT 是 gate 给外部连接定义出来的消息类型. 有了 socket 模块后, gate 不是必须品, PTYPE_CLIENT 这类消息也不一定有了.*
+- [Skynet Wiki: Gate Server](https://github.com/cloudwu/skynet/wiki/GateServer)
+    - skynet 提供了一个通用模板 lualib/snax/gateserver.lua 来启动一个网关服务器，通过 TCP 连接和客户端交换数据。
+    - service/gate.lua 是一个实现完整的网关服务器，同时也可以作为 snax.gateserver 的使用范例。  
+      examples/watchdog.lua 是一个可以参考的例子，它启动了一个 server/gate.lua 服务，并将处理外部连接的消息转发处理。   
+      **注**: 这个模板不可以和 Socket 库一起使用。因为这个模板接管了 socket 类的消息。
+- [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 如果你需要一个网关帮你接入大量连接并转发它们到不同的地方处理。
+    - lualib/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考。
+    - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 。
+
+**综上**：所有gate实现可以拿来参考，还是用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能吧。
+
 # Snax
 - https://github.com/cloudwu/skynet/wiki/Snax
 - 一个方便 skynet 服务实现的简单框架。  
   Snax: Sn-Skynet;  ax-???(猜测是auxiliary)
 - http://blog.codingnow.com/2015/11/rpc.html   
-  RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*
+  RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
+
+**综上**：似乎这么一看，snax就拿来看看学习好了，不用太深究。
 
 # Run Skynet
 - https://github.com/cloudwu/skynet/wiki/Build
