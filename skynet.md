@@ -16,6 +16,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   “云风：基于 Actor 模式的开源框架” ppt
 
 #### 其他
+- http://spell.darkzore.com/?p=81  
 - https://github.com/wangdali/skynet-note/tree/master/doc  
   wangdaili的github，两个简明 pdf
 - http://skynetclub.github.io/skynet/resource.html  
@@ -41,6 +42,31 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - http://www.infoq.com/cn/news/2014/11/intro-actor-model  
   以“邮件往来”方式解释actor交互模型，比喻生动，易理解
 
+### 源码分析
+```C
+// 未给出注释的，可在本wiki页内搜索相关主题
+Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
+├─3rd
+│  ├─jemalloc   // 可选是否hook的，高效内存分配库 
+│  ├─lpeg       // lua 的模式匹配库，看云风的博客[注1]可做解析protocol buffer用 
+│  ├─lua        // lua5.3 修改版 (详见后文)
+│  └─lua-md5
+├─examples      // 示例
+│  └─login      
+├─lualib        // lua 实现的程序库
+│  ├─http
+│  ├─sharedata
+│  ├─skynet
+│  └─snax       
+├─lualib-src    // C 实现的动态库，供 Lua 调用
+│  └─sproto
+├─service       // lua 实现的 服务(详见后文) ，供 snlua 服务启动
+├─service-src   // C 实现的 服务
+├─skynet-src    // skynet 核心
+└─test
+```
+> 注  
+1.[Proto Buffers in Lua](http://blog.codingnow.com/2010/08/proto_buffers_in_lua.html)
 
 # 服务
 #### 定义
