@@ -108,23 +108,22 @@ Skynet
 │          
 ├─lualib-src        // C 实现的动态库，供 Lua 调用
 │  │  lsha1.c
-│  │  lua-bson.c
-│  │  lua-clientsocket.c
+│  │  lua-bson.c                  // 类 JSON
+│  │  lua-clientsocket.c          // It's only for demo, limited feature.
 │  │  lua-cluster.c
-│  │  lua-crypt.c
+│  │  lua-crypt.c                 // 加密算法 
 │  │  lua-debugchannel.c
 │  │  lua-memory.c
-│  │  lua-mongo.c
-│  │  lua-multicast.c
-│  │  lua-mysqlaux.c
-│  │  lua-netpack.c
-│  │  lua-profile.c
-│  │  lua-seri.c
-│  │  lua-seri.h
+│  │  lua-mongo.c                 // mongo driver
+│  │  lua-multicast.c             // multicast core
+│  │  lua-mysqlaux.c              // mysql driver
+│  │  lua-netpack.c               // 网络封包
+│  │  lua-profile.c               // 性能分析工具？
+│  │  lua-seri.c , lua-seri.h     // 序列化
 │  │  lua-sharedata.c
-│  │  lua-skynet.c
+│  │  lua-skynet.c                // skynet core
 │  │  lua-socket.c
-│  │  lua-stm.c
+│  │  lua-stm.c                   // Software transactional memory
 │  │  
 │  └─sproto
 │          
@@ -151,7 +150,7 @@ Skynet
 ├─service-src        // C 实现的服务
 │      databuffer.h        // 数据缓冲 - 暂只有 service_gate.c 使用
 │      hashid.h            // 哈希结构与算法实现 - 暂只有 service_gate.c 使用
-│      service_gate.c      // 网关服务 - 管理socket
+│      service_gate.c      // 网关服务 - 管理socket (*已经不是核心组件. 建议直接用 socket 库编写你需要的业务.)
 │      service_harbor.c    // 港口服务 - 节点间的通讯
 │      service_logger.c    // 日志服务 - 最简洁的C服务实现
 │      service_snlua.c     // *Lua服务 - 加载lua实现的服务
