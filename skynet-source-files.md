@@ -149,12 +149,12 @@ Skynet
 │      snaxd.lua
 │      
 ├─service-src        // C 实现的服务
-│      databuffer.h
-│      hashid.h
-│      service_gate.c
-│      service_harbor.c
-│      service_logger.c
-│      service_snlua.c
+│      databuffer.h        // 数据缓冲 - 暂只有 service_gate.c 使用
+│      hashid.h            // 哈希结构与算法实现 - 暂只有 service_gate.c 使用
+│      service_gate.c      // 网关服务 - 管理socket
+│      service_harbor.c    // 港口服务 - 节点间的通讯
+│      service_logger.c    // 日志服务 - 最简洁的C服务实现
+│      service_snlua.c     // *Lua服务 - 加载lua实现的服务
 │      
 ├─skynet-src        // Skynet 核心
 │      atomic.h , rwlock.h , spinlock.h     // 同步机制: 原子操作/读写锁/自旋锁
@@ -174,8 +174,8 @@ Skynet
 │      skynet_server.c , skynet_server.h    // 服务的创建，加载，分发...
 │      skynet_socket.c , skynet_socket.h    // socket API
 │      skynet_timer.c , skynet_timer.h      // 定时器
-│      socket_epoll.h , socket_kqueue.h     // for linux and BSD
-│      socket_poll.h , socket_server.c , socket_server.h  // 网络模型
+│      (socket_epoll.h , socket_kqueue.h) --> socket_poll.h    // 定义 linux/BSD API 供 socket_server.c 使用
+│      socket_server.c , socket_server.h    // 异步网络模型, 供 skynet_socket 使用
 │      
 └─test
 ```
