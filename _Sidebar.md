@@ -25,6 +25,7 @@
     - [[javascript]]
 * [[system development]]
     - [[embedded]]
+    - [[CentOS]]
 * [[application development]]
     - [[desktop development]]
         + [[unix like]]
