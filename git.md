@@ -27,9 +27,11 @@ https://git-scm.com/
   windows only  
   如果用惯了 tortoiseSVN，那就试这个吧  
  
-## 玩转~~基佬~~Git社区
+## 玩转~~基佬Hub~~GitHub社区
 - https://guides.github.com/  
   注意看本组织在哪里？  
+- https://hexo.io/    
+  A fast, simple & powerful blog framework, powered by Node.js
 
 ## git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
