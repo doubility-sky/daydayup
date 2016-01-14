@@ -42,7 +42,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - http://www.infoq.com/cn/news/2014/11/intro-actor-model  
   以“邮件往来”方式解释actor交互模型，比喻生动，易理解
 
-### 源码目录结构
+### Source Architecture
 源码文件解析见 [[skynet source files]]
 ```C
 // 未给出注释的，可在本wiki页内搜索相关主题
