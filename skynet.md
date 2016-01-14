@@ -151,7 +151,8 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 # Snax
 - https://github.com/cloudwu/skynet/wiki/Snax
-- 一个方便 skynet 服务实现的简单框架。Snax: Sn-Skynet; ax-???
+- 一个方便 skynet 服务实现的简单框架。  
+  Snax: Sn-Skynet;  ax-???(猜测是auxiliary)
 - http://blog.codingnow.com/2015/11/rpc.html   
   RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*
 
