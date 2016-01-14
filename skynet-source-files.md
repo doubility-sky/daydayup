@@ -1,4 +1,4 @@
-# Skynet Source Files
+# Skynet 源码文件解析
 - 列表于 2016-01-14 以tree命令导出 
 - 不必要的文件没有列出，如：3rd/ 中的具体文件等
 - 这里是 [[skynet]] 页面的 [source struct](https://github.com/doubility-sky/daydayup/wiki/skynet#source-architecture) 章节的扩展阅读
@@ -157,45 +157,25 @@ Skynet
 │      service_snlua.c
 │      
 ├─skynet-src        // Skynet 核心
-│      atomic.h
-│      luashrtbl.h
-│      malloc_hook.c
-│      malloc_hook.h
-│      rwlock.h
+│      atomic.h , rwlock.h , spinlock.h     // 同步机制: 原子操作/读写锁/自旋锁
+│      luashrtbl.h                          // 似对 3rd 中 lua修改版 所用? 
+│      malloc_hook.c , malloc_hook.h , skynet_malloc.h  // 内存分配管理 hooker
 │      skynet.h
-│      skynet_daemon.c
-│      skynet_daemon.h
-│      skynet_env.c
-│      skynet_env.h
-│      skynet_error.c
-│      skynet_handle.c
-│      skynet_handle.h
-│      skynet_harbor.c
-│      skynet_harbor.h
-│      skynet_imp.h
-│      skynet_log.c
-│      skynet_log.h
-│      skynet_main.c
-│      skynet_malloc.h
-│      skynet_module.c
-│      skynet_module.h
-│      skynet_monitor.c
-│      skynet_monitor.h
-│      skynet_mq.c
-│      skynet_mq.h
-│      skynet_server.c
-│      skynet_server.h
-│      skynet_socket.c
-│      skynet_socket.h
-│      skynet_start.c
-│      skynet_timer.c
-│      skynet_timer.h
-│      socket_epoll.h
-│      socket_kqueue.h
-│      socket_poll.h
-│      socket_server.c
-│      socket_server.h
-│      spinlock.h
+│      skynet_daemon.c , skynet_daemon.h    // pid 管理？
+│      skynet_env.c , skynet_env.h          // lua 上下文环境 init/set/get
+│      skynet_error.c                       // 错误处理
+│      skynet_handle.c , skynet_handle.h    // 服务唯一标识管理
+│      skynet_harbor.c , skynet_harbor.h    // 节点之间的通讯
+│      skynet_imp.h , skynet_main.c  -->  skynet_start.c   // 启动 skynet
+│      skynet_log.c , skynet_log.h          // 日志
+│      skynet_module.c , skynet_module.h    // 加载C动态链接库中的服务
+│      skynet_monitor.c , skynet_monitor.h  // 监控
+│      skynet_mq.c , skynet_mq.h            // 消息队列
+│      skynet_server.c , skynet_server.h    // 服务的创建，加载，分发...
+│      skynet_socket.c , skynet_socket.h    // socket API
+│      skynet_timer.c , skynet_timer.h      // 定时器
+│      socket_epoll.h , socket_kqueue.h     // for linux and BSD
+│      socket_poll.h , socket_server.c , socket_server.h  // 网络模型
 │      
 └─test
 ```
