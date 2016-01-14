@@ -145,6 +145,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) 
 - http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
   skynet 服务启动优化 - *手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...*
+- http://blog.codingnow.com/2013/08/exit_skynet.html  
+  如何安全的退出 skynet - *如何安全的退出和业务逻辑相关性很强...*  
 - http://blog.codingnow.com/2013/06/skynet_watchdog.html  
   skynet 下的用户登陆问题 - *今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...*
 - http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
