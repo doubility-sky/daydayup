@@ -43,7 +43,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   以“邮件往来”方式解释actor交互模型，比喻生动，易理解
 
 ### Source Architecture
-源码文件解析见 [[skynet source files]]
+- 以下为 Skynet 源码（目录）架构
+- 源码文件解析见 [[skynet source files]]
 ```C
 // 未给出注释的，可在本wiki页内搜索相关主题
 Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
