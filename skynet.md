@@ -18,7 +18,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 #### 其他
 - [skynet学习相关的资料整理](http://spell.darkzore.com/?p=81)
 - [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc) doc/ 中有两个pdf可以一看 
-- [大杂烩收集](http://skynetclub.github.io/skynet/resource.html)，比较乱
+- [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
 - [hello skynet](http://www.jiandan.ren/tag/skynet/)
 - [skynet 阅读笔记](http://my.oschina.net/u/186074/blog/495002)
 - [社区qq群主的blog](http://peimin.org/?cat=11)
