@@ -160,10 +160,10 @@ Skynet
 │      atomic.h , rwlock.h , spinlock.h     // 同步机制: 原子操作/读写锁/自旋锁
 │      luashrtbl.h                          // 似对 3rd 中 lua修改版 所用? 
 │      malloc_hook.c , malloc_hook.h , skynet_malloc.h  // 内存分配管理 hooker
-│      skynet.h
+│      skynet.h                     // *核心接口，主要实现自skynet_server.c，skynet_error.c，malloc_hook.c，skynet_timer.c 
 │      skynet_daemon.c , skynet_daemon.h    // pid 管理？
 │      skynet_env.c , skynet_env.h          // lua 上下文环境 init/set/get
-│      skynet_error.c                       // 错误处理
+│      skynet_error.c                       // 错误处理实现，由 skynet.h 导出API
 │      skynet_handle.c , skynet_handle.h    // 服务唯一标识管理
 │      skynet_harbor.c , skynet_harbor.h    // 节点之间的通讯
 │      skynet_imp.h , skynet_main.c  -->  skynet_start.c   // 启动 skynet
