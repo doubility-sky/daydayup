@@ -61,7 +61,7 @@
     - [[git]]
     - [[editor]]
         - [atom](wiki/atom-editor "GitHub 出品")
-    - [[UI design]]
+    - [[designer]]
 * [[cheat sheet]]
 * [[essay]]
 * [[others]]
