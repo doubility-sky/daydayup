@@ -171,7 +171,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 **综上**：似乎这么一看，snax就拿来看看学习好了，不用太深究。
 
-# Run Skynet
+# 构建
 - https://github.com/cloudwu/skynet/wiki/Build
 - https://github.com/dpull/skynet-mingw  
   windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
@@ -199,3 +199,8 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   skynet 下的用户登陆问题 - *今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...*
 - http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
   并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
+
+### Project
+- [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
+
+
