@@ -1,8 +1,8 @@
 
 # Search
-- 将以下内容放入Google的搜索框内并回车:   
+- 指定url内查找相关信息 - 将以下内容放入Google的搜索框内并回车:   
     ```
-    site:https://github.com/doubility-sky/daydayup/wiki Search
+    site:https://github.com/doubility-sky/daydayup/wiki 搜索
     ```
 
 # Linux
