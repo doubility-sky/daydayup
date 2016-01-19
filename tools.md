@@ -1,6 +1,9 @@
 
 # Search
-- 将 `site:https://github.com/doubility-sky/daydayup/wiki 搜索` 放入Google的搜索框内并回车。
+- 将以下内容放入Google的搜索框内并回车: 
+    ```
+    site:https://github.com/doubility-sky/daydayup/wiki Search
+    ```
 
 # Linux
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
