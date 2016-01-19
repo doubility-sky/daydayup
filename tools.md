@@ -1,6 +1,7 @@
 
 # Search
 - 将 `site:https://github.com/doubility-sky/daydayup/wiki 搜索` 放入Google的搜索框内并回车。
+
 # Linux
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 
