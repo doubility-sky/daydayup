@@ -1,6 +1,6 @@
 
 # Search
-- 将以下内容放入Google的搜索框内并回车: 
+- 将以下内容放入Google的搜索框内并回车:   
     ```
     site:https://github.com/doubility-sky/daydayup/wiki Search
     ```
