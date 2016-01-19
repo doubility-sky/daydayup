@@ -54,6 +54,7 @@
         - [[git]]
 * [[database]]
     - [[SQL]]
+        - [[mysql]]
     - [[NoSQL]]
         - [[mongodb]]
         - [[redis]]
