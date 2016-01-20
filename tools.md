@@ -16,8 +16,9 @@
 - 贝尔实验室AT&T出品
 - 成品质量奇佳，超高端
 - C++ boost 库都有API支持
-- 有独立语言支持，入门不易
-###### doc
+- 有独立语言DOT支持，入门不易
+
+###### 入门指南
 - [使用 Graphviz 生成自动化系统图](http://www.ibm.com/developerworks/cn/aix/library/au-aix-graphviz/)
 
 #### [draw.io](https://www.draw.io/)
