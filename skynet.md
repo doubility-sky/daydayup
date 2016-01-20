@@ -90,6 +90,10 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 #### 扩展
 - 如需自主逻辑，可用 Skynet 系统提供的 timeout 消息，定期触发。
 
+#### 其他外部文章
+- [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120)
+- [skynet服务的本质与缺陷](http://blog.csdn.net/mycwq/article/details/47379277)
+
 # [Lua](http://cloudwu.github.io/lua53doc/)
 - https://github.com/cloudwu/skynet/wiki/LuaAPI
 - 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
