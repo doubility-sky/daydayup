@@ -16,6 +16,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
   “云风：基于 Actor 模式的开源框架” ppt
 
 #### 其他
+- [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
 - [skynet学习相关的资料整理](http://spell.darkzore.com/?p=81)
 - [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc) doc/ 中有两个pdf可以一看 
 - [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
@@ -202,5 +203,4 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 ### Project
 - [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
-
 
