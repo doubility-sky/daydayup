@@ -9,6 +9,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - http://blog.codingnow.com/eo/skynet/   
   **云风的博客skynet标签**，第一作者描述下的发展历史，信息量大。  
   倒序阅读，一窥详尽发展。  
+- 邮件列表：[skynet-users](https://groups.google.com/forum/#!forum/skynet-users)
 - http://gad.qq.com/content/coursedetail?id=467  
   腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”    
   视频开头所提到的 [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)  
