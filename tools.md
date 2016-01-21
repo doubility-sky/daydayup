@@ -8,8 +8,17 @@
 # Linux
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 
-# 统计工具
+# 代码相关
+### 格式化
+- [Artistic Style](http://astyle.sourceforge.net/)   
+  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:
+```
+AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-classes --attach-inlines --indent-switches --indent-col1-comments --pad-oper --pad-header --unpad-paren --align-pointer=type --fill-empty-lines --add-brackets --recursive --suffix=none *.c *.cpp *.h *.hpp
+```
+
+### 行数统计
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
+
 
 # 绘图工具
 ### [Graphviz](http://www.graphviz.org/) 
