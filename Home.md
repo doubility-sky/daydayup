@@ -49,13 +49,16 @@ print("Hello World!") # 我是python，我高亮！
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
 ####### [Hanlei Qin](https://github.com/qinhanlei)
 - [[home]] - 完成雏形
-- [[golang]] - 概念整理，资料链接
-- [[lua]] - 入门指南等
+- [[programming langauge]] 
+    - [[c]] - 添加一些 project
+    - [[golang]] - 概念整理，资料链接
+    - [[lua]] - 入门指南等
 - [[iOS]] - 学习链接
 - [[android]] - 学习链接
 - [[unity3d]] - 视频教程
 - [[game server]] - 旧文整理
-- [[skynet]] - 资料链接；概念梳理等
+    - [[skynet]] - 资料链接；概念梳理等
+- [[program library]] - 添加I/O部分
 - [[tools]] - [[editor]]部分，[[atom editor]] 插件推荐
 - [[cheat sheet]] - 添加秘笈
 
