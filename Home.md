@@ -1,4 +1,4 @@
-# Day Day Up !
+# [Day Day Up !](http://doubility-sky.github.io/daydayup/)
 ![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.gif "前进吧骚年！伟大的领袖看好你呦！")
 >代表~~逗比~~人民欢迎你！还你一片妹有~~雾霾~~的天空。
 
@@ -7,6 +7,7 @@
 - 大部分背景为（始于但不限于）游戏开发
 - 积累，交流，进步，自由
 - 感谢郭嘉
+- 这里是[项目主页](http://doubility-sky.github.io/daydayup/)，这里是所在的[git repo](https://github.com/doubility-sky/daydayup/tree/gh-pages)
 
 ## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
 - wiki撰写页面_也_有`markdown`相关语法参考
