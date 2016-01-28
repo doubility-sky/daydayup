@@ -7,3 +7,6 @@
 ## 速~~成~~览手册
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
 
+## 学以致用
+- https://github.com/karan/Projects
+- http://blog.jobbole.com/49762/
