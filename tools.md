@@ -7,6 +7,7 @@
 
 # Linux
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
+- [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 
 # 代码相关
 ### 格式化
