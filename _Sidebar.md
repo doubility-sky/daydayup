@@ -62,7 +62,7 @@
 * [[tools]]
     - [[git]]
     - [[editor]]
-        - [atom](wiki/atom-editor "GitHub 出品")
+        - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
     - [[designer]]
 * [[cheat sheet]]
 * [[essay]]
