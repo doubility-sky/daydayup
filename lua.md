@@ -13,9 +13,7 @@ http://www.lua.org/
 - http://lua-users.org/wiki/LuaStyleGuide
 
 # Source Code Study
-loading...  here you are.
-
-no problem
+- [Loading Lua5.3源码学习](http://sunhantao.github.io/2016/02/05/Lua5.3%E6%BA%90%E7%A0%81%E5%AD%A6%E4%B9%A0/)
 
 
 
