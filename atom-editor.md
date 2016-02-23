@@ -5,6 +5,12 @@ https://atom.io/
 - **Ctrl/Cmd + Shift + P**  打开命令搜索面板。  
   搜索你想要的命令，支持模糊查找。  
   NOTE: 感觉只记这一个快捷键就够了，用得多了其他快捷键就自然的记住了。  
+- **Ctrl/Cmd + P/T**  
+  搜索相关文件。  
+- **Ctrl/Cmd + R**  
+  在当前文件下搜索符号。  
+- **Ctrl/Cmd + Shift + R**  
+  全局搜索符号。
 
 ## Package Recommend 插件推荐
 ### 必备
