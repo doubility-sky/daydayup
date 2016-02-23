@@ -22,6 +22,8 @@ https://atom.io/
   高亮选中的相关符号
 - **highlight-line**  
   (更)高亮当前行
+- **windows-carriage-return-remover**
+  呵呵，一旦遇上此类问题，WTF。
 
 ### 可选 
 - **activate-power-mode**  
