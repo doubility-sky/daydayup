@@ -9,7 +9,8 @@ Quick-Cocos2dx是Cocos2dx-lua的增强版，封装了部分API更易于lua的开
 - [Quick资料总汇：介绍、教程](http://www.cocoachina.com/bbs/read.php?tid-331250.html)
 
 ### quick心得
-- 所有导出的C＋＋到lua的API路径：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/*.cpp
+- 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
+- TextField设置文本排列时，要靠设置锚点实现，用setTextHorizontalAlignment无效。靠左排列＝setAnchorPoint(0, 0.5)
 
 # Cocos Creator
 - [官方教程](http://mp.weixin.qq.com/s?__biz=MjM5ODAxNTM2NA==&mid=409633776&idx=1&sn=926c49761ba2aa0368f21bd34ad3d9d3#rd)
