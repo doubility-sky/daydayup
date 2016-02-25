@@ -25,7 +25,11 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
 - [skynet 阅读笔记](http://my.oschina.net/u/186074/blog/495002)
 - [社区qq群主的blog](http://peimin.org/?cat=11)
+- [awesome-skynet](https://github.com/m2q1n9/awesome-skynet)
 
+#### Projects
+- [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
+- [quick](https://github.com/charleeli/quick)
 
 # 概览
 ### 设计理念
@@ -208,5 +212,3 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
   并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
 
-### Project
-- [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
