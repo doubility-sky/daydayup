@@ -1,3 +1,6 @@
+# 约定
+- [控件缩写大全](http://blog.csdn.net/lllkey/article/details/7363609)
+
 # Cocos2dx-lua
 - [mac下的开发环境搭建](http://sunhantao.github.io/2016/02/13/Mac%E4%B8%8B%E7%BC%96%E7%A0%81%E8%B0%83%E8%AF%95Cocos2dx-lua%E7%9A%84%E5%B7%A5%E5%85%B7/)
 
