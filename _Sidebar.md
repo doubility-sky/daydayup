@@ -43,6 +43,7 @@
         - [[ejoy2d]]
         - [[cocos2dx]]
         - [[gameplay3d]]
+        - [[urho3d]]
         - [[unity3d]]
         - [[unreal]]
     - [[game server]]
