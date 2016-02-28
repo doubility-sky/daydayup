@@ -26,6 +26,7 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 - [skynet 阅读笔记](http://my.oschina.net/u/186074/blog/495002)
 - [社区qq群主的blog](http://peimin.org/?cat=11)
 - [awesome-skynet](https://github.com/m2q1n9/awesome-skynet)
+- [skynet club](http://skynetdoc.com/) 《skynet入门实践》
 
 #### Projects
 - [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
