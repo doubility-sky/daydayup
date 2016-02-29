@@ -15,6 +15,7 @@ http://www.lua.org/
 # Source Code Study
 - [Lua5.3源码浅读](http://sunhantao.github.io/2016/02/05/Lua5.3%E6%BA%90%E7%A0%81%E6%B5%85%E8%AF%BB/)
 
-
+# 工具
+- [一个 Lua 内存泄露检查工具](http://blog.codingnow.com/2012/12/lua_snapshot.html)
 
 
