@@ -8,6 +8,7 @@ Quick-Cocos2dx是Cocos2dx-lua的增强版，封装了部分API更易于lua的开
 - [官方网站](http://www.tairan.com/)
 - [Quick资料总汇：介绍、教程](http://www.cocoachina.com/bbs/read.php?tid-331250.html)
 - [pbc 集成到quick-cocos2dx](http://www.cnblogs.com/suncoolcat/p/3297313.html)
+- [Quick和Luajit使用注意](http://tairan.com/archives/10561/)
 
 ### quick心得(cocos v3.10, quick v3.6.1)
 - 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
