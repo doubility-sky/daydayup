@@ -34,8 +34,8 @@ https://atom.io/
 ### 可选 
 - **activate-power-mode**  
   仅是酷炫
-- **atom-terminal**  
-  快捷打开console
+- **terminal-plus**  
+  目前最强大的terminal，没有之一
 - **file-icons**  
   依文件后缀名，添加目录树及标签中文件的图标
 - **minimap**  
