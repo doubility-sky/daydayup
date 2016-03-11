@@ -16,6 +16,8 @@
 ```
 AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-classes --attach-inlines --indent-switches --indent-col1-comments --pad-oper --pad-header --unpad-paren --align-pointer=type --fill-empty-lines --add-brackets --recursive --suffix=none *.c *.cpp *.h *.hpp
 ```
+- [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
+  [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
 
 ### 行数统计
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
