@@ -170,7 +170,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
       examples/watchdog.lua 是一个可以参考的例子，它启动了一个 server/gate.lua 服务，并将处理外部连接的消息转发处理。   
       **注**: 这个模板不可以和 Socket 库一起使用。因为这个模板接管了 socket 类的消息。
 - [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 如果你需要一个网关帮你接入大量连接并转发它们到不同的地方处理。
-    - lualib/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考。
+    - service/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考。
     - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 。
 
 **综上**：所有gate实现可以拿来参考，还是用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能吧。
