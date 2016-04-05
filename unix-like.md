@@ -16,4 +16,4 @@
 - [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
 
 ## 其他
-- 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。在修改它可执行：chmode a+x /etc/rc.d/rc.local
+- 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。在修改它可执行：chmod a+x /etc/rc.d/rc.local
