@@ -8,6 +8,7 @@
 - 添加root权限：usermod -g root username
 
 ## 安装软件
+- [Centos 7图形化与安装中文支持与修改时区方法](https://www.wanghailin.cn/centos-7-install-desktop-timezone/) 注：其中安装中文语言包的命令应为 yum install kde-l10n-Chinese
 - 安装FTP：[vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/) 注：Step2中备份不要用mv，用cp
 - 安装mysql：[mysql](http://www.mamicode.com/info-detail-503994.html)
 
