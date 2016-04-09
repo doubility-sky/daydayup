@@ -8,6 +8,7 @@ https://git-scm.com/
 
 ### 换行符 CRLF 问题
 - [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
+- [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)
 
 ## Git 
 - https://git-scm.com/downloads  
