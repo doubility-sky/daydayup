@@ -7,8 +7,11 @@ https://git-scm.com/
 - 中文在这里 https://git-scm.com/book/zh
 
 ### 换行符 CRLF 问题
-- [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
-- [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)
+- **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
+- **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
+  - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
+  - 设置: `git config --global core.safecrlf true`
+  - 特别需求添加 `.gitattribute` 去约束
 
 ## Git 
 - https://git-scm.com/downloads  
