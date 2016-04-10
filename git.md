@@ -11,7 +11,7 @@ https://git-scm.com/
 - **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
   - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
   - 设置: `git config --global core.safecrlf true`
-  - 特别需求添加 `.gitattribute` 去约束
+  - 特别需求添加 `.gitattributes` 去约束
 
 ## Git 
 - https://git-scm.com/downloads  
