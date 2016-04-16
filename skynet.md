@@ -114,10 +114,13 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 # 集群 
 - https://github.com/cloudwu/skynet/wiki/Cluster
-- http://blog.codingnow.com/2014/06/skynet_cluster.html
+- [skynet 的集群方案](http://blog.codingnow.com/2014/06/skynet_cluster.html)
 - 如果你仅仅是单台物理机的计算能力不足，那么最优的策略是选用更多核心的机器。
 - 在同一进程内，skynet 可以保持最高的并行能力，充分利用物理机的多核心，远比增加物理机性价比高得多。
 - 当单台机器的处理能力达到极限后，可以考虑通过内置的 master/slave 机制来扩展。
+- master/slave为[旧集群方案](http://blog.codingnow.com/2012/08/skynet_harbor_rpc.html)，**现推荐用**[Cluster](http://blog.codingnow.com/2014/06/skynet_cluster.html) 
+- [重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)
+    + 摘:*此外，对于松散的集群结构，我推荐使用 skynet 的单结点模式，在上层用 tcp 连接互连，并只使用简单的 rpc 协议。在目前的 skynet 版本中，有封装好的 cluster 模块 可供使用。*
 
 ### Master/Slave 
 - 对单台物理机计算能力不足情况下的补充
@@ -125,15 +128,15 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
     1. 这就好比你一台物理机上如果插了多块 CPU ，任意一个损坏都会导致整台机器不能正常工作一样。
     2. 不要把这个模式用于跨机房的组网，所有 slave 节点都应该在同一局域网内。
 
-##### 节点
+###### node
 - 每个 skynet 节点有不同的 id 。  
 - 允许 255 个 skynet 节点部署在不同的机器上协作
 - 每个节点都是一个 slave
 - 选某个slave配置standalone来启动一个cmaster 服务，该节点同时为master
 - master 节点用于协调 slave 组网
 
-##### harbor
-- http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html
+###### harbor
+- [重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)
 - 通讯由一个独立的 harbor 服务来完成  
 - harbor id 用 handle 高8位来标记
 - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
@@ -142,6 +145,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - 多组 Master/Slave 网络。
 - 部署多组 master/slave 网络，然后再用 cluster 将它们联系起来。
 - 比较简单的结构是，每个集群中每个节点都配置为单节点模式（将 harbor id 设置为 0）。
+    + 注：云风在[重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)一文中有推荐。
 
 # 通讯
 - http://blog.codingnow.com/2015/08/skynet_cluster_rpc_limit.html  
