@@ -17,3 +17,4 @@
 
 ## 其他
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。在修改它可执行：chmod a+x /etc/rc.d/rc.local
+- [firewall防火墙教程](https://blog.linuxeye.com/406.html)
