@@ -13,7 +13,7 @@ Quick-Cocos2dx是Cocos2dx-lua的增强版，封装了部分API更易于lua的开
 ```
 stack->executeString("require 'src.main'"); 
 ```
-- [Quick使用webview](http://my.oschina.net/u/1582495/blog/465695) 其他要导出的接口类似，操作过程中需要依赖的python组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
+- [Quick使用webview](http://my.oschina.net/u/1582495/blog/465695) （注：目标目录是tools/tolua） 其他要导出的接口类似，操作过程中需要依赖的python组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
 
 ### quick心得(cocos v3.10, quick v3.6.1)
 - 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
