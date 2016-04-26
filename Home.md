@@ -47,6 +47,12 @@ print("Hello World!") # 我是python，我高亮！
     3. 描述清楚疑问，贴上相关链接
     4. 并@页面相关人员 （详见下方贡献列表） 或本组织全体人员。
 
+## 内容检索
+- 指定url内查找相关信息 - 将以下内容放入Google的搜索框内并回车:
+`site:https://github.com/doubility-sky/daydayup/wiki 关键字`
+
+以上方法，适用于检索任意网站，及大部分搜索引擎。善用搜索！
+
 ## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
 ####### [Hanlei Qin](https://github.com/qinhanlei)
 - [[home]] - 完成雏形
