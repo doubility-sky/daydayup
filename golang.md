@@ -45,3 +45,15 @@ http://golang.org/
 
 ## 其他
 - 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。
+- 交叉编译go目标代码举例：
+```
+> CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/main src/main/main.go
+```
+其中参数可选：
+```
+OS ARCH OS version
+linux 386 / amd64 / arm >= Linux 2.6
+darwin 386 / amd64 OS X
+freebsd 386 / amd64 >= FreeBSD 7
+windows 386 / amd64 >= Windows 2000
+```
