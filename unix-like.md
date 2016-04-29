@@ -13,6 +13,7 @@
 [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)
 [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)
 - 安装mysql：[mysql](http://www.mamicode.com/info-detail-503994.html)
+[打开mysql外网访问权限](http://www.cnblogs.com/ycsfwhh/archive/2012/08/07/2626597.html)
 
 ## 安装skynet相关问题
 - [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
