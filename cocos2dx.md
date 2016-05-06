@@ -14,13 +14,21 @@ Quick-Cocos2dx是Cocos2dx-lua的增强版，封装了部分API更易于lua的开
 stack->executeString("require 'src.main'"); 
 ```
 - [Quick使用webview](http://my.oschina.net/u/1582495/blog/465695) （注：目标目录是tools/tolua） 其他要导出的接口类似，操作过程中需要依赖的python组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
-- [Quick在iphone5s以上的ios64位下黑屏问题](http://www.cnblogs.com/yans/p/yans.html)
 
 ### quick心得(cocos v3.10, quick v3.6.1)
 - 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
 - TextField设置文本排列时，要靠设置锚点实现，用setTextHorizontalAlignment无效。靠左排列＝setAnchorPoint(0, 0.5)
 - cocos studio中的AtlasLabel无法使用，用代码创建LabelAtlas代替。
 - cocos studio中的BitmapLabel无法使用，暂未找到解决办法。
+- [Quick在iphone5s以上的ios64位下黑屏问题](http://www.cnblogs.com/yans/p/yans.html)
+- quick的音效有时候播放不出问题：在第一个界面触发一下，原因未知：
+```
+    audio.setSoundsVolume(0.0)
+    audio.playSound("res/Sound/HkFiveCard/SEND_CARD.wav")
+    scheduler.performWithDelayGlobal(function ()
+        audio.setSoundsVolume(1)
+    end, 0.1)
+```
 
 # Cocos Creator
 - [官方教程](http://mp.weixin.qq.com/s?__biz=MjM5ODAxNTM2NA==&mid=409633776&idx=1&sn=926c49761ba2aa0368f21bd34ad3d9d3#rd)
