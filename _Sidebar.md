@@ -8,6 +8,7 @@
     - [[networking]]
     - [[computer organization]]
     - [[computer graphics]]
+    - [[machine learning]]
 * [[programming langauge]]
     - [[c]]
     - [c++](wiki/c-plus-plus)
