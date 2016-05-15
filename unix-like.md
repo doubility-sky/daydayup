@@ -22,3 +22,4 @@
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。在修改它可执行：chmod a+x /etc/rc.d/rc.local
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - ssh免密码登录：http://chenlb.iteye.com/blog/211809
+- 定时任务crontab：http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html
