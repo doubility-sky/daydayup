@@ -39,5 +39,8 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 ```
 - 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
 
+# 参数
+- [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
+
 # 性能优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
