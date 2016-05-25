@@ -1,18 +1,16 @@
 https://git-scm.com/
 
 
-# How to learn
-- 最佳文档都在这里了 https://git-scm.com/doc
-- 基本这本书就够了https://git-scm.com/book/en/v2
-- 中文在这里 https://git-scm.com/book/zh
-- [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
+## How to learn
+### 官方文档 
+- https://git-scm.com/doc
+- [Pro Git book V2](https://git-scm.com/book/en/v2)
+- [Pro Git book 中文版](https://git-scm.com/book/zh)
 
-### 换行符 CRLF 问题
-- **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
-- **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
-  - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
-  - 设置: `git config --global core.safecrlf true`
-  - 特别需求添加 `.gitattributes` 去约束
+### 其他教程
+- [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
+- [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+- [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 
 ## Git 
 - https://git-scm.com/downloads  
@@ -42,3 +40,11 @@ https://git-scm.com/
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
 
+
+## FAQ
+#### 换行符 CRLF 问题
+- **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
+- **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
+  - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
+  - 设置: `git config --global core.safecrlf true`
+  - 特别需求添加 `.gitattributes` 去约束
