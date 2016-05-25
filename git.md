@@ -5,6 +5,7 @@ https://git-scm.com/
 - 最佳文档都在这里了 https://git-scm.com/doc
 - 基本这本书就够了https://git-scm.com/book/en/v2
 - 中文在这里 https://git-scm.com/book/zh
+- [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 
 ### 换行符 CRLF 问题
 - **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
