@@ -44,3 +44,15 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 
 # 性能优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
+
+
+# FAQ
+- [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
+```
+sudo vi /etc/mysql/my.cnf
+bind-address = 127.0.0.1
+service mysql restart
+```
+  
+
+
