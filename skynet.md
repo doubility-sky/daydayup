@@ -217,3 +217,5 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
   并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
 
+# FAQ
+- [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
