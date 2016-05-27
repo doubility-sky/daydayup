@@ -30,6 +30,7 @@ firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" sourc
 firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
 #取消rule
 firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
+```
 
 ## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
