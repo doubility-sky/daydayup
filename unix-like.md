@@ -21,6 +21,15 @@ IdentitiesOnly yes
 ```
 ## Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
+- [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
+- 添加rule例子
+```
+#指定192.168.0.X可以连接8080, 10秒后失效
+firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" port port="8080" protocol="tcp" accept' --timeout=10
+#指定192.168.0.1不可以连接8080
+firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
+#取消rule
+firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
 
 ## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
