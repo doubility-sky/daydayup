@@ -58,6 +58,7 @@ C-a d -> detach，暂时离开当前session，
         并会回到还没进 screen 时的状态，此时在 screen session 里，
         每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
 ```
+-[man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
 ## Shell & Script
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
