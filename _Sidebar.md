@@ -12,7 +12,6 @@
 * [[programming langauge]]
     - [[c]]
     - [[golang]]
-    - [[rust]]
     - [[python]]
     - [[lua]]
     - [[html5]]
