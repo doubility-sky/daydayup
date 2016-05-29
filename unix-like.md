@@ -14,8 +14,8 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 修改本地文件 `~/.ssh/config` (没有则用命令 touch 创建)  
 按如下格式添加内容 
 ```
-Host rjn
-HostName 114.55.26.144
+Host xxx
+HostName 123.4.5.6
 User root
 IdentitiesOnly yes
 ```
