@@ -51,6 +51,4 @@
         - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
     - [[designer]]
 * [[cheat sheet]]
-* [[essay]]
-* [[others]]
 * [[test]]
