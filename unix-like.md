@@ -62,7 +62,7 @@ C-a d -> detach，暂时离开当前session，
 
 ## Shell & Script
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
-  在修改它可执行：chmod a+x /etc/rc.d/rc.local 
+  再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 
 ## GUI
