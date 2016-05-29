@@ -1,5 +1,5 @@
 # Contents
-移除了大量纯空白页  
+本目录移除了大量纯空白项  
 添加子项先上方Pages或父项中找
 * [[Home]]
 * [[computer science]]
