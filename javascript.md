@@ -4,6 +4,6 @@
 - [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
 
 # 实现 
-- [[nodejs]]
+- [[node.js]]
 
 
