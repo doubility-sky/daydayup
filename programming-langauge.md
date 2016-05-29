@@ -6,6 +6,8 @@
 - [[erlang]]
 - [[lisp family]]
 - [[haskell]]
+- [[rust]]
+
 
 # Principle
 todo...
