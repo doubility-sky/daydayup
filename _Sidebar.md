@@ -1,6 +1,6 @@
 # Contents
 移除了大量纯空白页  
-如添加子项，先从父项TODO中找  
+如添加子项，上方Pages或父项中找
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
@@ -18,8 +18,6 @@
     - [[lua]]
     - [[html5]]
     - [[javascript]]
-* [[system development]]
-    - [[embedded]]
 * [[application development]]
     - [[desktop development]]
         + [[unix like]]
@@ -31,7 +29,6 @@
         - [[web server]]
 * [[game development]]
     - [[game client]]
-        - [[computer graphics]]
         - [[ejoy2d]]
         - [[cocos2dx]]
         - [[unity3d]]
