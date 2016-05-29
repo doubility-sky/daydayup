@@ -1,5 +1,8 @@
 # 开源框架
-主要见侧边栏 game server 子项，此处为不定期补充
+主要见侧边栏 game server 子项，此处为其他补充
+- [[smart fox]]
+- [[gonet]]
+- [[pomelo]]
 - [firefly](http://firefly.9miao.com/)
 
 # 游戏服务器开发 - 记录/总结
