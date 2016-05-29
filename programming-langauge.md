@@ -6,3 +6,6 @@
 - [[erlang]]
 - [[lisp family]]
 - [[haskell]]
+
+# Principle
+todo...
