@@ -1,16 +1,13 @@
 # Contents
 移除了大量纯空白页  
-如添加子项，上方Pages或父项中找
+添加子项先上方Pages或父项中找
 * [[Home]]
 * [[computer science]]
     - [[data structure]]
     - [[algorithm]]
-    - [[operating system]]
     - [[compiler]]
-    - [[networking]]
     - [[computer organization]]
     - [[computer graphics]]
-    - [[machine learning]]
 * [[programming langauge]]
     - [[c]]
     - [[golang]]
