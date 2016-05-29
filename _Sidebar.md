@@ -11,7 +11,7 @@
     - [[machine learning]]
 * [[programming langauge]]
     - [[c]]
-    - [c++](wiki/c-plus-plus)
+    - [c++](wiki/C-plus-plus)
     - [[java]]
     - [[c#]]
     - [[golang]]
