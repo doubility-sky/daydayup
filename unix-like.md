@@ -19,6 +19,8 @@ HostName 123.4.5.6
 User root
 IdentitiesOnly yes
 ```
+- [linux管理多个ssh公钥密钥](http://rongmayisheng.com/post/linux%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AAssh%E5%85%AC%E9%92%A5%E5%AF%86%E9%92%A5)
+
 ## Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
