@@ -4,7 +4,7 @@
 - [[c#]]
 - [[ruby]]
 - [[erlang]]
-- [[lisp family]]
+- [[lisp]]
 - [[haskell]]
 - [[rust]]
 
