@@ -22,7 +22,6 @@
 * [[application development]]
     - [[desktop development]]
         + [[unix like]]
-        + [[windows]]
     + [[mobile development]]
         - [[iOS]]
         - [[android]]
