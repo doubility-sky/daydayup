@@ -48,6 +48,7 @@ https://git-scm.com/
   - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
   - 设置: `git config --global core.safecrlf true`
   - 特别需求添加 `.gitattributes` 去约束
+
 #### push卡住的问题
 - **Q** push时卡在write objects.后续报fatal:The remote end hung up unexpectedly
 - **A** 问题原因是http.postBuffer默认上限为1M所致。将上限设为500M： 
