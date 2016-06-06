@@ -7,6 +7,9 @@
 - 添加用户：adduser username
 - 添加root权限：usermod -g root username
 
+## Safe
+- [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
+
 ## SSH
 mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
