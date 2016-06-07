@@ -1,8 +1,3 @@
-
-fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](https://github.com/doubility-sky)   
-~~是否需要将本页wiki内容转移至相关的[wiki页面](https://github.com/doubility-sky/skynet/wiki)？~~   
-算了，暂时还是在这里汇总为主吧。
-
 # 资料汇总
 - https://github.com/cloudwu/skynet/wiki    
   **官方git库wiki**，信息量大，内容详实。
