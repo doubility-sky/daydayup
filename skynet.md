@@ -6,6 +6,8 @@ fork了一份[副本](https://github.com/doubility-sky/skynet)到[本组织](htt
 # 资料汇总
 - https://github.com/cloudwu/skynet/wiki    
   **官方git库wiki**，信息量大，内容详实。
+- [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)  
+  最新 [入门指南](http://blog.codingnow.com/2016/06/skynet_gettingstarted.html) 2016-06-07  
 - http://blog.codingnow.com/eo/skynet/   
   **云风的博客skynet标签**，第一作者描述下的发展历史，信息量大。  
   倒序阅读，一窥详尽发展。  
