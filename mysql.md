@@ -22,11 +22,11 @@ SET PASSWORD = PASSWORD('000000');
 update user set host = '%' where user = 'root';
 ```
 - 修改数据库权限
-  + GRANT privileges ON databasename.tablename TO 'username'@'host'; -- 该用户不能给其他用户授权
-  + GRANT privileges ON databasename.tablename TO 'username'@'host' WITH GRANT OPTION; -- 该用户可以给其他用户授权
+  + GRANT privileges ON databasename.tablename TO 'username'@'host' IDENTIFIED BY 'mypassword'; -- 该用户不能给其他用户授权
+  + GRANT privileges ON databasename.tablename TO 'username'@'host' IDENTIFIED BY 'mypassword' WITH GRANT OPTION; -- 该用户可以给其他用户授权
 ```
-GRANT ALL ON *.* TO 'root'@'%';
-GRANT SELECT,UPDATE,INSERT ON testdb.* TO 'test'@'localhost';
+GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'password';
+GRANT SELECT,UPDATE,INSERT ON testdb.* TO 'test'@'localhost' IDENTIFIED BY 'password';
 ```
 - 刷新生效：
 ```
