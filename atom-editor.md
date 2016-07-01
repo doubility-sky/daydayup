@@ -30,6 +30,8 @@ https://atom.io/
   (更)高亮当前行
 - **windows-carriage-return-remover**  
   呵呵，一旦遇上此类问题，WTF。
+- **convert-to-utf8**
+  中文乱码真是个令人蛋疼的问题
 
 ### 可选 
 - **activate-power-mode**  
