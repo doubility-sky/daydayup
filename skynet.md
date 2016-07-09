@@ -26,6 +26,7 @@
 - [skynet club](http://skynetclub.github.io) 《skynet入门实践》
 
 #### Projects
+- [skynet 的一个简单范例](http://blog.codingnow.com/2016/06/skynet_sample.html)
 - [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
 - [quick](https://github.com/charleeli/quick)
 
