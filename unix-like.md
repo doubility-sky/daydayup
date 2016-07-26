@@ -45,8 +45,7 @@ firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" so
 
 ## MySQL
 - also see [[mysql]]
-- [mysql](http://www.mamicode.com/info-detail-503994.html)  
-- [打开mysql外网访问权限](http://www.cnblogs.com/ycsfwhh/archive/2012/08/07/2626597.html)  
+- [安装mysql](http://www.mamicode.com/info-detail-503994.html)  
 
 ## Screen
 [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
