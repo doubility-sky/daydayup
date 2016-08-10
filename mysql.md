@@ -46,6 +46,9 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 # 性能优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 
+# bin-log
+- [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
+- [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
 
 # FAQ
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
