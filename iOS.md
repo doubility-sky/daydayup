@@ -15,19 +15,4 @@
 - [AppStore证书详解](http://blog.csdn.net/phunxm/article/details/42685597)
 
 ### 其他
-- 协作开发时，team设置为个人账号或none，如果在fix issuse时出现内购错误，可以删除linked库StoreKit.framework、并修改project.pbxproj文件，搜索“TargetAttributes",填写类似下面的例子的内容：
-```
-F293B3BF15EB7BE500256477 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				TargetAttributes = {
-					F293B3C715EB7BE500256477 = {
-						SystemCapabilities = {
-							com.apple.InAppPurchase = {
-								enabled = 0;
-							};
-						};
-					};
-				};
-			};
-```
+- 协作开发时，team设置为个人账号或none，如果在fix issuse时出现内购错误，可以删除linked库StoreKit.framework、并重新fix issue
