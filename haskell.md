@@ -1,1 +1,1 @@
-todo
+- https://github.com/bitemyapp/learnhaskell
