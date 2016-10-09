@@ -7,4 +7,5 @@ https://en.wikipedia.org/wiki/Algorithm
 - [五大常用算法之五：分支限界法](http://www.cnblogs.com/steven_oyj/archive/2010/05/22/1741378.html)
 
 ## Books Recommend
-[算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+- [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+- https://github.com/soulmachine/acm-cheat-sheet
