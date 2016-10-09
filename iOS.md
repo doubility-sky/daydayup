@@ -6,6 +6,7 @@
 - [IOS 绘图机制](http://www.cocoachina.com/industry/20140115/7703.html)
 
 ### Swift 
+- https://github.com/ipader/SwiftGuide
 - http://wiki.jikexueyuan.com/project/swift/  
   The Swift Programming Language 中文版
 
