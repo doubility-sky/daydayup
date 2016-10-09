@@ -10,3 +10,6 @@
 ## 学以致用
 - https://github.com/karan/Projects
 - http://blog.jobbole.com/49762/
+
+## Resources
+- https://github.com/justjavac/free-programming-books-zh_CN
