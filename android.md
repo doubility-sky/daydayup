@@ -11,7 +11,10 @@
 # 其他
 - https://github.com/inferjay/AndroidDevTools
 - https://github.com/futurice/android-best-practices
+
+# projects
 - https://github.com/pcqpcq/open-source-android-apps
+- https://github.com/googlesamples/android-topeka
 
 ### 活跃社区
 - https://github.com/android-cn/android-discuss 主要都在issue里，可以订阅
