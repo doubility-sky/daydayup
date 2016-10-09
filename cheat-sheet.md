@@ -13,3 +13,6 @@
 
 ## Resources
 - https://github.com/justjavac/free-programming-books-zh_CN
+
+## Others
+- https://github.com/zhuangbiaowei/learn-with-open-source
