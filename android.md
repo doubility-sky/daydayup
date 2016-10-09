@@ -13,7 +13,8 @@
 - https://github.com/inferjay/AndroidDevTools
 
 ### 活跃社区
-https://github.com/android-cn/android-discuss 主要都在issue里，可以订阅
+- https://github.com/android-cn/android-discuss 主要都在issue里，可以订阅
+- https://github.com/hehonghui/android-tech-frontier
 
 ### 源码在线
 - [grepcode](http://grepcode.com/project/repository.grepcode.com/java/ext/com.google.android/android/)
