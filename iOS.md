@@ -11,7 +11,9 @@
 ### Swift 
 - https://github.com/ipader/SwiftGuide
 - The Swift Programming Language 中文版 http://wiki.jikexueyuan.com/project/swift/  
-  
+
+### Projects
+- https://github.com/dkhamsing/open-source-ios-apps
 
 ### AppStore
 - Xcode中Upload到AppStore时不成功，可以尝试用Application Loader上传，需要先在Xcode的Organizer中导出AppStore的ipa。
