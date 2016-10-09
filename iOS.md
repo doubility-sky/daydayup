@@ -10,7 +10,7 @@
 
 ### Swift 
 - https://github.com/ipader/SwiftGuide
-- The Swift Programming Language 中文版 http://wiki.jikexueyuan.com/project/swift/  
+- https://github.com/numbbbbb/the-swift-programming-language-in-chinese
 
 ### Projects
 - https://github.com/dkhamsing/open-source-ios-apps
