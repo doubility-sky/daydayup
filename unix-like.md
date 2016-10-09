@@ -1,3 +1,6 @@
+# Learn
+- Linux工具快速教程：https://github.com/me115/linuxtools_rst
+
 # 搭建 CentOS 7 服务器环境
 
 ## User
