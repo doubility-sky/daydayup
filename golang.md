@@ -35,7 +35,7 @@ http://golang.org/
 - http://www.golang-book.com/  歪果仁写的，质量未知  
 - https://jan.newmarch.name/go/  歪果仁写的，质量未知  
 - https://github.com/mikespook/Learning-Go-zh-cn 果仁写的，质量未知  
-
+- 《深入解析Go》 - https://github.com/tiancaiamao/go-internals
 
 ## 开源项目
 ### game server
