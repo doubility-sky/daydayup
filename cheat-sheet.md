@@ -12,6 +12,7 @@
 - http://blog.jobbole.com/49762/
 
 ## Resources
+- https://github.com/vhf/free-programming-books
 - https://github.com/justjavac/free-programming-books-zh_CN
 
 ## Others
