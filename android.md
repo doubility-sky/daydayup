@@ -12,6 +12,7 @@
 - https://github.com/futurice/android-best-practices
 
 # projects
+- https://github.com/JStumpp/awesome-android
 - https://github.com/pcqpcq/open-source-android-apps
 - https://github.com/googlesamples/android-topeka
 - https://github.com/Trinea/android-demo
