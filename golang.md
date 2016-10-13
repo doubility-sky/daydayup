@@ -38,6 +38,8 @@ http://golang.org/
 - 《深入解析Go》 - https://github.com/tiancaiamao/go-internals
 
 ## 开源项目
+- https://github.com/avelino/awesome-go
+
 ### game server
 - [[gonet]]
 - [leaf](https://github.com/name5566/leaf)
