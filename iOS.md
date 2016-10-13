@@ -13,6 +13,7 @@
 - https://github.com/numbbbbb/the-swift-programming-language-in-chinese
 
 ### Projects
+- https://github.com/vsouza/awesome-ios
 - https://github.com/dkhamsing/open-source-ios-apps
 
 ### AppStore
