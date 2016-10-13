@@ -16,6 +16,7 @@
 ### [libuv](https://github.com/libuv/libuv)
 - https://en.wikipedia.org/wiki/Libuv
 - [An Introduction to libuv](https://github.com/nikhilm/uvbook)
+- https://github.com/thlorenz/learnuv
 - [libuv 初窥](http://blog.codingnow.com/2012/01/libuv.html)
 
 
