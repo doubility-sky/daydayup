@@ -8,3 +8,6 @@ https://www.python.org
 - [simple http server](https://docs.python.org/2/library/simplehttpserver.html)  
   `python -m SimpleHTTPServer 8000`
 
+
+# Projects
+- https://github.com/vinta/awesome-python
