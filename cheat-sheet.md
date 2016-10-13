@@ -11,9 +11,15 @@
 - https://github.com/karan/Projects
 - http://blog.jobbole.com/49762/
 
-## Resources
+## Resources - 注意：内容过多或引起焦虑
 - https://github.com/vhf/free-programming-books
 - https://github.com/justjavac/free-programming-books-zh_CN
 
+## Awesome - 注意：内容过多或引起焦虑
+- https://github.com/sindresorhus/awesome
+- https://github.com/bayandin/awesome-awesomeness
+
 ## Others
 - https://github.com/zhuangbiaowei/learn-with-open-source
+
+
