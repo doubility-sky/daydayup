@@ -1,4 +1,4 @@
-# 通关秘籍（作弊小抄）
+# ~~作弊小抄~~通关秘籍
 
 ## 大师指导方针
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)  
