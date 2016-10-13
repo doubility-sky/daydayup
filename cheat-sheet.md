@@ -6,6 +6,7 @@
 
 ## 速~~成~~览手册
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
+- https://github.com/gyuho/learn
 
 ## 学以致用
 - https://github.com/karan/Projects
