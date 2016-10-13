@@ -9,3 +9,7 @@ https://en.wikipedia.org/wiki/Algorithm
 ## Books Recommend
 - [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
 - https://github.com/soulmachine/acm-cheat-sheet
+
+
+## Projects
+- https://github.com/tayllan/awesome-algorithms
