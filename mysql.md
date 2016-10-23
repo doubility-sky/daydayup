@@ -26,7 +26,7 @@ update user set host = '%' where user = 'root';
   + GRANT privileges ON databasename.tablename TO 'username'@'host' IDENTIFIED BY 'mypassword' WITH GRANT OPTION; -- 该用户可以给其他用户授权
 ```
 GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'password';
-GRANT SELECT,UPDATE,INSERT ON testdb.* TO 'test'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT,UPDATE,INSERT,DELETE ON testdb.* TO 'test'@'localhost' IDENTIFIED BY 'password';
 ```
 - 刷新生效：
 ```
