@@ -1,4 +1,4 @@
-# **Let's training programming skill with Online Judge !**
+# **Let's training skills with Online-Judges !**
 
 ## [Project Euler](https://projecteuler.net/) 
 ![Euler](https://projecteuler.net/images/euler_portrait.png "Watching you!")
