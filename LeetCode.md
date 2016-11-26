@@ -1,2 +1,0 @@
-# [LeetCode](https://leetcode.com)
-
