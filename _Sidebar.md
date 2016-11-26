@@ -8,6 +8,7 @@
     - [[compiler]]
     - [[computer organization]]
     - [[computer graphics]]
+* [[online judge]]
 * [[programming langauge]]
     - [[c]]
     - [[golang]]
@@ -41,8 +42,6 @@
 * [[project]]
     - [[git]]
     - [[docker]]
-* [[Online Judge]]
-    - [[LeetCode]]
 * [[tools]]
     - [[editor]]
         - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
