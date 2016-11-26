@@ -1,2 +1,2 @@
-# [Project Euler](https://leetcode.com)
+# [LeetCode](https://leetcode.com)
 
