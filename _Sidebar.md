@@ -41,6 +41,9 @@
 * [[project]]
     - [[git]]
     - [[docker]]
+* [[oj]]
+    - [[Project Euler]]
+    - [[LeetCode]]
 * [[tools]]
     - [[editor]]
         - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
