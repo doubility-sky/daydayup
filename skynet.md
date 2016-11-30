@@ -17,7 +17,6 @@
 - [hello skynet](http://www.jiandan.ren/tag/skynet/) 浅显易懂
 - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
 - [skynet/lua](http://blog.csdn.net/cwqcwk1/article/category/5731833) CSDN blog
-- [skynet学习相关的资料整理](http://spell.darkzore.com/?p=81)
 - [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc) doc/ 中有两个pdf可以一看 
 - [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
 - [skynet 阅读笔记](http://my.oschina.net/u/186074/blog/495002)
