@@ -13,6 +13,9 @@
 - http://gad.qq.com/article/detail/5257  
   “云风：基于 Actor 模式的开源框架” ppt
 
+### issue 摘录
+- 开服问题 https://github.com/cloudwu/skynet/issues/560#issuecomment-264356777
+
 #### 其他
 - [hello skynet](http://www.jiandan.ren/tag/skynet/) 浅显易懂
 - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
@@ -213,6 +216,8 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   skynet 下的用户登陆问题 - *今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...*
 - http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
   并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
+
+### issue
 
 # FAQ
 - https://github.com/cloudwu/skynet/wiki/FAQ
