@@ -1,6 +1,8 @@
 # Learn
-- Linux工具快速教程：https://github.com/me115/linuxtools_rst
-- https://github.com/qinjx/30min_guides/blob/master/shell.md
+- [The Linux Command Line](http://billie66.github.io/TLCL/book/zh/)
+- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
+- [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+
 
 # 搭建 CentOS 7 服务器环境
 
