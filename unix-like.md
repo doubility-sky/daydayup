@@ -42,7 +42,13 @@ firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" sourc
 #取消rule
 firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
 ```
-
+- 应急模式，阻断或放开所有网络
+```
+#启动应急模式，阻止所有网络
+firewall-cmd --panic-on
+#解除应急模式
+firewall-cmd --panic-off 
+```
 ## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
