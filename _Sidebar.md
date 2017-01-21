@@ -42,6 +42,7 @@
 * [[project]]
     - [[git]]
     - [[docker]]
+    - [[third part]]
 * [[tools]]
     - [[editor]]
         - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
