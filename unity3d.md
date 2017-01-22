@@ -18,3 +18,10 @@ http://unity3d.com/
 - ulua等方式持续更新
 
 ### 其他热更新方案
+
+# 第三方
+## google play
+- [ Unity3d接入googleplay内购详细说明（一）](http://blog.csdn.net/qq15233635728/article/details/44015225)
+- [ Unity3d接入googleplay内购详细说明（二）](http://blog.csdn.net/qq15233635728/article/details/44016403)
+- [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
+- [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
