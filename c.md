@@ -4,5 +4,7 @@
 
 
 ## Books
-- https://github.com/orangeduck/BuildYourOwnLisp
+- http://akaedu.github.io/book/
 - https://github.com/learning-linux-c-cpp/akabook
+- https://github.com/orangeduck/BuildYourOwnLisp
+
