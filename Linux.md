@@ -1,22 +1,23 @@
-# Learn
+## Learn
 - [The Linux Command Line](http://billie66.github.io/TLCL/book/zh/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 
 
-# 搭建 CentOS 7 服务器环境
+## 搭建服务器环境 
+以下内容 CentOS7 为主，其他 linux 发行版一般也适用
 
-## User
+### User
 - 修改用户密码：
   + 修改当前用户密码：passwd
   + 用root修改某个用户密码：passwd username
 - 添加用户：adduser username
 - 添加root权限：usermod -g root username
 
-## Safe
+### Safe
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 
-## SSH
+### SSH
 mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
@@ -30,7 +31,7 @@ IdentitiesOnly yes
 ```
 - [linux管理多个ssh公钥密钥](http://rongmayisheng.com/post/linux%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AAssh%E5%85%AC%E9%92%A5%E5%AF%86%E9%92%A5)
 
-## Firewall
+### Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - 添加rule例子
@@ -49,17 +50,17 @@ firewall-cmd --panic-on
 #解除应急模式
 firewall-cmd --panic-off 
 ```
-## FTP
+### FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
 - [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
 
-## MySQL
+### MySQL
 - also see [[mysql]]
 - [安装mysql](http://www.mamicode.com/info-detail-503994.html)  
 
-## Screen
+### Screen
 [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
 Frequently Command:
 ```
@@ -77,14 +78,11 @@ C-a d -> detach，暂时离开当前session，
 ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
-## Shell & Script
+### Shell & Script
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
   再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 
-## GUI
+### GUI
 - [Centos 7图形化与安装中文支持与修改时区方法](https://www.wanghailin.cn/centos-7-install-desktop-timezone/)  
   注：其中安装中文语言包的命令应为 yum install kde-l10n-Chinese
-
-## 其他
-- [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
