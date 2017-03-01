@@ -9,7 +9,15 @@
 - 感谢郭嘉
 - 这里是[项目主页](http://doubility-sky.github.io/daydayup/)，这里是所在的[git repo](https://github.com/doubility-sky/daydayup/tree/gh-pages)
 
-## 看这边！[3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
+## Learn Markdown
+- [3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
+- [markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax "四级过了没？") 
+
+```python
+print("Hello World!") # 我是python，我高亮！
+```
+
+## How to contribute
 - wiki撰写页面_也_有`markdown`相关语法参考
 - wiki撰写页面**可**进行 `Preview`
 - 简单的编写/更改，直接在浏览器中进行足矣
@@ -19,10 +27,6 @@
       - ```git@github.com:doubility-sky/daydayup.wiki.git```
   2. 使用 [[atom editor]] 来撰写，支持 Markdown.
   3. 使用 [[git]] push 更改
-
-```python
-print("Hello World!") # 我是python，我高亮！
-```
 
 ## 持续跟进
 - 点击右上角`Watching`按钮。
@@ -53,41 +57,5 @@ print("Hello World!") # 我是python，我高亮！
 
 以上方法，适用于检索任意网站，及大部分搜索引擎。善用搜索！
 
-## 主要（计划/学习/贡献）列表，请大家各自活跃认领~
-####### [Hanlei Qin](https://github.com/qinhanlei)
-- [[home]] - 完成雏形
-- [[programming langauge]] 
-    - [[c]] - 添加一些 project
-    - [[golang]] - 概念整理，资料链接
-    - [[lua]] - 入门指南等
-- [[iOS]] - 学习链接
-- [[android]] - 学习链接
-- [[unity3d]] - 视频教程
-- [[game server]] - 旧文整理
-    - [[skynet]] - 资料链接；概念梳理等
-- [[program library]] - 添加I/O部分
-- [[tools]] - [[editor]]部分，[[atom editor]] 插件推荐
-- [[cheat sheet]] - 添加秘笈
-
-####### [Hantao Sun](https://github.com/sunhantao)
-- [[lua]] - 开始
-- [[iOS]] - 添加学习资料
-- [[android]] - 添加学习资料
-- [[unity3d]] - todo
-- [[golang]] - todo
-- [[html5]] - 添加学习资料
-- [[javascript]] - 添加学习资料
-
-####### [13ice](https://github.com/13ice)
-- [[skynet]]  
-- [[redis]]
-
-####### [qx-coding](https://github.com/qx-coding)
-- [[lua]] - 学习
-
-####### [acmercyj](https://github.com/acmercyj)
-- todo
-
-
-## 文献
-[markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax "四级过了没？")
+## 贡献列表
+clone 本 wiki 的 git 库，查看提交历史
