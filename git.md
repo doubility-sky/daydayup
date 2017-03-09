@@ -56,3 +56,17 @@ https://git-scm.com/
 ```
 git config --global http.postBuffer 524288000
 ```
+
+#### 解决冲突出错
+- `git reset --hard` 无效  
+```
+fatal: Unable to create '/.git/index.lock': File exists.
+If no other git process is currently running, this probably means a
+git process crashed in this repository earlier. Make sure no other git
+process is running and remove the file manually to continue.
+```
+- http://stackoverflow.com/questions/8198966/how-do-i-fix-a-failed-git-commit  
+Removing index.lock file manually from .git directory worked.  
+or From command line:  
+`$ rm -rf .git/index.lock`  
+Note: Make sure that only one index file exist on .git directory
