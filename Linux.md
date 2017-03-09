@@ -34,6 +34,7 @@ IdentitiesOnly yes
 ### Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
+- [firewalld对指定IP开放指定端口的配置](http://blog.csdn.net/Qguanri/article/details/51673845)
 - 添加rule例子
 ```
 #指定192.168.0.X可以连接8080, 10秒后失效
