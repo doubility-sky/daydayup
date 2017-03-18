@@ -15,10 +15,13 @@ http://golang.org/
 
 
 ## 理念与思想
+- https://talks.golang.org/
+
 ### 并发 
 golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌顶之作
 - [Concurrency is not Parallelism](https://talks.golang.org/2012/concurrency.slide)  
 - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide)
+- https://blog.golang.org/concurrency-is-not-parallelism
 
 ### CSP (Communicating sequential processes)  
 - https://en.wikipedia.org/wiki/Communicating_sequential_processes  
