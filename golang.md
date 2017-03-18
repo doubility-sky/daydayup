@@ -1,6 +1,6 @@
 http://golang.org/
 
-## 大神设计者们
+## 设计者们
 - [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)  
   C/Unix作者之一，图灵奖得主
 - [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)  
@@ -15,11 +15,12 @@ http://golang.org/
 
 
 ## 理念与思想
-#### 并发 
-- http://concur.rspace.googlecode.com/hg/talk/concur.html#landing-slide  
-  golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌顶之作  
+### 并发 
+golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌顶之作
+- [Concurrency is not Parallelism](https://talks.golang.org/2012/concurrency.slide)  
+- [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide)
 
-#### CSP (Communicating sequential processes)  
+### CSP (Communicating sequential processes)  
 - https://en.wikipedia.org/wiki/Communicating_sequential_processes  
 - Hoare 快速排序，图灵奖得主  
   http://c2.com/cgi/wiki?CarHoare  
@@ -46,7 +47,9 @@ http://golang.org/
 
 
 ## 其他
-- 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。
+- 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 
+- 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。
+- 但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。
 - 交叉编译go目标代码举例：
 ```
 > CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/main src/main/main.go
