@@ -21,14 +21,14 @@
 mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
-修改本地文件 `~/.ssh/config` (没有则用命令 touch 创建)  
-按如下格式添加内容 
-```
-Host xxx
-HostName 123.4.5.6
-User root
-IdentitiesOnly yes
-```
+  修改本地文件 `~/.ssh/config` (没有则用命令 touch 创建)  
+  按如下格式添加内容 
+  ```
+  Host xxx
+  HostName 123.4.5.6
+  User root
+  IdentitiesOnly yes
+  ```
 - [linux管理多个ssh公钥密钥](http://rongmayisheng.com/post/linux%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AAssh%E5%85%AC%E9%92%A5%E5%AF%86%E9%92%A5)
 
 ### iptables
@@ -39,23 +39,26 @@ IdentitiesOnly yes
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - [firewalld对指定IP开放指定端口的配置](http://blog.csdn.net/Qguanri/article/details/51673845)
 - 添加rule例子
-```
-#指定192.168.0.X可以连接8080, 10秒后失效
-firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" port port="8080" protocol="tcp" accept' --timeout=10
-#指定192.168.0.1不可以连接8080
-firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
-#取消rule
-firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
-#重启防火墙服务，令规则生效
-systemctl restart firewalld.service
-```
+  ```
+  # 指定192.168.0.X可以连接8080, 10秒后失效
+  firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" port port="8080" protocol="tcp" accept' --timeout=10
+
+  # 指定192.168.0.1不可以连接8080
+  firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
+
+  # 取消rule
+  firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
+
+  # 重启防火墙服务，令规则生效
+  systemctl restart firewalld.service
+  ```
 - 应急模式，阻断或放开所有网络
-```
-#启动应急模式，阻止所有网络
-firewall-cmd --panic-on
-#解除应急模式
-firewall-cmd --panic-off 
-```
+  ```
+  #启动应急模式，阻止所有网络
+  firewall-cmd --panic-on
+  #解除应急模式
+  firewall-cmd --panic-off 
+  ```
 ### FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
@@ -65,23 +68,41 @@ firewall-cmd --panic-off
 ### MySQL
 - also see [[mysql]]
 - [安装mysql](http://www.mamicode.com/info-detail-503994.html)  
+  - 下载mysql的repo源   
+    `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
+  - 安装mysql-community-release-el7-5.noarch.rpm包  
+    `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
+  - `$ sudo yum install mysql-server`
+  - `$ sudo chown -R openscanner:openscanner /var/lib/mysql`
+  - 修改密码
+    ```
+    $ mysql -u root
+    mysql > use mysql;
+    mysql > update user set password=password(‘123456‘) where user=‘root‘;
+    mysql > exit;
+    ```
+  - 开放端口  
+    - `$ sudo vim /etc/sysconfig/iptables`
+    - 添加以下内容
+      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
+    - `$ sudo service iptables restart`
 
 ### Screen
-[linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
-Frequently Command:
-```
-screen -ls             列出当前所有的session
-       -r <作业名称> 　  恢复离线的screen作业。
-```
-In Session Command:
-```
-C-a n -> Next，切换到下一个 window 
-C-a p -> Previous，切换到前一个 window 
-C-a d -> detach，暂时离开当前session，
-        将目前的 screen session (可能含有多个 windows) 丢到后台执行，
-        并会回到还没进 screen 时的状态，此时在 screen session 里，
-        每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
-```
+- [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
+- Frequently Command:
+  ```
+  screen -ls             列出当前所有的session
+         -r <作业名称> 　  恢复离线的screen作业。
+  ```
+- In Session Command:
+  ```
+  C-a n -> Next，切换到下一个 window 
+  C-a p -> Previous，切换到前一个 window 
+  C-a d -> detach，暂时离开当前session，
+          将目前的 screen session (可能含有多个 windows) 丢到后台执行，
+          并会回到还没进 screen 时的状态，此时在 screen session 里，
+          每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
+  ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
 ### Shell & Script
