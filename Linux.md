@@ -81,9 +81,9 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
     mysql > update user set password=password(‘123456‘) where user=‘root‘;
     mysql > exit;
     ```
-  - 开放端口  
+  - 开放端口，使用 firewall-cmd 或如下  
     - `$ sudo vim /etc/sysconfig/iptables`
-    - 添加以下内容
+    - 添加以下内容  
       `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
     - `$ sudo service iptables restart`
 
