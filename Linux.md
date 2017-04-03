@@ -65,8 +65,7 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
 - [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
 
-### MySQL
-- also see [[mysql]]
+### [[MySQL]]
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
   - 下载mysql的repo源   
     `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
