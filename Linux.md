@@ -37,6 +37,7 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 ### Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
+- [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
 - [firewalld对指定IP开放指定端口的配置](http://blog.csdn.net/Qguanri/article/details/51673845)
 - 添加rule例子
   ```
