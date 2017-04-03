@@ -67,13 +67,13 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 
 ### MySQL
 - also see [[mysql]]
-- [安装mysql](http://www.mamicode.com/info-detail-503994.html)  
+- [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
   - 下载mysql的repo源   
     `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
   - 安装mysql-community-release-el7-5.noarch.rpm包  
     `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
   - `$ sudo yum install mysql-server`
-  - `$ sudo chown -R openscanner:openscanner /var/lib/mysql`
+  - `$ service mysqld restart`
   - 修改密码
     ```
     $ mysql -u root
