@@ -77,7 +77,7 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
     ```
     $ mysql -u root
     mysql > use mysql;
-    mysql > update user set password=password(‘123456‘) where user=‘root‘;
+    mysql > update user set password=password('123456') where user='root';
     mysql > exit;
     ```
   - 开放端口，使用 firewall-cmd 或如下  
