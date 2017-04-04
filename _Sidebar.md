@@ -50,6 +50,7 @@
 * [[tools]]
     - [[editor]]
         - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品")
+        - [[sublime]]
     - [[designer]]
 * [[cheat sheet]]
 * [[test]]
