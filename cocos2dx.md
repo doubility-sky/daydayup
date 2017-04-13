@@ -1,3 +1,5 @@
+- http://www.tairan.com/tutorials
+
 
 ## Cocos2dx-lua
 - [mac下的开发环境搭建](http://sunhantao.github.io/2016/02/13/Mac%E4%B8%8B%E7%BC%96%E7%A0%81%E8%B0%83%E8%AF%95Cocos2dx-lua%E7%9A%84%E5%B7%A5%E5%85%B7/)
@@ -22,13 +24,18 @@ stack->executeString("require 'src.main'");
 - cocos studio中的BitmapLabel无法使用，暂未找到解决办法。
 - [Quick在iphone5s以上的ios64位下黑屏问题](http://www.cnblogs.com/yans/p/yans.html)
 - quick的音效有时候播放不出问题：在第一个界面触发一下，原因未知：
-```
+  ```
     audio.setSoundsVolume(0.0)
     audio.playSound("res/Sound/HkFiveCard/SEND_CARD.wav")
     scheduler.performWithDelayGlobal(function ()
         audio.setSoundsVolume(1)
     end, 0.1)
-```
+  ```
+- Player 打印行数太多显示不全  
+  修改 `ConsoleWindowController.m` 定义的宏  
+  ```
+  #define SKIP_LINES_COUNT    200
+  ```
 
 ## Cocos Studio
 - **注意！官方已不再维护，目前最后一个版本为 3.10**
@@ -43,9 +50,3 @@ stack->executeString("require 'src.main'");
 - [官方教程](http://mp.weixin.qq.com/s?__biz=MjM5ODAxNTM2NA==&mid=409633776&idx=1&sn=926c49761ba2aa0368f21bd34ad3d9d3#rd)
 
 
-## FAQ
-- Mac模拟器打印行数太多显示不全  
-  修改 `ConsoleWindowController.m` 定义的宏  
-```
-#define SKIP_LINES_COUNT    200
-```
