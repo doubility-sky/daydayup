@@ -34,12 +34,19 @@ golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌
   官方抗鼎之作，玩儿一遍顺畅舒爽  
 - https://gobyexample.com/    
   通过简洁例子学习，简单快捷，扫一遍极其快速  
+- `godoc -http=:6060`
+- [Go 语言入门资料](http://fuxiaohei.me/2016/6/24/go-start-up.html)
+
+### 出版书籍
 - https://github.com/astaxie/build-web-application-with-golang  
   实体书有出版，电子版免费，国人[astaxie](https://github.com/astaxie)良心作品，开源社区活跃  
-- http://www.golang-book.com/  歪果仁写的，质量未知  
-- https://jan.newmarch.name/go/  歪果仁写的，质量未知  
 - https://github.com/mikespook/Learning-Go-zh-cn 果仁写的，质量未知  
 - 《深入解析Go》 - https://github.com/tiancaiamao/go-internals
+- [Go1.5源码剖析](https://github.com/qyuhen/book)
+
+### http
+- [Go 开发 HTTP](http://fuxiaohei.me/2016/9/20/go-and-http-server.html)
+
 
 ## 开源项目
 - https://github.com/avelino/awesome-go
