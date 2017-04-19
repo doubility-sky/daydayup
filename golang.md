@@ -40,7 +40,6 @@ golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌
 ### 出版书籍
 - https://github.com/astaxie/build-web-application-with-golang  
   实体书有出版，电子版免费，国人[astaxie](https://github.com/astaxie)良心作品，开源社区活跃  
-- https://github.com/mikespook/Learning-Go-zh-cn 果仁写的，质量未知  
 - 《深入解析Go》 - https://github.com/tiancaiamao/go-internals
 - [Go1.5源码剖析](https://github.com/qyuhen/book)
 
