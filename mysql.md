@@ -52,11 +52,17 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 
 # FAQ
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
-```
-sudo vi /etc/mysql/my.cnf
-#bind-address = 127.0.0.1
-service mysql restart
-```
-  
+  ```
+  sudo vi /etc/mysql/my.cnf
+  #bind-address = 127.0.0.1
+  service mysql restart
+  ```
+- [Ubuntu 开启mysql远程连接](https://dzer.me/2016/05/04/ubuntu-%E5%BC%80%E5%90%AFmysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/)   
+  ```
+  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf 
+  #bind-address = 127.0.0.1
+  service mysql restart  
+  ```
+
 
 
