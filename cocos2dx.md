@@ -9,17 +9,19 @@ Quick-Cocos2dx是Cocos2dx-lua的增强版，封装了部分API更易于lua的开
 
 Quick官方稳定版本是Quick-3.3final，最新版是Quick-3.5，之后官方不再维护。
 
-### Quick-Cocos2dx-Community
-是基于Quick-3.3final之上的社区版，现在版本是3.6.1release版，并持续维护。
+## Quick-Cocos2dx-Community
+- 是基于Quick-3.3final之上的社区版，现在版本是3.6.1release版，并持续维护。
 - [官方网站](http://www.tairan.com/)
 - [Quick资料总汇：介绍、教程](http://www.cocoachina.com/bbs/read.php?tid-331250.html)
 - [pbc 集成到quick-cocos2dx](http://www.cnblogs.com/suncoolcat/p/3297313.html)
 - [Quick和Luajit使用注意](http://tairan.com/archives/10561/)
 - [Quick资源加密](http://tairan.com/archives/10157/) 注：非zip加密方式下(-m files)：AppDelegate.cpp 启动代码是
-```
-stack->executeString("require 'src.main'"); 
-```
+  ```
+  stack->executeString("require 'src.main'"); 
+  ```
 - [Quick使用webview](http://my.oschina.net/u/1582495/blog/465695) （注：目标目录是tools/tolua） 其他要导出的接口类似，操作过程中需要依赖的python组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
+
+- [Mac 下编译 Quick-Cocos2dx-Community 的 Android 版本](http://tairan.com/archives/10567/)
 
 ### quick心得(cocos v3.10, quick v3.6.1)
 - 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
