@@ -11,5 +11,5 @@
 # 热更新
 - [xLua](https://github.com/Tencent/xLua/issues/14)
 
-# sdk
-[quicksdk](http://www.quicksdk.net/index.html) sdk升级问题，待考证！
+# 3rd sdk
+[quicksdk](https://www.quicksdk.com/) sdk升级问题，待考证！
