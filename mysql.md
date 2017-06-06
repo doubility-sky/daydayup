@@ -17,6 +17,10 @@ SET PASSWORD FOR 'root'@'%' = PASSWORD('000000');
 SET PASSWORD = PASSWORD('000000'); 
 ```
 # 权限
+- 查询权限：
+```
+show grants for root@'localhost';
+```
 - 改表法：
 ```
 update user set host = '%' where user = 'root';
