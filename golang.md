@@ -71,3 +71,6 @@ darwin 386 / amd64 OS X
 freebsd 386 / amd64 >= FreeBSD 7
 windows 386 / amd64 >= Windows 2000
 ```
+
+## 工具
+- vscode + vscode-go 可做跨平台IDE
