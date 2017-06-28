@@ -29,6 +29,7 @@
     - [[web development]]
         - [[html5]]
         - [[node.js]]
+        - [[react]]
         - [[web server]]
 * [[game development]]
     - [[game client]]
