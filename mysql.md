@@ -46,6 +46,10 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 # 参数
 - [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
 - 开启binlog：配置文件中设置log-bin=mysql-bin
+- 查找配置文件路径
+  ```
+  mysqld --verbose --help |grep -A 1 'Default options'
+  ```
 
 # 性能优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
