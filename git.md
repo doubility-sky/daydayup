@@ -43,6 +43,10 @@ https://git-scm.com/
 
 
 ## FAQ
+### [删除本地所有未提交的更改](https://www.v2ex.com/t/66718)
+- `git clean -df` 只删除所有untracked的文件
+- `git reset --hard` 把tracked的文件revert到前一个版本
+
 #### 换行符 CRLF 问题
 - **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
 - **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
