@@ -23,6 +23,7 @@
 - 上传时报ERROR ITMS 90209段错误： 
   删除luajit用于模拟器调试时添加的  
   `-pagezero_size 10000 -image_base 100000000`
+- 两个iphone搭建ipv6环境 https://zhang759740844.github.io/2017/03/31/%E7%94%B1%E4%BA%8EIPv6%E8%A2%AB%E6%8B%92/
 
 ## 其他
 - 协作开发时，team设置为个人账号或none，如果在fix issuse时出现内购错误，可以删除linked库StoreKit.framework、并重新fix issue
