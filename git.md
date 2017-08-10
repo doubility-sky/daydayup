@@ -31,7 +31,7 @@ https://git-scm.com/
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 
 # 常用 Git 命令
-- [常用Git命令](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+- http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 ### [删除本地所有未提交的更改](https://www.v2ex.com/t/66718)
 - `git clean -df` 只删除所有untracked的文件
 - `git reset --hard` 把tracked的文件revert到前一个版本
