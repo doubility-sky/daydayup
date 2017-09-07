@@ -34,3 +34,18 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 #### [draw.io](https://www.draw.io/)
 - 云端绘图，可导出各个网盘
 - 需要翻墙2016-01-20
+
+
+# 图像处理
+### ImageMagick
+- [ImageMagick：批量处理图像的超级利器](http://blog.sina.com.cn/s/blog_ba532aea0101bty5.html)
+- [使用ImageMagick在命令行下处理图片](http://blog.just4fun.site/use-ImageMagick.html)
+- [Linux命令 ImageMagick](http://pytool.com/2016/01/06/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2016-01-01-Linux%E5%91%BD%E4%BB%A4-ImageMagick/)
+
+### 常用 IM 命令
+- 批量转换当前目录所有png至jpg: `mogrify -format jpg *.png`
+- 批量拉伸(强制拉伸)当前目录下所有jpg至指定大小: `mogrify -resize 2732x2048! *.jpg`
+
+
+
+
