@@ -43,6 +43,8 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 - [Linux命令 ImageMagick](http://pytool.com/2016/01/06/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4-2016-01-01-Linux%E5%91%BD%E4%BB%A4-ImageMagick/)
 
 ### 常用 IM 命令
+- `convert image.png image.jpg`
+- `convert -resize 2732x2048! image.jpg new_image.jpg`
 - 批量转换当前目录所有png至jpg: `mogrify -format jpg *.png`
 - 批量拉伸(强制拉伸)当前目录下所有jpg至指定大小: `mogrify -resize 2732x2048! *.jpg`
 
