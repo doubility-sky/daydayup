@@ -23,4 +23,5 @@ http://www.lua.org/
 ### 工具
 - [一个 Lua 内存泄露检查工具](http://blog.codingnow.com/2012/12/lua_snapshot.html)
 
-
+## Others
+- http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts
