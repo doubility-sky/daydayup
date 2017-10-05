@@ -167,9 +167,9 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
     - *PTYPE_CLIENT 是历史遗留的. 原本 gate 服务是先于现在的 socket 模块实现的.PTYPE_CLIENT 是 gate 给外部连接定义出来的消息类型. 有了 socket 模块后, gate 不是必须品, PTYPE_CLIENT 这类消息也不一定有了.*
 - [Skynet Wiki: Gate Server](https://github.com/cloudwu/skynet/wiki/GateServer)
     - skynet 提供了一个通用模板 lualib/snax/gateserver.lua 来启动一个网关服务器，通过 TCP 连接和客户端交换数据。
-    - service/gate.lua 是一个实现完整的网关服务器，同时也可以作为 snax.gateserver 的使用范例。  
-      examples/watchdog.lua 是一个可以参考的例子，它启动了一个 server/gate.lua 服务，并将处理外部连接的消息转发处理。   
-      **注**: 这个模板不可以和 Socket 库一起使用。因为这个模板接管了 socket 类的消息。
+    - service/gate.lua 是一个实现完整的网关服务器，同时也可以作为 snax.gateserver 的使用范例。
+        - examples/watchdog.lua 是一个可以参考的例子，它启动了一个 server/gate.lua 服务，并将处理外部连接的消息转发处理。  
+        - **注**: 这个模板不可以和 Socket 库一起使用。因为这个模板接管了 socket 类的消息。
 - [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 如果你需要一个网关帮你接入大量连接并转发它们到不同的地方处理。
     - service/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考。
     - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 。
