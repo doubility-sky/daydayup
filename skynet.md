@@ -160,7 +160,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。  
 
 # Gate
-- 是一个早于 socket API 的解决大量网络链接的实现。
+- `service_gate.c` 是一个早于 socket API 的解决大量网络链接的实现
 - [Skynet Wiki](https://github.com/cloudwu/skynet/wiki)：*要做到给客户端提供服务，还需要使用 Socket API ，或者使用已经编写好的 GateServer 模板解决大量客户端接入的问题。*
 - [设计综述](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)中搜索 gate，云风曾回复道：
     - *gate 现在已经不是核心组件. 建议直接用 socket 库编写你需要的业务.现有 gate 的功能,可以通过阅读 gate 的源码了解.*
@@ -171,15 +171,15 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
         - examples/watchdog.lua 是一个可以参考的例子，它启动了一个 server/gate.lua 服务，并将处理外部连接的消息转发处理。  
         - **注**: 这个模板不可以和 Socket 库一起使用。因为这个模板接管了 socket 类的消息。
 - [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 如果你需要一个网关帮你接入大量连接并转发它们到不同的地方处理。
-    - service/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考。
-    - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 。
+    - service/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考
+    - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 
 
-**综上**：所有gate实现可以拿来参考，还是用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能吧。
+**综上**：`service/gate.lua`/`service_gate.c` 实现可以拿来参考，推荐用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能。
 
 # Snax
 - https://github.com/cloudwu/skynet/wiki/Snax
-- 一个方便 skynet 服务实现的简单框架。  
-  Snax: Sn-Skynet;  ax-???(猜测是auxiliary)
+- 一个方便 skynet 服务实现的简单框架。
+    - [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
 - http://blog.codingnow.com/2015/11/rpc.html   
   RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
 
