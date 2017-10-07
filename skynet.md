@@ -16,11 +16,11 @@
 #### 其他
 - [hello skynet](http://www.jiandan.ren/tag/skynet/) 浅显易懂
 - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
+- [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818)
 - [skynet/lua](http://blog.csdn.net/cwqcwk1/article/category/5731833) CSDN blog
 - [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc) doc/ 中有两个pdf可以一看 
 - [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
-- [skynet 阅读笔记](http://my.oschina.net/u/186074/blog/495002)
-- [社区qq群主的blog](http://peimin.org/?cat=11)
+- [skynet阅读笔记](http://my.oschina.net/u/186074/blog/495002)
 - [awesome-skynet](https://github.com/m2q1n9/awesome-skynet)
 - [skynet club](http://skynetclub.github.io) 《skynet入门实践》
 
