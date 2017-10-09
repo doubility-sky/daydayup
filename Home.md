@@ -11,7 +11,7 @@
 
 ## Learn Markdown
 - [3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
-- [markdown语法官方参考手册] (http://daringfireball.net/projects/markdown/syntax "四级过了没？") 
+- [markdown语法官方参考手册](http://daringfireball.net/projects/markdown/syntax "hello, markdown!") 
 
 ```python
 print("Hello World!") # 我是python，我高亮！
