@@ -29,6 +29,7 @@ https://git-scm.com/
 - [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
 - [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
+- [GitHub 漫游指南](https://github.com/phodal/github-roam)
 
 # 常用 Git 命令
 - http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
