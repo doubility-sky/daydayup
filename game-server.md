@@ -5,6 +5,11 @@
 - [[pomelo]]
 - [firefly](http://firefly.9miao.com/)
 
+# 架构
+- [游戏服务端架构发展史（上）](http://www.skywind.me/blog/archives/1265)
+- [游戏服务端架构发展史（中）](http://www.skywind.me/blog/archives/1301)
+- [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
+
 # 游戏服务器开发 - 记录/总结
 
 ### 技术选择:
