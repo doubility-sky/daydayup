@@ -1,1 +1,1 @@
-todo
+- [那些从墙上学会的知识](https://icymind.com/learn-from-gfw/) 不好好学习计算机网络，就会被郭嘉教育。
