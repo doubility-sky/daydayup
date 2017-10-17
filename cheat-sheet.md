@@ -13,8 +13,8 @@
 - http://blog.jobbole.com/49762/
 
 ## Resources - 注意：内容过多或引起焦虑
-- https://github.com/vhf/free-programming-books
-- https://github.com/EbookFoundation/free-programming-books
+- [free-programming-books](https://github.com/EbookFoundation/free-programming-books) 
+- [free-programming-books CN](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
 - https://github.com/justjavac/free-programming-books-zh_CN
 
 ## Awesome - 注意：内容过多或引起焦虑
