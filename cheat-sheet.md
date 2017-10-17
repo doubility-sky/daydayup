@@ -14,6 +14,7 @@
 
 ## Resources - 注意：内容过多或引起焦虑
 - https://github.com/vhf/free-programming-books
+- https://github.com/EbookFoundation/free-programming-books
 - https://github.com/justjavac/free-programming-books-zh_CN
 
 ## Awesome - 注意：内容过多或引起焦虑
