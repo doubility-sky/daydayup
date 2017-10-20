@@ -1,32 +1,23 @@
 http://golang.org/
 
-## 设计者们
-- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)  
-  C/Unix作者之一，图灵奖得主
-- [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)  
-  http://herpolhode.com/rob/  
-  https://github.com/robpike  
-  https://usesthis.com/interviews/rob.pike/   
-- [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer)  
-  https://github.com/griesemer  
-- Russ Cox  
-  http://swtch.com/~rsc/  
-  http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/  
+## Creators
+- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
+- [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
+- [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
+- [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
 
 
 ## 理念与思想
 - https://talks.golang.org/
 
-### 并发 
-golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌顶之作
-- [Concurrency is not Parallelism](https://talks.golang.org/2012/concurrency.slide)  
-- [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide)
-- https://blog.golang.org/concurrency-is-not-parallelism
+### Concurrency by [Rob Pike](golang/_edit#creators)
+- [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
+- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism)  
+
 
 ### CSP (Communicating sequential processes)  
 - https://en.wikipedia.org/wiki/Communicating_sequential_processes  
-- Hoare 快速排序，图灵奖得主  
-  http://c2.com/cgi/wiki?CarHoare  
+- [Hoare](http://c2.com/cgi/wiki?CarHoare)
   http://www.usingcsp.com/cspbook.pdf  
 
 ## 学习资料
@@ -54,6 +45,8 @@ golang设计者之一[Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike)醍醐灌
 - [[gonet]]
 - [leaf](https://github.com/name5566/leaf)
 
+## FAQ
+- [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 
 ## 其他
 - 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 
