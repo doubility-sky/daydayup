@@ -5,20 +5,14 @@ http://golang.org/
 - [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
 - [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
 - [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
-
-
-## 理念与思想
 - https://talks.golang.org/
 
-### Concurrency by [Rob Pike](golang/_edit#creators)
+## Philosophy
+#### Concurrency by [Rob Pike](golang/#creators)
 - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism)  
-
-
-### CSP (Communicating sequential processes)  
-- https://en.wikipedia.org/wiki/Communicating_sequential_processes  
-- [Hoare](http://c2.com/cgi/wiki?CarHoare)
-  http://www.usingcsp.com/cspbook.pdf  
+#### CSP - [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
+- http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 
 ## 学习资料
 - https://tour.golang.org/  
