@@ -8,38 +8,28 @@ http://golang.org/
 - https://talks.golang.org/
 
 ## Philosophy
-#### Concurrency by [Rob Pike](golang/#creators)
-- [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
-- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism)  
-#### CSP - [Communicating sequential processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
-- http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
+- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
+    - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
+- [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
+    - http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 
-## 学习资料
-- https://tour.golang.org/  
-  官方抗鼎之作，玩儿一遍顺畅舒爽  
-- https://gobyexample.com/    
-  通过简洁例子学习，简单快捷，扫一遍极其快速  
-- `godoc -http=:6060`
+## Learn
+- [A Tour of Go](https://tour.golang.org/) 官方抗鼎之作，玩儿一遍顺畅舒爽  
+- [gobyexample](https://gobyexample.com/) 通过简洁例子学习，简单快捷，扫一遍极其快速  
+- `godoc -http=:6060` 无法穿墙，本地帮忙
 - [Go 语言入门资料](http://fuxiaohei.me/2016/6/24/go-start-up.html)
-
-### 出版书籍
-- https://github.com/astaxie/build-web-application-with-golang  
-  实体书有出版，电子版免费，国人[astaxie](https://github.com/astaxie)良心作品，开源社区活跃  
-- 《深入解析Go》 - https://github.com/tiancaiamao/go-internals
+- [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 实体书有售，[astaxie](https://github.com/astaxie)良心作品，开源社区活跃  
+- [深入解析Go](https://github.com/tiancaiamao/go-internals)
 - [Go1.5源码剖析](https://github.com/qyuhen/book)
-
-### http
 - [Go 开发 HTTP](http://fuxiaohei.me/2016/9/20/go-and-http-server.html)
 
-
-## 开源项目
+## Open Source
 - https://github.com/avelino/awesome-go
-
-### game server
-- [[gonet]]
-- [leaf](https://github.com/name5566/leaf)
+- [[gonet]] game server
+- [leaf](https://github.com/name5566/leaf) game server
 
 ## FAQ
+- [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
 - [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 
 ## 其他
