@@ -16,6 +16,8 @@ http://golang.org/
 ## Learn
 - [A Tour of Go](https://tour.golang.org/) 官方抗鼎之作，玩儿一遍顺畅舒爽  
 - [gobyexample](https://gobyexample.com/) 通过简洁例子学习，简单快捷，扫一遍极其快速  
+- [The Go Programming Language](https://github.com/miguellgt/books/blob/master/go/The.Go.Programming.Language.pdf)
+- [gopl-zh](https://github.com/golang-china/gopl-zh)
 - `godoc -http=:6060` 无法穿墙，本地帮忙
 - [Go 语言入门资料](http://fuxiaohei.me/2016/6/24/go-start-up.html)
 - [build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang) 实体书有售，[astaxie](https://github.com/astaxie)良心作品，开源社区活跃  
