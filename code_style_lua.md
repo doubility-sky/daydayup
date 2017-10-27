@@ -1,12 +1,13 @@
+# Code Style - Lua
+### Reference
+- [LuaStyleGuide](http://lua-users.org/wiki/LuaStyleGuide)
+    - To append to an array, it can be terser and more efficient to do t[#t+1] = 1 rather than table.insert(t, 1).
+- [OpenResty 最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/content/ngx_lua/lua_opt.html)
+
+
 ```lua
--- 参考  http://lua-users.org/wiki/LuaStyleGuide
 
 -- NOTE0: 代码可读性第一！
-
--- To append to an array,
--- it can be terser and more efficient to do t[#t+1] = 1 rather than table.insert(t, 1).
--- https://moonbingbing.gitbooks.io/openresty-best-practices/content/ngx_lua/lua_opt.html
-
 -- 变量命名规范
 --   在一切能使用local修饰的情况下，使用local进行修饰
 --   驼峰命名法
@@ -18,7 +19,6 @@
 --   常数一般采用大下划线命名法。这样每个字母都大写，十分醒目，且各个单词都用下划线分割，便于阅读。
 --     比如：MAX_SPEED表示最大速度，IS_SHOW_DEBUG_ERROR_MSG表示是否显示报错消息等等。
 -- 现在项目中，两种混合使用，但在局部代码块中务必使用同一个风格!
-
 
 -- NOTE1: 函数体，或大型代码块之间，一般空2行。
 --        如果相邻函数体内无空行，或者相关性更紧密，空1行也可以。
