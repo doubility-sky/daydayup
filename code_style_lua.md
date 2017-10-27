@@ -27,6 +27,7 @@
 -- NOTE2: 单行注释符号后面添加空格
 
 -- NOTE3: 函数体，以及连续代码块内，空行不超过1行
+--        函数体开始后、函数体结尾前 没有必要则无需空行
 
 -- NOTE4: 在可读性的前提下，应该尽量减少缩进
 
@@ -39,13 +40,13 @@ local _global_var = 42
 do
     local function test(x)
         x = x or "idunno"                                  -- Good! as NOTE0
-        if x == false or x == nil then x = "idunno" end    -- Bad! as NOTE0
+        if x == false or x == nil then x = "idunno" end    -- Bad!! as NOTE0
         
         print(x == "yes" and "YES!" or x)                  -- Good! as NOTE0
-        if x == "yes" then print("YES!") else print(x) end -- Bad! as NOTE0
+        if x == "yes" then print("YES!") else print(x) end -- Bad!! as NOTE0
     end
 
-    local function bad_check(x)                            -- Bad! as NOTE4
+    local function bad_check(x)                            -- Bad!! as NOTE4
         if is_valid_1(x) then
             x = do1(x)
             if is_valid_2(x) then
@@ -110,7 +111,7 @@ end
                                                            -- Good! as NOTE1
 function f2()
     local a = 42  -- the answer A                          -- Good! as NOTE2
-    local b = 73  --the answer B                           -- Bad! as NOTE2
+    local b = 73  --the answer B                           -- Bad!! as NOTE2
 
     for i = 1, a do
         print(i)
@@ -119,9 +120,9 @@ function f2()
     return a
     
 end
-                                                           -- Bad! as NOTE1
+                                                           -- Bad!! as NOTE1
 function f3()
-
+                                                           -- Bad!! as NOTE3
     f1()
     f2()
 
@@ -129,7 +130,7 @@ function f3()
         f3()
     end
 end
-function f4()                                              -- Bad! as NOTE1
+function f4()                                              -- Bad!! as NOTE1
 end
 
 ```
