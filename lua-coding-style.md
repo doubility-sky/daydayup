@@ -1,5 +1,4 @@
-# Code Style - Lua
-### Reference
+## Reference
 - [LuaStyleGuide](http://lua-users.org/wiki/LuaStyleGuide)
     - To append to an array, it can be terser and more efficient to do t[#t+1] = 1 rather than table.insert(t, 1).
 - [OpenResty 最佳实践](https://moonbingbing.gitbooks.io/openresty-best-practices/content/ngx_lua/lua_opt.html)
