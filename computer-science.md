@@ -1,12 +1,12 @@
 # Index
-- [[data structure]]
 - [[algorithm]]
-- [[operating system]]
 - [[compiler]]
-- [[networking]]
-- [[computer organization]]
 - [[computer graphics]]
+- [[computer organization]]
+- [[data structure]]
+- [[networking]]
 - [[machine learning]]
+- [[operating system]]
 
 # Courses
 - https://github.com/prakhar1989/awesome-courses
