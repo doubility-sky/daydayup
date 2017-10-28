@@ -1,9 +1,10 @@
 # 开源框架
 主要见侧边栏 game server 子项，此处为其他补充
-- [[smart fox]]
 - [[gonet]]
 - [[pomelo]]
-- [firefly](http://firefly.9miao.com/)
+- [[kbengine]]
+- [[smart fox]]
+
 
 # 架构
 - [游戏服务端架构发展史（上）](http://www.skywind.me/blog/archives/1265)
