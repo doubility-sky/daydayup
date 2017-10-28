@@ -3,13 +3,6 @@
 添加子项先上方Pages或父项中找
 * [[Home]]
 * [[computer science]]
-    - [[data structure]]
-    - [[algorithm]]
-    - [[compiler]]
-    - [[networking]]
-    - [[computer organization]]
-    - [[computer graphics]]
-* [[online judge]]
 * [[programming language]]
     - [[c]]
     - [[golang]]
