@@ -15,3 +15,10 @@
 - `svn propset svn:ignore 'xxx' xdir` 为 `xdir` 添加 `xxx` 忽略内容
 - `svn propedit svn:ignore xdir` 打开 svn 的编辑器，编辑针对 `xdir` 的忽略列表
 
+### 清除未版本控制文件，类似 `git clean -fd`
+- [清除SVN未版控文件](http://blog.csdn.net/caz28/article/details/50246951)
+    - `svn st | grep '^?' | awk '{print $2}' | xargs rm -rf`
+
+
+
+
