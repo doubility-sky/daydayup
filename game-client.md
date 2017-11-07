@@ -6,6 +6,7 @@
 
 ### 2D
 - [[love2d]]
+- [[godot]]
 - [[ejoy2d]]
 - [[cocos2dx]]
 
