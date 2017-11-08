@@ -25,6 +25,11 @@ http://golang.org/
 - [Go 开发 HTTP](http://fuxiaohei.me/2016/9/20/go-and-http-server.html)
 - [Go Data Structures](https://research.swtch.com/godata)
 
+## Standard
+- [Effective Go](https://golang.org/doc/effective_go.html)
+- [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [Go编码规范指南](https://gocn.io/article/1)
+
 ## Open Source
 - https://github.com/avelino/awesome-go
 - [[gonet]] game server
