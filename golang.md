@@ -1,11 +1,11 @@
-http://golang.org/
+- http://golang.org/  
+- https://talks.golang.org/
 
 ## Creators
 - [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
 - [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
 - [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
 - [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
-- https://talks.golang.org/
 
 ## Philosophy
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
