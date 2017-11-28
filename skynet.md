@@ -14,7 +14,7 @@
   “云风：基于 Actor 模式的开源框架” ppt
 
 #### 其他
-- [skynet源码赏析](https://manistein.github.io/blog/post/server/skynet/skynet_source_code_analyze/)
+- [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
 - [hello skynet](http://www.jiandan.ren/tag/skynet/) 浅显易懂
 - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
 - [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818)
