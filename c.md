@@ -7,4 +7,6 @@
 - http://akaedu.github.io/book/
 - https://github.com/learning-linux-c-cpp/akabook
 - https://github.com/orangeduck/BuildYourOwnLisp
+- [C编译器剖析](https://book.douban.com/subject/26814205/)
+    - https://github.com/sheisc/ucc162.3
 
