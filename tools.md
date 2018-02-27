@@ -52,6 +52,7 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 
 ### PNG 有损压缩
 - [pngquant](https://pngquant.org/)
+- https://tinypng.com/
 
 
 
