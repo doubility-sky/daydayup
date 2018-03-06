@@ -4,6 +4,10 @@
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 
 
+## FAQ
+- `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
+
+
 ## 搭建服务器环境 
 **注意！下文内容以 CentOS7 为主，其他 linux 发行版一般也适用**
 
