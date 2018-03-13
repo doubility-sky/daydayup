@@ -30,6 +30,7 @@
 * [[game development]]
     - [[game client]]
         - [[cocos2dx]]
+        - [[egret]]
         - [[unity3d]]
     - [[game server]]
         - [[skynet]]
