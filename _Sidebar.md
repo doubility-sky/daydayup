@@ -26,6 +26,7 @@
     - [[html5]]
     - [[node.js]]
     - [[react]]
+    - [[vue]]
     - [[web server]]
 * [[game development]]
     - [[game client]]
