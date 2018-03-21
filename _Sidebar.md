@@ -17,6 +17,7 @@
     - [[Linux]]
     - [[Mac]]
     - [[Windows]]
+    - [[ROS]]
 * [[desktop development]]
     - [[QT]]
 * [[mobile development]]
