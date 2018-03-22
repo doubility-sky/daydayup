@@ -49,6 +49,7 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 - 批量转换当前目录所有png至jpg: `mogrify -format jpg *.png`
 - 批量拉伸(强制拉伸)当前目录下所有jpg至指定大小: `mogrify -resize 2732x2048! *.jpg`
 - 批量关闭 alpha 通道，设置背景色 `mogrify -background white -alpha off *.png`
+- 裁剪 `convert xxx.png -crop 229X81+0+82 +repage xxx-1.png`
 
 ### PNG 有损压缩
 - [pngquant](https://pngquant.org/)
