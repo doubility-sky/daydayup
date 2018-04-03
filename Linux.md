@@ -109,6 +109,10 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
+### tmux
+与 screen 类似
+- https://en.wikipedia.org/wiki/Tmux
+
 ### Shell & Script
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
   再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
