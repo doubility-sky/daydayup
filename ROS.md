@@ -16,5 +16,8 @@ sudo apt-get install debian-keyring debian-archive-keyring
 
 # 资料
 ## 书
-### ROS官方记录的书单(http://wiki.ros.org/Books)
-### 中文的一本书，简单上手(https://pan.baidu.com/s/1c3qunG8)
+ - ROS官方记录的[书单](http://wiki.ros.org/Books)
+ - 中文的一本书，简单上手，[下载链接](https://pan.baidu.com/s/1c3qunG8)
+
+## blog
+ - [古月居](http://www.guyuehome.com/)，作者研究ROS比较早
