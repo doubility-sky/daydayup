@@ -13,3 +13,8 @@ sudo apt-upgrade
 # 如果遇到no public key的错误，执行
 sudo apt-get install debian-keyring debian-archive-keyring
 ``` 
+
+# 资料
+## 书
+### ROS官方记录的书单(http://wiki.ros.org/Books)
+### 中文的一本书，简单上手(https://pan.baidu.com/s/1c3qunG8)
