@@ -6,7 +6,7 @@
 
 ## FAQ
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
-
+- `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 
 ## 搭建服务器环境 
 **注意！下文内容以 CentOS7 为主，其他 linux 发行版一般也适用**
