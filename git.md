@@ -89,3 +89,6 @@ Removing index.lock file manually from .git directory worked.
 or From command line:  
 `$ rm -rf .git/index.lock`  
 Note: Make sure that only one index file exist on .git directory
+
+#### office文档的diff方案
+- [Microsoft Office and Git](https://www.ficonsulting.com/filabs/MSOfficeGit)
