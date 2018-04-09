@@ -26,6 +26,9 @@ https://git-scm.com/
 - [Gitlab](https://about.gitlab.com/)是一款可自搭建的Git服务器，以web可视化界面、便捷操作著称，适合公司、团体使用。
 - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
 
+# svn迁移到git
+- 官方文档：[迁移到 Git](https://git-scm.com/book/zh/v1/Git-%E4%B8%8E%E5%85%B6%E4%BB%96%E7%B3%BB%E7%BB%9F-%E8%BF%81%E7%A7%BB%E5%88%B0-Git)
+
 # Learn
 ### 官方文档 
 - https://git-scm.com/doc
