@@ -21,6 +21,10 @@ https://git-scm.com/
   支持ubuntu，macosx，windows
   如果在ubuntu下，除了编辑器集成的git，可以使用它
 
+# Git服务器
+### [Gitlab](https://about.gitlab.com/)是一款可自搭建的Git服务器，以web可视化界面、便捷操作著称，适合公司、团体使用。
+- [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
+
 # Learn
 ### 官方文档 
 - https://git-scm.com/doc
