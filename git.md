@@ -17,6 +17,9 @@ https://git-scm.com/
 - https://tortoisegit.org/  
   windows only  
   如果用惯了 tortoiseSVN，那就试这个吧  
+- https://www.gitkraken.com/
+  支持ubuntu，macosx，windows
+  如果在ubuntu下，除了编辑器集成的git，可以使用它
 
 # Learn
 ### 官方文档 
