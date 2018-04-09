@@ -6,6 +6,7 @@
     - [[algorithm]]
     - [[compiler]]
     - [[networking]]
+    - [[machine learning]]
 * [[programming language]]
     - [[c]]
     - [[golang]]
