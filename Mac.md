@@ -2,7 +2,8 @@
 
 ## Tools
 - [tree 命令，终端展示你的目录树结构](http://yijiebuyi.com/blog/c0defa3a47d16e675d58195adc35514b.html)
-- `brew install ncdu` http://www.yewen.us/blog/2015/09/ncdu-on-os-x/
+- `brew install ncdu` http://www.yewen.us/blog/2015/09/ncdu-on-os-x/  
+  `ncdu / --exclude /Volumes`
 
 ## FAQ
 - 选中多个文件 `command+option+i` 查看总大小
