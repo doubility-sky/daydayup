@@ -33,7 +33,7 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   User root
   IdentityFile ~/.ssh/xxx_rsa
   ```
-- [linux管理多个ssh公钥密钥](http://rongmayisheng.com/post/linux%E7%AE%A1%E7%90%86%E5%A4%9A%E4%B8%AAssh%E5%85%AC%E9%92%A5%E5%AF%86%E9%92%A5)
+- [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
