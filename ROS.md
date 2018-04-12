@@ -22,7 +22,8 @@ sudo apt-get install debian-keyring debian-archive-keyring
 ## blog
  - [古月居](http://www.guyuehome.com/)，作者研究ROS比较早
 
-# MoveIT(运动规划软件)
+# 运动规划
+## MoveIT(运动规划软件)
 - 入门教程https://www.ncnynl.com/archives/201610/1028.html
 - [MoveIt! 与 OMPL](https://blog.csdn.net/improve100/article/details/50619925)
 ## OMPL(运动规划库）主要采用采样随机规划算法
