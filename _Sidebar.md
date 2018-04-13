@@ -20,6 +20,7 @@
     - [[Windows]]
     - [[ROS]]
 * [[desktop development]]
+    - [[electron]]
     - [[QT]]
 * [[mobile development]]
     - [[iOS]]
