@@ -1,35 +1,18 @@
 https://git-scm.com/
 
-# Git 
-- https://git-scm.com/downloads  
-  不管用不用GUI Client，这个都是必需的。
+## Git 
+- https://git-scm.com/downloads **必需**
+### GUI
+- https://git-scm.com/downloads/guis 官方推荐大合集
+- https://www.sourcetreeapp.com/ win/mac, free
+- https://www.gitkraken.com/ linux/win/mac，如果在ubuntu下，除了编辑器集成的git，可以使用它
 
-# GUI Client
-- https://git-scm.com/downloads/guis  
-  官方推荐大合集
-- https://desktop.github.com/   
-  win/mac, free （尚未深入使用过）  
-  官方首推，估计因为同是 Pro Git book 及 GitHub 作者的原因吧。
-- http://www.sourcetreeapp.com/   
-  win/mac, free  **推荐**   
-  Atlassian 力作，同为 bitbucket, JIRA... 的母公司，靠谱商业公司的产品质量有保证。  
-  PS: 因为伟大的G*F*W原因，下载更新不是很方便  
-- https://tortoisegit.org/  
-  windows only  
-  如果用惯了 tortoiseSVN，那就试这个吧  
-- https://www.gitkraken.com/
-  支持ubuntu，macosx，windows
-  如果在ubuntu下，除了编辑器集成的git，可以使用它
-
-# Git服务器
 ### Gitlab
 - [Gitlab](https://about.gitlab.com/)是一款可自搭建的Git服务器，以web可视化界面、便捷操作著称，适合公司、团体使用。
 - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
 
-# svn迁移到git
-- 官方文档：[迁移到 Git](https://git-scm.com/book/zh/v1/Git-%E4%B8%8E%E5%85%B6%E4%BB%96%E7%B3%BB%E7%BB%9F-%E8%BF%81%E7%A7%BB%E5%88%B0-Git)
 
-# Learn
+## Learn
 ### 官方文档 
 - https://git-scm.com/doc
 - [Pro Git book V2](https://git-scm.com/book/en/v2)
@@ -42,41 +25,45 @@ https://git-scm.com/
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
 
-# 常用 Git 命令
+### git flow : 项目开发分支模型
+- [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
+- [git flow翻译](http://www.ituring.com.cn/article/56870)
+
+### 玩转~~基佬Hub~~GitHub社区
+- https://guides.github.com/
+- https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
+
+
+## 常用 Git 操作
 - http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 ### [删除本地所有未提交的更改](https://www.v2ex.com/t/66718)
 - `git clean -df` 只删除所有untracked的文件
 - `git clean -xdf` 删除untracked以及ignore的文件
 - `git reset --hard` 把tracked的文件revert到前一个版本
 
-
-# 玩转~~基佬Hub~~GitHub社区
-- https://guides.github.com/  
-  注意看本组织在哪里？  
-- https://hexo.io/    
-  A fast, simple & powerful blog framework, powered by Node.js
-
-# git flow : 项目开发分支模型
-- [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
-- [git flow翻译](http://www.ituring.com.cn/article/56870)
+### gitignore
+- https://github.com/github/gitignore
 
 
-# FAQ
-#### 换行符 CRLF 问题
+## FAQ
+### svn迁移到git
+- 官方文档：[迁移到 Git](https://git-scm.com/book/zh/v1/Git-%E4%B8%8E%E5%85%B6%E4%BB%96%E7%B3%BB%E7%BB%9F-%E8%BF%81%E7%A7%BB%E5%88%B0-Git)
+
+### 换行符 CRLF 问题
 - **Q** [换行符自动转换](https://github.com/cssmagic/blog/issues/22)
 - **A** [换行符问题 - Git权威指南](http://www.worldhello.net/gotgit/08-git-misc/040-eol.html)  
   - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
   - 设置: `git config --global core.safecrlf true`
   - 特别需求添加 `.gitattributes` 去约束
 
-#### push卡住的问题
+### push卡住的问题
 - **Q** push时卡在write objects.后续报fatal:The remote end hung up unexpectedly
 - **A** 问题原因是http.postBuffer默认上限为1M所致。将上限设为500M： 
 ```
 git config --global http.postBuffer 524288000
 ```
 
-#### 解决冲突出错
+### 解决冲突出错
 - `git reset --hard` 无效  
 ```
 fatal: Unable to create '/.git/index.lock': File exists.
@@ -90,5 +77,5 @@ or From command line:
 `$ rm -rf .git/index.lock`  
 Note: Make sure that only one index file exist on .git directory
 
-#### office文档的diff方案
+### office文档的diff方案
 - [Microsoft Office and Git](https://www.ficonsulting.com/filabs/MSOfficeGit)
