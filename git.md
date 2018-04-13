@@ -37,7 +37,7 @@ https://git-scm.com/
 ## 常用 Git 操作
 - http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html
 ### [删除本地所有未提交的更改](https://www.v2ex.com/t/66718)
-- `git clean -df` 只删除所有untracked的文件
+- `git clean -df` 只删除所有untracked的文件，可后接指定目录
 - `git clean -xdf` 删除untracked以及ignore的文件
 - `git reset --hard` 把tracked的文件revert到前一个版本
 
