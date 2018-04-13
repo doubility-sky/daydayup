@@ -5,10 +5,10 @@ https://git-scm.com/
 ### GUI
 - https://git-scm.com/downloads/guis 官方推荐大合集
 - https://www.sourcetreeapp.com/ win/mac, free
-- https://www.gitkraken.com/ linux/win/mac，如果在ubuntu下，除了编辑器集成的git，可以使用它
+- https://www.gitkraken.com/ linux/win/mac，linux下推荐使用
 
-### Gitlab
-- [Gitlab](https://about.gitlab.com/)是一款可自搭建的Git服务器，以web可视化界面、便捷操作著称，适合公司、团体使用。
+### [Gitlab](https://about.gitlab.com/)
+- 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
 - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
 
 
