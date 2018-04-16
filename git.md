@@ -29,7 +29,7 @@ https://git-scm.com/
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
 
-### 玩转~~基佬Hub~~GitHub社区
+### 玩转GitHub社区
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 
