@@ -1,19 +1,17 @@
 # 入门
-- https://github.com/cloudwu/skynet/wiki [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)
-- http://blog.codingnow.com/eo/skynet/ **云风的博客skynet标签**，详尽发展历史，建议倒序通读。
-- [腾讯游戏开发者平台讲堂 - “云风：基于 Actor 模式的开源框架”](http://gad.qq.com/content/coursedetail?id=467)
-  - [“云风：基于 Actor 模式的开源框架” ppt](http://gad.qq.com/article/detail/5257)
+- https://github.com/cloudwu/skynet/wiki， [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)
+- [云风博客的skynet标签](http://blog.codingnow.com/eo/skynet/)，详尽发展历史，建议倒序通读。
+- 腾讯游戏开发者平台讲堂 - [“云风：基于 Actor 模式的开源框架”](http://gad.qq.com/content/coursedetail?id=467)
+  - [“云风：基于 Actor 模式的开源框架” PPT](http://gad.qq.com/article/detail/5257)
   - [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 ### 其他
 - [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
-- [hello skynet](http://www.jiandan.ren/tag/skynet/) 浅显易懂
-- [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120) 内容佳
-- [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818)
-- [skynet/lua](http://blog.csdn.net/cwqcwk1/article/category/5731833) CSDN blog
-- [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc) doc/ 中有两个pdf可以一看 
-- [skynet资源收集](http://skynetclub.github.io/skynet/resource.html)  大杂烩，比较乱
+- [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120)
+- [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818) - 有些源码分析
+- [skynet/lua](http://blog.csdn.net/cwqcwk1/article/category/5731833)
+- [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc)
 - [skynet阅读笔记](http://my.oschina.net/u/186074/blog/495002)
-- [skynet club](http://skynetclub.github.io) 《skynet入门实践》
+- [skynet框架研究](http://skynetclub.github.io) - 含资源收集大杂烩，可以看看《skynet入门实践》
 ### Projects
 - [skynet 的一个简单范例](http://blog.codingnow.com/2016/06/skynet_sample.html)
 - [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
@@ -22,12 +20,11 @@
 
 # 概览
 ### 设计理念
-- 作者的设计综述：  
-  http://blog.codingnow.com/2012/09/the_design_of_skynet.html
-- 单进程多线程  
-- 核心功能：服务    
+- 作者的[设计综述](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)2012-09-03
+- 单进程多线程
+- 核心功能：服务
 - 主张所有的服务都在同一个 OS 进程中协作完成
-- 可以视Skynet为一个简单的操作系统，每个服务都是这个系统中的进程。
+- 可以视Skynet为一个简单的操作系统，每个服务都是这个系统中的进程
 - 核心层内，不考虑跨机通讯的机制
 - 不为单独一个服务的崩溃，重启等提供相应的支持 （**任其崩溃哲学**）
 
@@ -101,7 +98,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - [重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)
     + 摘:*此外，对于松散的集群结构，我推荐使用 skynet 的单结点模式，在上层用 tcp 连接互连，并只使用简单的 rpc 协议。在目前的 skynet 版本中，有封装好的 cluster 模块 可供使用。*
 
-### Master/Slave - deprecated!
+### Master/Slave - **deprecated!**
 - 对单台物理机计算能力不足情况下的补充
 - 整个网络中任意一个节点都必须正常工作，节点间的联系也不可断开。  
     1. 这就好比你一台物理机上如果插了多块 CPU ，任意一个损坏都会导致整台机器不能正常工作一样。
@@ -157,12 +154,10 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 **综上**：`service/gate.lua`/`service_gate.c` 实现可以拿来参考，推荐用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能。
 
-# Snax
+# Snax - **deprecated!**
 - https://github.com/cloudwu/skynet/wiki/Snax
-- 一个方便 skynet 服务实现的简单框架。
-    - [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
-- http://blog.codingnow.com/2015/11/rpc.html   
-  RPC 之恶 - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
+- [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
+- [RPC 之恶](http://blog.codingnow.com/2015/11/rpc.html) - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
 
 **综上**：snax拿来参考学习即可，无需深究。
 
@@ -203,4 +198,5 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - https://github.com/cloudwu/skynet/wiki/FAQ
 - [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
 - If you're running Linux and get compilation errors, make sure you have installed the readline development package (which is probably named `libreadline-dev` or `readline-devel`). If you get link errors after that, then try "make linux MYLIBS=-ltermcap".
+- [skynet项目lua代码简单加密](http://skynetclub.github.io/skynet/lua-encryption.html)
 
