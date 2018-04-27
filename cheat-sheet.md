@@ -10,19 +10,24 @@
 
 ## 学以致用
 - https://github.com/karan/Projects
-- http://blog.jobbole.com/49762/
+  - A list of practical projects that anyone can solve in any programming language
+- https://github.com/jobbole/ProgrammingProjectList
+  - 给程序员们的练手小项目
 
-## Resources - 注意：内容过多或引起焦虑
+## Resources
+注意：内容过多或引起焦虑
 - [free-programming-books](https://github.com/EbookFoundation/free-programming-books) 
 - [free-programming-books CN](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
 - https://github.com/justjavac/free-programming-books-zh_CN
 - https://github.com/miguellgt/books
 
-## Awesome - 注意：内容过多或引起焦虑
+## Awesome
+注意：内容过多或引起焦虑
 - https://github.com/sindresorhus/awesome
 - https://github.com/bayandin/awesome-awesomeness
 
 ## Others
 - https://github.com/zhuangbiaowei/learn-with-open-source
+- [图说设计模式](https://github.com/me115/design_patterns)
 
 
