@@ -29,5 +29,7 @@
 ## Others
 - https://github.com/zhuangbiaowei/learn-with-open-source
 - [图说设计模式](https://github.com/me115/design_patterns)
+- [年信息安全从业者书单推荐](https://github.com/riusksk/secbook)
+- [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 
 
