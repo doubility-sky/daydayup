@@ -51,9 +51,11 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 - 批量关闭 alpha 通道，设置背景色 `mogrify -background white -alpha off *.png`
 - 裁剪 `convert xxx.png -crop 229X81+0+82 +repage xxx-1.png`
 
-### PNG 有损压缩
-- [pngquant](https://pngquant.org/)
-- https://tinypng.com/
+### 图像压缩
+- https://tinypng.com/ - 20张以内小于5MB
+- https://pngquant.org/
+  - https://imageoptim.com/
+
 
 
 
