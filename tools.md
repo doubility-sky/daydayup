@@ -52,7 +52,7 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 - 裁剪 `convert xxx.png -crop 229X81+0+82 +repage xxx-1.png`
 
 ### 图像压缩
-- https://tinypng.com/ - 20张以内小于5MB
+- https://tinypng.com/ - Up to 20 images, max 5 MB each.
 - https://pngquant.org/
   - https://imageoptim.com/
 
