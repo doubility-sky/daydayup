@@ -53,8 +53,12 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 
 ### 图像压缩
 - https://tinypng.com/ - Up to 20 images, max 5 MB each.
-- https://pngquant.org/
-  - https://imageoptim.com/
+
+### [pngquant](https://pngquant.org/)
+- [recursively-batch-process-files-with-pngquant](https://stackoverflow.com/questions/9647920/recursively-batch-process-files-with-pngquant)
+  - `find . -name '*.png' -exec pngquant --ext .png --force 256 {} \;` 
+  - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
+- GUI https://imageoptim.com/
 
 
 
