@@ -1,4 +1,3 @@
-## Git 
 - https://git-scm.com/
 - https://git-scm.com/downloads **必需**
 ### GUI
@@ -11,11 +10,11 @@
 
 
 ## Learn
-### 官方文档 
+### 文档 
 - https://git-scm.com/doc
 - [Pro Git book V2](https://git-scm.com/book/en/v2)
 - [Pro Git book 中文版](https://git-scm.com/book/zh)
-### 其他教程
+### 教程
 - http://rogerdudler.github.io/git-guide/
 - [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
 - [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
@@ -24,7 +23,7 @@
 ### git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
-### 玩转GitHub社区
+### 玩转GitHub
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 
