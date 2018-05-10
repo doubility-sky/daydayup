@@ -1,12 +1,10 @@
-https://git-scm.com/
-
 ## Git 
+- https://git-scm.com/
 - https://git-scm.com/downloads **必需**
 ### GUI
 - https://git-scm.com/downloads/guis 官方推荐大合集
 - https://www.sourcetreeapp.com/ win/mac, free
 - https://www.gitkraken.com/ linux/win/mac，linux下推荐使用
-
 ### [Gitlab](https://about.gitlab.com/)
 - 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
 - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
@@ -17,18 +15,15 @@ https://git-scm.com/
 - https://git-scm.com/doc
 - [Pro Git book V2](https://git-scm.com/book/en/v2)
 - [Pro Git book 中文版](https://git-scm.com/book/zh)
-
 ### 其他教程
 - http://rogerdudler.github.io/git-guide/
 - [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
 - [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
-
 ### git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
-
 ### 玩转GitHub社区
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
@@ -40,9 +35,10 @@ https://git-scm.com/
 - `git clean -df` 只删除所有untracked的文件，可后接指定目录
 - `git clean -xdf` 删除untracked以及ignore的文件
 - `git reset --hard` 把tracked的文件revert到前一个版本
-
 ### gitignore
 - https://github.com/github/gitignore
+### 统计
+- https://github.com/oleander/git-fame-rb
 
 
 ## FAQ
