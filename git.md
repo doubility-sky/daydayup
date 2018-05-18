@@ -38,6 +38,11 @@
 - https://github.com/github/gitignore
 ### 统计
 - https://github.com/oleander/git-fame-rb
+### 永久删除某个文件，包括服务器端
+```
+git filter-branch --force --index-filter  'git rm --cached --ignore-unmatch FILENAME'  --prune-empty --tag-name-filter cat -- --all
+git push origin master --force
+```
 
 
 ## FAQ
