@@ -14,6 +14,7 @@
   - A list of practical projects that anyone can solve in any programming language
 - https://github.com/jobbole/ProgrammingProjectList
   - 给程序员们的练手小项目
+- https://github.com/easychen/howto-make-more-money
 
 ## Resources
 注意：内容过多或引起焦虑
