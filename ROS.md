@@ -27,3 +27,6 @@ sudo apt-get install debian-keyring debian-archive-keyring
 - 入门教程https://www.ncnynl.com/archives/201610/1028.html
 - [MoveIt! 与 OMPL](https://blog.csdn.net/improve100/article/details/50619925)
 ## OMPL(运动规划库）主要采用采样随机规划算法
+
+## ROS与计算机视觉
+- http://www.rosclub.cn/post-831.html
