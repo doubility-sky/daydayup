@@ -8,7 +8,7 @@
     - [[networking]]
     - [[machine learning]]
 * [[programming language]]
-    - [[c]]
+    - [[c]]/[c++](../C-plus-plus)
     - [[golang]]
     - [[python]]
     - [[lua]]
@@ -42,6 +42,7 @@
 * [[database]]
     - [[SQL]]: [[mysql]]
     - [[NoSQL]]: [[mongodb]], [[redis]]
+* [[blockchain]]
 * [[tools]]
     - [[git]], [[svn]]
     - [[editor]]
