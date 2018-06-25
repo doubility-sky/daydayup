@@ -63,6 +63,9 @@ git push origin master --force
 git config --global http.postBuffer 524288000
 ```
 
+### gitlab fetch/pull 失败
+- https://stackoverflow.com/questions/21277806/fatal-early-eof-fatal-index-pack-failed
+
 ### 解决冲突出错
 - `git reset --hard` 无效  
 ```
