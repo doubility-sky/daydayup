@@ -26,6 +26,8 @@
 ### 玩转GitHub
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
+### 资料 reference
+- [Git如何存储文件-git存储数据结构](http://eagain.net/articles/git-for-computer-scientists/)
 
 
 ## 常用 Git 操作
