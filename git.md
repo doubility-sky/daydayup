@@ -7,7 +7,8 @@
 ### [Gitlab](https://about.gitlab.com/)
 - 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
 - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
-
+- [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
+- [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
 
 ## Learn
 ### 文档 
