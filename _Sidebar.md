@@ -42,8 +42,10 @@
     - [[NoSQL]]: 
         - [[mongodb]], [[redis]]
 * [[blockchain]]
+    - [[bitcoin]]
+    - [[ethereum]]
 * [[tools]]
-    - [[git]],[[svn]],[[docker]]
+    - [[git]], [[svn]], [[docker]]
     - [[editor]]
     - [[third party]]
 * [[cheat sheet]]
