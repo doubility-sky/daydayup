@@ -2,6 +2,7 @@
 - [The Linux Command Line](http://billie66.github.io/TLCL/book/zh/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 
 
 ## FAQ
