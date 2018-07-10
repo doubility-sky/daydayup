@@ -48,6 +48,18 @@
 
 
 # 代码相关
+### 编辑器
+- vim 编辑器之神
+- emacs 神的编辑器
+- 新世纪编辑器
+    - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品") 基于 electron
+    - [vscode](https://code.visualstudio.com/) 微软出品，与 atom 一样基于 electron
+- 小清新
+    - [[sublime]] 速度飞快 (打开大文件表现好）
+    - notepad++ (Windows Only)
+- 重量级
+    - [source insight](http://www.sourceinsight.com/) 收费，windows only
+
 ### 格式化
 - [Artistic Style](http://astyle.sourceforge.net/)   
   格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:
@@ -59,4 +71,3 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 
 ### 行数统计
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
-
