@@ -25,7 +25,7 @@
 * [[web development]]
     - [[html5]]
     - [[javascript]]
-    - [[react]],[[vue]]
+    - [[react]], [[vue]]
     - [[node.js]]
     - [[openresty]]
 * [[game development]]
@@ -37,9 +37,10 @@
         - [[skynet]]
         - [[kbengine]]
 * [[database]]
-    - [[SQL]]: [[mysql]]
+    - [[SQL]]: 
+        - [[mysql]]
     - [[NoSQL]]: 
-        - [[mongo]],[[redis]]
+        - [[mongodb]], [[redis]]
 * [[blockchain]]
 * [[tools]]
     - [[git]],[[svn]],[[docker]]
