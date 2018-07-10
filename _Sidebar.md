@@ -11,7 +11,7 @@
     - [[python]]
     - [[lua]]
 - [[program library]]
-- [[OS for development]]
+- [[operating system]]
     - [[Linux]]
     - [[Mac]]
     - [[Windows]]
@@ -39,9 +39,9 @@
 - [[DevOps]]
     - [[docker]]
 - [[database]]
-    - [[SQL]]: 
+    - [[SQL]]
         - [[mysql]]
-    - [[NoSQL]]: 
+    - [[NoSQL]]
         - [[mongodb]], [[redis]]
 - [[blockchain]]
     - [[bitcoin]]
