@@ -9,7 +9,7 @@
     - [[machine learning]]
 * [[programming language]]
     - [[c]]/[c++](../C-plus-plus)
-    - [[golang]]
+    - [[golang]]:[[docker]]
     - [[python]]
     - [[lua]]
 * [[program library]]
@@ -43,8 +43,6 @@
 * [[tools]]
     - [[git]], [[svn]]
     - [[editor]]
-    - [[docker]]
-    - [[designer]]
     - [[third part]]
 * [[cheat sheet]]
 * [[test]]
