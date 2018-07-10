@@ -1,20 +1,12 @@
 ## Index
 ### Html5
-- [[egret]]
-- [[layabox]]
-- [[phaser]]
+- [[phaser]], [[egret]], [[layabox]]
 
 ### 2D
-- [[love2d]]
-- [[godot]]
-- [[ejoy2d]]
-- [[cocos2dx]]
+- [[love2d]], [[godot]], [[ejoy2d]], [[cocos2dx]]
 
 ### 3D
-- [[gameplay3d]]
-- [[urho3d]]
-- [[unity3d]]
-- [[unreal]]
+- [[gameplay3d]], [[urho3d]], [[unity3d]], [[unreal]]
 
 
 ## Game Engine and Framework
@@ -32,5 +24,4 @@
 
 ## 3rd sdk
 - [quicksdk](https://www.quicksdk.com/) sdk升级问题，待考证！
-
 
