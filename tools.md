@@ -3,23 +3,8 @@
 - 指定url内查找相关信息 - 将以下内容放入Google的搜索框内并回车:   
     `site:https://github.com/doubility-sky/daydayup/wiki 搜索`
 
-# Linux
-- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
-- [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
-
-# 代码相关
-### 格式化
-- [Artistic Style](http://astyle.sourceforge.net/)   
-  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:
-```
-AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-classes --attach-inlines --indent-switches --indent-col1-comments --pad-oper --pad-header --unpad-paren --align-pointer=type --fill-empty-lines --add-brackets --recursive --suffix=none *.c *.cpp *.h *.hpp
-```
-- [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
-  [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
-
-### 行数统计
-- [Count Lines of Code](https://github.com/AlDanial/cloc)
-
+# 设计工具
+- [Axure RP](http://www.axure.com/) UI设计软件
 
 # 绘图工具
 ### [Graphviz](http://www.graphviz.org/) 
@@ -62,4 +47,16 @@ AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-c
 
 
 
+# 代码相关
+### 格式化
+- [Artistic Style](http://astyle.sourceforge.net/)   
+  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:
+```
+AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-classes --attach-inlines --indent-switches --indent-col1-comments --pad-oper --pad-header --unpad-paren --align-pointer=type --fill-empty-lines --add-brackets --recursive --suffix=none *.c *.cpp *.h *.hpp
+```
+- [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
+  [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
+
+### 行数统计
+- [Count Lines of Code](https://github.com/AlDanial/cloc)
 
