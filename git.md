@@ -21,6 +21,7 @@
 - [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
+- [githug](https://github.com/Gazler/githug)
 ### git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
