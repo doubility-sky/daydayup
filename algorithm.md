@@ -11,4 +11,8 @@ https://en.wikipedia.org/wiki/Algorithm
 
 ## Subjects
 - [计算几何算法概览](http://dev.gameres.com/Program/Abstract/Geometry.htm)
+    - [The Computational Geometry Algorithms Library](https://www.cgal.org/)
 - [字符串匹配算法：KMP](http://www.ruanyifeng.com/blog/2013/05/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm.html)
+
+## Others
+- [knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)
