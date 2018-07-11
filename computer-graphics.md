@@ -4,6 +4,7 @@
 - 隶属于 [[computer science]]
 - 也是 [[game development]] 中，[[game client]] 的重要部分
 
-## Rendering
+## library
+- https://skia.org/
 - https://github.com/bkaradzic/bgfx
 
