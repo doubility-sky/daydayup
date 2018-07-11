@@ -4,6 +4,7 @@ http://nosql-database.org/
 - [memcached](http://www.memcached.org/)
 - [[mongodb]]
 - [[redis]]
+- [leveldb](http://leveldb.org/)
 
 ## others
 - [ssdb](http://ssdb.io/zh_cn/)
