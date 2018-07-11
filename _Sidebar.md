@@ -3,6 +3,7 @@
 - [[computer science]]
     - [[algorithm]]
     - [[compiler]]
+    - [[computer graphics]]
     - [[networking]]
     - [[machine learning]]
 - [[operating system]]
