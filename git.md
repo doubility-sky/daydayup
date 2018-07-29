@@ -40,6 +40,7 @@
 - `git reset --hard` 把tracked的文件revert到前一个版本
 ### gitignore
 - https://github.com/github/gitignore
+- [忽略特定结构目录](https://ruby-china.org/topics/23561)
 ### 统计
 - https://github.com/oleander/git-fame-rb
 ### 永久删除某个文件，包括服务器端
