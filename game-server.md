@@ -19,6 +19,11 @@
 - [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
 
 
+# Open Project
+- [MaNGOS](https://github.com/mangos/MaNGOS)
+- [TrinityCore](https://github.com/TrinityCore/TrinityCore)
+
+
 # Summary
 - [[game server dev summary]]
 
