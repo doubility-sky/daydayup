@@ -7,7 +7,7 @@
   - [[gonet]]
   - [leaf](https://github.com/name5566/leaf)
   - [goworld](https://github.com/xiaonanln/goworld)
-- [[c++]]
+- [c++](../C-plus-plus)
   - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
 - [[javascript]]
   - [colyseus](https://github.com/gamestdio/colyseus)
