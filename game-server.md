@@ -20,6 +20,7 @@
 
 
 # Open Project
+- https://github.com/ketoo/NoahGameFrame
 - [MaNGOS](https://github.com/mangos/MaNGOS)
 - [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 
