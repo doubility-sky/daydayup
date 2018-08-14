@@ -49,8 +49,9 @@
 
 # 代码相关
 ### 编辑器
-- vim 编辑器之神
-- emacs 神的编辑器
+- vim
+  - [The Ultimate vimrc](https://github.com/amix/vimrc)
+- emacs
 - 新世纪编辑器
     - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品") 基于 electron
     - [vscode](https://code.visualstudio.com/) 微软出品，与 atom 一样基于 electron
