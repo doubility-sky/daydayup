@@ -5,13 +5,13 @@
 - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 
 
-## FAQ
+## Common
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `hostname XXXX` 临时修改主机名为 XXXX
   - `vi /etc/hostname` 永久修改主机名
-    - `vi /etc/hosts` 添加新主机名回环地址映射
+  - `vi /etc/hosts` 添加新主机名回环地址映射
 
 
 ## 搭建服务器环境 
@@ -115,9 +115,10 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
-### tmux
+### [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
+
 
 ### Shell & Script
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
