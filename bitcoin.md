@@ -6,3 +6,6 @@
 ## [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook)
 - [Mastering Bitcoin](https://en.bitcoin.it/wiki/Mastering_Bitcoin)
 - [精通比特币](http://zhibimo.com/read/wang-miao/mastering-bitcoin/index.html)
+
+## 源码
+- [比特币源码解析系列](https://blog.csdn.net/pure_lady/article/details/77623301)
