@@ -1,9 +1,11 @@
 https://en.wikipedia.org/wiki/Algorithm
 
 ## Learn
-- [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+- https://github.com/enkerewpo/OI-Public-Library
 - https://github.com/soulmachine/acm-cheat-sheet
 - [GeeksforGeeks](http://www.geeksforgeeks.org/)
+- [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+
 
 ## Projects
 - https://github.com/tayllan/awesome-algorithms
