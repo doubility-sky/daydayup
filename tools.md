@@ -45,7 +45,10 @@
   - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
 - GUI https://imageoptim.com/
 
-
+# 音频处理
+- `lame --mp3input --abr 32 ${infile} ${outfile}.mp3`
+- `ffmpeg -i "$file" -f mp3 "${filename}.mp3"`
+- [使用 audacity/lame/ffmpeg 进行 mp3 文件瘦身](http://blog.zengrong.net/post/2624.html)
 
 # 代码相关
 ### 编辑器
