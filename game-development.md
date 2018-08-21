@@ -1,6 +1,12 @@
 
 
 ## Open Project
+- [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
+- [开源游戏列表](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E6%B8%B8%E6%88%8F%E5%88%97%E8%A1%A8)
+- [2015 年度五款最佳开源游戏](https://github.com/OCselected/opensource-2015-yearbook-zh/blob/master/5-best-game-2015.md)
+- [10 个你会喜欢玩的开源游戏](https://www.oschina.net/news/21586/10-best-open-source-games)
+- https://www.wesnoth.org/
+- https://www.themanaworld.org/
 - [BrowserQuest](https://github.com/mozilla/BrowserQuest)
 - [Quake](https://github.com/id-Software/Quake)
 - [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
