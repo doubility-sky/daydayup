@@ -4,7 +4,7 @@
     - [[algorithm]]
     - [[compiler]]
     - [[computer graphics]]
-    - [[networking]]
+    - [[networks]]
     - [[machine learning]]
 - [[operating system]]
     - [[Linux]]
