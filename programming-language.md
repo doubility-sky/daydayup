@@ -1,14 +1,18 @@
-# TODO
+# index
 - [[assembly]]
-- [c++](https://github.com/doubility-sky/daydayup/wiki/C-plus-plus)
-- [[java]]
+- [[c]]/[c++](C-plus-plus)
 - [[c#]]
+- [[java]]
+- [[javascript]]
+- [[lua]]
+- [[golang]]
+- [[rust]]
+- [[python]]
 - [[ruby]]
 - [[erlang]]
 - [[lisp]]
 - [[haskell]]
-- [[rust]]
-
 
 # Principle
-todo...
+- [[compiler]]
+
