@@ -48,10 +48,27 @@
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
 ### 格式化
 - [Artistic Style](http://astyle.sourceforge.net/)   
-  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:
-```
-AStyle.exe --mode=c --style=kr --indent=force-tab --attach-namespaces --attach-classes --attach-inlines --indent-switches --indent-col1-comments --pad-oper --pad-header --unpad-paren --align-pointer=type --fill-empty-lines --add-brackets --recursive --suffix=none *.c *.cpp *.h *.hpp
-```
+  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
+  ```bash
+  #!/bin/sh
+  astyle \
+  --mode=c \
+  --style=kr \
+  --indent=force-tab \
+  --attach-namespaces \
+  --attach-classes \
+  --attach-inlines \
+  --indent-switches \
+  --indent-col1-comments \
+  --pad-oper \
+  --pad-header \
+  --unpad-paren \
+  --align-pointer=type \
+  --fill-empty-lines \
+  --add-brackets \
+  --recursive \
+  --suffix=none *.c *.cpp *.h *.hpp
+  ```
 - [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
   [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
 ### 编辑器
