@@ -31,3 +31,4 @@
 
 ## Projects 
 - https://github.com/FortAwesome/Font-Awesome
+- https://github.com/xingshaocheng/architect-awesome
