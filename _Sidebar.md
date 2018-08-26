@@ -12,7 +12,7 @@
     - [[Windows]]
     - [[ROS]]
 - [[programming language]]
-    - [[c]]/[c++](../C-plus-plus)
+    - [[c]]/[c++](C-plus-plus)
     - [[golang]]
     - [[python]]
     - [[lua]]
