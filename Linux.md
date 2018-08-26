@@ -14,20 +14,19 @@
   - `vi /etc/hosts` 添加新主机名回环地址映射
 
 
-## 搭建服务器环境 
-**注意！下文内容以 CentOS7 为主，其他 linux 发行版一般也适用**
-
-### User
+## User
 - 修改用户密码：
   + 修改当前用户密码：passwd
   + 用root修改某个用户密码：passwd username
 - 添加用户：adduser username
 - 添加root权限：usermod -g root username
 
-### Safe
+
+## Safe
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 
-### SSH
+
+## SSH
 mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
@@ -41,10 +40,12 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   ```
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 
-### iptables
+
+## iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
-### Firewall
+
+## Firewall
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
@@ -70,13 +71,15 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   #解除应急模式
   firewall-cmd --panic-off 
   ```
-### FTP
+
+## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
 - [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
 
-### [[MySQL]]
+
+## [[MySQL]]
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
   - 下载mysql的repo源   
     `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
@@ -84,20 +87,26 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
     `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
   - `$ sudo yum install mysql-server`
   - `$ service mysqld restart`
-  - 修改密码
+  - 开放端口，使用 firewall-cmd 或如下  
+    - `$ sudo vim /etc/sysconfig/iptables`
+    - 添加以下内容  
+      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
+    - `$ sudo service iptables restart`
+- 修改密码
     ```
     $ mysql -u root
     mysql > use mysql;
     mysql > update user set password=password('123456') where user='root';
     mysql > exit;
     ```
-  - 开放端口，使用 firewall-cmd 或如下  
-    - `$ sudo vim /etc/sysconfig/iptables`
-    - 添加以下内容  
-      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
-    - `$ sudo service iptables restart`
+- 修改权限，允许远程访问
+  ```
+  use mysql;
+  update user set host = '%' where user = 'root';
+  flush privileges;
+  ```
 
-### Screen
+## screen
 - [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
 - Frequently Command:
   ```
@@ -115,16 +124,19 @@ mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
-### [tmux](https://github.com/tmux/tmux)
+
+## [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
 
 
-### Shell & Script
+## schedule
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
   再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 
-### GUI
+
+## GUI
 - [Centos 7图形化与安装中文支持与修改时区方法](https://www.wanghailin.cn/centos-7-install-desktop-timezone/)  
   注：其中安装中文语言包的命令应为 yum install kde-l10n-Chinese
+
