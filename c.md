@@ -1,12 +1,8 @@
 # Project
-- [[lua]] ANSI C 实现的世界级项目，简洁（代码仅2W行左右）。
+- [[lua]]
 - [最值得阅读学习的 10 个 C 语言开源项目代码](http://blog.jobbole.com/79023/)
-
+- Some [[compiler]]s by C 
 
 ## Books
-- http://akaedu.github.io/book/
-- https://github.com/learning-linux-c-cpp/akabook
-- https://github.com/orangeduck/BuildYourOwnLisp
-- [C编译器剖析](https://book.douban.com/subject/26814205/)
-    - https://github.com/sheisc/ucc162.3
-
+- [Linux C编程一站式学习](https://github.com/learning-linux-c-cpp/akabook)
+- [Learn C and build your own programming language in under 1000 lines of code!](https://github.com/orangeduck/BuildYourOwnLisp)
