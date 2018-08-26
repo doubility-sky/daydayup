@@ -1,10 +1,10 @@
 # Index
 - [[algorithm]]
 - [[compiler]]
+- [[computer architecture]]
 - [[computer graphics]]
-- [[computer organization]]
 - [[data structure]]
-- [[networking]]
+- [[networks]]
 - [[machine learning]]
 - [[operating system]]
 
