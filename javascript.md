@@ -1,4 +1,5 @@
-## 学习资料
+- [[node.js]]
+- [[react]], [[vue]]
 
 ### 入门资料
 - [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
@@ -7,8 +8,3 @@
 
 ### 规范
 - [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
-
-## 实现 
-- [[node.js]]
-
-
