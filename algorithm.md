@@ -10,6 +10,7 @@ https://en.wikipedia.org/wiki/Algorithm
 ## Projects
 - https://github.com/tayllan/awesome-algorithms
 - https://github.com/parkjs814/AlgorithmVisualizer
+- https://github.com/trekhleb/javascript-algorithms
 
 ## Subjects
 - [计算几何算法概览](http://dev.gameres.com/Program/Abstract/Geometry.htm)
