@@ -8,6 +8,7 @@
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
 - https://github.com/gyuho/learn
 - https://github.com/mtdvio/every-programmer-should-know
+- https://github.com/tuvtran/project-based-learning
 
 ## Practice
 - https://github.com/karan/Projects
