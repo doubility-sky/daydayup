@@ -2,6 +2,7 @@ https://www.python.org
 
 ## Learn
 - [A Byte of Python](https://python.swaroopch.com/)
+- [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python)
 - [PythonShare](https://github.com/Yixiaohan/codeparkshare)
 - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 
