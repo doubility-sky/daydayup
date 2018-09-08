@@ -4,7 +4,10 @@
 - 隶属于 [[computer science]]
 - 也是 [[game development]] 中，[[game client]] 的重要部分
 
-## library
+## Learn
+- https://learnopengl-cn.github.io/
+
+## Library
 - https://skia.org/
 - https://github.com/bkaradzic/bgfx
 
