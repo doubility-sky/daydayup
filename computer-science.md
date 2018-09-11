@@ -8,8 +8,6 @@
 - [[machine learning]]
 - [[operating system]]
 
-# Courses
-- https://github.com/prakhar1989/awesome-courses
 
 # Education
 - [[scratch]]
@@ -18,6 +16,13 @@
 - [教孩子学习编程基础知识的 10 个工具](http://blog.jobbole.com/77291/)
 - [教孩子们编程，相关学习资源](http://blog.jobbole.com/49786/)
 
+
+# Courses
+- https://github.com/prakhar1989/awesome-courses
+- https://github.com/CyC2018/CS-Notes
+
+
 # Papers
 - https://github.com/papers-we-love/papers-we-love
+
 
