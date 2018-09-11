@@ -34,6 +34,7 @@
 - https://github.com/CyC2018/Interview-Notebook
 
 ## Others
+- https://github.com/kamranahmedse/design-patterns-for-humans
 - https://github.com/zhuangbiaowei/learn-with-open-source
 - [图说设计模式](https://github.com/me115/design_patterns)
 - [年信息安全从业者书单推荐](https://github.com/riusksk/secbook)
