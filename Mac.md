@@ -5,6 +5,11 @@
 - `brew install ncdu` http://www.yewen.us/blog/2015/09/ncdu-on-os-x/  
   `ncdu / --exclude /Volumes`
 
+
+## Projects
+- https://github.com/serhii-londar/open-source-mac-os-apps
+
+
 ## FAQ
 - 选中多个文件 `command+option+i` 查看总大小
 - [Mac的最大连接数限制和端口的相关参数的设置](http://tinylee.info/mac-maxfiles-portrange.html)
