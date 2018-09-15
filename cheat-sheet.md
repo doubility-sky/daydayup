@@ -29,6 +29,7 @@
 - https://github.com/danistefanovic/build-your-own-x
 
 ## Interview
+- https://github.com/imhuay/Algorithm_Interview_Notes-Chinese
 - https://github.com/MaximAbramchuck/awesome-interview-questions
 - https://github.com/jwasham/coding-interview-university
 - https://github.com/CyC2018/Interview-Notebook
