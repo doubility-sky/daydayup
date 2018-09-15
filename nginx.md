@@ -1,0 +1,2 @@
+- http://nginx.org/
+- https://github.com/fcambus/nginx-resources
