@@ -33,6 +33,7 @@
 - https://github.com/MaximAbramchuck/awesome-interview-questions
 - https://github.com/jwasham/coding-interview-university
 - https://github.com/CyC2018/Interview-Notebook
+- https://github.com/resume/resume.github.com
 
 ## Others
 - https://github.com/kamranahmedse/design-patterns-for-humans
