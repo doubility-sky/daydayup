@@ -1,5 +1,8 @@
 https://github.com/ripienaar/free-for-dev
 
+# Command line
+- https://github.com/jlevy/the-art-of-command-line
+
 # Search
 - 指定url内查找相关信息，将以下内容放入Google的搜索框内并回车:   
     `site:https://github.com/doubility-sky/daydayup/wiki 搜索`
