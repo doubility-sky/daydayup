@@ -6,6 +6,8 @@
 
 ## Learn
 - https://learnopengl-cn.github.io/
+- https://github.com/eug/awesome-opengl
+- https://github.com/jbhuang0604/awesome-computer-vision
 
 ## Library
 - https://skia.org/
