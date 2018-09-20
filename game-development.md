@@ -4,6 +4,18 @@
 - https://github.com/marukrap/RoguelikeDevResources
 
 
+## Awesome
+- https://github.com/mbrukman/awesome-gamedev
+- https://github.com/gbdev/awesome-gbdev
+- https://github.com/felipebueno/awesome-PICO-8
+- https://github.com/hkirat/awesome-chess
+- https://github.com/Calinou/awesome-godot
+- https://github.com/love2d-community/awesome-love2d
+- https://github.com/WebCreationClub/awesome-construct
+- https://github.com/stetso/awesome-gideros
+- https://github.com/yrgo/awesome-eg A curated list of awesome educational games to learn editors, languages, programming, etc
+
+
 ## Open Project
 - [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
 - [开源游戏列表](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E6%B8%B8%E6%88%8F%E5%88%97%E8%A1%A8)
