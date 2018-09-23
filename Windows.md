@@ -1,1 +1,2 @@
+- https://github.com/Awesome-Windows/Awesome
 - [Windows 命令行基础](https://blog.henix.info/blog/windows-cmdbasic/)
