@@ -3,6 +3,8 @@
 
 https://github.com/isocpp/CppCoreGuidelines
 
+## library
+- https://github.com/nothings/single_file_libs
 
 ## projects
 - https://github.com/fffaraz/awesome-cpp
