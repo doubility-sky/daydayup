@@ -7,6 +7,7 @@
 
 
 ## Projects
+- https://github.com/jaywcjlove/awesome-mac
 - https://github.com/serhii-londar/open-source-mac-os-apps
 
 
