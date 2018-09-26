@@ -4,15 +4,11 @@
 - [[python]]
   - [[kbengine]]
 - [[golang]]
-  - [[gonet]]
-  - [leaf](https://github.com/name5566/leaf)
-  - [goworld](https://github.com/xiaonanln/goworld)
+  - [[gonet]], [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
 - [c++](../C-plus-plus)
   - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
 - [[javascript]]
-  - [colyseus](https://github.com/gamestdio/colyseus)
-  - [mage](https://github.com/mage/mage)
-  - [[pomelo]] stopped maintenance
+  - [colyseus](https://github.com/gamestdio/colyseus), [mage](https://github.com/mage/mage), [[pomelo]] stopped maintenance
 
 
 # Open Project
