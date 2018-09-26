@@ -15,7 +15,7 @@
 - [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
 
 ### golang
-- [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
+- [oak](https://github.com/oakmound/oak), [ebiten](https://github.com/hajimehoshi/ebiten), [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
 - https://awesome-go.com/#game-development
 
 
