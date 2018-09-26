@@ -11,7 +11,7 @@
 - [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
 
 ### 3D
-- [[godot]], [[unity3d]], [[unreal]]
+- [[godot]], [[unity3d]], [[unreal]], [panda3d](https://github.com/panda3d/panda3d)
 - [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
 
 ### golang
