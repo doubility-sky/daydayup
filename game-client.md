@@ -8,7 +8,7 @@
 
 ### 2D
 - [[godot]], [[cocos2dx]]
-- [[love2d]], [[pygame]], [[ejoy2d]]
+- [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
 
 ### 3D
 - [[godot]], [[unity3d]], [[unreal]]
