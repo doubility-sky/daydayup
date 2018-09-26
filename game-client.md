@@ -1,17 +1,22 @@
-## Index
+## Game Engine/Framework
+- 
+- [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
+- [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
+
 ### Html5
-- [[phaser]], [[egret]], [[layabox]]
+- [[phaser]], [[egret]], ~~[[layabox]]~~
 
 ### 2D
-- [[love2d]], [[godot]], [[ejoy2d]], [[cocos2dx]]
+- [[godot]], [[cocos2dx]]
+- [[love2d]], [[pygame]], [[ejoy2d]]
 
 ### 3D
-- [[unity3d]], [[unreal]], [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
+- [[godot]], [[unity3d]], [[unreal]]
+- [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
 
-
-## Game Engine and Framework
-- [2016年 最火的 15 款 HTML5 游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
-    - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
+### golang
+- [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
+- https://awesome-go.com/#game-development
 
 
 ## 美术
