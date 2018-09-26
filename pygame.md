@@ -1,1 +1,2 @@
-https://www.pygame.org/news
+- https://www.pygame.org/news
+- https://github.com/pygame/pygame
