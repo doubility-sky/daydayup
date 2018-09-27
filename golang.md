@@ -32,10 +32,8 @@
 
 ## Open Source
 - https://github.com/avelino/awesome-go
-- game engine:
-  - [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
-- game server: 
-  - [[gonet]], [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
+- [[game-client]]: [oak](https://github.com/oakmound/oak), [ebiten](https://github.com/hajimehoshi/ebiten), [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
+- [[game-server]]: [[gonet]], [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
 
 
 ## FAQ
