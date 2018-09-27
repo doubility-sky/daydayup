@@ -11,10 +11,10 @@
 - [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
 
 ### 3D
-- [[godot]], [[unity3d]], [[unreal]], [panda3d](https://github.com/panda3d/panda3d)
+- [[godot]], [panda3d](https://github.com/panda3d/panda3d), [[unity3d]], [[unreal]]
 - [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
 
-### golang
+### [[golang]]
 - [oak](https://github.com/oakmound/oak), [ebiten](https://github.com/hajimehoshi/ebiten), [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine)
 - https://awesome-go.com/#game-development
 
