@@ -28,6 +28,8 @@ https://github.com/ripienaar/free-for-dev
     - `find . -name '*.png' -exec pngquant --ext .png --force 256 {} \;` 
     - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
 - https://tinypng.com/ - Up to 20 images, max 5 MB each.
+- http://nullice.com/limitPNG/
+- http://nullice.com/gluttonyPNG
 
 
 # 音频处理
