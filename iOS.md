@@ -14,6 +14,7 @@
 
 ## Projects
 - https://github.com/vsouza/awesome-ios
+- https://github.com/learn-anything/ios-apps
 - https://github.com/dkhamsing/open-source-ios-apps
 
 ## AppStore
