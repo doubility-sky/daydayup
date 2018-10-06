@@ -8,3 +8,5 @@ https://love2d.org/wiki/Main_Page
 
 # Projects
 - https://github.com/love2d-community/awesome-love2d
+- https://github.com/Stabyourself/mari0
+- https://github.com/Stabyourself/orthorobot
