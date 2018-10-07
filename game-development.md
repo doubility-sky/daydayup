@@ -6,6 +6,7 @@
 
 ## Awesome
 - https://github.com/mbrukman/awesome-gamedev
+- https://github.com/Calinou/awesome-gamedev
 - https://github.com/gbdev/awesome-gbdev
 - https://github.com/felipebueno/awesome-PICO-8
 - https://github.com/hkirat/awesome-chess
