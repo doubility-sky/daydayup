@@ -81,11 +81,9 @@ https://github.com/ripienaar/free-for-dev
 - vim
   - [The Ultimate vimrc](https://github.com/amix/vimrc)
 - emacs
-- 新世纪编辑器
-    - [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品") 基于 electron
-    - [vscode](https://code.visualstudio.com/) 微软出品，与 atom 一样基于 electron
-- 小清新
-    - [[sublime]] 速度飞快 (打开大文件表现好）
-    - notepad++ (Windows Only)
-- 重量级
-    - [source insight](http://www.sourceinsight.com/) 收费，windows only
+- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品") 基于 electron
+- [vscode](https://code.visualstudio.com/) 微软出品，与 atom 一样基于 electron
+  - https://github.com/viatsko/awesome-vscode
+- [[sublime]] 速度快 (打开大文件表现好）
+- [notepad++](https://notepad-plus-plus.org/) (Windows Only)
+- [source insight](http://www.sourceinsight.com/) 收费，windows only
