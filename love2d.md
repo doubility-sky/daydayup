@@ -6,6 +6,7 @@ https://love2d.org/
 
 # Utils
 - https://github.com/rxi/lurker
+- https://github.com/rxi/lovebird
 - https://github.com/vrld/hump
 
 # Projects
