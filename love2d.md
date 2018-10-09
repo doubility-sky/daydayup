@@ -1,10 +1,12 @@
 https://love2d.org/
 
 # Learn
-https://love2d.org/wiki/Main_Page
-
-# Community
+- https://love2d.org/wiki/Main_Page
 - https://love2d-community.github.io/
+
+# Utils
+- https://github.com/rxi/lurker
+- https://github.com/vrld/hump
 
 # Projects
 - https://github.com/love2d-community/awesome-love2d
