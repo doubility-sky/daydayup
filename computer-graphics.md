@@ -1,16 +1,20 @@
 # 计算机图形学
 隶属于 [[computer science]] 也是 [[game development]] 中，[[game client]] 的重要部分
-
-
-## Learn
-- https://learnopengl-cn.github.io/
-- https://github.com/spmallick/learnopencv
-- https://github.com/eug/awesome-opengl
 - https://github.com/jbhuang0604/awesome-computer-vision
 
 
-## Library
+# OpenGL
+- https://github.com/JoeyDeVries/LearnOpenGL, [learnopengl](https://learnopengl.com/), [learnopengl-cn](https://learnopengl-cn.github.io/)
+
+
+# OpenCV
+- https://github.com/opencv/opencv
+- https://github.com/eug/awesome-opengl
+- https://github.com/spmallick/learnopencv
+
+
+# Library
 - https://skia.org/
 - https://github.com/bkaradzic/bgfx
-- https://github.com/opencv/opencv
+
 
