@@ -22,6 +22,7 @@
 - [闯过这 54 关，点亮你的 Git 技能树](https://codingstyle.cn/topics/51)
 - [GitHub 漫游指南](https://github.com/phodal/github-roam)
 - [githug](https://github.com/Gazler/githug)
+- https://github.com/521xueweihan/git-tips
 ### git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
@@ -29,6 +30,7 @@
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 - https://github.com/kamranahmedse/githunt
+- https://github.com/521xueweihan/HelloGitHub
 ### 资料 reference
 - [Git如何存储文件-git存储数据结构](http://eagain.net/articles/git-for-computer-scientists/)
 
