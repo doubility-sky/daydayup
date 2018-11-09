@@ -1,16 +1,12 @@
+- [[objective-C]]
+- [[swift]]
+
 ## 入门资料
 - [斯坦福大学公开课 ios7-objective-c](http://open.163.com/special/opencourse/ios7.html)
 - [斯坦福大学公开课 ios8-swift](http://open.163.com/special/opencourse/ios8.html)
 - [IOS 绘图机制](http://www.cocoachina.com/industry/20140115/7703.html)
 - https://github.com/futurice/ios-good-practices
 
-## Objective-C
-- https://github.com/ibireme/YYKit
-- [iOS如何获得网络状态相关信息](http://www.jianshu.com/p/e8e8803c3b5d)
-
-## Swift 
-- https://github.com/ipader/SwiftGuide
-- https://github.com/numbbbbb/the-swift-programming-language-in-chinese
 
 ## Projects
 - https://github.com/vsouza/awesome-ios
