@@ -1,12 +1,13 @@
-- [[objective-C]]
+## Programming Languages
+- [[Objective-C]]
 - [[swift]]
 
-## 入门资料
+## Learn
 - [斯坦福大学公开课 ios7-objective-c](http://open.163.com/special/opencourse/ios7.html)
 - [斯坦福大学公开课 ios8-swift](http://open.163.com/special/opencourse/ios8.html)
 - [IOS 绘图机制](http://www.cocoachina.com/industry/20140115/7703.html)
 - https://github.com/futurice/ios-good-practices
-
+- [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
 
 ## Projects
 - https://github.com/vsouza/awesome-ios
@@ -22,6 +23,7 @@
   `-pagezero_size 10000 -image_base 100000000`
 - 两个iphone搭建ipv6环境 https://zhang759740844.github.io/2017/03/31/%E7%94%B1%E4%BA%8EIPv6%E8%A2%AB%E6%8B%92/
 
-## 其他
+## FAQ
+- [iOS如何获得网络状态相关信息](http://www.jianshu.com/p/e8e8803c3b5d)
 - 协作开发时，team设置为个人账号或none，如果在fix issuse时出现内购错误，可以删除linked库StoreKit.framework、并重新fix issue
-- [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
+
