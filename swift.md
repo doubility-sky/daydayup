@@ -1,3 +1,7 @@
-## Swift 
+
+- https://swift.org/
+- https://developer.apple.com/swift/
+
+## Learn
 - https://github.com/ipader/SwiftGuide
 - https://github.com/numbbbbb/the-swift-programming-language-in-chinese
