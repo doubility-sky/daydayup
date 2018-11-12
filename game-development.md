@@ -1,3 +1,8 @@
+
+## Learn
+- [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
+
+
 ## Resource
 - [Games on GitHub](https://github.com/leereilly/games) A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
 - https://github.com/ellisonleao/magictools
