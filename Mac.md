@@ -2,8 +2,9 @@
 
 ## Tools
 - [tree 命令，终端展示你的目录树结构](http://yijiebuyi.com/blog/c0defa3a47d16e675d58195adc35514b.html)
-- `brew install ncdu` http://www.yewen.us/blog/2015/09/ncdu-on-os-x/  
-  `ncdu / --exclude /Volumes`
+- [OS X 磁盘空间分析工具: ncdu](http://www.yewen.us/blog/2015/09/ncdu-on-os-x/)
+  - `brew install ncdu`
+  - `ncdu / --exclude /Volumes`
 - https://github.com/sindresorhus/quick-look-plugins
 
 
