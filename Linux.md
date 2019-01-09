@@ -27,14 +27,17 @@
 
 
 ## SSH
-mac/linux 远程连接命令类似： `ssh root@xxx.xxx.xxx.xxx`
+- mac/linux 远程连接命令类似：`ssh -p 12345 root@xxx.xxx.xxx.xxx`
+  - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
+  - ssh copy 文件至远端 `scp -P xx.txt root@xxx.xxx.xxx.xxx:~/` 注意 -P 为大写
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
   修改本地文件 `~/.ssh/config` (没有则用命令 touch 创建)  
-  按如下格式添加内容 
+  按如下格式添加内容，其中 Port 默认为 22 
   ```
-  Host xxx
-  HostName 123.4.5.6
+  Host alias
+  HostName 172.217.31.238
+  Port 12345
   User root
   IdentityFile ~/.ssh/xxx_rsa
   ```
