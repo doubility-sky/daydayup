@@ -1,17 +1,6 @@
 - http://golang.org/  
 - https://talks.golang.org/
-
-## Creators
-- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
-- [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
-- [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
-- [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
-
-## Philosophy
-- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
-    - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
-- [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
-    - http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
+- https://github.com/golang/go/wiki
 
 ## Learn
 - 快速入门：[A Tour of Go](https://tour.golang.org/)，[Go by Example](https://gobyexample.com/) 
@@ -26,6 +15,19 @@
 - [Go Data Structures](https://research.swtch.com/godata)
 - [The Golang Standard Library by Example
 ](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+
+#### Philosophy
+- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
+    - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
+- [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
+    - http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
+
+#### Creators
+- [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
+- [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
+- [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
+- [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
+
 
 ## Standard
 - [Effective Go](https://golang.org/doc/effective_go.html)
