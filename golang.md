@@ -16,6 +16,11 @@
 - [The Golang Standard Library by Example
 ](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 
+#### Standard
+- [Effective Go](https://golang.org/doc/effective_go.html)
+- [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+- [Go编码规范指南](https://gocn.io/article/1)
+
 #### Philosophy
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
     - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
@@ -28,11 +33,6 @@
 - [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
 - [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)  
 
-
-## Standard
-- [Effective Go](https://golang.org/doc/effective_go.html)
-- [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
-- [Go编码规范指南](https://gocn.io/article/1)
 
 ## Open Source
 - https://github.com/avelino/awesome-go
@@ -66,3 +66,4 @@ windows 386 / amd64 >= Windows 2000
 
 ## 工具
 - vscode + vscode-go 可做跨平台IDE
+
