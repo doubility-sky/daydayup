@@ -4,11 +4,6 @@
 - https://git-scm.com/downloads/guis 官方推荐大合集
 - https://www.sourcetreeapp.com/ win/mac, free
 - https://www.gitkraken.com/ linux/win/mac，linux下推荐使用
-### [Gitlab](https://about.gitlab.com/)
-- 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
-- [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
-- [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
-- [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
 
 ## Learn
 ### 文档 
@@ -16,6 +11,7 @@
 - [Pro Git book V2](https://git-scm.com/book/en/v2)
 - [Pro Git book 中文版](https://git-scm.com/book/zh)
 ### 教程
+- https://github.com/geeeeeeeeek/git-recipes
 - http://rogerdudler.github.io/git-guide/
 - [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
 - [廖雪峰GIT教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
@@ -26,13 +22,18 @@
 ### git flow : 项目开发分支模型
 - [git flow原文](http://nvie.com/posts/a-successful-git-branching-model/)
 - [git flow翻译](http://www.ituring.com.cn/article/56870)
+### 资料 reference
+- [Git如何存储文件-git存储数据结构](http://eagain.net/articles/git-for-computer-scientists/)
 ### 玩转GitHub
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 - https://github.com/kamranahmedse/githunt
 - https://github.com/521xueweihan/HelloGitHub
-### 资料 reference
-- [Git如何存储文件-git存储数据结构](http://eagain.net/articles/git-for-computer-scientists/)
+### [Gitlab](https://about.gitlab.com/)
+- 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
+- [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
+- [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
+- [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
 
 
 ## 常用 Git 操作
