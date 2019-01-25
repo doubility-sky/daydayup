@@ -20,6 +20,42 @@ https://github.com/ripienaar/free-for-dev
   - 批量拉伸(强制拉伸)当前目录下所有jpg至指定大小: `mogrify -resize 2732x2048! *.jpg`
   - 批量关闭 alpha 通道，设置背景色 `mogrify -background white -alpha off *.png`
   - 裁剪 `convert xxx.png -crop 229X81+0+82 +repage xxx-1.png`
+- 生成 android icon 集合
+```shell
+#!/bin/sh
+if [ "$1" == "" ]; then
+	echo "must have name of png"
+	exit 1
+fi
+
+dir=$1-res
+pic=$1.png
+
+mkdir ./$dir
+convert -resize 180x180! $pic ./$dir/shareicon.png
+
+mkdir -p ./$dir/drawable
+convert -resize 180x180! $pic ./$dir/drawable/$pic
+
+mkdir -p ./$dir/drawable-hdpi
+convert -resize 72x72!   $pic ./$dir/drawable-hdpi/$pic
+
+mkdir -p ./$dir/drawable-ldpi
+convert -resize 36x36!   $pic ./$dir/drawable-ldpi/$pic
+
+mkdir -p ./$dir/drawable-mdpi
+convert -resize 48x48!   $pic ./$dir/drawable-mdpi/$pic
+
+mkdir -p ./$dir/drawable-xhdpi
+convert -resize 96x96!   $pic ./$dir/drawable-xhdpi/$pic
+
+mkdir -p ./$dir/drawable-xxhdpi
+convert -resize 144x144! $pic ./$dir/drawable-xxhdpi/$pic
+
+mkdir -p ./$dir/drawable-xxxhdpi
+convert -resize 192x192! $pic ./$dir/drawable-xxxhdpi/$pic
+```
+
 
 ### 图像压缩
 - [pngquant](https://pngquant.org/)
