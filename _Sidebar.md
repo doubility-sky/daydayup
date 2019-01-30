@@ -38,7 +38,7 @@
     - [[docker]]
 - [[database]]
     - [[SQL]]
-        - [[mysql]]
+        - [[MySQL]], [[PostgreSQL]]
     - [[NoSQL]]
         - [[mongodb]], [[redis]]
 - [[blockchain]]
