@@ -27,6 +27,7 @@
 - https://github.com/sindresorhus/awesome
 - https://github.com/bayandin/awesome-awesomeness
 - https://github.com/danistefanovic/build-your-own-x
+- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
 
 ## Interview
 - https://github.com/imhuay/Algorithm_Interview_Notes-Chinese
