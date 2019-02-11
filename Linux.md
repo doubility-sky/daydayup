@@ -48,7 +48,12 @@
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
 
+
 ## Firewall
+## ufw
+- `ufw allow xxx:yyy/tcp` 开放 xxx 到 yyy 端口段
+ 
+### firewall-cmd
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
@@ -57,21 +62,18 @@
   ```
   # 指定192.168.0.X可以连接8080, 10秒后失效
   firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.0/24" port port="8080" protocol="tcp" accept' --timeout=10
-
   # 指定192.168.0.1不可以连接8080
   firewall-cmd --permanent --zone=public --add-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
-
   # 取消rule
   firewall-cmd --permanent --zone=public --remove-rich-rule 'rule family="ipv4" source address="192.168.0.1" port port="8080" protocol="tcp|udp" reject'
-
   # 重启防火墙服务，令规则生效
   systemctl restart firewalld.service
   ```
 - 应急模式，阻断或放开所有网络
   ```
-  #启动应急模式，阻止所有网络
+  # 启动应急模式，阻止所有网络
   firewall-cmd --panic-on
-  #解除应急模式
+  # 解除应急模式
   firewall-cmd --panic-off 
   ```
 
