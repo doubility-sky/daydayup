@@ -18,6 +18,8 @@
 
 
 # Courses
+- https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo
+  - https://github.com/1c7/crash-course-computer-science-chinese
 - https://github.com/prakhar1989/awesome-courses
 - https://github.com/CyC2018/CS-Notes
 
