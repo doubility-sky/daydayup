@@ -63,9 +63,10 @@ convert -resize 192x192! $pic ./$dir/drawable-xxxhdpi/$pic
   - [recursively-batch-process-files-with-pngquant](https://stackoverflow.com/questions/9647920/recursively-batch-process-files-with-pngquant)
     - `find . -name '*.png' -exec pngquant --ext .png --force 256 {} \;` 
     - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
-- https://tinypng.com/ - Up to 20 images, max 5 MB each.
-- http://nullice.com/limitPNG/
-- http://nullice.com/gluttonyPNG
+- https://tinypng.com/ - Up to 20 images, max 5 MB each
+- http://ppduck.com/
+- https://github.com/chrissimpkins/Crunch
+- ~~http://nullice.com/limitPNG , http://nullice.com/gluttonyPNG~~ 已无人维护，bug多不推荐
 
 
 # 音频处理
