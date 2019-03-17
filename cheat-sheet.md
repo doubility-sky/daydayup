@@ -1,10 +1,11 @@
 # ~~作弊小抄~~通关秘籍
 
 ## 大师指导方针
-- [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)  
 - [21天学会C++](http://coolshell.cn/articles/2250.html)
+- [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)  
 
 ## 速~~成~~览手册
+- [modest collection of cheatsheets](https://devhints.io/)
 - [Learn X in Y minutes](https://learnxinyminutes.com/)
 - https://github.com/gyuho/learn
 - https://github.com/mtdvio/every-programmer-should-know
