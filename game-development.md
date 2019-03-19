@@ -2,6 +2,7 @@
 ## Learn
 - [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
 - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
+- https://gamedevelopment.tutsplus.com/
 
 
 ## Resource
