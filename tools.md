@@ -1,6 +1,5 @@
-https://github.com/ripienaar/free-for-dev
 
-# Command line
+# CMD
 - https://github.com/jlevy/the-art-of-command-line
 
 # Search
