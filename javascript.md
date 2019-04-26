@@ -1,4 +1,5 @@
 - [[node.js]]
+- [[typescript]]
 - [[react]], [[vue]]
 
 ### 入门资料
