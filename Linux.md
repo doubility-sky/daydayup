@@ -13,6 +13,7 @@
 - `hostname XXXX` 临时修改主机名为 XXXX
   - `vi /etc/hostname` 永久修改主机名
   - `vi /etc/hosts` 添加新主机名回环地址映射
+- `apt update`
 
 
 ## User
