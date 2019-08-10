@@ -47,6 +47,7 @@
     - [[ethereum]]
 - [[tools]]
     - [[git]], [[svn]]
+    - [[document]]
     - [[third party]]
 - [[cheat sheet]]
 - [[test]]
