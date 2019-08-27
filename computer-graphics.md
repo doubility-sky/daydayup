@@ -17,7 +17,7 @@
 - https://skia.org/
 - https://github.com/bkaradzic/bgfx
 
-# tutorial
+# Tutorial
 
 - [computer-graphics-from-scratch](https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html)
 
