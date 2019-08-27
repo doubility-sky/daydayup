@@ -13,3 +13,9 @@
 - [Software Foundation](https://softwarefoundations.cis.upenn.edu/)
 
 这四卷大部头是形式验证领域的经典，第一卷从逻辑再配合Coq语言做形式化验证，逐步带你怎样证明程序的正确性
+
+## 函数式编程
+
+- [Discrete Mathematics and Functional Programming](https://cs.wheaton.edu/~tvandrun/dmfp/)
+
+离散数学与函数式编程，涉及了些类型系统与代数结构的知识。
