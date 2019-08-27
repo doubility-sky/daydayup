@@ -6,6 +6,8 @@
     - [[computer graphics]]
     - [[networks]]
     - [[machine learning]]
+    - [[Programming Language Theory]]
+
 - [[operating system]]
     - [[Linux]]
     - [[Mac]]
