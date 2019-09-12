@@ -26,6 +26,7 @@
     - [[android]]
 - [[web development]]
     - [[javascript]]
+    - [[typescript]]
     - [[openresty]]
 - [[game development]]
     - [[game client]]
