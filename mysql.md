@@ -1,3 +1,6 @@
+# [MySQL](https://www.mysql.com)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+
 # 用户
 - 创建用户：CREATE USER 'username'@'host' IDENTIFIED BY 'password'; 
 ```
