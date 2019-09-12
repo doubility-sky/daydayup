@@ -2,6 +2,7 @@
 ![Well well well](https://raw.githubusercontent.com/wiki/doubility-sky/daydayup/image/the_great_master.gif "前进吧骚年！伟大的领袖看好你呦！")
 >代表~~逗比~~人民欢迎你！还你一片妹有~~雾霾~~的天空。
 
+
 # Introduction
 - 感谢郭嘉
 - 积累，交流，进步，自由
@@ -9,9 +10,12 @@
 
 
 # How to Use
-- 点击本页上方按钮 `Star` 和 `Watching` 订阅 issue 推送
-- 使用 `Google` 搜索 `site:https://github.com/doubility-sky/daydayup/wiki python` 可寻找本 wiki 中与 `python` 相关的内容，**其他所有搜索引擎使用方法类同**
-- 学习使用 [[markdown]] 
+- 点击本页上方按钮 `Star` 和 `Watching` ~~订阅 issue 推送~~
+- 在右侧导航栏寻找相关 page
+- 在右侧导航栏上方的 Pages 中搜索相关 page
+- 使用搜索引擎查找整个 wiki ，如：找本 wiki 中与 `python` 相关的内容
+  - 如 `Google` 搜索：`site:https://github.com/doubility-sky/daydayup/wiki python`
+- 学习使用 [[markdown]] 撰写 wiki 页面
 
 
 # How to Contribute
