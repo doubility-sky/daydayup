@@ -7,13 +7,20 @@
 
 
 ## Common
+- 包管理 Ubuntu:`apt update`, CentOS:`yum update`
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `hostname XXXX` 临时修改主机名为 XXXX
   - `vi /etc/hostname` 永久修改主机名
   - `vi /etc/hosts` 添加新主机名回环地址映射
-- `apt update`
+- [top 命令](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
+  - 1 切换显示各逻辑CPU状况
+  - c 切换显示各进程完整命令行
+  - x 高亮排序属性列
+  - SHIFT + '<' / '>' 左右切换排序列
+  - M 按内存占用率排序
+  - P 按CPU占用率排序
 
 
 ## User
