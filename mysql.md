@@ -58,6 +58,11 @@ REVOKE SELECT ON testdb.* FROM 'test'@'localhost';
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
 
+# 备份
+- [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
+- [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
+  - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
+
 # FAQ
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
   ```
