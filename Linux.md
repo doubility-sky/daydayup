@@ -1,3 +1,4 @@
+
 ## Learn
 - [The Linux Command Line](http://billie66.github.io/TLCL/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
@@ -8,19 +9,17 @@
 
 ## Common
 - 包管理 Ubuntu:`apt update`, CentOS:`yum update`
+- `whatis whatis`
+  - `whatis (1)           - display one-line manual page descriptions`
+  - `df (1)               - report file system disk space usage`
+  - `du (1)               - estimate file space usage`
+  - `free (1)             - Display amount of free and used memory in the system`
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `hostname XXXX` 临时修改主机名为 XXXX
   - `vi /etc/hostname` 永久修改主机名
   - `vi /etc/hosts` 添加新主机名回环地址映射
-- [top 命令](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
-  - 1 切换显示各逻辑CPU状况
-  - c 切换显示各进程完整命令行
-  - x 高亮排序属性列
-  - SHIFT + '<' / '>' 左右切换排序列
-  - M 按内存占用率排序
-  - P 按CPU占用率排序
 
 
 ## User
@@ -57,11 +56,10 @@
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
 
-
 ## Firewall
-## ufw
+### ufw
 - `ufw allow xxx:yyy/tcp` 开放 xxx 到 yyy 端口段
- 
+
 ### firewall-cmd
 - [firewall防火墙教程](https://blog.linuxeye.com/406.html)
 - [man firewall](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
@@ -85,6 +83,7 @@
   # 解除应急模式
   firewall-cmd --panic-off 
   ```
+
 
 ## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
@@ -142,6 +141,16 @@
 ## [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
+
+
+## Top
+- [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
+  - 1 切换显示各逻辑CPU状况
+  - c 切换显示各进程完整命令行
+  - x 高亮排序属性列
+  - SHIFT + '<' / '>' 左右切换排序列
+  - M 按内存占用率排序
+  - P 按CPU占用率排序
 
 
 ## schedule
