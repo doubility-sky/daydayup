@@ -19,6 +19,7 @@
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `hostname XXXX` 临时修改主机名为 XXXX
   - `vi /etc/hostname` 永久修改主机名
+  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
   - `vi /etc/hosts` 添加新主机名回环地址映射
 
 
@@ -151,6 +152,10 @@
   - SHIFT + '<' / '>' 左右切换排序列
   - M 按内存占用率排序
   - P 按CPU占用率排序
+
+
+## Service 
+- http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html
 
 
 ## schedule
