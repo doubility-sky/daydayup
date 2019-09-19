@@ -3,19 +3,15 @@
 - [云风博客的skynet标签](http://blog.codingnow.com/eo/skynet/)，详尽发展历史，建议倒序通读。
 - 腾讯游戏开发者平台讲堂 - [“云风：基于 Actor 模式的开源框架”](http://gad.qq.com/content/coursedetail?id=467)
   - [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)
+- [skynet 的一个简单范例](http://blog.codingnow.com/2016/06/skynet_sample.html)
 ### 其他
 - [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
 - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120)
 - [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818) - 有些源码分析
 - [skynet/lua](http://blog.csdn.net/cwqcwk1/article/category/5731833)
-- [Skynet-note 注释版](https://github.com/wangdali/skynet-note/tree/master/doc)
 - [skynet阅读笔记](http://my.oschina.net/u/186074/blog/495002)
 - [skynet框架研究](http://skynetclub.github.io) - 含资源收集大杂烩，可以看看《skynet入门实践》
-### Projects
-- [skynet 的一个简单范例](http://blog.codingnow.com/2016/06/skynet_sample.html)
-- [基于skynet实现的简单mmorpg游戏服务器](https://github.com/jintiao/some-mmorpg)
-- [quick](https://github.com/charleeli/quick)
-- [awesome-skynet](https://github.com/m2q1n9/awesome-skynet)
+
 
 # 概览
 ### 设计理念
