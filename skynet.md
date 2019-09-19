@@ -2,7 +2,6 @@
 - https://github.com/cloudwu/skynet/wiki ， [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)
 - [云风博客的skynet标签](http://blog.codingnow.com/eo/skynet/)，详尽发展历史，建议倒序通读。
 - 腾讯游戏开发者平台讲堂 - [“云风：基于 Actor 模式的开源框架”](http://gad.qq.com/content/coursedetail?id=467)
-  - [“云风：基于 Actor 模式的开源框架” PPT](http://gad.qq.com/article/detail/5257)
   - [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)
 ### 其他
 - [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
