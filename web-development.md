@@ -26,7 +26,10 @@
     - [beego](https://github.com/astaxie/beego), [gin](https://github.com/gin-gonic/gin), [iris](https://github.com/kataras/iris)
   - [[lua]] - [[openresty]]
   - [[python]] - [[django]]
-  - [[node.js]] - [express](https://github.com/expressjs/express), [nestjs](https://github.com/nestjs/nest), [eggjs](https://github.com/eggjs/egg/)
+  - [[node.js]] 
+    - [egg.js和nest.js该选择哪个作为系统框架](https://cnodejs.org/topic/5b852286632c7f422e5b81e5)
+    - [关于nodejs-web框架的调研](https://github.com/xingyuzhe/blog/issues/1)
+    - [express](https://github.com/expressjs/express), [nestjs](https://github.com/nestjs/nest), [eggjs](https://github.com/eggjs/egg/)
   - [[java]] - [[spring]]
 - [为什么做java的web开发我们会使用struts2，springMVC和spring这样的框架?](https://github.com/RubyLouvre/agate/issues/8)
 
