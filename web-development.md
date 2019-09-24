@@ -15,6 +15,8 @@
   - [前端开发漫游指南](https://github.com/zenany/zenany.github.io/blob/master/_posts/about_frontend.md)
 - [构建单页Web应用](https://github.com/xufei/blog/issues/5)
 - [如何挑选适合的前端框架](https://github.com/RubyLouvre/agate/issues/8#issuecomment-99820791)
+- [为何现代 Web 开发如此复杂？](https://www.infoq.cn/article/YPEj-1CKSxkVG290iIY0)
+- [在2019年学习如何成为现代前端开发人员](https://www.zcfy.cc/article/learn-to-become-a-modern-frontend-developer-in-2019)
 
 
 ## Back-end
