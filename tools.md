@@ -1,10 +1,16 @@
-
 # CMD
 - https://github.com/jlevy/the-art-of-command-line
+
 
 # Search
 - 指定url内查找相关信息，将以下内容放入Google的搜索框内并回车:   
     `site:https://github.com/doubility-sky/daydayup/wiki 搜索`
+
+
+# Networks
+### curl
+- [curl POST examples](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
+
 
 # Image
 ### ImageMagick
@@ -45,7 +51,6 @@ convert -resize 144x144! $pic ./$dir/drawable-xxhdpi/$pic
 mkdir -p ./$dir/drawable-xxxhdpi
 convert -resize 192x192! $pic ./$dir/drawable-xxxhdpi/$pic
 ```
-
 
 ### Compression
 - [pngquant](https://pngquant.org/)
