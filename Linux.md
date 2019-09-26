@@ -17,10 +17,24 @@
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
+
+## tar
+- `tar -zcvf xxx.tar.gz [FILE]...`
+  -  -z ：压缩类型为 .tar.gz
+  -  -c ：打包 (建立压缩档案)
+  -  -v ：显示过程
+  -  -f ：指定打包后的文件名
+- `tar -zxvf xxx.tar.gz`
+  -  -z ：解压缩类型为 .tar.gz
+  -  -x ：解压
+  -  -v ：显示过程
+  -  -f ：指定打包后的文件名
+
+## Hostname
 - `hostname XXXX` 临时修改主机名为 XXXX
-  - `vi /etc/hostname` 永久修改主机名
-  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
-  - `vi /etc/hosts` 添加新主机名回环地址映射
+- `vi /etc/hostname` 永久修改主机名
+- `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
+- `vi /etc/hosts` 添加新主机名回环地址映射
 
 
 ## User
