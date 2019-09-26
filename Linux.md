@@ -1,10 +1,10 @@
-
 ## Learn
 - [The Linux Command Line](http://billie66.github.io/TLCL/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
 - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
+
 
 
 ## Common
@@ -14,11 +14,15 @@
   - `df (1)               - report file system disk space usage`
   - `du (1)               - estimate file space usage`
   - `free (1)             - Display amount of free and used memory in the system`
-- `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
-- `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
-- [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 
-## tar
+
+
+## File 
+- [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
+- `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
+### cp
+- `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
+### tar
 - `tar -zcvf xxx.tar.gz [FILE]...`
   -  -z ：压缩类型为 .tar.gz
   -  -c ：打包 (建立压缩档案)
@@ -30,11 +34,14 @@
   -  -v ：显示过程
   -  -f ：指定打包后的文件名
 
+
+
 ## Hostname
 - `hostname XXXX` 临时修改主机名为 XXXX
 - `vi /etc/hostname` 永久修改主机名
 - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
 - `vi /etc/hosts` 添加新主机名回环地址映射
+
 
 
 ## User
@@ -45,11 +52,10 @@
 - 添加root权限：usermod -g root username
 
 
+
 ## Safe
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
-
-
-## SSH
+### ssh
 - mac/linux 远程连接命令类似：`ssh -p 12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
   - ssh copy 文件至远端 `scp -P xx.txt root@xxx.xxx.xxx.xxx:~/` 注意 -P 为大写
@@ -67,11 +73,11 @@
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 
 
-## iptables
-- [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
-
 
 ## Firewall
+### iptables
+- [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
+
 ### ufw
 - `ufw allow xxx:yyy/tcp` 开放 xxx 到 yyy 端口段
 
@@ -100,11 +106,13 @@
   ```
 
 
+
 ## FTP
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
 - [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
+
 
 
 ## [[MySQL]]
@@ -134,6 +142,7 @@
   flush privileges;
   ```
 
+
 ## screen
 - [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
 - Frequently Command:
@@ -153,9 +162,11 @@
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
 
+
 ## [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
+
 
 
 ## Top
@@ -168,14 +179,17 @@
   - P 按CPU占用率排序
 
 
+
 ## Service 
 - http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html
 
 
-## schedule
+
+## Schedule
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
   再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
+
 
 
 ## GUI
