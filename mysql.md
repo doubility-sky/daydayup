@@ -1,8 +1,9 @@
-# [MySQL](https://www.mysql.com)
+## [MySQL](https://www.mysql.com)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 
 
-# 用户
+
+## 用户
 - 创建用户：`CREATE USER 'username'@'host' IDENTIFIED BY 'password'; `
   ```
   CREATE USER 'test'@'localhost' IDENTIFIED BY '123456'; -- 本地登陆
@@ -19,7 +20,8 @@
   ```
 
 
-# 权限
+
+## 权限
 - 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
 - 查询权限：`show grants for root@'localhost';`
 - 改表法：`update user set host = '%' where user = 'root';`
@@ -38,28 +40,34 @@
 - 刷新生效：`flush privileges;`
 
 
-# 参数
+
+## 参数
 - [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
 - 开启binlog：配置文件中设置 `log-bin=mysql-bin`
 - 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`
 
 
-# 性能优化
+
+## 优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 
 
-# bin-log
+
+## bin-log
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
 
 
-# 备份
+
+## 备份
 - [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
+  - [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
 - [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
 
 
-# FAQ
+
+## FAQ
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
   ```
   sudo vi /etc/mysql/my.cnf
@@ -72,3 +80,4 @@
   #bind-address = 127.0.0.1
   service mysql restart  
   ```
+
