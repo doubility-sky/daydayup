@@ -50,6 +50,7 @@
 
 ## 优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
+- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14)
 
 
 
