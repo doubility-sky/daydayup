@@ -4,22 +4,32 @@
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
 - [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
+- 查询指令描述 `whatis XXX`
+  ```
+  whatis whatis
+    whatis (1)           - display one-line manual page descriptions
+  whatis df
+    df (1)               - report file system disk space usage
+  whatis du
+    du (1)               - estimate file space usage
+  whatis free
+    free (1)             - Display amount of free and used memory in the system
+  ```
 
 
 
 ## Common
-- 包管理 Ubuntu:`apt update`, CentOS:`yum update`
-- `whatis whatis`
-  - `whatis (1)           - display one-line manual page descriptions`
-  - `df (1)               - report file system disk space usage`
-  - `du (1)               - estimate file space usage`
-  - `free (1)             - Display amount of free and used memory in the system`
+- Package Manager
+  - Ubuntu:`apt update`
+  - CentOS:`yum update`
 
 
 
 ## File 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
+### du
+- `du -had1` 以 human readable 格式，浏览当前目录，所有文件及文件夹大小
 ### cp
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 ### tar
