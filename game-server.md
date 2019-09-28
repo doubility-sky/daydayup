@@ -14,6 +14,7 @@
 
 # Open Project
 - https://github.com/topics/game-server
+- https://github.com/hstcscolor/awesome-gameserver-cn
 - [MaNGOS](https://github.com/mangos/MaNGOS)
 - [TrinityCore](https://github.com/TrinityCore/TrinityCore)
 - [cuberite](https://github.com/cuberite/cuberite), A lightweight, fast and extensible game server for Minecraft
