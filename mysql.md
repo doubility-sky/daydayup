@@ -51,6 +51,8 @@
 ## 优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 - [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14)
+- [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
+- [Innodb重要参数优化](https://www.cnblogs.com/kevingrace/p/6133818.html)
 
 
 
@@ -62,12 +64,16 @@
 
 ## 备份/还原
 - [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
+  - [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
   - [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
 - [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
 - [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
 - [mysql备份还原方案xtrabackup](https://coding3min.com/mysql-backup-xtrabackup/)
 
+
+## Article
+- [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
 
 
 ## FAQ
