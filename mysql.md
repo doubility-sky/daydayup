@@ -53,6 +53,7 @@
 - [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14)
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
 - [Innodb重要参数优化](https://www.cnblogs.com/kevingrace/p/6133818.html)
+- [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
 
 
 
