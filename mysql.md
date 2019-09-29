@@ -48,19 +48,6 @@
 
 
 
-## 优化
-- [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
-### 参数优化
-- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) 
-  - 🌟根据 [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則）
-  - 调整一些关键配置(20%)，可以得到 80% 的性能提升。
-- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14)
-- [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
-- [Innodb重要参数优化](https://www.cnblogs.com/kevingrace/p/6133818.html)
-- [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
-
-
-
 ## bin-log
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
@@ -77,8 +64,37 @@
 - [mysql备份还原方案xtrabackup](https://coding3min.com/mysql-backup-xtrabackup/)
 
 
+
+## 引擎
+- [为什么你要用 InnoDB, 而不是 MyISAM ？](https://juejin.im/post/5c43ee36518825254b5a3c3a) 
+- [MyISAM和InnoDB区别和应用场景](https://www.jianshu.com/p/dc60346d55a2)
+- [MyISAM](https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html)
+  - 读取性能极佳
+  - 不支持行锁(只有表锁)，不支持事务，不支持外键，不支持崩溃后的安全恢复
+  - 无特殊需求（需要执行大量的SELECT查询），不推荐使用
+- [InnoDB](https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html)
+  - 支持行锁，采用MVCC来支持高并发，有可能死锁；支持事务；支持外键；支持崩溃后的安全恢复；支持全文索引（版本5.6以后）
+  - 推荐使用
+
+
+
+## 优化
+- [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
+### 配置
+- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) 
+  - 🌟根据 [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則）
+  - 调整一些关键配置(20%)，可以得到 80% 的性能提升。
+- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14) 配置实例
+- [Innodb重要参数优化](https://www.cnblogs.com/kevingrace/p/6133818.html)
+- [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
+- [MySQL性能调优 – 你必须了解的15个重要变量](https://www.centos.bz/2016/11/mysql-performance-tuning-15-config-item/)
+- [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
+
+
+
 ## Article
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
+
 
 
 ## FAQ
