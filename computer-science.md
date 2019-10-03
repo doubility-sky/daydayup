@@ -1,3 +1,5 @@
+https://en.wikipedia.org/wiki/Computer_science
+
 # Index
 - [[algorithm]]
 - [[theory of computation]]
