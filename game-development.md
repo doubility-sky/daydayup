@@ -1,3 +1,7 @@
+## Index
+- [[game client]]
+- [[game server]]
+
 
 ## Learn
 - [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
