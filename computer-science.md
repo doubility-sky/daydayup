@@ -2,14 +2,15 @@ https://en.wikipedia.org/wiki/Computer_science
 
 # Index
 - [[algorithm]]
+- [[data structure]]
 - [[theory of computation]]
 - [[compiler]]
+- [[programming language]]
 - [[computer architecture]]
-- [[computer graphics]]
-- [[data structure]]
-- [[networks]]
-- [[machine learning]]
 - [[operating system]]
+- [[networks]]
+- [[computer graphics]]
+- [[machine learning]]
 
 
 
