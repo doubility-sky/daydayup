@@ -1,7 +1,8 @@
 
 ## HTTP
-- [我的HTTP/3学习笔记](https://mp.weixin.qq.com/s/bD8C0oR34ZKUEZjN9yBSJg)
+- [HTTP/2 explained](https://github.com/bagder/http2-explained)
 - [HTTP/3 explained](https://github.com/bagder/http3-explained)
+- [我的HTTP/3学习笔记](https://mp.weixin.qq.com/s/bD8C0oR34ZKUEZjN9yBSJg)
 
 
 
