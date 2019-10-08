@@ -17,6 +17,11 @@
 - [tinyhttpd](https://github.com/qinhanlei/tinyhttpd)
 - [luasocket](https://github.com/diegonehab/luasocket)
 - [socket.io](https://github.com/socketio/socket.io)
+### KCP
+- [KCP - A Fast and Reliable ARQ Protocol](https://github.com/skywind3000/kcp)
+- [kcp-go](https://github.com/xtaci/kcp-go)
+- [kcptun](https://github.com/xtaci/kcptun)
+- [可靠 UDP，KCP 协议快在哪？](https://testerhome.com/topics/14688)
 
 
 
