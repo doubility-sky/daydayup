@@ -4,6 +4,12 @@
 - [全栈工程师培训材料](https://github.com/ruanyf/jstraining)
 
 
+## Browser
+- Inside look at modern web browser [part1](https://developers.google.com/web/updates/2018/09/inside-browser-part1), [part2](https://developers.google.com/web/updates/2018/09/inside-browser-part2), [part3](https://developers.google.com/web/updates/2018/09/inside-browser-part3), [part4](https://developers.google.com/web/updates/2018/09/inside-browser-part4)
+  - [深入理解现代浏览器](https://mp.weixin.qq.com/s/6aivgDpvXfiDER7Hu2u2CQ)
+
+
+
 ## Front-end
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
   - [[react]] - [[react native]]
