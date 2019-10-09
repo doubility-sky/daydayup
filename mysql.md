@@ -80,15 +80,29 @@
 
 ## 优化
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
-### 配置
-- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) 
-  - 🌟根据 [Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則）
-  - 调整一些关键配置(20%)，可以得到 80% 的性能提升。
-- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14) 配置实例
-- [Innodb重要参数优化](https://www.cnblogs.com/kevingrace/p/6133818.html)
+#### 配置
 - [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
+- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) —— 🌟[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則），调整关键配置(20%)，可得到 80% 性能提升。
+  1. 所有表使用 innodb 引擎
+  2. 加大 `innodb_buffer_pool_size`，最大可使用物理机器的70%
+  3. 设置 `innodb_buffer_pool_instances` 来分割 `innodb_buffer_pool_size`，以提高并发性
 - [MySQL性能调优 – 你必须了解的15个重要变量](https://www.centos.bz/2016/11/mysql-performance-tuning-15-config-item/)
+  - `innodb_buffer_pool_size` 最重要
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
+  - 当并发用户线程数量小于64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
+- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14) 参数优化配置实例 
+```shell
+# Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
+# vi /etc/mysql/mysql.conf.d/mysqld.cnf
+max_allowed_packet = 256M
+max_connections    = 1024
+slow_query_log     = 1
+innodb_buffer_pool_size = 8G
+innodb_buffer_pool_instances = 8
+innodb_log_file_size = 512M
+innodb_read_io_threads = 8
+innodb_write_io_threads = 8
+```
 
 
 
