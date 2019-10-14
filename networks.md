@@ -1,7 +1,23 @@
+- [Awesome Networking](https://github.com/clowwindy/Awesome-Networking), A curated list of awesome networking libraries, resources and shiny things.
+
+
+## TCP/IP
+- [TCP/IP Illustrated](https://www.google.com/search?q=TCP%2FIP+Illustrated&ie=utf-8&oe=utf-8&aq=t&gws_rd=ssl)
+- [tcpdump](http://www.tcpdump.org/tcpdump_man.html)
+- [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/output/html/multipage/index.html)
+- [The C10K problem](http://www.kegel.com/c10k.html)
+- [Tornado](https://github.com/tornadoweb/tornado/blob/master/tornado/ioloop.py)
+- [Linux source](https://github.com/torvalds/linux/tree/master/net/ipv4)
+- [XNU source](http://www.opensource.apple.com/source/xnu/xnu-3248.20.55/bsd/netinet/)
+- [TCP Hybla](http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/Papers/TCP-Hybla.pdf)
 
 
 
 ## HTTP
+- [HTTP: The Definitive Guide](http://shop.oreilly.com/product/9781565925090.do)
+- [HTTP/1.1](https://www.ietf.org/rfc/rfc2616.txt)
+- [HTTP/2 draft](https://tools.ietf.org/html/draft-ietf-httpbis-http2-16)
+- [High Performance Browser Networking](http://chimera.labs.oreilly.com/books/1230000000545)
 - [HTTP/2 explained](https://github.com/bagder/http2-explained)
 - [HTTP/3 explained](https://github.com/bagder/http3-explained)
 - [我的HTTP/3学习笔记](https://mp.weixin.qq.com/s/bD8C0oR34ZKUEZjN9yBSJg)
@@ -16,6 +32,7 @@
 
 
 ## [SOCKS](https://en.wikipedia.org/wiki/SOCKS)
+[SOCKS Protocol Version 5](https://www.ietf.org/rfc/rfc1928.txt)
 - SOCKS is an Internet protocol that exchanges network packets between a client and server through a proxy server. 
 - SOCKS5 additionally provides authentication so only authorized users may access a server. 
 - Practically, a SOCKS server proxies TCP connections to an arbitrary IP address, and provides a means for UDP packets to be forwarded.  
@@ -32,6 +49,28 @@
 - [kcp-go](https://github.com/xtaci/kcp-go)
 - [kcptun](https://github.com/xtaci/kcptun)
 - [可靠 UDP，KCP 协议快在哪？](https://testerhome.com/topics/14688)
+
+
+
+## DNS
+- [DNS](https://www.ietf.org/rfc/rfc1035.txt)
+
+
+
+## Protocols and APIs
+- [tuntap](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)
+- [NAT](https://www.ietf.org/rfc/rfc1631.txt)
+- [Android VpnService](http://developer.android.com/reference/android/net/VpnService.html)
+- [Network Extension](https://developer.apple.com/library/prerelease/ios/documentation/NetworkExtension/Reference/Network_Extension_Framework_Reference/index.html#//apple_ref/doc/uid/TP40016234)
+
+
+
+## Cryptography
+- [Cryptography](http://online.stanford.edu/course/cryptography)
+- [Block cipher mode of operation](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
+- [libsodium](https://github.com/jedisct1/libsodium) - A modern and easy-to-use crypto library.
+- [OpenSSL](https://www.openssl.org/)
+- [Common Crypto](https://developer.apple.com/library/mac/documentation/Security/Conceptual/cryptoservices/GeneralPurposeCrypto/GeneralPurposeCrypto.html#//apple_ref/doc/uid/TP40011172-CH9-SW1)
 
 
 
