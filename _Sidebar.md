@@ -5,7 +5,7 @@
     - [[theory of computation]]
     - [[compiler]]
     - [[programming language]]
-      - [[c]]/[c++](C-plus-plus)
+      - [[c]]/[c++](cpp)
       - [[golang]]
       - [[python]]
       - [[lua]]
