@@ -22,6 +22,7 @@
 - [HTTP/3 explained](https://github.com/bagder/http3-explained)
 - [我的HTTP/3学习笔记](https://mp.weixin.qq.com/s/bD8C0oR34ZKUEZjN9yBSJg)
 - [一文读懂HTTP/2 及 HTTP/3特性](https://github.com/ljianshu/Blog/issues/57)
+- [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
 
 
 

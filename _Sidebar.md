@@ -5,7 +5,7 @@
     - [[theory of computation]]
     - [[compiler]]
     - [[programming language]]
-      - [[c]]/[c++](C-plus-plus)
+      - [[c]]/[c++](cpp)
       - [[golang]]
       - [[python]]
       - [[lua]]
@@ -49,6 +49,7 @@
     - [[bitcoin]]
     - [[ethereum]]
 - [[tools]]
+    - [[build]]
     - [[git]], [[svn]]
     - [[document]]
     - [[third party]]

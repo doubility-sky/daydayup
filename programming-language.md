@@ -1,6 +1,6 @@
 # index
 - [[assembly]]
-- [[c]]/[c++](C-plus-plus)
+- [[c]]/[c++](cpp)
 - [[c#]]
 - [[java]]
 - [[javascript]]
@@ -14,5 +14,5 @@
 - [[haskell]]
 
 # Principle
+- [[theory of computation]]
 - [[compiler]]
-
