@@ -6,11 +6,13 @@
 - [tcpdump](http://www.tcpdump.org/tcpdump_man.html)
 - [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/output/html/multipage/index.html)
 - [The C10K problem](http://www.kegel.com/c10k.html)
-- [Tornado](https://github.com/tornadoweb/tornado/blob/master/tornado/ioloop.py)
+- [Tornado - ioloop.py](https://github.com/tornadoweb/tornado/blob/master/tornado/ioloop.py)
 - [Linux source](https://github.com/torvalds/linux/tree/master/net/ipv4)
 - [XNU source](http://www.opensource.apple.com/source/xnu/xnu-3248.20.55/bsd/netinet/)
 - [TCP Hybla](http://www.mathcs.emory.edu/~cheung/Courses/558/Syllabus/Papers/TCP-Hybla.pdf)
-
+- [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html), [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
+- [TIME_WAIT and its design implications for protocols and scalable client server systems](http://www.serverframework.com/asynchronousevents/2011/01/time-wait-and-its-design-implications-for-protocols-and-scalable-servers.html)
+- [TCP TIME-WAIT state on busy Linux servers](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)
 
 
 ## HTTP
@@ -26,7 +28,8 @@
 
 
 
-## WebSocket
+## [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+- [RFC 6455 - The WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 - [WebSocket协议：5分钟从入门到精通](https://www.cnblogs.com/chyingp/p/websocket-deep-in.html)
 - [WebSocket 协议深入探究](https://www.infoq.cn/article/deep-in-websocket-protocol)
 
