@@ -14,5 +14,5 @@
 - [[haskell]]
 
 # Principle
+- [[theory of computation]]
 - [[compiler]]
-
