@@ -3,7 +3,6 @@
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
-- [跟我一起写Makefile](https://github.com/seisman/how-to-write-makefile)
 - 查询指令描述 `whatis XXX`
   ```
   whatis whatis
