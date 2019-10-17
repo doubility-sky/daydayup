@@ -49,6 +49,7 @@
     - [[bitcoin]]
     - [[ethereum]]
 - [[tools]]
+    - [[build]]
     - [[git]], [[svn]]
     - [[document]]
     - [[third party]]
