@@ -1,4 +1,9 @@
 
+## Common
+- CPU infomation
+  - `sysctl -a | sort | grep cpu`
+  - `sysctl -n hw.ncpu`
+
 
 ## Tools
 - [tree 命令，终端展示你的目录树结构](http://yijiebuyi.com/blog/c0defa3a47d16e675d58195adc35514b.html)
