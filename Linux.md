@@ -132,6 +132,7 @@
   注：Step2中备份不要用mv，用cp  
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
 - [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
+- 创建用户 `useradd -d /var/www/html -M XXXnewuser`
 
 
 
