@@ -33,6 +33,7 @@
 
 ## Make-likes
 - [CMake](https://cmake.org/)
+  - https://github.com/onqtam/awesome-cmake
 - [emake](https://github.com/skywind3000/emake)
 - [xmake](https://github.com/xmake-io/xmake), A cross-platform build utility based on lua.
 
