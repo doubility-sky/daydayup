@@ -50,6 +50,7 @@
     - [[ethereum]]
 - [[tools]]
     - [[build]]
+    - [[profile]]
     - [[git]], [[svn]]
     - [[document]]
     - [[third party]]
