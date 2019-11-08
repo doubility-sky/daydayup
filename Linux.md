@@ -1,9 +1,19 @@
 ## Learn
 - [The Linux Command Line](http://billie66.github.io/TLCL/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
+- [Linux命令大全](https://man.linuxde.net/)
+
+
+
+## Shell
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
+- [pure sh bible](https://github.com/dylanaraps/pure-sh-bible)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
-- 查询指令描述 `whatis XXX`
+
+
+
+## Common
+- `whatis XXX`
   ```
   whatis whatis
     whatis (1)           - display one-line manual page descriptions
@@ -14,13 +24,13 @@
   whatis free
     free (1)             - Display amount of free and used memory in the system
   ```
-
-
-
-## Common
 - Package Manager
   - Ubuntu:`apt update`
   - CentOS:`yum update`
+
+
+
+## System Infomation
 - 查询 CPU 信息
   - 总逻辑CPU数 = 物理CPU个数 X 每颗物理CPU的核数 X 超线程数
   - 查看物理CPU个数
@@ -53,6 +63,8 @@
   -  -x ：解压
   -  -v ：显示过程
   -  -f ：指定打包后的文件名
+### find
+- https://man.linuxde.net/find
 
 
 
@@ -73,9 +85,7 @@
 
 
 
-## Safe
-- [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
-### ssh
+## SSH
 - mac/linux 远程连接命令类似：`ssh -p 12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
   - ssh copy 文件至远端 `scp -P xx.txt root@xxx.xxx.xxx.xxx:~/` 注意 -P 为大写
@@ -91,6 +101,7 @@
   IdentityFile ~/.ssh/xxx_rsa
   ```
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
+- [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 
 
 
