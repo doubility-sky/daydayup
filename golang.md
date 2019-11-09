@@ -20,6 +20,7 @@
 - [Effective Go](https://golang.org/doc/effective_go.html)
 - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
 - [Go编码规范指南](https://gocn.io/article/1)
+- https://github.com/uber-go/guide
 
 #### Philosophy
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
@@ -43,9 +44,6 @@
 ## FAQ
 - [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
 - [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
-- 网络编程 macOS 总是弹出防火墙链接确认
-    - https://github.com/codegangsta/gin/issues/12#issuecomment-40519008
-    - [Suppressing Accept Incoming Network Connections warnings on OSX](https://medium.com/@leeprovoost/suppressing-accept-incoming-network-connections-warnings-on-osx-7665b33927ca)
 
 ## 其他
 - 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 
