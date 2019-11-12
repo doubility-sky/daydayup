@@ -27,6 +27,7 @@
 - https://github.com/stetso/awesome-gideros
 - https://github.com/Yonaba/awesome-one-person-games
 - https://github.com/yrgo/awesome-eg A curated list of awesome educational games to learn editors, languages, programming, etc
+- https://github.com/datamllab/awesome-game-ai
 
 
 ## Open Project
