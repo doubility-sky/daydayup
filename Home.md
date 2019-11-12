@@ -38,5 +38,5 @@
 
 
 # Contributors
-- clone 本 wiki 的 git 库，查看提交历史
+- see [mirro-repo](https://github.com/doubility-sky/daydayup)'s [contributors](https://github.com/doubility-sky/daydayup/graphs/contributors)
 
