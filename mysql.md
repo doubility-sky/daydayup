@@ -67,8 +67,12 @@
 
 
 ## 主从复制
+- [MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html#_label0)
 - 基于 bin-log
+  - [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
+  - [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
 - 基于 GTID
+  - [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
 
 
 
