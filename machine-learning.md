@@ -3,11 +3,10 @@
 - [Google AI Research](https://github.com/google-research/google-research)
 - [微软人工智能教育与学习共建社区](https://github.com/microsoft/ai-edu), AI education materials for Chinese students, teachers and IT professionals.
 - [AiLearning](https://github.com/apachecn/AiLearning) : MachineLearning、DeepLearning、Natural Language Processing
-- [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse)
 
 
 
-## MachineLearning
+## Machine Learning
 - [Machine Learning Crash Course - with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/), Google's fast-paced, practical introduction to machine learning
 - [The Facebook Field Guide to Machine Learning](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/) is a six-part video series developed by the Facebook ads machine learning team. The series shares best real-world practices and provides practical tips about how to apply machine-learning capabilities to real-world problems.
 - [Top-down learning path](https://github.com/ZuzooVn/machine-learning-for-software-engineers), A complete daily plan for studying to become a machine learning engineer.
@@ -21,7 +20,7 @@
 
 
 
-## [DeepLearning](http://deeplearning.net/)
+## [Deep Learning](http://deeplearning.net/)
 - [deeplearningbook](http://www.deeplearningbook.org/)
   - [Deep Learning Book Chinese Translation](https://github.com/exacity/deeplearningbook-chinese)
   - [DeepLearningBook读书笔记](https://github.com/exacity/simplified-deeplearning)
@@ -33,13 +32,21 @@
 
 ## Frameworks
 #### [TensorFlow](https://www.tensorflow.org/)
+- [TensorFlow Course](https://github.com/machinelearningmindset/TensorFlow-Course), Simple and ready-to-use tutorials for TensorFlow
 - [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow) TensorFlow 1.x and 2.x tutorials and best practices.
 - [tinyflow](https://github.com/tqchen/tinyflow), Tutorial code on how to build your own Deep Learning System in 2k Lines
 #### [Torch](http://torch.ch/), A SCIENTIFIC COMPUTING FRAMEWORK FOR LUAJIT
 #### [PyTorch](http://pytorch.org/)
 - [PyTorch Tutorial ](https://github.com/yunjey/pytorch-tutorial) for Deep Learning Researchers
+- [pytorch-book](https://github.com/chenyuntc/pytorch-book), PyTorch tutorials and fun projects including neural talk, neural style, poem writing, anime generation
 #### [Caffe](http://caffe.berkeleyvision.org/)
 - Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+
+
+
+## [Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) 
+- [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse)
+- [Synonyms](https://github.com/huyingxi/Synonyms), Chinese Synonyms for Natural Language Processing and Understanding. 最好的中文近义词工具包。
 
 
 
@@ -54,6 +61,7 @@
 - [Tencent/PhoenixGo](https://github.com/Tencent/PhoenixGo), Go AI program which implements the AlphaGo Zero paper
 
 
+
 ## Datasets
 - [The 50 Best Free Datasets for Machine Learning](https://lionbridge.ai/datasets/the-50-best-free-datasets-for-machine-learning/)
-
+- [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset), Documentation on how to access and use the Quick, Draw! Dataset. 
