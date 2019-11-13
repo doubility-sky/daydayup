@@ -57,9 +57,14 @@
 #### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
 #### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
-- [mysql备份还原方案xtrabackup](https://coding3min.com/mysql-backup-xtrabackup/)
-- [mysql物理备份工具Xtrabackup安装配置](https://yq.aliyun.com/articles/513872)
+- [xtrabackup备份 - 原理与应用](https://blog.csdn.net/fanren224/article/details/79693863)
+- [使用XtraBackup对MySQL数据库进行备份和恢复](https://sunnymany.win/2019/03/21/%E4%BD%BF%E7%94%A8XtraBackup%E5%AF%B9MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8C%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D/)
+- [MySQL-xtrabackup安装及使用](http://www.opcai.top/post/2019-04/mysql_xtrabackup_install_use/)
+- [mysql备份恢复与xtrabackup备份](https://blog.51cto.com/jacksoner/2345856?source=dra)
 - [mysql使用percona xtraback实施物理备份](https://www.jianshu.com/p/af4260de624a)
+- [MySQL备份恢复：从Xtrabackup完整备份中恢复单个表](https://www.centos.bz/2018/12/mysql%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%BB%8Extrabackup%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E4%B8%AD%E6%81%A2%E5%A4%8D%E5%8D%95%E4%B8%AA%E8%A1%A8/)
+- [innobackupex 备份工具使用总结](http://www.fordba.com/mysql-innobackupex-usage-explain.html)
+- [innobackupex备份恢复+增量备份与恢复](https://cloud.tencent.com/developer/article/1119183)
 #### bin-log
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
@@ -120,6 +125,7 @@ innodb_log_file_size = 1G
 
 ## Article
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
+- [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
 
 
 
