@@ -51,23 +51,33 @@
 
 ## 备份/恢复
 - [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
+#### bin-log
+- [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
+- [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
 #### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
 - [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
 - [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
 #### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
 #### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
+- [Percona XtraBackup 2.4 Documentation](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)
+  - Percona XtraBackup is a set of following tools:
+  - `innobackupex` is the symlink for xtrabackup. innobackupex still supports all features and syntax as 2.2 version did, but is now **deprecated** and will be removed in next major release.
+  - `xtrabackup` a compiled C binary that provides functionality to backup a whole MySQL database instance with MyISAM, InnoDB, and XtraDB tables.
+  - `xbcrypt` utility used for encrypting and decrypting backup files.
+  - `xbstream` utility that allows streaming and extracting files to/from the xbstream format.
+  - `xbcloud` utility used for downloading and uploading full or part of xbstream archive from/to cloud.
+  - After Percona XtraBackup 2.3 release the recommend way to take the backup is using the xtrabackup script. More information on script options can be found in [how to use xtrabackup](https://www.percona.com/doc/percona-xtrabackup/2.4/xtrabackup_bin/xtrabackup_binary.html).
 - [xtrabackup备份 - 原理与应用](https://blog.csdn.net/fanren224/article/details/79693863)
-- [使用XtraBackup对MySQL数据库进行备份和恢复](https://sunnymany.win/2019/03/21/%E4%BD%BF%E7%94%A8XtraBackup%E5%AF%B9MySQL%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8C%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D/)
-- [MySQL-xtrabackup安装及使用](http://www.opcai.top/post/2019-04/mysql_xtrabackup_install_use/)
-- [mysql备份恢复与xtrabackup备份](https://blog.51cto.com/jacksoner/2345856?source=dra)
-- [mysql使用percona xtraback实施物理备份](https://www.jianshu.com/p/af4260de624a)
-- [MySQL备份恢复：从Xtrabackup完整备份中恢复单个表](https://www.centos.bz/2018/12/mysql%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%BB%8Extrabackup%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E4%B8%AD%E6%81%A2%E5%A4%8D%E5%8D%95%E4%B8%AA%E8%A1%A8/)
-- [innobackupex 备份工具使用总结](http://www.fordba.com/mysql-innobackupex-usage-explain.html)
-- [innobackupex备份恢复+增量备份与恢复](https://cloud.tencent.com/developer/article/1119183)
-#### bin-log
-- [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
-- [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
+- [热备工具Xtrabackup简介](http://www.opcai.top/post/2019-04/mysql_xtrabackup/)
+  - [xtrabackup安装及使用](http://www.opcai.top/post/2019-04/mysql_xtrabackup_install_use/)
+- [使用percona xtraback实施物理备份](https://www.jianshu.com/p/af4260de624a)
+- [Xtrabackup备份还原](https://www.centos.bz/2018/08/mysql-xtrabackup%e5%a4%87%e4%bb%bd%e8%bf%98%e5%8e%9f/)
+  - [Xtrabackup备份和恢复应用](https://www.centos.bz/2018/06/mysql%E4%B8%AD-xtrabackup%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E5%BA%94%E7%94%A8/), shell 自动化
+  - [从Xtrabackup完整备份中恢复单个表](https://www.centos.bz/2018/12/mysql%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%BB%8Extrabackup%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E4%B8%AD%E6%81%A2%E5%A4%8D%E5%8D%95%E4%B8%AA%E8%A1%A8/)
+- innobackupex - DEPRECATED
+  - [innobackupex 备份工具使用总结](http://www.fordba.com/mysql-innobackupex-usage-explain.html)
+  - [innobackupex备份恢复+增量备份与恢复](https://cloud.tencent.com/developer/article/1119183)
 
 
 
