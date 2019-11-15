@@ -37,6 +37,7 @@
         - [[skynet]]
         - [[kbengine]]
 - [[DevOps]]
+    - [[LXC]]
     - [[docker]]
 - [[database]]
     - [[SQL]]
