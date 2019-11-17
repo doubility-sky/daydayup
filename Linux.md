@@ -9,6 +9,18 @@
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [pure sh bible](https://github.com/dylanaraps/pure-sh-bible)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
+- [Shell 脚本传参方法总结](https://www.jianshu.com/p/d3cd36c97abc)
+```shell
+echo $0    # 当前脚本的文件名（间接运行时还包括绝对路径）。
+echo $n    # 传递给脚本或函数的参数。n 是一个数字，表示第几个参数。例如，第一个参数是 $1 。
+echo $#    # 传递给脚本或函数的参数个数。
+echo $*    # 传递给脚本或函数的所有参数。
+echo $@    # 传递给脚本或函数的所有参数。被双引号 (" ") 包含时，与 $* 不同，下面将会讲到。
+echo $?    # 上个命令的退出状态，或函数的返回值。
+echo $$    # 当前 Shell 进程 ID。对于 Shell 脚本，就是这些脚本所在的进程 ID。
+echo $_    # 上一个命令的最后一个参数
+echo $!    # 后台运行的最后一个进程的 ID 号
+```
 
 
 ## Shortcuts
