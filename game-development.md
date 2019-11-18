@@ -5,8 +5,8 @@
 
 ## Learn
 - [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
-- [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
-- https://gamedevelopment.tutsplus.com/
+- [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
+- [Game Development](https://gamedevelopment.tutsplus.com/), Free tutorials and online courses to help you learn game development from experienced industry instructors, for building and designing your own games.
 
 
 ## Resource
