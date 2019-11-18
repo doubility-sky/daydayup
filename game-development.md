@@ -1,12 +1,16 @@
 ## Index
 - [[game client]]
 - [[game server]]
+- AI: see game section of [[machine-learning]]
 
 
 ## Learn
 - [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
 - [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
 - [Game Development](https://gamedevelopment.tutsplus.com/), Free tutorials and online courses to help you learn game development from experienced industry instructors, for building and designing your own games.
+- [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
+- [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
+- [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc
 
 
 ## Resource
@@ -19,16 +23,11 @@
 - [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might also like [awesome-lua](https://github.com/LewisJEllis/awesome-lua) and [awesome-love2d](https://github.com/JanWerder/awesome-love2d).  
  PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. When you turn it on, the machine greets you with a shell for typing in a subset of [Lua](https://www.lua.org/) commands and provides simple built-in tools for creating your own cartridges.
 - [Awesome Chess](https://github.com/hkirat/awesome-chess), A curated list of assets availible on the Internet related to chess.
-- [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
-- [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc
-- [Awesome-Game-AI](https://github.com/datamllab/awesome-game-ai), A curated, but incomplete, list of game AI resources on multi-agent learning.
 
 
-## Engines
+## Engine/Framework
+- 🌟[Popular game engine/framework list](https://github.com/doubility-sky/daydayup/wiki/game-client#game-engineframework)
 - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct), A curated list of tools, tutorials, examples, and much more, for the awesome game development engine [Construct](https://www.construct.net/)
-
-
-## Frameworks
 - [Awesome Gideros](https://github.com/stetso/awesome-gideros), A curated list of awesome resources for the [Gideros Game Development Framework](http://giderosmobile.com/) that allows you to easily create games and apps for Android, iOS, HTML5, WinRT and Desktop (Windows, OSX). Please feel free to contribute to the list by making a pull request.
 
 
@@ -44,7 +43,5 @@
 - [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
 
 
-## Practice
+## FAQ
 - [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
-- [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
-

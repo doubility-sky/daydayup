@@ -30,6 +30,11 @@
 
 
 
+## [Reinforcement Learning](https://en.wikipedia.org/wiki/Reinforcement_learning)
+- [Awesome Deep Reinforcement Learning](https://github.com/tigerneil/awesome-deep-rl)
+
+
+
 ## Frameworks
 #### [TensorFlow](https://www.tensorflow.org/)
 - [TensorFlow Course](https://github.com/machinelearningmindset/TensorFlow-Course), Simple and ready-to-use tutorials for TensorFlow
@@ -52,10 +57,11 @@
 
 ## Game
 - [Awesome-Game-AI](https://github.com/datamllab/awesome-game-ai), A curated, but incomplete, list of game AI resources on multi-agent learning.
+- [RLCard](https://github.com/datamllab/rlcard): A Toolkit for Reinforcement Learning in Card Games
 - [while True: learn()](https://luden.io/wtl/), Simulator of a machine learning specialist
 - [Bot.Land](https://bot.land/), An online strategy game with a focus on automation
-- [RLCard](https://github.com/datamllab/rlcard): A Toolkit for Reinforcement Learning in Card Games
 - [DeepLeague](https://github.com/farzaa/DeepLeague) - leveraging computer vision and deep learning on the League of Legends mini map + a dataset of over 100,000 labeled images to further A.I research within esports.
+- [Awesome StarCraft AI](https://github.com/SKTBrain/awesome-starcraftAI), A curated list of resources dedicated to StarCraft AI.
 #### AlphaZero
 - [AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku), An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
 - [Tencent/PhoenixGo](https://github.com/Tencent/PhoenixGo), Go AI program which implements the AlphaGo Zero paper
