@@ -11,23 +11,25 @@
 
 ## Resource
 - [Games on GitHub](https://github.com/leereilly/games) A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
-- https://github.com/ellisonleao/magictools
-- https://github.com/marukrap/RoguelikeDevResources
+- [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev), A curated list of good stuff related to the development of games. This list contains only [free software](https://www.fsf.org/about/what-is-free-software) for code, sellers who aren't evil for physical resources, and [free cultural works](http://freedomdefined.org/Definition) for assets.
+- [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.
+  - [awesome-gamedev](https://github.com/mbrukman/awesome-gamedev), forked from ellisonleao/magictools
+- [Roguelike Development Resources](https://github.com/marukrap/RoguelikeDevResources), A curated list of roguelike development resources
+- [Awesome Game Boy Development](https://github.com/gbdev/awesome-gbdev), A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs. https://gbdev.github.io/list
+- [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might also like [awesome-lua](https://github.com/LewisJEllis/awesome-lua) and [awesome-love2d](https://github.com/JanWerder/awesome-love2d).  
+ PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. When you turn it on, the machine greets you with a shell for typing in a subset of [Lua](https://www.lua.org/) commands and provides simple built-in tools for creating your own cartridges.
+- [Awesome Chess](https://github.com/hkirat/awesome-chess), A curated list of assets availible on the Internet related to chess.
+- [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
+- [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc
+- [Awesome-Game-AI](https://github.com/datamllab/awesome-game-ai), A curated, but incomplete, list of game AI resources on multi-agent learning.
 
 
-## Awesome
-- https://github.com/mbrukman/awesome-gamedev
-- https://github.com/Calinou/awesome-gamedev
-- https://github.com/gbdev/awesome-gbdev
-- https://github.com/felipebueno/awesome-PICO-8
-- https://github.com/hkirat/awesome-chess
-- https://github.com/Calinou/awesome-godot
-- https://github.com/love2d-community/awesome-love2d
-- https://github.com/WebCreationClub/awesome-construct
-- https://github.com/stetso/awesome-gideros
-- https://github.com/Yonaba/awesome-one-person-games
-- https://github.com/yrgo/awesome-eg A curated list of awesome educational games to learn editors, languages, programming, etc
-- https://github.com/datamllab/awesome-game-ai
+## Engines
+- [Awesome Construct](https://github.com/WebCreationClub/awesome-construct), A curated list of tools, tutorials, examples, and much more, for the awesome game development engine [Construct](https://www.construct.net/)
+
+
+## Frameworks
+- [Awesome Gideros](https://github.com/stetso/awesome-gideros), A curated list of awesome resources for the [Gideros Game Development Framework](http://giderosmobile.com/) that allows you to easily create games and apps for Android, iOS, HTML5, WinRT and Desktop (Windows, OSX). Please feel free to contribute to the list by making a pull request.
 
 
 ## Open Project
