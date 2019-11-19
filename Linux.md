@@ -121,20 +121,25 @@ echo $!    # 后台运行的最后一个进程的 ID 号
 
 
 ## SSH
-- mac/linux 远程连接命令类似：`ssh -p 12345 root@xxx.xxx.xxx.xxx`
+- 远程连接：`ssh -p12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
-  - ssh copy 文件至远端 `scp -P xx.txt root@xxx.xxx.xxx.xxx:~/` 注意 -P 为大写
+- ssh copy 文件至远端 `scp -P12345 xx.txt root@xxx.xxx.xxx.xxx:~/` 
+  - 注意此处指定端口与 ssh 不同，需要大写 `-P`
+- ssh key 免密连接配置
+  - 生成 ssh key `ssh-keygen -t rsa -P ''`
+  - 将公钥 `id_rsa.pub` 内容，写入远端文件 `~/.ssh/authorized_keys`
+- ssh 设置远端别名
+  - 修改本地文件 `~/.ssh/config` (没有则用 `touch` 创建), 按如下格式添加内容，其中 Port 默认为 22 
+    ```
+    Host Xsvr
+    HostName 172.217.31.238
+    Port 12345
+    User root
+    IdentityFile ~/.ssh/id_rsa
+    ```
+  - 即可 `ssh Xsvr`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
-  修改本地文件 `~/.ssh/config` (没有则用命令 touch 创建)  
-  按如下格式添加内容，其中 Port 默认为 22 
-  ```
-  Host alias
-  HostName 172.217.31.238
-  Port 12345
-  User root
-  IdentityFile ~/.ssh/xxx_rsa
-  ```
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 
