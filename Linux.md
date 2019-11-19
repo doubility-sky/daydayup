@@ -1,3 +1,5 @@
+- [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
+
 ## Learn
 - [The Linux Command Line](http://billie66.github.io/TLCL/)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)

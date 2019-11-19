@@ -1,1 +1,1 @@
-todo
+https://github.com/sorenduan/awesome-java-books

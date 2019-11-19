@@ -24,6 +24,7 @@
 - [如何挑选适合的前端框架](https://github.com/RubyLouvre/agate/issues/8#issuecomment-99820791)
 - [为何现代 Web 开发如此复杂？](https://www.infoq.cn/article/YPEj-1CKSxkVG290iIY0)
 - [在2019年学习如何成为现代前端开发人员](https://www.zcfy.cc/article/learn-to-become-a-modern-frontend-developer-in-2019)
+- [前端开发面试题](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions)
 
 
 ## Back-end
@@ -39,6 +40,7 @@
     - [express](https://github.com/expressjs/express), [nestjs](https://github.com/nestjs/nest), [eggjs](https://github.com/eggjs/egg/)
   - [[java]] - [[spring]]
 - [为什么做java的web开发我们会使用struts2，springMVC和spring这样的框架?](https://github.com/RubyLouvre/agate/issues/8)
+- [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 
 
 

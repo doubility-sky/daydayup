@@ -1,47 +1,13 @@
-[Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html)
 
-## Learn
-- [modest collection of cheatsheets](https://devhints.io/)
-- [Learn X in Y minutes](https://learnxinyminutes.com/)
-- https://github.com/gyuho/learn
-- https://github.com/mtdvio/every-programmer-should-know
-- https://github.com/tuvtran/project-based-learning
+## Cheatsheet
+- [modest collection of cheatsheets](https://devhints.io/) 
+- [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
+  - [skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)，超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西
 
-## Practice
-- https://github.com/karan/Projects
-  - A list of practical projects that anyone can solve in any programming language
-- https://github.com/jobbole/ProgrammingProjectList
-- https://github.com/easychen/howto-make-more-money
-- https://github.com/remoteintech/remote-jobs
 
-## Resources
-- [free-programming-books](https://github.com/EbookFoundation/free-programming-books) 
-- [free-programming-books CN](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md)
-- https://github.com/justjavac/free-programming-books-zh_CN
-- https://github.com/miguellgt/books
-
-## Awesome
-- https://github.com/sindresorhus/awesome
-- https://github.com/bayandin/awesome-awesomeness
-- https://github.com/danistefanovic/build-your-own-x
-- https://github.com/sdmg15/Best-websites-a-programmer-should-visit
-- https://github.com/skywind3000/awesome-cheatsheets
-- https://github.com/LeCoupa/awesome-cheatsheets
 
 ## Interview
-- https://github.com/imhuay/Algorithm_Interview_Notes-Chinese
-- https://github.com/MaximAbramchuck/awesome-interview-questions
-- https://github.com/jwasham/coding-interview-university
-- https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions
-- https://github.com/CyC2018/Interview-Notebook
-- https://github.com/resume/resume.github.com
-
-## Others
-- [21天学会C++](http://coolshell.cn/articles/2250.html)
-- https://github.com/kamranahmedse/design-patterns-for-humans
-- https://github.com/zhuangbiaowei/learn-with-open-source
-- [图说设计模式](https://github.com/me115/design_patterns)
-- [年信息安全从业者书单推荐](https://github.com/riusksk/secbook)
-- [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
-
-
+- [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions), A curated awesome list of lists of interview questions. Feel free to contribute! 
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+- [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes),  技术面试必备基础知识、Leetcode、Java、C++、Python、后端面试、计算机操作系统、计算机网络、系统设计
+- [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.
