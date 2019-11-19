@@ -19,6 +19,7 @@
     - [[computer graphics]]
     - [[machine learning]]
 - [[program library]]
+- [[software engineering]]
 - [[desktop development]]
     - [[electron]]
     - [[QT]]
