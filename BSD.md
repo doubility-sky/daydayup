@@ -1,4 +1,5 @@
-https://github.com/DiscoverBSD/awesome-bsd
+- 其他类Unix系统通用功能，见 [[Linux]]
+- https://github.com/DiscoverBSD/awesome-bsd
 
 ## About
 - [FreeBSD](https://www.freebsd.org/) is an operating system used to power modern servers, desktops, and embedded platforms. A large [community](https://www.freebsd.org/doc/en_US.ISO8859-1/articles/contributors/staff-committers.html) has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the [busiest web sites](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/nutshell.html#introduction-nutshell-users) and most pervasive embedded networking and storage devices.

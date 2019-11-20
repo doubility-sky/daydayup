@@ -11,7 +11,7 @@
     - [[lua]]
     - [[javascript]]
   - [[operating system]]
-    - [[BSD]], [[Mac]]
+    - [[BSD]], [[macOS]]
     - [[Linux]]
     - [[Windows]]
   - [[networks]]

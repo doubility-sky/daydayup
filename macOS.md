@@ -1,3 +1,5 @@
+- 其他类Unix系统通用功能，见 [[Linux]]
+
 
 ## Common
 - CPU infomation
