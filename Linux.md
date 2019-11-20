@@ -10,6 +10,7 @@
   - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Linux命令大全](https://man.linuxde.net/)
+- [explainshell](https://explainshell.com/) is a tool (with a web interface) capable of parsing man pages, extracting options and explain a given command-line by matching each argument to the relevant help text in the man page.
 
 
 
@@ -42,6 +43,7 @@
 - ctrl + l 清屏
 
 
+
 ## Common
 - `whatis XXX`
   ```
@@ -71,7 +73,6 @@
     - `cat /proc/cpuinfo| grep "processor"| wc -l`
   - 查看是否为超线程，如 `cpu cores` 数量和 `siblings` 一致，则未启用超线程
     - `cat /proc/cpuinfo | grep -e "cpu cores"  -e "siblings" | sort | uniq`
-
 
 
 
