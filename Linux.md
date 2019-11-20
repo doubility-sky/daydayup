@@ -2,18 +2,21 @@
 - 本页wiki大部分基础内容也适用于其他类Unix系统：[[BSD]], [[macOS]]
 
 
-## Learn
-- [The Linux Command Line](http://billie66.github.io/TLCL/)
+
+## Command Line
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. 
+  - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- :star:[The Linux Command Line](http://linuxcommand.org/)
+  - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Linux命令大全](https://man.linuxde.net/)
 
 
 
-## Shell
+## Shell Scripting
 - [bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh), [中文速查表](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
-- [pure sh bible](https://github.com/dylanaraps/pure-sh-bible)
-- [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
+- [pure sh bible](https://github.com/dylanaraps/pure-sh-bible), [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
 - [Shell 脚本传参方法总结](https://www.jianshu.com/p/d3cd36c97abc)
   ```shell
   echo $0    # 当前脚本的文件名（间接运行时还包括绝对路径）。
@@ -26,6 +29,8 @@
   echo $_    # 上一个命令的最后一个参数
   echo $!    # 后台运行的最后一个进程的 ID 号
   ```
+- https://github.com/alebcay/awesome-shell
+
 
 
 ## Shortcuts

@@ -7,13 +7,13 @@
 - [What are the best HTML5/JavaScript frameworks for web-based games?](https://www.slant.co/topics/973/~best-html5-javascript-frameworks-for-web-based-games)
 - [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
 - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
-- [[Cocos-Creator]], [[phaser]], [[egret]], ~~[[layabox]]~~
+- [[cocos2dx]], [[phaser]], [[egret]], ~~[[layabox]]~~
 
 
 
 ## 2D
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
-- [[Cocos-Creator]], [[godot]], [[cocos2dx]]
+- [[cocos2dx]], [[godot]]
 - [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
 
 
@@ -21,7 +21,7 @@
 ## 3D
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
 - [[godot]], [panda3d](https://github.com/panda3d/panda3d), [[unity3d]], [[unreal]]
-- [[urho3d]], [[gameplay3d]], [KlayGE](https://github.com/gongminmin/KlayGE)
+- [[urho3d]], [gameplay3d](https://github.com/gameplay3d/GamePlay), [KlayGE](https://github.com/gongminmin/KlayGE)
 
 
 

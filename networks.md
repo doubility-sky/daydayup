@@ -92,4 +92,5 @@
 - [whistle](https://github.com/avwo/whistle)
 - [v2ray](https://www.v2ray.com/)
 - [udp2raw](https://github.com/wangyu-/udp2raw-tunnel)
+- [curl](https://github.com/curl/curl), [POST examples](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
 

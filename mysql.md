@@ -108,7 +108,7 @@
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 #### 配置
 - [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
-- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) —— 🌟[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則），调整关键配置(20%)，可得到 80% 性能提升。
+- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) —— :star:[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則），调整关键配置(20%)，可得到 80% 性能提升。
   1. 所有表使用 innodb 引擎
   2. 加大 `innodb_buffer_pool_size`，最大可使用物理机器的70%
   3. 设置 `innodb_buffer_pool_instances` 来分割 `innodb_buffer_pool_size`，以提高并发性

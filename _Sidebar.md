@@ -34,7 +34,7 @@
   - [[django]], [[openresty]]
 - [[game development]]
   - [[game client]]
-    - [[cocos2dx]], [creator](Cocos-Creator)
+    - [[cocos2dx]]
     - [[unity3d]]
   - [[game server]]
     - [[skynet]]

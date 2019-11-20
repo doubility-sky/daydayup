@@ -5,7 +5,7 @@
   - [[kbengine]]
 - [[golang]]
   - [agones](https://github.com/googleforgames/agones), [open match](https://github.com/googleforgames/open-match)
-  - [[gonet]], [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
+  - [gonet](http://gonet2.github.io/), [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
 - [c++](../C-plus-plus)
   - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
 - [[javascript]]

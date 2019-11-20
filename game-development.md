@@ -20,13 +20,13 @@
   - [awesome-gamedev](https://github.com/mbrukman/awesome-gamedev), forked from ellisonleao/magictools
 - [Roguelike Development Resources](https://github.com/marukrap/RoguelikeDevResources), A curated list of roguelike development resources
 - [Awesome Game Boy Development](https://github.com/gbdev/awesome-gbdev), A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs. https://gbdev.github.io/list
-- [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more. Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing. You might also like [awesome-lua](https://github.com/LewisJEllis/awesome-lua) and [awesome-love2d](https://github.com/JanWerder/awesome-love2d).  
- PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. When you turn it on, the machine greets you with a shell for typing in a subset of [Lua](https://www.lua.org/) commands and provides simple built-in tools for creating your own cartridges.
+- [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more.   
+ PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. When you turn it on, the machine greets you with a shell for typing in a subset of [[Lua]] commands and provides simple built-in tools for creating your own cartridges.
 - [Awesome Chess](https://github.com/hkirat/awesome-chess), A curated list of assets availible on the Internet related to chess.
 
 
 ## Engine/Framework
-- 🌟[Popular game engine/framework list](https://github.com/doubility-sky/daydayup/wiki/game-client#game-engineframework)
+- :star:[Popular game engine/framework list](https://github.com/doubility-sky/daydayup/wiki/game-client#game-engineframework)
 - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct), A curated list of tools, tutorials, examples, and much more, for the awesome game development engine [Construct](https://www.construct.net/)
 - [Awesome Gideros](https://github.com/stetso/awesome-gideros), A curated list of awesome resources for the [Gideros Game Development Framework](http://giderosmobile.com/) that allows you to easily create games and apps for Android, iOS, HTML5, WinRT and Desktop (Windows, OSX). Please feel free to contribute to the list by making a pull request.
 
