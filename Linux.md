@@ -10,21 +10,22 @@
 
 
 ## Shell
+- [bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh), [中文速查表](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [pure sh bible](https://github.com/dylanaraps/pure-sh-bible)
 - [pure bash bible](https://github.com/dylanaraps/pure-bash-bible)
 - [Shell 脚本传参方法总结](https://www.jianshu.com/p/d3cd36c97abc)
-```shell
-echo $0    # 当前脚本的文件名（间接运行时还包括绝对路径）。
-echo $n    # 传递给脚本或函数的参数。n 是一个数字，表示第几个参数。例如，第一个参数是 $1 。
-echo $#    # 传递给脚本或函数的参数个数。
-echo $*    # 传递给脚本或函数的所有参数。
-echo $@    # 传递给脚本或函数的所有参数。被双引号 (" ") 包含时，与 $* 不同，下面将会讲到。
-echo $?    # 上个命令的退出状态，或函数的返回值。
-echo $$    # 当前 Shell 进程 ID。对于 Shell 脚本，就是这些脚本所在的进程 ID。
-echo $_    # 上一个命令的最后一个参数
-echo $!    # 后台运行的最后一个进程的 ID 号
-```
+  ```shell
+  echo $0    # 当前脚本的文件名（间接运行时还包括绝对路径）。
+  echo $n    # 传递给脚本或函数的参数。n 是一个数字，表示第几个参数。例如，第一个参数是 $1 。
+  echo $#    # 传递给脚本或函数的参数个数。
+  echo $*    # 传递给脚本或函数的所有参数。
+  echo $@    # 传递给脚本或函数的所有参数。被双引号 (" ") 包含时，与 $* 不同，下面将会讲到。
+  echo $?    # 上个命令的退出状态，或函数的返回值。
+  echo $$    # 当前 Shell 进程 ID。对于 Shell 脚本，就是这些脚本所在的进程 ID。
+  echo $_    # 上一个命令的最后一个参数
+  echo $!    # 后台运行的最后一个进程的 ID 号
+  ```
 
 
 ## Shortcuts
@@ -132,6 +133,7 @@ echo $!    # 后台运行的最后一个进程的 ID 号
 - ssh key 免密连接配置
   - 生成 ssh key `ssh-keygen -t rsa -P ''`
   - 将公钥 `id_rsa.pub` 内容，写入远端文件 `~/.ssh/authorized_keys`
+    - 可使用 `ssh-copy-id root@xxx.xxx.xxx.xxx` 自动写入
 - ssh 设置远端别名
   - 修改本地文件 `~/.ssh/config` (没有则用 `touch` 创建), 按如下格式添加内容，其中 Port 默认为 22 
     ```
@@ -154,6 +156,9 @@ echo $!    # 后台运行的最后一个进程的 ID 号
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
 ### ufw
+- `ufw allow ssh` 生效前最好先放行 ssh
+- `ufw enable`
+- `ufw allow 80`
 - `ufw allow xxx:yyy/tcp` 开放 xxx 到 yyy 端口段
 
 ### firewall-cmd
