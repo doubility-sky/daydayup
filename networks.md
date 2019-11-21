@@ -93,4 +93,4 @@
 - [v2ray](https://www.v2ray.com/)
 - [udp2raw](https://github.com/wangyu-/udp2raw-tunnel)
 - [curl](https://github.com/curl/curl), [POST examples](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
-
+- [HTTPie](https://github.com/jakubroztocil/httpie) (pronounced aitch-tee-tee-pie) is a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. It provides a simple http command that allows for sending arbitrary HTTP requests using a simple and natural syntax, and displays colorized output. HTTPie can be used for testing, debugging, and generally interacting with HTTP servers.
