@@ -1,4 +1,6 @@
 - [Awesome Networking](https://github.com/clowwindy/Awesome-Networking), A curated list of awesome networking libraries, resources and shiny things.
+- [[proxy]]
+
 
 
 ## TCP/IP
@@ -13,6 +15,7 @@
 - [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html), [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
 - [TIME_WAIT and its design implications for protocols and scalable client server systems](http://www.serverframework.com/asynchronousevents/2011/01/time-wait-and-its-design-implications-for-protocols-and-scalable-servers.html)
 - [TCP TIME-WAIT state on busy Linux servers](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)
+
 
 
 ## HTTP
@@ -35,24 +38,12 @@
 
 
 
-## [SOCKS](https://en.wikipedia.org/wiki/SOCKS)
-[SOCKS Protocol Version 5](https://www.ietf.org/rfc/rfc1928.txt)
-- SOCKS is an Internet protocol that exchanges network packets between a client and server through a proxy server. 
-- SOCKS5 additionally provides authentication so only authorized users may access a server. 
-- Practically, a SOCKS server proxies TCP connections to an arbitrary IP address, and provides a means for UDP packets to be forwarded.  
-- SOCKS performs at Layer 5 of the OSI model (the session layer, an intermediate layer between the presentation layer and the transport layer). 
-- SOCKS server accepts incoming client connection on TCP port 1080.
-### [Shadowsocks](https://github.com/shadowsocks)
-- [shadowsocks.org](http://shadowsocks.org/en/index.html)
-- [Shadowsocks white paper](http://shadowsocks.org/assets/whitepaper.pdf)
-
-
-
 ## KCP
 - [KCP - A Fast and Reliable ARQ Protocol](https://github.com/skywind3000/kcp)
 - [kcp-go](https://github.com/xtaci/kcp-go)
-- [kcptun](https://github.com/xtaci/kcptun)
 - [可靠 UDP，KCP 协议快在哪？](https://testerhome.com/topics/14688)
+#### kcptun
+- [kcptun](https://github.com/xtaci/kcptun)
 
 
 
