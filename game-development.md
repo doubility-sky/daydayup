@@ -45,3 +45,7 @@
 
 ## FAQ
 - [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
+
+
+## Summary
+- [[game dev summary]]

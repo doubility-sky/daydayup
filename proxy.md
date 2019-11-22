@@ -1,4 +1,3 @@
-# Poxy
 - for running world-wide productions
 - fast your [[game-client]] communicate with [[game-server]], or other softwares
 
