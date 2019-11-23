@@ -17,52 +17,6 @@
 
 
 
-# Coding
-### Editor
-- [vim](https://www.vim.org/)
-  - [The Ultimate vimrc](https://github.com/amix/vimrc)
-- [emacs](https://www.gnu.org/software/emacs/)
-- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品，好吧现在也是微软的了- -|||") 基于 electron
-- :star:[vscode](https://code.visualstudio.com/ "微软出品")，与 atom 一样基于 electron，活跃且迭代非常快
-  - [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
-  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
-- [sublime](http://www.sublimetext.com/) 速度快 (打开大文件表现好），更新慢
-  - [Package Control](https://packagecontrol.io/installation)
-  - [20 个强大的 Sublime Text 插件](https://www.oschina.net/translate/20-powerful-sublimetext-plugins)
-- [notepad++](https://notepad-plus-plus.org/) (Windows Only)
-- [source insight](http://www.sourceinsight.com/) 收费，windows only
-
-### Counter
-- [Count Lines of Code](https://github.com/AlDanial/cloc)
-
-### Formatter
-- [Artistic Style](http://astyle.sourceforge.net/)   
-  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
-  ```bash
-  #!/bin/sh
-  astyle \
-  --mode=c \
-  --style=kr \
-  --indent=force-tab \
-  --attach-namespaces \
-  --attach-classes \
-  --attach-inlines \
-  --indent-switches \
-  --indent-col1-comments \
-  --pad-oper \
-  --pad-header \
-  --unpad-paren \
-  --align-pointer=type \
-  --fill-empty-lines \
-  --add-brackets \
-  --recursive \
-  --suffix=none *.c *.cpp *.h *.hpp
-  ```
-- [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
-  [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
-
-
-
 # Image
 ### [ImageMagick](https://www.imagemagick.org/script/index.php)
 - [ImageMagick：批量处理图像的超级利器](http://blog.sina.com.cn/s/blog_ba532aea0101bty5.html)
@@ -116,8 +70,16 @@
 
 
 
-# Audio
+# Multimedia
+- [VLC](https://www.videolan.org/) is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
+
+## Audio
 - `lame --mp3input --abr 32 ${infile} ${outfile}.mp3`
 - `ffmpeg -i "${filename}.wav" -f mp3 "${filename}.mp3"`
 - [使用 audacity/lame/ffmpeg 进行 mp3 文件瘦身](http://blog.zengrong.net/post/2624.html)
+
+
+## Video
+- [OBS Studio](https://github.com/obsproject/obs-studio), Free and open source software for live streaming and screen recording
+- [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 

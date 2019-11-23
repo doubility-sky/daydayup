@@ -18,7 +18,8 @@
   - [[security]]
   - [[computer graphics]]
   - [[machine learning]]
-- [[program library]]
+- [programming & development](programming and development)
+- [[programming library]]
 - [[software engineering]]
 - [[desktop development]]
   - [[electron]]
@@ -56,5 +57,4 @@
   - [[git]], [[svn]]
   - [[document]]
   - [[third party]]
-- [[cheat sheet]]
 - [[test]]
