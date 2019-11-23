@@ -1,6 +1,5 @@
-# Contents
 - [[Home]]
-- [[computer science]]
+## [[computer science]]
   - [[algorithm]]
   - [[theory of computation]]
   - [[compiler]]
@@ -18,7 +17,7 @@
   - [[security]]
   - [[computer graphics]]
   - [[machine learning]]
-- [programming&development](programming-and-development)
+## [programming&development](programming-and-development)
 - [[programming library]]
 - [[software engineering]]
 - [[desktop development]]
@@ -41,8 +40,7 @@
     - [[skynet]]
     - [[kbengine]]
 - [[DevOps]]
-  - [[LXC]]
-  - [[docker]]
+  - [[LXC]], [[docker]]
 - [[database]]
   - [[SQL]]
     - [[mysql]], [[PostgreSQL]]
