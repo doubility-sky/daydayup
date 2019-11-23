@@ -18,7 +18,7 @@
   - [[security]]
   - [[computer graphics]]
   - [[machine learning]]
-- [programming && development](programming-and-development)
+- [programming & development](programming-and-development)
 - [[programming library]]
 - [[software engineering]]
 - [[desktop development]]
