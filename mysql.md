@@ -1,7 +1,7 @@
 ## [MySQL](https://www.mysql.com)
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
-
+- https://github.com/DoubleLabyrinth/navicat-keygen
 
 
 ## 用户
