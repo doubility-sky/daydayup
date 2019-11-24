@@ -32,7 +32,7 @@
   - [[golang]]
     - https://github.com/speedwheel/awesome-go-web-frameworks
     - [beego](https://github.com/astaxie/beego), [gin](https://github.com/gin-gonic/gin), [iris](https://github.com/kataras/iris)
-  - [[lua]] - [[openresty]]
+  - [[lua]] - [openresty](nginx#openresty)
   - [[python]] - [[django]]
   - [[node.js]] 
     - [egg.js和nest.js该选择哪个作为系统框架](https://cnodejs.org/topic/5b852286632c7f422e5b81e5)

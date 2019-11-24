@@ -1,7 +1,7 @@
 https://en.wikipedia.org/wiki/Theory_of_computation
 
 ## Automata theory
-- TODO ...
+- https://en.wikipedia.org/wiki/Automata_theory
 
 
 

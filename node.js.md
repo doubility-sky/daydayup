@@ -2,7 +2,7 @@ https://nodejs.org/en/
 
 
 ## Learn
-- [node 入门](https://www.nodebeginner.org/index-zh-cn.html)
+- [node beginner](https://www.nodebeginner.org/index-zh-cn.html)
 - [Mixu's Node book](http://book.mixu.net/node/single.html)
 
 
