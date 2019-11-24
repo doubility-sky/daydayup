@@ -15,6 +15,7 @@
   - [[Linux]]
   - [[Windows]]
 - [[networks]]
+  - [[proxy]]
 - [[security]]
 - [[computer graphics]]
 - [[database]]
