@@ -24,9 +24,12 @@
 
 
 ## [Programming & DEV](programming-and-development)
+#### [[Software Engineering]]
+- [[build]]
+- [[profile]]
+- [[document]]
+- [[git]], [[svn]]
 - [[programming library]]
-- [[software engineering]]
-  - [[build]]
 #### [[Desktop Development]]
 - [[electron]]
 - [[QT]]
@@ -56,8 +59,4 @@
 
 
 ## [[Tools]]
-- [[profile]]
-- [[git]], [[svn]]
-- [[document]]
 - [[third party]]
-

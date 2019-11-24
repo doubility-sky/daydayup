@@ -1,3 +1,9 @@
+- [[build]]
+- [[profile]]
+- [[document]]
+- [Version Control](https://en.wikipedia.org/wiki/Version_control): [[git]], [[svn]]
+- [[programming library]]
+
 
 ## Design Patterns
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans), An ultra-simplified explanation to design patterns
