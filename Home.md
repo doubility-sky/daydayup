@@ -6,8 +6,8 @@
 # Introduction
 - 感谢郭嘉
 - 积累，交流，进步，自由
-- 欢迎点击本页上方按钮 `Star` 和 `Watching` ~~订阅 issue 推送~~
-- 这里是 [项目主页](http://doubility-sky.github.io/daydayup/)，这里是 page 所在的 [git repo](https://github.com/doubility-sky/daydayup/tree/gh-pages)
+- 点击本页右上方按钮 :star:`Star`，:sailboat:驶向星辰大海:milky_way:！
+- 项目 [repo](https://github.com/doubility-sky/daydayup.git) 和本 wiki 不定期互相同步
 
 
 # How to Use
@@ -19,27 +19,15 @@
 
 
 # How to Contribute
-- 学习使用 [[markdown]] 撰写 wiki 页面
+- 学习使用 [[markdown]] 撰写 wiki 页面，使用 github's [emoji](https://gist.github.com/rxaviers/7360908)
+- `clone` [repo](https://github.com/doubility-sky/daydayup)，用支持 [[markdown]] 的本地编辑器撰写后提 PR
+- 组成员可直接推送发布至 [daydayup.wiki.git](git@github.com:doubility-sky/daydayup.wiki.git)，或使用浏览器在线编辑
+  - 填写 `Edit message`，方便 wiki 内容出错恢复
+  - 在线编辑页面内有 [[markdown]] 相关语法参考，可 `Preview`
 - 右侧导航为大主题，做好分类管理，层级适度（3级以内为佳）
-- 撰写 wiki 页内容 
-  - 新增页面，无歧义情况下以小写字母命名为主
-  - 有意义的外部文章/资料，添加可跳转链接即可
-  - 个人经验以 [[markdown]] 语法来写成相应的记录
-  - **对某页wiki有异议**，明显错误直接修改，如：我国 ~~无~~雾 霾
-- 使用 github's [emoji](https://gist.github.com/rxaviers/7360908)
-
-
-# Tips
-- 尽量填写 `Edit message`，方便 wiki 内容出错恢复
-- github 编辑页面内有 [[markdown]] 相关语法参考，可 `Preview`
-- 通常使用浏览器在线编辑即可
-- 如撰写复杂的长篇文章，请 clone 本 wiki 的 [[git]] 库，用支持 [[markdown]] 的[编辑器](https://github.com/doubility-sky/daydayup/wiki/tools#editor)来撰写后 push 更改
-  - `git@github.com:doubility-sky/daydayup.wiki.git`
-  - `https://github.com/doubility-sky/daydayup.wiki.git`
-
-
-# Contributors
-- see [mirro-repo](https://github.com/doubility-sky/daydayup)'s [contributors](https://github.com/doubility-sky/daydayup/graphs/contributors)
+- 新增页面，无歧义情况下以小写字母命名为主
+- 外部文章/资料，添加可跳转链接至相应的页面
+- 页面明显错误直接修改，如：我国 ~~无~~雾 霾
 
 
 # Awesome
