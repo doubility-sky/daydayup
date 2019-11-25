@@ -1,10 +1,11 @@
-# 计算机图形学
-隶属于 [[computer science]] 也是 [[game development]] 中，[[game client]] 的重要部分
+- [Computer Graphics](https://en.wikipedia.org/wiki/Computer_graphics_(computer_science)) is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content. Although the term often refers to the study of three-dimensional computer graphics, it also encompasses two-dimensional graphics and image processing.  
+  Computer graphics studies the manipulation of visual and geometric information using computational techniques. It focuses on the mathematical and computational foundations of image generation and processing rather than purely aesthetic issues. Computer graphics is often differentiated from the field of visualization, although the two fields have many similarities.
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision), A curated list of awesome computer vision resources
 
 
 # Learn
 - [computer-graphics-from-scratch](https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html) 从头开始学计算机图形学
+- 见 [[game development]] - [[game client]]
 
 
 # OpenGL
@@ -21,4 +22,4 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 # Library
 - [Skia](https://github.com/google/skia) is a complete 2D graphic library for drawing Text, Geometries, and Images. 
 - [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx), Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
-
+- Since 2001, [OGRE](https://www.ogre3d.org/) has grown to become one of the most popular open-source graphics rendering engines, and has been used in a large number of production projects, in such diverse areas as games, simulators, educational software, interactive art, scientific visualisation, and others.

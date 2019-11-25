@@ -1,11 +1,13 @@
-<img src="https://raw.githubusercontent.com/isocpp/logos/master/cpp_logo.png" alt="C++ Logo" width="306" height="344" />
+- [Awesome C++](https://github.com/fffaraz/awesome-cpp), A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+
 
 ## learn
-- https://github.com/isocpp/CppCoreGuidelines
-- https://github.com/changkun/modern-cpp-tutorial
+- [The C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many person-years of discussion and design across a number of organizations. Their design encourages general applicability and broad adoption but they can be freely copied and modified to meet your organization's needs.
+- [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial): C++11/14/17/20 On the Fly https://changkun.de/modern-cpp/
+
 
 ## library
-- https://github.com/nothings/single_file_libs
-
-## projects
-- https://github.com/fffaraz/awesome-cpp
+- http://www.stlport.org/
+- http://www.sgi.com/tech/stl/
+- [nothings/stb](https://github.com/nothings/stb), single-file public domain (or MIT licensed) libraries for C/C++
+  - [nothings/single_file_libs](https://github.com/nothings/single_file_libs), Single-file public-domain/open source libraries with minimal dependencies

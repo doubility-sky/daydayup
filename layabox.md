@@ -28,4 +28,4 @@ https://www.layabox.com/
 ## 综上
 - 强烈**不**推荐
 - 推荐使用 [cocos creator](cocos2dx#cocos-creator)，已支持3d
-  - BTW: [[egret]] 也支持 3d 
+  - BTW: [[egret]] 虽然也支持 3d，但社区活跃低、维护不及时，同样不推荐

@@ -1,4 +1,6 @@
-https://www.acm.org/
+- https://www.acm.org/
+- https://en.wikipedia.org/wiki/Computer_architecture
+
 
 # [Computer_science](https://en.wikipedia.org/wiki/Computer_science)
 - [[algorithm]]
