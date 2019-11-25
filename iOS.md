@@ -12,7 +12,7 @@
 ## Projects
 - https://github.com/vsouza/awesome-ios
 - https://github.com/learn-anything/ios-apps
-- https://github.com/dkhamsing/open-source-ios-apps
+- [Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps), A collaborative list of open-source iOS, watchOS and tvOS apps
 
 ## AppStore
 - Xcode中Upload到AppStore时不成功，可以尝试用Application Loader上传，需要先在Xcode的Organizer中导出AppStore的ipa。

@@ -7,13 +7,12 @@
 - https://github.com/inferjay/AndroidDevTools
 
 ## Projects
-- https://github.com/JStumpp/awesome-android
-- https://github.com/pcqpcq/open-source-android-apps
-- https://github.com/googlesamples/android-topeka
-- https://github.com/Trinea/android-demo
-- https://github.com/dannytiehui/androidpn
-- https://github.com/android-cn/android-discuss 主要都在issue里，可以订阅
-- https://github.com/hehonghui/android-tech-frontier
+- [Awesome Android](https://github.com/JStumpp/awesome-android), A curated list of awesome Android libraries and resources. For general Java libraries have a look at [awesome-java](https://github.com/akullpp/awesome-java).
+- [Open-Source Android Apps](https://github.com/pcqpcq/open-source-android-apps), This is a collection of Android Apps which are open source.  
+I believe that we can find something interesting and gain helpful skills from an open source app.  
+This idea comes from this project - [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps).
+- [topeka](https://github.com/googlesamples/android-topeka), A fun to play quiz that showcases material design on Android
+- [androidpn](https://github.com/dannytiehui/androidpn), An open source project to provide push notification support for Android -- a xmpp based notification server and a client tool kit.
 
 ## Source Codes
 - [grepcode](http://grepcode.com/project/repository.grepcode.com/java/ext/com.google.android/android/)
