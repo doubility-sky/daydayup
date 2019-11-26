@@ -1,3 +1,8 @@
+- [programming/development tools](programming-and-development#Tools)
+- development [[document]] tools
+
+
+
 # Search
 - 指定url内查找相关信息，将以下内容放入Google的搜索框内并回车  
   `site:https://github.com/doubility-sky/daydayup/wiki 搜索`
@@ -7,13 +12,6 @@
 # Design
 - [Awesome Design Tools](https://github.com/LisaDziuba/Awesome-Design-Tools), The best design tools and plugins for everything. https://flawlessapp.io/designtools.
 - [Axure RP](http://www.axure.com/) UI设计软件
-### 绘制（流程图、设计图）
-- [Graphviz](http://www.graphviz.org/) 
-  - 贝尔实验室AT&T出品, 成品质量奇佳; C++ boost 库都有API支持; 有独立语言DOT支持, 入门不易.
-  - [使用 Graphviz 生成自动化系统图](http://www.ibm.com/developerworks/cn/aix/library/au-aix-graphviz/)
-- [draw.io](https://www.draw.io/)
-  - 云端绘图，可导出各个网盘
-  - 需要翻墙2016-01-20
 
 
 
