@@ -2,6 +2,8 @@
 - https://talks.golang.org/
 - https://github.com/golang/go/wiki
 
+
+
 ## Learn
 - 快速入门：[A Tour of Go](https://tour.golang.org/)，[Go by Example](https://gobyexample.com/) 
 - Books：[The Go Programming Language](https://github.com/miguellgt/books/blob/master/go/The.Go.Programming.Language.pdf) 
@@ -43,10 +45,16 @@
 
 
 
-## 其他
+## Tools
+- [作为程序员的你，常用的工具软件有哪些？ - 腾讯技术工程的回答 - 知乎](https://www.zhihu.com/question/22867411/answer/911161400)
+- vscode + vscode-go 可做跨平台IDE
+
+
+
+## FAQ
 - 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 
-- 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。
-- 但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。
+  - 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。
+  - 但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。
 - 交叉编译go目标代码举例：
     ```
     > CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/main src/main/main.go
@@ -59,10 +67,5 @@
     freebsd 386 / amd64 >= FreeBSD 7
     windows 386 / amd64 >= Windows 2000
     ```
-- vscode + vscode-go 可做跨平台IDE
-
-
-
-## FAQ
 - [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
 - [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)

@@ -1,3 +1,0 @@
-- https://github.com/lxc/lxc
-- https://linuxcontainers.org/lxc/
-- [LXC 1.0](https://stgraber.org/2013/12/20/lxc-1-0-blog-post-series/) 10 blog posts covering what I think are some of the most exciting features of LXC
