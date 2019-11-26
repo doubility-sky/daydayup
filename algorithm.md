@@ -1,19 +1,29 @@
-https://en.wikipedia.org/wiki/Data_structure
-https://en.wikipedia.org/wiki/Algorithm
+- https://en.wikipedia.org/wiki/Data_structure
+- https://en.wikipedia.org/wiki/Algorithm
+- [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms), A curated list of awesome places to learn and/or practice algorithms.
+- [GeeksforGeeks](http://www.geeksforgeeks.org/)
+- [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)
+- [Robert Sedgewick](https://www.cs.princeton.edu/~rs/)
 
 
 
-## Learn
+## Data Structure
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [Collections-C](https://github.com/srdja/Collections-C), A library of generic data structures including a list, array, hashtable, deque etc.. http://srdja.github.io/Collections-C
+
+
+
+## Algorithm
+- [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms), This repository contains JavaScript based examples of many popular algorithms and data structures. [zh-CN](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [Pygorithm](https://github.com/OmkarPathak/pygorithm), A Python module to learn all the major algorithms on the go! Purely for educational purposes
+- [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+#### Books
 - The textbook [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne
 - [Algorithms in the "Real World"](http://www.cs.cmu.edu/~guyb/realworld.html)
 - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 #### Visualization
 - [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [VisuAlgo](https://visualgo.net/en) visualising data structures and algorithms through animation
-- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-#### Contest & [[Online-Judge]]
-- https://github.com/enkerewpo/OI-Public-Library
-- https://github.com/soulmachine/acm-cheat-sheet
 
 
 
@@ -28,12 +38,11 @@ https://en.wikipedia.org/wiki/Algorithm
 
 
 
-## Links
-- [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)
-- [Robert Sedgewick](https://www.cs.princeton.edu/~rs/)
-- [GeeksforGeeks](http://www.geeksforgeeks.org/)
-- https://github.com/tayllan/awesome-algorithms
-- https://github.com/trekhleb/javascript-algorithms
-- https://github.com/OmkarPathak/pygorithm
-- [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
-
+## Contest & [[Online-Judge]]
+- [OI-Public-Library](https://github.com/enkerewpo/OI-Public-Library), OI essays and learning materials
+- [Stanford ACM-ICPC](https://github.com/jaehyunp/stanfordacm), This is a repository for the Stanford ACM-ICPC teams. It currently hosts (a) the team notebook, and (b) complete lecture slides for [CS 97SI](http://stanford.edu/class/cs97si/).  
+  The team notebook is compiled from codes written by previous Stanford team members and coaches.
+- http://web.mit.edu/~ecprice/acm/notebook.pdf
+- [ACM Cheat Sheet](https://github.com/soulmachine/acm-cheat-sheet)
+- [ACM-ICPC Algorithms](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms), Algorithms used in Competitive Programming
+- [ACM-ICPC Preparation](https://github.com/BedirT/ACM-ICPC-Preparation), This program has been developed to learn Algorithms for use in Competitive Prorgamming

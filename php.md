@@ -1,10 +1,13 @@
 # The Best!!!
 - http://php.net/
 - https://pecl.php.net/
+- [Awesome PHP](https://github.com/ziadoz/awesome-php), A curated list of amazingly awesome PHP libraries, resources and shiny things.
+
 
 
 ## [Laravel](https://laravel.com/)
 - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.
+
 
 
 ## Yaf(Yet Another Framework)

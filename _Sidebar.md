@@ -17,11 +17,13 @@
 - [[networks]]
   - [[proxy]]
 - [[security]]
-- [[computer graphics]]
 - [[database]]
   - [[mysql]], [[PostgreSQL]]
   - [[mongodb]], [[redis]]
-- [[machine learning]]
+- [[artificial intelligence]]
+  - [[machine learning]]
+  - [[natural language processing]]
+- [[computer graphics]]
 
 
 ## [Programming & DEV](programming-and-development)

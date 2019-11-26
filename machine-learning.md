@@ -1,12 +1,5 @@
 
-## AI
-- [Google AI Research](https://github.com/google-research/google-research)
-- [微软人工智能教育与学习共建社区](https://github.com/microsoft/ai-edu), AI education materials for Chinese students, teachers and IT professionals.
-- [AiLearning](https://github.com/apachecn/AiLearning) : MachineLearning、DeepLearning、Natural Language Processing
-
-
-
-## Machine Learning
+## [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
 - [Machine Learning Crash Course - with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/), Google's fast-paced, practical introduction to machine learning
 - [The Facebook Field Guide to Machine Learning](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/) is a six-part video series developed by the Facebook ads machine learning team. The series shares best real-world practices and provides practical tips about how to apply machine-learning capabilities to real-world problems.
 - [Top-down learning path](https://github.com/ZuzooVn/machine-learning-for-software-engineers), A complete daily plan for studying to become a machine learning engineer.
@@ -17,6 +10,7 @@
 - [MLAlgorithms](https://github.com/rushter/MLAlgorithms), A collection of minimal and clean implementations of machine learning algorithms.
 - [IBM/elasticsearch-spark-recommender](https://github.com/IBM/elasticsearch-spark-recommender), Use Jupyter Notebooks to demonstrate how to build a Recommender with Apache Spark & Elasticsearch
 - [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book), Explaining the decisions and behaviour of machine learning models.
+- [Machine Learning Systems Design](https://github.com/chiphuyen/machine-learning-systems-design), A booklet on machine learning systems design with exercises
 
 
 
@@ -49,17 +43,10 @@
 
 
 
-## [Natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing) (NLP) 
-- [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse)
-- [Synonyms](https://github.com/huyingxi/Synonyms), Chinese Synonyms for Natural Language Processing and Understanding. 最好的中文近义词工具包。
-
-
-
 ## Game
 - [Awesome-Game-AI](https://github.com/datamllab/awesome-game-ai), A curated, but incomplete, list of game AI resources on multi-agent learning.
 - [RLCard](https://github.com/datamllab/rlcard): A Toolkit for Reinforcement Learning in Card Games
 - [while True: learn()](https://luden.io/wtl/), Simulator of a machine learning specialist
-- [Bot.Land](https://bot.land/), An online strategy game with a focus on automation
 - [DeepLeague](https://github.com/farzaa/DeepLeague) - leveraging computer vision and deep learning on the League of Legends mini map + a dataset of over 100,000 labeled images to further A.I research within esports.
 - [Awesome StarCraft AI](https://github.com/SKTBrain/awesome-starcraftAI), A curated list of resources dedicated to StarCraft AI.
 #### AlphaZero

@@ -4,6 +4,7 @@
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
 - [hacker-laws](https://github.com/dwmkerr/hacker-laws), Laws, Theories, Principles and Patterns that developers will find useful. [中文版](https://github.com/nusr/hacker-laws-zh)
 - [科技爱好者周刊](https://github.com/ruanyf/weekly)
+- https://github.com/jobbole
 #### Cheatsheet
 - [modest collection of cheatsheets](https://devhints.io/) 
 - [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
