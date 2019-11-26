@@ -1,6 +1,6 @@
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
-- [[react]] - [[react native]]
-- [[vue]] - [[weex]]
+- [[react]] - [react native](react#react-native)
+- [[vue]] - [weex](vue#weex)
 - [[angular]] - [ionic](https://ionicframework.com/)
 
 
