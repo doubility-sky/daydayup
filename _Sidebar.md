@@ -26,7 +26,7 @@
 - [[computer graphics]]
 
 
-## [Programming & DEV](programming-and-development)
+## [Programming & Dev](programming-and-development)
 - [[Software Engineering]]
   - [[build]]
   - [[profile]]
