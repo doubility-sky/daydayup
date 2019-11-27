@@ -22,7 +22,7 @@
   - [[mongodb]], [[redis]]
 - [[artificial intelligence]]
   - [[machine learning]]
-  - [NLP](natural language processing)
+  - [NLP](natural-language-processing)
 - [[computer graphics]]
 
 
