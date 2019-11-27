@@ -33,3 +33,4 @@
 # Awesome
 - [Awesome](https://github.com/sindresorhus/awesome) lists about all kinds of interesting topics
 - [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) A curated list of awesome awesomeness
+- [Awesome Health](https://github.com/kakoni/awesome-healthcare)

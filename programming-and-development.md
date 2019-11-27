@@ -1,8 +1,10 @@
+- [[software-engineering]]
+
 
 ## Learn
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html), [21天学会C++](http://coolshell.cn/articles/2250.html)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
-- [hacker-laws](https://github.com/dwmkerr/hacker-laws), Laws, Theories, Principles and Patterns that developers will find useful. [中文版](https://github.com/nusr/hacker-laws-zh)
+- [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps), A curated list of roadmaps, mostly about software development, which give you a clear route to improve your knowledge or skills.
 - [科技爱好者周刊](https://github.com/ruanyf/weekly)
 - https://github.com/jobbole
 #### Cheatsheet
@@ -15,6 +17,14 @@
 - [教孩子编程的 6 个小建议](http://blog.jobbole.com/95737/)
 - [教孩子学习编程基础知识的 10 个工具](http://blog.jobbole.com/77291/)
 - [教孩子们编程，相关学习资源](http://blog.jobbole.com/49786/)
+
+
+
+## Practice
+- https://github.com/karan/Projects
+  - A list of practical projects that anyone can solve in any programming language
+- https://github.com/jobbole/ProgrammingProjectList
+- https://github.com/danistefanovic/build-your-own-x
 
 
 
@@ -32,15 +42,25 @@
 
 
 
+## Freelance
+- [Remote-friendly companies](https://github.com/remoteintech/remote-jobs)
+- [From Coding to Monetization](https://github.com/floatinghotpot/coding-to-monetization)：Programmer's Financial Freedom Approach
+- [程序员如何优雅的挣零花钱？](https://github.com/easychen/howto-make-more-money)
+- [程序员如何开始做一个自己的 Side Project？](http://blog.parryqiu.com/2018/10/25/side_project_inspiration/)
+  - https://www.producthunt.com/
+- [接私活必备的10个开源项目！](https://zhuanlan.zhihu.com/p/82124789?utm_source=wechat_session&utm_medium=social&utm_oi=40735038504960)
+- [90% 以上的独立开发者，败在了认知环节](https://juejin.im/post/5be0fc31e51d4552d47d1213)
+
+
+
 ## Tools
 - programming/development [[document]] tools
-
-### Editor
-- [vim](https://www.vim.org/)
+#### Editor
+- [vim](https://www.vim.org/) 编辑器之神
   - [The Ultimate vimrc](https://github.com/amix/vimrc)
-- [emacs](https://www.gnu.org/software/emacs/)
-- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品，好吧现在也是微软的了- -|||") 基于 electron
-- :star:[vscode](https://code.visualstudio.com/ "微软出品")，与 atom 一样基于 electron，活跃且迭代非常快
+- [emacs](https://www.gnu.org/software/emacs/) 神的编辑器
+- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品，好吧现在也是微软的了- -|||") 基于 [[electron]]
+- :star:[vscode](https://code.visualstudio.com/ "微软出品")，与 atom 一样基于 [[electron]]，活跃且迭代非常快
   - [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
   - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 - [sublime](http://www.sublimetext.com/) 速度快 (打开大文件表现好），更新慢
@@ -48,15 +68,10 @@
   - [20 个强大的 Sublime Text 插件](https://www.oschina.net/translate/20-powerful-sublimetext-plugins)
 - [notepad++](https://notepad-plus-plus.org/) (Windows Only)
 - [source insight](http://www.sourceinsight.com/) 收费，windows only
-
-### Code Counter
+#### Codes
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
-
-### Code Formatter
-- [Artistic Style](http://astyle.sourceforge.net/)   
-  格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
+- [Artistic Style](http://astyle.sourceforge.net/) 格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
   ```bash
-  #!/bin/sh
   astyle \
   --mode=c \
   --style=kr \

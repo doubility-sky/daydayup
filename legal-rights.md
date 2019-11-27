@@ -22,3 +22,13 @@
 - [从网易辞退患病员工，我看到了资本家百年不变的嘴脸](https://mp.weixin.qq.com/s/752vKTiyMwpCXwM_sapEvg)
 - [网易裁员这事，我只能“远远”谈谈](https://mp.weixin.qq.com/s/gSVpeNBYp87EIVw5FDjBrQ)
 
+
+
+## What's next?
+- Take care your body: [Awesome Health](https://github.com/kakoni/awesome-healthcare)
+  - Curated list of awesome open source healthcare software, libraries, tools and resources. Each link has been vetted to ensure the project is active and provides value to healthcare facilities, providers, developers, policy experts, and/or research scientists.
+- Fight for your rights in public: [awesome-speaking](https://github.com/matteofigus/awesome-speaking)
+- Keep learning: [Learn](programming-and-development#Learn)
+- Make more money: [Freelance](programming-and-devlopment#Freelance)
+- Enjoy [happiness](https://en.wikipedia.org/wiki/Happiness) life
+

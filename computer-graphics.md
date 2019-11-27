@@ -23,3 +23,4 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 - [Skia](https://github.com/google/skia) is a complete 2D graphic library for drawing Text, Geometries, and Images. 
 - [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx), Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.
 - Since 2001, [OGRE](https://www.ogre3d.org/) has grown to become one of the most popular open-source graphics rendering engines, and has been used in a large number of production projects, in such diverse areas as games, simulators, educational software, interactive art, scientific visualisation, and others.
+- [Magnum](https://github.com/mosra/magnum), Lightweight and modular C++11/C++14 graphics middleware for games and data visualization https://magnum.graphics/
