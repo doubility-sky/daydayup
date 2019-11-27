@@ -2,7 +2,8 @@
 - [[profile]]
 - [[document]]
 - [Version Control](https://en.wikipedia.org/wiki/Version_control): [[git]], [[svn]]
-- [[programming library]]
+- programming [[library]]
+- [[DevOps]]
 
 
 ## Design Patterns

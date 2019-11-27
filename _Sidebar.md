@@ -22,7 +22,7 @@
   - [[mongodb]], [[redis]]
 - [[artificial intelligence]]
   - [[machine learning]]
-  - [[natural language processing]]
+  - [NLP](natural language processing)
 - [[computer graphics]]
 
 
@@ -63,3 +63,5 @@
 
 ## [[Tools]]
 - [[third party]]
+- [[legal rights]]
+

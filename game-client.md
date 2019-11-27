@@ -12,6 +12,8 @@
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
 - [[cocos2dx]], [[godot]]
 - [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
+- [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
+
 
 ### 3D
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
