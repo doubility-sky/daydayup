@@ -21,10 +21,8 @@
 
 
 ## Practice
-- https://github.com/karan/Projects
-  - A list of practical projects that anyone can solve in any programming language
-- https://github.com/jobbole/ProgrammingProjectList
-- https://github.com/danistefanovic/build-your-own-x
+- [Mega Project List](https://github.com/karan/Projects) A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+- [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x), Build your own (insert technology here)
 
 
 
@@ -69,6 +67,7 @@
 - [notepad++](https://notepad-plus-plus.org/) (Windows Only)
 - [source insight](http://www.sourceinsight.com/) 收费，windows only
 #### Codes
+- [CoatiSoftware/Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail) is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
 - [Artistic Style](http://astyle.sourceforge.net/) 格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
   ```bash

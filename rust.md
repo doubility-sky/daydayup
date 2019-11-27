@@ -1,4 +1,6 @@
-https://www.rust-lang.org
+- https://www.rust-lang.org
+- https://github.com/kud1ing/awesome-rust
+
 
 ## Learn
 - [Rust by Example](https://rustbyexample.com/)
@@ -7,4 +9,5 @@ https://www.rust-lang.org
 
 
 ## Projects
-- https://github.com/kud1ing/awesome-rust
+- [Y2Z/monolith](https://github.com/Y2Z/monolith), CLI tool for saving complete web pages as a single HTML file
+
