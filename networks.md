@@ -40,6 +40,7 @@
 - [RFC 6455 - The WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 - [WebSocket协议：5分钟从入门到精通](https://www.cnblogs.com/chyingp/p/websocket-deep-in.html)
 - [WebSocket 协议深入探究](https://www.infoq.cn/article/deep-in-websocket-protocol)
+- [Gorilla WebSocket](https://github.com/gorilla/websocket) is a Go implementation of the WebSocket protocol.
 
 
 
