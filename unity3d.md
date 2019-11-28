@@ -17,7 +17,7 @@ https://github.com/RyanNielson/awesome-unity
 应用于u3d的lua插件较少
 - [moonsharp](http://www.moonsharp.org/) 比较新的一款c#上的lua解释器，必须持续关注!
 - ulua等方式持续更新
-- [xlua](https://github.com/Tencent/xLua)
+- [xlua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
 
 

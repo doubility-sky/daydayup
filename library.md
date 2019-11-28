@@ -1,6 +1,4 @@
-## Introduction
-- 此处Mark一些**通用**的~~车轮子~~程序库，知其然亦知其所以然！
-- 强大、优美、世界级的；最好也是小巧简洁，方便学习使用的。
+- [Graphics](computer-graphics#Library)
 
 
 
@@ -22,3 +20,9 @@
 - [libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library.
 
 
+
+## Serialization
+- [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format https://developers.google.com/protocol-buffers/
+  - [protocolbuffers/upb](https://github.com/protocolbuffers/upb) a small protobuf implementation in C
+  - [nanopb](https://github.com/nanopb/nanopb), Protocol Buffers with small code size https://jpa.kapsi.fi/nanopb/
+- [google/flatbuffers](https://github.com/google/flatbuffers): Memory Efficient Serialization Library http://google.github.io/flatbuffers/
