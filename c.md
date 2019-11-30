@@ -1,4 +1,6 @@
 - https://github.com/kozross/awesome-c
+- [c++](cpp)
+- [c--](https://www.cs.tufts.edu/~nr/c--/index.html)
 
 
 ## Learn
