@@ -27,3 +27,4 @@
     - Any valid mJS code is a valid ES6 code.
     - Any valid ES6 code is not necessarily a valid mJS code.
   - On 32-bit ARM mJS engine takes about 50k of flash memory, and less than 1k of RAM (see intro article). mJS is part of MongooseOS, where it enables scripting for IoT devices.
+- [jerryscript](https://github.com/jerryscript-project/jerryscript) is a lightweight JavaScript engine for resource-constrained devices such as microcontrollers. It can run on devices with less than 64 KB of RAM and less than 200 KB of flash memory.

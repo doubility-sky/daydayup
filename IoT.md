@@ -3,4 +3,4 @@
 
 ## Projects
 - [Cesanta Software](https://github.com/cesanta)
-
+- [IoT.js](https://github.com/jerryscript-project/iotjs): Platform for Internet of Things with JavaScript

@@ -87,3 +87,5 @@
 - office文档的diff方案
   - [Microsoft Office and Git](https://www.ficonsulting.com/filabs/MSOfficeGit)
 - [Pushing to Multiple Git Repos](https://gist.github.com/rvl/c3f156e117e22a25f242)
+- [How to restore a deleted branch](https://confluence.atlassian.com/bbkb/how-to-restore-a-deleted-branch-765757540.html)
+
