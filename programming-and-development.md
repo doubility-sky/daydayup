@@ -1,6 +1,7 @@
 - [[software-engineering]]
 
 
+
 ## Learn
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html), [21天学会C++](http://coolshell.cn/articles/2250.html)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
@@ -27,8 +28,10 @@
 
 
 ## Resources
-- [free-programming-books](https://github.com/EbookFoundation/free-programming-books), [CN](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md); [another CN](https://github.com/justjavac/free-programming-books-zh_CN)
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit),  Some useful websites for programmers.
+#### Books
+- [free-programming-books](https://github.com/EbookFoundation/free-programming-books), [CN](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md); [another CN](https://github.com/justjavac/free-programming-books-zh_CN)
+- https://github.com/royeo/awesome-programming-books
 
 
 

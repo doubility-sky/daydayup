@@ -12,7 +12,8 @@
 
 
 
-## Design Patterns
+## Design
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans), An ultra-simplified explanation to design patterns
 - [图说设计模式](https://github.com/me115/design_patterns)
 
