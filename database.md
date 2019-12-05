@@ -5,10 +5,13 @@
 
 # [Relational Database](https://en.wikipedia.org/wiki/Relational_database)
 A relational database is a digital database based on the relational model of data, as proposed by E. F. Codd in 1970. A software system used to maintain relational databases is a relational database management system (RDBMS). Many relational database systems have an option of using the SQL (Structured Query Language) for querying and maintaining the database.
+
 ### Relational Database Management System (RDMBS)
 - [[MySQL]]
 - [[PostgreSQL]]
-- [SQLite](https://www.sqlite.org/index.html)
+- [SQLite](https://www.sqlite.org/index.html) is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private. SQLite is the most widely deployed database in the world with more applications than we can count, including several high-profile projects.
+- [TiDB](https://github.com/pingcap/tidb) is an open source distributed HTAP database compatible with the MySQL protocol https://pingcap.com
+
 ### [SQL](https://en.wikipedia.org/wiki/SQL)
 SQL (/ˌɛsˌkjuːˈɛl/ ( listen) S-Q-L, /ˈsiːkwəl/ "sequel"; Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
 - [Quick SQL Cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet), A quick reminder of all SQL queries and examples on how to use them.
@@ -33,9 +36,8 @@ NoSQL, which stand for "not only SQL," is an alternative to traditional relation
   - [Ledisdb](https://github.com/siddontang/ledisdb) is a high-performance NoSQL database, similar to Redis, written in Go. It supports many data structures including kv, list, hash, zset, set.
   - [SSDB](https://github.com/ideawu/ssdb) is a high performace key-value(key-string, key-zset, key-hashmap) NoSQL database, an alternative to Redis.
 - [LevelDB](https://github.com/google/leveldb) is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
+- [TiKV](https://github.com/tikv/tikv) is an open-source, distributed, and transactional key-value database. Unlike other traditional NoSQL systems, TiKV not only provides classical key-value APIs, but also transactional APIs with ACID compliance. Built in Rust and powered by Raft, TiKV was originally created to complement TiDB
 ### [Wide Column Store](https://en.wikipedia.org/wiki/Wide_column_store)
 - [Apache HBase](https://github.com/apache/hbase) is an open-source, distributed, versioned, column-oriented store modeled after Google' [Bigtable: A Distributed Storage System for Structured Data](https://ai.google/research/pubs/pub27898) by Chang et al.   
   Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Apache Hadoop.
 
-
-  

@@ -1,4 +1,5 @@
 ## [MySQL](https://www.mysql.com)
+The MySQL™ software delivers a very fast, multithreaded, multi-user, and robust SQL (Structured Query Language) database server. MySQL Server is intended for mission-critical, heavy-load production systems as well as for embedding into mass-deployed software. 
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
 - https://github.com/DoubleLabyrinth/navicat-keygen
