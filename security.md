@@ -9,3 +9,9 @@
 - [OpenSSL](https://www.openssl.org/)
 - [Common Crypto](https://developer.apple.com/library/mac/documentation/Security/Conceptual/cryptoservices/GeneralPurposeCrypto/GeneralPurposeCrypto.html#//apple_ref/doc/uid/TP40011172-CH9-SW1)
 
+
+
+## Backup
+- [restic](https://github.com/restic/restic) is a backup program that is fast, efficient and secure. It supports the three major operating systems (Linux, macOS, Windows) and a few smaller ones (FreeBSD, OpenBSD).
+- [BorgBackup](https://github.com/borgbackup/borg) (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption.
+
