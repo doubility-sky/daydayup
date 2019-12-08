@@ -4,11 +4,9 @@
 
 # [Computer_science](https://en.wikipedia.org/wiki/Computer_science)
 - [[algorithm]]
-- [[data structure]]
 - [[theory of computation]]
 - [[compiler]]
 - [[programming language]]
-- [[computer architecture]]
 - [[operating system]]
 - [[networks]]
 - [[computer graphics]]
