@@ -1,6 +1,6 @@
 - [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
 - 本页wiki大部分基础内容也适用于其他类Unix系统：[[BSD]], [[macOS]]
-
+- [linux-insides](https://github.com/0xAX/linux-insides) A book-in-progress about the linux kernel and its insides.
 
 
 ## Command Line
