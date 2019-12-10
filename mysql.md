@@ -5,6 +5,24 @@ The MySQL™ software delivers a very fast, multithreaded, multi-user, and robus
 - https://github.com/DoubleLabyrinth/navicat-keygen
 
 
+
+## 安装
+- [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
+  - 下载mysql的repo源   
+    `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
+  - 安装mysql-community-release-el7-5.noarch.rpm包  
+    `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
+  - `$ sudo yum install mysql-server`
+  - `$ service mysqld restart`
+  - 开放端口，使用 firewall-cmd 或如下  
+    - `$ sudo vim /etc/sysconfig/iptables`
+    - 添加以下内容  
+      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
+    - `$ sudo service iptables restart`
+
+
+
+
 ## 用户
 - 创建用户：`CREATE USER 'username'@'host' IDENTIFIED BY 'password'; `
   ```
@@ -19,6 +37,13 @@ The MySQL™ software delivers a very fast, multithreaded, multi-user, and robus
   mysqladmin -u root password -p;
   SET PASSWORD FOR 'root'@'%' = PASSWORD('000000'); 
   SET PASSWORD = PASSWORD('000000');  --设置当前登陆用户
+  ```
+- 修改密码
+  ```
+  $ mysql -u root
+  mysql > use mysql;
+  mysql > update user set password=password('123456') where user='root';
+  mysql > exit;
   ```
 
 
@@ -40,6 +65,12 @@ The MySQL™ software delivers a very fast, multithreaded, multi-user, and robus
   REVOKE SELECT ON testdb.* FROM 'test'@'localhost'; 
   ```
 - 刷新生效：`flush privileges;`
+- 修改权限，允许远程访问
+  ```
+  use mysql;
+  update user set host = '%' where user = 'root';
+  flush privileges;
+  ```
 
 
 

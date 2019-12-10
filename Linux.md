@@ -157,7 +157,7 @@
 
 
 
-## Firewall
+## [Firewall](https://en.wikipedia.org/wiki/Firewall_(computing))
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
@@ -202,35 +202,8 @@
 
 
 
-## [[MySQL]]
-- [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
-  - 下载mysql的repo源   
-    `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
-  - 安装mysql-community-release-el7-5.noarch.rpm包  
-    `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
-  - `$ sudo yum install mysql-server`
-  - `$ service mysqld restart`
-  - 开放端口，使用 firewall-cmd 或如下  
-    - `$ sudo vim /etc/sysconfig/iptables`
-    - 添加以下内容  
-      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
-    - `$ sudo service iptables restart`
-- 修改密码
-    ```
-    $ mysql -u root
-    mysql > use mysql;
-    mysql > update user set password=password('123456') where user='root';
-    mysql > exit;
-    ```
-- 修改权限，允许远程访问
-  ```
-  use mysql;
-  update user set host = '%' where user = 'root';
-  flush privileges;
-  ```
-
-
-## screen
+## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
+#### screen
 - [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
 - Frequently Command:
   ```
@@ -247,10 +220,7 @@
           每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
-
-
-
-## [tmux](https://github.com/tmux/tmux)
+#### [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
 
@@ -283,3 +253,17 @@
 - [Centos 7图形化与安装中文支持与修改时区方法](https://www.wanghailin.cn/centos-7-install-desktop-timezone/)  
   注：其中安装中文语言包的命令应为 yum install kde-l10n-Chinese
 
+
+
+## Others
+#### [[database]]
+- [[MySQL]], [[PostgreSQL]]
+- [[mongodb]], [[redis]]
+
+
+
+## FAQ
+- [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](https://www.zhihu.com/question/19599986/answer/26359309)
+- [CentOS: 永远有多远就离它多远](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)
+- [在linux上做机器学习，请问centos和ubuntu有区别吗？](https://www.zhihu.com/question/334455564)
+  - TensorFlow 用 Ubuntu
