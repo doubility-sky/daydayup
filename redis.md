@@ -7,6 +7,7 @@
 - [official documentation](https://redis.io/documentation)
 - [redis cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/databases/redis.sh)
 - [Redis基础查漏补缺](https://zhuanlan.zhihu.com/p/90922969)
+- [如何阅读 Redis 源码？](http://blog.huangz.me/diary/2014/how-to-read-redis-source-code.html)
 
 
 

@@ -28,7 +28,13 @@
 - [Urho3D](https://github.com/urho3d/Urho3D) is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by OGRE and Horde3D.
 - [KlayGE](https://github.com/gongminmin/KlayGE), KlayGE is a cross-platform open source game engine with plugin-based architecture. It's started since 2003. The explicit goal of KlayGE is: to arm your engine with cutting-edge technology. It provides a framework to make game development, testing, porting as simple as possible.
 - [pmtech](https://github.com/polymonster/pmtech), Lightweight, multi-platform, data-oriented game engine.
-### Physics
+
+
+
+# Physics
+- [bullet3](https://github.com/bulletphysics/bullet3) Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. http://bulletphysics.org
+- [Box2D](https://github.com/erincatto/Box2D) is a 2D physics engine for games http://box2d.org
+  - [box2d-lite](https://github.com/erincatto/box2d-lite) A small 2D physics engine http://box2d.org/
 - [Game Physics Cookbook](https://github.com/gszauer/GamePhysicsCookbook) Source code for Game Physics Cookbook http://gamephysicscookbook.com/
 
 

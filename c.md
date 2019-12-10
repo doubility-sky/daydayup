@@ -8,11 +8,19 @@
 - [Build your own Lisp](https://github.com/orangeduck/BuildYourOwnLisp), Learn C and build your own programming language in under 1000 lines of code!
 
 
+
+## Library
+- [cJSON](https://github.com/DaveGamble/cJSON) Ultralightweight JSON parser in ANSI C
+- [mmx](https://github.com/vurtun/mmx) single header libraries for C/C++
+
+
+
 ## Projects
 - [C compilers](compiler#C)
 - [[lua]]
-- [cJSON](https://github.com/DaveGamble/cJSON) Ultralightweight JSON parser in ANSI C
 - [最值得阅读学习的 10 个 C 语言开源项目代码](https://my.oschina.net/zhoukuo/blog/335788#OSC_h3_2)
+  <details> <summary>View details</summary>
+  
   1. [Webbench](http://home.tiscali.cz/~cz210552/webbench.html)
   Webbench是一个在linux下使用的非常简单的网站压测工具。
   它使用fork()模拟多个客户端同时访问我们设定的URL，测试网站在压力下工作的性能，最多可以模拟3万个并发连接去测试网站的负载能力。
@@ -63,12 +71,13 @@
   许多程序都可以很容易地通过NetBSD Packages Collection获得。
   - 备注：根据 "IM鑫爷"的建议，增加了Redis和Nginx，同时删除tinyhttp和cJSON。
     - Tinyhttpd
-       tinyhttpd是一个超轻量型Http Server，使用C语言开发，全部代码只有502行(包括注释)，
-       附带一个简单的Client，可以通过阅读这段代码理解一个 Http Server 的本质。
-       下载链接：http://sourceforge.net/projects/tinyhttpd/
+        tinyhttpd是一个超轻量型Http Server，使用C语言开发，全部代码只有502行(包括注释)，
+        附带一个简单的Client，可以通过阅读这段代码理解一个 Http Server 的本质。
+        下载链接：http://sourceforge.net/projects/tinyhttpd/
     - cJSON
       cJSON是C语言中的一个JSON编解码器，非常轻量级，C文件只有500多行，速度也非常理想。
       cJSON也存在几个弱点，虽然功能不是非常强大，但cJSON的小身板和速度是最值得赞赏的。
       其代码被非常好地维护着，结构也简单易懂，可以作为一个非常好的C语言项目进行学习。
       项目主页:http://sourceforge.net/projects/cjson/
-  ```
+  
+  </details>
