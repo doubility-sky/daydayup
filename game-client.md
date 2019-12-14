@@ -39,12 +39,6 @@
 
 
 
-# Audio
-- [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
-- [libsoundio](https://github.com/andrewrk/libsoundio) C library providing cross-platform audio input and output. The API is suitable for real-time software such as digital audio workstations as well as consumer software such as music players.
-
-
-
 # 3rd
 - [xLua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)

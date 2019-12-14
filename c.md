@@ -11,6 +11,11 @@
 
 ## Library
 - [cJSON](https://github.com/DaveGamble/cJSON) Ultralightweight JSON parser in ANSI C
+#### Single-file libraries
+- [nothings/stb](https://github.com/nothings/stb), single-file public domain (or MIT licensed) libraries for C/C++
+  - [nothings/single_file_libs](https://github.com/nothings/single_file_libs), Single-file public-domain/open source libraries with minimal dependencies
+- [cute_headers](https://github.com/RandyGaul/cute_headers) Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
+- [sokol](https://github.com/floooh/sokol) minimal cross-platform standalone C headers
 - [mmx](https://github.com/vurtun/mmx) single header libraries for C/C++
 
 

@@ -40,8 +40,15 @@
 
 
 
+## Pathfinding
+- [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
+
+
+
 ## Contest & [[Online-Judge]]
 - [OI-Public-Library](https://github.com/enkerewpo/OI-Public-Library), OI essays and learning materials
+- [Wiki for OI / ICPC](https://github.com/OI-wiki/OI-wiki) （某大型游戏线上攻略，内含炫酷算术魔法） https://oi-wiki.org
+  - OI Wiki 致力于成为一个免费开放且持续更新的知识整合站点，大家可以在这里获取关于 编程竞赛 (competitive programming) 有趣又实用的知识，我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛。
 - [Stanford ACM-ICPC](https://github.com/jaehyunp/stanfordacm), This is a repository for the Stanford ACM-ICPC teams. It currently hosts (a) the team notebook, and (b) complete lecture slides for [CS 97SI](http://stanford.edu/class/cs97si/).  
   The team notebook is compiled from codes written by previous Stanford team members and coaches.
 - http://web.mit.edu/~ecprice/acm/notebook.pdf

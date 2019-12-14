@@ -13,9 +13,7 @@
 
 
 ## library
-- [nothings/stb](https://github.com/nothings/stb), single-file public domain (or MIT licensed) libraries for C/C++
-  - [nothings/single_file_libs](https://github.com/nothings/single_file_libs), Single-file public-domain/open source libraries with minimal dependencies
-- [cute_headers](https://github.com/RandyGaul/cute_headers) Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
+- [C library](c#library)
 
 
 

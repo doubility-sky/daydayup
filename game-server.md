@@ -13,14 +13,6 @@
   - [colyseus](https://github.com/gamestdio/colyseus), [mage](https://github.com/mage/mage), ~~[[pomelo]]~~
 
 
-# Open Project
-- https://github.com/topics/game-server
-- https://github.com/hstcscolor/awesome-gameserver-cn
-- [MaNGOS](https://github.com/mangos/MaNGOS)
-- [TrinityCore](https://github.com/TrinityCore/TrinityCore)
-- [cuberite](https://github.com/cuberite/cuberite), A lightweight, fast and extensible game server for Minecraft
-
-
 
 # Learn
 - [游戏服务端架构发展史（上）](http://www.skywind.me/blog/archives/1265)
@@ -29,6 +21,19 @@
 
 
 
+# Library
+- [ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) is a basic transport layer for games.
+
+
+
+# Projects
+- https://github.com/topics/game-server
+- https://github.com/hstcscolor/awesome-gameserver-cn
+- [MaNGOS](https://github.com/mangos/MaNGOS)
+- [TrinityCore](https://github.com/TrinityCore/TrinityCore)
+- [cuberite](https://github.com/cuberite/cuberite), A lightweight, fast and extensible game server for Minecraft
+
+
+
 # FAQ
 - [使用 Go 语言开发游戏服务端的是如何忍受无法热更新的？](https://www.zhihu.com/question/31912663)
-
