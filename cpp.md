@@ -20,3 +20,7 @@
 ## Frameworks
 - [openFrameworks](https://github.com/openframeworks/openFrameworks) is a community-developed cross platform toolkit for creative coding in C++. http://openframeworks.cc
 
+
+
+## Tools
+- [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++

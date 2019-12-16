@@ -40,8 +40,17 @@
 
 ## Open Source
 - https://github.com/avelino/awesome-go
-- [[game-client]]: [oak](https://github.com/oakmound/oak), [ebiten](https://github.com/hajimehoshi/ebiten), [Korok](https://github.com/KorokEngine/Korok), [G3N](https://github.com/g3n/engine), [pixel](https://github.com/faiface/pixel)
-- [[game-server]]: [gonet](http://gonet2.github.io/), [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
+- [[game-client]]
+  - [pixel](https://github.com/faiface/pixel) A hand-crafted 2D game library in Go
+  - [ebiten](https://github.com/hajimehoshi/ebiten) A dead simple 2D game library in Go https://ebiten.org/
+    - [gozelda](https://github.com/ArnaudCalmettes/gozelda) An implementation of a GameBoy era zelda game using Go and Ebiten
+  - [Korok](https://github.com/KorokEngine/Korok) is a free lightweight, cross-platform, component-based 2D game engine written in Golang and released under the zlib license. Greatly inspired by bitsquid blog.
+  - [oak](https://github.com/oakmound/oak) A pure Go game engine
+  - [G3N](https://github.com/g3n/engine) (pronounced "gen") is an OpenGL 3D Game Engine written in Go. It can be used to write cross-platform Go applications that show rich and dynamic 3D representations - not just games. A basic integrated GUI framework is provided, and 3D spatial audio is supported through OpenAL.
+- [[game-server]]
+  - [gonet](http://gonet2.github.io/)
+  - [leaf](https://github.com/name5566/leaf)
+  - [goworld](https://github.com/xiaonanln/goworld)
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
 
 

@@ -30,17 +30,17 @@
 
 
 ## Frameworks
-#### [TensorFlow](https://www.tensorflow.org/)
-- [stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials) This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research. http://cs20.stanford.edu
-- [TensorFlow Course](https://github.com/machinelearningmindset/TensorFlow-Course), Simple and ready-to-use tutorials for TensorFlow
-- [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow) TensorFlow 1.x and 2.x tutorials and best practices.
-- [tinyflow](https://github.com/tqchen/tinyflow), Tutorial code on how to build your own Deep Learning System in 2k Lines
-#### [Torch](http://torch.ch/), A SCIENTIFIC COMPUTING FRAMEWORK FOR LUAJIT
-#### [PyTorch](http://pytorch.org/)
-- [PyTorch Tutorial ](https://github.com/yunjey/pytorch-tutorial) for Deep Learning Researchers
-- [pytorch-book](https://github.com/chenyuntc/pytorch-book), PyTorch tutorials and fun projects including neural talk, neural style, poem writing, anime generation
-#### [Caffe](http://caffe.berkeleyvision.org/)
-- Caffe is a deep learning framework made with expression, speed, and modularity in mind.
+- [TensorFlow](https://www.tensorflow.org/)
+  - [stanford-tensorflow-tutorials](https://github.com/chiphuyen/stanford-tensorflow-tutorials) This repository contains code examples for the Stanford's course: TensorFlow for Deep Learning Research. http://cs20.stanford.edu
+  - [TensorFlow Course](https://github.com/machinelearningmindset/TensorFlow-Course), Simple and ready-to-use tutorials for TensorFlow
+  - [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow) TensorFlow 1.x and 2.x tutorials and best practices.
+  - [tinyflow](https://github.com/tqchen/tinyflow), Tutorial code on how to build your own Deep Learning System in 2k Lines
+- [Torch](http://torch.ch/), A SCIENTIFIC COMPUTING FRAMEWORK FOR LUAJIT
+  - [PyTorch](http://pytorch.org/)
+    - [PyTorch Tutorial ](https://github.com/yunjey/pytorch-tutorial) for Deep Learning Researchers
+    - [pytorch-book](https://github.com/chenyuntc/pytorch-book), PyTorch tutorials and fun projects including neural talk, neural style, poem writing, anime generation
+- [Caffe](http://caffe.berkeleyvision.org/) is a deep learning framework made with expression, speed, and modularity in mind.
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn): machine learning in Python https://scikit-learn.org
 
 
 

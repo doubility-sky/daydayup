@@ -86,3 +86,7 @@
       项目主页:http://sourceforge.net/projects/cjson/
   
   </details>
+
+
+## Tools
+- [cr.h](https://github.com/fungos/cr): A Simple C Hot Reload Header-only Library https://fungos.github.io/blog/2017/11…
