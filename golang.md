@@ -52,6 +52,7 @@
   - [leaf](https://github.com/name5566/leaf)
   - [goworld](https://github.com/xiaonanln/goworld)
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
+- [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 
 
 
