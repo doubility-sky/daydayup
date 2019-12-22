@@ -11,6 +11,8 @@
 - [IBM/elasticsearch-spark-recommender](https://github.com/IBM/elasticsearch-spark-recommender), Use Jupyter Notebooks to demonstrate how to build a Recommender with Apache Spark & Elasticsearch
 - [interpretable-ml-book](https://github.com/christophM/interpretable-ml-book), Explaining the decisions and behaviour of machine learning models.
 - [Machine Learning Systems Design](https://github.com/chiphuyen/machine-learning-systems-design), A booklet on machine learning systems design with exercises
+- [cheatsheets](https://github.com/afshinea/stanford-cs-229-machine-learning) VIP cheatsheets for Stanford's CS 229 Machine Learning https://stanford.edu/~shervine/teaching/cs-229/
+
 
 
 

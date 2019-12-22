@@ -29,6 +29,7 @@
   - Curated list of awesome open source healthcare software, libraries, tools and resources. Each link has been vetted to ensure the project is active and provides value to healthcare facilities, providers, developers, policy experts, and/or research scientists.
 - Fight for your rights in public: [awesome-speaking](https://github.com/matteofigus/awesome-speaking)
 - Keep learning: [Learn](programming-and-development#Learn)
+  - Valuable : [不要自称为程序员](http://www.ruanyifeng.com/blog/2011/10/dont_call_yourself_a_programmer.html)
 - Make more money: [Freelance](programming-and-devlopment#Freelance)
 - Enjoy [happiness](https://en.wikipedia.org/wiki/Happiness) life
 
