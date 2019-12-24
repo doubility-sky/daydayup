@@ -74,6 +74,9 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 - run `SS-cli`, `kcptun-cli`, `udp2raw-cli` on `user-device`
 - `kcptun-cli`, `udp2raw-cli` may running on another `intermediate server`
 
-## VPN
 
-### [一键安装vpn服务器](https://github.com/hwdsl2/setup-ipsec-vpn)
+
+## VPN
+- [一键安装vpn服务器](https://github.com/hwdsl2/setup-ipsec-vpn)
+- [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
+

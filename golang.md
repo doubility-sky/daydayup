@@ -15,8 +15,9 @@
 - [Go 语言入门资料](http://fuxiaohei.me/2016/6/24/go-start-up.html)
 - [Go 开发 HTTP](http://fuxiaohei.me/2016/9/20/go-and-http-server.html)
 - [Go Data Structures](https://research.swtch.com/godata)
-- [The Golang Standard Library by Example
-](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
+
 
 #### Standard
 - [Effective Go](https://golang.org/doc/effective_go.html)

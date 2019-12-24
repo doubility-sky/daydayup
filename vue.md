@@ -2,6 +2,10 @@
 - https://github.com/vuejs/awesome-vue
 
 
+## Learn
+- [逐行剖析Vue.js源码](https://github.com/NLRX-WJC/Learn-Vue-Source-Code) 在线阅读地址https://nlrx-wjc.github.io/Learn-Vue-Source-Code/
+
+
 
 ## Weex
 - https://weex.apache.org/
