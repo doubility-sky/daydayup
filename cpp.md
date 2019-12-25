@@ -14,6 +14,7 @@
 
 ## library
 - [C library](c#library)
+- [Catch2](https://github.com/catchorg/Catch2) A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) https://discord.gg/4CWS9zD
 
 
 

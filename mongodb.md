@@ -28,5 +28,10 @@
 
 
 
+## Practice
+- [谈谈陌陌争霸在数据库方面踩过的坑(芒果篇)](https://blog.codingnow.com/2014/03/mmzb_mongodb.html)
+
+
+
 ## FAQ
 - https://github.com/mongodb/homebrew-brew for macOS

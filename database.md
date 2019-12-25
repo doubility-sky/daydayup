@@ -41,3 +41,8 @@ NoSQL, which stand for "not only SQL," is an alternative to traditional relation
 - [Apache HBase](https://github.com/apache/hbase) is an open-source, distributed, versioned, column-oriented store modeled after Google' [Bigtable: A Distributed Storage System for Structured Data](https://ai.google/research/pubs/pub27898) by Chang et al.   
   Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Apache Hadoop.
 
+
+
+# Practice
+- 谈谈陌陌争霸在数据库方面踩过的坑
+  - [前篇](https://blog.codingnow.com/2014/03/mmzb_db.html)，[排行榜篇](https://blog.codingnow.com/2014/03/mmzb_db_2.html)，[芒果篇](https://blog.codingnow.com/2014/03/mmzb_mongodb.html)，[Redis 篇](https://blog.codingnow.com/2014/03/mmzb_redis.html)

@@ -21,3 +21,8 @@
   - Just `brew cask install another-redis-desktop-manager` on macOS
 - [Medis](https://github.com/luin/medis) is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2.
 - [Redis Manager](https://github.com/ngbdf/redis-manager), Redis 一站式管理平台，支持集群创建、管理、监控、报警
+
+
+
+## Practice
+- [谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇)](https://blog.codingnow.com/2014/03/mmzb_redis.html)

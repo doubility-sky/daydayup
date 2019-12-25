@@ -119,10 +119,10 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   对 skynet 的 gate 服务的重构
 
 **摘要:**  
->&emsp;&emsp;目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 google proto buffer 用的 varint ，但最后都放弃了。  
-&emsp;&emsp;考虑到实现的便捷，通常收到长度后，会在内存考虑指定长度的 buffer 等待后续的数据输入。这样，如果有大量攻击者发送超长包头，就会让服务器内存瞬间消进。所以，这种协议只要实现的不小心，很容易变成攻击弱点。  
-&emsp;&emsp;注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。  
-&emsp;&emsp;游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。
+> 目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 google proto buffer 用的 varint ，但最后都放弃了。  
+考虑到实现的便捷，通常收到长度后，会在内存考虑指定长度的 buffer 等待后续的数据输入。这样，如果有大量攻击者发送超长包头，就会让服务器内存瞬间消进。所以，这种协议只要实现的不小心，很容易变成攻击弱点。  
+注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。  
+游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。
 大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。  
 
 ### Gate
@@ -159,24 +159,33 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - [RPC 之恶](http://blog.codingnow.com/2015/11/rpc.html) - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
 - **综上**：snax拿来参考学习即可，无需深究。
 
-### [Dev Blog](http://blog.codingnow.com/eo/skynet/)
-以下*斜体字*为摘要，链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
-- http://blog.codingnow.com/2015/04/skynet_mmo.html  
-  基于 skynet 的 MMO 服务器设计 - *陌陌 带了他们的一个 CP 到我们公司咨询一下 skynet 做 mmo 游戏项目中遇到的一些问题...*
-- http://blog.codingnow.com/2014/10/skynet_overload.html  
-  skynet 服务的过载保护 - *《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...*
-- http://blog.codingnow.com/2014/07/skynet_response.html   
-  skynet 中如何实现邮件达到通知服务 - *讨论如何实现一个邮件通知服务...*
-- http://blog.codingnow.com/2014/03/mmzb_redis.html  
-  谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) 
-- http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
-  skynet 服务启动优化 - *手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...*
-- http://blog.codingnow.com/2013/08/exit_skynet.html  
-  如何安全的退出 skynet - *如何安全的退出和业务逻辑相关性很强...*  
-- http://blog.codingnow.com/2013/06/skynet_watchdog.html  
-  skynet 下的用户登陆问题 - *今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...*
-- http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
-  并发问题 bug 小记 - *在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...*
+### [Skynet Dev Blog](http://blog.codingnow.com/eo/skynet/)
+链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+- 代理服务和过载保护 https://blog.codingnow.com/2016/05/skynet_proxy.html
+- skynet 服务的沙盒保护 https://blog.codingnow.com/2016/05/skynet_memory.html
+  - 经过这次事故，我觉得 skynet 有必要增加一个新特性：允许开发者限制单个 lua vm 使用内存的大小。
+  - 如果需要开启，必须在脚本一开始就调用 skynet.memlimit 设置上限，单位是字节数。一旦该 VM 使用超过这个限制，就会抛出内存错误。
+- 重载一个 skynet 中的 lua 服务 https://blog.codingnow.com/2016/03/skynet_reload.html
+  > 能不能不关闭 skynet 进程，直接重新加载一个 lua 服务。  
+  简单的回答的不能。如果要详细回答，并非完全不行，但这个需求需要使用 skynet 的人自己定制出来。
+- 在 skynet 中处理 TCP 的分包 https://blog.codingnow.com/2016/03/skynet_tcp_package.html  
+  > skynet 的核心并没有规定怎样处理 TCP 的数据流，但在开发网络游戏时，我们往往需要按传统，把 TCP 连接上的数据流分割为一个个数据包。
+- 基于 skynet 的 MMO 服务器设计 http://blog.codingnow.com/2015/04/skynet_mmo.html  
+  > 陌陌 带了他们的一个 CP 到我们公司咨询一下 skynet 做 mmo 游戏项目中遇到的一些问题...
+- skynet 服务的过载保护 http://blog.codingnow.com/2014/10/skynet_overload.html  
+  >《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...
+- skynet 中如何实现邮件达到通知服务 http://blog.codingnow.com/2014/07/skynet_response.html   
+  > 讨论如何实现一个邮件通知服务...
+- 谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) http://blog.codingnow.com/2014/03/mmzb_redis.html  
+  > 在陌陌争霸之前，我们并没有大规模使用过 Redis 。只是直觉上感觉 Redis 很适合我们的架构：我们这个游戏不依赖数据库帮我们处理任何数据，总的数据量虽然较大，但增长速度有限。
+- skynet 服务启动优化 http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
+  > 手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...
+- 如何安全的退出 skynet http://blog.codingnow.com/2013/08/exit_skynet.html  
+  > 如何安全的退出和业务逻辑相关性很强...
+- skynet 下的用户登陆问题 http://blog.codingnow.com/2013/06/skynet_watchdog.html  
+  > 今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...
+- 并发问题 bug 小记 http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
+  > 在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...
 
 ### Issues
 - 开服问题 https://github.com/cloudwu/skynet/issues/560#issuecomment-264356777
