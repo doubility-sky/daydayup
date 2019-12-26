@@ -3,6 +3,7 @@
 
 
 ## Learn
+- [microsoft/nlp-recipes](https://github.com/microsoft/nlp-recipes) Natural Language Processing Best Practices & Examples
 - [ChatBotCourse](https://github.com/warmheartli/ChatBotCourse) - [自己动手做聊天机器人教程](http://www.shareditor.com/bloglistbytag/?tagname=%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E5%81%9A%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA)
 
 

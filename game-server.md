@@ -18,6 +18,7 @@
 - [游戏服务端架构发展史（上）](http://www.skywind.me/blog/archives/1265)
 - [游戏服务端架构发展史（中）](http://www.skywind.me/blog/archives/1301)
 - [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
+- [游戏服务器](https://www.jianshu.com/c/5121fd868c4f)
 
 
 
@@ -36,6 +37,9 @@
 
 
 # Practice
+### login/auth
+- [安全的提交密码](https://blog.codingnow.com/2008/01/diffie_hellman.html)
+- [登陆认证系统](https://blog.codingnow.com/2012/12/user_authentication.html)
 ### [[database]]
 - 谈谈陌陌争霸在数据库方面踩过的坑
   - [前篇](https://blog.codingnow.com/2014/03/mmzb_db.html) <details> <summary>View details</summary>
@@ -50,7 +54,7 @@
       - 可以在用户数量较少的时候，把多个 redis 仓库部署在同一台物理机上，再随着用户规模扩大而分开部署。如果 32 个仓库不够的话，进一步细分也不会是难事。
       - 前三个月，不太考虑冷热数据的问题，这个期间还谈不上流失玩家，所有玩家数据都是热数据。由于开发时间紧迫，把冷数据处理留到后期再处理。
       - 数据落地的问题，redis 已有 bgsave 的能力，只需要细调就好了。
-      - 运营 log 和一些随时间自然增长的数据，比如战斗录像，选择了不受内存限制，且易于做数据分析的 mongodb 。由于担心数据量过大，使用了 mongos 分片。 
+      - 运营 log 和一些随时间自然增长的数据，比如战斗录像，选择了不受内存限制，且易于做数据分析的 mongodb 。由于担心数据量过大，使用了 mongos 分片。
     </details>
   - [排行榜篇](https://blog.codingnow.com/2014/03/mmzb_db_2.html) <details> <summary>View details</summary>
     - > 为什么大部分网络服务都需要一个数据库在后台支撑整个系统？  
