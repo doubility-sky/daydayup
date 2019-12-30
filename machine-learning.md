@@ -62,4 +62,4 @@
 - [List_of_datasets_for_machine-learning_research](https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research)
 - [The 50 Best Free Datasets for Machine Learning](https://lionbridge.ai/datasets/the-50-best-free-datasets-for-machine-learning/)
 - [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset), Documentation on how to access and use the Quick, Draw! Dataset. 
-
+- [chinese-poetry](https://github.com/chinese-poetry/chinese-poetry) The most comprehensive database of Chinese poetry 🧶最全中华古诗词数据库, 唐宋两朝近一万四千古诗人, 接近5.5万首唐诗加26万宋诗. 两宋时期1564位词人，21050首词。 http://shici.store

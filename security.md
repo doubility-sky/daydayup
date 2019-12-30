@@ -23,3 +23,7 @@
 - [restic](https://github.com/restic/restic) is a backup program that is fast, efficient and secure. It supports the three major operating systems (Linux, macOS, Windows) and a few smaller ones (FreeBSD, OpenBSD).
 - [BorgBackup](https://github.com/borgbackup/borg) (short: Borg) is a deduplicating backup program. Optionally, it supports compression and authenticated encryption.
 
+
+
+## Library
+- [age](https://github.com/FiloSottile/age) A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability. https://age-encryption.org

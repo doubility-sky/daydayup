@@ -6,6 +6,11 @@
 - [[DevOps]]
 
 
+## Learn
+- [The Software Architecture Chronicles](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/), [软件架构编年史](https://www.jianshu.com/p/b477b2cc6cfa)
+- [谷歌工程实践](https://github.com/xindoo/eng-practices-cn)
+
+
 
 ## Laws
 - [hacker-laws](https://github.com/dwmkerr/hacker-laws), Laws, Theories, Principles and Patterns that developers will find useful. [中文版](https://github.com/nusr/hacker-laws-zh)
