@@ -242,6 +242,8 @@
   - SHIFT + '<' / '>' 左右切换排序列
   - M 按内存占用率排序
   - P 按CPU占用率排序
+#### iftop
+- https://huataihuang.gitbooks.io/cloud-atlas/network/packet_analysis/utilities/iftop.html
 
 
 

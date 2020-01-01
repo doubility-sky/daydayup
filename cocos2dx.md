@@ -17,6 +17,7 @@
 
 ## [Cocos Creator](https://github.com/cocos-creator)
 - https://www.cocos.com/creator
+- https://www.cocos.com/category/blog
 
 #### Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)

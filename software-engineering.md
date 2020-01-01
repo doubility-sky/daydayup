@@ -9,6 +9,7 @@
 ## Learn
 - [The Software Architecture Chronicles](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/), [软件架构编年史](https://www.jianshu.com/p/b477b2cc6cfa)
 - [谷歌工程实践](https://github.com/xindoo/eng-practices-cn)
+- [掘金翻译计划](https://github.com/xitu/gold-miner)，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台： https://juejin.im/tag/掘金翻译计划
 
 
 

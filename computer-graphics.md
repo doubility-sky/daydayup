@@ -19,6 +19,10 @@
   The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
   - [React renderer for Threejs](https://github.com/react-spring/react-three-fiber) (web and react-native) https://spectrum.chat/react-three-fiber
 - [WebGLStudio.js](https://github.com/jagenjo/webglstudio.js) is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share your work - all within a browser using standard web technologies.
+- [Tiny-Canvas](https://github.com/bitnenfer/tiny-canvas) is a lightweight minimal implementation of a batched and stack matrix based canvas similar to HTML5 Canvas2D with WebGL backend.
+- [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
+
+
 
 
 # [OpenCV](https://github.com/opencv/opencv)

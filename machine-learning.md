@@ -1,3 +1,5 @@
+- https://github.com/academic/awesome-datascience
+
 
 ## [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
 - [Machine Learning Crash Course - with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/), Google's fast-paced, practical introduction to machine learning
@@ -52,6 +54,8 @@
 - [while True: learn()](https://luden.io/wtl/), Simulator of a machine learning specialist
 - [DeepLeague](https://github.com/farzaa/DeepLeague) - leveraging computer vision and deep learning on the League of Legends mini map + a dataset of over 100,000 labeled images to further A.I research within esports.
 - [Awesome StarCraft AI](https://github.com/SKTBrain/awesome-starcraftAI), A curated list of resources dedicated to StarCraft AI.
+- [PyGame Learning Environment](https://github.com/ntasfi/PyGame-Learning-Environment) (PLE) -- Reinforcement Learning Environment in Python.
+
 #### AlphaZero
 - [AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku), An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
 - [Tencent/PhoenixGo](https://github.com/Tencent/PhoenixGo), Go AI program which implements the AlphaGo Zero paper
