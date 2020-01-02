@@ -7,6 +7,7 @@ https://github.com/RyanNielson/awesome-unity
   入门视频，“roll ball”；体会u3d高度模块化的开发模式。
 - http://unity3d.com/learn/tutorials/projects/space-shooter-tutorial  
   入门视频，“space shooter”；更完整的例子，有两个没有字幕的extend教程。
+- [GitHub上有哪些Unity3D项目推荐？](https://zhuanlan.zhihu.com/p/53913159)
 
 
 ## 工程

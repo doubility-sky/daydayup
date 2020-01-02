@@ -1,6 +1,7 @@
 - https://www.python.org
 - [Awesome Python]https://github.com/vinta/awesome-python, A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
 - [awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
+- [[pygame]]
 
 
 
@@ -54,4 +55,9 @@
 - [Portia](https://github.com/scrapinghub/portia) is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
 - [Newspaper3k: Article scraping & curation](https://github.com/codelucas/newspaper), News, full-text, and article metadata extraction in Python 3. Advanced docs: https://goo.gl/VX41yK
 - [Grab](https://github.com/lorien/grab) is a python web scraping framework. Grab provides a number of helpful methods to perform network requests, scrape web sites and process the scraped content ...
+
+
+
+## FAQ
+- [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574/answer/554481284)
 

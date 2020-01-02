@@ -27,3 +27,9 @@
 
 ## Library
 - [age](https://github.com/FiloSottile/age) A simple, modern and secure encryption tool with small explicit keys, no config options, and UNIX-style composability. https://age-encryption.org
+
+
+
+## Projects
+- [telegram source code](https://telegram.org/apps#source-code)
+  - [End-to-End Encryption, Secret Chats](https://core.telegram.org/api/end-to-end) This article on MTProto's End-to-End encryption is meant for advanced users. 
