@@ -161,6 +161,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 ### [Skynet Dev Blog](http://blog.codingnow.com/eo/skynet/)
 链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+- 三国志战略版服务器卡顿问题 https://blog.codingnow.com/2019/10/sanguo.html
 - 代理服务和过载保护 https://blog.codingnow.com/2016/05/skynet_proxy.html
 - skynet 服务的沙盒保护 https://blog.codingnow.com/2016/05/skynet_memory.html
   - 经过这次事故，我觉得 skynet 有必要增加一个新特性：允许开发者限制单个 lua vm 使用内存的大小。
@@ -196,6 +197,8 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
     - lua 的 GC只关注自身占用了多大内存，然后在合适的时候进行GC，agent再启动时通常会产生一些临时数据，主动GC，会节约很多内存。
   - GC有一些东西是回收不掉的
     - table是不缩小的，如某个table有20万条数据，将其所有的value设置为nil，table并不会缩小，只有将其设置为nil或一个新的table，才会减少其占用内存的大小。
+- [关于《三国志·战略版》的若干设计理念](https://thislinux.com/sanguozhi/)
+- [游戏服务器的集群问题](http://blog.findix.cn/2019/03/17/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E9%9B%86%E7%BE%A4%E9%97%AE%E9%A2%98/)
 
 
 

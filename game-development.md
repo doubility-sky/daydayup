@@ -4,6 +4,7 @@
 - AI: see game section of [[machine-learning]]
 
 
+
 ## Learn
 - [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
 - [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
@@ -11,6 +12,7 @@
 - [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
 - [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
 - [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc
+
 
 
 ## Resource
@@ -25,10 +27,12 @@
 - [Awesome Chess](https://github.com/hkirat/awesome-chess), A curated list of assets availible on the Internet related to chess.
 
 
+
 ## Engine/Framework
 - :star:[Popular game engine/framework list](https://github.com/doubility-sky/daydayup/wiki/game-client)
 - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct), A curated list of tools, tutorials, examples, and much more, for the awesome game development engine [Construct](https://www.construct.net/)
 - [Awesome Gideros](https://github.com/stetso/awesome-gideros), A curated list of awesome resources for the [Gideros Game Development Framework](http://giderosmobile.com/) that allows you to easily create games and apps for Android, iOS, HTML5, WinRT and Desktop (Windows, OSX). Please feel free to contribute to the list by making a pull request.
+
 
 
 ## Open Project
@@ -43,12 +47,15 @@
 - [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
 
 
-## FAQ
-- [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
 
-
-## Summary
+## Practice
 - [Game-Programmer-Study-Notes](https://github.com/QianMo/Game-Programmer-Study-Notes), 游戏程序员生涯的读书笔记合辑。  
   涉及游戏开发中的图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。  
   Keep Reading , Keep Writing , Keep Coding.
 - [[game dev summary]]
+- [心动网络技术与开发文档库](https://github.com/xindong/docs)
+
+
+
+## FAQ
+- [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)

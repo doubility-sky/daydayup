@@ -1,34 +1,8 @@
 - http://cocos2d.org/
 - https://www.cocos.com/
+- https://github.com/cocos2d/cocos2d-x
 - [Cocos 资料大全](https://github.com/fusijie/Cocos-Resource)
-
-
-
-## [cocos2d-x](https://github.com/cocos2d/cocos2d-x)
-#### Cocos Studio
-- **注意！官方已不再维护，目前最后一个版本为 3.10**
-- Mac上卡死问题 http://forum.cocos.com/t/cocosstudio/41214  
-  ```
-    打开HOST文件 加入 127.0.0.1 cs.ucenter.appget.cn  
-    host文件在 /etc/hosts  
-  ```
-
-
-
-## [Cocos Creator](https://github.com/cocos-creator)
-- https://www.cocos.com/creator
-- https://www.cocos.com/category/blog
-
-#### Learn
-- [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
-- [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
-- [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
-- [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
-- [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
-
-#### Engine/Runtime
-- [engine](https://github.com/cocos-creator/engine), Cocos Creator is a complete package of game development tools and workflow, including a game engine, resource management, scene editing, game preview, debug and publish one project to multiple platforms. http://www.cocos2d-x.org/creator
-- [cocos2d-x-lite](https://github.com/cocos-creator/cocos2d-x-lite), Lite version cocos2d-x based on Cocos Runtime; Cocos2d-x compact version, It is based on cocos2d-x[version 3.9], but remove 3D and other features. It works on iOS, Android, macOS and Windows.
+- :star:[[cocos creator]]:star:
 
 
 
@@ -51,7 +25,7 @@
 - [Quick使用webview](http://my.oschina.net/u/1582495/blog/465695) （注：目标目录是tools/tolua） 其他要导出的接口类似，操作过程中需要依赖的python组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
 - [Mac 下编译 Quick-Cocos2dx-Community 的 Android 版本](http://tairan.com/archives/10567/)
 
-##### quick心得(cocos v3.10, quick v3.6.1)
+#### quick心得(cocos v3.10, quick v3.6.1)
 - 所有导出的C＋＋到lua的API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
 - TextField设置文本排列时，要靠设置锚点实现，用setTextHorizontalAlignment无效。靠左排列＝setAnchorPoint(0, 0.5)
 - cocos studio中的AtlasLabel无法使用，用代码创建LabelAtlas代替。
@@ -69,4 +43,14 @@
   修改 `ConsoleWindowController.m` 定义的宏  
   ```
   #define SKIP_LINES_COUNT    200
+  ```
+
+
+
+## Cocos Studio
+- **注意！官方已不再维护，目前最后一个版本为 3.10**
+- Mac上卡死问题 http://forum.cocos.com/t/cocosstudio/41214  
+  ```
+    打开HOST文件 加入 127.0.0.1 cs.ucenter.appget.cn  
+    host文件在 /etc/hosts  
   ```

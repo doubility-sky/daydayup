@@ -19,6 +19,8 @@
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Linux命令大全](https://man.linuxde.net/)
 - [explainshell](https://explainshell.com/) is a tool (with a web interface) capable of parsing man pages, extracting options and explain a given command-line by matching each argument to the relevant help text in the man page.
+- [改进你的命令行工具](https://docs.xindong.com/utilities/cli-improved.html)
+- [An Introduction To Data Science On The Linux Command Line](https://blog.robertelder.org/data-science-linux-command-line/)
 
 
 

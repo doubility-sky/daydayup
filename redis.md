@@ -26,3 +26,4 @@
 
 ## Practice
 - [谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇)](https://blog.codingnow.com/2014/03/mmzb_redis.html)
+- [一次Redis数据完全丢失的事故](http://blog.findix.cn/2018/07/25/%e4%b8%80%e6%ac%a1redis%e6%95%b0%e6%8d%ae%e5%ae%8c%e5%85%a8%e4%b8%a2%e5%a4%b1%e7%9a%84%e4%ba%8b%e6%95%85/)
