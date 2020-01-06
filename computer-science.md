@@ -26,3 +26,4 @@
 ### Resources
 - [TURING LECTURES](https://amturing.acm.org/lectures.cfm), Presented by each winner on the topic of their choice at a forum of their choice in the year they received the ACM A.M. Turing Award.
 - [Papers We Love](https://github.com/papers-we-love/papers-we-love) (PWL) is a community built around reading, discussing and learning more about academic computer science papers. This repository serves as a directory of some of the best papers the community can find, bringing together documents scattered across the web. You can also visit the [Papers We Love site](http://paperswelove.org/) for more info.
+  - [fogus/papers-i-love](https://github.com/fogus/papers-i-love) Computer science and computer-adjacent papers (and sometimes books) that have influenced me deeply.

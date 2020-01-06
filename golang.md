@@ -1,4 +1,5 @@
-- http://golang.org/  
+- http://golang.org/
+  - `godoc -http=:6060` 无法穿墙，本地帮忙
 - https://talks.golang.org/
 - https://github.com/golang/go/wiki
 
@@ -11,7 +12,6 @@
   - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
   - [Go1.5源码剖析](https://github.com/qyuhen/book)
   - [深入解析Go](https://github.com/tiancaiamao/go-internals)
-- `godoc -http=:6060` 无法穿墙，本地帮忙
 - [Go 语言入门资料](http://fuxiaohei.me/2016/6/24/go-start-up.html)
 - [Go 开发 HTTP](http://fuxiaohei.me/2016/9/20/go-and-http-server.html)
 - [Go Data Structures](https://research.swtch.com/godata)
@@ -54,6 +54,7 @@
   - [goworld](https://github.com/xiaonanln/goworld)
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
 - [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
+- [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
 
 
 

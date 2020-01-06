@@ -9,6 +9,7 @@
 - [Block cipher mode of operation](https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation)
 - [libsodium](https://github.com/jedisct1/libsodium) - A modern and easy-to-use crypto library.
 - [OpenSSL](https://www.openssl.org/)
+- [Open Quantum Safe](https://github.com/open-quantum-safe)
 - [Common Crypto](https://developer.apple.com/library/mac/documentation/Security/Conceptual/cryptoservices/GeneralPurposeCrypto/GeneralPurposeCrypto.html#//apple_ref/doc/uid/TP40011172-CH9-SW1)
 
 
