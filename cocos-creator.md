@@ -1,6 +1,7 @@
-# [Cocos Creator](https://github.com/cocos-creator)
+- [[cocos2dx]]
 - https://www.cocos.com/creator
 - https://www.cocos.com/category/blog
+- https://github.com/cocos-creator
 
 
 

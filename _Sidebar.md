@@ -51,7 +51,7 @@
     - [[nginx]]
 - [[Game Development]]
   - [[game client]]
-    - [[cocos2dx]]
+    - [[cocos creator]]
     - [[unity3d]]
     - [[Unreal Engine]]
   - [[game server]]

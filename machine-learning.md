@@ -39,6 +39,7 @@
   - [TensorFlow Course](https://github.com/machinelearningmindset/TensorFlow-Course), Simple and ready-to-use tutorials for TensorFlow
   - [EffectiveTensorflow](https://github.com/vahidk/EffectiveTensorflow) TensorFlow 1.x and 2.x tutorials and best practices.
   - [tinyflow](https://github.com/tqchen/tinyflow), Tutorial code on how to build your own Deep Learning System in 2k Lines
+  - [tensorlayer](https://github.com/tensorlayer/tensorlayer)Deep Learning and Reinforcement Learning Library for Scientists 🔥 http://tensorlayer.org
 - [Torch](http://torch.ch/), A SCIENTIFIC COMPUTING FRAMEWORK FOR LUAJIT
   - [PyTorch](http://pytorch.org/)
     - [PyTorch Tutorial ](https://github.com/yunjey/pytorch-tutorial) for Deep Learning Researchers
