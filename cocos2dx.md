@@ -1,6 +1,6 @@
 - http://cocos2d.org/
 - https://www.cocos.com/
-- https://github.com/cocos2d/cocos2d-x
+- https://github.com/cocos2d
 - [Cocos 资料大全](https://github.com/fusijie/Cocos-Resource)
 - :star:[[cocos creator]]:star:
 

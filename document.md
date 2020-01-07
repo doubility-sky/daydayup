@@ -1,3 +1,9 @@
+## Standards
+- [中文技术文档的写作规范 - ruanyf](https://github.com/ruanyf/document-style-guide)
+- [中文文案排版指北 - sparanoid](https://github.com/sparanoid/chinese-copywriting-guidelines)
+- [中文文档编写规范 - creator-docs](https://github.com/cocos-creator/creator-docs/blob/v2.2/zh/CONTRIBUTING.md)
+
+
 
 ## [Graphviz](http://www.graphviz.org/)
 Graphviz is open source graph visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics,  software engineering, database and web design, machine learning, and in visual interfaces for other technical domains. 
@@ -23,7 +29,7 @@ src后面替换为自己的plantuml文件的url
 
 
 
-## Others
+## Tools
 - [draw.io](https://www.draw.io/)
   - 云端绘图，可导出各个网盘，需要翻墙2016-01-20
 

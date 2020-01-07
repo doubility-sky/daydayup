@@ -7,3 +7,6 @@
 - [AiLearning](https://github.com/apachecn/AiLearning) : MachineLearning、DeepLearning、Natural Language Processing
 
 
+
+## Tools
+- [结巴中文分词](https://github.com/fxsjy/jieba)
