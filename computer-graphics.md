@@ -34,6 +34,12 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 
 
 
+# Projects
+- [taichi](https://github.com/yuanming-hu/taichi/) The Taichi programming language http://taichi.graphics
+  - [99行代码的《冰雪奇缘》](https://zhuanlan.zhihu.com/p/97700605)
+
+
+
 # Library
 - [Skia](https://github.com/google/skia) is a complete 2D graphic library for drawing Text, Geometries, and Images. 
 - [bkaradzic/bgfx](https://github.com/bkaradzic/bgfx), Cross-platform, graphics API agnostic, "Bring Your Own Engine/Framework" style rendering library.

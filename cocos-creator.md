@@ -1,6 +1,11 @@
 # [Cocos Creator](https://github.com/cocos-creator)
 - https://www.cocos.com/creator
 - https://www.cocos.com/category/blog
+
+
+
+## Awesome
+- https://github.com/cocos-creator/awesome
 - https://github.com/potato47/awesome-cocos-creator
 - https://github.com/tumobi/pomelo-cocos-creator-awesome
 
