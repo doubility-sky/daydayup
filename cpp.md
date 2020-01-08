@@ -2,10 +2,11 @@
 
 
 
-## learn
+## Learn
 - [The C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many person-years of discussion and design across a number of organizations. Their design encourages general applicability and broad adoption but they can be freely copied and modified to meet your organization's needs.
 - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial): C++11/14/17/20 On the Fly https://changkun.de/modern-cpp/
 - [CPP-Concurrency-In-Action-2ed-2019](https://github.com/xiaoweiChen/CPP-Concurrency-In-Action-2ed-2019) 作为对《C++ Concurrency in Action - SECOND EDITION》的中文翻译。 https://legacy.gitbook.com/book/chenxiaowei/c-concurrency-in-action-second-edition-2019
+- [c++ sumup](https://github.com/idealvin/docs/blob/master/md/c%2B%2B.md)
 #### STL
 - http://www.stlport.org/
 - http://www.sgi.com/tech/stl/
@@ -14,11 +15,14 @@
 
 
 
-## library
+## Library
 - [C library](c#library)
-- [Catch2](https://github.com/catchorg/Catch2) A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) https://discord.gg/4CWS9zD
-- [The C++ Network Library Project](https://github.com/cpp-netlib/cpp-netlib) -- cross-platform, standards compliant networking library. http://cpp-netlib.org/
+- [Tencent/rapidjson](https://github.com/Tencent/rapidjson)
+  - https://zhuanlan.zhihu.com/p/22457315
 - [lemire/simdjson](https://github.com/lemire/simdjson) Parsing gigabytes of JSON per second https://arxiv.org/abs/1902.08318
+- [The C++ Network Library Project](https://github.com/cpp-netlib/cpp-netlib) -- cross-platform, standards compliant networking library. http://cpp-netlib.org/
+- [co](https://github.com/idealvin/co) An elegant and efficient C++ basic library for Linux, Windows and Mac.
+- [acl](https://github.com/acl-dev/acl) Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
 
 
 
@@ -29,3 +33,4 @@
 
 ## Tools
 - [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++
+- [Catch2](https://github.com/catchorg/Catch2) A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) https://discord.gg/4CWS9zD

@@ -47,4 +47,5 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 - [Magnum](https://github.com/mosra/magnum), Lightweight and modular C++11/C++14 graphics middleware for games and data visualization https://magnum.graphics/
 - [zauonlok/renderer](https://github.com/zauonlok/renderer) A shader-based software renderer written from scratch in C89 https://zauonlok.github.io/renderer/
 - [floooh/oryol](https://github.com/floooh/oryol) A small, portable and extensible C++ 3D coding framework
+- [OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) is a set of open source libraries that implement high performance subdivision surface (subdiv) evaluation on massively parallel CPU and GPU architectures
 
