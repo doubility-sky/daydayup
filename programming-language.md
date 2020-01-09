@@ -1,5 +1,6 @@
 # Index
 - [[assembly]]
+- [[shell]]
 - [[c]]/[c++](cpp)
 - [[c#]]
 - [[java]]

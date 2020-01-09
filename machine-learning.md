@@ -25,6 +25,7 @@
 - [动手学深度学习](https://github.com/d2l-ai/d2l-zh)，面向中文读者、能运行、可讨论。英文版即伯克利“深度学习导论”教材。
 - [Deep Learning for Java](https://deeplearning4j.org/), Open-source, distributed, deep learning library for the JVM
 - https://github.com/scutan90/DeepLearning-500-questions
+- [Metaflow](https://github.com/Netflix/metaflow) is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.
 
 
 
