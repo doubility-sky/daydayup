@@ -14,7 +14,10 @@
 
 
 ## Projects
+- [Best of JavaScript](https://github.com/bestofjs/bestofjs-webui) gathers the latest trends about open source projects related to Node.js and the web platform: JavaScript of course (client and server side) but also HTML, CSS...
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms), This repository contains JavaScript based examples of many popular algorithms and data structures. [zh-CN](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
+- [Data Structures and Algorithms in JavaScript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript) https://books.adrianmejia.com
+- [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
 
 
 

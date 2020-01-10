@@ -15,13 +15,15 @@
 - [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
   - https://github.com/potato47/awesome-cocos-creator
   - https://github.com/tumobi/pomelo-cocos-creator-awesome
-- [基于 Cocos 的高性能跨平台开发方案](https://www.hahack.com/codes/cocos-based-high-performance-cross-platform-app-developing/)
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
   - [Cocos Creator 支持ETC1 + Alpha 纹理压缩](https://oedx.github.io/2019/05/15/cocos-creator-support-etc1-alpha/)
   - [cocos-jsc-endecryptor](https://github.com/OEDx/cocos-jsc-endecryptor)
+- [hahack](https://www.hahack.com/tags#Cocos)
+  - [基于 Cocos 的高性能跨平台开发方案](https://www.hahack.com/codes/cocos-based-high-performance-cross-platform-app-developing/)
 
 
 
 ## FAQ
-- [cocos-creator使用protobufjs(ts版）](https://forum.cocos.org/t/cocos-creator-protobufjs-ts/47687)
+- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
+

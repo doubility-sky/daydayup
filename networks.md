@@ -85,4 +85,6 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - [HTTPie](https://github.com/jakubroztocil/httpie) (pronounced aitch-tee-tee-pie) is a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. It provides a simple http command that allows for sending arbitrary HTTP requests using a simple and natural syntax, and displays colorized output. HTTPie can be used for testing, debugging, and generally interacting with HTTP servers.
 - [clumsy](https://github.com/jagt/clumsy) makes your network condition on Windows significantly worse, but in a controlled and interactive manner. http://jagt.github.io/clumsy/
 - [comcast](https://github.com/tylertreat/comcast) Simulating shitty network connections so you can build better systems.
+- [aria2](https://github.com/aria2/aria2) is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. https://aria2.github.io/
+  - [webui-aria2](https://github.com/ziahamza/webui-aria2) The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.
 
