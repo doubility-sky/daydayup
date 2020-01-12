@@ -54,8 +54,17 @@
   Keep Reading , Keep Writing , Keep Coding.
 - [[game dev summary]]
 - [心动网络技术与开发文档库](https://github.com/xindong/docs)
+- [实现大逃杀手游的要点与难点](https://gameinstitute.qq.com/community/detail/117502)
+- [王者荣耀的技术修炼之路](https://blog.csdn.net/byeweiyang/article/details/80129478)
+#### Synchronization
+- [帧锁定同步算法](http://www.skywind.me/blog/archives/131)
+- [游戏中的网络同步机制——Lockstep](https://bindog.github.io/blog/2015/03/10/synchronization-in-multiplayer-networked-game-lockstep/)
+- [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
+- [腾讯专家樊华恒：弱联网优化之道](https://gameinstitute.qq.com/community/detail/115152)
+- [从王者荣耀聊聊游戏的帧同步](https://gameinstitute.qq.com/community/detail/116978)
 
 
 
 ## FAQ
-- [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
+- [独立游戏开发如何入门？](https://www.zhihu.com/question/20608012)
+

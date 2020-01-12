@@ -8,13 +8,17 @@
 
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
-  - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
   - [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
+  - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
   - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
   - [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
-- [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
-  - https://github.com/potato47/awesome-cocos-creator
-  - https://github.com/tumobi/pomelo-cocos-creator-awesome
+- [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
+  - [Cocos Creator TypeScript断点调试](https://blog.csdn.net/lxt610/article/details/91128045)
+- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
+
+
+
+## Practice
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
   - [Cocos Creator 支持ETC1 + Alpha 纹理压缩](https://oedx.github.io/2019/05/15/cocos-creator-support-etc1-alpha/)
@@ -24,6 +28,14 @@
 
 
 
+## Resource
+- [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
+  - https://github.com/potato47/awesome-cocos-creator
+  - https://github.com/tumobi/pomelo-cocos-creator-awesome
+
+
+
 ## FAQ
-- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
+- [王哲 - Cocos引擎首席客服，知乎上的回答](https://www.zhihu.com/people/walzer/answers)
+  - [Cocos 引擎的创始人是谁？Cocos2d-x 和Cocos 有什么区别？](https://www.zhihu.com/question/41992081/answer/260427403)
 
