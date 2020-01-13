@@ -18,6 +18,7 @@
 
 
 ## Library
+- [LuaRocks](https://luarocks.org/) is the package manager for Lua modules
 - [json.lua](https://github.com/rxi/json.lua) A lightweight JSON library for Lua
 
 

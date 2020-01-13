@@ -2,6 +2,8 @@
 - https://github.com/wsargent/docker-cheat-sheet
 - [10分钟看懂Docker和K8S](https://zhuanlan.zhihu.com/p/53260098)
 - [三步开始使用容器开发](https://github.com/xindong/docs/blob/master/public/guide/devops/docker_quick.md)
+- [DockerSlim](https://github.com/docker-slim/docker-slim) (docker-slim): Don't change anything in your Docker container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source) https://dockersl.im
+
 
 
 # 注意事项
