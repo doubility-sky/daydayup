@@ -1,10 +1,12 @@
-- https://redis.io/
+Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps. http://redis.io
+
 - https://github.com/JamzyWang/awesome-redis
 
 
 
 ## Learn
 - [official documentation](https://redis.io/documentation)
+  - [redis-doc](https://github.com/antirez/redis-doc) Redis documentation source code for markdown and metadata files, conversion scripts, and so forth
 - [redis cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/databases/redis.sh)
 - [Redis基础查漏补缺](https://zhuanlan.zhihu.com/p/90922969)
 - [如何阅读 Redis 源码？](http://blog.huangz.me/diary/2014/how-to-read-redis-source-code.html)
@@ -21,6 +23,11 @@
   - Just `brew cask install another-redis-desktop-manager` on macOS
 - [Medis](https://github.com/luin/medis) is a beautiful, easy-to-use Redis management application built on the modern web with Electron, React, and Redux. It's powered by many awesome Node.js modules, especially ioredis and ssh2.
 - [Redis Manager](https://github.com/ngbdf/redis-manager), Redis 一站式管理平台，支持集群创建、管理、监控、报警
+
+
+
+## Tools
+- [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON https://rdbtools.com
 
 
 

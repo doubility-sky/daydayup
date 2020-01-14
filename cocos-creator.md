@@ -9,6 +9,10 @@
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
+- [使用 TypeScript 脚本](https://docs.cocos.com/creator/manual/zh/scripting/typescript.html)
+  - [语言支持](https://docs.cocos.com/creator3d/manual/en/scripting/language-support.html)
+    - Creator 3D 使用 babel 而非 tsc（Microsoft TypeScript Compiler） 编译 TypeScript 脚本
+- tutorials
   - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
   - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
   - [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造

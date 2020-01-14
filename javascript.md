@@ -1,3 +1,8 @@
+- [ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) 
+  - ECMAScript (or ES) is a scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. 
+  - It was created to standardize JavaScript to help foster multiple independent implementations. 
+  - JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, with other well-known implementations including JScript and ActionScript. 
+  - ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server applications and services using Node.js.
 - [[node.js]]
 - [[typescript]]
 - [[react]], [[vue]]
@@ -6,10 +11,12 @@
 
 ## Learn
 - [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
-- https://github.com/Pana/node-books
 - [阮一峰 ES6](http://es6.ruanyifeng.com/)
-- [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
+#### Coding Style
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript), Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
+- [Cocos Creator 推荐编码规范](https://docs.cocos.com/creator/manual/zh/scripting/reference/coding-standards.html)
 
 
 
@@ -18,6 +25,12 @@
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms), This repository contains JavaScript based examples of many popular algorithms and data structures. [zh-CN](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [Data Structures and Algorithms in JavaScript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript) https://books.adrianmejia.com
 - [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
+
+
+
+## Compiler
+- [Babel](https://babeljs.io/) is a JavaScript compiler.
+  - Babel is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments. 
 
 
 

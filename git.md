@@ -25,6 +25,7 @@
 ### 资料 reference
 - [Git如何存储文件-git存储数据结构](http://eagain.net/articles/git-for-computer-scientists/)
 ### 玩转GitHub
+- [enhanced-github](https://github.com/softvar/enhanced-github/), [Chrome extension](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd) to display size of each file, download link and copy file contents directly to clipboard 
 - https://guides.github.com/
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 - https://github.com/kamranahmedse/githunt

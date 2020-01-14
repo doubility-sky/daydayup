@@ -12,6 +12,7 @@ Any browser. Any host. Any OS. Open source.
 - [TypeScript Deep Dive](https://github.com/basarat/typescript-book/) - [read online](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
   - [中文版](https://jkchao.github.io/typescript-book-chinese/) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
 - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) https://ts.xcatliu.com/
+- [tsconfig.json 全解析](https://lq782655835.github.io/blogs/project/ts-tsconfig.html)
 #### Playground
 - [official playground](https://www.typescriptlang.org/play/index.html)
 - [typescript-play](https://typescript-play.js.org)
