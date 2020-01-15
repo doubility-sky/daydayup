@@ -12,6 +12,7 @@
 ## Learn
 - [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
 - [阮一峰 ES6](http://es6.ruanyifeng.com/)
+- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
 #### Coding Style
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript), Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)

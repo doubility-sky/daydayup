@@ -30,6 +30,7 @@
 - [[Software Engineering]]
   - [[library]]
   - [[build]]
+  - [[testing]]
   - [[profile]]
   - [[document]]
   - [[git]], [[svn]]

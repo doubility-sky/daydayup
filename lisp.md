@@ -10,4 +10,5 @@
 
 ## Projects
 - [lisp compilers](compiler#lisp)
+- [quicklisp-projects](https://github.com/quicklisp/quicklisp-projects) http://www.quicklisp.org/
 
