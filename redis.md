@@ -26,6 +26,14 @@ Redis is an in-memory database that persists on disk. The data model is key-valu
 
 
 
+## Modules
+- https://github.com/RedisLabsmodules
+- [RedisJSON](https://github.com/RedisJSON/RedisJSON) - a JSON data type for Redis https://redisjson.io
+- [rediSQL](https://github.com/RedBeardLab/rediSQL) provides a completely functional SQL database https://redisql.com
+- [RediSearch](https://github.com/RediSearch/RediSearch) Fulltext Search and Secondary Index module for Redis https://redisearch.io
+
+
+
 ## Tools
 - [redis-rdb-tools](https://github.com/sripathikrishnan/redis-rdb-tools) Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON https://rdbtools.com
 
