@@ -1,10 +1,12 @@
 - 其他类Unix系统通用功能，见 [[Linux]]
 
 
+
 ## Common
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`
+
 
 
 ## Tools
@@ -13,6 +15,9 @@
   - `brew install ncdu`
   - `ncdu / --exclude /Volumes`
 - https://github.com/sindresorhus/quick-look-plugins
+- [IINA](https://github.com/iina/iina) is the modern video player for macOS. https://iina.io
+- [hidden](https://github.com/dwarvesf/hidden) A ultra-light MacOS utility that helps hide menu bar icons https://d.foundation/opensource
+
 
 
 ## Projects
@@ -30,3 +35,4 @@
 - 网络编程 macOS 总是弹出防火墙链接确认
     - https://github.com/codegangsta/gin/issues/12#issuecomment-40519008
     - [Suppressing Accept Incoming Network Connections warnings on OSX](https://medium.com/@leeprovoost/suppressing-accept-incoming-network-connections-warnings-on-osx-7665b33927ca)
+
