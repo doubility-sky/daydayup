@@ -34,9 +34,15 @@
   ```
 
 
-## FAQ
+
+## [[Python]]
 - [我可以使用Python作为Bash替换吗？](http://www.tracholar.top/2018/06/08/can-i-use-python-as-a-bash-replacement/)
-  - [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh
-  - [Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
-  - [sarge](https://bitbucket.org/vinay.sajip/sarge/src/master/), a wrapper for subprocess which aims to make life easier for anyone who needs to interact with external applications from their Python code.
+- [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh
+- [Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
+- [sarge](https://bitbucket.org/vinay.sajip/sarge/src/master/), a wrapper for subprocess which aims to make life easier for anyone who needs to interact with external applications from their Python code.
+- [xonsh](https://github.com/xonsh/xonsh) is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.5+ with additional shell primitives. xonsh (pronounced conch) is meant for the daily use of experts and novices alike.
+
+
+
+## FAQ
 - [如何在Python中实现常见的bash习惯用法？](https://www.codenong.com/209470/)

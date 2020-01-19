@@ -68,4 +68,5 @@
 
 ## FAQ
 - [独立游戏开发如何入门？](https://www.zhihu.com/question/20608012)
+- [Roguelike 到底是啥](http://pre-sence.com/archives/roguelike-dossier)
 

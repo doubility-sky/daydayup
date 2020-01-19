@@ -1,5 +1,5 @@
-- [react github](https://github.com/facebook/react)
-- [react官网](https://facebook.github.io/react/)
+- [React](https://github.com/facebook/react), A declarative, efficient, and flexible JavaScript library for building user interfaces. https://reactjs.org
+
 
 
 ## Learn

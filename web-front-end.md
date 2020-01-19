@@ -1,7 +1,5 @@
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
-- [[react]] - [react native](react#react-native)
-- [[vue]] - [weex](vue#weex)
-- [[angular]] - [ionic](https://ionicframework.com/)
+- [[HTML]], [[CSS]], [[JavaScript]]
 
 
 
@@ -24,6 +22,9 @@
 
 
 ## Frameworks
+- [[react]] - [react native](react#react-native)
+- [[vue]] - [weex](vue#weex)
+- [[angular]] - [ionic](https://ionicframework.com/)
 - [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
 - [Bulma](https://bulma.io/) is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers.
 - [ECharts](https://echarts.baidu.com/): A Declarative Framework for Rapid Construction of Web-based Visualization
