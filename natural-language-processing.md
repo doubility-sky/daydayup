@@ -17,3 +17,5 @@
 ## Resources
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) 最近需要从文本中抽取结构化信息，用到了很多github上的包，遂整理了一下，后续会不断更新。
 - [Synonyms](https://github.com/huyingxi/Synonyms), Chinese Synonyms for Natural Language Processing and Understanding. 最好的中文近义词工具包。
+- [awesome_Chinese_medical_NLP](https://github.com/GanjinZero/awesome_Chinese_medical_NLP) 中文医学NLP公开资源整理：术语集/语料库/词向量/预训练模型/知识图谱/命名实体识别/QA/信息抽取/etc
+

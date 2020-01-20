@@ -9,22 +9,30 @@
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
+- [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
+#### Tutorials
+- [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
+- [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
+- [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
+
+
+
+## [[TypeScript]]
+- [JavaScript 标准支持](https://docs.cocos.com/creator/manual/zh/scripting/reference/javascript-support.html)
+  - Creator 使用的是标准的 JavaScript，JavaScript 目前常见的标准是几乎所有平台都支持的 ES5，如果你还想要使用更高版本的特性，需要先确认支持情况：
+  - Creator 集成了 [babel](https://babeljs.io/) 编译器，能够自动转译项目里除了插件以外的所有 JavaScript 脚本。这步操作会将一部分常用的 ES2015(ES6) 特性翻译为原生的 ES5，这样开发者就不用担心跨平台的兼容性。
+  - ES2015 入门教程及 Creator 支持的特性列表请参考 [Learn ES2015](https://babeljs.io/docs/en/learn)（在这份列表中，标记为“Support via polyfill”的部分暂不支持）。
+  - 编辑器部分支持到常用的 ES2015，支持程度取决于 Creator 采用的 Node.js 引擎，截至 Creator 1.1，支持到了 Node.js 5.1.1（[详情](http://node.green/)）。
+  - 在 Creator 的控制台中输入 process.versions.node 可以显示当前的 Node.js 版本号。
 - [使用 TypeScript 脚本](https://docs.cocos.com/creator/manual/zh/scripting/typescript.html)
   - [语言支持](https://docs.cocos.com/creator3d/manual/en/scripting/language-support.html)
     - Creator 3D 使用 babel 而非 tsc（Microsoft TypeScript Compiler） 编译 TypeScript 脚本
-- tutorials
-  - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
-  - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
-  - [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
-- [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
-- [使用 TypeScript 脚本](https://docs.cocos.com/creator/manual/zh/scripting/typescript.html)
-  - [[typescript]]
   - [Cocos Creator TypeScript断点调试](https://blog.csdn.net/lxt610/article/details/91128045)
-- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
 
 
 
 ## Practice
+- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
   - [Cocos Creator 支持ETC1 + Alpha 纹理压缩](https://oedx.github.io/2019/05/15/cocos-creator-support-etc1-alpha/)

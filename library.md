@@ -40,9 +40,10 @@
   - [imgui_club](https://github.com/ocornut/imgui_club) Nice things to use along dear imgui
   - [imgui-node-editor](https://github.com/thedmd/imgui-node-editor), This is an implementaion of node editor with ImGui-like API. Project purpose is to serve as a basis for more complex solutions like blueprint editors.
   - [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo), Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui
-  - [cimgui](https://github.com/cimgui/cimgui) This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui Dear ImGui. All imgui.h functions are programmatically wrapped. Generated files are: cimgui.cpp, cimgui.h for C compilation. Also for helping in bindings creation, definitions.lua with function definition information and structs_and_enums.lua. This library is intended as a intermediate layer to be able to use Dear ImGui from other languages that can interface with C (like D - see D-binding)
-  - [love-imgui](https://github.com/slages/love-imgui)imgui module for the LÖVE game engine
   - [imgui_markdown](https://github.com/juliettef/imgui_markdown) Markdown for Dear ImGui
+  - [cimgui](https://github.com/cimgui/cimgui) This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui Dear ImGui.
+  - [imgui-go](https://github.com/inkyblackness/imgui-go) This library is a Go wrapper for Dear ImGui.
+  - [love-imgui](https://github.com/slages/love-imgui) imgui module for the LÖVE game engine
   - [Native ImGui in the Browser](https://pbrfrat.com/post/imgui_in_browser.html)
 - [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) A single-header ANSI C immediate mode cross-platform GUI library
   - [vurtun/nuklear](https://github.com/vurtun/nuklear) Archived
