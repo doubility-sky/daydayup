@@ -43,6 +43,7 @@
   - [imgui_markdown](https://github.com/juliettef/imgui_markdown) Markdown for Dear ImGui
   - [cimgui](https://github.com/cimgui/cimgui) This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui Dear ImGui.
   - [imgui-go](https://github.com/inkyblackness/imgui-go) This library is a Go wrapper for Dear ImGui.
+    - [giu](https://github.com/AllenDang/giu) Cross platform rapid GUI framework for golang based on imgui and the great golang binding imgui-go.
   - [love-imgui](https://github.com/slages/love-imgui) imgui module for the LÖVE game engine
   - [Native ImGui in the Browser](https://pbrfrat.com/post/imgui_in_browser.html)
 - [Nuklear](https://github.com/Immediate-Mode-UI/Nuklear) A single-header ANSI C immediate mode cross-platform GUI library
