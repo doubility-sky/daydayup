@@ -12,6 +12,8 @@
 ## Learn
 - https://www.ecma-international.org/
 - [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
+- [Javascript tutorial book](https://github.com/ruanyf/jstutorial) http://javascript.ruanyifeng.com
+  - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) https://wangdoc.com/javascript
 - [阮一峰 ES6](http://es6.ruanyifeng.com/)
   - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
@@ -48,3 +50,8 @@
     - Any valid ES6 code is not necessarily a valid mJS code.
   - On 32-bit ARM mJS engine takes about 50k of flash memory, and less than 1k of RAM (see intro article). mJS is part of MongooseOS, where it enables scripting for IoT devices.
 - [jerryscript](https://github.com/jerryscript-project/jerryscript) is a lightweight JavaScript engine for resource-constrained devices such as microcontrollers. It can run on devices with less than 64 KB of RAM and less than 200 KB of flash memory.
+
+
+
+## Tools
+- [PDF.js](https://github.com/mozilla/pdf.js) is a Portable Document Format (PDF) viewer that is built with HTML5.

@@ -8,7 +8,7 @@
 ## Learn
 - [Roadmap to becoming a web developer](https://github.com/kamranahmedse/developer-roadmap)
 - [Concurrent Programming for Scalable Web Architectures](http://berb.github.io/diploma-thesis/original/)
-- [全栈工程师培训材料](https://github.com/ruanyf/jstraining)
+- [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料
 
 
 

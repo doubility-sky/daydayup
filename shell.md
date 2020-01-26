@@ -4,6 +4,7 @@
 
 
 ## Learn
+- [ruanyf/simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) A collection of simple Bash scripts
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. 
   - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - :star:[The Linux Command Line](http://linuxcommand.org/)

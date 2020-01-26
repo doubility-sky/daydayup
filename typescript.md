@@ -1,7 +1,8 @@
-# [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://www.typescriptlang.org/)  
 JavaScript that scales.  
 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.  
 Any browser. Any host. Any OS. Open source.  
+- [[deno]]
 
 
 
@@ -28,12 +29,6 @@ The repository for high quality TypeScript type definitions. http://definitelyty
 - [Microsoft/TypeSearch](https://microsoft.github.io/TypeSearch/) A web-based search for @types/* packages.  
 When using TypeScript an easy way to install library Type Definitions is using "@types" npm packages.  
 View the running site: http://microsoft.github.io/TypeSearch.  
-
-
-
-## [Deno](https://github.com/denoland/deno)
-- A secure JavaScript and TypeScript runtime https://deno.land/
-- [awesome-deno](https://github.com/denolib/awesome-deno) A curated list of awesome things related to Deno
 
 
 
