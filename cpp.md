@@ -25,6 +25,7 @@
 - [The C++ Network Library Project](https://github.com/cpp-netlib/cpp-netlib) -- cross-platform, standards compliant networking library. http://cpp-netlib.org/
 - [co](https://github.com/idealvin/co) An elegant and efficient C++ basic library for Linux, Windows and Mac.
 - [acl](https://github.com/acl-dev/acl) Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
+- [The POCO C++ Libraries](https://github.com/pocoproject/poco) are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems. https://pocoproject.org
 
 
 

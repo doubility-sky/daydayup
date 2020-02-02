@@ -6,10 +6,12 @@
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html), [21天学会C++](http://coolshell.cn/articles/2250.html)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
 - [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps), A curated list of roadmaps, mostly about software development, which give you a clear route to improve your knowledge or skills.
+#### Readings
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) 《科技爱好者周刊》，每周五发布
   - [ruanyf/free-books](https://github.com/ruanyf/free-books)《科技爱好者周刊》收集的免费书籍汇总。
 - https://github.com/jobbole
 - [掘金翻译计划](https://github.com/xitu/gold-miner)是一个翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品和其他 等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
+- [translations](https://github.com/oldratlee/translations) Chinese translations for classic IT resources
 #### Cheatsheet
 - [modest collection of cheatsheets](https://devhints.io/) 
 - [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.

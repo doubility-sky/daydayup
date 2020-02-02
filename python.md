@@ -21,6 +21,7 @@
   - All experience comes from mistakes.
   - Don't be one of the leeches.
   - Either stand out or kicked out.
+- [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 #### Utils
 - [simple http server](https://docs.python.org/2/library/simplehttpserver.html)  
   - `python -m SimpleHTTPServer 8000`

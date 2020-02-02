@@ -33,6 +33,7 @@
   echo $_    # 上一个命令的最后一个参数
   echo $!    # 后台运行的最后一个进程的 ID 号
   ```
+- [useful scripts](https://github.com/oldratlee/useful-scripts) for making developer's everyday life easier and happier, involved java, shell etc. 
 
 
 

@@ -17,6 +17,7 @@
 - [cute_headers](https://github.com/RandyGaul/cute_headers) Collection of cross-platform one-file C/C++ libraries with no dependencies, primarily used for games
 - [sokol](https://github.com/floooh/sokol) minimal cross-platform standalone C headers
 - [mmx](https://github.com/vurtun/mmx) single header libraries for C/C++
+- [ck](https://github.com/concurrencykit/ck) Concurrency primitives, safe memory reclamation mechanisms and non-blocking (including lock-free) data structures designed to aid in the research, design and implementation of high performance concurrent systems developed in C99+. http://concurrencykit.org/
 
 
 
