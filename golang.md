@@ -2,6 +2,7 @@
   - `godoc -http=:6060` 无法穿墙，本地帮忙
 - https://talks.golang.org/
 - https://github.com/golang/go/wiki
+- https://github.com/avelino/awesome-go
 
 
 
@@ -40,8 +41,20 @@
 
 
 ## Open Source
-- https://github.com/avelino/awesome-go
 - https://github.com/Alikhll/golang-developer-roadmap
+- [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
+- [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
+- [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
+
+
+
+## Frameworks
+- [gogf/gf](https://github.com/gogf/gf) GoFrame is a modular, full-featured and production-ready application development framework of golang. Providing a series of core components and dozens of practical modules, such as: cache, logging, containers, timer, resource, validator, database orm, etc. Supporting web server integrated with router, cookie, session, middleware, logger, configu… https://goframe.org
+- [ray](https://github.com/ray-project/ray) A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. https://ray.io
+
+
+
+## [[Game Development]]
 - [[game-client]]
   - [pixel](https://github.com/faiface/pixel) A hand-crafted 2D game library in Go
   - [ebiten](https://github.com/hajimehoshi/ebiten) A dead simple 2D game library in Go https://ebiten.org/
@@ -51,10 +64,6 @@
   - [G3N](https://github.com/g3n/engine) (pronounced "gen") is an OpenGL 3D Game Engine written in Go. It can be used to write cross-platform Go applications that show rich and dynamic 3D representations - not just games. A basic integrated GUI framework is provided, and 3D spatial audio is supported through OpenAL.
 - [[game-server]]
   - [gonet](http://gonet2.github.io/), [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
-- [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
-- [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
-- [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
-- [gogf/gf](https://github.com/gogf/gf) GoFrame is a modular, full-featured and production-ready application development framework of golang. Providing a series of core components and dozens of practical modules, such as: cache, logging, containers, timer, resource, validator, database orm, etc. Supporting web server integrated with router, cookie, session, middleware, logger, configu… https://goframe.org
 
 
 

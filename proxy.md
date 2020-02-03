@@ -76,7 +76,21 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 
 
 
-## VPN
-- [一键安装vpn服务器](https://github.com/hwdsl2/setup-ipsec-vpn)
+## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
+- [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
 - [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
+
+
+
+## [Outline](https://getoutline.org/)
+Outline is an open source project created by Jigsaw to provide a safer way for news organizations and journalists to access the internet.
+
+- [Outline Client](https://github.com/Jigsaw-Code/outline-client) is a cross-platform VPN or proxy client for Windows, macOS, iOS, Android, and ChromeOS. The Outline Client is designed for use with the Outline Server software, but it is fully compatible with any Shadowsocks server.
+- [Outline Server](https://github.com/Jigsaw-Code/outline-server) Outline Manager, developed by Jigsaw. The Outline Manager application creates and manages Outline servers, powered by Shadowsocks. It uses the Electron framework to offer support for Windows, macOS and Linux. https://getoutline.org/
+
+
+
+## [v2ray](https://github.com/v2ray/v2ray-core) 
+A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
+- [V2Ray 配置指南](https://toutyrater.github.io/)
 

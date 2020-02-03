@@ -4,7 +4,7 @@
 
 ## Learn
 - [HTTP 协议入门](https://www.ruanyifeng.com/blog/2016/08/http.html)
-- [HTML Tutorial - w3cschools](https://www.w3schools.com/html)
+- [HTML Tutorial - w3schools](https://www.w3schools.com/html)
 
 
 
