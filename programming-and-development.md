@@ -22,6 +22,7 @@
 - [教孩子编程的 6 个小建议](http://blog.jobbole.com/95737/)
 - [教孩子学习编程基础知识的 10 个工具](http://blog.jobbole.com/77291/)
 - [教孩子们编程，相关学习资源](http://blog.jobbole.com/49786/)
+- [codingame](https://www.codingame.com/start) The new way to improve your programming skills while having fun and getting noticed
 
 
 

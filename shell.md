@@ -37,6 +37,11 @@
 
 
 
+## Tools
+- [shellcheck](https://github.com/koalaman/shellcheck), a static analysis tool for shell scripts https://www.shellcheck.net
+
+
+
 ## [[Python]]
 - [我可以使用Python作为Bash替换吗？](http://www.tracholar.top/2018/06/08/can-i-use-python-as-a-bash-replacement/)
 - [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh

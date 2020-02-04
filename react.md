@@ -5,6 +5,7 @@
 ## Learn
 - https://github.com/adam-golab/react-developer-roadmap
 - [阮一峰React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
+- [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 
 
 

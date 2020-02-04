@@ -14,3 +14,4 @@
 - [OBS Studio](https://github.com/obsproject/obs-studio), Free and open source software for live streaming and screen recording
 - [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 - [mpv](https://github.com/mpv-player/mpv) is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
+- [ijkplayer](https://github.com/bilibili/ijkplayer) Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.
