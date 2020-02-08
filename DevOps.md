@@ -1,4 +1,7 @@
-- [DevOps](https://en.wikipedia.org/wiki/DevOps) is a set of practices that combines software development (Dev) and information-technology operations (Ops) which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+[DevOps](https://en.wikipedia.org/wiki/DevOps) is a set of practices that combines software development (Dev) and information-technology operations (Ops) which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
+
+
+
 - [Let's talk DevOps job titles](https://mattouille.com/articles/2018-06/lets-talk-devops-job-titles/)
 - [持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
 

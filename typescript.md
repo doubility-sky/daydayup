@@ -1,7 +1,9 @@
-- [TypeScript](https://www.typescriptlang.org/)  
+[TypeScript](https://www.typescriptlang.org/) :  
 JavaScript that scales.  
 TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.  
 Any browser. Any host. Any OS. Open source.  
+
+
 - [[deno]]
 
 

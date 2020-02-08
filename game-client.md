@@ -1,6 +1,9 @@
-- [[Computer Graphics]]
-- [Game engines](https://en.wikipedia.org/wiki/Game_engine) are tools available for game designers to code and plan out a game quickly and easily without building one from the ground up. Whether they are 2D or 3D based, they offer tools to aid in asset creation and placement.
+[Game engines](https://en.wikipedia.org/wiki/Game_engine) are tools available for game designers to code and plan out a game quickly and easily without building one from the ground up. Whether they are 2D or 3D based, they offer tools to aid in asset creation and placement.
+
+
+
 - [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
+- [[Computer Graphics]]
 
 
 

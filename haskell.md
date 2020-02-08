@@ -1,4 +1,4 @@
-- [Haskell](https://www.haskell.org/), An advanced, purely functional programming language
+[Haskell](https://www.haskell.org/), An advanced, purely functional programming language
 
 
 

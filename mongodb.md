@@ -1,5 +1,8 @@
-- [MongoDB](https://www.mongodb.com/) is a general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database makes you more productive.
-  - https://docs.mongodb.com/manual/
+[MongoDB](https://www.mongodb.com/) is a general purpose, document-based, distributed database built for modern application developers and for the cloud era. No database makes you more productive.
+
+
+
+- https://docs.mongodb.com/manual/
   - https://docs.mongodb.com/manual/tutorial/
 - https://github.com/mongodb/mongo
 - https://github.com/ramnes/awesome-mongodb

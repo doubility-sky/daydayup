@@ -1,4 +1,7 @@
-- [Computer science](https://en.wikipedia.org/wiki/Computer_science) (sometimes called computation science) is the study of processes that interact with data and that can be represented as data in the form of programs. It enables the use of algorithms to manipulate, store, and communicate digital information. A computer scientist studies the theory of computation and the practice of designing software systems.
+[Computer science](https://en.wikipedia.org/wiki/Computer_science) (sometimes called computation science) is the study of processes that interact with data and that can be represented as data in the form of programs. It enables the use of algorithms to manipulate, store, and communicate digital information. A computer scientist studies the theory of computation and the practice of designing software systems.
+
+
+
 - [Association for Computing Machinery](https://www.acm.org/) Advancing Computing as a Science & Profession
   - [TURING LECTURES](https://amturing.acm.org/lectures.cfm), Presented by each winner on the topic of their choice at a forum of their choice in the year they received the ACM A.M. Turing Award.
 - [[algorithm]]

@@ -1,4 +1,4 @@
-- [React](https://github.com/facebook/react), A declarative, efficient, and flexible JavaScript library for building user interfaces. https://reactjs.org
+[React](https://github.com/facebook/react), A declarative, efficient, and flexible JavaScript library for building user interfaces. https://reactjs.org
 
 
 

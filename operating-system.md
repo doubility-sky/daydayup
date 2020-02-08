@@ -1,4 +1,6 @@
-- An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
+An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
+
+
 - https://wiki.osdev.org/Main_Page
 
 

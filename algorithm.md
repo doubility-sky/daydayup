@@ -1,7 +1,9 @@
-- [Data Structure](https://en.wikipedia.org/wiki/Data_structure)
-  - In [[computer science]], a [data structure](https://en.wikipedia.org/wiki/Data_structure) is a data organization, management, and storage format that enables [efficient](https://en.wikipedia.org/wiki/Algorithmic_efficiency) access and modification. More precisely, a data structure is a collection of [data values](https://en.wikipedia.org/wiki/Data), the relationships among them, and the functions or operations that can be applied to the data.
-- [Algorithm](https://en.wikipedia.org/wiki/Algorithm)
-  - In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer science]], an [algorithm](https://en.wikipedia.org/wiki/Algorithm) is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation.[1][2] Algorithms are unambiguous specifications for performing calculation, data processing, automated reasoning, and other tasks.
+In [[computer science]], a [data structure](https://en.wikipedia.org/wiki/Data_structure) is a data organization, management, and storage format that enables [efficient](https://en.wikipedia.org/wiki/Algorithmic_efficiency) access and modification. More precisely, a data structure is a collection of [data values](https://en.wikipedia.org/wiki/Data), the relationships among them, and the functions or operations that can be applied to the data.
+
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer science]], an [algorithm](https://en.wikipedia.org/wiki/Algorithm) is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation.[1][2] Algorithms are unambiguous specifications for performing calculation, data processing, automated reasoning, and other tasks.
+
+
+
 - [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms), A curated list of awesome places to learn and/or practice algorithms.
 - [GeeksforGeeks](http://www.geeksforgeeks.org/)
 - [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)

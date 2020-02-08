@@ -1,4 +1,4 @@
-- A [programming language](https://en.wikipedia.org/wiki/Programming_language) is a formal language, which comprises a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
+A [programming language](https://en.wikipedia.org/wiki/Programming_language) is a formal language, which comprises a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
 
 
 # Index
