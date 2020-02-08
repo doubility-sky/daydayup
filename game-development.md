@@ -17,6 +17,7 @@
 
 
 ## Resource
+- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources)
 - [Games on GitHub](https://github.com/leereilly/games) A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
 - [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev), A curated list of good stuff related to the development of games. This list contains only [free software](https://www.fsf.org/about/what-is-free-software) for code, sellers who aren't evil for physical resources, and [free cultural works](http://freedomdefined.org/Definition) for assets.
 - [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.

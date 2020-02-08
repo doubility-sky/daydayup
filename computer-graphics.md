@@ -1,6 +1,7 @@
 - [Computer Graphics](https://en.wikipedia.org/wiki/Computer_graphics_(computer_science)) is a sub-field of computer science which studies methods for digitally synthesizing and manipulating visual content. Although the term often refers to the study of three-dimensional computer graphics, it also encompasses two-dimensional graphics and image processing.  
   Computer graphics studies the manipulation of visual and geometric information using computational techniques. It focuses on the mathematical and computational foundations of image generation and processing rather than purely aesthetic issues. Computer graphics is often differentiated from the field of visualization, although the two fields have many similarities.
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision), A curated list of awesome computer vision resources
+- [Awesome Computer Graphics](https://github.com/luisnts/awesome-computer-graphics)
 
 
 
