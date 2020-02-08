@@ -43,6 +43,7 @@
   - [[android]]
 - [[Embedded Development]]
   - [[raspberrypi]]
+  - [[OpenWrt]]
   - [[IoT]]
   - [[ROS]]
 - [[Web Development]]

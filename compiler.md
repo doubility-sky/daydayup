@@ -1,3 +1,7 @@
+- A [compiler](https://en.wikipedia.org/wiki/Compiler) is a computer program that translates computer code written in one programming language (the source language) into another language (the target language). The name compiler is primarily used for programs that translate source code from a high-level programming language to a lower level language (e.g., assembly language, object code, or machine code) to create an executable program.
+
+
+
 ## Learn
 - https://github.com/orangeduck/BuildYourOwnLisp
 - [手把手教你构建 C 语言编译器（系列）](http://lotabout.me/2015/write-a-C-interpreter-0/)
@@ -5,6 +9,7 @@
     - https://github.com/sheisc/ucc162.3
 - [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
+
 
 
 ## Projects
