@@ -10,6 +10,7 @@ A relational database is a digital database based on the relational model of dat
 - [[MySQL]]
 - [[PostgreSQL]]
 - [SQLite](https://www.sqlite.org/index.html) is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private. SQLite is the most widely deployed database in the world with more applications than we can count, including several high-profile projects.
+  - [db_tutorial](https://github.com/cstack/db_tutorial) Writing a sqlite clone from scratch in C https://cstack.github.io/db_tutorial
 - [TiDB](https://github.com/pingcap/tidb) is an open source distributed HTAP database compatible with the MySQL protocol https://pingcap.com
 
 ### [SQL](https://en.wikipedia.org/wiki/SQL)
@@ -41,6 +42,11 @@ NoSQL, which stand for "not only SQL," is an alternative to traditional relation
 ### [Wide Column Store](https://en.wikipedia.org/wiki/Wide_column_store)
 - [Apache HBase](https://github.com/apache/hbase) is an open-source, distributed, versioned, column-oriented store modeled after Google' [Bigtable: A Distributed Storage System for Structured Data](https://ai.google/research/pubs/pub27898) by Chang et al.   
   Just as Bigtable leverages the distributed data storage provided by the Google File System, HBase provides Bigtable-like capabilities on top of Apache Hadoop.
+
+
+
+# Tools
+- [usql](https://github.com/xo/usql) A universal command-line interface for PostgreSQL, MySQL, Oracle Database, SQLite3, Microsoft SQL Server, and many other databases including NoSQL and non-relational databases!
 
 
 

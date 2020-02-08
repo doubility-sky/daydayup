@@ -94,3 +94,7 @@ Outline is an open source project created by Jigsaw to provide a safer way for n
 A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
 - [V2Ray 配置指南](https://toutyrater.github.io/)
 
+
+
+## [[OpenWrt]]
+- [路由器 + OpenWrt + SS](https://github.com/softwaredownload/openwrt-fanqiang) https://fanqiang.software-download.name

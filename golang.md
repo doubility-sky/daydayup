@@ -35,6 +35,7 @@
   - [Go编码规范指南](https://gocn.io/article/1)
   - https://github.com/uber-go/guide
 - Others
+  - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
   - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
   - [Go Data Structures](https://research.swtch.com/godata)
 
@@ -51,6 +52,7 @@
 ## Frameworks
 - [gogf/gf](https://github.com/gogf/gf) GoFrame is a modular, full-featured and production-ready application development framework of golang. Providing a series of core components and dozens of practical modules, such as: cache, logging, containers, timer, resource, validator, database orm, etc. Supporting web server integrated with router, cookie, session, middleware, logger, configu… https://goframe.org
 - [ray](https://github.com/ray-project/ray) A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. https://ray.io
+- [go-micro](https://github.com/micro/go-micro) A Go microservices development framework https://go-micro.dev
 
 
 

@@ -44,6 +44,7 @@
 - [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions), A curated awesome list of lists of interview questions. Feel free to contribute! 
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes),  技术面试必备基础知识、Leetcode、Java、C++、Python、后端面试、计算机操作系统、计算机网络、系统设计
+- [algo](https://github.com/hoanhan101/algo) 101+ coding interview problems with detailed solutions, test cases, and program analysis https://hoanhan101.github.io/2020/01/06/101-challenges
 - [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.
 
 
