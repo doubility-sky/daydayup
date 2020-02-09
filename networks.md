@@ -5,7 +5,6 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [Awesome Networking](https://github.com/clowwindy/Awesome-Networking), A curated list of awesome networking libraries, resources and shiny things.
 - [[proxy]]
 - [[security]]
-- [haoel.github.io](https://github.com/haoel/haoel.github.io) open internet right way.
 
 
 

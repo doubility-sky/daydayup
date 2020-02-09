@@ -1,6 +1,9 @@
 - https://github.com/kozross/awesome-c
+- [C, the Enduring Legacy of Dennis Ritchie](http://www.cs.columbia.edu/~aho/Talks/12-09-07_DMR.pdf), A tribute to the late Dennis Ritchie delivered at Dennis Ritchie Day at Bell Labs, Murray Hill, NJ, September 7, 2012
+  - [C, Dennis Ritchie的不朽遗产](https://www.ituring.com.cn/article/12901)
 - [c++](cpp)
 - [c--](https://www.cs.tufts.edu/~nr/c--/index.html)
+
 
 
 ## Learn
@@ -87,6 +90,7 @@
       项目主页:http://sourceforge.net/projects/cjson/
   
   </details>
+
 
 
 ## Tools
