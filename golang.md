@@ -1,5 +1,4 @@
-- http://golang.org/
-  - `godoc -http=:6060` 无法穿墙，本地帮忙
+- http://golang.org/  `godoc -http=:6060`
 - https://talks.golang.org/
 - https://github.com/golang/go/wiki
 - https://github.com/avelino/awesome-go
@@ -12,28 +11,25 @@
     - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
   - [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
     - http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
-- Creators of golang
-  - [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson)
-  - [Rob Pike](http://herpolhode.com/rob/), [wiki](https://en.wikipedia.org/wiki/Rob_Pike), [interview](https://usesthis.com/interviews/rob.pike/), [github](https://github.com/robpike)
-  - [Robert Griesemer](https://en.wikipedia.org/wiki/Robert_Griesemer), [github](https://github.com/griesemer)  
-  - [Russ Cox](http://swtch.com/~rsc/), [interview](http://www.pl-enthusiast.net/2015/03/25/interview-with-gos-russ-cox-and-sameer-ajmani/)
 - Quick start
-  - [A Tour of Go](https://tour.golang.org/)，[Go by Example](https://gobyexample.com/) 
+  - [A Tour of Go](https://tour.golang.org/)
+  - [Go by Example](https://gobyexample.com/) 
   - [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 - Books
   - [The Go Programming Language](https://github.com/miguellgt/books/blob/master/go/The.Go.Programming.Language.pdf) 
-  - [The Go Programming Language 中文](https://docs.hacknode.org/gopl-zh/)，by [gopl-zh](https://github.com/golang-china/gopl-zh)
+    - [Go语言圣经](https://docs.hacknode.org/gopl-zh/)，by [gopl-zh](https://github.com/golang-china/gopl-zh)
   - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
+- Standard & Style
+  - [Effective Go](https://golang.org/doc/effective_go.html)
+  - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
+  - [Go编码规范指南](https://gocn.io/article/1)
+  - [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ
+  - [uber-go/guide](https://github.com/uber-go/guide) The Uber Go Style Guide.
 - Source code analysis
   - [深入解析Go](https://github.com/tiancaiamao/go-internals)
   - [Go Under The Hood](https://github.com/changkun/go-under-the-hood): A Source Code Study of Go (1.14, WIP) https://changkun.de/golang
   - [Go1.5源码剖析](https://github.com/qyuhen/book)
   - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
-- Standard
-  - [Effective Go](https://golang.org/doc/effective_go.html)
-  - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
-  - [Go编码规范指南](https://gocn.io/article/1)
-  - https://github.com/uber-go/guide
 - Others
   - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
   - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
