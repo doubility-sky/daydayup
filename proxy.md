@@ -80,6 +80,10 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 ## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
 - [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
 - [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
+### [Wireguard](https://www.wireguard.com/)
+- [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.
+- [Wireguard：简约之美](https://zhuanlan.zhihu.com/p/91383212)
+- [Noise 框架：构建安全协议的蓝图](https://zhuanlan.zhihu.com/p/96944134)
 
 
 
@@ -99,3 +103,9 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 
 ## [[OpenWrt]]
 - [路由器 + OpenWrt + SS](https://github.com/softwaredownload/openwrt-fanqiang) https://fanqiang.software-download.name
+
+
+
+## Others
+- [g.f.w - list](https://github.com/gfwlist/gfwlist)
+- [ios - shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)

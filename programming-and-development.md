@@ -78,7 +78,7 @@
 #### Codes
 - [CoatiSoftware/Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail) is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
 - [Count Lines of Code](https://github.com/AlDanial/cloc)
-- [Artistic Style](http://astyle.sourceforge.net/) 格式化利器，别人代码瞬间变成你熟悉的风格。以下为一个使用命令案例:   
+- [Artistic Style](http://astyle.sourceforge.net/) 格式化利器，别人代码瞬间变成你熟悉的风格。<details> <summary> 使用案例 </summary>
   ```bash
   astyle \
   --mode=c \
@@ -98,5 +98,6 @@
   --recursive \
   --suffix=none *.c *.cpp *.h *.hpp
   ```
+  </details>
 - [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
-  [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
+  - [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)
