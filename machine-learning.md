@@ -7,6 +7,7 @@
 
 
 ## [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
+- [Simplest artificial neural network](https://github.com/gokadin/ai-simplest-network) The simplest form of an artificial neural network explained and demonstrated.
 - [Machine Learning Crash Course - with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/), Google's fast-paced, practical introduction to machine learning
 - [The Facebook Field Guide to Machine Learning](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/) is a six-part video series developed by the Facebook ads machine learning team. The series shares best real-world practices and provides practical tips about how to apply machine-learning capabilities to real-world problems.
 - [Top-down learning path](https://github.com/ZuzooVn/machine-learning-for-software-engineers), A complete daily plan for studying to become a machine learning engineer.
@@ -28,7 +29,8 @@
 - [deeplearningbook](http://www.deeplearningbook.org/)
   - [Deep Learning Book Chinese Translation](https://github.com/exacity/deeplearningbook-chinese)
   - [DeepLearningBook读书笔记](https://github.com/exacity/simplified-deeplearning)
-- [动手学深度学习](https://github.com/d2l-ai/d2l-zh)，面向中文读者、能运行、可讨论。英文版即伯克利“深度学习导论”教材。
+- [Dive into Deep Learning](https://github.com/d2l-ai/d2l-en): an interactive deep learning book with code, math, and discussions, based on the NumPy interface. https://d2l.ai
+  - [《动手学深度学习》](https://github.com/d2l-ai/d2l-zh)：面向中文读者、能运行、可讨论。英文版即伯克利“深度学习导论”教材。 http://zh.d2l.ai
 - [Deep Learning for Java](https://deeplearning4j.org/), Open-source, distributed, deep learning library for the JVM
 - https://github.com/scutan90/DeepLearning-500-questions
 - [Metaflow](https://github.com/Netflix/metaflow) is a human-friendly Python library that helps scientists and engineers build and manage real-life data science projects. Metaflow was originally developed at Netflix to boost productivity of data scientists who work on a wide variety of projects from classical statistics to state-of-the-art deep learning.

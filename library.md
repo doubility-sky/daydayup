@@ -2,14 +2,20 @@
 
 
 
+## Memory
+- [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
+- [jemalloc](https://github.com/jemalloc/jemalloc) is a general purpose malloc(3) implementation that emphasizes
+fragmentation avoidance and scalable concurrency support. 
+
+
+
 ## I/O Event 
 - [libevent](https://github.com/libevent/libevent) – an event notification library
 - [libev](http://software.schmorp.de/pkg/libev.html), libuv 的 unix 部分曾以此为基础
-- [libuv](https://github.com/libuv/libuv)
+- [libuv](https://github.com/libuv/libuv) Cross-platform asynchronous I/O https://libuv.org/
   - [An Introduction to libuv](https://github.com/nikhilm/uvbook)
-  - [libuv 初窥](http://blog.codingnow.com/2012/01/libuv.html)
-  - https://github.com/thlorenz/learnuv
-  - https://en.wikipedia.org/wiki/Libuv
+  - [libuv 初窥](http://blog.codingnow.com/2012/01/libuv.html) - 云风的 BLOG
+  - [Learn uv](https://github.com/thlorenz/learnuv) for fun and profit, a self guided workshop to the library that powers Node.js.
 
 
 
@@ -52,14 +58,4 @@
 - [libui](https://github.com/andlabs/libui): a portable GUI library for C
 - [nanogui](https://github.com/wjakob/nanogui) Minimalistic GUI library for OpenGL
 - [microui](https://github.com/rxi/microui) Tiny immediate-mode UI library
-
-
-
-## Multimedia
-### Audio
-- [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
-- [libsoundio](https://github.com/andrewrk/libsoundio) C library providing cross-platform audio input and output. The API is suitable for real-time software such as digital audio workstations as well as consumer software such as music players.
-### Video
-- [Bento4](https://github.com/axiomatic-systems/Bento4) Full-featured MP4 format and MPEG DASH library and tools
-
 
