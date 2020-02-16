@@ -5,6 +5,8 @@
 - https://www.sourcetreeapp.com/ win/mac, free
 - https://www.gitkraken.com/ linux/win/mac，linux下推荐使用
 
+
+
 ## Learn
 ### 文档 
 - https://git-scm.com/doc
@@ -30,11 +32,6 @@
 - https://hexo.io/ A fast, simple & powerful blog framework, powered by Node.js
 - https://github.com/kamranahmedse/githunt
 - https://github.com/521xueweihan/HelloGitHub
-### [Gitlab](https://about.gitlab.com/)
-- 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
-- [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
-- [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
-- [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
 
 
 ## 常用 Git 操作
@@ -53,6 +50,18 @@
   git filter-branch --force --index-filter 'git rm --cached --ignore-unmatch FILENAME' --prune-empty --tag-name-filter cat -- --all
   git push origin master --force
   ```
+
+
+
+## Self-hosted
+- [Gitlab](https://about.gitlab.com/)
+  - 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用。
+  - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
+  - [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
+  - [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
+- [Gogs](https://github.com/gogs/gogs) is a painless self-hosted Git service https://gogs.io
+- [gitea](https://github.com/go-gitea/gitea) Git with a cup of tea, painless self-hosted git service https://gitea.io
+
 
 
 ## FAQ

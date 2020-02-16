@@ -20,6 +20,7 @@
 - Practically, a SOCKS server proxies TCP connections to an arbitrary IP address, and provides a means for UDP packets to be forwarded.  
 - SOCKS performs at Layer 5 of the OSI model (the session layer, an intermediate layer between the presentation layer and the transport layer). 
 - SOCKS server accepts incoming client connection on TCP port 1080.
+
 #### [shadowsocks](http://shadowsocks.org/en/index.html)
 - A fast tunnel proxy that helps you bypass firewalls.  
 - Features:  
@@ -31,6 +32,9 @@
 - [whitepaper](http://shadowsocks.org/assets/whitepaper.pdf), [github-repo](https://github.com/shadowsocks/shadowsocks/tree/master)
 - [shadowsocks-libev](https://github.com/shadowsocks/shadowsocks-libev) is a lightweight secured SOCKS5 proxy for embedded devices and low-end boxes.  
   Shadowsocks-libev is written in pure C and depends on libev. It's designed to be a lightweight implementation of shadowsocks protocol, in order to keep the resource usage as low as possible.
+- [Redirect attack on Shadowsocks stream ciphers](https://github.com/edwardz246003/shadowsocks)  
+  - Do not use : shadowsocks-py, shadowsocoks-go, shadowsocoks-nodejs.  
+  - Only Use: shadowsocks-libev, go-shadowsocks2 and only use the AEAD ciphers  
 #### Solution
 ```
 user-device <-> SS-cli <···> SS-svr <···> target
@@ -62,6 +66,7 @@ user-device <-> SS-cli <···> SS-svr <···> target
 ## [udp2raw](https://github.com/wangyu-/udp2raw-tunnel)
 A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by using Raw Socket, helps you Bypass UDP FireWalls(or Unstable UDP Environment). It can defend Replay-Attack and supports Multiplexing. It also acts as a Connection Stabilizer.
 - [udp2raw-multiplatform](https://github.com/wangyu-/udp2raw-multiplatform) for macOS
+
 #### Solution
 ```
         user-device                         PROXY-SVR   

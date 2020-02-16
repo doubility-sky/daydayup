@@ -21,8 +21,9 @@
 ## Browser
 - Inside look at modern web browser [part1](https://developers.google.com/web/updates/2018/09/inside-browser-part1), [part2](https://developers.google.com/web/updates/2018/09/inside-browser-part2), [part3](https://developers.google.com/web/updates/2018/09/inside-browser-part3), [part4](https://developers.google.com/web/updates/2018/09/inside-browser-part4)
   - [深入理解现代浏览器](https://mp.weixin.qq.com/s/6aivgDpvXfiDER7Hu2u2CQ)
-- [Vimium](https://github.com/philc/vimium) is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
-- Google Chrome is made possible by the [Chromium](https://www.chromium.org/) open source project and other [open source software](chrome://credits/).
+- [Google Chrome](https://www.google.com/chrome/) is made possible by the [Chromium](https://www.chromium.org/) open source project and other [open source software](chrome://credits/).
+  - [chrome comic book](https://www.google.com/googlebooks/chrome/)
+  - [Vimium](https://github.com/philc/vimium) is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 
 
 

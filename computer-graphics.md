@@ -5,12 +5,13 @@ Computer graphics studies the manipulation of visual and geometric information u
 
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision), A curated list of awesome computer vision resources
 - [Awesome Computer Graphics](https://github.com/luisnts/awesome-computer-graphics)
+- [[game development]] - [[game client]]
 
 
 
 # Learn
-- [computer-graphics-from-scratch](https://www.gabrielgambetta.com/computer-graphics-from-scratch/introduction.html) 从头开始学计算机图形学
-- 见 [[game development]] - [[game client]]
+- [computer-graphics-from-scratch](https://github.com/ggambetta/computer-graphics-from-scratch) Text, diagrams, and source code for the book Computer Graphics from scratch. http://gabrielgambetta.com/computer-graphics-from-scratch
+- [thebookofshaders](https://github.com/patriciogonzalezvivo/thebookofshaders) Step-by-step guide through the abstract and complex universe of Fragment Shaders. http://TheBookOfShaders.com
 
 
 
