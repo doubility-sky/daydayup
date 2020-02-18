@@ -1,3 +1,4 @@
+- [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 - https://github.com/andriksantos/awesome-web-development
 - https://github.com/mrmartineau/awesome-web-dev-resources
 - [[web front-end]]
@@ -15,6 +16,7 @@
 - [Roadmap to becoming a web developer](https://github.com/kamranahmedse/developer-roadmap)
 - [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料
 - [Concurrent Programming for Scalable Web Architectures](http://berb.github.io/diploma-thesis/original/)
+- [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
 
 
 

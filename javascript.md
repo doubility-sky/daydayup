@@ -17,8 +17,11 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 - [Javascript tutorial book](https://github.com/ruanyf/jstutorial) http://javascript.ruanyifeng.com
   - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) https://wangdoc.com/javascript
 - [阮一峰 ES6](http://es6.ruanyifeng.com/)
+  - [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
   - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) A book series on JavaScript. @YDKJS on twitter.
+
 #### Coding Style
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript), Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)

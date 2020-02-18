@@ -21,6 +21,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms), This repository contains JavaScript based examples of many popular algorithms and data structures. [zh-CN](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
 - [Pygorithm](https://github.com/OmkarPathak/pygorithm), A Python module to learn all the major algorithms on the go! Purely for educational purposes
 - [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
+- [Quicksheet for Algorithms](https://github.com/algorhythms/Algo-Quicksheet)
 #### Books
 - The textbook [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne
 - [Algorithms in the "Real World"](http://www.cs.cmu.edu/~guyb/realworld.html)
