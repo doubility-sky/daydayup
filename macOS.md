@@ -17,6 +17,7 @@
 - https://github.com/sindresorhus/quick-look-plugins
 - [IINA](https://github.com/iina/iina) is the modern video player for macOS. https://iina.io
 - [hidden](https://github.com/dwarvesf/hidden) A ultra-light MacOS utility that helps hide menu bar icons https://d.foundation/opensource
+- [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
 
 
 

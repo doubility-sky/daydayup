@@ -1,7 +1,7 @@
 - [[Home]]
 
 
-## [[Computer Science]]
+#### [[Computer Science]]
 - [[algorithm]]
 - [[theory of computation]]
 - [[compiler]]
@@ -26,7 +26,7 @@
 - [[computer graphics]]
 
 
-## [Programming & Dev](programming-and-development)
+#### [Programming & Dev](programming-and-development)
 - [[Software Engineering]]
   - [[library]]
   - [[build]]
@@ -64,7 +64,7 @@
   - [[ethereum]]
 
 
-## [[Tools]]
+#### [[Tools]]
 - [[multimedia]]
 - [[third party]]
 - [[legal rights]]
