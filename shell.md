@@ -39,6 +39,7 @@
 
 ## Tools
 - [shellcheck](https://github.com/koalaman/shellcheck), a static analysis tool for shell scripts https://www.shellcheck.net
+- [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) A curated list of command line apps
 
 
 

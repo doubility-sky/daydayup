@@ -36,6 +36,7 @@
 ## Tools
 - [STCObfuscator](https://github.com/chenxiancai/STCObfuscator) iOS全局自动化 代码混淆 工具！支持cocoapod组件代码一并 混淆，完美避开hardcode方法、静态库方法和系统库方法！
 - [Python-ZFJObsLib完美生成iOS垃圾代码](https://blog.csdn.net/u014220518/article/details/99086206)
+- [App Icon Generator](https://appicon.co/)
 
 
 

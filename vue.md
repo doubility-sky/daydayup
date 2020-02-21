@@ -9,6 +9,7 @@
 ## Learn
 - https://github.com/marekbrainhub/vue-developer-roadmap
 - [逐行剖析Vue.js源码](https://github.com/NLRX-WJC/Learn-Vue-Source-Code) - [在线阅读地址](https://nlrx-wjc.github.io/Learn-Vue-Source-Code)
+- [vue-analysis](https://github.com/ustbhuangyi/vue-analysis) Vue.js 源码分析 https://ustbhuangyi.github.io/vue-analysis/
 
 
 

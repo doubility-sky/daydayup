@@ -1,4 +1,4 @@
-- [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
+- :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 - https://github.com/andriksantos/awesome-web-development
 - https://github.com/mrmartineau/awesome-web-dev-resources
 - [[web front-end]]
