@@ -3,6 +3,7 @@
 
 
 - https://github.com/academic/awesome-datascience
+- [industry-machine-learning](https://github.com/firmai/industry-machine-learning) A curated list of applied machine learning and data science notebooks and libraries across different industries. https://www.linkedin.com/company/firmai
 
 
 

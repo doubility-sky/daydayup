@@ -35,6 +35,7 @@
 - [CMake](https://cmake.org/)
   - https://github.com/onqtam/awesome-cmake
   - [CMake-tutorial](https://github.com/Campanula/CMake-tutorial)
+  - [cmake-examples](https://github.com/ttroy50/cmake-examples) Useful CMake Examples http://ttroy50.github.io/cmake-examples
 - [emake](https://github.com/skywind3000/emake)
 - [xmake](https://github.com/xmake-io/xmake), A cross-platform build utility based on lua.
 

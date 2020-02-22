@@ -8,6 +8,7 @@
 
 
 ## Learn
+- [A Graduate Course in Applied Cryptography](https://toc.cryptobook.us/)
 - [信息安全从业者书单推荐](https://github.com/riusksk/secbook)
 - [Micro8](https://github.com/Micropoor/Micro8) 适用于初中级安全从业人员，乙方安全测试，甲方安全自检，网络安全爱好者等，企业安全防护与提高
 

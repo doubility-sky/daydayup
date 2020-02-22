@@ -1,4 +1,6 @@
 - 其他类Unix系统通用功能，见 [[Linux]]
+- [[Objective-C]]
+- [[swift]]
 
 
 
@@ -26,6 +28,8 @@
 - https://github.com/iCHAIT/awesome-macOS
 - https://github.com/nikitavoloboev/my-mac-os
 - https://github.com/serhii-londar/open-source-mac-os-apps
+- [Source code of Telegram](https://github.com/overtake/TelegramSwift) for macos on Swift 5.0 https://macos.telegram.org
+  - [Source code of Telegram](https://github.com/overtake/telegram) obj-c version of macos client, now is no longer supported.
 
 
 

@@ -19,6 +19,7 @@
 - https://github.com/vsouza/awesome-ios
 - https://github.com/learn-anything/ios-apps
 - [Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps), A collaborative list of open-source iOS, watchOS and tvOS apps
+- [Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
 
 
 

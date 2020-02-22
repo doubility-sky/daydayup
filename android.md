@@ -20,6 +20,7 @@
 - [Open-Source Android Apps](https://github.com/pcqpcq/open-source-android-apps), This is a collection of Android Apps which are open source.  
 I believe that we can find something interesting and gain helpful skills from an open source app.  
 This idea comes from this project - [open-source-ios-apps](https://github.com/dkhamsing/open-source-ios-apps).
+- [Telegram for Android source](https://github.com/DrKLO/Telegram)
 - [topeka](https://github.com/googlesamples/android-topeka), A fun to play quiz that showcases material design on Android
 - [androidpn](https://github.com/dannytiehui/androidpn), An open source project to provide push notification support for Android -- a xmpp based notification server and a client tool kit.
 

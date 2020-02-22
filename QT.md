@@ -11,3 +11,4 @@
 
 ## Projects
 - [redis GUI](redis#gui), [Redis Desktop Manager](https://github.com/uglide/RedisDesktopManager/)
+- [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) messaging app https://desktop.telegram.org/
