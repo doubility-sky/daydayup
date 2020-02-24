@@ -189,4 +189,5 @@ innodb_log_file_size = 1G
 - [ERROR 1698 (28000): Access denied for user 'root'@'localhost' at Ubuntu 18.04](https://askubuntu.com/questions/1029177/error-1698-28000-access-denied-for-user-rootlocalhost-at-ubuntu-18-04)
   - [Change user password in MySQL 5.7 with “plugin: auth_socket”](https://www.percona.com/blog/2016/03/16/change-user-password-in-mysql-5-7-with-plugin-auth_socket/)
   - If you install 5.7 and don’t provide a password to the root user, it will use the auth_socket plugin.
-
+- [[Resolved] When I faced “#1273 – Unknown collation: ‘utf8mb4_0900_ai_ci'” Error](https://www.freakyjolly.com/resolved-when-i-faced-1273-unknown-collation-utf8mb4_0900_ai_ci-error/)
+  - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.

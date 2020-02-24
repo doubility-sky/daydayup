@@ -8,6 +8,7 @@
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`
+- 彻底清屏 Termimal `cmd + k`
 
 
 
