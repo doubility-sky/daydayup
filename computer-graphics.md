@@ -12,6 +12,7 @@ Computer graphics studies the manipulation of visual and geometric information u
 # Learn
 - [computer-graphics-from-scratch](https://github.com/ggambetta/computer-graphics-from-scratch) Text, diagrams, and source code for the book Computer Graphics from scratch. http://gabrielgambetta.com/computer-graphics-from-scratch
 - [thebookofshaders](https://github.com/patriciogonzalezvivo/thebookofshaders) Step-by-step guide through the abstract and complex universe of Fragment Shaders. http://TheBookOfShaders.com
+- [fun-with-graphics](https://github.com/FancyVin/fun-with-graphics) 这里整理了图形学相关的高校课程、书籍、教程、文章、博客、资源、开源项目。
 
 
 

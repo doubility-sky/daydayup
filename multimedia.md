@@ -4,6 +4,7 @@
 
 ## Image
 - [Caire](https://github.com/esimov/caire) is a content aware image resize library based on [Seam Carving for Content-Aware Image Resizing](https://inst.eecs.berkeley.edu/~cs194-26/fa16/hw/proj4-seamcarving/imret.pdf) paper.
+- [libvips](https://github.com/libvips/libvips) A fast image processing library with low memory needs. https://libvips.github.io/libvips/
 
 ### [ImageMagick](https://www.imagemagick.org/script/index.php)
 - [ImageMagick：批量处理图像的超级利器](http://blog.sina.com.cn/s/blog_ba532aea0101bty5.html)
@@ -47,16 +48,30 @@
 
 </details>
 
-### Compression
-- [pngquant](https://pngquant.org/)
+### Optimization
+- [Essential Image Optimization](https://github.com/GoogleChrome/essential-image-optimization) - an eBook https://images.guide
+  - [自动优化图像](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization?hl=zh-cn)
+- [Leanify](https://github.com/JayXon/Leanify) lightweight lossless file minifier/optimizer
+- [imagemin](https://github.com/imagemin/imagemin) Minify images seamlessly
+- [imgmin](https://github.com/rflynn/imgmin) Lossy image optimization
+- [image-optimizer](https://github.com/spatie/image-optimizer) Easily optimize images using PHP https://murze.be/2017/07/easily-optimize-images-using-php-binaries/
+- [imgo](https://github.com/imgo/imgo) Image optimization tool http://imgo.github.com/imgo
+  - https://www.jonof.id.au/kenutils.html macOS Homebrew users may install PNGOUT with: `brew install jonof/kenutils/pngout`
+  - :no_entry_sign:对比 ppduck 速度太慢了，不推荐
+#### JPG/JPEG
+- [jpeg-archive](https://github.com/danielgtaylor/jpeg-archive) Utilities for archiving JPEGs for long term storage.
+#### PNG
+- [Crunch](https://github.com/chrissimpkins/Crunch) Insane(ly slow but wicked good) PNG image optimization
+- :star:[pngquant](https://pngquant.org/)
   - GUI https://imageoptim.com/
   - [recursively-batch-process-files-with-pngquant](https://stackoverflow.com/questions/9647920/recursively-batch-process-files-with-pngquant)
     - `find . -name '*.png' -exec pngquant --ext .png --force 256 {} \;` 
     - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
-- https://tinypng.com/ - Up to 20 images, max 5 MB each
-- http://ppduck.com/
-- https://github.com/chrissimpkins/Crunch
-- ~~http://nullice.com/limitPNG , http://nullice.com/gluttonyPNG~~ 已无人维护，bug多不推荐
+- ~~http://nullice.com/limitPNG , http://nullice.com/gluttonyPNG~~ 已无人维护，bug多，不推荐
+#### Paid
+- [tinypng](https://tinypng.com/) Smart PNG and JPEG compression
+  - Free: Up to 20 images, max 5 MB each
+- :star:[ppduck](http://ppduck.com/) PP鸭整合了业内最优秀的数种开源的图片压缩算法，会自动根据图片特征自动选择压缩参数。只需要将图片拖入PP鸭，就能自动批量压缩，省时省心。
 
 
 
