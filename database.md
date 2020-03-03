@@ -53,3 +53,4 @@ NoSQL, which stand for "not only SQL," is an alternative to traditional relation
 # Practice
 - 谈谈陌陌争霸在数据库方面踩过的坑
   - [前篇](https://blog.codingnow.com/2014/03/mmzb_db.html)，[排行榜篇](https://blog.codingnow.com/2014/03/mmzb_db_2.html)，[芒果篇](https://blog.codingnow.com/2014/03/mmzb_mongodb.html)，[Redis 篇](https://blog.codingnow.com/2014/03/mmzb_redis.html)
+- [BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南

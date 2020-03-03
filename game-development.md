@@ -22,6 +22,7 @@
 - [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev), A curated list of good stuff related to the development of games. This list contains only [free software](https://www.fsf.org/about/what-is-free-software) for code, sellers who aren't evil for physical resources, and [free cultural works](http://freedomdefined.org/Definition) for assets.
 - [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.
   - [awesome-gamedev](https://github.com/mbrukman/awesome-gamedev), forked from ellisonleao/magictools
+- [AwesomeCppGameDev](https://github.com/Cmdu76/AwesomeCppGameDev), A curated list of awesome C++ (mainly) things for Game Development. Inspired by awesome-... stuff.
 - [Roguelike Development Resources](https://github.com/marukrap/RoguelikeDevResources), A curated list of roguelike development resources
 - [Awesome Game Boy Development](https://github.com/gbdev/awesome-gbdev), A curated list of Game Boy development resources such as tools, docs, emulators, related projects and open-source ROMs. https://gbdev.github.io/list
 - [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more.   
