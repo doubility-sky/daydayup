@@ -30,3 +30,8 @@
 ## Management
 - [Awesome Product Management](https://github.com/dend/awesome-product-management), A curated list of awesome resources for product/program managers to learn and grow.
 
+
+
+## Tools
+- [Sentry](https://github.com/getsentry/sentry) is cross-platform application monitoring, with a focus on error reporting. https://sentry.io
+

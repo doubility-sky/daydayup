@@ -103,6 +103,8 @@ Outline is an open source project created by Jigsaw to provide a safer way for n
 ## [v2ray](https://github.com/v2ray/v2ray-core) 
 A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
 - [V2Ray 配置指南](https://toutyrater.github.io/)
+- [V2RayX](https://github.com/Cenmrev/V2RayX) GUI for v2ray-core on macOS
+- [Qv2ray](https://github.com/Qv2ray/Qv2ray) - Make v2ray real cross-platform
 
 
 
