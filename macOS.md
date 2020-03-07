@@ -4,11 +4,25 @@
 
 
 
+## Awesome
+- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) Now we have become very big, Different from the original idea. Collect premium software in various categories. https://git.io/macx
+- [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) A curated list of awesome applications, softwares, tools and shiny things for macOS.
+
+
+
+
 ## Common
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`
 - 彻底清屏 Termimal `cmd + k`
+
+
+
+## Apps
+- [my-mac-os](https://github.com/nikitavoloboev/my-mac-os) List of applications and tools that make my macOS experience even more amazing
+- [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) Awesome list of open source applications for macOS.
+- [程序员的macOS系列：精选 Mac App](https://ihtcboy.com/2018/07/15/2018-07-15_%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84macOS%E7%B3%BB%E5%88%97%EF%BC%9A%E7%B2%BE%E9%80%89MacApp/)
 
 
 
@@ -25,10 +39,6 @@
 
 
 ## Projects
-- https://github.com/jaywcjlove/awesome-mac
-- https://github.com/iCHAIT/awesome-macOS
-- https://github.com/nikitavoloboev/my-mac-os
-- https://github.com/serhii-londar/open-source-mac-os-apps
 - [Source code of Telegram](https://github.com/overtake/TelegramSwift) for macos on Swift 5.0 https://macos.telegram.org
   - [Source code of Telegram](https://github.com/overtake/telegram) obj-c version of macos client, now is no longer supported.
 
