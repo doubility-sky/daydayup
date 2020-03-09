@@ -8,8 +8,8 @@
 
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
-  - [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
-- [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
+  - [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
+- [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
 #### Tutorials
 - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
 - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造

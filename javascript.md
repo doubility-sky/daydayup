@@ -1,8 +1,8 @@
-[ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) (or ES) is a scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262.   
-It was created to standardize JavaScript to help foster multiple independent implementations.  
-JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, with other well-known implementations including JScript and ActionScript.  
-ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server applications and services using Node.js.
+[ECMAScript](https://en.wikipedia.org/wiki/ECMAScript) (or ES) is a scripting-language specification standardized by Ecma International in ECMA-262 and ISO/IEC 16262. It was created to standardize JavaScript to help foster multiple independent implementations.
 
+JavaScript has remained the best-known implementation of ECMAScript since the standard was first published, with other well-known implementations including JScript and ActionScript.
+
+ECMAScript is commonly used for client-side scripting on the World Wide Web, and it is increasingly being used for writing server applications and services using Node.js.
 
 
 - [[node.js]]
@@ -12,11 +12,10 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 
 ## Learn
-- https://www.ecma-international.org/
-- [w3school ：前期入门，后期手册](http://www.w3school.com.cn/b.asp)
+- :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
 - [Javascript tutorial book](https://github.com/ruanyf/jstutorial) http://javascript.ruanyifeng.com
   - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) https://wangdoc.com/javascript
-- [阮一峰 ES6](http://es6.ruanyifeng.com/)
+- [ES6 入门教程](http://es6.ruanyifeng.com/)
   - [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
   - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
@@ -27,6 +26,18 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
 - [Cocos Creator 推荐编码规范](https://docs.cocos.com/creator/manual/zh/scripting/reference/coding-standards.html)
+
+
+
+## Library
+- [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
+- [D3](https://github.com/d3/d3): Data-Driven Documents (or D3.js) is a JavaScript library for visualizing data using web standards. 
+- [Modernizr](https://github.com/modernizr/modernizr) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. https://modernizr.com
+
+
+
+## Frameworks
+- [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 
 
 
@@ -60,3 +71,4 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 ## Tools
 - [PDF.js](https://github.com/mozilla/pdf.js) is a Portable Document Format (PDF) viewer that is built with HTML5.
+
