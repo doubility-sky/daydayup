@@ -1,10 +1,16 @@
 [[markdown-test]]
 - https://www.markdownguide.org/
-- [3分钟掌握markdown语法！](https://guides.github.com/features/mastering-markdown/):sparkles::camel: :boom:
-- [markdown语法官方参考手册](http://daringfireball.net/projects/markdown/syntax "hello, markdown!") 
-- https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-```python
-print("Hello World!") # 我是python，我高亮！
-```
+
+
+## Learn
+- [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax "hello, markdown!") 
+- [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+
+## Emoji
+- [Complete list of github markdown emoji markup](https://gist.github.com/rxaviers/7360908)
+- [emoji-cheat-sheet](https://github.com/ikatyang/emoji-cheat-sheet)
 
