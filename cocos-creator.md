@@ -31,8 +31,36 @@
 
 
 
+## Library
+- [CocosCreator TypeScript使用protobuf](https://blog.csdn.net/xiefeifei316948714/article/details/90481643)
+  - [CocosCreator TypeScript项目引用第三方库的方法和问题记录](https://blog.k-res.net/archives/2428.html)
+  - [Creator | TS项目中引入第三方JS库的两种方式](https://mp.weixin.qq.com/s/bSy2XtK70F7OOCpI00nGDQ)
+  - [Creator | 微信小游戏使用 protobuf 的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
+  - 综上，使用代码引入（无需依赖 creator 编辑器插件功能）+ 静态加载 proto (支持微信小游戏) 最佳，以 macOS 为例：
+    - `brew install node` ，并 `npm install -g protobufjs`
+      - 方便复制起见，可以在 creator 项目根目录也执行 `npm install protobufjs`
+    - 编译 `.proto` 文件，假设所在 creator 项目目录为 `myproj/assets/script/*.proto`
+      - `pbjs -t static-module -w commonjs -o proto.js *.proto`
+      - 得到：`myproj/assets/script/proto.js`
+    - 将 `node_modules/protobufjs/dist/minimal/` 中内容，移至 `myproj/assets/script/protobufjs/minimal/`
+      - 移动依据见 proto.js 前几行中，可自行修改：
+      ```javascript
+      var $protobuf = require("protobufjs/minimal");
+      ```
+    - 在需要处理 protobuffer 的地方，如： `myproj/assets/script/main.ts` 引入
+      ```typescript
+      import { AwesomeMessage } from "./proto.js";
+      // example code
+      let message = AwesomeMessage.create({ awesomeField: "hello" });
+      let buffer  = AwesomeMessage.encode(message).finish();
+      let decoded = AwesomeMessage.decode(buffer);
+      ```
+    - [Usage with TypeScript - Using generated static code](https://github.com/protobufjs/protobuf.js#using-generated-static-code)
+
+
+
+
 ## Practice
-- [Creator | 微信小游戏使用protobuf/protobuf的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
   - [Cocos Creator 支持ETC1 + Alpha 纹理压缩](https://oedx.github.io/2019/05/15/cocos-creator-support-etc1-alpha/)
