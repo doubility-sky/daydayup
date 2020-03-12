@@ -27,11 +27,11 @@
 
 
 ## Tools
+- :star:[Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins) List of useful Quick Look plugins for developers
 - [tree 命令，终端展示你的目录树结构](http://yijiebuyi.com/blog/c0defa3a47d16e675d58195adc35514b.html)
 - [OS X 磁盘空间分析工具: ncdu](http://www.yewen.us/blog/2015/09/ncdu-on-os-x/)
   - `brew install ncdu`
   - `ncdu / --exclude /Volumes`
-- https://github.com/sindresorhus/quick-look-plugins
 - [IINA](https://github.com/iina/iina) is the modern video player for macOS. https://iina.io
 - [hidden](https://github.com/dwarvesf/hidden) A ultra-light MacOS utility that helps hide menu bar icons https://d.foundation/opensource
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.

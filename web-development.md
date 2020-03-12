@@ -1,5 +1,5 @@
 - :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
-  - - [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
+  - [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
 - https://github.com/andriksantos/awesome-web-development
 - https://github.com/mrmartineau/awesome-web-dev-resources
 - [[web front-end]]
