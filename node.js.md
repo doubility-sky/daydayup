@@ -1,4 +1,6 @@
 [Node.js](https://nodejs.org/en/) is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+- https://www.npmjs.com/
+- https://github.com/sindresorhus/awesome-npm
 
 
 

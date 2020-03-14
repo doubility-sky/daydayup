@@ -51,4 +51,6 @@
 - 网络编程 macOS 总是弹出防火墙链接确认
     - https://github.com/codegangsta/gin/issues/12#issuecomment-40519008
     - [Suppressing Accept Incoming Network Connections warnings on OSX](https://medium.com/@leeprovoost/suppressing-accept-incoming-network-connections-warnings-on-osx-7665b33927ca)
-
+- macOS 删除 chrome 地址栏联想内容
+  - 按向下箭头键以突出显示相应内容，然后按 Shift + fn + Delete 键
+- [iOS APP微信支付接入多个商户账号](https://www.jianshu.com/p/d0d8afc6a685)

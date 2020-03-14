@@ -28,3 +28,6 @@
 
 ## Projects
 - [telegram-react](https://github.com/evgeny-nadymov/telegram-react) Experimental Telegram web client with tdlib, webassembly and react js under the hood https://evgeny-nadymov.github.io/telegram-react/
+- [proton-native](https://github.com/kusti8/proton-native) A React environment for cross platform desktop apps https://proton-native.js.org
+
+

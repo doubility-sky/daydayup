@@ -72,8 +72,8 @@
 
 ## Resource
 - [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
-  - https://github.com/potato47/awesome-cocos-creator
-  - https://github.com/tumobi/pomelo-cocos-creator-awesome
+- [awesome-cocos-creator](https://github.com/potato47/awesome-cocos-creator) Cocos Creator 资源汇总
+- [pomelo-cocos-creator-awesome](https://github.com/tumobi/pomelo-cocos-creator-awesome) 学习 pomelo 和 Cocos Creator 过程中收集的教程、麻将、斗地主棋牌项目
 
 
 
