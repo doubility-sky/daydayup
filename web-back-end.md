@@ -21,3 +21,9 @@
   - [express](https://github.com/expressjs/express), [nestjs](https://github.com/nestjs/nest), [eggjs](https://github.com/eggjs/egg/)
 - [[php]] - [Laravel](php#Laravel)
 - [[java]] - [[spring]]
+
+
+
+## Tools
+- [web-servers](https://gist.github.com/willurd/5720255) Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
+

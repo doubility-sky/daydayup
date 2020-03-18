@@ -21,9 +21,7 @@ Computer graphics studies the manipulation of visual and geometric information u
   - [LearnOpenGL-CN](https://github.com/LearnOpenGL-CN/LearnOpenGL-CN) - [read online](https://learnopengl-cn.github.io/)
 - [awesome-opengl](https://github.com/eug/awesome-opengl), A curated list of awesome OpenGL libraries, debuggers and resources.
 
-
-
-# WebGL
+## WebGL
 - [awesome-casestudy](https://github.com/luruke/awesome-casestudy) Curated list of technical case studies on WebGL and creative development
 - [three.js](https://github.com/mrdoob/three.js/), JavaScript 3D library. https://threejs.org/  
   The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
@@ -31,18 +29,6 @@ Computer graphics studies the manipulation of visual and geometric information u
 - [WebGLStudio.js](https://github.com/jagenjo/webglstudio.js) is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share your work - all within a browser using standard web technologies.
 - [Tiny-Canvas](https://github.com/bitnenfer/tiny-canvas) is a lightweight minimal implementation of a batched and stack matrix based canvas similar to HTML5 Canvas2D with WebGL backend.
 - [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
-
-
-
-# [OpenCV](https://github.com/opencv/opencv)
-OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
-- [Learn OpenCV](https://github.com/spmallick/learnopencv), C++ and Python Examples. You can find the details at [LearnOpenCV.com](https://www.learnopencv.com/)
-
-
-
-# Projects
-- [taichi](https://github.com/yuanming-hu/taichi/) The Taichi programming language http://taichi.graphics
-  - [99行代码的《冰雪奇缘》](https://zhuanlan.zhihu.com/p/97700605)
 
 
 
@@ -55,3 +41,17 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 - [floooh/oryol](https://github.com/floooh/oryol) A small, portable and extensible C++ 3D coding framework
 - [OpenSubdiv](https://github.com/PixarAnimationStudios/OpenSubdiv) is a set of open source libraries that implement high performance subdivision surface (subdiv) evaluation on massively parallel CPU and GPU architectures
 
+## [OpenCV](https://github.com/opencv/opencv)
+OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products. Being a BSD-licensed product, OpenCV makes it easy for businesses to utilize and modify the code.
+- [Learn OpenCV](https://github.com/spmallick/learnopencv), C++ and Python Examples. You can find the details at [LearnOpenCV.com](https://www.learnopencv.com/)
+
+
+
+# Projects
+- [taichi](https://github.com/yuanming-hu/taichi/) The Taichi programming language http://taichi.graphics
+  - [99行代码的《冰雪奇缘》](https://zhuanlan.zhihu.com/p/97700605)
+
+
+
+# Tools
+- [SHADERed](https://github.com/dfranx/SHADERed) Lightweight, cross-platform & full-featured desktop IDE for HLSL and GLSL shaders https://shadered.org/

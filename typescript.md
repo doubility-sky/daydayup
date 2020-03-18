@@ -9,6 +9,8 @@ Any browser. Any host. Any OS. Open source.
 
 
 ## Learn
+- [Official playground](https://www.typescriptlang.org/play)
+  - https://typescript-play.js.org/
 - [Official Documentation](https://www.typescriptlang.org/docs/home.html)
   - [TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook) - [read online](https://www.typescriptlang.org/docs/handbook/basic-types.html)
   - [中文版](https://github.com/zhongsp/TypeScript) - [在线阅读](https://zhongsp.gitbook.io/typescript-handbook/)
@@ -16,12 +18,6 @@ Any browser. Any host. Any OS. Open source.
   - [中文版](https://jkchao.github.io/typescript-book-chinese/) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
 - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) https://ts.xcatliu.com/
 - [tsconfig.json 全解析](https://lq782655835.github.io/blogs/project/ts-tsconfig.html)
-
-
-
-## Playground
-- [official playground](https://www.typescriptlang.org/play/index.html)
-- [typescript-play](https://typescript-play.js.org)
 
 
 

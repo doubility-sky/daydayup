@@ -13,8 +13,9 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 ## Learn
 - :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
-- [Javascript tutorial book](https://github.com/ruanyf/jstutorial) http://javascript.ruanyifeng.com
-  - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) https://wangdoc.com/javascript
+- [The Modern JavaScript Tutorial](https://github.com/javascript-tutorial) - [read online](https://javascript.info/)
+- [Javascript tutorial book](https://github.com/ruanyf/jstutorial) - http://javascript.ruanyifeng.com
+  - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) - https://wangdoc.com/javascript
 - [ES6 入门教程](http://es6.ruanyifeng.com/)
   - [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
   - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro)
