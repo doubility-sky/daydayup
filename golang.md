@@ -21,6 +21,7 @@
   - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
 - Standard & Style
   - [Effective Go](https://golang.org/doc/effective_go.html)
+    - [Effective Go 中英双语版](https://github.com/bingohuang/effective-go-zh-en) https://legacy.gitbook.com/book/bingohuang/effective-go-zh-en/details
   - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
   - [Go编码规范指南](https://gocn.io/article/1)
   - [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ

@@ -92,7 +92,4 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
       2. 调用函数时，应该提供的参数没有提供，该参数等于 undefined。
       3. 对象没有赋值的属性，该属性的值为 undefined。
       4. 函数没有返回值时，默认返回 undefined。
-    
-
-
-
+- [你真的会使用XMLHttpRequest吗？](https://segmentfault.com/a/1190000004322487)

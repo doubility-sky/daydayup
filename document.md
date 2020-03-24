@@ -1,7 +1,11 @@
 - [[markdown]]
 
 
-## Standards
+
+## Learn
+- [Technical Writing Courses](https://developers.google.com/tech-writing) This collection of courses and learning resources aims to improve your technical documentation. Learn how to plan and author technical documents. You can also learn about the role of technical writers at Google.
+
+### Standards
 - [中文技术文档的写作规范 - ruanyf](https://github.com/ruanyf/document-style-guide)
 - [中文文案排版指北 - sparanoid](https://github.com/sparanoid/chinese-copywriting-guidelines)
 - [中文文档编写规范 - creator-docs](https://github.com/cocos-creator/creator-docs/blob/v2.2/zh/CONTRIBUTING.md)
