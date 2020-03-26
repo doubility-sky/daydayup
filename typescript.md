@@ -14,10 +14,9 @@ Any browser. Any host. Any OS. Open source.
 - [Official Documentation](https://www.typescriptlang.org/docs/home.html)
   - [TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook) - [read online](https://www.typescriptlang.org/docs/handbook/basic-types.html)
   - [中文版](https://github.com/zhongsp/TypeScript) - [在线阅读](https://zhongsp.gitbook.io/typescript-handbook/)
+- [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) - https://ts.xcatliu.com/
 - [TypeScript Deep Dive](https://github.com/basarat/typescript-book/) - [read online](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
   - [中文版](https://jkchao.github.io/typescript-book-chinese/) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
-- [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) https://ts.xcatliu.com/
-- [tsconfig.json 全解析](https://lq782655835.github.io/blogs/project/ts-tsconfig.html)
 
 
 
@@ -36,6 +35,7 @@ View the running site: http://microsoft.github.io/TypeSearch.
 
 
 ## FAQ
+- [tsconfig.json 全解析](https://lq782655835.github.io/blogs/project/ts-tsconfig.html)
 - [Modules](https://www.typescriptlang.org/docs/handbook/modules.html)
   - 旧术语
     - **A note about terminology**: It’s important to note that in TypeScript 1.5, the nomenclature has changed. “Internal modules” are now “namespaces”. “External modules” are now simply “modules”, as to align with [ECMAScript 2015](http://www.ecma-international.org/ecma-262/6.0/)’s terminology, (namely that `module X {` is equivalent to the now-preferred `namespace X {`).
