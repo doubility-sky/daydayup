@@ -17,9 +17,14 @@
 
 # 2D
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
-- [[cocos2dx]], [[godot]]
-- [[love2d]], [renpy](https://github.com/renpy/renpy), [[pygame]], [[ejoy2d]]
-- [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
+  - [[cocos2dx]], [[godot]]
+  - [[love2d]], [[pygame]], [[ejoy2d]], [renpy](https://github.com/renpy/renpy)
+  - [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
+### Sprite Sheet & texture atlas
+- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
+- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
+### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
 
 
 
@@ -47,4 +52,6 @@
 - [quicksdk](https://www.quicksdk.com/)
 - [Airtest](https://github.com/AirtestProject/Airtest) UI Automation Framework for Games and Apps http://airtest.netease.com/
 - [bjorn/tiled](https://github.com/bjorn/tiled) A flexible level editor https://www.mapeditor.org/
-
+- [TexturePacker](https://www.codeandweb.com/texturepacker) CREATE OPTIMIZED SPRITE SHEETS
+  - Reduce memory usage and increase your game's frame rate
+  - Supports over 30 game engines including Cocos2D, Unity and Phaser
