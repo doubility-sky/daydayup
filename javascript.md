@@ -33,6 +33,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 ## Library
 - [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
 - [D3](https://github.com/d3/d3): Data-Driven Documents (or D3.js) is a JavaScript library for visualizing data using web standards. 
+  - [Learn D3](https://observablehq.com/@d3/learn-d3)
 - [Modernizr](https://github.com/modernizr/modernizr) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. https://modernizr.com
 
 

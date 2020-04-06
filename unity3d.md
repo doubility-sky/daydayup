@@ -31,6 +31,7 @@ https://github.com/RyanNielson/awesome-unity
 - [ET](https://github.com/egametang/ET) Unity3D Client And C# Server Framework
 - [TinaX Framework](https://github.com/yomunsam/TinaX) : Unity based Game Client Framework https://tinax.corala.space/
 - [xasset](https://github.com/xasset/xasset) 是一个简易轻量的 Unity 资源管理框架
+- https://github.com/wugui0220/Empty
 
 
 

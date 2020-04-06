@@ -15,6 +15,7 @@
 - [构建单页Web应用](https://github.com/xufei/blog/issues/5)
 - [为何现代 Web 开发如此复杂？](https://www.infoq.cn/article/YPEj-1CKSxkVG290iIY0)
 - [在2019年学习如何成为现代前端开发人员](https://www.zcfy.cc/article/learn-to-become-a-modern-frontend-developer-in-2019)
+- [Chrome Dev Tools 使用指南](https://wiki.jikexueyuan.com/project/chrome-devtools/overview.html)
 ### Books
 - [前端开发技术（HTML、CSS 和 JavaScript 等）值得推荐的书籍](https://www.zhihu.com/question/19809484/answer/1039653836)
 
