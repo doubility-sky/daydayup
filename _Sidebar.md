@@ -29,6 +29,7 @@
   - [[machine learning]]
   - [NLP](natural-language-processing)
 - [[computer graphics]]
+- [[mathematics]]
 
 
 #### [Programming & Dev](programming-and-development)

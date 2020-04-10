@@ -6,6 +6,7 @@
 - [[DevOps]]
 
 
+
 ## Learn
 - [The Software Architecture Chronicles](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/), [软件架构编年史](https://www.jianshu.com/p/b477b2cc6cfa)
 - [谷歌工程实践](https://github.com/xindoo/eng-practices-cn)
@@ -19,11 +20,17 @@
 
 
 
-## Design
-- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+## Design Patterns
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans), An ultra-simplified explanation to design patterns
 - [图说设计模式](https://github.com/me115/design_patterns)
 - http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf
+
+
+
+## System Design
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+- [hiredintech system-design](https://www.hiredintech.com/system-design)
+- [System design interview](https://github.com/checkcheckzz/system-design-interview) for IT companies
 
 
 
