@@ -92,6 +92,7 @@
 - [mpv](https://github.com/mpv-player/mpv) is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
 - [ijkplayer](https://github.com/bilibili/ijkplayer) Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.
 - [Bento4](https://github.com/axiomatic-systems/Bento4) Full-featured MP4 format and MPEG DASH library and tools
+- [shotcut](https://github.com/mltframework/shotcut) cross-platform (Qt), open-source (GPLv3) video editor https://www.shotcut.org
 
 
 

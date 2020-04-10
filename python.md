@@ -1,32 +1,35 @@
-- https://www.python.org
-- [Awesome Python]https://github.com/vinta/awesome-python, A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
-- [awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
+- [Python](https://www.python.org) is a programming language that lets you work quickly
+and integrate systems more effectively.
+  - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+  - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
+    - `python -m SimpleHTTPServer 8000`
+    - `python3 -m http.server`
+- [Awesome Python](https://github.com/vinta/awesome-python), A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
 - [[pygame]]
+- [python for shell](shell#python)
 
 
 
 ## Learn
-- [A Byte of Python](https://python.swaroopch.com/)
-- [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
-  - [Python 最佳实践指南 2018](https://pythoncaff.com/docs/python-guide/2018) 
+
+### Tutor
+- [learn-python](https://github.com/trekhleb/learn-python) Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
 - [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor), Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution in your Web browser http://pythontutor.com/
-- [Playground and Cheatsheet for Learning Python](https://github.com/trekhleb/learn-python)
-- [PythonShare](https://github.com/Yixiaohan/codeparkshare)
+
+### Books
+- [A Byte of Python](https://python.swaroopch.com/)
+- [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
+- [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
+
+### Practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
-- [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-- [Pygorithm](https://github.com/OmkarPathak/pygorithm), A Python module to learn all the major algorithms on the go! Purely for educational purposes
-- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-  - Make English as your working language.
-  - Practice makes perfect.
-  - All experience comes from mistakes.
-  - Don't be one of the leeches.
-  - Either stand out or kicked out.
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
-#### Utils
-- [simple http server](https://docs.python.org/2/library/simplehttpserver.html)  
-  - `python -m SimpleHTTPServer 8000`
-  - `python3 -m http.server`
-- [python for shell](shell#python)
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
+  - Make English as your working language. Practice makes perfect. All experience comes from mistakes. Don't be one of the leeches. Either stand out or kicked out.
+
+### Resources
+- [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。http://jobbole.github.io/awesome-python-cn/
+- [PythonShare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
 
 
 
@@ -38,6 +41,7 @@
 
 
 ## Frameworks
+
 #### Web
 - [Django](https://github.com/django/django), The Web framework for perfectionists with deadlines. https://www.djangoproject.com/
   - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.
@@ -46,6 +50,7 @@
 - [Tornado](https://github.com/tornadoweb/tornado) is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
   - [Introduction to Tornado](https://docs.hacknode.org/itt2zh/)
 - [Sanic](https://github.com/huge-success/sanic)is a Python 3.6+ web server and web framework that's written to go fast. It allows the usage of the `async/await` syntax added in Python 3.5, which makes your code non-blocking and speedy.
+
 #### Others
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 

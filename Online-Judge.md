@@ -1,4 +1,5 @@
 - read [[algorithm]] first!
+- https://en.wikipedia.org/wiki/Competitive_programming
 
 
 ## [Project Euler](https://projecteuler.net/) 

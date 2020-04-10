@@ -9,7 +9,6 @@
 #### Readings
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) 《科技爱好者周刊》，每周五发布
   - [ruanyf/free-books](https://github.com/ruanyf/free-books)《科技爱好者周刊》收集的免费书籍汇总。
-- https://github.com/jobbole
 - [掘金翻译计划](https://github.com/xitu/gold-miner)是一个翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品和其他 等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
 - [translations](https://github.com/oldratlee/translations) Chinese translations for classic IT resources
 #### Cheatsheet
@@ -34,6 +33,8 @@
 
 ## Resources
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit),  Some useful websites for programmers.
+- [伯乐在线](https://github.com/jobbole) 资源大全
+
 #### Books
 - [Freely available programming books](https://github.com/EbookFoundation/free-programming-books) This page is available as an easy-to-read website at https://ebookfoundation.github.io/.
 - [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的编程中文书籍索引
@@ -47,6 +48,7 @@
 ## Interview
 - [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions), A curated awesome list of lists of interview questions. Feel free to contribute! 
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
+- [interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) 120+ interactive Python coding interview challenges (algorithms and data structures). Includes Anki flashcards.
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes),  技术面试必备基础知识、Leetcode、Java、C++、Python、后端面试、计算机操作系统、计算机网络、系统设计
 - [algo](https://github.com/hoanhan101/algo) 101+ coding interview problems with detailed solutions, test cases, and program analysis https://hoanhan101.github.io/2020/01/06/101-challenges
 - [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.

@@ -20,6 +20,8 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [learn](https://github.com/gyuho/learn), The best way to learn is to teach what you have learned to other people. I tried YouTube channel, which was hard to maintain. So I decided to write my own textbook. I am still learning, and I may say things out of ignorance. Every post is working in progress, non-committal on a timeline. The point is to review and improve over time. This is a personal white-board where I scribble anything, organize my code, learning experiences.
 - [SICP - JS](https://sicp.comp.nus.edu.sg/) 经典计算机教材 SICP 的 JavaScript 语言版，新加坡国立大学改编的。
+- [Programming in Java · Computer Science · An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) 
+  - textbooks for a first course in computer science for the next generation of scientists and engineers
 
 
 

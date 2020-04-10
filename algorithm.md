@@ -23,7 +23,10 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 - [算法学习之路](http://lucida.me/blog/on-learning-algorithms/)
 - [Quicksheet for Algorithms](https://github.com/algorhythms/Algo-Quicksheet)
 #### Books
-- The textbook [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne
+- [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne
+  - [algs4](https://github.com/kevin-wayne/algs4/) Algorithms, 4th edition textbook code and libraries http://algs4.cs.princeton.edu/code/
+- [An Introduction to the Analysis of Algorithms](https://aofa.cs.princeton.edu/home/)
+  - a textbook for a first course in computer science for the next generation of scientists and engineers
 - [Algorithms in the "Real World"](http://www.cs.cmu.edu/~guyb/realworld.html)
 - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 #### Visualization
