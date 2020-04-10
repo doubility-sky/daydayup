@@ -74,6 +74,8 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 ## Tools
 - [webpack](https://github.com/webpack/webpack) is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 - [PDF.js](https://github.com/mozilla/pdf.js) is a Portable Document Format (PDF) viewer that is built with HTML5.
+- [rome](https://github.com/facebookexperimental/rome) An experimental JavaScript toolchain https://romejs.dev
+  - https://jasonformat.com/rome-javascript-toolchain/
 
 
 
