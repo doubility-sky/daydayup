@@ -30,6 +30,6 @@
 - Fight for your rights in public: [awesome-speaking](https://github.com/matteofigus/awesome-speaking)
 - Keep learning: [Learn](programming-and-development#Learn)
   - Valuable : [不要自称为程序员](http://www.ruanyifeng.com/blog/2011/10/dont_call_yourself_a_programmer.html)
-- Make more money: [Freelance](programming-and-devlopment#Freelance)
+- Make more money: [Freelance](programming-and-development#Freelance)
 - Enjoy [happiness](https://en.wikipedia.org/wiki/Happiness) life
 
