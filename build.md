@@ -44,3 +44,5 @@
 ## Next Generations
 - [SCons](https://github.com/SCons/scons)
 - [Waf](https://waf.io)
+- [Meson](https://github.com/mesonbuild/meson)® is a project to create the best possible next-generation build system.
+

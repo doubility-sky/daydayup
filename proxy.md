@@ -117,3 +117,9 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 ## Others
 - [g.f.w - list](https://github.com/gfwlist/gfwlist)
 - [ios - shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
+
+
+
+## Tools
+- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) Chromium Extension: Manage and switch between multiple proxies quickly & easily.
+

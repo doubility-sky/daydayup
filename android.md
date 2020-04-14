@@ -31,6 +31,7 @@ This idea comes from this project - [open-source-ios-apps](https://github.com/dk
 - [LeakCanary](https://github.com/square/leakcanary/) is a memory leak detection library for Android. https://square.github.io/leakcanary
 - [AndroidGodEye](https://github.com/Kyson/AndroidGodEye) A performance monitor tool , like "Android Studio profiler" for Android , you can easily monitor the performance of your app real time in pc browser
 - [Anbox](https://github.com/anbox/anbox) is a container-based approach to boot a full Android system on a regular GNU/Linux system https://anbox.io
+- [AndroidAutoSize](https://github.com/JessYanCoding/AndroidAutoSize): A low-cost Android screen adaptation solution (今日头条屏幕适配方案终极版，一个极低成本的 Android 屏幕适配方案).
 
 
 
