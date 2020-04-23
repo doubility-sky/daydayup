@@ -38,6 +38,14 @@
 
 
 
+## Xcode
+- [Xcode 缓存及垃圾文件清理](https://www.jianshu.com/p/c695b68ef951)
+  - 删除旧设备支持 `~/Library/Developer/Xcode/iOS DeviceSupport`
+  - 删除旧模拟支持 `~/Library/Application Support/iPhone Simulator`
+  - 项目索引及日志 `~/Library/Developer/Xcode/DerivedData`
+
+
+
 ## Projects
 - [Source code of Telegram](https://github.com/overtake/TelegramSwift) for macos on Swift 5.0 https://macos.telegram.org
   - [Source code of Telegram](https://github.com/overtake/telegram) obj-c version of macos client, now is no longer supported.

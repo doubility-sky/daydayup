@@ -65,6 +65,7 @@
 - [Remote-friendly companies](https://github.com/remoteintech/remote-jobs)
 - [From Coding to Monetization](https://github.com/floatinghotpot/coding-to-monetization)：Programmer's Financial Freedom Approach
 - [程序员如何优雅的挣零花钱？](https://github.com/easychen/howto-make-more-money)
+- [DevMoneySharing](https://github.com/loonggg/DevMoneySharing)
 - [程序员如何开始做一个自己的 Side Project？](http://blog.parryqiu.com/2018/10/25/side_project_inspiration/)
   - https://www.producthunt.com/
 - [接私活必备的10个开源项目！](https://zhuanlan.zhihu.com/p/82124789?utm_source=wechat_session&utm_medium=social&utm_oi=40735038504960)
