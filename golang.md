@@ -31,6 +31,7 @@
   - [Go Under The Hood](https://github.com/changkun/go-under-the-hood): A Source Code Study of Go (1.14, WIP) https://changkun.de/golang
   - [Go1.5源码剖析](https://github.com/qyuhen/book)
   - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
+  - [Go 语言设计与实现](https://draveness.me/golang/)
 - Others
   - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
   - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
