@@ -38,6 +38,8 @@
 - Package Manager
   - Ubuntu:`apt update`
   - CentOS:`yum update`
+- date time
+  - `date "+%Y-%m-%d %H:%M:%S"`
 
 
 
