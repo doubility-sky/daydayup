@@ -43,7 +43,11 @@
 
 
 
-## System Infomation
+## System 
+- [6 Methods to check the Linux Kernel version running on your system](https://www.2daygeek.com/check-find-determine-running-installed-linux-kernel-version/)
+  - `uname -a`
+- [查看 Linux 发行版名称和版本号的 8 种方法](https://linux.cn/article-9586-1.html)
+  - :star:`cat /etc/os-release`
 - 查询 CPU 信息
   - 总逻辑CPU数 = 物理CPU个数 X 每颗物理CPU的核数 X 超线程数
   - 查看物理CPU个数

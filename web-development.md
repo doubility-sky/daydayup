@@ -17,6 +17,7 @@
 - [Roadmap to becoming a web developer](https://github.com/kamranahmedse/developer-roadmap)
 - [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料
 - [Concurrent Programming for Scalable Web Architectures](http://berb.github.io/diploma-thesis/original/)
+- [Deep Dive Into Modern Web Development](https://fullstackopen.com/en/)
 
 
 
