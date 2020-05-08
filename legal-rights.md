@@ -31,5 +31,6 @@
 - Keep learning: [Learn](programming-and-development#Learn)
   - Valuable : [不要自称为程序员](http://www.ruanyifeng.com/blog/2011/10/dont_call_yourself_a_programmer.html)
 - Make more money: [Freelance](programming-and-development#Freelance)
+- [Explore the world](https://nomadlist.com/): Join a community of international travelers working remotely 🌍 around the world
 - Enjoy [happiness](https://en.wikipedia.org/wiki/Happiness) life
 
