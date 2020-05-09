@@ -9,14 +9,24 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 ## 安装
+- Ubuntu 16.04 +
+  - `apt update && apt install mysql-server`
+- [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
-  - 下载mysql的repo源   
-    `$ wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm`
-  - 安装mysql-community-release-el7-5.noarch.rpm包  
-    `$ sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm`
-  - `$ sudo yum install mysql-server`
-  - `$ service mysqld restart`
-  - 开放端口，使用 firewall-cmd 或如下  
+  - 下载 mysql 的 repo 源
+    `wget https://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm`
+  - 安装 mysql-community-release
+    `sudo rpm -ivh mysql57-community-release-el7-8.noarch.rpm`
+  - `sudo yum install mysql-server`
+  - [辣鸡 CentOS](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)，多此一举：
+    - 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
+    - `mysql -uroot -p`
+    - 执行任何操作前，必须修改密码。那你 TM 还让我获取个 JB 的临时密码？？？
+    - 关闭强密码验证，WTF!
+      - `vi /etc/my.cnf` 添加 `validate-password=OFF` 至末尾
+    - `ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';`
+  - `service mysqld restart`
+  - 开放端口，使用 [firewall-cmd](linux#firewall-cmd) 或如下
     - `$ sudo vim /etc/sysconfig/iptables`
     - 添加以下内容  
       `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
