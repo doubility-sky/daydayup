@@ -80,4 +80,13 @@
 ## FAQ
 - [王哲 - Cocos引擎首席客服，知乎上的回答](https://www.zhihu.com/people/walzer/answers)
   - [Cocos 引擎的创始人是谁？Cocos2d-x 和Cocos 有什么区别？](https://www.zhihu.com/question/41992081/answer/260427403)
-
+- [序列化](https://docs.cocos.com/creator/manual/zh/getting-started/cocos2d-x-guide.html?q=#%E5%BA%8F%E5%88%97%E5%8C%96)和反序列化支持 Cocos Creator 中类的绝大多数公有属性，这些属性通过属性检查器面板暴露给开发者。
+  - 开发者可以在编辑器中随意修改并保存，保存的过程就是将资源和场景数据序列化到资源数据库（Asset Database）中。反之，在加载场景的过程中，反序列化机制会根据场景数据实例化相应的对象，并加载编辑器中设置的所有属性。
+  - 也就是说，序列化会将这些修改后的属性保存到场景中。而反序列化是每次启动场景的时候，这些属性都会被加载。
+  - 不仅如此，数据驱动的强大之处在于，用户自己编辑的组件也可以进行属性声明。这些属性可以在编辑器中被编辑，也会被保存到场景数据中，最后在运行时被反序列化到游戏场景中。
+  - [serializable参数](https://docs.cocos.com/creator3d/manual/zh/scripting/ccclass.html#serializable%E5%8F%82%E6%95%B0)
+    - 指定了 default 默认值的属性默认情况下都会被序列化，序列化后就会将编辑器中设置好的值保存到场景等资源文件中，并且在加载场景时自动还原之前设置好的值。如果不想序列化，可以设置serializable: false。
+    ```typescript
+    @property({serializable:false})
+    private num = 0;
+    ```
