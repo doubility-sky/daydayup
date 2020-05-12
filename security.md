@@ -44,6 +44,14 @@
 ## Projects
 - [telegram source code](https://telegram.org/apps#source-code)
   - [End-to-End Encryption, Secret Chats](https://core.telegram.org/api/end-to-end) This article on MTProto's End-to-End encryption is meant for advanced users. 
+
+### Secure Email
 - [ProtonMail](https://protonmail.com/) Secure Email Based in Switzerland
   - [ProtonMail/WebClient](https://github.com/ProtonMail/WebClient): Official AngularJS web client for the ProtonMail secure email service. 
 - [Tutanota](https://github.com/tutao/tutanota/) is the world's most secure email service, easy to use and private by design. Sign up for free to take control of your mailbox.
+
+### Anonymous
+- [I2P](https://github.com/i2p/i2p.i2p) (Invisible Internet Project) is an anonymizing network, offering a simple layer that identity-sensitive applications can use to securely communicate. All data is wrapped with several layers of encryption, and the network is both distributed and dynamic, with no trusted parties. This is a mirror of the official Monotone repository. https://geti2p.net
+- [Tor](https://github.com/torproject/tor) protects your privacy on the internet by hiding the connection
+between your Internet address and the services you use. 
+
