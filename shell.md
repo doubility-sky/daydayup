@@ -56,3 +56,21 @@
 
 ## FAQ
 - [如何在Python中实现常见的bash习惯用法？](https://www.codenong.com/209470/)
+- [Read a JSON Value in Bash](http://dailyraisin.com/read-json-value-in-bash/)
+  ```bash
+  function readJson {
+    UNAMESTR=`uname`
+    if [[ "$UNAMESTR" == 'Linux' ]]; then
+      SED_EXTENDED='-r'
+    elif [[ "$UNAMESTR" == 'Darwin' ]]; then
+      SED_EXTENDED='-E'
+    fi; 
+    VALUE=`grep -m 1 "\"${2}\"" ${1} | sed ${SED_EXTENDED} 's/^ *//;s/.*: *"//;s/",?//'`
+    if [ ! "$VALUE" ]; then
+      echo "Error: Cannot find \"${2}\" in ${1}" >&2;
+      exit 1;
+    else
+      echo $VALUE ;
+    fi; 
+  }
+  ```
