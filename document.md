@@ -41,6 +41,7 @@ src后面替换为自己的plantuml文件的url
 ## Tools
 - [draw.io](https://www.draw.io/)
   - 云端绘图，可导出各个网盘，需要翻墙2016-01-20
+  - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio): This extension integrates Draw.io into VS Code. 
 - [docusaurus](https://github.com/facebook/docusaurus) Easy to maintain open source documentation websites. https://docusaurus.io
 - [pandoc](https://pandoc.org/) a universal document converter
   - If you need to convert files from one markup format into another, pandoc is your swiss-army knife.
