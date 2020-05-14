@@ -20,6 +20,7 @@ and integrate systems more effectively.
 - [A Byte of Python](https://python.swaroopch.com/)
 - [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 - [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
+- [《Python Cookbook》 3rd Edition Translation](https://github.com/yidao620c/python3-cookbook)
 
 ### Practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
@@ -41,6 +42,7 @@ and integrate systems more effectively.
 
 
 ## Frameworks
+- [Twisted](https://github.com/twisted/twisted) is an event-based framework for internet applications, supporting Python 2.7 and Python 3.5+.
 
 #### Web
 - [Django](https://github.com/django/django), The Web framework for perfectionists with deadlines. https://www.djangoproject.com/

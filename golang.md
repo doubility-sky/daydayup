@@ -19,9 +19,9 @@
   - [The Go Programming Language](https://github.com/miguellgt/books/blob/master/go/The.Go.Programming.Language.pdf) 
     - [Go语言圣经](https://docs.hacknode.org/gopl-zh/)，by [gopl-zh](https://github.com/golang-china/gopl-zh)
   - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
+  - [Go 语言设计与实现](https://draveness.me/golang/)
 - Standard & Style
-  - [Effective Go](https://golang.org/doc/effective_go.html)
-    - [Effective Go 中英双语版](https://github.com/bingohuang/effective-go-zh-en) https://legacy.gitbook.com/book/bingohuang/effective-go-zh-en/details
+  - [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
   - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
   - [Go编码规范指南](https://gocn.io/article/1)
   - [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ
@@ -31,7 +31,6 @@
   - [Go Under The Hood](https://github.com/changkun/go-under-the-hood): A Source Code Study of Go (1.14, WIP) https://changkun.de/golang
   - [Go1.5源码剖析](https://github.com/qyuhen/book)
   - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
-  - [Go 语言设计与实现](https://draveness.me/golang/)
 - Others
   - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
   - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
@@ -91,3 +90,4 @@
     ```
 - [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
 - [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
+- [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)
