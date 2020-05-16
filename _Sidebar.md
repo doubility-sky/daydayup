@@ -1,7 +1,7 @@
 - [[Home]]
 
 
-#### [[Computer Science]]
+## [[Computer Science]]
 - [[mathematics]]
 - [[algorithm]]
 - [[theory of computation]]
@@ -32,7 +32,7 @@
 - [[computer graphics]]
 
 
-#### [Programming & Dev](programming-and-development)
+## [Programming & Dev](programming-and-development)
 - [[Software Engineering]]
   - [[library]]
   - [[DevOps]]
@@ -66,9 +66,10 @@
 - [[Blockchain]]
   - [[bitcoin]]
   - [[ethereum]]
+- [[career]]
 
 
-#### [[Tools]]
+## [[Tools]]
 - [[build]]
 - [[testing]]
 - [[profile]]
