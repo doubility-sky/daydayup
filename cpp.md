@@ -8,6 +8,8 @@
 - [Modern C++ Tutorial](https://github.com/changkun/modern-cpp-tutorial): C++11/14/17/20 On the Fly https://changkun.de/modern-cpp/
 - [CPP-Concurrency-In-Action-2ed-2019](https://github.com/xiaoweiChen/CPP-Concurrency-In-Action-2ed-2019) 作为对《C++ Concurrency in Action - SECOND EDITION》的中文翻译。 https://legacy.gitbook.com/book/chenxiaowei/c-concurrency-in-action-second-edition-2019
 - [c++ sumup](https://github.com/idealvin/docs/blob/master/md/c%2B%2B.md)
+- [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
+
 #### STL
 - http://www.stlport.org/
 - http://www.sgi.com/tech/stl/

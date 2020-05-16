@@ -1,7 +1,5 @@
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
 - [[HTML]], [[CSS]], [[JavaScript]]
-- https://github.com/luqin/awesome-front-end
-- https://github.com/sindresorhus/awesome#front-end-development
 
 
 
@@ -34,6 +32,12 @@
 
 ## Practice
 - [The perfect Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for modern websites and meticulous developers https://frontendchecklist.io
-- [A list of helpful front-end related questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/
-- [前端开发面试题](https://github.com/markyun/My-blog/tree/master/Front-end-Developer-Questions)
+- [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
+
+
+
+## Resources
+- https://github.com/sindresorhus/awesome#front-end-development
+- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
+
