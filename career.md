@@ -11,6 +11,7 @@
   - https://www.producthunt.com/
 - [接私活必备的10个开源项目！](https://zhuanlan.zhihu.com/p/82124789?utm_source=wechat_session&utm_medium=social&utm_oi=40735038504960)
 - [90% 以上的独立开发者，败在了认知环节](https://juejin.im/post/5be0fc31e51d4552d47d1213)
+- [Marketing-for-Engineers](https://github.com/LisaDziuba/Marketing-for-Engineers): A curated collection of marketing articles & tools to grow your product.
 
 
 

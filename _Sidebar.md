@@ -7,6 +7,7 @@
 - [[theory of computation]]
 - [[compiler]]
 - [[programming language]]
+  - [[shell]]
   - [[c]]/[c++](cpp)
   - [[lua]]
   - [[python]]
