@@ -117,6 +117,8 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 ## Others
 - [g.f.w - list](https://github.com/gfwlist/gfwlist)
 - [ios - shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
+- [torjan](https://github.com/trojan-gfw/trojan)
+- [gost](https://github.com/ginuerzh/gost)
 
 
 

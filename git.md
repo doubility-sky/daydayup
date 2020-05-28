@@ -2,7 +2,7 @@
 - https://git-scm.com/downloads **必需**
 ### GUI
 - https://git-scm.com/downloads/guis 官方推荐大合集
-- https://www.sourcetreeapp.com/ win/mac, free
+- :star:https://www.sourcetreeapp.com/ win/mac, free
 - https://www.gitkraken.com/ linux/win/mac，linux下推荐使用
 
 

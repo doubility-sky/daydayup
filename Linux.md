@@ -139,6 +139,12 @@
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
+- SSH Broken pipe
+  ```sh
+  # vi /etc/ssh/sshd_config (server side)
+  ClientAliveInterval 10
+  ClientAliveCountMax 6
+  ```
 
 
 
