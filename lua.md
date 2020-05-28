@@ -10,10 +10,11 @@
 - [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/) OR [译文](http://blog.jobbole.com/70480/)
 - [Lua脚本之语法基础快速入门](http://www.cocos.com/doc/tutorial/show?id=1929)
 - http://lua-users.org/wiki/LuaStyleGuide - [[lua coding style]]
-#### Source Code
+#### [Source Code](http://lua-users.org/wiki/LuaSource)
+- [温故而知新](http://blog.codingnow.com/2013/01/reading_lua_vm.html)
+  - [Lua 源码欣赏.pdf](http://www.codingnow.com/temp/readinglua.pdf)
+  - [探索lua5.2内部实现](http://blog.csdn.net/yuanlin2008/article/category/1307277)
 - [Lua5.3源码浅读](http://sunhantao.github.io/2016/02/05/Lua5.3%E6%BA%90%E7%A0%81%E6%B5%85%E8%AF%BB/)
-- [lua源码赏析](http://blog.codingnow.com/2013/01/reading_lua_vm.html)
-- [探索lua5.2内部实现](http://blog.csdn.net/yuanlin2008/article/category/1307277)
 
 
 
