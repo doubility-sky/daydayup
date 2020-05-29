@@ -161,18 +161,17 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
   - 当并发用户线程数量小于64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
 - [What is a big innodb_log_file_size?](https://www.percona.com/blog/2016/05/31/what-is-a-big-innodb_log_file_size/)
-- [MySQL参数优化](https://www.sqlpy.com/blogs/books/1/chapters/7/articles/14) 参数优化配置实例 
 ```shell
 # Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
 # vi /etc/mysql/mysql.conf.d/mysqld.cnf
 max_allowed_packet = 256M
 max_connections    = 1024
 slow_query_log     = 1
-innodb_buffer_pool_size = 8G
+innodb_buffer_pool_size = 16G
 innodb_buffer_pool_instances = 8
-innodb_read_io_threads = 8
-innodb_write_io_threads = 8
-innodb_log_file_size = 1G
+innodb_read_io_threads = 10
+innodb_write_io_threads = 6
+innodb_log_file_size = 2G
 ```
 
 
