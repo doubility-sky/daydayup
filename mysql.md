@@ -4,11 +4,10 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
-- https://github.com/DoubleLabyrinth/navicat-keygen
 
 
 
-## 安装
+## Installation
 - Ubuntu 16.04 +
   - `apt update && apt install mysql-server`
 - [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
@@ -34,8 +33,23 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
+## Run/Stop
+- As a service 
+  - RPM package platforms `service mysql {start|stop|restart|status}`
+  - Debian package platforms `systemctl {start|stop|restart|status} mysqld`
+- Command line
+  - Run `mysqld/mysqld_safe &`
+  - Stop `mysqladmin -uroot -p shutdown`
 
-## 用户
+### Configuration
+- [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
+- 开启binlog：配置文件中设置 `log-bin=mysql-bin`
+- 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`
+
+
+
+
+## User
 - 创建用户：`CREATE USER 'username'@'host' IDENTIFIED BY 'password'; `
   ```
   CREATE USER 'test'@'localhost' IDENTIFIED BY '123456'; -- 本地登陆
@@ -60,7 +74,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## 权限
+## Privileges
 - 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
 - 查询权限：`show grants for root@'localhost';`
 - 改表法：`update user set host = '%' where user = 'root';`
@@ -86,23 +100,20 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## 参数
-- [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
-- 开启binlog：配置文件中设置 `log-bin=mysql-bin`
-- 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`
-
-
-
-## 备份/恢复
+## Backup/Restore
 - [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
+
 #### bin-log
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
+
 #### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
 - [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
 - [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
+
 #### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
+
 #### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
 - [Percona XtraBackup 2.4 Documentation](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)
   - Percona XtraBackup is a set of following tools:
@@ -125,7 +136,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## 主从复制
+## Master-slave Replication
 - [MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html#_label0)
 - 基于 bin-log
   - [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
@@ -135,7 +146,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## 引擎
+## Storage Engine
 - [为什么你要用 InnoDB, 而不是 MyISAM ？](https://juejin.im/post/5c43ee36518825254b5a3c3a) 
 - [MyISAM和InnoDB区别和应用场景](https://www.jianshu.com/p/dc60346d55a2)
 - [MyISAM](https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html)
@@ -146,11 +157,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   - 支持行锁，采用MVCC来支持高并发，有可能死锁；支持事务；支持外键；支持崩溃后的安全恢复；支持全文索引（版本5.6以后）
   - 推荐使用
 
-
-
-## 优化
-- [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
-#### 配置
+### InnoDB
 - [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
 - [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) —— :star:[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則），调整关键配置(20%)，可得到 80% 性能提升。
   1. 所有表使用 innodb 引擎
@@ -166,7 +173,11 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 # vi /etc/mysql/mysql.conf.d/mysqld.cnf
 max_allowed_packet = 256M
 max_connections    = 1024
+# 慢查询日志
 slow_query_log     = 1
+log_queries_not_using_indexes = 1
+log_timestamps = system
+# InnoDB 相关
 innodb_buffer_pool_size = 16G
 innodb_buffer_pool_instances = 8
 innodb_read_io_threads = 10
@@ -176,7 +187,30 @@ innodb_log_file_size = 2G
 
 
 
-## Article
+## Optimize
+- [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
+- [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
+
+### [Alternative malloc library](https://dev.mysql.com/doc/refman/5.7/en/mysqld-safe.html#option_mysqld_safe_malloc-lib)
+- [Migrating from mysqld_safe to systemd](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#mysqld-safe-to-systemd-migration)
+
+#### [jemalloc](https://github.com/jemalloc/jemalloc)
+- [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
+- [启动MySQL如何加载Jemalloc](https://my.oschina.net/lv96/blog/3176132)
+- compile and install jemalloc
+  - git clone https://github.com/jemalloc/jemalloc
+  - `cd jemalloc & git checkout master`
+  - `./autogen.sh && ./configure && make && make install`
+  - `cp /usr/local/lib/libjemalloc.* /usr/lib/`
+- run mysqld with jemalloc
+  - `export LD_PRELOAD=/usr/lib/libjemalloc.so && mysqld &`
+  - check it `lsof -n |grep jemalloc`
+- FAQ
+  - `mkdir /var/run/mysqld && chown mysql:mysql /var/run/mysqld`
+
+
+
+## Practice
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
 - [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
 
@@ -200,3 +234,5 @@ innodb_log_file_size = 2G
   - If you install 5.7 and don’t provide a password to the root user, it will use the auth_socket plugin.
 - [[Resolved] When I faced “#1273 – Unknown collation: ‘utf8mb4_0900_ai_ci'” Error](https://www.freakyjolly.com/resolved-when-i-faced-1273-unknown-collation-utf8mb4_0900_ai_ci-error/)
   - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.
+- [How to check the memory allocator used by my mysql 5.7.20](https://dba.stackexchange.com/questions/226684/how-to-check-the-memory-allocator-used-by-my-mysql-5-7-20)
+  - `lsof -p $(pidof mysqld) | grep mem`
