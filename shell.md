@@ -17,6 +17,14 @@
 
 
 
+## sh/bash
+- linux default `sh` is `dash` 
+  - `ls -al /bin/sh`
+    - `lrwxrwxrwx 1 root root 4 Feb 20 14:30 /bin/sh -> dash`
+  - let `sh` to be `bash`: `ln -sf /bin/bash /bin/sh`
+
+
+
 ## Scripting
 - [bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh), [中文速查表](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
 - [Shell脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
@@ -56,8 +64,10 @@
 
 
 ## FAQ
-- [如何在Python中实现常见的bash习惯用法？](https://www.codenong.com/209470/)
+- [ubuntu中sh执行shell脚本报错问题](https://blog.csdn.net/dylloveyou/article/details/53393906)
 - [Read a JSON Value in Bash](http://dailyraisin.com/read-json-value-in-bash/)
+  <details> <summary> view shell codes </summary> 
+
   ```bash
   function readJson {
     UNAMESTR=`uname`
@@ -75,3 +85,5 @@
     fi; 
   }
   ```
+  </details>
+- [如何在Python中实现常见的bash习惯用法？](https://www.codenong.com/209470/)
