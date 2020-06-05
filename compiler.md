@@ -7,8 +7,9 @@ A [compiler](https://en.wikipedia.org/wiki/Compiler) is a computer program that 
 - [手把手教你构建 C 语言编译器（系列）](http://lotabout.me/2015/write-a-C-interpreter-0/)
 - [C编译器剖析](https://book.douban.com/subject/26814205/)
     - https://github.com/sheisc/ucc162.3
-- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/)
+- [Let's Build a Compiler](https://compilers.iecc.com/crenshaw/): This fifteen-part series, written from 1988 to 1995, is a non-technical introduction to compiler construction. You can read the parts on-line or download them in a ZIP file.
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
+- [Write a C Compiler!](https://github.com/nlsandler/write_a_c_compiler) This is a set of C test programs to help you write your own compiler. They were written to accompany this [tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html).
 
 
 

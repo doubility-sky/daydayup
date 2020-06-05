@@ -5,8 +5,9 @@
 ## Freelance
 - [Remote-friendly companies](https://github.com/remoteintech/remote-jobs)
 - [From Coding to Monetization](https://github.com/floatinghotpot/coding-to-monetization)：Programmer's Financial Freedom Approach
+  - [从编码到变现：程序员财务自由之路](https://github.com/yinjimmy/coding-to-monetization)
 - [程序员如何优雅的挣零花钱？](https://github.com/easychen/howto-make-more-money)
-- [DevMoneySharing](https://github.com/loonggg/DevMoneySharing)
+- [DevMoneySharing](https://github.com/loonggg/DevMoneySharing): 独立开发者赚钱经验分享
 - [程序员如何开始做一个自己的 Side Project？](http://blog.parryqiu.com/2018/10/25/side_project_inspiration/)
   - https://www.producthunt.com/
 - [接私活必备的10个开源项目！](https://zhuanlan.zhihu.com/p/82124789?utm_source=wechat_session&utm_medium=social&utm_oi=40735038504960)

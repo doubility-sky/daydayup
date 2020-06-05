@@ -24,7 +24,8 @@
 ## Design Patterns
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans), An ultra-simplified explanation to design patterns
 - [图说设计模式](https://github.com/me115/design_patterns)
-- http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf
+- [Dive Into Design Patterns](https://refactoring.guru/design-patterns)
+- [Design Patterns Cheat Sheet.pdf](http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf)
 
 
 
