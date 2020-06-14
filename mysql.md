@@ -236,3 +236,5 @@ innodb_log_file_size = 2G
   - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.
 - [How to check the memory allocator used by my mysql 5.7.20](https://dba.stackexchange.com/questions/226684/how-to-check-the-memory-allocator-used-by-my-mysql-5-7-20)
   - `lsof -p $(pidof mysqld) | grep mem`
+- [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
+  - `> /var/lib/mysql/XXX-slow.log`
