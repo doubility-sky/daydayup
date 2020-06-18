@@ -16,7 +16,7 @@
   - [Go by Example](https://gobyexample.com/) 
   - [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 - Books
-  - [The Go Programming Language](https://github.com/miguellgt/books/blob/master/go/The.Go.Programming.Language.pdf) 
+  - [The Go Programming Language](https://www.gopl.io/) 
     - [Go语言圣经](https://docs.hacknode.org/gopl-zh/)，by [gopl-zh](https://github.com/golang-china/gopl-zh)
   - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
   - [Go 语言设计与实现](https://draveness.me/golang/)
