@@ -12,9 +12,12 @@
 
 
 ## Common
+- `neofetch`: Fast, highly customisable system info script
+  - `brew install neofetch`
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`
+- 清屏 Terminal `clear` （实际上仅是滚动光标至顶部）
 - 彻底清屏 Termimal `cmd + k`
 
 

@@ -44,6 +44,8 @@
 
 
 ## System 
+- `neofetch`: Fast, highly customisable system info script
+  - `apt install neofetch`
 - [6 Methods to check the Linux Kernel version running on your system](https://www.2daygeek.com/check-find-determine-running-installed-linux-kernel-version/)
   - `uname -a`
 - [查看 Linux 发行版名称和版本号的 8 种方法](https://linux.cn/article-9586-1.html)
