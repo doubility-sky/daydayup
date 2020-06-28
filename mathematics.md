@@ -65,4 +65,4 @@ Mathematics is essential in many fields, including natural science, engineering,
 - [Mathway](https://www.mathway.com/) provides students with the tools they need to understand and solve their math problems. With millions of users and billions of problems solved, Mathway is the #1 problem solving resource available for students, parents, and teachers.
 - [Math Solver](https://math.microsoft.com/en/)
 - [Mathpix](https://mathpix.com/) Extract equations from PDFs or handwritten notes in seconds just by taking a screenshot. Paste the resulting LaTeX code into any Markdown or LaTeX editor.
-
+- [Manim](https://github.com/3b1b/manim) is an animation engine for explanatory math videos. It's used to create precise animations programmatically, as seen in the videos at [3Blue1Brown](https://www.3blue1brown.com/).
