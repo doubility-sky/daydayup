@@ -19,6 +19,21 @@
   - `sysctl -n hw.ncpu`
 - 清屏 Terminal `clear` （实际上仅是滚动光标至顶部）
 - 彻底清屏 Termimal `cmd + k`
+- [控制macOS的开机启动](https://www.jianshu.com/p/eee8a7de179c)
+  - 使用登录项添加自启动项 `设置 -> 用户与群组 -> 登录项`
+  - 使用 Homebrew `brew services [run/start/stop/restart/../list/help]`
+  - 使用 launchctl 工具
+    - 所在目录：
+      ```bash
+      ~/Library/LaunchAgents        # 特定用户登录后以当前用户启动，第三方程序一般都放这里
+      /Library/LaunchAgents         # 任一用户登录后以当前用户启动，管理员使用
+      /Library/LaunchDaemons        # 系统装载时以root用户启动，管理员使用
+      /System/Library/LaunchAgents  # 系统组件，任一用户登录后以当前用户启动
+      /System/Library/LaunchDaemons # 系统组件，系统装载时以root用户启动
+      ```
+    - `launchctl list` 查看当前所有自启动项
+    - `launchctl load XXX` 添加自启动项
+    - `launchctl unload XXX` 删除自启动项
 
 
 
