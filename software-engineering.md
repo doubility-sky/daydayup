@@ -21,11 +21,13 @@
 
 
 
-## Design Patterns
+## [Design Patterns](https://en.wikipedia.org/wiki/Software_design_pattern)
 - [design-patterns-for-humans](https://github.com/kamranahmedse/design-patterns-for-humans), An ultra-simplified explanation to design patterns
 - [图说设计模式](https://github.com/me115/design_patterns)
 - [Dive Into Design Patterns](https://refactoring.guru/design-patterns)
 - [Design Patterns Cheat Sheet.pdf](http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf)
+- [Reclaiming Design Patterns (20 Years Later)](http://blogs.tedneward.com/post/reclaiming-design-patterns/)
+  - [20 年前 GoF 提出的设计模式，对这个时代是否还有指导意义？](https://www.infoq.cn/article/design-patterns-proposed-by-gof-20-years-ago)
 
 
 
