@@ -34,6 +34,12 @@
     - `launchctl list` 查看当前所有自启动项
     - `launchctl load XXX` 添加自启动项
     - `launchctl unload XXX` 删除自启动项
+    - for example
+    ```bash
+    launchctl unload /Library/LaunchAgents/com.epson.esua.launcher.plist
+    launchctl unload /Library/LaunchAgents/com.epson.eventmanager.agent.plist
+    launchctl unload /Library/LaunchAgents/com.epson.scannermonitor.plist
+    ```
 
 
 

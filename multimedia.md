@@ -5,6 +5,7 @@
 ## Image
 - [Caire](https://github.com/esimov/caire) is a content aware image resize library based on [Seam Carving for Content-Aware Image Resizing](https://inst.eecs.berkeley.edu/~cs194-26/fa16/hw/proj4-seamcarving/imret.pdf) paper.
 - [libvips](https://github.com/libvips/libvips) A fast image processing library with low memory needs. https://libvips.github.io/libvips/
+- [Is WebP really better than JPEG?](https://siipo.la/blog/is-webp-really-better-than-jpeg)
 
 ### [ImageMagick](https://www.imagemagick.org/script/index.php)
 - [ImageMagick：批量处理图像的超级利器](http://blog.sina.com.cn/s/blog_ba532aea0101bty5.html)
