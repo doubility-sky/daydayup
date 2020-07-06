@@ -12,8 +12,6 @@
 
 
 ## Common
-- `neofetch`: Fast, highly customisable system info script
-  - `brew install neofetch`
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`

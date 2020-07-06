@@ -44,7 +44,7 @@
 
 
 ## System 
-- `neofetch`: Fast, highly customisable system info script
+- [neofetch](https://github.com/dylanaraps/neofetch): Fast, highly customisable system info script
   - `apt install neofetch`
 - [6 Methods to check the Linux Kernel version running on your system](https://www.2daygeek.com/check-find-determine-running-installed-linux-kernel-version/)
   - `uname -a`
