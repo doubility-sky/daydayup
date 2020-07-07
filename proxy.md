@@ -22,6 +22,7 @@
 - SOCKS server accepts incoming client connection on TCP port 1080.
 
 #### [shadowsocks](http://shadowsocks.org/en/index.html)
+- [Shadowsocks 笔记](https://github.com/JadaGates/ShadowsocksBio)
 - A fast tunnel proxy that helps you bypass firewalls.  
 - Features:  
   - TCP & UDP support  
@@ -124,4 +125,4 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 
 ## Tools
 - [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) Chromium Extension: Manage and switch between multiple proxies quickly & easily.
-
+- [Charles](https://www.charlesproxy.com/) is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).
