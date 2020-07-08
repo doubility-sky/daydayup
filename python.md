@@ -59,6 +59,7 @@ and integrate systems more effectively.
 
 
 ## Crawler
+- https://github.com/facert/awesome-spider
 - [scrapy](https://scrapy.org/), An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [pyspider](https://github.com/binux/pyspider), A Powerful Spider(Web Crawler) System in Python. http://docs.pyspider.org/
 - [Portia](https://github.com/scrapinghub/portia) is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
