@@ -83,6 +83,7 @@
 - [aubio](https://github.com/aubio/aubio) a library for audio and music analysis https://aubio.org
 - [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
 - [libsoundio](https://github.com/andrewrk/libsoundio) C library providing cross-platform audio input and output. The API is suitable for real-time software such as digital audio workstations as well as consumer software such as music players.
+- [ofxPDSP](https://github.com/npisanti/ofxPDSP) is an openFrameworks addon for audio synthesis and generative music.
 
 
 
