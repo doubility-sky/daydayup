@@ -81,6 +81,7 @@
   -  -x ：解压
   -  -v ：显示过程
   -  -f ：指定打包后的文件名
+- `tar -zxvf xxx.tar.gz -C ./dst/` 解压到指定**已存在目录** `dst`
 ### find
 - https://man.linuxde.net/find
 ### links

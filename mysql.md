@@ -61,8 +61,8 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - 修改密码：
   ```
   mysqladmin -u root password -p;
-  SET PASSWORD FOR 'root'@'%' = PASSWORD('000000'); 
-  SET PASSWORD = PASSWORD('000000');  --设置当前登陆用户
+  SET PASSWORD FOR 'root'@'%' = PASSWORD('123456'); 
+  SET PASSWORD = PASSWORD('123456');  --设置当前登陆用户
   ```
 - 修改密码
   ```
@@ -70,6 +70,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   mysql > use mysql;
   mysql > update user set password=password('123456') where user='root';
   mysql > exit;
+  mysql > flush privileges;
   ```
 
 
