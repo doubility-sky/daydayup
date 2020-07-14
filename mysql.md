@@ -10,6 +10,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ## Installation
 - Ubuntu 16.04 +
   - `apt update && apt install mysql-server`
+- [CentOS 7 安装 Mysql5.5 或自定义版本 RPM 方式](https://my.oschina.net/u/3767256/blog/1647976)
 - [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
   - 下载 mysql 的 repo 源
@@ -230,6 +231,7 @@ innodb_log_file_size = 2G
   #bind-address = 127.0.0.1
   service mysql restart  
   ```
+- [Cenos7 MySQL ERROR 1044 (42000):Access denied for user ''@'localhost' to databa... ](https://my.oschina.net/u/4414000/blog/4097869)
 - [ERROR 1698 (28000): Access denied for user 'root'@'localhost' at Ubuntu 18.04](https://askubuntu.com/questions/1029177/error-1698-28000-access-denied-for-user-rootlocalhost-at-ubuntu-18-04)
   - [Change user password in MySQL 5.7 with “plugin: auth_socket”](https://www.percona.com/blog/2016/03/16/change-user-password-in-mysql-5-7-with-plugin-auth_socket/)
   - If you install 5.7 and don’t provide a password to the root user, it will use the auth_socket plugin.

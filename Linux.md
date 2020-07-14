@@ -127,7 +127,7 @@
 - ssh key 免密连接配置
   - 生成 ssh key `ssh-keygen -t rsa -P ''`
   - 将公钥 `id_rsa.pub` 内容，写入远端文件 `~/.ssh/authorized_keys`
-    - 可使用 `ssh-copy-id root@xxx.xxx.xxx.xxx` 自动写入
+    - 可使用 `ssh-copy-id [-i ~/.ssh/id_rsa.pub] root@xxx.xxx.xxx.xxx` 自动写入
 - ssh 设置远端别名
   - 修改本地文件 `~/.ssh/config` (没有则用 `touch` 创建), 按如下格式添加内容，其中 Port 默认为 22 
     ```
