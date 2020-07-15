@@ -13,25 +13,19 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [CentOS 7 安装 Mysql5.5 或自定义版本 RPM 方式](https://my.oschina.net/u/3767256/blog/1647976)
 - [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
-  - 下载 mysql 的 repo 源
-    `wget https://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm`
-  - 安装 mysql-community-release
-    `sudo rpm -ivh mysql57-community-release-el7-8.noarch.rpm`
-  - `sudo yum install mysql-server`
-  - [辣鸡 CentOS](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)，多此一举：
-    - 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
-    - `mysql -uroot -p`
-    - 执行任何操作前，必须修改密码。那你 TM 还让我获取个 JB 的临时密码？？？
-    - 关闭强密码验证，WTF!
-      - `vi /etc/my.cnf` 添加 `validate-password=OFF` 至末尾
-    - `ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';`
-  - `service mysqld restart`
-  - 开放端口，使用 [firewall-cmd](linux#firewall-cmd) 或如下
-    - `$ sudo vim /etc/sysconfig/iptables`
-    - 添加以下内容  
-      `-A INPUT -p tcp -m state --state NEW -m tcp --dport 3306 -j ACCEPT`
-    - `$ sudo service iptables restart`
-
+  - 下载 mysql 的 repo 源，安装 mysql-community-release
+    `wget https://dev.mysql.com/get/mysql57-community-release-el7.rpm`
+    `rpm -ivh mysql57-community-release-el7.rpm && yum install mysql-server`
+  - 启动/停止/重启 `service mysqld start/stop/restart`
+  - 关闭强密码验证 `vi /etc/my.cnf` 添加 `validate-password=OFF` 至末尾，如已开启需重启
+  - 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
+  - 连接 `mysql -uroot -p` 修改密码，并允许远程连接
+    - `mysql> use mysql;`
+    - `mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';`
+    - `mysql> update user set host = '%' where user = 'root';`
+    - `mysql > flush privileges;`
+  - 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
+    - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
 
 
 ## Run/Stop
@@ -46,7 +40,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
 - 开启binlog：配置文件中设置 `log-bin=mysql-bin`
 - 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`
-
 
 
 
