@@ -1,5 +1,6 @@
 - [Shell](https://en.wikipedia.org/wiki/Shell_(computing))
 - https://github.com/alebcay/awesome-shell
+- https://github.com/awesome-lists/awesome-bash
 
 
 
@@ -59,7 +60,7 @@
 - [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh
 - [xonsh](https://github.com/xonsh/xonsh) is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.5+ with additional shell primitives. xonsh (pronounced conch) is meant for the daily use of experts and novices alike.
 - [sarge](https://bitbucket.org/vinay.sajip/sarge/src/master/), a wrapper for subprocess which aims to make life easier for anyone who needs to interact with external applications from their Python code.
-- (:warning:might outdated)[Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
+- (:warning:May be outdated)[Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
 
 
 
