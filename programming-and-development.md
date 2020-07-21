@@ -1,4 +1,5 @@
 - [[software-engineering]]
+- [development/design tools](Tools)
 
 
 
@@ -43,50 +44,3 @@
 - [每个程序员书柜必备的编程书籍](https://mp.weixin.qq.com/s/ZMsVmkTqx9asr4-T8t6wvA)
 - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 
-
-
-## Tools
-- programming/development [[document]] tools
-- [discount-for-student-dev](https://github.com/AchoArnold/discount-for-student-dev) This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students
-
-### Editor
-- [vim](https://www.vim.org/) 编辑器之神
-  - [The Ultimate vimrc](https://github.com/amix/vimrc)
-- [emacs](https://www.gnu.org/software/emacs/) 神的编辑器
-- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品，好吧现在也是微软的了- -|||") 基于 [[electron]]
-- :star:[vscode](https://code.visualstudio.com/ "微软出品")，与 atom 一样基于 [[electron]]，活跃且迭代非常快
-  - [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
-  - [code-server](https://github.com/cdr/code-server) VS Code in the browser
-  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
-- [sublime](http://www.sublimetext.com/) 速度快 (打开大文件表现好），更新慢
-  - [Package Control](https://packagecontrol.io/installation)
-  - [20 个强大的 Sublime Text 插件](https://www.oschina.net/translate/20-powerful-sublimetext-plugins)
-- [notepad++](https://notepad-plus-plus.org/) (Windows Only)
-- [source insight](http://www.sourceinsight.com/) 收费，windows only
-
-### Codes
-- [CoatiSoftware/Sourcetrail](https://github.com/CoatiSoftware/Sourcetrail) is a free and open-source cross-platform source explorer that helps you get productive on unfamiliar source code.
-- [Count Lines of Code](https://github.com/AlDanial/cloc)
-- [Artistic Style](http://astyle.sourceforge.net/) 格式化利器，别人代码瞬间变成你熟悉的风格。<details> <summary> 使用案例 </summary>
-  ```bash
-  astyle \
-  --mode=c \
-  --style=kr \
-  --indent=force-tab \
-  --attach-namespaces \
-  --attach-classes \
-  --attach-inlines \
-  --indent-switches \
-  --indent-col1-comments \
-  --pad-oper \
-  --pad-header \
-  --unpad-paren \
-  --align-pointer=type \
-  --fill-empty-lines \
-  --add-brackets \
-  --recursive \
-  --suffix=none *.c *.cpp *.h *.hpp
-  ```
-  </details>
-- [clang-format](http://clang.llvm.org/docs/ClangFormat.html)  
-  - [用 ClangFormat 插件格式化 Objective-C 代码](http://phenmod.com/blog/2015/11/17/use-clangformat-to-format-objective-c-code/)

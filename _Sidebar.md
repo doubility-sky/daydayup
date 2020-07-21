@@ -72,9 +72,9 @@
 
 ## [[Tools]]
 - [[build]]
+- [[document]]
 - [[testing]]
 - [[profile]]
-- [[document]]
 - [[git]], [[svn]]
 - [[multimedia]]
 - [[third party]]

@@ -69,7 +69,7 @@
 ## Tools
 - [作为程序员的你，常用的工具软件有哪些？ - 腾讯技术工程的回答](https://www.zhihu.com/question/22867411/answer/911161400)
 - [使用 VS Code 快速搭建你的 Golang 开发 IDE](https://toozhao.com/2017/08/23/vscode-golang/)
-
+  - [[gopls] : Following links on imports opens the browser](https://github.com/microsoft/vscode-go/issues/2550)
 
 
 ## FAQ
@@ -80,7 +80,7 @@
     ```
     > CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o bin/main src/main/main.go
     ```
-    其中参数可选：
+  - 其中参数可选：
     ```
     OS ARCH OS version
     linux 386 / amd64 / arm >= Linux 2.6
