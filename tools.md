@@ -31,9 +31,12 @@
 [vscode](https://github.com/microsoft/vscode) 由微软出品，与 atom 一样基于 [[electron]]，活跃且迭代非常快
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
 - [code-server](https://github.com/cdr/code-server) VS Code in the browser
-- https://code.visualstudio.com/docs/editor/variables-reference
-- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 - [史上最全vscode配置使用教程](https://zhuanlan.zhihu.com/p/113222681)
+
+### VSCode Extensions
+- https://code.visualstudio.com/docs/editor/variables-reference
+- [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
+- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 
 
 
