@@ -4,6 +4,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
+  - [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
 
 
 
@@ -185,6 +186,8 @@ innodb_log_file_size = 2G
 ## Optimize
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 - [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
+- [MySQL 5.7 Performance Tuning](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/)
+  - [MySQL 5.7 安装完成后，立即要调整的性能选项](https://www.cnblogs.com/glon/p/6497377.html)
 
 ### [Alternative malloc library](https://dev.mysql.com/doc/refman/5.7/en/mysqld-safe.html#option_mysqld_safe_malloc-lib)
 - [Migrating from mysqld_safe to systemd](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#mysqld-safe-to-systemd-migration)

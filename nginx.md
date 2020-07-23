@@ -12,3 +12,4 @@ OpenResty® is a dynamic web platform based on NGINX and [[Lua]]JIT.
 
 ## FAQ
 - [Nginx性能优化的那些事](https://cloud.tencent.com/developer/article/1151168)
+- [How to Solve 13: Permission denied browse for file in nginx centos](https://caradede.blogspot.com/2017/12/how-to-solve-13-permission-denied.html)
