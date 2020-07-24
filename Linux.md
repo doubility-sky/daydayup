@@ -60,6 +60,8 @@
     - `cat /proc/cpuinfo| grep "processor"| wc -l`
   - 查看是否为超线程，如 `cpu cores` 数量和 `siblings` 一致，则未启用超线程
     - `cat /proc/cpuinfo | grep -e "cpu cores"  -e "siblings" | sort | uniq`
+- time zone switch
+  - `cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 
 
 
