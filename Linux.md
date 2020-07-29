@@ -270,3 +270,14 @@
 - [CentOS: 永远有多远就离它多远](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)
 - [在linux上做机器学习，请问centos和ubuntu有区别吗？](https://www.zhihu.com/question/334455564)
   - TensorFlow 用 Ubuntu
+- [Linux 配置 history 命令显示操作时间、用户和登录 IP](https://blog.csdn.net/m0_37886429/article/details/78520434)
+  ```bash
+  export HISTSIZE=4096
+  export HISTFILESIZE=$HISTSIZE
+  USER_IP=`who -u am i 2>/dev/null| awk '{print $NF}'|sed -e 's/[()]//g'`
+  if [ -z $USER_IP ]; then
+    USER_IP=`hostname`
+  fi
+  export HISTTIMEFORMAT="%F %T $USER_IP:`whoami` "
+  ```
+
