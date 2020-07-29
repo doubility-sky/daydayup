@@ -168,9 +168,12 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 # Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
 # vi /etc/mysql/mysql.conf.d/mysqld.cnf
 max_allowed_packet = 256M
-max_connections    = 1024
+max_connections = 1024
+wait_timeout = 600
 # 慢查询日志
-slow_query_log     = 1
+slow_query_log = 1
+# default is /var/lib/mysql/xxx-slow.log
+slow_query_log_file = /var/log/mysql/mysql-slow.log
 log_queries_not_using_indexes = 1
 log_timestamps = system
 # InnoDB 相关
