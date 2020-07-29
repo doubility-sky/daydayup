@@ -24,7 +24,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
     - `mysql> use mysql;`
     - `mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';`
     - `mysql> update user set host = '%' where user = 'root';`
-    - `mysql > flush privileges;`
+    - `mysql> flush privileges;`
   - 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
     - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
 
