@@ -27,6 +27,7 @@
 - [Google Chrome](https://www.google.com/chrome/) is made possible by the [Chromium](https://www.chromium.org/) open source project and other [open source software](chrome://credits/).
   - [chrome comic book](https://www.google.com/googlebooks/chrome/)
   - [Vimium](https://github.com/philc/vimium) is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
+- [BrowserGap](https://github.com/dosyago/BrowserGap) - Browser you can embed in your app. Per-seat or per-site licensing. Discounts for governments and non-profits.
 
 
 
