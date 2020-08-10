@@ -17,7 +17,7 @@
   - `sysctl -n hw.ncpu`
 - 清屏 Terminal `clear` （实际上仅是滚动光标至顶部）
 - 彻底清屏 Termimal `cmd + k`
-- [控制macOS的开机启动](https://www.jianshu.com/p/eee8a7de179c)
+- [Mac关闭顽固的开机启动程序](https://www.jianshu.com/p/dcf6de92a2b5)
   - 使用登录项添加自启动项 `设置 -> 用户与群组 -> 登录项`
   - 使用 Homebrew `brew services [run/start/stop/restart/../list/help]`
   - 使用 launchctl 工具
@@ -33,11 +33,16 @@
     - `launchctl load XXX` 添加自启动项
     - `launchctl unload XXX` 删除自启动项
     - for example
-    ```bash
-    launchctl unload /Library/LaunchAgents/com.epson.esua.launcher.plist
-    launchctl unload /Library/LaunchAgents/com.epson.eventmanager.agent.plist
-    launchctl unload /Library/LaunchAgents/com.epson.scannermonitor.plist
-    ```
+      ```bash
+      # 以下重启后无效
+      launchctl stop /Library/LaunchAgents/com.epson.esua.launcher.plist
+      launchctl stop /Library/LaunchAgents/com.epson.eventmanager.agent.plist
+      launchctl stop /Library/LaunchAgents/com.epson.scannermonitor.plist
+      launchctl unload /Library/LaunchAgents/com.epson.esua.launcher.plist
+      launchctl unload /Library/LaunchAgents/com.epson.eventmanager.agent.plist
+      launchctl unload /Library/LaunchAgents/com.epson.scannermonitor.plist
+      ```
+    - 修改 plist 文件，将 KeepAlive 和 RunAtLoad 等改为 false
 
 
 
