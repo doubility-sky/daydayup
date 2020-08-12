@@ -35,14 +35,15 @@
   - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
   - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
   - [Go Data Structures](https://research.swtch.com/godata)
+- [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer in 2020
 
 
 
 ## Open Source
-- https://github.com/Alikhll/golang-developer-roadmap
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
 - [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 - [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
+- [errors](https://github.com/pkg/errors): Simple error handling primitives
 
 
 

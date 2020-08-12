@@ -41,6 +41,7 @@ src后面替换为自己的plantuml文件的url
 ## Tools
 - [draw.io](https://www.draw.io/)
   - 云端绘图，可导出各个网盘，需要翻墙2016-01-20
+  - [drawio-desktop](https://github.com/jgraph/drawio-desktop) is a diagrams.net desktop app based on [Electron](https://electronjs.org/). draw.io is the old name for diagrams.net, we just don't want the hassle of changing all the binary's names.
   - [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio): This extension integrates Draw.io into VS Code. 
 - [docusaurus](https://github.com/facebook/docusaurus) Easy to maintain open source documentation websites. https://docusaurus.io
 - [pandoc](https://pandoc.org/) a universal document converter
