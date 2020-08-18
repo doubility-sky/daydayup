@@ -18,6 +18,7 @@
 - [游戏服务端架构发展史（上）](http://www.skywind.me/blog/archives/1265)
 - [游戏服务端架构发展史（中）](http://www.skywind.me/blog/archives/1301)
 - [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
+- [游戏服务器从入门到关门](https://zhuanlan.zhihu.com/c_1265419283598987264)
 - [游戏服务器](https://www.jianshu.com/c/5121fd868c4f)
 
 
