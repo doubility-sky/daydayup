@@ -129,7 +129,7 @@
 - ssh copy 文件至远端 `scp -P12345 xx.txt root@xxx.xxx.xxx.xxx:~/` 
   - 注意此处指定端口与 ssh 不同，需要大写 `-P`
 - ssh key 免密连接配置
-  - 生成 ssh key `ssh-keygen -t rsa -P ''`
+  - 生成密钥对 `ssh-keygen -t rsa -P ''`
   - 将公钥 `id_rsa.pub` 内容，写入远端文件 `~/.ssh/authorized_keys`
     - 可使用 `ssh-copy-id [-i ~/.ssh/id_rsa.pub] root@xxx.xxx.xxx.xxx` 自动写入
 - ssh 设置远端别名

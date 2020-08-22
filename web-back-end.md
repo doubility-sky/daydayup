@@ -27,3 +27,35 @@
 ## Tools
 - [web-servers](https://gist.github.com/willurd/5720255) Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
 
+
+
+## Architecture
+- [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
+  - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
+  - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
+  - [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
+  - [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)
+- [负载均衡架构](https://www.jianshu.com/p/8f7242cbf469)
+- [电商平台架构](https://www.jianshu.com/p/6ecb82fee9b2)
+- [微服务架构](https://www.jianshu.com/p/6dc79068e2dc)
+- [网站服务器架构部署方案发展](https://www.cnblogs.com/baobeiqi-e/p/10876334.html)
+- [一个打车应用早期架构发展史](https://cloud.tencent.com/developer/article/1521020)
+- [支付宝架构师眼中的高并发架构](https://cloud.tencent.com/developer/article/1417126)
+- [有赞服务化架构演进](https://cloud.tencent.com/developer/article/1522947)
+
+
+
+## Cloud Service
+- [阿里云 - 高可用架构部署方案](https://help.aliyun.com/document_detail/137317.html?spm=5176.13910061.sslink.1.76864736DWeDXk)
+  - 领军客户实战场景
+    - [CDN](https://cn.aliyun.com/product/cdn)
+    - [弹性公网IP](https://cn.aliyun.com/product/eip)
+    - [NAT网关](https://cn.aliyun.com/product/nat)
+    - [负载均衡](https://cn.aliyun.com/product/slb)
+    - [专有网络 VPC](https://cn.aliyun.com/product/vpc)
+  - 行业实战场景 [对象存储 OSS](https://cn.aliyun.com/product/oss)
+  - 架构介绍
+    - [企业级高可用架构解决方案](https://cn.aliyun.com/solution/ehasl/index)
+    - [企业级互联网架构解决方案](https://cn.aliyun.com/solution/middleware/index)
+- [腾讯云全栈解决方案](https://cloud.tencent.com/solution/overview)
+  - [游戏解决方案](https://cloud.tencent.com/solution/game)
