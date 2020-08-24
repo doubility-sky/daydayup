@@ -193,22 +193,38 @@ innodb_log_file_size = 2G
   - [MySQL 5.7 安装完成后，立即要调整的性能选项](https://www.cnblogs.com/glon/p/6497377.html)
 
 ### [Alternative malloc library](https://dev.mysql.com/doc/refman/5.7/en/mysqld-safe.html#option_mysqld_safe_malloc-lib)
+- [Configuring systemd for MySQL](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#systemd-mysql-configuration)
 - [Migrating from mysqld_safe to systemd](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#mysqld-safe-to-systemd-migration)
 
-#### [jemalloc](https://github.com/jemalloc/jemalloc)
-- [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
-- [启动MySQL如何加载Jemalloc](https://my.oschina.net/lv96/blog/3176132)
-- compile and install jemalloc
+#### [jemalloc](https://github.com/jemalloc/jemalloc) OR [tcmalloc](https://github.com/google/tcmalloc)/[gperftools](https://github.com/gperftools/gperftools)
+- `apt install libjemalloc-dev` / `apt install google-perftools`
+  - `mkdir -p /etc/systemd/system/mysql.service.d` / `systemctl edit mysql`
+  - `vi /etc/systemd/system/mysql.service.d/override.conf`
+    ```conf
+    [Service]
+    Environment="LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so"
+    # OR 
+    Environment="LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libtcmalloc.so.4"
+    ```
+  - `systemctl daemon-reload`
+  - `service mysql restart`
+- [How to check the memory allocator used by my mysql 5.7.20](https://dba.stackexchange.com/questions/226684/how-to-check-the-memory-allocator-used-by-my-mysql-5-7-20)
+  - `lsof -p $(pidof mysqld) | grep mem`
+  - `lsof -n |grep jemalloc`
+- ~~Compile and install jemalloc~~ Not recommend!
+  <details> <summary>View details</summary>
+
+  - [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
   - git clone https://github.com/jemalloc/jemalloc
   - `cd jemalloc & git checkout master`
   - `./autogen.sh && ./configure && make && make install`
   - `cp /usr/local/lib/libjemalloc.* /usr/lib/`
-- run mysqld with jemalloc
-  - `export LD_PRELOAD=/usr/lib/libjemalloc.so && mysqld &`
-  - check it `lsof -n |grep jemalloc`
-- FAQ
-  - `mkdir /var/run/mysqld && chown mysql:mysql /var/run/mysqld`
-
+  - run mysqld with jemalloc
+    - `export LD_PRELOAD=/usr/lib/libjemalloc.so && mysqld &`
+  - FAQ
+    - `mkdir /var/run/mysqld && chown mysql:mysql /var/run/mysqld`
+  
+  </details>
 
 
 ## Practice
@@ -236,7 +252,5 @@ innodb_log_file_size = 2G
   - If you install 5.7 and don’t provide a password to the root user, it will use the auth_socket plugin.
 - [[Resolved] When I faced “#1273 – Unknown collation: ‘utf8mb4_0900_ai_ci'” Error](https://www.freakyjolly.com/resolved-when-i-faced-1273-unknown-collation-utf8mb4_0900_ai_ci-error/)
   - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.
-- [How to check the memory allocator used by my mysql 5.7.20](https://dba.stackexchange.com/questions/226684/how-to-check-the-memory-allocator-used-by-my-mysql-5-7-20)
-  - `lsof -p $(pidof mysqld) | grep mem`
 - [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
   - `> /var/lib/mysql/XXX-slow.log`
