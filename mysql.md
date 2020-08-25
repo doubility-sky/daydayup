@@ -100,8 +100,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
 
 #### bin-log
+- [Binlog日志使用总结](https://www.cnblogs.com/kevingrace/p/6065088.html)
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
-- [mysql的binlog详解](http://blog.csdn.net/wyzxg/article/details/7412777)
+- [关于binary log那些事](https://www.cnblogs.com/xinysu/p/6607658.html)
 
 #### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
 - [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
@@ -132,13 +133,14 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## Master-slave Replication
-- [MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html#_label0)
-- 基于 bin-log
-  - [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
-  - [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
-- 基于 GTID
-  - [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
+## [Replication](https://dev.mysql.com/doc/refman/5.7/en/replication.html)
+- [搭建 MySQL 5.7.19 主从复制，以及复制实现细节分析](https://segmentfault.com/a/1190000010867488)
+- [(8) MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html)
+  - [(9) MySQL主主复制架构使用方法](https://www.cnblogs.com/huchong/p/10262620.html)
+- [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
+- [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
+- [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
+- [MySQL双主（主主）架构方案](https://blog.51cto.com/ygqygq2/1870864)
 
 
 
@@ -189,6 +191,7 @@ innodb_log_file_size = 2G
 ## Optimize
 - [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 - [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
+  - [mysql-5.7 配置文件 参数优化](https://www.cnblogs.com/cenliang/p/8110473.html)
 - [MySQL 5.7 Performance Tuning](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/)
   - [MySQL 5.7 安装完成后，立即要调整的性能选项](https://www.cnblogs.com/glon/p/6497377.html)
 

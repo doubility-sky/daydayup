@@ -6,6 +6,7 @@
 - [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
 - [jemalloc](https://github.com/jemalloc/jemalloc) is a general purpose malloc(3) implementation that emphasizes
 fragmentation avoidance and scalable concurrency support. 
+- [mimalloc](https://github.com/microsoft/mimalloc) is a compact general purpose allocator with excellent performance.
 
 
 
