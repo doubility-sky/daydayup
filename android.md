@@ -41,4 +41,6 @@ This idea comes from this project - [open-source-ios-apps](https://github.com/dk
 - 旋转引起 Activity 销毁、创建
   - https://blog.csdn.net/u011421608/article/details/50883665
   - https://www.cnblogs.com/lbfamous/p/5144425.html
-  
+- [AndroidStudio 代码全红，但可正常运行解决方法及解决后续代理的问题](https://blog.csdn.net/liujie33852964/article/details/80590554)
+  - File -> Invalidate Caches/Restart...
+
