@@ -7,7 +7,7 @@
 ## Awesome
 - [awesome-mac](https://github.com/jaywcjlove/awesome-mac) Now we have become very big, Different from the original idea. Collect premium software in various categories. https://git.io/macx
 - [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) A curated list of awesome applications, softwares, tools and shiny things for macOS.
-
+- [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) - [zh-CN](https://github.com/drduh/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md)
 
 
 

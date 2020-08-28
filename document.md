@@ -10,6 +10,7 @@
 - [中文文案排版指北 - sparanoid](https://github.com/sparanoid/chinese-copywriting-guidelines)
 - [中文文档编写规范 - creator-docs](https://github.com/cocos-creator/creator-docs/blob/v2.2/zh/CONTRIBUTING.md)
 - [Awesome README](https://github.com/matiassingers/awesome-readme) Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
+- [语种名称代码](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
 
 
 

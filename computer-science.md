@@ -26,7 +26,7 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 
 
 ## Courses
-- [Crash Course, Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - [计算机科学速成课](https://github.com/1c7/crash-course-computer-science-chinese)
+- [Crash Course, Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - [计算机科学速成课](https://github.com/1c7/crash-course-computer-science-chinese) - [zh-cn bilibili](https://www.bilibili.com/video/av21376839/)
 - [Open Source Society University - computer science](https://github.com/ossu/computer-science), Path to a free self-taught education in Computer Science!
 - [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses), List of awesome university courses for learning Computer Science!
 
