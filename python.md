@@ -38,6 +38,7 @@ and integrate systems more effectively.
 - [Requests](https://github.com/psf/requests) is an elegant and simple HTTP library for Python, built for human beings.
 - [Pillow](https://github.com/python-pillow/Pillow), The friendly PIL fork (Python Imaging Library) https://python-pillow.org
 - [openpyxl](https://openpyxl.readthedocs.io/en/stable/) is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
+- [pywebview](https://github.com/r0x0r/pywebview) is a lightweight cross-platform wrapper around a webview component that allows to display HTML content in its own native GUI window.
 
 
 

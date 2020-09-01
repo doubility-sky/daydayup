@@ -77,6 +77,7 @@
 
 
 ## Audio
+- https://github.com/willianjusten/awesome-audio-visualization
 - `lame --mp3input --abr 32 ${infile} ${outfile}.mp3`
 - `ffmpeg -i "${filename}.wav" -f mp3 "${filename}.mp3"`
 - [使用 audacity/lame/ffmpeg 进行 mp3 文件瘦身](http://blog.zengrong.net/post/2624.html)

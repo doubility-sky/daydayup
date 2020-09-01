@@ -6,6 +6,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
   - [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
 
+- https://github.com/shlomi-noach/awesome-mysql
+- https://github.com/jobbole/awesome-mysql-cn
+
 
 
 ## Installation

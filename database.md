@@ -9,10 +9,11 @@ A relational database is a digital database based on the relational model of dat
 
 ### Relational Database Management System (RDMBS)
 - [[MySQL]]
+  - [TiDB](https://github.com/pingcap/tidb) is an open source distributed HTAP database compatible with the MySQL protocol https://pingcap.com
 - [[PostgreSQL]]
 - [SQLite](https://www.sqlite.org/index.html) is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private. SQLite is the most widely deployed database in the world with more applications than we can count, including several high-profile projects.
   - [db_tutorial](https://github.com/cstack/db_tutorial) Writing a sqlite clone from scratch in C https://cstack.github.io/db_tutorial
-- [TiDB](https://github.com/pingcap/tidb) is an open source distributed HTAP database compatible with the MySQL protocol https://pingcap.com
+
 
 ### [SQL](https://en.wikipedia.org/wiki/SQL)
 SQL (/ˌɛsˌkjuːˈɛl/ ( listen) S-Q-L, /ˈsiːkwəl/ "sequel"; Structured Query Language) is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).

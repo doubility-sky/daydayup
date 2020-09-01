@@ -30,6 +30,7 @@
 
 
 ## Architecture
+- [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
   - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
   - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
