@@ -44,6 +44,7 @@ and integrate systems more effectively.
 
 ## Frameworks
 - [Twisted](https://github.com/twisted/twisted) is an event-based framework for internet applications, supporting Python 2.7 and Python 3.5+.
+- [DearPyGui](https://github.com/hoffstadt/DearPyGui): A GPU Accelerated Python GUI Framework
 
 #### Web
 - [Django](https://github.com/django/django), The Web framework for perfectionists with deadlines. https://www.djangoproject.com/
