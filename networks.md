@@ -103,3 +103,18 @@ gRPC is a modern open source high performance RPC framework that can run in any 
   - [webui-aria2](https://github.com/ziahamza/webui-aria2) The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg. https://www.qbittorrent.org/
 - Download whole website `wget -r -p -np -k https://golang.org/`
+
+
+## FAQ
+- 获取公网 IP
+  ```bash
+  curl myip.ipip.net
+  curl ifconfig.me
+  curl icanhazip.com
+  curl curlmyip.com
+  curl ip.appspot.com
+  curl ipinfo.io/ip
+  curl ipecho.net/plain
+  curl www.trackip.net/i
+  curl ip.sb
+  ```

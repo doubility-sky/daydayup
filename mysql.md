@@ -141,9 +141,14 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [(8) MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html)
   - [(9) MySQL主主复制架构使用方法](https://www.cnblogs.com/huchong/p/10262620.html)
 - [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
-- [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
 - [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
 - [MySQL双主（主主）架构方案](https://blog.51cto.com/ygqygq2/1870864)
+- [Mysql主从复制配置 单向/双向](https://liguoqinjim.com/post/mysql/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%85%8D%E7%BD%AE/)
+
+### FAQ
+- [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
+- [3分钟解决MySQL 1032 主从错误](https://cloud.tencent.com/developer/article/1564571)
+
 
 
 
