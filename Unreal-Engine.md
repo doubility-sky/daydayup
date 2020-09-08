@@ -6,14 +6,16 @@
 
 ## Learn
 - https://docs.unrealengine.com/en-US/index.html
-- [tomlooman/ue4-tutorials](https://github.com/tomlooman/ue4-tutorials) Collection of Unreal 4 Tutorials & Experiments by Tom Looman
 - [Allar/ue4-style-guide](https://github.com/Allar/ue4-style-guide) An attempt to make Unreal Engine 4 projects more consistent http://ue4.style
+- [Tom Looman](https://www.tomlooman.com/): Unreal Engine Tutorials and Game Development Blog
+  - [tomlooman/ue4-tutorials](https://github.com/tomlooman/ue4-tutorials) Collection of Unreal 4 Tutorials & Experiments by Tom Looman
+  - [Simple C++ FPS Template for Unreal Engine 4](https://github.com/tomlooman/SimpleFPSTemplate)
+  - [EpicSurvivalGameSeries](https://github.com/tomlooman/EpicSurvivalGameSeries) Third-person Survival Game for Unreal Engine 4. https://www.tomlooman.com/survival-sample-game-for-ue4/
 
 
 
 ## Projects
 - [AirSim](https://github.com/microsoft/AirSim) Open source simulator for autonomous vehicles built on Unreal Engine / Unity, from Microsoft AI & Research https://microsoft.github.io/AirSim/
-- [EpicSurvivalGameSeries](https://github.com/tomlooman/EpicSurvivalGameSeries) Third-person Survival Game for Unreal Engine 4. https://www.tomlooman.com/survival-sample-game-for-ue4/
 - [OceanProject](https://github.com/UE4-OceanProject/OceanProject) An Ocean Simulation project for Unreal Engine 4
 - [StreetMap](https://github.com/ue4plugins/StreetMap) Import OpenStreetMap data into Unreal Engine 4
 
