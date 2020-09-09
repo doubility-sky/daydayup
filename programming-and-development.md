@@ -27,8 +27,8 @@
 
 
 ## Practice
+- :star:[build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 - [Mega Project List](https://github.com/karan/Projects) A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
-- [danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x), Build your own (insert technology here)
 
 
 

@@ -3,7 +3,7 @@
 - https://github.com/cocos2d
 - [Cocos 资料大全](https://github.com/fusijie/Cocos-Resource)
 - [王哲 - Cocos引擎首席客服，知乎上的回答](https://www.zhihu.com/people/walzer/answers)
-- :star:[[cocos creator]]:star:
+- :star:[[cocos creator]]
 
 
 

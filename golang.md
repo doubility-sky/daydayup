@@ -44,6 +44,7 @@
 - [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 - [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
 - [errors](https://github.com/pkg/errors): Simple error handling primitives
+- [go-lua](https://github.com/Shopify/go-lua) is a port of the Lua 5.2 VM to pure Go. It is compatible with binary files dumped by luac, from the [Lua reference implementation](http://www.lua.org/).
 
 
 
