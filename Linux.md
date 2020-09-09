@@ -74,16 +74,32 @@
     - `cat /proc/cpuinfo | grep -e "cpu cores"  -e "siblings" | sort | uniq`
 - time zone switch
   - `cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
+- `uptime`
+  - [Linux Load Averages：什么是平均负载？](https://zhuanlan.zhihu.com/p/75975041)
+
+### [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
+- 1 切换显示各逻辑CPU状况
+- c 切换显示各进程完整命令行
+- x 高亮排序属性列
+- SHIFT + '<' / '>' 左右切换排序列
+- M 按内存占用率排序
+- P 按CPU占用率排序
+
+### [iftop](https://huataihuang.gitbooks.io/cloud-atlas/network/packet_analysis/utilities/iftop.html)
+- display bandwidth usage on an interface by host
 
 
 
 ## File 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
+
 ### du
 - `du -had1` 以 human readable 格式，浏览当前目录，所有文件及文件夹大小
+
 ### cp
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
+
 ### tar
 - `tar -zcvf xxx.tar.gz [FILE]...`
   -  -z ：压缩类型为 .tar.gz
@@ -96,10 +112,12 @@
   -  -v ：显示过程
   -  -f ：指定打包后的文件名
 - `tar -zxvf xxx.tar.gz -C ./dst/` 解压到指定**已存在目录** `dst`
+
 ### find
 - https://man.linuxde.net/find
 - 删除指定时间之前的文件\[夹\] （并约束递归深度）
   - `find . -maxdepth 1 -mtime +30 -exec rm -rf {} \;`
+
 ### links
 - Linux链接分两种，一种被称为硬链接（Hard Link），另一种被称为符号链接（Symbolic Link）。默认情况下，ln命令产生硬链接。
   - 硬连接指通过索引节点来进行连接。在Linux的文件系统中，保存在磁盘分区中的文件不管是什么类型都给它分配一个编号，称为索引节点号(Inode Index)。在Linux中，多个文件名指向同一索引节点是存在的。一般这种连接就是硬连接。硬连接的作用是允许一个文件拥有多个有效路径名，这样用户就可以建立硬连接到重要文件，以防止“误删”的功能。其原因如上所述，因为对应该目录的索引节点有一个以上的连接。只删除一个连接并不影响索引节点本身和其它的连接，只有当最后一个连接被删除后，文件的数据块及目录的连接才会被释放。也就是说，文件真正删除的条件是与之相关的所有硬连接文件均被删除。
@@ -242,27 +260,15 @@
           每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
+
 #### [tmux](https://github.com/tmux/tmux)
 与 screen 类似
 - https://en.wikipedia.org/wiki/Tmux
 
 
 
-## Top
-- [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
-  - 1 切换显示各逻辑CPU状况
-  - c 切换显示各进程完整命令行
-  - x 高亮排序属性列
-  - SHIFT + '<' / '>' 左右切换排序列
-  - M 按内存占用率排序
-  - P 按CPU占用率排序
-#### iftop
-- https://huataihuang.gitbooks.io/cloud-atlas/network/packet_analysis/utilities/iftop.html
-
-
-
 ## Service 
-- http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html
+- [Ubuntu Service系统服务说明与使用方法](http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html)
 
 
 
@@ -270,12 +276,6 @@
 - 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
   再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
-
-
-
-## GUI
-- [Centos 7图形化与安装中文支持与修改时区方法](https://www.wanghailin.cn/centos-7-install-desktop-timezone/)  
-  注：其中安装中文语言包的命令应为 yum install kde-l10n-Chinese
 
 
 
