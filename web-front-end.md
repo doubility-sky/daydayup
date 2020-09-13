@@ -1,6 +1,9 @@
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
 - [[HTML]], [[CSS]], [[JavaScript]]
 
+- https://github.com/sindresorhus/awesome#front-end-development
+- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
+
 
 
 ## Learn
@@ -37,7 +40,6 @@
 
 
 
-## Resources
-- https://github.com/sindresorhus/awesome#front-end-development
-- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
+## Tools
+- [Responsively App](https://github.com/responsively-org/responsively-app): A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 

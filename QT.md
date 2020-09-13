@@ -1,6 +1,9 @@
 - https://www.qt.io/
 - https://wiki.qt.io/Main
 
+- https://github.com/JesseTG/awesome-qt
+- https://github.com/mikalv/awesome-qt-qml
+
 
 
 ## Learn

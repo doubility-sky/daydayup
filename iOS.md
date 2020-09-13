@@ -44,4 +44,8 @@
 ## FAQ
 - [iOS如何获得网络状态相关信息](http://www.jianshu.com/p/e8e8803c3b5d)
 - 协作开发时，team设置为个人账号或none，如果在fix issuse时出现内购错误，可以删除linked库StoreKit.framework、并重新fix issue
-
+- [WKWebView捕获JS Error 跨域解决](https://blog.csdn.net/lfdanding/article/details/104267874)
+  ```objc
+  [configuration setValue:@TRUE forKey:@"allowUniversalAccessFromFileURLs"];
+  [configuration.preferences setValue:@"TRUE" forKey:@"allowFileAccessFromFileURLs"] ;
+  ```
