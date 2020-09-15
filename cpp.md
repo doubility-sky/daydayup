@@ -21,12 +21,13 @@
 ## Library
 - [C library](c#library)
 - [boostorg/hana](https://github.com/boostorg/hana) Your standard library for metaprogramming http://boostorg.github.io/hana
+- [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++
 
 ### Memory
 - [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
   - Also see [gperftools](https://github.com/gperftools/gperftools)
 
-## Serialization
+### Serialization
 - [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format https://developers.google.com/protocol-buffers/
   - [protobuf.js](https://github.com/protobufjs/protobuf.js) Protocol Buffers for JavaScript (& TypeScript).
   - [protocolbuffers/upb](https://github.com/protocolbuffers/upb) a small protobuf implementation in C
@@ -68,10 +69,4 @@
 ## Frameworks
 - [openFrameworks](https://github.com/openframeworks/openFrameworks) is a community-developed cross platform toolkit for creative coding in C++. http://openframeworks.cc
 - [acl](https://github.com/acl-dev/acl) Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
-
-
-
-
-## Tools
-- [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++
 - [Catch2](https://github.com/catchorg/Catch2) A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) https://discord.gg/4CWS9zD
