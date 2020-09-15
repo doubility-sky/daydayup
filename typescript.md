@@ -5,6 +5,7 @@ Any browser. Any host. Any OS. Open source.
 
 
 - [[deno]]
+- https://github.com/dzharii/awesome-typescript
 
 
 
@@ -29,8 +30,8 @@ View the running site: http://microsoft.github.io/TypeSearch.
 
 
 
-## Resource
-- https://github.com/dzharii/awesome-typescript
+## Tools
+- [ts-migrate](https://github.com/airbnb/ts-migrate) is a tool for helping migrate code to TypeScript. It takes a JavaScript, or a partial TypeScript, project in and gives a compiling TypeScript project out.
 
 
 

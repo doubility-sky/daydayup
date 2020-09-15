@@ -35,7 +35,6 @@
 
 ## [Programming & Dev](programming-and-development)
 - [[Software Engineering]]
-  - [[library]]
   - [[DevOps]]
 - [[Desktop Development]]
   - [[QT]]

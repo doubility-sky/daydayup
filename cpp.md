@@ -10,7 +10,7 @@
 - [c++ sumup](https://github.com/idealvin/docs/blob/master/md/c%2B%2B.md)
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
 
-#### STL
+### STL
 - http://www.stlport.org/
 - http://www.sgi.com/tech/stl/
   - https://github.com/steveLauwh/SGI-STL
@@ -21,18 +21,54 @@
 ## Library
 - [C library](c#library)
 - [boostorg/hana](https://github.com/boostorg/hana) Your standard library for metaprogramming http://boostorg.github.io/hana
-- [Tencent/rapidjson](https://github.com/Tencent/rapidjson)
-  - https://zhuanlan.zhihu.com/p/22457315
-- [lemire/simdjson](https://github.com/lemire/simdjson) Parsing gigabytes of JSON per second https://arxiv.org/abs/1902.08318
+
+### Memory
+- [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
+  - Also see [gperftools](https://github.com/gperftools/gperftools)
+
+## Serialization
+- [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format https://developers.google.com/protocol-buffers/
+  - [protobuf.js](https://github.com/protobufjs/protobuf.js) Protocol Buffers for JavaScript (& TypeScript).
+  - [protocolbuffers/upb](https://github.com/protocolbuffers/upb) a small protobuf implementation in C
+  - [nanopb](https://github.com/nanopb/nanopb), Protocol Buffers with small code size https://jpa.kapsi.fi/nanopb/
+- [google/flatbuffers](https://github.com/google/flatbuffers): Memory Efficient Serialization Library http://google.github.io/flatbuffers/
+
+### Network
 - [The C++ Network Library Project](https://github.com/cpp-netlib/cpp-netlib) -- cross-platform, standards compliant networking library. http://cpp-netlib.org/
-- [co](https://github.com/idealvin/co) An elegant and efficient C++ basic library for Linux, Windows and Mac.
-- [acl](https://github.com/acl-dev/acl) Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
+
+### Coroutine
+- [co](https://github.com/idealvin/co): A golang-style C++ coroutine library and more. An elegant and efficient C++ basic library for Linux, Windows and Mac. 
 - [The POCO C++ Libraries](https://github.com/pocoproject/poco) are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems. https://pocoproject.org
+- [Libco](https://github.com/Tencent/libco) is a c/c++ coroutine library that is widely used in WeChat services. It has been running on tens of thousands of machines since 2013.
+
+### JSON
+- [Tencent/rapidjson](https://github.com/Tencent/rapidjson)
+  - [从零开始的 JSON 库教程](https://zhuanlan.zhihu.com/p/22457315)
+- [lemire/simdjson](https://github.com/lemire/simdjson) Parsing gigabytes of JSON per second https://arxiv.org/abs/1902.08318
+
+### GUI
+- [wxWidgets](https://github.com/wxWidgets/wxWidgets) is a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls.
+- [Immediate mode GUI](https://en.wikipedia.org/wiki/Immediate_mode_GUI) in computer graphics is a GUI implemented using an immediate mode pattern, where the event processing is directly controlled by the application.
+  - [Retained Mode Versus Immediate Mode](https://docs.microsoft.com/en-us/windows/win32/learnwin32/retained-mode-versus-immediate-mode)
+  - [Slate UI Framework - Motivation](https://docs.unrealengine.com/en-US/Programming/Slate/Architecture/index.html)
+  - [@游戏开发者，ImGUI 能成为 GUI 的未来吗？](https://mp.weixin.qq.com/s?__biz=MjM5MjAwODM4MA==&mid=2650721530&idx=3&sn=f5ba60b684705c1621d834eb2480648b)
+- [Dear ImGui](https://github.com/ocornut/imgui): Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies
+  - [imgui_club](https://github.com/ocornut/imgui_club) Nice things to use along dear imgui
+  - [imgui-node-editor](https://github.com/thedmd/imgui-node-editor), This is an implementaion of node editor with ImGui-like API. Project purpose is to serve as a basis for more complex solutions like blueprint editors.
+  - [ImGuizmo](https://github.com/CedricGuillemet/ImGuizmo), Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui
+  - [imgui_markdown](https://github.com/juliettef/imgui_markdown) Markdown for Dear ImGui
+  - [cimgui](https://github.com/cimgui/cimgui) This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui Dear ImGui.
+  - [imgui-go](https://github.com/inkyblackness/imgui-go) This library is a Go wrapper for Dear ImGui.
+    - [giu](https://github.com/AllenDang/giu) Cross platform rapid GUI framework for golang based on imgui and the great golang binding imgui-go.
+  - [love-imgui](https://github.com/slages/love-imgui) imgui module for the LÖVE game engine
+  - [Native ImGui in the Browser](https://pbrfrat.com/post/imgui_in_browser.html)
 
 
 
 ## Frameworks
 - [openFrameworks](https://github.com/openframeworks/openFrameworks) is a community-developed cross platform toolkit for creative coding in C++. http://openframeworks.cc
+- [acl](https://github.com/acl-dev/acl) Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
+
 
 
 
