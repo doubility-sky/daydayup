@@ -11,10 +11,9 @@
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
 
 ### STL
-- http://www.stlport.org/
-- http://www.sgi.com/tech/stl/
-  - https://github.com/steveLauwh/SGI-STL
-- https://github.com/Alinshans/MyTinySTL
+- [STLport](http://www.stlport.org/) is a multiplatform ANSI C++ Standard Library implementation. It is free, open-source product
+- [SGI STL v3.3](https://github.com/qinhanlei/stl) - [源代码剖析](https://github.com/steveLauwh/SGI-STL)
+- [MyTinySTL](https://github.com/Alinshans/MyTinySTL): Achieve a tiny STL in C++11
 
 
 
@@ -49,6 +48,9 @@
 
 ### GUI
 - [wxWidgets](https://github.com/wxWidgets/wxWidgets) is a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls.
+- [MyGUI](https://github.com/MyGUI/mygui) is a cross-platform library for creating graphical user interfaces (GUIs) for games and 3D applications.
+  - Website: http://mygui.info/
+  - There you can find basic information about how to build MyGUI: http://www.ogre3d.org/tikiwiki/MyGUI+Compiling
 - [Immediate mode GUI](https://en.wikipedia.org/wiki/Immediate_mode_GUI) in computer graphics is a GUI implemented using an immediate mode pattern, where the event processing is directly controlled by the application.
   - [Retained Mode Versus Immediate Mode](https://docs.microsoft.com/en-us/windows/win32/learnwin32/retained-mode-versus-immediate-mode)
   - [Slate UI Framework - Motivation](https://docs.unrealengine.com/en-US/Programming/Slate/Architecture/index.html)
