@@ -11,6 +11,28 @@
 - [中文文档编写规范 - creator-docs](https://github.com/cocos-creator/creator-docs/blob/v2.2/zh/CONTRIBUTING.md)
 - [Awesome README](https://github.com/matiassingers/awesome-readme) Elements in beautiful READMEs include, but are not limited to: images, screenshots, GIFs, text formatting, etc.
 - [语种名称代码](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
+  - 以往，人们常用 `zh-CN` 表示在中国大陆地区使用的中文，也就是简体中文，用 `zh-TW` 表示在台湾地区使用的中文，也就是繁体中文。但是，这种表示法很不完善
+  - 目前，语言的标签表示法的国际标准是RFC 4646，名称是《Tags for Identifying Languages》，简单说，这个文件规定，一种语言的标签应该按照如下方式排列：
+  - **language-script-region-variant-extension-privateuse**
+    - language：这部分就是 ISO 639 规定的代码，比如中文是 zh
+    - script：表示变体，比如简体汉字是 zh-Hans，繁体汉字是 zh-Hant
+    - region：表示语言使用的地理区域，比如 zh-Hans-CN 就是中国大陆使用的简体中文
+    - variant：表示方言
+    - extension-privateus：表示扩展用途和私有标识。
+    - 一般约定，language 标签全部小写，region 标签全部大写，script 标签只有首字母大写。不同标签之间用连字号 - 链接
+  - **中文相关标签**
+    - zh-Hans 简体中文
+    - zh-Hans-CN 大陆地区使用的简体中文
+    - zh-Hans-HK 香港地区使用的简体中文
+    - zh-Hans-MO 澳门使用的简体中文
+    - zh-Hans-SG 新加坡使用的简体中文
+    - zh-Hans-TW 台湾使用的简体中文
+    - zh-Hant 繁体中文
+    - zh-Hant-CN 大陆地区使用的繁体中文
+    - zh-Hant-HK 香港地区使用的繁体中文
+    - zh-Hant-MO 澳门使用的繁体中文
+    - zh-Hant-SG 新加坡使用的繁体中文
+    - zh-Hant-TW 台湾使用的繁体中文
 
 
 
