@@ -39,12 +39,13 @@
 
 
 
-## Open Source
+## Library
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
 - [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 - [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
 - [errors](https://github.com/pkg/errors): Simple error handling primitives
 - [go-lua](https://github.com/Shopify/go-lua) is a port of the Lua 5.2 VM to pure Go. It is compatible with binary files dumped by luac, from the [Lua reference implementation](http://www.lua.org/).
+- [Logrus](https://github.com/sirupsen/logrus)Logrus is a structured logger for Go (golang), completely API compatible with the standard library logger.
 
 
 
@@ -64,6 +65,7 @@
   - [oak](https://github.com/oakmound/oak) A pure Go game engine
   - [G3N](https://github.com/g3n/engine) (pronounced "gen") is an OpenGL 3D Game Engine written in Go. It can be used to write cross-platform Go applications that show rich and dynamic 3D representations - not just games. A basic integrated GUI framework is provided, and 3D spatial audio is supported through OpenAL.
 - [[game-server]]
+  - [Pitaya](https://github.com/topfreegames/pitaya) is an simple, fast and lightweight game server framework with clustering support and client libraries for iOS, Android, Unity and others through the [C SDK](https://github.com/topfreegames/libpitaya). It provides a basic development framework for distributed multiplayer games and server-side applications.
   - [gonet](http://gonet2.github.io/), [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
 
 
@@ -72,6 +74,7 @@
 - [作为程序员的你，常用的工具软件有哪些？ - 腾讯技术工程的回答](https://www.zhihu.com/question/22867411/answer/911161400)
 - [使用 VS Code 快速搭建你的 Golang 开发 IDE](https://toozhao.com/2017/08/23/vscode-golang/)
   - [[gopls] : Following links on imports opens the browser](https://github.com/microsoft/vscode-go/issues/2550)
+
 
 
 ## FAQ
