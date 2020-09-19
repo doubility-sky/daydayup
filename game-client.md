@@ -2,48 +2,65 @@
 
 
 
+- [[Computer Graphics]]
 - [CUSTOM GAME ENGINES: A Small Study](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74)
 - [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
-- [[Computer Graphics]]
-- [golang](golang#Game-Development)
+- [develop game by golang](golang#Game-Development)
 
 
 
-## Html5
+## Html5 Mainly
 - [What are the best HTML5/JavaScript frameworks for web-based games?](https://www.slant.co/topics/973/~best-html5-javascript-frameworks-for-web-based-games)
-- [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
-- [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
-- [[phaser]], [[cocos creator]], [[egret]], ~~[[layabox]]~~
+  - [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
+  - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
+
+### recommend
+- [[cocos creator]], [[phaser]]
+
+### not very active
+- [[egret]], ~~[[layabox]]~~
 
 
 
-## 2D
+## 2D Mainly
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
-- [[cocos2dx]], [[godot]]
-- [[love2d]], [[pygame]], [[ejoy2d]]
-- [GameMaker Studio](https://www.yoyogames.com/) 2 is a tool designed to empower you and your team to make new and innovative games as well as prototype ideas in the fastest and most intuitive way possible across multiple target platforms. 
-- [libGDX](https://github.com/libGDX/libGDX) Desktop/Android/HTML5/iOS Java game development framework http://www.libgdx.com/
+
+### recommend
+- Lightweight: [[love2d]], [[pygame]], [[ejoy2d]]
+- Moderate: [[cocos creator]]/[[cocos2dx]], [[godot]]
+- [libGDX](https://github.com/libGDX/libGDX) Desktop/Android/HTML5/iOS Java game development framework http://www.libgdx.com/ - [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx)
 - [renpy](https://github.com/renpy/renpy) The Ren'Py Visual Novel Engine http://www.renpy.org/
+
+### nonfree
+- [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
+  - This is [the source](https://github.com/Stencyl/stencyl-engine) to Stencyl's Haxe-based game engine.
+- [GameMaker Studio](https://www.yoyogames.com/) 2 is a tool designed to empower you and your team to make new and innovative games as well as prototype ideas in the fastest and most intuitive way possible across multiple target platforms. 
+- [Construct 3](https://www.construct.net/en) is the best software to create games. Over 100,000 users monthly make & sell thousands of games globally. - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct)
+
+### wait-and-see
 - [GDevelop](https://github.com/4ian/GDevelop) is an open-source, cross-platform game engine designed to be used by everyone. https://gdevelop-app.com
-- [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
 - [Orx](https://github.com/orx/orx) is a 2.5D data-driven game development engine. It is open source, ultra-fast, multi-platform and full-featured for C/C++ programmers: beginners and experts alike. http://orx-project.org
-- [Stencyl](http://www.stencyl.com/) is the easiest way to create games for mobile, web and desktop without code.
-### Sprite Sheet & texture atlas
-- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
-- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
-### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
-- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
+- [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
+- [Gideros](https://github.com/gideros/gideros) is a cross-platform development environment for creating amazing games and interactive applications in 2D or 3D. It is easy to pick up, quick to develop and robust to deploy. Code your game once and deploy to Android, iOS, MacOS, tvOS, Windows, HTML 5 and more. - [Awesome Gideros](https://github.com/stetso/awesome-gideros)
 
 
 
-## 3D
+## 3D Mainly
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
-- [[unity3d]], [[Unreal Engine]], [[godot]]
+
+### recommend
+- [[godot]]
 - [panda3d](https://github.com/panda3d/panda3d), Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU https://www.panda3d.org/
 - [libGDX](https://github.com/libGDX/libGDX)
+
+### nonfree
+- [[unity3d]], [[Unreal Engine]]
+
+### wait-and-see
 - [Urho3D](https://github.com/urho3d/Urho3D) is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by OGRE and Horde3D.
 - [KlayGE](https://github.com/gongminmin/KlayGE), KlayGE is a cross-platform open source game engine with plugin-based architecture. It's started since 2003. The explicit goal of KlayGE is: to arm your engine with cutting-edge technology. It provides a framework to make game development, testing, porting as simple as possible.
 - [pmtech](https://github.com/polymonster/pmtech), Lightweight, multi-platform, data-oriented game engine.
+- [Gideros](https://github.com/gideros/gideros)
 
 
 
@@ -64,6 +81,17 @@
 - [TexturePacker](https://www.codeandweb.com/texturepacker) CREATE OPTIMIZED SPRITE SHEETS
   - Reduce memory usage and increase your game's frame rate
   - Supports over 30 game engines including Cocos2D, Unity and Phaser
+
+
+
+## Practice
+
+### Sprite Sheet & texture atlas
+- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
+- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
+
+### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
 
 
 
