@@ -32,14 +32,13 @@
 
 
 ## Open Projects
-- [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
-- [开源游戏列表](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E6%B8%B8%E6%88%8F%E5%88%97%E8%A1%A8)
+- [List of open-source video games](https://en.wikipedia.org/wiki/List_of_open-source_video_games) - [zh-cn](https://zh.wikipedia.org/wiki/%E5%BC%80%E6%BA%90%E6%B8%B8%E6%88%8F%E5%88%97%E8%A1%A8)
+- [Open Source Game Clones](https://github.com/opengaming/osgameclones/): This is the source of http://osgameclones.com. Feel free to add new games or improve information about those already in the database by submitting a pull request or opening an issue.
 - [2015 年度五款最佳开源游戏](https://github.com/OCselected/opensource-2015-yearbook-zh/blob/master/5-best-game-2015.md)
 - [10 个你会喜欢玩的开源游戏](https://www.oschina.net/news/21586/10-best-open-source-games)
-- https://www.wesnoth.org/
-- https://www.themanaworld.org/
-- [BrowserQuest](https://github.com/mozilla/BrowserQuest)
-- [Quake](https://github.com/id-Software/Quake)
+- :star:[The Battle for Wesnoth](https://www.wesnoth.org/) is an [open source](https://github.com/wesnoth/wesnoth), turn-based tactical strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat. Fight a desperate battle to reclaim the throne of Wesnoth, or take hand in any number of other adventures.
+- [The Mana World](https://www.themanaworld.org/) (TMW) is a serious effort to create an innovative free and open source MMORPG. TMW uses 2D graphics and aims to create a large and diverse interactive world. It is licensed under the GPL, making sure this game can't ever run away from you.
+- [Quake](https://github.com/id-Software/Quake): This is the complete source code for winquake, glquake, quakeworld, and glquakeworld.
 - [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
 - [Unciv](https://github.com/yairm210/Unciv): An open-source Android/Desktop port of Civ V, Made with LibGDX on Android Studio
 

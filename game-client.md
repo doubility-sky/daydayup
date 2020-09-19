@@ -9,35 +9,39 @@
 
 
 
-## Html5 Mainly
+## Html5
 - [What are the best HTML5/JavaScript frameworks for web-based games?](https://www.slant.co/topics/973/~best-html5-javascript-frameworks-for-web-based-games)
   - [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
   - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
 
 ### recommend
-- [[cocos creator]], [[phaser]]
+- [[cocos creator]], [[phaser]], [[godot]]
+- [libGDX](https://github.com/libGDX/libGDX) is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS. [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx)
+- [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
+  - This is [the source](https://github.com/Stencyl/stencyl-engine) to Stencyl's Haxe-based game engine.
+- [PlayCanvas](https://github.com/playcanvas/engine) is an open-source game engine. It uses HTML5 and WebGL to run games and other interactive 3D content in any mobile or desktop browser.
 
 ### not very active
 - [[egret]], ~~[[layabox]]~~
 
 
 
-## 2D Mainly
+## 2D
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
 
 ### recommend
-- Lightweight: [[love2d]], [[pygame]], [[ejoy2d]]
-- Moderate: [[cocos creator]]/[[cocos2dx]], [[godot]]
-- [libGDX](https://github.com/libGDX/libGDX) Desktop/Android/HTML5/iOS Java game development framework http://www.libgdx.com/ - [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx)
-- [renpy](https://github.com/renpy/renpy) The Ren'Py Visual Novel Engine http://www.renpy.org/
+- Moderate
+  - [[cocos creator]]/[[cocos2dx]], [[godot]], [libGDX](https://github.com/libGDX/libGDX)
+- Lightweight
+  - [[love2d]], [[pygame]]
 
 ### nonfree
-- [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
-  - This is [the source](https://github.com/Stencyl/stencyl-engine) to Stencyl's Haxe-based game engine.
+- [Stencyl](http://www.stencyl.com/)
 - [GameMaker Studio](https://www.yoyogames.com/) 2 is a tool designed to empower you and your team to make new and innovative games as well as prototype ideas in the fastest and most intuitive way possible across multiple target platforms. 
 - [Construct 3](https://www.construct.net/en) is the best software to create games. Over 100,000 users monthly make & sell thousands of games globally. - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct)
 
 ### wait-and-see
+- [[ejoy2d]]: not very active
 - [GDevelop](https://github.com/4ian/GDevelop) is an open-source, cross-platform game engine designed to be used by everyone. https://gdevelop-app.com
 - [Orx](https://github.com/orx/orx) is a 2.5D data-driven game development engine. It is open source, ultra-fast, multi-platform and full-featured for C/C++ programmers: beginners and experts alike. http://orx-project.org
 - [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
@@ -45,13 +49,13 @@
 
 
 
-## 3D Mainly
+## 3D
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
 
 ### recommend
-- [[godot]]
+- [[godot]], [libGDX](https://github.com/libGDX/libGDX)
 - [panda3d](https://github.com/panda3d/panda3d), Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU https://www.panda3d.org/
-- [libGDX](https://github.com/libGDX/libGDX)
+- [[cocos creator]]
 
 ### nonfree
 - [[unity3d]], [[Unreal Engine]]
@@ -61,6 +65,13 @@
 - [KlayGE](https://github.com/gongminmin/KlayGE), KlayGE is a cross-platform open source game engine with plugin-based architecture. It's started since 2003. The explicit goal of KlayGE is: to arm your engine with cutting-edge technology. It provides a framework to make game development, testing, porting as simple as possible.
 - [pmtech](https://github.com/polymonster/pmtech), Lightweight, multi-platform, data-oriented game engine.
 - [Gideros](https://github.com/gideros/gideros)
+
+
+
+## Specific type
+- [Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
+- [renpy](https://github.com/renpy/renpy) The Ren'Py Visual Novel Engine http://www.renpy.org/
+- [Spring](https://github.com/spring/spring) (formerly TASpring) is an Open Source Real Time Strategy game engine. Visit our [project homepage](https://springrts.com/) for help, suggestions, bugs, community forum and everything spring related.
 
 
 
