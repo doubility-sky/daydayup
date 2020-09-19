@@ -57,16 +57,22 @@
 
 
 ## [[Game Development]]
-- [[game-client]]
-  - [pixel](https://github.com/faiface/pixel) A hand-crafted 2D game library in Go
-  - [ebiten](https://github.com/hajimehoshi/ebiten) A dead simple 2D game library in Go https://ebiten.org/
-    - [gozelda](https://github.com/ArnaudCalmettes/gozelda) An implementation of a GameBoy era zelda game using Go and Ebiten
-  - [Korok](https://github.com/KorokEngine/Korok) is a free lightweight, cross-platform, component-based 2D game engine written in Golang and released under the zlib license. Greatly inspired by bitsquid blog.
-  - [oak](https://github.com/oakmound/oak) A pure Go game engine
-  - [G3N](https://github.com/g3n/engine) (pronounced "gen") is an OpenGL 3D Game Engine written in Go. It can be used to write cross-platform Go applications that show rich and dynamic 3D representations - not just games. A basic integrated GUI framework is provided, and 3D spatial audio is supported through OpenAL.
-- [[game-server]]
-  - [Pitaya](https://github.com/topfreegames/pitaya) is an simple, fast and lightweight game server framework with clustering support and client libraries for iOS, Android, Unity and others through the [C SDK](https://github.com/topfreegames/libpitaya). It provides a basic development framework for distributed multiplayer games and server-side applications.
-  - [gonet](http://gonet2.github.io/), [leaf](https://github.com/name5566/leaf), [goworld](https://github.com/xiaonanln/goworld)
+
+### [[game-client]]
+- [pixel](https://github.com/faiface/pixel) A hand-crafted 2D game library in Go
+- [ebiten](https://github.com/hajimehoshi/ebiten) A dead simple 2D game library in Go https://ebiten.org/
+  - [gozelda](https://github.com/ArnaudCalmettes/gozelda) An implementation of a GameBoy era zelda game using Go and Ebiten
+- [Korok](https://github.com/KorokEngine/Korok) is a free lightweight, cross-platform, component-based 2D game engine written in Golang and released under the zlib license. Greatly inspired by bitsquid blog.
+- [oak](https://github.com/oakmound/oak) A pure Go game engine
+- [G3N](https://github.com/g3n/engine) (pronounced "gen") is an OpenGL 3D Game Engine written in Go. It can be used to write cross-platform Go applications that show rich and dynamic 3D representations - not just games. A basic integrated GUI framework is provided, and 3D spatial audio is supported through OpenAL.
+
+### [[game-server]]
+- [agones](https://github.com/googleforgames/agones), [open match](https://github.com/googleforgames/open-match)
+- [Pitaya](https://github.com/topfreegames/pitaya) is an simple, fast and lightweight game server framework with clustering support and client libraries for iOS, Android, Unity and others through the [C SDK](https://github.com/topfreegames/libpitaya). It provides a basic development framework for distributed multiplayer games and server-side applications.
+- [goworld](https://github.com/xiaonanln/goworld): Scalable Distributed Game Server Engine with Hot Reload in Golang
+- [leaf](https://github.com/name5566/leaf): A pragmatic game server framework in Go (golang).
+- [Nano](https://github.com/lonng/nano) is an easy to use, fast, lightweight game server networking library for Go.
+- [gonet](https://github.com/xtaci/gonet) - deprecated, [gonet2](https://github.com/gonet2) - inactive
 
 
 

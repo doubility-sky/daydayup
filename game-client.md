@@ -5,7 +5,7 @@
 - [[Computer Graphics]]
 - [CUSTOM GAME ENGINES: A Small Study](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74)
 - [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
-- [develop game by golang](golang#Game-Development)
+- [game-client by golang](golang#game-client)
 
 
 

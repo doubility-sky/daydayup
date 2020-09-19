@@ -77,6 +77,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.
 - [profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github): Tool for visualizing GitHub profiles
 - [🦄 Sourcerer app](https://github.com/sourcerer-io/sourcerer-app) makes a visual profile from your GitHub and git repositories.
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)⚡ Dynamically generated stats for your github readmes
 
 
 
