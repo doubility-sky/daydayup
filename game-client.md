@@ -95,6 +95,6 @@
 
 
 
-## FAQ
+## FAQs
 - [What's the difference between a game engine and a game development framework? ](https://www.quora.com/Whats-the-difference-between-a-game-engine-and-a-game-development-framework)
 

@@ -15,7 +15,7 @@
 
 
 
-## Library
+## Libraries
 - [cJSON](https://github.com/DaveGamble/cJSON) Ultralightweight JSON parser in ANSI C
 - [cr.h](https://github.com/fungos/cr): A Simple C Hot Reload Header-only Library https://fungos.github.io/cr-simple-c-hot-reload/
 

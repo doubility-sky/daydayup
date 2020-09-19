@@ -30,7 +30,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 
 
-## Library
+## Libraries
 - [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
 - [D3](https://github.com/d3/d3): Data-Driven Documents (or D3.js) is a JavaScript library for visualizing data using web standards. 
   - [Learn D3](https://observablehq.com/@d3/learn-d3)
@@ -79,7 +79,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 
 
-## FAQ
+## FAQs
 - [undefined与null的区别](https://www.ruanyifeng.com/blog/2014/03/undefined-vs-null.html)
   - undefined 和 null 在 if 语句中，都会被自动转为 false，相等运算符甚至直接报告两者相等。
   - JavaScript 的最初版本是这样区分的：

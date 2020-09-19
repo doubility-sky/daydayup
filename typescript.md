@@ -35,7 +35,7 @@ View the running site: http://microsoft.github.io/TypeSearch.
 
 
 
-## FAQ
+## FAQs
 - [tsconfig.json 全解析](https://lq782655835.github.io/blogs/project/ts-tsconfig.html)
 - [Modules](https://www.typescriptlang.org/docs/handbook/modules.html)
   - 旧术语

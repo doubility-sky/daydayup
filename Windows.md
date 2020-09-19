@@ -3,6 +3,6 @@
 
 
 
-## FAQ
+## FAQs
 - Windows 删除 chrome 地址栏联想内容
   - 按向下箭头键以突出显示相应内容，然后按 Shift + Delete 键

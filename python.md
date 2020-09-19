@@ -34,7 +34,7 @@ and integrate systems more effectively.
 
 
 
-## Library
+## Libraries
 - [Requests](https://github.com/psf/requests) is an elegant and simple HTTP library for Python, built for human beings.
 - [Pillow](https://github.com/python-pillow/Pillow), The friendly PIL fork (Python Imaging Library) https://python-pillow.org
 - [openpyxl](https://openpyxl.readthedocs.io/en/stable/) is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
@@ -84,6 +84,6 @@ and integrate systems more effectively.
 
 
 
-## FAQ
+## FAQs
 - [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574/answer/554481284)
 

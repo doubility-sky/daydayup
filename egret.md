@@ -16,7 +16,7 @@ https://www.egret.com/
 
 
 
-## FAQ
+## FAQs
 - [在Egret Engine中如何使用Protobuf](https://zhuanlan.zhihu.com/p/106924191)
   - [如何在微信小游戏中使用Protobuf](https://mp.weixin.qq.com/s/WNdIRxZEfpKFpUdFdlr5Mg)
   - Protobufjs 自身存在着 pbts 命令，虽然也可以生成 .d.ts 文件，但是在全局模式而非 ES6 module 的情况下存在一些错误，本项目致力于解决这个问题，使 Protobufjs 可以在**非 ES6 模块项目中（比如白鹭引擎）**中也可以使用 Protobufjs

@@ -39,7 +39,7 @@
 
 
 
-## Library
+## Libraries
 - [Gorilla Web Toolkit](https://github.com/gorilla), Gorilla is a web toolkit for the Go programming language that provides useful, composable packages for writing HTTP-based applications.
 - [GopherJS](https://github.com/gopherjs/gopherjs) compiles Go code (golang.org) to pure JavaScript code. Its main purpose is to give you the opportunity to write front-end code in Go which will still run in all browsers.
 - [torrent-client](https://github.com/veggiedefender/torrent-client) Tiny BitTorrent client written in Go. Read the blog post: https://blog.jse.li/posts/torrent/
@@ -77,7 +77,7 @@
 
 
 
-## FAQ
+## FAQs
 - 发行闭源go包的办法：http://www.golangtc.com/t/540eaa6e320b527a3b000161 
   - 主要思想是将.a和.go文件放在GOROOT下冒充系统库，因为系统库不会主动编译。
   - 但其中要注意，.go文件必须定义外部使用的接口，即大写开头的变量和方法，内容可以为空。

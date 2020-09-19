@@ -32,7 +32,7 @@
 - [Quick-Cocos2dx develop for vscode](https://github.com/leitwolf/vscode-QuickXDev)
 - 所有导出的 C＋＋ 到 lua 的 API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
 
-### FAQ (v3.6.1 ~ v3.6.5, cocos v3.10)
+### FAQs (v3.6.1 ~ v3.6.5, cocos v3.10)
 - TextField 设置文本排列时，要靠设置锚点实现，用 setTextHorizontalAlignment 无效。靠左排列 ＝setAnchorPoint(0, 0.5)
 - cocos studio 中的 AtlasLabel 无法使用，用代码创建 LabelAtlas 代替。
 - cocos studio 中的 BitmapLabel 无法使用，暂未找到解决办法。

@@ -23,7 +23,7 @@
 
 
 
-## Library
+## Libraries
 - [ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) is a basic transport layer for games.
 
 
@@ -103,5 +103,5 @@
 
 
 
-## FAQ
+## FAQs
 - [使用 Go 语言开发游戏服务端的是如何忍受无法热更新的？](https://www.zhihu.com/question/31912663)

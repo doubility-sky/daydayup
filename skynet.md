@@ -202,7 +202,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-# FAQ
+# FAQs
 - https://github.com/cloudwu/skynet/wiki/FAQ
 - [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
 - If you're running Linux and get compilation errors, make sure you have installed the readline development package (which is probably named `libreadline-dev` or `readline-devel`). If you get link errors after that, then try "make linux MYLIBS=-ltermcap".

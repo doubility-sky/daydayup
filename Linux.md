@@ -279,7 +279,7 @@
 
 
 
-## FAQ
+## FAQs
 - [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](https://www.zhihu.com/question/19599986/answer/26359309)
 - [CentOS: 永远有多远就离它多远](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)
 - [在linux上做机器学习，请问centos和ubuntu有区别吗？](https://www.zhihu.com/question/334455564)

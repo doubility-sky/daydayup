@@ -37,5 +37,5 @@
 
 
 
-## FAQ
+## FAQs
 - https://github.com/mongodb/homebrew-brew for macOS

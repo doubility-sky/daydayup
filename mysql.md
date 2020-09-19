@@ -145,7 +145,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [MySQL双主（主主）架构方案](https://blog.51cto.com/ygqygq2/1870864)
 - [Mysql主从复制配置 单向/双向](https://liguoqinjim.com/post/mysql/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%85%8D%E7%BD%AE/)
 
-### FAQ
+### FAQs
 - [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
 - [3分钟解决MySQL 1032 主从错误](https://cloud.tencent.com/developer/article/1564571)
 
@@ -244,7 +244,7 @@ innodb_log_file_size = 2G
 
 
 
-## FAQ
+## FAQs
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
   ```
   sudo vi /etc/mysql/my.cnf

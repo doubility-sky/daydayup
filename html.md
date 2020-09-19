@@ -18,7 +18,7 @@
 
 
 
-## FAQ
+## FAQs
 - 判断操作系统
 	<details> <summary>click to view details</summary>  
 

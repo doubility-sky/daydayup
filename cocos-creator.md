@@ -42,7 +42,7 @@
 
 
 
-## Library
+## Libraries
 - [CocosCreator TypeScript使用protobuf](https://blog.csdn.net/xiefeifei316948714/article/details/90481643)
   - [CocosCreator TypeScript项目引用第三方库的方法和问题记录](https://blog.k-res.net/archives/2428.html)
   - [Creator | TS项目中引入第三方JS库的两种方式](https://mp.weixin.qq.com/s/bSy2XtK70F7OOCpI00nGDQ)
@@ -77,7 +77,7 @@
 
 
 
-## FAQ
+## FAQs
 - [王哲 - Cocos引擎首席客服，知乎上的回答](https://www.zhihu.com/people/walzer/answers)
   - [Cocos 引擎的创始人是谁？Cocos2d-x 和Cocos 有什么区别？](https://www.zhihu.com/question/41992081/answer/260427403)
 - [序列化](https://docs.cocos.com/creator/manual/zh/getting-started/cocos2d-x-guide.html?q=#%E5%BA%8F%E5%88%97%E5%8C%96)和反序列化支持 Cocos Creator 中类的绝大多数公有属性，这些属性通过属性检查器面板暴露给开发者。

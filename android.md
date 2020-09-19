@@ -37,7 +37,7 @@ This idea comes from this project - [open-source-ios-apps](https://github.com/dk
 
 
 
-## FAQ
+## FAQs
 - 旋转引起 Activity 销毁、创建
   - https://blog.csdn.net/u011421608/article/details/50883665
   - https://www.cnblogs.com/lbfamous/p/5144425.html

@@ -106,7 +106,7 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - Download whole website `wget -r -p -np -k https://golang.org/`
 
 
-## FAQ
+## FAQs
 - 获取公网 IP
   ```bash
   curl myip.ipip.net

@@ -17,7 +17,7 @@
 
 
 
-## Library
+## Libraries
 - [C library](c#library)
 - [boostorg/hana](https://github.com/boostorg/hana) Your standard library for metaprogramming http://boostorg.github.io/hana
 - [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++

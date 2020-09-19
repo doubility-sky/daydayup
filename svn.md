@@ -18,7 +18,7 @@
 
 
 
-## FAQ
+## FAQs
 - [清除SVN未版控文件](http://blog.csdn.net/caz28/article/details/50246951)
   - `svn st | grep '^?' | awk '{print $2}' | xargs rm -rf` 类似 `git clean -fd`
 

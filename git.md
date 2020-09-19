@@ -104,7 +104,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 
 
 
-## FAQ
+## FAQs
 - [[svn]] 迁移到 git
   - 官方文档：[迁移到 Git](https://git-scm.com/book/zh/v1/Git-%E4%B8%8E%E5%85%B6%E4%BB%96%E7%B3%BB%E7%BB%9F-%E8%BF%81%E7%A7%BB%E5%88%B0-Git)
 - 换行符 CRLF 问题

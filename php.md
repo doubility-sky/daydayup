@@ -21,7 +21,7 @@
 
 
 
-## FAQ
+## FAQs
 - [php-fpm进程数管理](https://segmentfault.com/a/1190000015612563)
 - [PHP-FPM子进程数量应该如何设置？](https://blog.csdn.net/hhq163/article/details/72953664)
   - 如果代码是 CPU 计算密集型的，pm.max_chindren 不能超过 CPU 的内核数

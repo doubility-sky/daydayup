@@ -64,7 +64,7 @@
 
 
 
-## FAQ
+## FAQs
 - [ubuntu中sh执行shell脚本报错问题](https://blog.csdn.net/dylloveyou/article/details/53393906)
 - [Read a JSON Value in Bash](http://dailyraisin.com/read-json-value-in-bash/)
   <details> <summary> view shell codes </summary> 

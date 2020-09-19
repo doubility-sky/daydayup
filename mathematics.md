@@ -56,7 +56,7 @@ Mathematics is essential in many fields, including natural science, engineering,
 
 
 
-## Library
+## Libraries
 - [Matplot++](https://github.com/alandefreitas/matplotplusplus): A C++ Graphics Library for Data Visualization
 - [Manim](https://github.com/3b1b/manim) is an animation engine for explanatory math videos. It's used to create precise animations programmatically, as seen in the videos at [3Blue1Brown](https://www.3blue1brown.com/).
 
