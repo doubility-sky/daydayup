@@ -46,6 +46,9 @@ and integrate systems more effectively.
 - [Twisted](https://github.com/twisted/twisted) is an event-based framework for internet applications, supporting Python 2.7 and Python 3.5+.
 
 ### GUI
+- [Kivy](https://github.com/kivy/kivy): Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
+  - [python-for-android](https://github.com/kivy/python-for-android) is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK along with your own code.
+  - [Kivy for iOS](https://github.com/kivy/kivy-ios): Toolchain for compiling Python / Kivy / other libraries for iOS
 - [wxPython's Project Phoenix](https://github.com/wxWidgets/Phoenix/). A new implementation of wxPython, better, stronger, faster than he was before.
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui): A GPU Accelerated Python GUI Framework
 - [fbs](https://github.com/mherrmann/fbs) is the fastest way to create a Python GUI. It solves common pain points such as packaging and deployment. Based on Python and Qt, fbs is a lightweight alternative to Electron.
@@ -77,6 +80,7 @@ and integrate systems more effectively.
 
 ## Tools
 - [pyenv](https://github.com/pyenv/pyenv) lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
+- [BeeWare](https://github.com/beeware) allows you to write your app in Python and release it on multiple platforms. No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
 
 
 
