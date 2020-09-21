@@ -1,17 +1,23 @@
-# The Best!!!
-- http://php.net/
-- https://pecl.php.net/
-- [Awesome PHP](https://github.com/ziadoz/awesome-php), A curated list of amazingly awesome PHP libraries, resources and shiny things.
+[PHP](https://www.php.net/) is a popular general-purpose scripting language that is especially suited to web development.
+
+Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.
+
+
+- [PECL](https://pecl.php.net/) is a repository for PHP Extensions, providing a directory of all known extensions and hosting facilities for downloading and development of PHP extensions.
+
+
+
+## Learn
 - [Coding standards for modern PHP](https://make.wordpress.org/core/2020/03/20/updating-the-coding-standards-for-modern-php/)
 
 
 
-## [Laravel](https://laravel.com/)
+## Frameworks
+
+### [Laravel](https://laravel.com/)
 - Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation — freeing you to create without sweating the small things.
 
-
-
-## Yaf(Yet Another Framework)
+### Yaf(Yet Another Framework)
 - [用户手册](http://www.laruence.com/manual/)
 
 
@@ -31,3 +37,8 @@
     - M 是 PHP 能利用的内存数量
     - m 是每个 PHP 进程平均使用的内存数量
 - [启用php-fpm状态详解](http://www.ttlsa.com/php/use-php-fpm-status-page-detail)
+
+
+
+## Resources
+- [Awesome PHP](https://github.com/ziadoz/awesome-php), A curated list of amazingly awesome PHP libraries, resources and shiny things.

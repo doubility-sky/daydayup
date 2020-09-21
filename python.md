@@ -66,7 +66,7 @@ and integrate systems more effectively.
 
 
 
-## Crawler
+## Crawlers
 - https://github.com/facert/awesome-spider
 - [scrapy](https://scrapy.org/), An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [pyspider](https://github.com/binux/pyspider), A Powerful Spider(Web Crawler) System in Python. http://docs.pyspider.org/

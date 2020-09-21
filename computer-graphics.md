@@ -18,16 +18,15 @@ Computer graphics studies the manipulation of visual and geometric information u
 ## OpenGL
 - [JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL) - [read online](https://learnopengl.com/)
   - [LearnOpenGL-CN](https://github.com/LearnOpenGL-CN/LearnOpenGL-CN) - [read online](https://learnopengl-cn.github.io/)
-- [awesome-opengl](https://github.com/eug/awesome-opengl), A curated list of awesome OpenGL libraries, debuggers and resources.
 
 ### WebGL
-- [awesome-casestudy](https://github.com/luruke/awesome-casestudy) Curated list of technical case studies on WebGL and creative development
+- [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
+- [pixi.js](https://github.com/pixijs/pixi.js): The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
 - [three.js](https://github.com/mrdoob/three.js/), JavaScript 3D library. https://threejs.org/  
   The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
   - [React renderer for Threejs](https://github.com/react-spring/react-three-fiber) (web and react-native) https://spectrum.chat/react-three-fiber
 - [WebGLStudio.js](https://github.com/jagenjo/webglstudio.js) is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share your work - all within a browser using standard web technologies.
 - [Tiny-Canvas](https://github.com/bitnenfer/tiny-canvas) is a lightweight minimal implementation of a batched and stack matrix based canvas similar to HTML5 Canvas2D with WebGL backend.
-- [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
 
 
 
@@ -60,5 +59,6 @@ OpenCV (Open Source Computer Vision Library) is an open source computer vision a
 ## Resources
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision): A curated list of awesome computer vision resources
 - [Awesome Computer Graphics](https://github.com/luisnts/awesome-computer-graphics): 🔺😎 A curated list of awesome stuff to learn computer graphics
-
+- [awesome-opengl](https://github.com/eug/awesome-opengl), A curated list of awesome OpenGL libraries, debuggers and resources.
+- [awesome-casestudy](https://github.com/luruke/awesome-casestudy) Curated list of technical case studies on WebGL and creative development
 

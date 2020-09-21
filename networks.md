@@ -2,7 +2,6 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 
 
 
-- [Awesome Networking](https://github.com/clowwindy/Awesome-Networking), A curated list of awesome networking libraries, resources and shiny things.
 - [[proxy]]
 - [[security]]
 
@@ -47,7 +46,8 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 ## Socket
 - [luasocket](https://github.com/diegonehab/luasocket)
 - [socket.io](https://github.com/socketio/socket.io)
-#### [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
+
+### [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
 - [RFC 6455 - The WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 - [WebSocket协议：5分钟从入门到精通](https://www.cnblogs.com/chyingp/p/websocket-deep-in.html)
 - [WebSocket 协议深入探究](https://www.infoq.cn/article/deep-in-websocket-protocol)
@@ -59,13 +59,15 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [KCP - A Fast and Reliable ARQ Protocol](https://github.com/skywind3000/kcp)
 - [kcp-go](https://github.com/xtaci/kcp-go)
 - [可靠 UDP，KCP 协议快在哪？](https://testerhome.com/topics/14688)
-#### kcptun
+
+### kcptun
 - [kcptun](https://github.com/xtaci/kcptun)
 
 
 
 ## [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
-#### [gRPC](https://www.grpc.io/)
+
+### [gRPC](https://www.grpc.io/)
 gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
 - https://github.com/grpc-ecosystem
 - https://github.com/grpc-ecosystem/awesome-grpc
@@ -106,6 +108,7 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - Download whole website `wget -r -p -np -k https://golang.org/`
 
 
+
 ## FAQs
 - 获取公网 IP
   ```bash
@@ -119,3 +122,9 @@ gRPC is a modern open source high performance RPC framework that can run in any 
   curl www.trackip.net/i
   curl ip.sb
   ```
+
+
+
+## Resources
+- [Awesome Networking](https://github.com/clowwindy/Awesome-Networking), A curated list of awesome networking libraries, resources and shiny things.
+

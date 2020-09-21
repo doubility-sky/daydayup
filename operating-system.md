@@ -1,7 +1,8 @@
 An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs.
 
 
-- https://wiki.osdev.org/Main_Page
+- Common OS: [[BSD]], [[Linux]], [[macOS]], [[Windows]]
+- [OSDev.org](https://wiki.osdev.org/Main_Page): This website provides information about the creation of operating systems and serves as a community for those people interested in OS development with 655 wiki articles.
 
 
 

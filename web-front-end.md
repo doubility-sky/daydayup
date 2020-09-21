@@ -11,12 +11,8 @@
 - [前端九部 - 入门者手册2019](https://www.yuque.com/fe9/basic)
   - [前端开发漫游指南](https://github.com/zenany/zenany.github.io/blob/master/_posts/about_frontend.md)
 - [构建单页Web应用](https://github.com/xufei/blog/issues/5)
-- [为何现代 Web 开发如此复杂？](https://www.infoq.cn/article/YPEj-1CKSxkVG290iIY0)
 - [在2019年学习如何成为现代前端开发人员](https://www.zcfy.cc/article/learn-to-become-a-modern-frontend-developer-in-2019)
 - [Chrome Dev Tools 使用指南](https://wiki.jikexueyuan.com/project/chrome-devtools/overview.html)
-
-### Books
-- [前端开发技术（HTML、CSS 和 JavaScript 等）值得推荐的书籍](https://www.zhihu.com/question/19809484/answer/1039653836)
 
 
 
@@ -27,7 +23,6 @@
 
 
 ## Frameworks
-- [如何挑选适合的前端框架](https://github.com/RubyLouvre/agate/issues/8#issuecomment-99820791)
 - [[react]] - [react native](react#react-native)
 - [[vue]] - [weex](vue#weex)
 - [[angular]] - [ionic](https://ionicframework.com/)
@@ -42,6 +37,16 @@
 
 
 
+## FAQs
+- [为何现代 Web 开发如此复杂？](https://www.infoq.cn/article/YPEj-1CKSxkVG290iIY0)
+- [如何挑选适合的前端框架](https://github.com/RubyLouvre/agate/issues/8#issuecomment-99820791)
+
+
+
 ## Resources
 - https://github.com/sindresorhus/awesome#front-end-development
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
+
+### Books
+- [前端开发技术（HTML、CSS 和 JavaScript 等）值得推荐的书籍](https://www.zhihu.com/question/19809484/answer/1039653836)
+

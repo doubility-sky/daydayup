@@ -1,9 +1,5 @@
-- [Awesome Java](https://github.com/akullpp/awesome-java), A curated list of awesome frameworks, libraries and software for the Java programming language.
-
-
 
 ## Learn
-- [Java 技术书籍大全](https://github.com/sorenduan/awesome-java-books)
 - [better-java](https://github.com/cxxr/better-java) Resources for writing modern Java
 - [Java Core Sprout](https://github.com/crossoverJie/JCSprout) : basic, concurrent, algorithm https://crossoverjie.top/JCSprout
 - [一份涵盖大部分Java程序员所需要掌握的核心知识](https://github.com/Snailclimb/JavaGuide)
@@ -28,3 +24,7 @@
 - [Arthas](https://github.com/alibaba/arthas) Alibaba Java Diagnostic Tool Arthas/Alibaba Java诊断利器Arthas https://arthas.gitee.io/
 
 
+
+## Resources
+- [Awesome Java](https://github.com/akullpp/awesome-java), A curated list of awesome frameworks, libraries and software for the Java programming language.
+- [Java 技术书籍大全](https://github.com/sorenduan/awesome-java-books)

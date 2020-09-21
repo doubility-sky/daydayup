@@ -5,7 +5,8 @@
 
 ## [Project Euler](https://projecteuler.net/) 
 ![Euler](https://projecteuler.net/images/euler_portrait.png "Watching you!")
-#### [PARI/GP](https://en.wikipedia.org/wiki/PARI/GP) 
+
+### [PARI/GP](https://en.wikipedia.org/wiki/PARI/GP) 
 - [PARI/GP](https://pari.math.u-bordeaux.fr/) is a widely used computer algebra system designed for fast computations in number theory (factorizations, algebraic number theory, elliptic curves, modular forms, L functions...), but also contains a large number of other useful functions to compute with mathematical entities such as matrices, polynomials, power series, algebraic numbers etc., and a lot of transcendental functions. PARI is also available as a C library to allow for faster computations.  
 Originally developed by Henri Cohen and his co-workers (Université Bordeaux I, France), PARI is now under the GPL and maintained by Karim Belabas with the help of many volunteer contributors.
 - `PARI` is a C library, allowing fast computations.

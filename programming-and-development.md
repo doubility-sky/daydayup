@@ -6,7 +6,6 @@
 ## Learn
 - [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html), [21天学会C++](http://coolshell.cn/articles/2250.html)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
-- [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps), A curated list of roadmaps, mostly about software development, which give you a clear route to improve your knowledge or skills.
 
 ### Readings
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) 《科技爱好者周刊》，每周五发布
@@ -16,16 +15,11 @@
 
 ### Books
 - [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
-- [Freely available programming books](https://github.com/EbookFoundation/free-programming-books) This page is available as an easy-to-read website at https://ebookfoundation.github.io/.
-- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的编程中文书籍索引
-- [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+  - [Volume I](http://aosabook.org/en/intro1.html), [Volume II](http://aosabook.org/en/intro2.html)
+  - [The Performance of Open Source Applications](http://aosabook.org/en/posa/introduction.html)
+  - [500 Lines or Less](http://aosabook.org/en/500L/introduction.html)
 - [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/)
 - [每个程序员书柜必备的编程书籍](https://mp.weixin.qq.com/s/ZMsVmkTqx9asr4-T8t6wvA)
-
-### Cheatsheet
-- [modest collection of cheatsheets](https://devhints.io/) 
-- [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
-  - [skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)，超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西
 
 ### Education
 - [[scratch]]
@@ -41,6 +35,17 @@
 
 
 ## Resources
+- [Awesome Roadmaps](https://github.com/liuchong/awesome-roadmaps), A curated list of roadmaps, mostly about software development, which give you a clear route to improve your knowledge or skills.
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit),  Some useful websites for programmers.
 - [伯乐在线](https://github.com/jobbole) 资源大全
+
+### Books
+- [Freely available programming books](https://github.com/EbookFoundation/free-programming-books), [zh-cn](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books-zh.md), an easy-to-read [website](https://ebookfoundation.github.io/)
+- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的编程中文书籍索引
+- [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+
+### Cheatsheets
+- [modest collection of cheatsheets](https://devhints.io/) 
+- [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
+- [skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)，超级速查表 - 编程语言、框架和开发工具的速查表，单个文件包含一切你需要知道的东西
 
