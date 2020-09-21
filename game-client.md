@@ -83,6 +83,17 @@
 
 
 
+## Practice
+
+### Sprite Sheet & texture atlas
+- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
+- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
+
+### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
+
+
+
 ## Tools
 - [xLua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
@@ -92,17 +103,6 @@
 - [TexturePacker](https://www.codeandweb.com/texturepacker) CREATE OPTIMIZED SPRITE SHEETS
   - Reduce memory usage and increase your game's frame rate
   - Supports over 30 game engines including Cocos2D, Unity and Phaser
-
-
-
-## Practice
-
-### Sprite Sheet & texture atlas
-- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
-- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
-
-### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
-- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
 
 
 

@@ -1,4 +1,3 @@
-## Programming Languages
 - [[Objective-C]]
 - [[swift]]
 
@@ -6,18 +5,18 @@
 
 ## Learn
 - https://github.com/BohdanOrlov/iOS-Developer-Roadmap
-- https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/
-- [斯坦福大学公开课 ios7-objective-c](http://open.163.com/special/opencourse/ios7.html)
-- [斯坦福大学公开课 ios8-swift](http://open.163.com/special/opencourse/ios8.html)
+- [Human Interface Guidelines](https://developer.apple.com/design/human-interface-guidelines/): Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.
 - [IOS 绘图机制](http://www.cocoachina.com/industry/20140115/7703.html)
 - [ios-good-practices](https://github.com/futurice/ios-good-practices) Good ideas for iOS development, by Futurice developers. http://www.futurice.com
 - [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
 
+### Courses
+- [斯坦福大学公开课 ios7-objective-c](http://open.163.com/special/opencourse/ios7.html)
+- [斯坦福大学公开课 ios8-swift](http://open.163.com/special/opencourse/ios8.html)
+
 
 
 ## Projects
-- https://github.com/vsouza/awesome-ios
-- https://github.com/learn-anything/ios-apps
 - [Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps), A collaborative list of open-source iOS, watchOS and tvOS apps
 - [Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
 
@@ -49,3 +48,9 @@
   [configuration setValue:@TRUE forKey:@"allowUniversalAccessFromFileURLs"];
   [configuration.preferences setValue:@"TRUE" forKey:@"allowFileAccessFromFileURLs"] ;
   ```
+
+
+
+## Resources
+- [awesome-ios](https://github.com/vsouza/awesome-ios)A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
+- [iOS apps](https://github.com/learn-anything/ios-apps): Awesome iOS apps

@@ -2,12 +2,10 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
+## Learn
 - [MySQL Documentation](https://dev.mysql.com/doc/)
 - [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
   - [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
-
-- https://github.com/shlomi-noach/awesome-mysql
-- https://github.com/jobbole/awesome-mysql-cn
 
 
 
@@ -30,6 +28,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
     - `mysql> flush privileges;`
   - 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
     - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
+
 
 
 ## Run/Stop
@@ -102,19 +101,19 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ## Backup/Restore
 - [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
 
-#### bin-log
+### bin-log
 - [Binlog日志使用总结](https://www.cnblogs.com/kevingrace/p/6065088.html)
 - [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
 - [关于binary log那些事](https://www.cnblogs.com/xinysu/p/6607658.html)
 
-#### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
+### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
 - [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
 - [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
 
-#### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
+### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
   - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
 
-#### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
+### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
 - [Percona XtraBackup 2.4 Documentation](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)
   - Percona XtraBackup is a set of following tools:
   - `innobackupex` is the symlink for xtrabackup. innobackupex still supports all features and syntax as 2.2 version did, but is now **deprecated** and will be removed in next major release.
@@ -151,7 +150,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-
 ## Storage Engine
 - [为什么你要用 InnoDB, 而不是 MyISAM ？](https://juejin.im/post/5c43ee36518825254b5a3c3a) 
 - [MyISAM和InnoDB区别和应用场景](https://www.jianshu.com/p/dc60346d55a2)
@@ -174,25 +172,26 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
   - 当并发用户线程数量小于64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
 - [What is a big innodb_log_file_size?](https://www.percona.com/blog/2016/05/31/what-is-a-big-innodb_log_file_size/)
-```shell
-# Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
-# vi /etc/mysql/mysql.conf.d/mysqld.cnf
-max_allowed_packet = 256M
-max_connections = 1024
-wait_timeout = 600
-# 慢查询日志
-slow_query_log = 1
-# default is /var/lib/mysql/xxx-slow.log
-slow_query_log_file = /var/log/mysql/mysql-slow.log
-log_queries_not_using_indexes = 1
-log_timestamps = system
-# InnoDB 相关
-innodb_buffer_pool_size = 16G
-innodb_buffer_pool_instances = 8
-innodb_read_io_threads = 10
-innodb_write_io_threads = 6
-innodb_log_file_size = 2G
-```
+- config example:
+  ```conf
+  # Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
+  # vi /etc/mysql/mysql.conf.d/mysqld.cnf
+  max_allowed_packet = 256M
+  max_connections = 1024
+  wait_timeout = 600
+  # 慢查询日志
+  slow_query_log = 1
+  # default is /var/lib/mysql/xxx-slow.log
+  slow_query_log_file = /var/log/mysql/mysql-slow.log
+  log_queries_not_using_indexes = 1
+  log_timestamps = system
+  # InnoDB 相关
+  innodb_buffer_pool_size = 16G
+  innodb_buffer_pool_instances = 8
+  innodb_read_io_threads = 10
+  innodb_write_io_threads = 6
+  innodb_log_file_size = 2G
+  ```
 
 
 
@@ -238,6 +237,7 @@ innodb_log_file_size = 2G
   </details>
 
 
+
 ## Practice
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
 - [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
@@ -265,3 +265,10 @@ innodb_log_file_size = 2G
   - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.
 - [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
   - `> /var/lib/mysql/XXX-slow.log`
+
+
+
+## Resources
+- https://github.com/shlomi-noach/awesome-mysql
+- https://github.com/jobbole/awesome-mysql-cn
+

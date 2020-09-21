@@ -1,7 +1,3 @@
-- [Awesome C++](https://github.com/fffaraz/awesome-cpp), A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
-- [Awesome Modern C++](https://github.com/rigtorp/awesome-modern-cpp) A collection of resources on modern C++.
-
-
 
 ## Learn
 - [The C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many person-years of discussion and design across a number of organizations. Their design encourages general applicability and broad adoption but they can be freely copied and modified to meet your organization's needs.
@@ -73,3 +69,15 @@
 - [acl](https://github.com/acl-dev/acl): Server framework and network components written by C/C++ for Linux, Mac, FreeBSD, Solaris(x86), Windows, Android, IOS https://blog.csdn.net/zsxxsz
 - [Catch2](https://github.com/catchorg/Catch2): A modern, C++-native, header-only, test framework for unit-tests, TDD and BDD - using C++11, C++14, C++17 and later (or C++03 on the Catch1.x branch) https://discord.gg/4CWS9zD
 - [doctest](https://github.com/onqtam/doctest): The fastest feature-rich C++11/14/17/20 single-header testing framework
+
+
+
+## Tools
+- [C++ Insights](https://github.com/andreasfertig/cppinsights) - See your source code with the eyes of a compiler.
+
+
+
+## Resources
+- [Awesome C++](https://github.com/fffaraz/awesome-cpp), A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
+- [Awesome Modern C++](https://github.com/rigtorp/awesome-modern-cpp) A collection of resources on modern C++.
+

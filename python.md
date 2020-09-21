@@ -1,16 +1,16 @@
-- [Python](https://www.python.org) is a programming language that lets you work quickly
+[Python](https://www.python.org) is a programming language that lets you work quickly
 and integrate systems more effectively.
-  - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-  - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
-    - `python -m SimpleHTTPServer 8000`
-    - `python3 -m http.server`
-- [Awesome Python](https://github.com/vinta/awesome-python), A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
+
 - [[pygame]]
 - [python for shell](shell#python)
 
 
 
 ## Learn
+- [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+- [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
+  - `python -m SimpleHTTPServer 8000`
+  - `python3 -m http.server`
 
 ### Tutor
 - [learn-python](https://github.com/trekhleb/learn-python) Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
@@ -22,15 +22,13 @@ and integrate systems more effectively.
 - [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
 - [《Python Cookbook》 3rd Edition Translation](https://github.com/yidao620c/python3-cookbook)
 
-### Practice
+
+
+## Practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 - [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
   - Make English as your working language. Practice makes perfect. All experience comes from mistakes. Don't be one of the leeches. Either stand out or kicked out.
-
-### Resources
-- [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。http://jobbole.github.io/awesome-python-cn/
-- [PythonShare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
 
 
 
@@ -49,7 +47,7 @@ and integrate systems more effectively.
 - [Kivy](https://github.com/kivy/kivy): Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
   - [python-for-android](https://github.com/kivy/python-for-android) is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK along with your own code.
   - [Kivy for iOS](https://github.com/kivy/kivy-ios): Toolchain for compiling Python / Kivy / other libraries for iOS
-- [wxPython's Project Phoenix](https://github.com/wxWidgets/Phoenix/). A new implementation of wxPython, better, stronger, faster than he was before.
+- [wxPython's Project Phoenix](https://github.com/wxWidgets/Phoenix/). A new implementation of wxPython, better, stronger, faster than he was before. Just like ["Classic" wxPython](https://github.com/wxWidgets/wxPython-Classic), Phoenix wraps the wxWidgets C++ toolkit and provides access to the user interface portions of the wxWidgets API, enabling Python applications to have a native GUI on Windows, Macs or Unix systems, with a native look and feel and requiring very little (if any) platform specific code.
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui): A GPU Accelerated Python GUI Framework
 - [fbs](https://github.com/mherrmann/fbs) is the fastest way to create a Python GUI. It solves common pain points such as packaging and deployment. Based on Python and Qt, fbs is a lightweight alternative to Electron.
   - [tutorial](https://github.com/mherrmann/fbs-tutorial) for creating Python/Qt GUIs with fbs
@@ -87,3 +85,9 @@ and integrate systems more effectively.
 ## FAQs
 - [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574/answer/554481284)
 
+
+
+## Resources
+- [Awesome Python](https://github.com/vinta/awesome-python), A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
+- [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。http://jobbole.github.io/awesome-python-cn/
+- [PythonShare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐

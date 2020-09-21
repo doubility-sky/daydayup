@@ -10,14 +10,16 @@
 - [blacklist](https://github.com/996icu/996.ICU/tree/master/blacklist)
 - [whitelist](https://github.com/996icu/996.ICU/tree/master/whitelist)
 - [community-links](https://github.com/996icu/996.ICU#community-powers)
-#### Celebrity
+
+### Celebrity
 - [如何看待马云 4 月 11 日在内外直播中将 996 称为「修来的福报」？](https://www.zhihu.com/question/319774219/answer/649392437)
 - [如何看待2019年4月12日刘强东朋友圈回应996：「混日子的人不是我的兄弟」?](https://www.zhihu.com/question/319856949)
 
 
 
 ## Cases
-#### Neatease
+
+### Neatease
 - [网易裁员，让保安把身患绝症的我赶出公司。我在网易亲身经历的噩梦！](https://mp.weixin.qq.com/s/FW7uR5t6UMMxgkCcAvk-MA)
 - [从网易辞退患病员工，我看到了资本家百年不变的嘴脸](https://mp.weixin.qq.com/s/752vKTiyMwpCXwM_sapEvg)
 - [网易裁员这事，我只能“远远”谈谈](https://mp.weixin.qq.com/s/gSVpeNBYp87EIVw5FDjBrQ)

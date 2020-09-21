@@ -1,4 +1,3 @@
-- https://github.com/kozross/awesome-c
 - [C, the Enduring Legacy of Dennis Ritchie](http://www.cs.columbia.edu/~aho/Talks/12-09-07_DMR.pdf), A tribute to the late Dennis Ritchie delivered at Dennis Ritchie Day at Bell Labs, Murray Hill, NJ, September 7, 2012
   - [C, Dennis Ritchie的不朽遗产](https://www.ituring.com.cn/article/12901)
 - [c++](cpp)
@@ -23,7 +22,7 @@
 - [jemalloc](https://github.com/jemalloc/jemalloc) is a general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support. 
 - [mimalloc](https://github.com/microsoft/mimalloc) is a compact general purpose allocator with excellent performance.
 
-## I/O Event
+### I/O Event
 - [libevent](https://github.com/libevent/libevent) – an event notification library
 - [libev](http://software.schmorp.de/pkg/libev.html)A full-featured and high-performance ([see benchmark](http://libev.schmorp.de/bench.html)) event loop that is loosely modelled after libevent, but without its limitations and bugs. It is used in [GNU Virtual Private Ethernet](http://software.schmorp.de/pkg/gvpe.html), [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html), [auditd](http://people.redhat.com/sgrubb/audit/), the [Deliantra MORPG](http://www.deliantra.net/) Server and Client, and many other programs.
 - [libuv](https://github.com/libuv/libuv) Cross-platform asynchronous I/O https://libuv.org/
@@ -31,7 +30,7 @@
   - [libuv 初窥](http://blog.codingnow.com/2012/01/libuv.html) - 云风的 BLOG
   - [Learn uv](https://github.com/thlorenz/learnuv) for fun and profit, a self guided workshop to the library that powers Node.js.
 
-## [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
+### [Coroutine](https://en.wikipedia.org/wiki/Coroutine)
 - [Protothreads](http://dunkels.com/adam/pt/index.html)
 - [zserge/pt](https://github.com/zserge/pt)
 - [libaco](https://github.com/hnes/libaco) - A blazing fast and lightweight C asymmetric coroutine library.
@@ -52,3 +51,8 @@
 - [libui](https://github.com/andlabs/libui): a portable GUI library for C
 - [nanogui](https://github.com/wjakob/nanogui) Minimalistic GUI library for OpenGL
 - [microui](https://github.com/rxi/microui) Tiny immediate-mode UI library
+
+
+
+## Resources
+- https://github.com/kozross/awesome-c

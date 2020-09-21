@@ -3,7 +3,7 @@ A [compiler](https://en.wikipedia.org/wiki/Compiler) is a computer program that 
 
 
 ## Learn
-- https://github.com/orangeduck/BuildYourOwnLisp
+- [Build your own Lisp](https://github.com/orangeduck/BuildYourOwnLisp): Learn C and build your own programming language in under 1000 lines of code!
 - [手把手教你构建 C 语言编译器（系列）](http://lotabout.me/2015/write-a-C-interpreter-0/)
 - [C编译器剖析](https://book.douban.com/subject/26814205/)
     - https://github.com/sheisc/ucc162.3

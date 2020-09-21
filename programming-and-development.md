@@ -14,6 +14,14 @@
 - [掘金翻译计划](https://github.com/xitu/gold-miner)是一个翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品和其他 等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
 - [translations](https://github.com/oldratlee/translations) Chinese translations for classic IT resources
 
+### Books
+- [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+- [Freely available programming books](https://github.com/EbookFoundation/free-programming-books) This page is available as an easy-to-read website at https://ebookfoundation.github.io/.
+- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的编程中文书籍索引
+- [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
+- [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/)
+- [每个程序员书柜必备的编程书籍](https://mp.weixin.qq.com/s/ZMsVmkTqx9asr4-T8t6wvA)
+
 ### Cheatsheet
 - [modest collection of cheatsheets](https://devhints.io/) 
 - [Awesome cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
@@ -35,12 +43,4 @@
 ## Resources
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit),  Some useful websites for programmers.
 - [伯乐在线](https://github.com/jobbole) 资源大全
-
-### Books
-- [Freely available programming books](https://github.com/EbookFoundation/free-programming-books) This page is available as an easy-to-read website at https://ebookfoundation.github.io/.
-- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) 免费的编程中文书籍索引
-- [经典编程书籍大全](https://github.com/jobbole/awesome-programming-books)，涵盖：计算机系统与网络、系统架构、算法与数据结构、前端开发、后端开发、移动开发、数据库、测试、项目与团队、程序员职业修炼、求职面试等
-- [程序员必读书单 1.0](http://lucida.me/blog/developer-reading-list/)
-- [每个程序员书柜必备的编程书籍](https://mp.weixin.qq.com/s/ZMsVmkTqx9asr4-T8t6wvA)
-- [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
 

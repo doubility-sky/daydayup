@@ -24,7 +24,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 - [Quicksheet for Algorithms](https://github.com/algorhythms/Algo-Quicksheet)
 - [algo](https://github.com/hoanhan101/algo) 101+ coding interview problems with detailed solutions, test cases, and program analysis https://hoanhan101.github.io/2020/01/06/101-challenges
 
-#### Books
+### Books
 - [Algorithms, 4th Edition](https://algs4.cs.princeton.edu/home/) by Robert Sedgewick and Kevin Wayne
   - [algs4](https://github.com/kevin-wayne/algs4/) Algorithms, 4th edition textbook code and libraries http://algs4.cs.princeton.edu/code/
 - [An Introduction to the Analysis of Algorithms](https://aofa.cs.princeton.edu/home/)
@@ -32,7 +32,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 - [Algorithms in the "Real World"](http://www.cs.cmu.edu/~guyb/realworld.html)
 - [Algorithms by Jeff Erickson](http://jeffe.cs.illinois.edu/teaching/algorithms/)
 
-#### Visualization
+### Visualization
 - [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [VisuAlgo](https://visualgo.net/en) visualising data structures and algorithms through animation
 
@@ -55,11 +55,13 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 
 
 ## Contest & [[Online-Judge]]
+
 ### [International Olympiad in Informatics](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics) (IOI)
 - [OI-Public-Library](https://github.com/enkerewpo/OI-Public-Library), OI essays and learning materials
 - [Wiki for OI / ICPC](https://github.com/OI-wiki/OI-wiki) （某大型游戏线上攻略，内含炫酷算术魔法） https://oi-wiki.org
   - OI Wiki 致力于成为一个免费开放且持续更新的知识整合站点，大家可以在这里获取关于 编程竞赛 (competitive programming) 有趣又实用的知识，我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛。
 - [shareOI](https://github.com/hzwer/shareOI) 算法竞赛课件分享
+
 ### [International Collegiate Programming Contest](https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest) (ICPC)
 - [Stanford ACM-ICPC](https://github.com/jaehyunp/stanfordacm), This is a repository for the Stanford ACM-ICPC teams. It currently hosts (a) the team notebook, and (b) complete lecture slides for [CS 97SI](http://stanford.edu/class/cs97si/).  
   The team notebook is compiled from codes written by previous Stanford team members and coaches.

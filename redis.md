@@ -2,18 +2,19 @@ Redis is an in-memory database that persists on disk. The data model is key-valu
 
 
 
-- https://github.com/JamzyWang/awesome-redis
-
-
-
 ## Learn
 - [official documentation](https://redis.io/documentation)
   - [redis-doc](https://github.com/antirez/redis-doc) Redis documentation source code for markdown and metadata files, conversion scripts, and so forth
 - [redis cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/databases/redis.sh)
 - [Redis基础查漏补缺](https://zhuanlan.zhihu.com/p/90922969)
 - [如何阅读 Redis 源码？](http://blog.huangz.me/diary/2014/how-to-read-redis-source-code.html)
-#### 
 - [大厂们的 redis 集群方案](https://www.cnblogs.com/me115/p/9043420.html)
+
+
+
+## Practice
+- [谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇)](https://blog.codingnow.com/2014/03/mmzb_redis.html)
+- [一次Redis数据完全丢失的事故](http://blog.findix.cn/2018/07/25/%e4%b8%80%e6%ac%a1redis%e6%95%b0%e6%8d%ae%e5%ae%8c%e5%85%a8%e4%b8%a2%e5%a4%b1%e7%9a%84%e4%ba%8b%e6%95%85/)
 
 
 
@@ -41,6 +42,5 @@ Redis is an in-memory database that persists on disk. The data model is key-valu
 
 
 
-## Practice
-- [谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇)](https://blog.codingnow.com/2014/03/mmzb_redis.html)
-- [一次Redis数据完全丢失的事故](http://blog.findix.cn/2018/07/25/%e4%b8%80%e6%ac%a1redis%e6%95%b0%e6%8d%ae%e5%ae%8c%e5%85%a8%e4%b8%a2%e5%a4%b1%e7%9a%84%e4%ba%8b%e6%95%85/)
+## Resources
+- https://github.com/JamzyWang/awesome-redis

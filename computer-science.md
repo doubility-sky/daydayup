@@ -23,9 +23,7 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 - [Programming in Java · Computer Science · An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/) 
   - textbooks for a first course in computer science for the next generation of scientists and engineers
 
-
-
-## Courses
+### Courses
 - [Crash Course, Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - [计算机科学速成课](https://github.com/1c7/crash-course-computer-science-chinese) - [zh-cn bilibili](https://www.bilibili.com/video/av21376839/)
 - [Open Source Society University - computer science](https://github.com/ossu/computer-science), Path to a free self-taught education in Computer Science!
 - [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses), List of awesome university courses for learning Computer Science!

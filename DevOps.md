@@ -7,14 +7,6 @@
 
 
 
-## Tools
-- [free-for.dev](https://github.com/ripienaar/free-for-dev) A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev 
-- [2019十大最佳DevOps工具](http://dockone.io/article/8507)
-- [DevOps工具链](https://www.cnblogs.com/fadewalk/p/10808436.html)
-- [20+最好的持续集成工具](https://cloud.tencent.com/developer/article/1438822)
-
-
-
 ## Container
 - [[docker]], [[kubernetes]]
 - [LXC](https://github.com/lxc/lxc) is the well-known and heavily tested low-level Linux container runtime. It is in active development since 2008 and has proven itself in critical production environments world-wide. Some of its core contributors are the same people that helped to implement various well-known containerization features inside the Linux kernel.
@@ -29,4 +21,12 @@ In software engineering, continuous integration (CI) is the practice of merging 
 - [jenkinsci/jenkins](https://github.com/jenkinsci/jenkins), In a nutshell, Jenkins is the leading open-source automation server. Built with Java, it provides over 1600 plugins to support automating virtually anything, so that humans can actually spend their time doing things machines cannot.
 - [Travis CI](https://github.com/travis-ci/travis-ci), Free continuous integration platform for GitHub projects. https://travis-ci.org
   - Travis CI is a hosted continuous integration and deployment system. You can now test and deploy open source and private projects on [travis-ci.com](https://travis-ci.com/)! You can read more about this change [here](https://blog.travis-ci.com/2018-05-02-open-source-projects-on-travis-ci-com-with-github-apps).
+
+
+
+## Tools
+- [free-for.dev](https://github.com/ripienaar/free-for-dev) A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev 
+- [2019十大最佳DevOps工具](http://dockone.io/article/8507)
+- [DevOps工具链](https://www.cnblogs.com/fadewalk/p/10808436.html)
+- [20+最好的持续集成工具](https://cloud.tencent.com/developer/article/1438822)
 

@@ -1,9 +1,6 @@
 - [Frontend Roadmap](https://github.com/kamranahmedse/developer-roadmap#frontend-roadmap)
 - [[HTML]], [[CSS]], [[JavaScript]]
 
-- https://github.com/sindresorhus/awesome#front-end-development
-- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
-
 
 
 ## Learn
@@ -23,6 +20,12 @@
 
 
 
+## Practice
+- [The perfect Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for modern websites and meticulous developers https://frontendchecklist.io
+- [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/
+
+
+
 ## Frameworks
 - [如何挑选适合的前端框架](https://github.com/RubyLouvre/agate/issues/8#issuecomment-99820791)
 - [[react]] - [react native](react#react-native)
@@ -34,13 +37,11 @@
 
 
 
-## Practice
-- [The perfect Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for modern websites and meticulous developers https://frontendchecklist.io
-- [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/
-- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
-
-
-
 ## Tools
 - [Responsively App](https://github.com/responsively-org/responsively-app): A modified web browser that helps in responsive web development. A web developer's must have dev-tool.
 
+
+
+## Resources
+- https://github.com/sindresorhus/awesome#front-end-development
+- [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com

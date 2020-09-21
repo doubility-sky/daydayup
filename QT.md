@@ -1,9 +1,6 @@
 - https://www.qt.io/
 - https://wiki.qt.io/Main
 
-- https://github.com/JesseTG/awesome-qt
-- https://github.com/mikalv/awesome-qt-qml
-
 
 
 ## Learn
@@ -15,3 +12,9 @@
 ## Projects
 - [redis GUI](redis#gui), [Redis Desktop Manager](https://github.com/uglide/RedisDesktopManager/)
 - [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) messaging app https://desktop.telegram.org/
+
+
+
+## Resources
+- https://github.com/JesseTG/awesome-qt
+- https://github.com/mikalv/awesome-qt-qml

@@ -2,7 +2,6 @@
 
 
 
-- [Awesome Security](https://github.com/sbilly/awesome-security), A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
 - [[networks]]
 
 
@@ -54,4 +53,9 @@
 - [I2P](https://github.com/i2p/i2p.i2p) (Invisible Internet Project) is an anonymizing network, offering a simple layer that identity-sensitive applications can use to securely communicate. All data is wrapped with several layers of encryption, and the network is both distributed and dynamic, with no trusted parties. This is a mirror of the official Monotone repository. https://geti2p.net
 - [Tor](https://github.com/torproject/tor) protects your privacy on the internet by hiding the connection
 between your Internet address and the services you use. 
+
+
+
+## Resources
+- [Awesome Security](https://github.com/sbilly/awesome-security), A collection of awesome software, libraries, documents, books, resources and cools stuffs about security.
 

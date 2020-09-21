@@ -10,13 +10,17 @@
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
 - [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
-#### [Tutorial](https://github.com/cocos-creator?q=tutorial)
+
+### [Tutorial](https://github.com/cocos-creator?q=tutorial)
 - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
 - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
 - [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
 - [demo-ball](https://github.com/cocos-creator/demo-ball) A jumping ball demo created by Cocos Creator 3D
 - [Tutorial-Taxi-Game](https://github.com/cocos-creator/tutorial-taxi-game): This is an open source demo game using Cocos Creator 3D v1.0.x, with [17 episodes of video tutorial on Bilibili](https://www.bilibili.com/video/BV1AE411j7L9). From this project, you can learn how to use Cocos Creator 3D to develop a 3D game from sratch.
-#### Practice
+
+
+
+## Practice
 - [COCOS 文章](https://www.chainnews.com/u/655723746819.htm)，含 官方博客 + 官方微信公众号文章
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
@@ -43,37 +47,30 @@
 
 
 ## Libraries
+- [CocosCreator TypeScript项目引用第三方库的方法和问题记录](https://blog.k-res.net/archives/2428.html)
+- [Creator | TS项目中引入第三方JS库的两种方式](https://mp.weixin.qq.com/s/bSy2XtK70F7OOCpI00nGDQ)
 - [CocosCreator TypeScript使用protobuf](https://blog.csdn.net/xiefeifei316948714/article/details/90481643)
-  - [CocosCreator TypeScript项目引用第三方库的方法和问题记录](https://blog.k-res.net/archives/2428.html)
-  - [Creator | TS项目中引入第三方JS库的两种方式](https://mp.weixin.qq.com/s/bSy2XtK70F7OOCpI00nGDQ)
-  - [Creator | 微信小游戏使用 protobuf 的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
-  - 综上，使用代码引入（无需依赖 creator 编辑器插件功能）+ 静态加载 proto (支持微信小游戏) 最佳，以 macOS 为例：
-    - `brew install node` ，并 `npm install -g protobufjs`
-      - 方便复制起见，可以在 creator 项目根目录也执行 `npm install protobufjs`
-    - 编译 `.proto` 文件，假设所在 creator 项目目录为 `myproj/assets/script/*.proto`
-      - `pbjs -t static-module -w commonjs -o proto.js *.proto`
-      - 得到：`myproj/assets/script/proto.js`
-    - 将 `node_modules/protobufjs/dist/minimal/` 中内容，移至 `myproj/assets/script/protobufjs/minimal/`
-      - 移动依据见 proto.js 前几行中，可自行修改：
-      ```javascript
-      var $protobuf = require("protobufjs/minimal");
-      ```
-    - 在需要处理 protobuffer 的地方，如： `myproj/assets/script/main.ts` 引入
-      ```typescript
-      import { AwesomeMessage } from "./proto.js";
-      // example code
-      let message = AwesomeMessage.create({ awesomeField: "hello" });
-      let buffer  = AwesomeMessage.encode(message).finish();
-      let decoded = AwesomeMessage.decode(buffer);
-      ```
-    - [Usage with TypeScript - Using generated static code](https://github.com/protobufjs/protobuf.js#using-generated-static-code)
-
-
-
-## Resource
-- [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
-- [awesome-cocos-creator](https://github.com/potato47/awesome-cocos-creator) Cocos Creator 资源汇总
-- [pomelo-cocos-creator-awesome](https://github.com/tumobi/pomelo-cocos-creator-awesome) 学习 pomelo 和 Cocos Creator 过程中收集的教程、麻将、斗地主棋牌项目
+- [Creator | 微信小游戏使用 protobuf 的两种加载方式](https://mp.weixin.qq.com/s/OIkcsJQfLSXnZoUfXZ61AQ)
+- 综上，使用代码引入（无需依赖 creator 编辑器插件功能）+ 静态加载 proto (支持微信小游戏) 最佳，以 macOS 为例：
+  - `brew install node` ，并 `npm install -g protobufjs`
+    - 方便复制起见，可以在 creator 项目根目录也执行 `npm install protobufjs`
+  - 编译 `.proto` 文件，假设所在 creator 项目目录为 `myproj/assets/script/*.proto`
+    - `pbjs -t static-module -w commonjs -o proto.js *.proto`
+    - 得到：`myproj/assets/script/proto.js`
+  - 将 `node_modules/protobufjs/dist/minimal/` 中内容，移至 `myproj/assets/script/protobufjs/minimal/`
+    - 移动依据见 proto.js 前几行中，可自行修改：
+    ```javascript
+    var $protobuf = require("protobufjs/minimal");
+    ```
+  - 在需要处理 protobuffer 的地方，如： `myproj/assets/script/main.ts` 引入
+    ```typescript
+    import { AwesomeMessage } from "./proto.js";
+    // example code
+    let message = AwesomeMessage.create({ awesomeField: "hello" });
+    let buffer  = AwesomeMessage.encode(message).finish();
+    let decoded = AwesomeMessage.decode(buffer);
+    ```
+  - [Usage with TypeScript - Using generated static code](https://github.com/protobufjs/protobuf.js#using-generated-static-code)
 
 
 
@@ -90,3 +87,10 @@
     @property({serializable:false})
     private num = 0;
     ```
+
+
+
+## Resources
+- [cocos-creator/awesome](https://github.com/cocos-creator/awesome) Delightful Cocos Creator Utilities, Documents and more!
+- [awesome-cocos-creator](https://github.com/potato47/awesome-cocos-creator) Cocos Creator 资源汇总
+- [pomelo-cocos-creator-awesome](https://github.com/tumobi/pomelo-cocos-creator-awesome) 学习 pomelo 和 Cocos Creator 过程中收集的教程、麻将、斗地主棋牌项目

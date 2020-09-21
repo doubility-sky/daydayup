@@ -1,5 +1,9 @@
-# Learn
-- https://github.com/cloudwu/skynet/wiki ， [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)
+[Skynet](https://github.com/cloudwu/skynet) is a lightweight online game framework which can be used in many other fields.
+
+
+
+## Learn
+- [Official Wiki](https://github.com/cloudwu/skynet/wiki) - [GettingStarted](https://github.com/cloudwu/skynet/wiki/GettingStarted)
 - [云风博客的skynet标签](http://blog.codingnow.com/eo/skynet/)，详尽发展历史，建议倒序通读
 - 腾讯游戏开发者平台讲堂 - [“云风：基于 Actor 模式的开源框架”](http://gad.qq.com/content/coursedetail?id=467)
   - [The Free Lunch Is Over](http://www.gotw.ca/publications/concurrency-ddj.htm)
@@ -9,8 +13,7 @@
 - [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818)
 - [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
 
-### 设计理念
-- 作者的[设计综述](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)2012-09-03
+### [Design summary](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)
 - 单进程多线程
 - 核心功能：服务
 - 主张所有的服务都在同一个 OS 进程中协作完成
@@ -43,7 +46,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-# Service
+## Service
 - 定义
   - 从动态库（so 文件）中启动起来的一个符合规范的 C 模块，该模块称为服务(service)。
   - 每个服务都是被一个个消息包驱动，当没有包到来的时候，它们就会处于挂起状态，对 CPU 资源零消耗。
@@ -62,7 +65,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-# [[Lua]]
+## [[Lua]]
 - https://github.com/cloudwu/skynet/wiki/LuaAPI
 - 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
 - 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
@@ -74,7 +77,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-# Networks
+## Networks
 - https://github.com/cloudwu/skynet/wiki/Cluster
 - [skynet 的集群方案](http://blog.codingnow.com/2014/06/skynet_cluster.html)
 - 如果你仅仅是单台物理机的计算能力不足，那么最优的策略是选用更多核心的机器。
@@ -117,13 +120,11 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   为什么 skynet 提供的包协议只用 2 个字节表示包长度
 - http://blog.codingnow.com/2014/04/skynet_gate_lua_version.html  
   对 skynet 的 gate 服务的重构
-
-**摘要:**  
-> 目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 google proto buffer 用的 varint ，但最后都放弃了。  
-考虑到实现的便捷，通常收到长度后，会在内存考虑指定长度的 buffer 等待后续的数据输入。这样，如果有大量攻击者发送超长包头，就会让服务器内存瞬间消进。所以，这种协议只要实现的不小心，很容易变成攻击弱点。  
-注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。  
-游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。
-大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。  
+- **摘要:**
+  - *目前 skynet 的 gate 服务约定的协议是，2 字节( 大头编码）表示一个 64K 字节内的数据包，然后接下来就是这个长度的字节数。我曾经考虑过使用 4 字节或 [google proto buffer 用的 varint](https://developers.google.com/protocol-buffers/docs/encoding) ，但最后都放弃了。*
+  - *考虑到实现的便捷，通常收到长度后，会在内存考虑指定长度的 buffer 等待后续的数据输入。这样，如果有大量攻击者发送超长包头，就会让服务器内存瞬间消进。所以，这种协议只要实现的不小心，很容易变成攻击弱点。*
+  - *注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。*
+  - *游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。*
 
 ### Gate
 - `service_gate.c` 是一个早于 socket API 的解决大量网络链接的实现
@@ -139,12 +140,12 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 如果你需要一个网关帮你接入大量连接并转发它们到不同的地方处理。
   - service/gate.lua 可以直接使用，同时也是用于了解 skynet 的 socket 模块如何工作的不错的参考
   - 它还有一个功能近似的，但是全部用 C 编写的版本 service-src/service_gate.c 
+- **综上**
+  - `service/gate.lua`/`service_gate.c` 实现可以拿来参考，推荐用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能。
 
-**综上**：`service/gate.lua`/`service_gate.c` 实现可以拿来参考，推荐用 [Skynet Wiki: Socket](https://github.com/cloudwu/skynet/wiki/Socket) 来自行按需求来实现业务功能。
 
 
-
-# Practice
+## Practice
 ### [Build](https://github.com/cloudwu/skynet/wiki/Build)
 - https://github.com/dpull/skynet-mingw  
   windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
@@ -202,7 +203,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-# FAQs
+## FAQs
 - https://github.com/cloudwu/skynet/wiki/FAQ
 - [linux安装skynet问题总结](http://www.tuicool.com/articles/6JnAfar)
 - If you're running Linux and get compilation errors, make sure you have installed the readline development package (which is probably named `libreadline-dev` or `readline-devel`). If you get link errors after that, then try "make linux MYLIBS=-ltermcap".
