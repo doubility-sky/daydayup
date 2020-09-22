@@ -5,8 +5,8 @@
 
 
 ## Learn
-- https://github.com/utilForever/game-developer-roadmap
-- [A Study Path for Game Programmer](https://github.com/miloyip/game-programmer)
+- :star:[Game Developer Roadmap](https://github.com/utilForever/game-developer-roadmap): Roadmap to becoming a game developer in 2020, inspired by web-developer-roadmap.
+- [game-programmer](https://github.com/miloyip/game-programmer): A Study Path for Game Programmer
 - [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
 - [Game Development](https://gamedevelopment.tutsplus.com/), Free tutorials and online courses to help you learn game development from experienced industry instructors, for building and designing your own games.
 - [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
@@ -41,7 +41,8 @@
 - :star:[The Battle for Wesnoth](https://www.wesnoth.org/) is an [open source](https://github.com/wesnoth/wesnoth), turn-based tactical strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat. Fight a desperate battle to reclaim the throne of Wesnoth, or take hand in any number of other adventures.
 - [The Mana World](https://www.themanaworld.org/) (TMW) is a serious effort to create an innovative free and open source MMORPG. TMW uses 2D graphics and aims to create a large and diverse interactive world. It is licensed under the GPL, making sure this game can't ever run away from you.
 - [Quake](https://github.com/id-Software/Quake): This is the complete source code for winquake, glquake, quakeworld, and glquakeworld.
-- [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
+- Ephenation is a MMORPG client-server game. The purpose of the game is to allow adventures in an unlimited world and to create their your own adventures for others to play. The server is designed to handle large amount (~10000) of players.
+  - [ephenation-client](https://github.com/larspensjo/ephenation-client), [ephenation-server](https://github.com/larspensjo/ephenation-server)
 - [Unciv](https://github.com/yairm210/Unciv): An open-source Android/Desktop port of Civ V, Made with LibGDX on Android Studio
 
 
@@ -53,7 +54,7 @@
 
 
 ## Resources
-- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources)
+- [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) 🎮 🎲 A wonderful list of Game Development resources.
 - [Games on GitHub](https://github.com/leereilly/games) A list of popular/awesome videos games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine.
 - [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev), A curated list of good stuff related to the development of games. This list contains only [free software](https://www.fsf.org/about/what-is-free-software) for code, sellers who aren't evil for physical resources, and [free cultural works](http://freedomdefined.org/Definition) for assets.
 - [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.
