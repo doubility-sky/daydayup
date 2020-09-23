@@ -1,15 +1,15 @@
-- [[cocos2dx]]
-- [Cocos Creator](https://github.com/cocos-creator) is a flexible, efficient and data-driven game engine, focused on content creation.
-  - [Official Blog](https://www.cocos.com/category/blog), [Download Cocos Creator](https://www.cocos.com/creator)
-  - [engine](https://github.com/cocos-creator/engine), Cocos Creator is a complete package of game development tools and workflow, including a game engine, resource management, scene editing, game preview, debug and publish one project to multiple platforms. http://www.cocos2d-x.org/creator
-  - [cocos2d-x-lite](https://github.com/cocos-creator/cocos2d-x-lite), Lite version cocos2d-x based on Cocos Runtime; Cocos2d-x compact version, It is based on cocos2d-x[version 3.9], but remove 3D and other features. It works on iOS, Android, macOS and Windows.
+[Cocos Creator](https://github.com/cocos-creator) is a flexible, efficient and data-driven game engine, focused on content creation.
 
+- [Official Blog](https://www.cocos.com/category/blog), [Download Cocos Creator](https://www.cocos.com/creator)
+- [engine](https://github.com/cocos-creator/engine): This repo is the engine framework for Cocos Creator. Cocos Creator's in-editor scene view and web runtime share the same framework, which is the content of this repo. It's originally forked from [Cocos2d-html5](https://github.com/cocos2d/cocos2d-html5/), we build up an Entity Component architecture on it to meet the needs of Cocos Creator.
+- [cocos2d-x-lite](https://github.com/cocos-creator/cocos2d-x-lite): Lite version cocos2d-x based on Cocos Runtime; Cocos2d-x compact version, It is based on cocos2d-x[version 3.9], but remove 3D and other features. It works on iOS, Android, macOS and Windows.
+- [[cocos2dx]]
 
 
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
-- [cocos-creator/example-cases](https://github.com/cocos-creator/example-cases), Cocos Creator 开发范例
+- [Cocos Creator 开发范例](https://github.com/cocos-creator/example-cases): 本项目同时面向 Cocos Creator 引擎开发人员和最终用户，目的是建立一套贯穿开发、测试、学习使用的完整的功能范例。 [在线演示](https://cocos-creator.github.io/example-cases/)
 
 ### [Tutorial](https://github.com/cocos-creator?q=tutorial)
 - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
