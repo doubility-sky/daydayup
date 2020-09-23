@@ -23,7 +23,7 @@
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode、Java、C++、Python、后端面试、计算机操作系统、计算机网络、系统设计
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
 
-### Resume
+### resume
 - https://resume.io/
 - [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.
 - [Awesome CV](https://github.com/posquit0/Awesome-CV) is LaTeX template for your outstanding job application

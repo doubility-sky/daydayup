@@ -10,7 +10,7 @@
 - [ios-good-practices](https://github.com/futurice/ios-good-practices) Good ideas for iOS development, by Futurice developers. http://www.futurice.com
 - [iOS-InterviewQuestion-collection](https://github.com/liberalisman/iOS-InterviewQuestion-collection)
 
-### Courses
+### courses
 - [斯坦福大学公开课 ios7-objective-c](http://open.163.com/special/opencourse/ios7.html)
 - [斯坦福大学公开课 ios8-swift](http://open.163.com/special/opencourse/ios8.html)
 

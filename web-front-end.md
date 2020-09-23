@@ -47,6 +47,6 @@
 - https://github.com/sindresorhus/awesome#front-end-development
 - [Font-Awesome](https://github.com/FortAwesome/Font-Awesome) The iconic SVG, font, and CSS toolkit https://fontawesome.com
 
-### Books
+### books
 - [前端开发技术（HTML、CSS 和 JavaScript 等）值得推荐的书籍](https://www.zhihu.com/question/19809484/answer/1039653836)
 

@@ -88,7 +88,7 @@
 
 ## Practice
 
-### Sprite Sheet & texture atlas
+### sprite sheet & texture atlas
 - [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
 - [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
 

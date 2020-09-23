@@ -11,7 +11,7 @@
 - [whitelist](https://github.com/996icu/996.ICU/tree/master/whitelist)
 - [community-links](https://github.com/996icu/996.ICU#community-powers)
 
-### Celebrity
+### celebrity
 - [如何看待马云 4 月 11 日在内外直播中将 996 称为「修来的福报」？](https://www.zhihu.com/question/319774219/answer/649392437)
 - [如何看待2019年4月12日刘强东朋友圈回应996：「混日子的人不是我的兄弟」?](https://www.zhihu.com/question/319856949)
 

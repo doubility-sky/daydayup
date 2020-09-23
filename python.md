@@ -9,14 +9,13 @@ and integrate systems more effectively.
 ## Learn
 - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
-  - `python -m SimpleHTTPServer 8000`
-  - `python3 -m http.server`
+  - `python -m SimpleHTTPServer 8000` OR `python3 -m http.server`
 
-### Tutor
+### tutorial
 - [learn-python](https://github.com/trekhleb/learn-python) Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
 - [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor), Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution in your Web browser http://pythontutor.com/
 
-### Books
+### books
 - [A Byte of Python](https://python.swaroopch.com/)
 - [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
 - [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
@@ -52,7 +51,7 @@ and integrate systems more effectively.
 - [fbs](https://github.com/mherrmann/fbs) is the fastest way to create a Python GUI. It solves common pain points such as packaging and deployment. Based on Python and Qt, fbs is a lightweight alternative to Electron.
   - [tutorial](https://github.com/mherrmann/fbs-tutorial) for creating Python/Qt GUIs with fbs
 
-### Web
+### web
 - [Django](https://github.com/django/django), The Web framework for perfectionists with deadlines. https://www.djangoproject.com/
   - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.
 - [Flask](https://github.com/pallets/flask), The Python micro framework for building web applications. https://palletsprojects.com/p/flask/
@@ -61,7 +60,7 @@ and integrate systems more effectively.
   - [Introduction to Tornado](https://docs.hacknode.org/itt2zh/)
 - [Sanic](https://github.com/huge-success/sanic)is a Python 3.6+ web server and web framework that's written to go fast. It allows the usage of the `async/await` syntax added in Python 3.5, which makes your code non-blocking and speedy.
 
-### Others
+### others
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 
 

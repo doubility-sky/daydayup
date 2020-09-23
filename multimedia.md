@@ -49,7 +49,7 @@
 
 </details>
 
-### Optimization
+### optimization
 - [Essential Image Optimization](https://github.com/GoogleChrome/essential-image-optimization) - an eBook https://images.guide
   - [自动优化图像](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/automating-image-optimization?hl=zh-cn)
 - [Leanify](https://github.com/JayXon/Leanify) lightweight lossless file minifier/optimizer
@@ -59,9 +59,11 @@
 - [imgo](https://github.com/imgo/imgo) Image optimization tool http://imgo.github.com/imgo
   - https://www.jonof.id.au/kenutils.html macOS Homebrew users may install PNGOUT with: `brew install jonof/kenutils/pngout`
   - :no_entry_sign:对比 ppduck 速度太慢了，不推荐
-#### JPG/JPEG
+
+#### jpg/jpeg
 - [jpeg-archive](https://github.com/danielgtaylor/jpeg-archive) Utilities for archiving JPEGs for long term storage.
-#### PNG
+
+#### png
 - [Crunch](https://github.com/chrissimpkins/Crunch) Insane(ly slow but wicked good) PNG image optimization
 - :star:[pngquant](https://pngquant.org/)
   - GUI https://imageoptim.com/
@@ -69,7 +71,8 @@
     - `find . -name '*.png' -exec pngquant --ext .png --force 256 {} \;` 
     - `find . -name '*.png' -print0 | xargs -0 -P2 -L1 pngquant --ext .png --force 256` 多核处理(-P2)
 - ~~http://nullice.com/limitPNG , http://nullice.com/gluttonyPNG~~ 已无人维护，bug多，不推荐
-#### Paid
+
+#### paid
 - [tinypng](https://tinypng.com/) Smart PNG and JPEG compression
   - Free: Up to 20 images, max 5 MB each
 - :star:[ppduck](http://ppduck.com/) PP鸭整合了业内最优秀的数种开源的图片压缩算法，会自动根据图片特征自动选择压缩参数。只需要将图片拖入PP鸭，就能自动批量压缩，省时省心。

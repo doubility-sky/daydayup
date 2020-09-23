@@ -67,7 +67,7 @@
 - [Awesome StarCraft AI](https://github.com/SKTBrain/awesome-starcraftAI), A curated list of resources dedicated to StarCraft AI.
 - [PyGame Learning Environment](https://github.com/ntasfi/PyGame-Learning-Environment) (PLE) -- Reinforcement Learning Environment in Python.
 
-#### AlphaZero
+### AlphaZero
 - [AlphaZero_Gomoku](https://github.com/junxiaosong/AlphaZero_Gomoku), An implementation of the AlphaZero algorithm for Gomoku (also called Gobang or Five in a Row)
 - [Tencent/PhoenixGo](https://github.com/Tencent/PhoenixGo), Go AI program which implements the AlphaGo Zero paper
 - [leela-zero](https://github.com/leela-zero/leela-zero) Go engine with no human-provided knowledge, modeled after the AlphaGo Zero paper.

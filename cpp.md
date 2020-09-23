@@ -18,21 +18,21 @@
 - [boostorg/hana](https://github.com/boostorg/hana) Your standard library for metaprogramming http://boostorg.github.io/hana
 - [indicators](https://github.com/p-ranav/indicators) Activity Indicators for Modern C++
 
-### Memory
+### memory
 - [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
   - Also see [gperftools](https://github.com/gperftools/gperftools)
 
-### Serialization
+### serialization
 - [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format https://developers.google.com/protocol-buffers/
   - [protobuf.js](https://github.com/protobufjs/protobuf.js) Protocol Buffers for JavaScript (& TypeScript).
   - [protocolbuffers/upb](https://github.com/protocolbuffers/upb) a small protobuf implementation in C
   - [nanopb](https://github.com/nanopb/nanopb), Protocol Buffers with small code size https://jpa.kapsi.fi/nanopb/
 - [google/flatbuffers](https://github.com/google/flatbuffers): Memory Efficient Serialization Library http://google.github.io/flatbuffers/
 
-### Network
+### network
 - [The C++ Network Library Project](https://github.com/cpp-netlib/cpp-netlib) -- cross-platform, standards compliant networking library. http://cpp-netlib.org/
 
-### Coroutine
+### coroutine
 - [co](https://github.com/idealvin/co): A golang-style C++ coroutine library and more. An elegant and efficient C++ basic library for Linux, Windows and Mac. 
 - [The POCO C++ Libraries](https://github.com/pocoproject/poco) are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems. https://pocoproject.org
 - [Libco](https://github.com/Tencent/libco) is a c/c++ coroutine library that is widely used in WeChat services. It has been running on tens of thousands of machines since 2013.

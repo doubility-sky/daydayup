@@ -37,7 +37,7 @@
   - Do not use : shadowsocks-py, shadowsocoks-go, shadowsocoks-nodejs.  
   - Only Use: shadowsocks-libev, go-shadowsocks2 and only use the AEAD ciphers  
 
-### Solution
+### solution
 ```
 user-device <-> SS-cli <···> SS-svr <···> target
              |<--    doing proxy   -->|
@@ -51,7 +51,7 @@ user-device <-> SS-cli <···> SS-svr <···> target
 ## [kcptun](https://github.com/xtaci/kcptun)
 - A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64
 
-### Solution
+### solution
 ```
      user-device                      PROXY-SVR
   /               \                 /           \
@@ -70,7 +70,7 @@ user-device <-> SS-cli <···> SS-svr <···> target
 A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by using Raw Socket, helps you Bypass UDP FireWalls(or Unstable UDP Environment). It can defend Replay-Attack and supports Multiplexing. It also acts as a Connection Stabilizer.
 - [udp2raw-multiplatform](https://github.com/wangyu-/udp2raw-multiplatform) for macOS
 
-### Solution
+### solution
 ```
         user-device                         PROXY-SVR   
    /                    \               /               \
@@ -89,7 +89,7 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 - [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
 - [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
 
-### [Wireguard](https://www.wireguard.com/)
+### [WireGuard](https://www.wireguard.com/)
 - [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.
 - [Getting Started with WireGuard](https://miguelmota.com/blog/getting-started-with-wireguard/)
 - [Wireguard：简约之美](https://zhuanlan.zhihu.com/p/91383212)

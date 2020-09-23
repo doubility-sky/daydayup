@@ -20,7 +20,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [Official Documentation](https://git-scm.com/doc)
 - [Pro Git book](https://git-scm.com/book/en) - [zh-cn](https://git-scm.com/book/zh)
 
-### Tutorial
+### tutorial
 - [git - the simple guide](http://rogerdudler.github.io/git-guide/): just a simple guide for getting started with git. no deep shit ;)
 - [Backlog Git Tutorial](https://backlog.com/git-tutorial/) - [猴子都能懂的GIT入门](http://backlogtool.com/git-guide/cn/)
 - [Git for Computer Scientists](http://eagain.net/articles/git-for-computer-scientists/): Quick introduction to git internals for people who are not scared by words like [Directed Acyclic Graph](http://en.wikipedia.org/wiki/Directed_acyclic_graph) .
@@ -62,6 +62,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 
 
 ## [GitHub Guides](https://guides.github.com/)
+- [GitHub CLI](https://github.com/cli/cli): GitHub’s official command line tool
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet): A list of cool features of Git and GitHub.
 - [The gist gem](https://github.com/defunkt/gist) provides a gist command that you can use from your terminal to upload content to https://gist.github.com/.
 - [enhanced-github](https://github.com/softvar/enhanced-github/), [Chrome extension](https://chrome.google.com/webstore/detail/github-plus/anlikcnbgdeidpacdbdljnabclhahhmd) to display size of each file, download link and copy file contents directly to clipboard 

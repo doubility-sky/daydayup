@@ -5,7 +5,7 @@
 ## Learn
 - [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 
-### Architecture
+### architecture
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
   - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
@@ -20,7 +20,7 @@
 - [支付宝架构师眼中的高并发架构](https://cloud.tencent.com/developer/article/1417126)
 - [有赞服务化架构演进](https://cloud.tencent.com/developer/article/1522947)
 
-### Cloud Service
+### cloud service
 - [阿里云 - 高可用架构部署方案](https://help.aliyun.com/document_detail/137317.html?spm=5176.13910061.sslink.1.76864736DWeDXk)
   - 领军客户实战场景
     - [CDN](https://cn.aliyun.com/product/cdn)

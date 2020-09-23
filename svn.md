@@ -10,7 +10,7 @@
 - `svn help`
 - [SVN常用命令](https://gaomf.cn/2017/03/30/SVN/)
 
-### Ignore
+### ignore
 - [svn ignore 的用法](http://www.cnblogs.com/youxin/p/6624704.html)
 - [使用命令行设置svn忽略列表](http://www.cnblogs.com/yuanyq/p/3667190.html)
 - `svn propset svn:ignore 'xxx' xdir` 为 `xdir` 添加 `xxx` 忽略内容

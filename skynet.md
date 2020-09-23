@@ -13,7 +13,7 @@
 - [skynet文稿汇总](https://www.zybuluo.com/wsd1/note/413818)
 - [skynet源码赏析](https://note.youdao.com/share/?id=9d2b8a03fdd9cd4947ca4128d30af420&type=note#/)
 
-### [Design summary](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)
+### [design summary](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)
 - 单进程多线程
 - 核心功能：服务
 - 主张所有的服务都在同一个 OS 进程中协作完成
@@ -25,7 +25,7 @@
 - [《七周七并发模型》第五章Actor总结](http://ifeve.com/concurrency-modle-seven-week-actor-5/)
 - [以Akka为示例，介绍Actor模型](http://www.infoq.com/cn/news/2014/11/intro-actor-model)
 
-### Source Architecture
+### source code architecture
 以下为 Skynet 源码（目录）架构，源码文件解析见 [[skynet source files]]
 ```C
 Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
@@ -88,7 +88,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - [重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)
     + 摘:*此外，对于松散的集群结构，我推荐使用 skynet 的单结点模式，在上层用 tcp 连接互连，并只使用简单的 rpc 协议。在目前的 skynet 版本中，有封装好的 cluster 模块 可供使用。*
 
-### ~~Master/Slave~~ - **Deprecated!**
+### ~~master/slave~~ - **Deprecated!**
 - 对单台物理机计算能力不足情况下的补充
 - 整个网络中任意一个节点都必须正常工作，节点间的联系也不可断开。  
     1. 这就好比你一台物理机上如果插了多块 CPU ，任意一个损坏都会导致整台机器不能正常工作一样。
@@ -105,7 +105,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   - harbor id 用 handle 高8位来标记
   - 每个消息包产生的时候，skynet 框架会把自己的 harbor id 编码到源地址（handle）的高 8 位
 
-### Cluster
+### cluster
 - 多组 Master/Slave 网络。
 - 部署多组 master/slave 网络，然后再用 cluster 将它们联系起来。
 - 比较简单的结构是，每个集群中每个节点都配置为单节点模式（将 harbor id 设置为 0）。
@@ -113,7 +113,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
     - 此外，对于松散的集群结构，我推荐使用 skynet 的单结点模式，在上层用 tcp 连接互连，并只使用简单的 rpc 协议。
 - [cluster query/call 不存在的node，永久挂起问题](https://github.com/cloudwu/skynet/pull/819#issuecomment-381824733)
 
-### Net packet
+### net packet
 - http://blog.codingnow.com/2015/08/skynet_cluster_rpc_limit.html  
   去掉 skynet 中 cluster rpc 的消息长度限制
 - http://blog.codingnow.com/2015/01/skynet_netpack.html  
@@ -126,7 +126,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   - *注：skynet 最早期的 gate 实现反而没有这个问题。因为它使用了单一的 [ringbuffer](http://blog.codingnow.com/2012/04/mread.html) ，只发送包头却不发送数据的连接会在 ringbuffer 回绕的时候被踢掉。*
   - *游戏服务器如果只使用一条 TCP 长连接的情况下，单个数据包过大（> 64K），也是不合适的。大包会阻塞应用逻辑（收取和发送它们都需要很长的时间），如果在应用层有心跳控制的话，也很容易造成心跳超时。所以一般在应用层对大数据包再做上层协议的切割处理。*
 
-### Gate
+### gate
 - `service_gate.c` 是一个早于 socket API 的解决大量网络链接的实现
 - [Skynet Wiki](https://github.com/cloudwu/skynet/wiki)：*要做到给客户端提供服务，还需要使用 Socket API ，或者使用已经编写好的 GateServer 模板解决大量客户端接入的问题。*
 - [设计综述](http://blog.codingnow.com/2012/09/the_design_of_skynet.html)中搜索 gate，云风曾回复道：
@@ -146,21 +146,22 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 ## Practice
-### [Build](https://github.com/cloudwu/skynet/wiki/Build)
+
+### [build](https://github.com/cloudwu/skynet/wiki/Build)
 - https://github.com/dpull/skynet-mingw  
   windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
 
-### Tools
+### tools
 - https://github.com/cloudwu/skynet/wiki/Profile
 - https://github.com/cloudwu/skynet/wiki/DebugConsole
 
-### Snax - **deprecated!**
+### snax - **deprecated!**
 - https://github.com/cloudwu/skynet/wiki/Snax
 - [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
 - [RPC 之恶](http://blog.codingnow.com/2015/11/rpc.html) - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
 - **综上**：snax拿来参考学习即可，无需深究。
 
-### [Skynet Dev Blog](http://blog.codingnow.com/eo/skynet/)
+### [skynet development blog](http://blog.codingnow.com/eo/skynet/)
 链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
 - 三国志战略版服务器卡顿问题 https://blog.codingnow.com/2019/10/sanguo.html
 - 代理服务和过载保护 https://blog.codingnow.com/2016/05/skynet_proxy.html
@@ -189,10 +190,10 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - 并发问题 bug 小记 http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
   > 在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...
 
-### Issues
+### issues
 - 开服问题 https://github.com/cloudwu/skynet/issues/560#issuecomment-264356777
 
-### Others
+### others
 - [Skynet交流](http://www.dpull.com/blog/2014-12-13-skynet_meeting)
   - agent启动后进行一次GC
     - lua 的 GC只关注自身占用了多大内存，然后在合适的时候进行GC，agent再启动时通常会产生一些临时数据，主动GC，会节约很多内存。

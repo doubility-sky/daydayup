@@ -1,15 +1,21 @@
-- https://www.android.com/
+[Android](https://www.android.com/) is a [mobile operating system](https://en.wikipedia.org/wiki/Mobile_operating_system) based on a modified version of the [[Linux]] kernel and other open source software, designed primarily for touchscreen mobile devices such as [smartphones](https://en.wikipedia.org/wiki/Smartphone) and tablets. Android is developed by a consortium of developers known as the Open Handset Alliance and commercially sponsored by Google. It was unveiled in November 2007, with the [first commercial Android device](https://en.wikipedia.org/wiki/HTC_Dream) launched in September 2008.
+
+
 - https://developer.android.com/index.html
 
 
 
 ## Learn
-- https://github.com/mobile-roadmap/android-developer-roadmap
-- [Training for Android developers](https://developer.android.com/training/index.html) - [中文版](http://hukai.me/android-training-course-in-chinese/)
-- [Android Studio系列教程](http://stormzhang.com/categories.html#devtools-ref)
-- https://github.com/futurice/android-best-practices
-- https://github.com/inferjay/AndroidDevTools
-- https://github.com/MindorksOpenSource/android-interview-questions
+- [Android Developer Roadmap](https://github.com/mobile-roadmap/android-developer-roadmap)
+- [Training for Android developers](https://developer.android.com/training/index.html) - [zh-cn](http://hukai.me/android-training-course-in-chinese/)
+- [Android Examples](https://github.com/nisrulz/android-examples) :shipit: [Examples] Simple basic isolated apps, for budding android devs.
+- [Android Tips & Tricks](https://github.com/nisrulz/android-tips-tricks) ☑️ [Cheatsheet] Tips and tricks for Android Development
+
+
+
+## Practice
+- [Best practices in Android development](https://github.com/futurice/android-best-practices): Do's and Don'ts for Android development, by Futurice developers
+- [Android Interview Questions](https://github.com/MindorksOpenSource/android-interview-questions)
 
 
 
@@ -31,8 +37,9 @@
 
 ## FAQs
 - 旋转引起 Activity 销毁、创建
-  - https://blog.csdn.net/u011421608/article/details/50883665
-  - https://www.cnblogs.com/lbfamous/p/5144425.html
+  - [Android旋转屏幕时阻止activity重建](https://blog.csdn.net/u011421608/article/details/50883665)
+    - `android:configChanges="orientation|screenSize"`
+  - [最近碰到的接微信支付引起的坑爹问题](https://www.cnblogs.com/lbfamous/p/5144425.html)
 - [AndroidStudio 代码全红，但可正常运行解决方法及解决后续代理的问题](https://blog.csdn.net/liujie33852964/article/details/80590554)
   - File -> Invalidate Caches/Restart...
 
@@ -41,4 +48,5 @@
 ## Resources
 - [Awesome Android](https://github.com/JStumpp/awesome-android), A curated list of awesome Android libraries and resources. For general Java libraries have a look at [awesome-java](https://github.com/akullpp/awesome-java).
 - [Open-Source Android Apps](https://github.com/pcqpcq/open-source-android-apps), This is a collection of Android Apps which are open source.
+- [AndroidDevTools](https://github.com/inferjay/AndroidDevTools): 收集整理Android开发所需的Android SDK、开发中用到的工具、Android开发教程、Android设计规范，免费的设计素材等。
 

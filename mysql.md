@@ -39,7 +39,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   - Run `mysqld/mysqld_safe &`
   - Stop `mysqladmin -uroot -p shutdown`
 
-### Configuration
+### configuration
 - [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
 - 开启binlog：配置文件中设置 `log-bin=mysql-bin`
 - 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`

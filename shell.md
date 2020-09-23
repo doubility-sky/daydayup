@@ -5,10 +5,8 @@
 ## Learn
 - [bash-tutorial](https://github.com/wangdoc/bash-tutorial) 本教程介绍 Linux 命令行 Bash 的基本用法和脚本编程。 https://wangdoc.com/bash/
   - [ruanyf/simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) A collection of simple Bash scripts
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. 
-  - [命令行的艺术](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-- :star:[The Linux Command Line](http://linuxcommand.org/)
-  - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-cn](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- :star:[The Linux Command Line](http://linuxcommand.org/) - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Linux命令大全](https://man.linuxde.net/)
 - [改进你的命令行工具](https://docs.xindong.com/utilities/cli-improved.html)
@@ -49,7 +47,7 @@
 - [explainshell](https://github.com/idank/explainshell/) is a tool (with a web interface) capable of parsing man pages, extracting options and explain a given command-line by matching each argument to the relevant help text in the man page. http://www.explainshell.com/
 - [cheat](https://github.com/cheat/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 - [shellcheck](https://github.com/koalaman/shellcheck), a static analysis tool for shell scripts https://www.shellcheck.net
-- [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) A curated list of command line apps
+- [cli](https://github.com/urfave/cli) is a simple, fast, and fun package for building command line apps in Go. The goal is to enable developers to write fast and distributable command line applications in an expressive way.
 
 ### [[Python]]
 - [我可以使用Python作为Bash替换吗？](http://www.tracholar.top/2018/06/08/can-i-use-python-as-a-bash-replacement/)
@@ -90,4 +88,5 @@
 ## Resources
 - https://github.com/alebcay/awesome-shell
 - https://github.com/awesome-lists/awesome-bash
+- [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) A curated list of command line apps
 

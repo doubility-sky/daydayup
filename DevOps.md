@@ -3,7 +3,11 @@
 
 
 - [Let's talk DevOps job titles](https://mattouille.com/articles/2018-06/lets-talk-devops-job-titles/)
-- [持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)
+
+
+
+## Learn
+- [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap#devops-roadmap)
 
 
 
@@ -30,3 +34,7 @@ In software engineering, continuous integration (CI) is the practice of merging 
 - [DevOps工具链](https://www.cnblogs.com/fadewalk/p/10808436.html)
 - [20+最好的持续集成工具](https://cloud.tencent.com/developer/article/1438822)
 
+
+
+## FAQs
+- [持续集成是什么？](http://www.ruanyifeng.com/blog/2015/09/continuous-integration.html)

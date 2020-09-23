@@ -97,10 +97,10 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - [comcast](https://github.com/tylertreat/comcast) Simulating shitty network connections so you can build better systems.
 - [Netdata](https://github.com/netdata/netdata) is distributed, real-time, performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.
 
-### Analyzer
+### analyzer
 - [Wireshark](https://github.com/wireshark/wireshark) Wireshark is a network traffic analyzer, or "sniffer", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries. https://www.wireshark.org/
 
-### Download
+### download
 - [aria2](https://github.com/aria2/aria2) is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. https://aria2.github.io/
   - [webui-aria2](https://github.com/ziahamza/webui-aria2) The aim for this project is to create the worlds best and hottest interface to interact with aria2. Very simple to use, just download and open index.html in any web browser.
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg. https://www.qbittorrent.org/

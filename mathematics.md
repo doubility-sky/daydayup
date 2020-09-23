@@ -14,10 +14,10 @@ Mathematics is essential in many fields, including natural science, engineering,
 - [Interactive Mathematics](https://www.intmath.com/) Learn math while you play with it
 - At [Art of Problem Solving](https://artofproblemsolving.com/), we are training the intellectual leaders of the next generation. We help students develop the problem-solving skills they need to confidently tackle challenging problems—and not only in mathematics.
 
-### Books
+### books
 - [BYRNE’S EUCLID](https://www.c82.net/euclid/) THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID WITH COLOURED DIAGRAMS AND SYMBOLS
 
-### Sites
+### sites
 - [mathworld](https://mathworld.wolfram.com/)
 - [brilliant](https://brilliant.org/) Build quantitative skills in math, science, and computer science with fun and challenging interactive explorations.
 - [mathpuzzle](http://www.mathpuzzle.com/)
@@ -29,14 +29,14 @@ Mathematics is essential in many fields, including natural science, engineering,
 ## [Calculus](https://en.wikipedia.org/wiki/Calculus)
 - [Calculus Explained with pics and gifs](https://0a.io/chapter1/calculus-explained.html)
 
-### Books
+### books
 - [Calculus Made Easy](http://calculusmadeeasy.org/) is a book on calculus originally published in 1910 by Silvanus P. Thompson, considered a classic and elegant introduction to the subject.
 
 
 
 ## [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
 
-### Books
+### books
 - [Free Linear Algebra textbook](http://joshua.smcvt.edu/linearalgebra/) is a text for a first US undergraduate Linear Algebra course. You can use it as a main text, as a supplement, or for independent study.
 - [Introduction to Linear Algebra](https://github.com/QBobWatson/gt-linalg), free online textbook at Georgia Tech
 
@@ -44,7 +44,7 @@ Mathematics is essential in many fields, including natural science, engineering,
 
 ## [Statistics](https://en.wikipedia.org/wiki/Statistics)
 
-### Books
+### books
 - [Statistics Done Wrong](https://www.statisticsdonewrong.com/index.html) is a guide to the most popular statistical errors and slip-ups committed by scientists every day, in the lab and in peer-reviewed journals. Many of the errors are prevalent in vast swaths of the published literature, casting doubt on the findings of thousands of papers. Statistics Done Wrong assumes no prior knowledge of statistics, so you can read it before your first statistics course or after thirty years of scientific practice.
 - [Introduction to Probability, Statistics, and Random Processes](https://probabilitycourse.com/)
 

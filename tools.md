@@ -33,7 +33,7 @@
 - [code-server](https://github.com/cdr/code-server) VS Code in the browser
 - [史上最全vscode配置使用教程](https://zhuanlan.zhihu.com/p/113222681)
 
-### VSCode Extensions
+#### extensions
 - https://code.visualstudio.com/docs/editor/variables-reference
 - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
 - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)

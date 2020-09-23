@@ -1,41 +1,43 @@
-- http://golang.org/  `godoc -http=:6060`
-- https://talks.golang.org/
+[Go](http://golang.org/) is an open source programming language that makes it easy to build **simple**, **reliable**, and **efficient** software.
+
+
+- https://golang.org/doc/ - `godoc -http=:6060`
 - https://github.com/golang/go/wiki
-- https://github.com/avelino/awesome-go
+- https://talks.golang.org/
 
 
 
 ## Learn
-- Philosophy
-  - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism) by [Rob Pike](golang/#creators)
-    - [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) 
-  - [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes)  
-    - http://www.usingcsp.com/cspbook.pdf by [Hoare](http://c2.com/cgi/wiki?CarHoare)
-- Quick start
-  - [A Tour of Go](https://tour.golang.org/)
-  - [Go by Example](https://gobyexample.com/) 
-  - [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
-- Books
-  - [The Go Programming Language](https://www.gopl.io/) 
-    - [Go语言圣经](https://docs.hacknode.org/gopl-zh/)，by [gopl-zh](https://github.com/golang-china/gopl-zh)
-  - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang)
-  - [Go 语言设计与实现](https://draveness.me/golang/)
-- Standard & Style
-  - [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
-  - [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments)
-  - [Go编码规范指南](https://gocn.io/article/1)
-  - [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ
-  - [uber-go/guide](https://github.com/uber-go/guide) The Uber Go Style Guide.
-- Source code analysis
-  - [深入解析Go](https://github.com/tiancaiamao/go-internals)
-  - [Go Under The Hood](https://github.com/changkun/go-under-the-hood): A Source Code Study of Go (1.14, WIP) https://changkun.de/golang
-  - [Go1.5源码剖析](https://github.com/qyuhen/book)
-  - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
-- Others
-  - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
-  - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
-  - [Go Data Structures](https://research.swtch.com/godata)
-- [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer in 2020
+- [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer
+
+### quick start
+- [A Tour of Go](https://tour.golang.org/) with [The Go Playground](https://play.golang.org/)
+- [Go by Example](https://gobyexample.com/) 
+- [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+
+### philosophy
+- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](golang/#creators) 
+- [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - [cspbook.pdf](http://www.usingcsp.com/cspbook.pdf) by [Hoare](http://c2.com/cgi/wiki?CarHoare)
+
+### books
+- [The Go Programming Language](https://www.gopl.io/) - [zh-cn](https://docs.hacknode.org/gopl-zh/), by [gopl-zh](https://github.com/golang-china/gopl-zh)
+- [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang): A golang ebook intro how to build a web with golang
+- [Go 语言设计与实现](https://draveness.me/golang/)
+- [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
+
+### standard & style
+- [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
+- [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments): This page collects common comments made during reviews of Go code, so that a single detailed explanation can be referred to by shorthands. This is a laundry list of common mistakes, not a comprehensive style guide.
+- [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ
+- [uber-go/guide](https://github.com/uber-go/guide) The Uber Go Style Guide.
+
+### advanced contents
+- [What Go values look like in memory?](https://research.swtch.com/godata): This post is about basic types, structs, arrays, and slices.
+- [go-perfbook](https://github.com/dgryski/go-perfbook) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
+- [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
+- [Go 语言原本](https://github.com/changkun/go-under-the-hood): 一份不太简短的源码研究 - [在线阅读](https://golang.design/under-the-hood)
+- [Go1.5源码剖析](https://github.com/qyuhen/book)
+- [深入解析Go](https://github.com/tiancaiamao/go-internals): dig into implemention of the go programming language
 
 
 
@@ -102,3 +104,10 @@
 - [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
 - [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 - [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)
+
+
+
+## Resources
+- [Awesome Go](https://github.com/avelino/awesome-go): A curated list of awesome Go frameworks, libraries and software
+- [Go Developer Roadmap's Resources](https://github.com/Alikhll/golang-developer-roadmap#resources)
+- [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
