@@ -58,6 +58,7 @@
 ### recommend
 - [[godot]], [libGDX](https://github.com/libGDX/libGDX)
 - [panda3d](https://github.com/panda3d/panda3d), Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU https://www.panda3d.org/
+- [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine): A complete 3D game development suite written purely in Java.
 - [[cocos creator]]
 
 ### nonfree

@@ -37,6 +37,7 @@
 - https://code.visualstudio.com/docs/editor/variables-reference
 - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
 - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+- [Visualize Data Structures in VSCode](https://addyosmani.com/blog/visualize-data-structures-vscode/)
 
 
 
