@@ -1,5 +1,4 @@
-[Python](https://www.python.org) is a programming language that lets you work quickly
-and integrate systems more effectively.
+[Python](https://www.python.org) is a programming language that lets you work quickly and integrate systems more effectively. >>>[Learn More](https://www.python.org/doc/)
 
 - [[pygame]]
 - [python for shell](shell#python)
@@ -17,8 +16,9 @@ and integrate systems more effectively.
 
 ### books
 - [A Byte of Python](https://python.swaroopch.com/)
-- [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/)
-- [Python best practices guidebook, written for humans.](https://github.com/realpython/python-guide)
+- [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/): a textbook for a first course in computer science for the next generation of scientists and engineers
+- :star:[Full Stack Python](https://www.fullstackpython.com/) is an [open source book](https://github.com/mattmakai/fullstackpython.com) that explains technical concepts in plain language. 
+- [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide): Python best practices guidebook, written for humans.
 - [《Python Cookbook》 3rd Edition Translation](https://github.com/yidao620c/python3-cookbook)
 
 
@@ -42,6 +42,12 @@ and integrate systems more effectively.
 ## Frameworks
 - [Twisted](https://github.com/twisted/twisted) is an event-based framework for internet applications, supporting Python 2.7 and Python 3.5+.
 
+### [web](https://wiki.python.org/moin/WebFrameworks)
+- [Django](https://github.com/django/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+- [Tornado](https://github.com/tornadoweb/tornado) is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user. 
+  - [Introduction to Tornado](https://docs.hacknode.org/itt2zh/)
+- [Flask](https://github.com/pallets/flask) is a lightweight [WSGI](https://wsgi.readthedocs.io/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around [Werkzeug](https://www.palletsprojects.com/p/werkzeug/) and [Jinja](https://www.palletsprojects.com/p/jinja/) and has become one of the most popular Python web application frameworks.
+
 ### GUI
 - [Kivy](https://github.com/kivy/kivy): Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
   - [python-for-android](https://github.com/kivy/python-for-android) is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK along with your own code.
@@ -51,22 +57,12 @@ and integrate systems more effectively.
 - [fbs](https://github.com/mherrmann/fbs) is the fastest way to create a Python GUI. It solves common pain points such as packaging and deployment. Based on Python and Qt, fbs is a lightweight alternative to Electron.
   - [tutorial](https://github.com/mherrmann/fbs-tutorial) for creating Python/Qt GUIs with fbs
 
-### web
-- [Django](https://github.com/django/django), The Web framework for perfectionists with deadlines. https://www.djangoproject.com/
-  - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without needing to reinvent the wheel. It's free and open source.
-- [Flask](https://github.com/pallets/flask), The Python micro framework for building web applications. https://palletsprojects.com/p/flask/
-  - Flask is a lightweight [WSGI](https://wsgi.readthedocs.io/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around [Werkzeug](https://www.palletsprojects.com/p/werkzeug/) and [Jinja](https://www.palletsprojects.com/p/jinja/) and has become one of the most popular Python web application frameworks.
-- [Tornado](https://github.com/tornadoweb/tornado) is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user.
-  - [Introduction to Tornado](https://docs.hacknode.org/itt2zh/)
-- [Sanic](https://github.com/huge-success/sanic)is a Python 3.6+ web server and web framework that's written to go fast. It allows the usage of the `async/await` syntax added in Python 3.5, which makes your code non-blocking and speedy.
-
 ### others
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 
 
 
 ## Crawlers
-- https://github.com/facert/awesome-spider
 - [scrapy](https://scrapy.org/), An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [pyspider](https://github.com/binux/pyspider), A Powerful Spider(Web Crawler) System in Python. http://docs.pyspider.org/
 - [Portia](https://github.com/scrapinghub/portia) is a tool that allows you to visually scrape websites without any programming knowledge required. With Portia you can annotate a web page to identify the data you wish to extract, and Portia will understand based on these annotations how to scrape data from similar pages.
@@ -90,3 +86,4 @@ and integrate systems more effectively.
 - [Awesome Python](https://github.com/vinta/awesome-python), A curated list of awesome Python frameworks, libraries, software and resources https://awesome-python.com/
 - [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。http://jobbole.github.io/awesome-python-cn/
 - [PythonShare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
+- [awesome-spider](https://github.com/facert/awesome-spider) - 爬虫集合
