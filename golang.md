@@ -56,6 +56,11 @@
 - [ray](https://github.com/ray-project/ray) A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. https://ray.io
 - [go-micro](https://github.com/micro/go-micro) A Go microservices development framework https://go-micro.dev
 
+### [web](https://github.com/speedwheel/awesome-go-web-frameworks)
+- [beego](https://github.com/astaxie/beego) is used for rapid development of RESTful APIs, web apps and backend services in Go. It is inspired by [Tornado](python#Frameworks), Sinatra and [Flask](python#Frameworks). beego has some Go-specific features such as interfaces and struct embedding.
+- [gin](https://github.com/gin-gonic/gin) is a web framework written in Go (Golang). It features a martini-like API with performance that is up to 40 times faster thanks to [httprouter](https://github.com/julienschmidt/httprouter). If you need performance and good productivity, you will love Gin.
+- [iris](https://github.com/kataras/iris) is a fast, simple yet fully featured and very efficient web framework for Go.
+
 
 
 ## [[Game Development]]
