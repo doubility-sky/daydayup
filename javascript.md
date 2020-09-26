@@ -7,19 +7,20 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 - [[node.js]]
 - [[typescript]]
-- [[react]], [[vue]]
-- [awesome-javascript](https://github.com/sorrycc/awesome-javascript) A collection of awesome browser-side JavaScript libraries, resources and shiny things.
 
 
 ## Learn
 - :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
+- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
+
+### tutorial
 - [The Modern JavaScript Tutorial](https://github.com/javascript-tutorial) - [read online](https://javascript.info/)
 - [Javascript tutorial book](https://github.com/ruanyf/jstutorial) - http://javascript.ruanyifeng.com
-  - [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) - https://wangdoc.com/javascript
+- [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) - https://wangdoc.com/javascript
+
+### books
 - [ES6 入门教程](http://es6.ruanyifeng.com/)
-  - [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
-  - [ECMAScript 6 简介](http://es6.ruanyifeng.com/#docs/intro)
-- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
+- [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
 - [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) A book series on JavaScript. @YDKJS on twitter.
 
 ### coding style
@@ -39,6 +40,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 
 ## Frameworks
+- [[react]], [[vue]]
 - [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
 
 
@@ -59,15 +61,10 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 ## Engine
 - [V8](https://v8.dev/) is Google’s open source high-performance JavaScript and WebAssembly engine, written in C++. It is used in Chrome and in Node.js, among others. It implements [ECMAScript](https://tc39.es/ecma262/) and [WebAssembly](https://webassembly.github.io/spec/core/), and runs on Windows 7 or later, macOS 10.12+, and Linux systems that use x64, IA-32, ARM, or MIPS processors. V8 can run standalone, or can be embedded into any C++ application.
-- [QuickJS Javascript Engine](https://bellard.org/quickjs/)
-  - QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators and proxies.
-  - It optionally supports mathematical extensions such as big integers (BigInt), big floating point numbers (BigFloat) and operator overloading.
-- [mJS: Restricted JavaScript engine](https://github.com/cesanta/mjs), Embedded JavaScript engine for C/C++
-  - mJS is designed for microcontrollers with limited resources. Main design goals are: small footprint and simple C/C++ interoperability. mJS implements a strict subset of ES6 (JavaScript version 6):
-    - Any valid mJS code is a valid ES6 code.
-    - Any valid ES6 code is not necessarily a valid mJS code.
-  - On 32-bit ARM mJS engine takes about 50k of flash memory, and less than 1k of RAM (see intro article). mJS is part of MongooseOS, where it enables scripting for IoT devices.
+- [QuickJS](https://github.com/bellard/quickjs) is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators and proxies.  
+It optionally supports mathematical extensions such as big integers (BigInt), big floating point numbers (BigFloat) and operator overloading.
 - [jerryscript](https://github.com/jerryscript-project/jerryscript) is a lightweight JavaScript engine for resource-constrained devices such as microcontrollers. It can run on devices with less than 64 KB of RAM and less than 200 KB of flash memory.
+- [mJS](https://github.com/cesanta/mjs) is designed for microcontrollers with limited resources. Main design goals are: small footprint and simple C/C++ interoperability. mJS implements a strict subset of ES6 (JavaScript version 6)
 
 
 
@@ -96,3 +93,9 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
       3. 对象没有赋值的属性，该属性的值为 undefined。
       4. 函数没有返回值时，默认返回 undefined。
 - [你真的会使用XMLHttpRequest吗？](https://segmentfault.com/a/1190000004322487)
+
+
+
+## Resources
+- [awesome-javascript](https://github.com/sorrycc/awesome-javascript) A collection of awesome browser-side JavaScript libraries, resources and shiny things.
+
