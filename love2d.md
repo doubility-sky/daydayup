@@ -1,8 +1,4 @@
-[LÖVE](https://love2d.org/) is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.
-
-
-- https://github.com/love2d/love
-- https://github.com/love2d-community/awesome-love2d
+[LÖVE](https://github.com/love2d/love) is an *awesome* framework you can use to make 2D games in Lua. It's free, open-source, and works on Windows, Mac OS X, Linux, Android and iOS.
 
 
 
@@ -24,3 +20,8 @@
 - [Lurker](https://github.com/rxi/lurker) A small module which automatically hotswaps changed Lua files in a running LÖVE project.
 - [lovebird](https://github.com/rxi/lovebird) A browser-based debug console for the LÖVE framework.
 - [hump](https://github.com/vrld/hump) is a small collection of tools for developing games with LÖVE.
+
+
+
+## Resources
+- https://github.com/love2d-community/awesome-love2d

@@ -10,8 +10,6 @@
 - [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
 - [Game Development](https://gamedevelopment.tutsplus.com/), Free tutorials and online courses to help you learn game development from experienced industry instructors, for building and designing your own games.
 - [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
-- [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
-- [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc
 
 
 
@@ -65,4 +63,5 @@
 - [Awesome PICO-8](https://github.com/felipebueno/awesome-PICO-8), A curated list of PICO-8 resources, tutorials, tools and more.   
  PICO-8 is a fantasy console for making, sharing and playing tiny games and other computer programs. When you turn it on, the machine greets you with a shell for typing in a subset of [[Lua]] commands and provides simple built-in tools for creating your own cartridges.
 - [Awesome Chess](https://github.com/hkirat/awesome-chess), A curated list of assets availible on the Internet related to chess.
-
+- [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
+- [Awesome Educational Games](https://github.com/yrgo/awesome-eg), A curated list of awesome educational games to learn editors, languages, programming, etc

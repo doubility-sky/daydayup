@@ -4,7 +4,6 @@ Lua combines simple procedural syntax with powerful data description constructs 
 
 
 - [Roberto Ierusalimschy](http://www.inf.puc-rio.br/~roberto/index.html) • [Talks](http://www.inf.puc-rio.br/~roberto/talks/)
-- [Awesome Lua](https://github.com/LewisJEllis/awesome-lua): A curated list of quality Lua packages and resources.
 
 
 
@@ -16,7 +15,7 @@ Lua combines simple procedural syntax with powerful data description constructs 
 - [[lua coding style]]
 - [Lua: Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
 
-#### [Source Code](http://lua-users.org/wiki/LuaSource)
+### [Source Code](http://lua-users.org/wiki/LuaSource)
 - <details> <summary> Which OSS codebases out there are so well designed that you would consider them 'must reads'? </summary>
 
   https://www.reddit.com/r/programming/comments/63hth/ask_reddit_which_oss_codebases_out_there_are_so/
@@ -76,4 +75,9 @@ Lua combines simple procedural syntax with powerful data description constructs 
 - [DCLua](https://github.com/milochristiansen/lua) A Lua 5.3 VM and compiler written in Go.
 - [一个 Lua 内存泄露检查工具](http://blog.codingnow.com/2012/12/lua_snapshot.html)
 - [浅析android手游lua脚本的加密与解密](https://bbs.pediy.com/thread-216969-1.htm)
-- [Awesome](https://github.com/awesomeWM/awesome) is a highly configurable, next generation framework window manager for X.
+- [Awesome window manager](https://github.com/awesomeWM/awesome) is a highly configurable, next generation framework window manager for X.
+
+
+
+## Resources
+- [Awesome Lua](https://github.com/LewisJEllis/awesome-lua): A curated list of quality Lua packages and resources.

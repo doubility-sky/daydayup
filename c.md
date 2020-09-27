@@ -1,5 +1,9 @@
-- [C, the Enduring Legacy of Dennis Ritchie](http://www.cs.columbia.edu/~aho/Talks/12-09-07_DMR.pdf), A tribute to the late Dennis Ritchie delivered at Dennis Ritchie Day at Bell Labs, Murray Hill, NJ, September 7, 2012
+[C](https://en.wikipedia.org/wiki/C_(programming_language)) (/siː/, as in the letter c) is a [general-purpose](https://en.wikipedia.org/wiki/General-purpose_language), [procedural](https://en.wikipedia.org/wiki/Procedural_programming) computer [programming language](https://en.wikipedia.org/wiki/Programming_language) supporting [structured programming](https://en.wikipedia.org/wiki/Structured_programming), [lexical variable scope](https://en.wikipedia.org/wiki/Lexical_variable_scope), and [recursion](https://en.wikipedia.org/wiki/Recursion_(computer_science)), with a [static type system](https://en.wikipedia.org/wiki/Static_type_system). 
+
+
+- [C, the Enduring Legacy of Dennis Ritchie](http://www.cs.columbia.edu/~aho/Talks/12-09-07_DMR.pdf), A tribute to the late Dennis Ritchie delivered at Dennis Ritchie Day at Bell Labs, Murray Hill, NJ, September 7, 2012. 
   - [C, Dennis Ritchie的不朽遗产](https://www.ituring.com.cn/article/12901)
+  - [C语言：丹尼斯·里奇的不朽遗产](https://www.ituring.com.cn/article/14315)
 - [c++](cpp)
 - [c--](https://www.cs.tufts.edu/~nr/c--/index.html)
 - [C compilers](compiler#C)
@@ -55,4 +59,4 @@
 
 
 ## Resources
-- https://github.com/kozross/awesome-c
+- [Awesome C](https://github.com/kozross/awesome-c): A curated list of C good stuff. This list contains only open source code (as defined by the linked Open Source Definition), and sellers who aren't evil for physical resources.

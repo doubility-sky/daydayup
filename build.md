@@ -1,6 +1,7 @@
 [C++构建系统的选择](https://www.jianshu.com/p/31bf731fec22)
 
 
+
 ## [GNU Make](https://www.gnu.org/software/make/manual/)
 - 每条规则的形式
   ```
@@ -33,7 +34,6 @@
 
 ## Make-likes
 - [CMake](https://cmake.org/)
-  - https://github.com/onqtam/awesome-cmake
   - [CMake-tutorial](https://github.com/Campanula/CMake-tutorial)
   - [cmake-examples](https://github.com/ttroy50/cmake-examples) Useful CMake Examples http://ttroy50.github.io/cmake-examples
 - [emake](https://github.com/skywind3000/emake)
@@ -46,3 +46,7 @@
 - [Waf](https://waf.io)
 - [Meson](https://github.com/mesonbuild/meson)® is a project to create the best possible next-generation build system.
 
+
+
+## Resources
+- [Awesome CMake](https://github.com/onqtam/awesome-cmake): A curated list of awesome CMake resources, scripts, modules and examples.

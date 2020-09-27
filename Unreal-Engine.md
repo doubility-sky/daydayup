@@ -1,6 +1,5 @@
 - https://www.unrealengine.com
 - https://github.com/EpicGames
-- https://github.com/terrehbyte/awesome-ue4
 
 
 
@@ -33,3 +32,7 @@
 - [Unity、Unreal、CryEngine这三个引擎各有什么特点？哪一种最适合用来开发大型3D网游？](https://www.zhihu.com/question/336750450/answer/805042145)
 - [Unity, Unreal, CryEngine的比较和扫雷](https://zhuanlan.zhihu.com/p/78509077)
 
+
+
+## Resources
+- https://github.com/terrehbyte/awesome-ue4

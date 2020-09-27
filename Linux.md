@@ -1,7 +1,7 @@
-- [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
 - [[shell]]
 - 本页wiki大部分基础内容也适用于其他类Unix系统：[[BSD]], [[macOS]]
 - [[OpenWrt]]
+
 
 
 ## Kernel
@@ -294,4 +294,9 @@
   fi
   export HISTTIMEFORMAT="%F %T $USER_IP:`whoami` "
   ```
+
+
+
+## Resources
+- [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
 

@@ -1,12 +1,11 @@
-- 其他类Unix系统通用功能，见 [[Linux]]
+- [[BSD]]
+- [[Linux]]
 - [[Objective-C]]
 - [[swift]]
 
 
 
-## Awesome
-- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) Now we have become very big, Different from the original idea. Collect premium software in various categories. https://git.io/macx
-- [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) A curated list of awesome applications, softwares, tools and shiny things for macOS.
+## Learn
 - [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) - [zh-CN](https://github.com/drduh/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md)
 
 
@@ -46,10 +45,17 @@
 
 
 
-## Apps
-- [my-mac-os](https://github.com/nikitavoloboev/my-mac-os) List of applications and tools that make my macOS experience even more amazing
-- [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) Awesome list of open source applications for macOS.
-- [程序员的macOS系列：精选 Mac App](https://ihtcboy.com/2018/07/15/2018-07-15_%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84macOS%E7%B3%BB%E5%88%97%EF%BC%9A%E7%B2%BE%E9%80%89MacApp/)
+## Xcode
+- [Xcode 缓存及垃圾文件清理](https://www.jianshu.com/p/c695b68ef951)
+  - 删除旧设备支持 `~/Library/Developer/Xcode/iOS DeviceSupport`
+  - 删除旧模拟支持 `~/Library/Application Support/iPhone Simulator`
+  - 项目索引及日志 `~/Library/Developer/Xcode/DerivedData`
+
+
+
+## Projects
+- [Source code of Telegram](https://github.com/overtake/TelegramSwift) for macos on Swift 5.0 https://macos.telegram.org
+  - [Source code of Telegram](https://github.com/overtake/telegram) obj-c version of macos client, now is no longer supported.
 
 
 
@@ -66,20 +72,6 @@
 
 
 
-## Xcode
-- [Xcode 缓存及垃圾文件清理](https://www.jianshu.com/p/c695b68ef951)
-  - 删除旧设备支持 `~/Library/Developer/Xcode/iOS DeviceSupport`
-  - 删除旧模拟支持 `~/Library/Application Support/iPhone Simulator`
-  - 项目索引及日志 `~/Library/Developer/Xcode/DerivedData`
-
-
-
-## Projects
-- [Source code of Telegram](https://github.com/overtake/TelegramSwift) for macos on Swift 5.0 https://macos.telegram.org
-  - [Source code of Telegram](https://github.com/overtake/telegram) obj-c version of macos client, now is no longer supported.
-
-
-
 ## FAQs
 - 选中多个文件 `command+option+i` 查看总大小
 - [Mac的最大连接数限制和端口的相关参数的设置](http://tinylee.info/mac-maxfiles-portrange.html)
@@ -90,3 +82,14 @@
 - macOS 删除 chrome 地址栏联想内容
   - 按向下箭头键以突出显示相应内容，然后按 Shift + fn + Delete 键
 - [iOS APP微信支付接入多个商户账号](https://www.jianshu.com/p/d0d8afc6a685)
+
+
+
+## Resources
+- [awesome-mac](https://github.com/jaywcjlove/awesome-mac) Now we have become very big, Different from the original idea. Collect premium software in various categories. https://git.io/macx
+- [awesome-macOS](https://github.com/iCHAIT/awesome-macOS) A curated list of awesome applications, softwares, tools and shiny things for macOS.
+
+### Apps
+- [my-mac-os](https://github.com/nikitavoloboev/my-mac-os) List of applications and tools that make my macOS experience even more amazing
+- [open-source-mac-os-apps](https://github.com/serhii-londar/open-source-mac-os-apps) Awesome list of open source applications for macOS.
+- [程序员的macOS系列：精选 Mac App](https://ihtcboy.com/2018/07/15/2018-07-15_%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84macOS%E7%B3%BB%E5%88%97%EF%BC%9A%E7%B2%BE%E9%80%89MacApp/)

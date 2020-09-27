@@ -17,15 +17,18 @@
 
 
 ## Interview
-- [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions), A curated awesome list of lists of interview questions. Feel free to contribute! 
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 - [interactive-coding-challenges](https://github.com/donnemartin/interactive-coding-challenges) 120+ interactive Python coding interview challenges (algorithms and data structures). Includes Anki flashcards.
 - [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes): 技术面试必备基础知识、Leetcode、Java、C++、Python、后端面试、计算机操作系统、计算机网络、系统设计
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
 
-### resume
-- https://resume.io/
+### [resume](https://resume.io/)
 - [GitHub Résumé](https://github.com/resume/resume.github.com), A service that creates a résumé based on your GitHub repos/activity.
-- [Awesome CV](https://github.com/posquit0/Awesome-CV) is LaTeX template for your outstanding job application
 - [resumd](https://github.com/timqian/resumd): Write resume with markdown https://resumd.t9t.io
 - [如何写一份有效的技术简历？](http://www.ruanyifeng.com/blog/2020/01/technical-resume.html)
+
+
+
+## Resources
+- [Awesome Interviews](https://github.com/MaximAbramchuck/awesome-interview-questions), A curated awesome list of lists of interview questions. Feel free to contribute! 
+- [Awesome CV](https://github.com/posquit0/Awesome-CV) is LaTeX template for your outstanding job application

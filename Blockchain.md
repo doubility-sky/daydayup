@@ -11,5 +11,7 @@
 
 
 ## Resources
-- https://github.com/chaozh/awesome-blockchain-cn
-- https://github.com/dily3825002/awesome-blockchain
+- [openblockchains](https://github.com/openblockchains): Open Public Distributed Databases / (Hyper) Ledger Books with Crypto Hashes - Revolutionize the World with Blockchains One Block at a Time
+- [Awesome Blockchain](https://github.com/yjjnls/awesome-blockchain) ⚡️Curated list of resources for the development and applications of blockchain.
+- [Awesome Blockchain](https://github.com/chaozh/awesome-blockchain-cn): 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料
+- [区块链资源汇总](https://github.com/dily3825002/awesome-blockchain): 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总 💯

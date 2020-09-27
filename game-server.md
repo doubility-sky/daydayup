@@ -1,13 +1,4 @@
-## Index
-- [[c]] + [[lua]]
-  - [[skynet]]
-- [c++](../C-plus-plus) + [[python]]
-  - [[kbengine]]
-- [c++](../C-plus-plus)
-  - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
-- [game-server by golang](golang#game-server)
-- [[javascript]]
-  - [colyseus](https://github.com/gamestdio/colyseus), [mage](https://github.com/mage/mage), ~~[[pomelo]]~~
+A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes referred to as a host) is a [server](https://en.wikipedia.org/wiki/Server_(computing)) which is the authoritative source of events in a [multiplayer video game](https://en.wikipedia.org/wiki/Multiplayer_video_game). The server transmits enough data about its internal state to allow its connected [clients](https://en.wikipedia.org/wiki/Client_(computing)) to maintain their own accurate version of the game world for display to players. They also receive and process each player's input.
 
 
 
@@ -17,25 +8,6 @@
 - [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
 - [游戏服务器从入门到关门](https://zhuanlan.zhihu.com/c_1265419283598987264)
 - [游戏服务器](https://www.jianshu.com/c/5121fd868c4f)
-
-
-
-## Libraries
-- [ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) is a basic transport layer for games.
-
-
-
-## Tools
-- [GameMode](https://github.com/FeralInteractive/gamemode) is a daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process.
-
-
-
-## Projects
-- https://github.com/topics/game-server
-- https://github.com/hstcscolor/awesome-gameserver-cn
-- [MaNGOS](https://github.com/mangos/MaNGOS)
-- [TrinityCore](https://github.com/TrinityCore/TrinityCore)
-- [cuberite](https://github.com/cuberite/cuberite), A lightweight, fast and extensible game server for Minecraft
 
 
 
@@ -100,5 +72,42 @@
 
 
 
+## Libraries
+- [ValveSoftware/GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) is a basic transport layer for games.
+
+
+
+## Freameworks
+- [[c]] + [[lua]]
+  - [[skynet]]
+- [c++](../C-plus-plus) + [[python]]
+  - [[kbengine]]
+- [c++](../C-plus-plus)
+  - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
+- [game-server by golang](golang#game-server)
+- [[javascript]]
+  - [colyseus](https://github.com/gamestdio/colyseus), [mage](https://github.com/mage/mage), ~~[[pomelo]]~~
+- [Nakama](https://github.com/heroiclabs/nakama): Distributed server for social and realtime games and apps.
+
+
+
+## Projects
+- [MaNGOS](https://github.com/mangos/MaNGOS)
+- [TrinityCore](https://github.com/TrinityCore/TrinityCore)
+- [cuberite](https://github.com/cuberite/cuberite), A lightweight, fast and extensible game server for Minecraft
+
+
+
+## Tools
+- [GameMode](https://github.com/FeralInteractive/gamemode) is a daemon/lib combo for Linux that allows games to request a set of optimisations be temporarily applied to the host OS and/or a game process.
+
+
+
 ## FAQs
 - [使用 Go 语言开发游戏服务端的是如何忍受无法热更新的？](https://www.zhihu.com/question/31912663)
+
+
+
+## Resources
+- https://github.com/topics/game-server
+- https://github.com/hstcscolor/awesome-gameserver-cn

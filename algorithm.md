@@ -4,13 +4,6 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 
 
 
-- [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms), A curated list of awesome places to learn and/or practice algorithms.
-- [GeeksforGeeks](http://www.geeksforgeeks.org/)
-- [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)
-- [Robert Sedgewick](https://www.cs.princeton.edu/~rs/)
-
-
-
 ## Data Structure
 - [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 - [Collections-C](https://github.com/srdja/Collections-C), A library of generic data structures including a list, array, hashtable, deque etc.. http://srdja.github.io/Collections-C
@@ -69,3 +62,11 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer scien
 - [ACM Cheat Sheet](https://github.com/soulmachine/acm-cheat-sheet)
 - [ACM-ICPC Algorithms](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms), Algorithms used in Competitive Programming
 - [ACM-ICPC Preparation](https://github.com/BedirT/ACM-ICPC-Preparation), This program has been developed to learn Algorithms for use in Competitive Prorgamming
+
+
+
+## Resources
+- [Awesome Algorithms](https://github.com/tayllan/awesome-algorithms), A curated list of awesome places to learn and/or practice algorithms.
+- [GeeksforGeeks](http://www.geeksforgeeks.org/)
+- [Donald E. Knuth](https://www-cs-faculty.stanford.edu/~knuth/index.html)
+- [Robert Sedgewick](https://www.cs.princeton.edu/~rs/)

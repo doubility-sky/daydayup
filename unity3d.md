@@ -1,5 +1,4 @@
 http://unity3d.com/
-https://github.com/RyanNielson/awesome-unity
 
 
 
@@ -8,12 +7,21 @@ https://github.com/RyanNielson/awesome-unity
   入门视频，“roll ball”；体会u3d高度模块化的开发模式。
 - http://unity3d.com/learn/tutorials/projects/space-shooter-tutorial  
   入门视频，“space shooter”；更完整的例子，有两个没有字幕的extend教程。
-- [GitHub上有哪些Unity3D项目推荐？](https://zhuanlan.zhihu.com/p/53913159)
 
 
 
-## Hot update
-### unity3d热更新
+## Practice
+- [Unity3D中实现帧同步 - Part 1](http://jjyy.guru/unity3d-lock-step-part-1)
+- [Unity3D中实现帧同步 - Part 2](http://jjyy.guru/unity3d-lock-step-part-2)
+- [Unity3D RTS游戏中帧同步实现](https://gameinstitute.qq.com/community/detail/113377)
+
+### google play
+- [ Unity3d接入googleplay内购详细说明（一）](http://blog.csdn.net/qq15233635728/article/details/44015225)
+- [ Unity3d接入googleplay内购详细说明（二）](http://blog.csdn.net/qq15233635728/article/details/44016403)
+- [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
+- [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
+
+### Hot update
 - [unity3d热更新总结 2015.8月的回答](https://www.zhihu.com/question/28079874/answer/57706353) 看“豆一”的回答
 
 ### lua热更新方案
@@ -43,18 +51,7 @@ https://github.com/RyanNielson/awesome-unity
 
 
 
+## Resources
+- https://github.com/RyanNielson/awesome-unity
+- [GitHub上有哪些Unity3D项目推荐？](https://zhuanlan.zhihu.com/p/53913159)
 
-
-## 3rd
-### google play
-- [ Unity3d接入googleplay内购详细说明（一）](http://blog.csdn.net/qq15233635728/article/details/44015225)
-- [ Unity3d接入googleplay内购详细说明（二）](http://blog.csdn.net/qq15233635728/article/details/44016403)
-- [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
-- [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
-
-
-
-## Practice
-- [Unity3D中实现帧同步 - Part 1](http://jjyy.guru/unity3d-lock-step-part-1)
-- [Unity3D中实现帧同步 - Part 2](http://jjyy.guru/unity3d-lock-step-part-2)
-- [Unity3D RTS游戏中帧同步实现](https://gameinstitute.qq.com/community/detail/113377)

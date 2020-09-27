@@ -1,3 +1,6 @@
+[C++](https://en.wikipedia.org/wiki/C%2B%2B) (/ˌsiːˌplʌsˈplʌs/) is a [general-purpose programming language](https://en.wikipedia.org/wiki/General-purpose_programming_language) created by [Bjarne Stroustrup](https://en.wikipedia.org/wiki/Bjarne_Stroustrup) as an extension of the [[C]] programming language, or "C with [Classes](https://en.wikipedia.org/wiki/Class_(programming)". 
+
+
 
 ## Learn
 - [The C++ Core Guidelines](https://github.com/isocpp/CppCoreGuidelines) are a collaborative effort led by Bjarne Stroustrup, much like the C++ language itself. They are the result of many person-years of discussion and design across a number of organizations. Their design encourages general applicability and broad adoption but they can be freely copied and modified to meet your organization's needs.
