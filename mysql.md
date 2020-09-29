@@ -223,10 +223,12 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [How to check the memory allocator used by my mysql 5.7.20](https://dba.stackexchange.com/questions/226684/how-to-check-the-memory-allocator-used-by-my-mysql-5-7-20)
   - `lsof -p $(pidof mysqld) | grep mem`
   - `lsof -n |grep jemalloc`
-- ~~Compile and install jemalloc~~ Not recommend!
-  <details> <summary>View details</summary>
+- Compile and install jemalloc ❌ Not recommend!
+  <details>
+  <summary markdown="span"> View details </summary>
+  
   - [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
-  - git clone https://github.com/jemalloc/jemalloc
+  - `git clone https://github.com/jemalloc/jemalloc`
   - `cd jemalloc & git checkout master`
   - `./autogen.sh && ./configure && make && make install`
   - `cp /usr/local/lib/libjemalloc.* /usr/lib/`
