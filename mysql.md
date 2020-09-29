@@ -10,24 +10,29 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 ## Installation
-- Ubuntu 16.04 +
-  - `apt update && apt install mysql-server`
+
+### Ubuntu
+- `apt update && apt install mysql-server`
+
+### CentOS
 - [CentOS 7 安装 Mysql5.5 或自定义版本 RPM 方式](https://my.oschina.net/u/3767256/blog/1647976)
 - [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
 - [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
-  - 下载 mysql 的 repo 源，安装 mysql-community-release
-    `wget https://dev.mysql.com/get/mysql57-community-release-el7.rpm`
-    `rpm -ivh mysql57-community-release-el7.rpm && yum install mysql-server`
-  - 启动/停止/重启 `service mysqld start/stop/restart`
-  - 关闭强密码验证 `vi /etc/my.cnf` 添加 `validate-password=OFF` 至末尾，如已开启需重启
-  - 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
-  - 连接 `mysql -uroot -p` 修改密码，并允许远程连接
-    - `mysql> use mysql;`
-    - `mysql> ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';`
-    - `mysql> update user set host = '%' where user = 'root';`
-    - `mysql> flush privileges;`
-  - 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
-    - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
+- 下载 mysql 的 repo 源，安装 mysql-community-release
+  - `wget https://dev.mysql.com/get/mysql57-community-release-el7.rpm`
+  - `rpm -ivh mysql57-community-release-el7.rpm && yum install mysql-server`
+- 启动/停止/重启 `service mysqld start/stop/restart`
+- 关闭强密码验证 `vi /etc/my.cnf` 添加 `validate-password=OFF` 至末尾，如已开启需重启
+- 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
+- 连接 `mysql -uroot -p` 修改密码，并允许远程连接
+  ```sql
+  use mysql;
+  ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';
+  update user set host = '%' where user = 'root';
+  flush privileges;
+  ```
+- 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
+  - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
 
 
 
@@ -40,61 +45,58 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   - Stop `mysqladmin -uroot -p shutdown`
 
 ### configuration
-- [interactive_timeout和wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
+- [interactive_timeout 和 wait_timeout](http://www.cnblogs.com/jiunadianshi/articles/2475475.html)
 - 开启binlog：配置文件中设置 `log-bin=mysql-bin`
 - 查找配置文件路径 `mysqld --verbose --help |grep -A 1 'Default options'`
 
 
 
 ## User
-- 创建用户：`CREATE USER 'username'@'host' IDENTIFIED BY 'password'; `
+- 创建用户：
+  ```sql
+  CREATE USER 'user'@'host' IDENTIFIED BY 'password';
+  CREATE USER 'user'@'%' IDENTIFIED BY '123456'; -- 全部主机
+  CREATE USER 'user'@'localhost' IDENTIFIED BY '123456'; -- 本地登陆
+  CREATE USER 'user'@'192.168.1.101' IDENTIFIED BY '123456'; -- 指定主机
   ```
-  CREATE USER 'test'@'localhost' IDENTIFIED BY '123456'; -- 本地登陆
-  CREATE USER 'test'@'192.168.1.101_' IDENTIFIED BY '123456';
-  CREATE USER 'test'@'%' IDENTIFIED BY '123456'; -- 全部主机
-  CREATE USER 'test'@'%';
+- 删除用户：
+  ```sql
+  DROP USER 'user'@'%';
+  DROP USER 'user'@'host';
   ```
-- 删除用户：`DROP USER 'username'@'host';`
-- 修改密码：
-  ```
-  mysqladmin -u root password -p;
-  SET PASSWORD FOR 'root'@'%' = PASSWORD('123456'); 
-  SET PASSWORD = PASSWORD('123456');  --设置当前登陆用户
-  ```
-- 修改密码
-  ```
-  $ mysql -u root
-  mysql > use mysql;
-  mysql > update user set password=password('123456') where user='root';
-  mysql > exit;
-  mysql > flush privileges;
-  ```
-
-
-
-## Privileges
-- 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
-- 查询权限：`show grants for root@'localhost';`
-- 改表法：`update user set host = '%' where user = 'root';`
-- 修改数据库权限
-  ```
-  GRANT privileges ON databasename.tablename TO 'username'@'host' IDENTIFIED BY 'mypassword'; -- 该用户不能给其他用户授权
-  GRANT privileges ON databasename.tablename TO 'username'@'host' IDENTIFIED BY 'mypassword' WITH GRANT OPTION; -- 该用户可以给其他用户授权
-  GRANT ALL ON *.* TO 'root'@'%' IDENTIFIED BY 'password';
-  GRANT SELECT,UPDATE,INSERT,DELETE ON testdb.* TO 'test'@'localhost' IDENTIFIED BY 'password';
-  ```
-- 取消权限
-  ```
-  REVOKE privilege ON databasename.tablename FROM 'username'@'host';
-  REVOKE SELECT ON testdb.* FROM 'test'@'localhost'; 
-  ```
-- 刷新生效：`flush privileges;`
-- 修改权限，允许远程访问
-  ```
+- 修改密码: `$ mysql -u root`
+  ```sql
   use mysql;
-  update user set host = '%' where user = 'root';
+  SET PASSWORD = PASSWORD('123456');  -- 修改当前登陆用户密码
+  update user set plugin="mysql_native_password";  -- mysql5.7+ required
+  update user set authentication_string=password('123456') where user='root';
   flush privileges;
   ```
+- 使用 `mysqladmin` 修改密码: `$ mysqladmin -u root password -p`
+
+### Privileges
+- 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
+- 查询权限：`show grants for root@'localhost';`
+- 修改数据库权限
+  ```sql
+  -- 全部权限
+  GRANT ALL ON *.* TO 'user'@'%' IDENTIFIED BY 'pwd';
+  -- 该用户可以给其他用户授权
+  GRANT privileges ON db.tbl TO 'user'@'host' IDENTIFIED BY 'pwd' WITH GRANT OPTION;
+  -- 特定权限
+  GRANT SELECT,UPDATE,INSERT,DELETE ON testdb.* TO 'user'@'host' IDENTIFIED BY 'pwd';
+  ```
+- 取消权限
+  ```sql
+  REVOKE privilege ON databasename.tablename FROM 'user'@'host';
+  REVOKE SELECT ON testdb.* FROM 'user'@'localhost'; 
+  ```
+- 允许远程访问 (BTW: 不建议开放 root 账号)
+  ```sql
+  use mysql;
+  update user set host = '%' where user = 'root';
+  ```
+- :star:以上均需刷新生效：`flush privileges;`
 
 
 
@@ -209,7 +211,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 #### [jemalloc](https://github.com/jemalloc/jemalloc) OR [tcmalloc](https://github.com/google/tcmalloc)/[gperftools](https://github.com/gperftools/gperftools)
 - `apt install libjemalloc-dev` / `apt install google-perftools`
   - `mkdir -p /etc/systemd/system/mysql.service.d` / `systemctl edit mysql`
-  - `vi /etc/systemd/system/mysql.service.d/override.conf`
+  - `vi /etc/systemd/system/mysql.service.d/override.conf`  
     ```conf
     [Service]
     Environment="LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so"
@@ -223,7 +225,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   - `lsof -n |grep jemalloc`
 - ~~Compile and install jemalloc~~ Not recommend!
   <details> <summary>View details</summary>
-
   - [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
   - git clone https://github.com/jemalloc/jemalloc
   - `cd jemalloc & git checkout master`
@@ -233,7 +234,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
     - `export LD_PRELOAD=/usr/lib/libjemalloc.so && mysqld &`
   - FAQ
     - `mkdir /var/run/mysqld && chown mysql:mysql /var/run/mysqld`
-  
   </details>
 
 
@@ -246,16 +246,11 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 ## FAQs
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
-  ```
-  sudo vi /etc/mysql/my.cnf
-  #bind-address = 127.0.0.1
-  service mysql restart
-  ```
 - [Ubuntu 开启mysql远程连接](https://dzer.me/2016/05/04/ubuntu-%E5%BC%80%E5%90%AFmysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/)   
-  ```
-  sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf 
-  #bind-address = 127.0.0.1
-  service mysql restart  
+  ```sh
+  vi /etc/mysql/mysql.conf.d/mysqld.cnf
+    #bind-address = 127.0.0.1
+  service mysql restart
   ```
 - [Cenos7 MySQL ERROR 1044 (42000):Access denied for user ''@'localhost' to databa... ](https://my.oschina.net/u/4414000/blog/4097869)
 - [ERROR 1698 (28000): Access denied for user 'root'@'localhost' at Ubuntu 18.04](https://askubuntu.com/questions/1029177/error-1698-28000-access-denied-for-user-rootlocalhost-at-ubuntu-18-04)
@@ -265,6 +260,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   - `utf8mb4_0900_ai_ci` --> `utf8mb4_general_ci`.
 - [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
   - `> /var/lib/mysql/XXX-slow.log`
+- [Did your logging stop working after you set up logrotate? Then this post might be for you.](https://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
 
 
 

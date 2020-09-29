@@ -27,6 +27,7 @@
   - [chrome comic book](https://www.google.com/googlebooks/chrome/)
   - [Vimium](https://github.com/philc/vimium) is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
 - [BrowserGap](https://github.com/dosyago/BrowserGap) - Browser you can embed in your app. Per-seat or per-site licensing. Discounts for governments and non-profits.
+- [深入浅出浏览器渲染原理](https://github.com/ljianshu/Blog/issues/51)
 
 
 

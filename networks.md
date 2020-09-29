@@ -35,7 +35,7 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [HTTP/2 explained](https://github.com/bagder/http2-explained)
 - [HTTP/3 explained](https://github.com/bagder/http3-explained)
 - [我的HTTP/3学习笔记](https://mp.weixin.qq.com/s/bD8C0oR34ZKUEZjN9yBSJg)
-- [一文读懂HTTP/2 及 HTTP/3特性](https://github.com/ljianshu/Blog/issues/57)
+- [解读HTTP/2 及 HTTP/3特性](https://github.com/ljianshu/Blog/issues/57)
 - [HTTP的前世今生](https://coolshell.cn/articles/19840.html)
 - [tinyhttpd](https://github.com/qinhanlei/tinyhttpd)
 - [HTTPie](https://github.com/jakubroztocil/httpie) (pronounced aitch-tee-tee-pie) is a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. It provides a simple http command that allows for sending arbitrary HTTP requests using a simple and natural syntax, and displays colorized output. HTTPie can be used for testing, debugging, and generally interacting with HTTP servers.
