@@ -226,7 +226,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - Compile and install jemalloc ❌ Not recommend!
   <details>
   <summary markdown="span"> View details </summary>
-  
+
   - [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
   - `git clone https://github.com/jemalloc/jemalloc`
   - `cd jemalloc & git checkout master`
@@ -243,6 +243,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ## Practice
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
 - [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
+- [mysql中的慢查询日志](https://www.css3er.com/p/238.html)
+  - 慢查询日志分析工具（mysqldumpslow）
+  - 使用Show Profile进行分析
 
 
 
