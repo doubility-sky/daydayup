@@ -7,6 +7,7 @@
 
 ## Learn
 - [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide) - [zh-CN](https://github.com/drduh/macOS-Security-and-Privacy-Guide/blob/master/README-cn.md)
+- [Homebrew](https://github.com/Homebrew/brew): 🍺 The missing package manager for macOS (or Linux)
 
 
 
@@ -68,7 +69,7 @@
 - [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 - [IINA](https://github.com/iina/iina) is the modern video player for macOS. https://iina.io
 - [hidden](https://github.com/dwarvesf/hidden) A ultra-light MacOS utility that helps hide menu bar icons https://d.foundation/opensource
-- [Go2Shell](https://zipzapmac.com/Go2Shell) opens a terminal window to the current directory in Finder.
+- [Go2Shell](https://zipzapmac.com/Go2Shell) opens a terminal window to the current directory in Finder. `brew cask install go2shell`
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
 
 
