@@ -65,10 +65,11 @@
 - [OS X 磁盘空间分析工具: ncdu](http://www.yewen.us/blog/2015/09/ncdu-on-os-x/)
   - `brew install ncdu`
   - `ncdu / --exclude /Volumes`
+- [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 - [IINA](https://github.com/iina/iina) is the modern video player for macOS. https://iina.io
 - [hidden](https://github.com/dwarvesf/hidden) A ultra-light MacOS utility that helps hide menu bar icons https://d.foundation/opensource
+- [Go2Shell](https://zipzapmac.com/Go2Shell) opens a terminal window to the current directory in Finder.
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
-- [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 
 
 
