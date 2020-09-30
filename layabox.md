@@ -11,7 +11,7 @@ https://www.layabox.com/
   - AS 版本稀烂，调试无能，且官网首推，2.x 以后又默认换了 TS 为首要版本
     - 尤其本人碰到 macOS AS编译器出现几次问题，居然需要老谢本人来解决???
       - 董事长爱技术可以理解，能别耽误产品进度么？还玩儿啥自行车？
-      - BTW: 也没看 [[egret]]， [cocos](cocos2dx) 在官网上，有多鼓吹自己的发迹史啊
+      - BTW: 也没看 [[egret]]， [cocos](cocos2d-x) 在官网上，有多鼓吹自己的发迹史啊
   - 1.x 到 2.x 的升级方案迟迟没有，甚至官网逐渐没有了 1.x 的入口，逼迫性升级!
     - 希望大家尽快用 2.x ，自然是想提高收费率啦，吃相难看
     - 反观 [[egret]]，大版本差异也有，但是官方尽职尽责的给出了升级方案。
@@ -27,5 +27,5 @@ https://www.layabox.com/
 
 ## 综上
 - 强烈**不**推荐
-- 推荐使用 [cocos creator](cocos2dx#cocos-creator)，已支持3d
+- 推荐使用 [cocos creator](cocos2d-x#cocos-creator)，已支持3d
   - BTW: [[egret]] 虽然也支持 3d，但社区活跃低、维护不及时，同样不推荐

@@ -33,7 +33,7 @@
 
 ### recommend
 - Moderate
-  - [[cocos creator]]/[[cocos2dx]], [[godot]], [[phaser]]
+  - [[cocos creator]]/[[cocos2d-x]], [[godot]], [[phaser]]
   - [libGDX](https://github.com/libGDX/libGDX)
 - Lightweight
   - [[love2d]], [[pygame]]

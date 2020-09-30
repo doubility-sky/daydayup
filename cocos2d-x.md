@@ -1,38 +1,29 @@
-- http://cocos2d.org/
-- https://www.cocos.com/
-- https://github.com/cocos2d
-- [Cocos 资料大全](https://github.com/fusijie/Cocos-Resource)
-- [王哲 - Cocos引擎首席客服，知乎上的回答](https://www.zhihu.com/people/walzer/answers)
+[Cocos2d](http://cocos2d.org/) is a family of [open-source](https://github.com/cocos2d) software frameworks for building cross-platform games&apps.
+
+[cocos2d-x](https://github.com/cocos2d/cocos2d-x) is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, macOS, Windows and Linux.
+
+
 - :star:[[cocos creator]]
 
 
 
-## [Cocos Studio](http://www.cocos2d-x.org/download/cocos)
-- **注意！官方已不再维护，不推荐新项目使用。目前最后一个版本为 3.10**
-- macOS 上卡死问题
-  - [CocosStudio启动慢发布卡死，禁止联网后正常](https://forum.cocos.org/t/cocosstudio/41214/12)
-  - `sudo vi /etc/hosts` 添加 `127.0.0.1  cs.ucenter.appget.cn`
-
-
-
-## Cocos2dx-lua
+## Cocos2d-x-lua
 - [mac 下的开发环境搭建](http://sunhantao.github.io/2016/02/13/Mac%E4%B8%8B%E7%BC%96%E7%A0%81%E8%B0%83%E8%AF%95Cocos2dx-lua%E7%9A%84%E5%B7%A5%E5%85%B7/)
 
 ### [Quick-Cocos2d-x](https://github.com/chukong/quick-cocos2d-x)
 - Quick-Cocos2dx 是 Cocos2dx-lua 的增强版，封装了部分 API 更易于 lua 的开发。
 - Quick 官方稳定版本是 Quick-3.3 final，最新版是 Quick-3.5，之后官方不再维护。
 
-
-
-## [Quick-Cocos2dx-Community](http://www.cocos2d-lua.org/)
+### [Quick-Cocos2dx-Community](http://www.cocos2d-lua.org/)
 - [3.6.5 版本](https://github.com/u0u0/Quick-Cocos2dx-Community/tree/3.6.5_Release)，基于用户公认的最稳定版本 Quick-Cocos2d-x v3.3，推荐用于维护老项目
   - 或 [3.6.5 Doubility Sky 版](https://github.com/doubility-sky/Quick-Cocos2dx-Community/tree/dev)
 - [3.7 版本](https://github.com/u0u0/Quick-Cocos2dx-Community)，改动很大，不建议老项目使用
 - [4.0 版本](https://github.com/u0u0/Cocos2d-Lua-Community)，改动更大，不建议老项目使用；可以考虑尝鲜？但更推荐 [[cocos creator]]
 - [Quick-Cocos2dx develop for vscode](https://github.com/leitwolf/vscode-QuickXDev)
-- 所有导出的 C＋＋ 到 lua 的 API：Quick-Cocos2dx-Community/cocos/scripting/lua-bindings/auto/api/*.lua
 
-### FAQs (v3.6.1 ~ v3.6.5, cocos v3.10)
+
+
+## FAQs
 - TextField 设置文本排列时，要靠设置锚点实现，用 setTextHorizontalAlignment 无效。靠左排列 ＝setAnchorPoint(0, 0.5)
 - cocos studio 中的 AtlasLabel 无法使用，用代码创建 LabelAtlas 代替。
 - cocos studio 中的 BitmapLabel 无法使用，暂未找到解决办法。
@@ -46,7 +37,7 @@
   - 其他要导出的接口类似，操作过程中需要依赖的 python 组件安装参照[cocos2dx tolua说明](https://github.com/cocos2d/cocos2d-x/tree/c9306a053f051325a03b5297be7be6d645584780/tools/tolua)
 - [Mac 下编译 Quick-Cocos2dx-Community 的 Android 版本](http://tairan.com/archives/10567/)
 - [Quick 在 iphone5s 以上的 ios 64 位下黑屏问题](http://www.cnblogs.com/yans/p/yans.html)
-- quick 的音效有时候播放不出问题：在第一个界面触发一下，原因未知：
+- quick 的音效有时候播放不出问题：在第一个界面触发一下，原因未知
   ```lua
     audio.setSoundsVolume(0.0)
     audio.playSound("res/Sound/HkFiveCard/SEND_CARD.wav")
@@ -60,3 +51,17 @@
   #define SKIP_LINES_COUNT    200
   ```
 
+
+
+## Tools
+
+### [Cocos Studio](http://www.cocos2d-x.org/download/cocos)
+- **注意！官方已不再维护，不推荐新项目使用。目前最后一个版本为 3.10**
+- macOS 上卡死问题
+  - [CocosStudio启动慢发布卡死，禁止联网后正常](https://forum.cocos.org/t/cocosstudio/41214/12)
+  - `sudo vi /etc/hosts` 添加 `127.0.0.1  cs.ucenter.appget.cn`
+
+
+
+## Resources
+- [Cocos 资料大全](https://github.com/fusijie/Cocos-Resource)
