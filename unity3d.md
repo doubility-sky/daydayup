@@ -30,6 +30,8 @@ http://unity3d.com/
 - ulua等方式持续更新
 - [xlua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
+- [puerts](https://github.com/Tencent/puerts): write your game with TypeScript in the ue4 or unity
+  - [puerts偿还了xLua哪些技术债](https://zhuanlan.zhihu.com/p/195320417)
 
 
 
