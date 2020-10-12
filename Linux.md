@@ -172,6 +172,10 @@
     IdentityFile ~/.ssh/id_rsa
     ```
   - 即可 `ssh Xsvr`
+- 禁止密码登录（仅 RSA key 登录更安全）
+  - `vi /etc/ssh/sshd_config`
+  - `PasswordAuthentication no`
+  - `service sshd restart`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
