@@ -96,6 +96,8 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - [clumsy](https://github.com/jagt/clumsy) makes your network condition on Windows significantly worse, but in a controlled and interactive manner. http://jagt.github.io/clumsy/
 - [comcast](https://github.com/tylertreat/comcast) Simulating shitty network connections so you can build better systems.
 - [Netdata](https://github.com/netdata/netdata) is distributed, real-time, performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.
+- [echoip](https://github.com/mpolden/echoip): A simple service for looking up your IP address. This is the code that powers https://ifconfig.co.
+  - `curl ip.gs`
 
 ### analyzer
 - [Wireshark](https://github.com/wireshark/wireshark) Wireshark is a network traffic analyzer, or "sniffer", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries. https://www.wireshark.org/
@@ -113,14 +115,10 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - 获取公网 IP
   ```bash
   curl myip.ipip.net
-  curl ifconfig.me
-  curl icanhazip.com
-  curl curlmyip.com
-  curl ip.appspot.com
-  curl ipinfo.io/ip
-  curl ipecho.net/plain
-  curl www.trackip.net/i
   curl ip.sb
+  curl ipinfo.io/ip
+  curl icanhazip.com
+  curl ipecho.net/plain
   ```
 
 

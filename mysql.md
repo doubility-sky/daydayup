@@ -266,6 +266,10 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
   - `> /var/lib/mysql/XXX-slow.log`
 - [Did your logging stop working after you set up logrotate? Then this post might be for you.](https://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
+- [MySQL获取行数](https://www.jianshu.com/p/0636e13c26c8)
+  ```sh
+  mysql -h$MYHOST -P$MYPORT -u$MYUSER -p$MYPWD -N -e "SELECT table_name, table_rows FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '$DBNAME'"
+  ```
 
 
 
