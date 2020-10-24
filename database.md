@@ -9,9 +9,7 @@ A relational database is a digital database based on the relational model of dat
 
 ### Relational Database Management System (RDMBS)
 - [[MySQL]]
-- [TiDB](https://github.com/pingcap/tidb) is an open source distributed HTAP database compatible with the [[MySQL]] protocol https://pingcap.com
-  - [势高，则围广：TiDB 的架构演进哲学](https://www.infoq.cn/article/Qw_8ubZFgtQlcZmZHBlA)
-  - [网易互娱的数据库选型和 TiDB 应用实践](https://www.infoq.cn/article/umuBqMCpWWGo4QYMksc0)
+- [[TiDB]]
 - [[PostgreSQL]]
 - [SQLite](https://www.sqlite.org/index.html) is an in-process library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. The code for SQLite is in the public domain and is thus free for use for any purpose, commercial or private. SQLite is the most widely deployed database in the world with more applications than we can count, including several high-profile projects.
   - [db_tutorial](https://github.com/cstack/db_tutorial) Writing a sqlite clone from scratch in C https://cstack.github.io/db_tutorial
@@ -43,7 +41,7 @@ NoSQL, which stand for "not only SQL," is an alternative to traditional relation
   - [SSDB](https://github.com/ideawu/ssdb) is a high performace key-value(key-string, key-zset, key-hashmap) NoSQL database, an alternative to Redis.
 - [LevelDB](https://github.com/google/leveldb) is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.
   - [rocksdb](https://github.com/facebook/rocksdb) A library that provides an embeddable, persistent key-value store for fast storage. http://rocksdb.org
-- [TiKV](https://github.com/tikv/tikv) is an open-source, distributed, and transactional key-value database. Unlike other traditional NoSQL systems, TiKV not only provides classical key-value APIs, but also transactional APIs with ACID compliance. Built in Rust and powered by Raft, TiKV was originally created to complement TiDB
+- [TiKV](https://github.com/tikv/tikv) is an open-source, distributed, and transactional key-value database. Unlike other traditional NoSQL systems, TiKV not only provides classical key-value APIs, but also transactional APIs with ACID compliance. Built in Rust and powered by Raft, TiKV was originally created to complement [[TiDB]]
 
 ### [Wide Column Store](https://en.wikipedia.org/wiki/Wide_column_store)
 - [Apache HBase](https://github.com/apache/hbase) is an open-source, distributed, versioned, column-oriented store modeled after Google' [Bigtable: A Distributed Storage System for Structured Data](https://ai.google/research/pubs/pub27898) by Chang et al.   
