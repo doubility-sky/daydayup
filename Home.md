@@ -1,6 +1,3 @@
-## [Day Day Up !](http://doubility-sky.github.io/daydayup/)
-
-
 
 ## Introduction
 - 感谢郭嘉
