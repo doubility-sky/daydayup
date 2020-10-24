@@ -21,7 +21,7 @@
 - 使用 `msgpack`，`protobuffer`，`flatbuffer` 等成熟通讯库
 - JSON通用简单，但数据包过于庞大，不推荐
 #### 数据库
-- 老牌 [[SQL]] 数据库 [[mysql]]，方便与任何运维人员配合
+- 老牌 [[SQL]] 数据库 [[MySQL]]，方便与任何运维人员配合
 - 考虑使用 [[NoSQL]]：[[mongodb]]，[[redis]] 等
 #### 规范
 - 代码规范，风格，提前约定
@@ -46,9 +46,9 @@
 - 手游改动频繁，尤其是字段的稍有改动牵扯较大，如何简化?
 - 建议，资源配置文件类型尽可能简单，只需: 整型，浮点，字符串。枚举值按整数对待
 #### 数据库
-- [[mysql]]
+- [[MySQL]]
   - 一般使用 `innodb` 引擎
-  - 注意调优 mysql 参数，尤其是 `innodb_buffer_pool_size`，详见[此处](mysql#优化)
+  - 注意调优 MySQL 参数，尤其是 `innodb_buffer_pool_size`，详见[此处](mysql#优化)
   - 提前准备备份方案，推荐使用 [xtrabackup](mysql#备份/恢复) 进行物理备份
 - [[mongodb]], [[redis]]
 - 部分 游戏角色数据库 所承担功能，考虑同个 `GlobalServer` 下的所有大区公用一个

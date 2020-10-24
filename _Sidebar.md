@@ -23,7 +23,7 @@
   - [[proxy]]
 - [[security]]
 - [[database]]
-  - [[mysql]], [[TiDB]]
+  - [[MySQL]], [[TiDB]]
   - [[postgresql]]
   - [[mongodb]]
   - [[redis]]

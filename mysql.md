@@ -17,7 +17,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ### CentOS
 - [CentOS 7 安装 Mysql5.5 或自定义版本 RPM 方式](https://my.oschina.net/u/3767256/blog/1647976)
 - [Install MySQL on CentOS 7 Operating System](https://linuxconcept.com/install-mysql-on-centos-7-operating-system/)
-- [centos7 mysql数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
+- [centos7 MySQL 数据库安装和配置](http://www.cnblogs.com/starof/p/4680083.html)  
 - 下载 mysql 的 repo 源，安装 mysql-community-release
   - `wget https://dev.mysql.com/get/mysql57-community-release-el7.rpm`
   - `rpm -ivh mysql57-community-release-el7.rpm && yum install mysql-server`
