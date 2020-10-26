@@ -13,3 +13,13 @@ There is a wealth of information to be found describing how to [install](https:/
 ## Projects
 - [PostgREST](https://github.com/PostgREST/postgrest) serves a fully RESTful API from any existing PostgreSQL database. It provides a cleaner, more standards-compliant, faster API than you are likely to write from scratch.
 
+
+
+## Tools
+- [pgcli](https://github.com/dbcli/pgcli): Postgres CLI with autocompletion and syntax highlighting
+
+
+
+## Resources
+- [Awesome Postgres](https://github.com/dhamaniasad/awesome-postgres): A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by [awesome-mysql](http://shlomi-noach.github.io/awesome-mysql/)
+

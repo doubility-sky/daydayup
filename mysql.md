@@ -249,6 +249,11 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
+## Tools
+- [mycli](https://github.com/dbcli/mycli): A command line client for MySQL that can do auto-completion and syntax highlighting.
+
+
+
 ## FAQs
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
 - [Ubuntu 开启mysql远程连接](https://dzer.me/2016/05/04/ubuntu-%E5%BC%80%E5%90%AFmysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/)   
