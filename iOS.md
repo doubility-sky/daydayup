@@ -48,6 +48,7 @@
   [configuration setValue:@TRUE forKey:@"allowUniversalAccessFromFileURLs"];
   [configuration.preferences setValue:@"TRUE" forKey:@"allowFileAccessFromFileURLs"] ;
   ```
+- [iOS APP微信支付接入多个商户账号](https://www.jianshu.com/p/d0d8afc6a685)
 
 
 
