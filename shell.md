@@ -1,4 +1,4 @@
-- [Shell](https://en.wikipedia.org/wiki/Shell_(computing))
+In computing, a [shell](https://en.wikipedia.org/wiki/Shell_(computing)) is a command-line interpreter which exposes access to an operating system's services. In general, operating system shells use either a command-line interface (CLI) or graphical user interface (GUI), depending on a computer's role and particular operation. It is named a shell because it is the outermost layer around the operating system.
 
 
 
@@ -14,11 +14,20 @@
 
 
 
-## sh/bash
+## sh/[[bash]]
 - linux default `sh` is `dash` 
   - `ls -al /bin/sh`
     - `lrwxrwxrwx 1 root root 4 Feb 20 14:30 /bin/sh -> dash`
   - let `sh` to be `bash`: `ln -sf /bin/bash /bin/sh`
+
+
+
+## [Zsh](https://www.zsh.org/)
+The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh.
+- [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) is an open source, community-driven framework for managing your zsh configuration.
+- [Antigen](https://github.com/zsh-users/antigen) is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what [Vundle](https://github.com/gmarik/vundle) is to vim.
+- [fish](https://github.com/fish-shell/fish-shell) is a smart and user-friendly command line shell for macOS, Linux, and the rest of the family. fish includes features like syntax highlighting, autosuggest-as-you-type, and fancy tab completions that just work, with no configuration required.
+- [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
 
 
 

@@ -85,8 +85,14 @@
 - M 按内存占用率排序
 - P 按CPU占用率排序
 
-### [iftop](https://huataihuang.gitbooks.io/cloud-atlas/network/packet_analysis/utilities/iftop.html)
-- display bandwidth usage on an interface by host
+### [htop](https://github.com/htop-dev/htop)
+htop is an interactive system-monitor process-viewer and process-manager. It is designed as an alternative to the Unix program top
+
+### [iftop](https://www.ex-parrot.com/pdw/iftop/)
+iftop does for network usage what top(1) does for CPU usage. It listens to network traffic on a named interface and displays a table of current bandwidth usage by pairs of hosts. Handy for answering the question "why is our ADSL link so slow?".
+
+### [glances](https://github.com/nicolargo/glances)
+Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface. The information dynamically adapts depending on the size of the user interface.
 
 
 
