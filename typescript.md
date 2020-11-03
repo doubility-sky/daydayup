@@ -9,14 +9,14 @@ Any browser. Any host. Any OS. Open source.
 
 
 ## Learn
-- [Official playground](https://www.typescriptlang.org/play)
-  - https://typescript-play.js.org/
 - [Official Documentation](https://www.typescriptlang.org/docs/home.html)
-  - [TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook) - [read online](https://www.typescriptlang.org/docs/handbook/basic-types.html)
-  - [中文版](https://github.com/zhongsp/TypeScript) - [在线阅读](https://zhongsp.gitbook.io/typescript-handbook/)
+- [Official Playground](https://www.typescriptlang.org/play)
+  - https://typescript-play.js.org/
+- 🌟[TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook) - [read online](https://www.typescriptlang.org/docs/handbook/intro.html)
+  - [TypeScript 使用手册](https://github.com/zhongsp/TypeScript) - [在线阅读](https://zhongsp.gitbook.io/typescript-handbook/)
 - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) - [在线阅读](https://ts.xcatliu.com/)
 - [TypeScript Deep Dive](https://github.com/basarat/typescript-book/) - [read online](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
-  - [中文版](https://jkchao.github.io/typescript-book-chinese/) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
+  - [深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
 
 
 
@@ -50,6 +50,13 @@ View the running site: http://microsoft.github.io/TypeSearch.
   - 从 `ECMAScript 2015` (ES6) 开始，模块成为了语言内置的部分，应该会被所有正常的解释引擎所支持。
   - 因此，对于新项目来说推荐使用模块做为组织代码的方式。
 - [npm 包](https://ts.xcatliu.com/basics/declaration-files#npm-bao)
+- [How to Iterate Over String Indexed Array In TypeScript?](https://stackoverflow.com/questions/35370414/how-to-iterate-over-string-indexed-array-in-typescript)
+  ```typescript
+  for (const key in indexedObject) {
+    const val = indexedObject[key];
+    // Use it...
+  }
+  ```
 
 
 
