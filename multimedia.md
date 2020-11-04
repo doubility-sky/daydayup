@@ -16,8 +16,8 @@
   - `convert image.png image.jpg`
   - `convert -resize 2732x2048! image.jpg new_image.jpg`
   - `convert image.png -background white -alpha off out.png` 关闭 alpha 通道 设置背景色
-  - 批量转换当前目录所有png至jpg: `mogrify -format jpg *.png`
-  - 批量拉伸(强制拉伸)当前目录下所有jpg至指定大小: `mogrify -resize 2732x2048! *.jpg`
+  - 批量转换当前目录所有 png 至 jpg: `mogrify -format jpg *.png`
+  - 批量拉伸(强制拉伸)当前目录下所有 jpg 至指定大小: `mogrify -resize 2732x2048! *.jpg`
   - 批量关闭 alpha 通道，设置背景色 `mogrify -background white -alpha off *.png`
   - 裁剪 `convert xxx.png -crop 229X81+0+82 +repage xxx-1.png`
   - 生成 android icon 集合

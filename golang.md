@@ -114,5 +114,6 @@
 
 ## Resources
 - [Awesome Go](https://github.com/avelino/awesome-go): A curated list of awesome Go frameworks, libraries and software
+- [Golang从入门到跑路](https://github.com/jiujuan/go-collection): 🌷 awesome awesome go, study golang from basic to proficient
 - [Go Developer Roadmap's Resources](https://github.com/Alikhll/golang-developer-roadmap#resources)
 - [Go Patterns](https://github.com/tmrts/go-patterns) Curated list of Go design patterns, recipes and idioms http://tmrts.com/go-patterns
