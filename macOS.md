@@ -17,6 +17,9 @@
 - 清屏 Terminal `clear` （实际上仅是滚动光标至顶部）
 - 彻底清屏 Termimal `cmd + k`
 - 选中多个文件 `command+option+i` 查看总大小
+- 查看 Bundle ID: 
+  - `osascript -e 'id of app "SomeApp"'`
+  - `mdls -name kMDItemCFBundleIdentifier -r AbsolutePathOfSomeApp.app`
 
 
 

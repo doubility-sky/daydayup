@@ -52,6 +52,7 @@
     dpkg -c                # 查询deb包文件中所包含的文件
     dpkg -L                # 查看系统中安装包的的详细清单，同时执行 -c
     ```
+- 进程信息树：`systemctl status PID`
 
 
 
@@ -156,6 +157,7 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   + 用root修改某个用户密码：passwd username
 - 添加用户：adduser username
 - 添加root权限：usermod -g root username
+- 踢人 `who`/`w` then `pkill -kill -t XXX_TTY`
 
 
 
@@ -192,6 +194,11 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   ClientAliveInterval 10
   ClientAliveCountMax 6
   ```
+
+
+
+## netstat
+- [查看当前所有tcp端口使用情况](https://blog.csdn.net/wade3015/article/details/90779669)：`netstat -ntlp`
 
 
 
