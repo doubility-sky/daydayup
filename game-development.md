@@ -65,6 +65,7 @@
 - [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.
   - [awesome-gamedev](https://github.com/mbrukman/awesome-gamedev), forked from ellisonleao/magictools
 - [AwesomeCppGameDev](https://github.com/Cmdu76/AwesomeCppGameDev), A curated list of awesome C++ (mainly) things for Game Development. Inspired by awesome-... stuff.
+- [anything_about_game](https://github.com/killop/anything_about_game): A wonderful list of Game Development resources.
 
 ### games
 - [Awesome One Person Games](https://github.com/Yonaba/awesome-one-person-games), A curated list of successul games, made (quite) entirely by a lone gamedev.
