@@ -6,6 +6,7 @@
 
 
 ## Learn
+- [Android Developer](https://roadmap.sh/android): Step by step guide to becoming an Android developer
 - [Android Developer Roadmap](https://github.com/mobile-roadmap/android-developer-roadmap)
 - [Training for Android developers](https://developer.android.com/training/index.html) - [zh-cn](http://hukai.me/android-training-course-in-chinese/)
 - [Android Examples](https://github.com/nisrulz/android-examples) :shipit: [Examples] Simple basic isolated apps, for budding android devs.

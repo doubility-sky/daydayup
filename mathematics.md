@@ -35,6 +35,7 @@ Mathematics is essential in many fields, including natural science, engineering,
 
 
 ## [Linear algebra](https://en.wikipedia.org/wiki/Linear_algebra)
+- [Introduction to Linear Algebra](https://pabloinsente.github.io/intro-linear-algebra) for Applied Machine Learning with Python
 
 ### books
 - [Free Linear Algebra textbook](http://joshua.smcvt.edu/linearalgebra/) is a text for a first US undergraduate Linear Algebra course. You can use it as a main text, as a supplement, or for independent study.

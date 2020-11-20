@@ -1,4 +1,5 @@
-- https://www.qt.io/
+[Qt](https://www.qt.io/) is a full development framework with tools designed to streamline the creation of applications and user interfaces for desktop, embedded, and mobile platforms.
+
 - https://wiki.qt.io/Main
 
 
@@ -12,9 +13,10 @@
 ## Projects
 - [redis GUI](redis#gui), [Redis Desktop Manager](https://github.com/uglide/RedisDesktopManager/)
 - [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) messaging app https://desktop.telegram.org/
+- [therecipe/qt](https://github.com/therecipe/qt) allows you to write Qt applications entirely in Go, JavaScript/TypeScript, Dart/Flutter, Haxe and Swift Beside the language bindings provided, therecipe/qt also greatly simplifies the deployment of Qt applications to various software and hardware platforms.
 
 
 
 ## Resources
-- https://github.com/JesseTG/awesome-qt
-- https://github.com/mikalv/awesome-qt-qml
+- [Awesome Qt](https://github.com/JesseTG/awesome-qt): A curated list of awesome tools, libraries, and resources for the Qt framework.
+- [Awesome Qt & QML](https://github.com/mikalv/awesome-qt-qml): A curated list of awesome Qt and QML libraries, resources, projects, and shiny things.

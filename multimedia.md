@@ -80,26 +80,39 @@
 
 
 ## Audio
-- https://github.com/willianjusten/awesome-audio-visualization
 - `lame --mp3input --abr 32 ${infile} ${outfile}.mp3`
 - `ffmpeg -i "${filename}.wav" -f mp3 "${filename}.mp3"`
 - [使用 audacity/lame/ffmpeg 进行 mp3 文件瘦身](http://blog.zengrong.net/post/2624.html)
-- [aubio](https://github.com/aubio/aubio) a library for audio and music analysis https://aubio.org
-- [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
+
+### libraries
 - [libsoundio](https://github.com/andrewrk/libsoundio) C library providing cross-platform audio input and output. The API is suitable for real-time software such as digital audio workstations as well as consumer software such as music players.
-- [ofxPDSP](https://github.com/npisanti/ofxPDSP) is an openFrameworks addon for audio synthesis and generative music.
+- [aubio](https://github.com/aubio/aubio) a library for audio and music analysis https://aubio.org
 - [FastNoise](https://github.com/Auburn/FastNoise) is an open source noise generation library with a large collection of different noise algorithms. This library has been designed for realtime usage from the ground up, so has been optimised for speed without sacrificing noise quality.
+- [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
+- [ofxPDSP](https://github.com/npisanti/ofxPDSP) is an openFrameworks addon for audio synthesis and generative music.
+
+### Resources
+- [awesome-audio-visualization](https://github.com/willianjusten/awesome-audio-visualization): A curated list about Audio Visualization.
 
 
 
 ## Video
 - [VLC](https://www.videolan.org/) is a free and open source cross-platform multimedia player and framework that plays most multimedia files as well as DVDs, Audio CDs, VCDs, and various streaming protocols.
-- [OBS Studio](https://github.com/obsproject/obs-studio), Free and open source software for live streaming and screen recording
-- [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
 - [mpv](https://github.com/mpv-player/mpv) is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
 - [ijkplayer](https://github.com/bilibili/ijkplayer) Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.
-- [Bento4](https://github.com/axiomatic-systems/Bento4) Full-featured MP4 format and MPEG DASH library and tools
+
+### recorder
+- [LICEcap](https://github.com/justinfrankel/licecap) simple animated screen capture tool for Windows and OS X 
+- [OBS Studio](https://github.com/obsproject/obs-studio), Free and open source software for live streaming and screen recording
+
+### editor
 - [shotcut](https://github.com/mltframework/shotcut) cross-platform (Qt), open-source (GPLv3) video editor https://www.shotcut.org
+
+### transcoder
+- [HandBrake](https://github.com/HandBrake/HandBrake) is an open-source video transcoder available for Linux, Mac, and Windows
+
+### libraries
+- [Bento4](https://github.com/axiomatic-systems/Bento4) Full-featured MP4 format and MPEG DASH library and tools
 
 
 
