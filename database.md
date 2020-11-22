@@ -1,7 +1,12 @@
 A [database](https://en.wikipedia.org/wiki/Database) is an organized collection of data, generally stored and accessed electronically from a computer system. Where databases are more complex they are often developed using formal design and modeling techniques.
 
 - [DB-ENGINES](https://db-engines.com/en/) Knowledge Base of Relational and NoSQL Database Management Systems
+
+
+
+## Learn
 - [Awesome data engineering learning path](https://github.com/snird/awesome-data-engineering-learning): Awesome list of data engineering learning materials by subject https://awesomedataengineering.com/
+- [《Designing Data-Intensive Application》](https://github.com/Vonng/ddia): DDIA中文翻译 - 设计数据密集型应用
 
 
 
@@ -24,7 +29,6 @@ SQL (/ˌɛsˌkjuːˈɛl/ ( listen) S-Q-L, /ˈsiːkwəl/ "sequel"; Structured Que
   > * __强调单独的单词__。由多个单词组成的对象名称应该用下划线分隔，例如使用`word_count`或`team_member_id`，而不是`wordcount`或`wordCount`。
   > * __完整的单词，而不是缩写__。例如使用`middle_name`，不是`mid_nm`。
   > * __使用常用缩写__。对于几个长词而言，缩写词比词本身更为常见，比如`i18n`和`l10n`，这时使用缩写。
-
 
 
 
