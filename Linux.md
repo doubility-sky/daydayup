@@ -99,6 +99,12 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 ## File 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
+  ```shell
+  echo dirname is $(dirname $file)
+  echo filename is $(basename $file)
+  echo extension is "${file##*.}"
+  echo filename without ext "${file%.*}"
+  ```
 - `lsof -i:80` lsof is a command meaning "list open files", which is used in many Unix-like systems to report a list of all open files and the processes that opened them. 
 
 ### du
