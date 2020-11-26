@@ -150,10 +150,11 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 ## Hostname
+- `hostnamectl set-hostname XXXX`
 - `hostname XXXX` 临时修改主机名为 XXXX
 - `vi /etc/hostname` 永久修改主机名
-- `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
-- `vi /etc/hosts` 添加新主机名回环地址映射
+  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
+  - `vi /etc/hosts` 添加新主机名回环地址映射
 
 
 
@@ -296,9 +297,14 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 ## Schedule
-- 添加开机启动脚本：修改/etc/rc.d/rc.local，最后添加脚本命令。  
-  再修改它为可执行：chmod a+x /etc/rc.d/rc.local 
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
+- [如何在重启或启动时执行命令或脚本](https://zhuanlan.zhihu.com/p/145739918)
+  - 添加脚本至 `/etc/rc.d/rc.local`，确保该文件有运行权限 `chmod a+x /etc/rc.d/rc.local`
+    - [在Ubuntu 18.04 中设置开机自动执行脚本](https://blog.csdn.net/weicao1990/article/details/101121085)
+  - 使用 `crontab -e` 添加
+    - `@reboot (sleep 30; bash ~/xx.sh)`
+    - 执行 `select-editor` 可重新选择编辑器
+    - 也可以添加在 `/etc/crontab`，但是注意需要指定 user，如：`@reboot root (sleep 30; bash ~/xx.sh)`
 
 
 
