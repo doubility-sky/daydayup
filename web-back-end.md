@@ -4,6 +4,7 @@
 
 ## Learn
 - [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
+- [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 
 ### architecture
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
