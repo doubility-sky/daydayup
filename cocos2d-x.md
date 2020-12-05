@@ -23,6 +23,16 @@
 
 
 
+## Tools
+
+### [Cocos Studio](http://www.cocos2d-x.org/download/cocos)
+- **注意！官方已不再维护，不推荐新项目使用。目前最后一个版本为 3.10**
+- macOS 上卡死问题
+  - [CocosStudio启动慢发布卡死，禁止联网后正常](https://forum.cocos.org/t/cocosstudio/41214/12)
+  - `sudo vi /etc/hosts` 添加 `127.0.0.1  cs.ucenter.appget.cn`
+
+
+
 ## FAQs
 - TextField 设置文本排列时，要靠设置锚点实现，用 setTextHorizontalAlignment 无效。靠左排列 ＝setAnchorPoint(0, 0.5)
 - cocos studio 中的 AtlasLabel 无法使用，用代码创建 LabelAtlas 代替。
@@ -50,16 +60,6 @@
   ```cpp
   #define SKIP_LINES_COUNT    200
   ```
-
-
-
-## Tools
-
-### [Cocos Studio](http://www.cocos2d-x.org/download/cocos)
-- **注意！官方已不再维护，不推荐新项目使用。目前最后一个版本为 3.10**
-- macOS 上卡死问题
-  - [CocosStudio启动慢发布卡死，禁止联网后正常](https://forum.cocos.org/t/cocosstudio/41214/12)
-  - `sudo vi /etc/hosts` 添加 `127.0.0.1  cs.ucenter.appget.cn`
 
 
 
