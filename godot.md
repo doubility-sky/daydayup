@@ -8,4 +8,4 @@
 
 
 ## Resources
-- [Awesome Godot](https://github.com/Calinou/awesome-godot), A curated list of [free/libre](https://www.gnu.org/philosophy/free-sw.html) games, plugins, add-ons and scripts for Godot.
+- [Awesome Godot](https://github.com/godotengine/awesome-godot), A curated list of [free/libre](https://www.gnu.org/philosophy/free-sw.html) games, plugins, add-ons and scripts for Godot.
