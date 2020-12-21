@@ -213,11 +213,16 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
-### ufw
+### [UFW](https://help.ubuntu.com/community/UFW)
 - `ufw allow ssh` 生效前最好先放行 ssh
-- `ufw enable`
-- `ufw allow 80`
-- `ufw allow xxx:yyy/tcp` 开放 xxx 到 yyy 端口段
+- `ufw enable`  生效，执行后，未 allow 的端口均无法访问
+- `ufw status [numbered]` 列出状态(规则列表）[是否加上编号以便删除]
+- `ufw allow 80`  允许端口外部访问
+- `ufw allow xxx:yyy/tcp` 开放 [xxx, yyy] 端口范围
+- `ufw allow from 192.168.0.1` 允许特定 ip 访问全部端口
+- `ufw allow from 192.168.0.1 to any port 80`  允许特定 ip 访问指定端口
+- `ufw deny 80`    禁止端口外部访问
+- `ufw delete XXX` 删除指定规则（其中 XXX 为之前 ufw 后跟的表达式）
 
 ### [firewall-cmd](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
