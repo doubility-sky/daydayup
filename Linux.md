@@ -169,6 +169,7 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 ## SSH
+- [SSH 教程](https://wangdoc.com/ssh/index.html)
 - 远程连接：`ssh -p12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
 - ssh copy 文件至远端 `scp -P12345 xx.txt root@xxx.xxx.xxx.xxx:~/` 
