@@ -21,6 +21,7 @@
 - [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide): Python best practices guidebook, written for humans.
 - [《Python Cookbook》 3rd Edition Translation](https://github.com/yidao620c/python3-cookbook)
 - [《Python 3 源码剖析》](https://github.com/flaggo/python3-source-code-analysis)
+- [Legally Free Python Books List](https://www.pythonkitchen.com/legally-free-python-books-list/)
 
 
 
