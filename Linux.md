@@ -246,6 +246,9 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   - `firewall-cmd --zone=public --add-port=12345/tcp --permanent`
 - 关闭指定端口 
   - `firewall-cmd --zone=public --remove-port=12345/tcp --permanent`
+- 查看配置
+  - `firewall-cmd --zone=public --list-all`
+  - `firewall-cmd --list-all-zones` 所有区域的配置
 - 端口转发 local:80 => local:12345
   - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=12345` 
 - 转发远程主机 local:80 => 123.456.78.9:8080
