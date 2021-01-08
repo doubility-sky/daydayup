@@ -1,29 +1,21 @@
-[Go](http://golang.org/) is an open source programming language that makes it easy to build **simple**, **reliable**, and **efficient** software.
+[Go](http://golang.org/) is an [open source](https://github.com/golang) programming language that makes it easy to build **simple**, **reliable**, and **efficient** software.
 
-
-- https://golang.org/doc/ - `godoc -http=:6060`
-- https://github.com/golang/go/wiki
-- https://talks.golang.org/
+- :star:[Wiki](https://github.com/golang/go/wiki), [Documents](https://golang.org/doc/) (`godoc -http=:6060`), [Talks](https://talks.golang.org/)
 
 
 
 ## Learn
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer
-
-### quick start
-- [A Tour of Go](https://tour.golang.org/) with [The Go Playground](https://play.golang.org/)
-- [Go by Example](https://gobyexample.com/) 
-- [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+- [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
 
 ### philosophy
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](golang/#creators) 
 - [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - [cspbook.pdf](http://www.usingcsp.com/cspbook.pdf) by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 
-### books
-- [The Go Programming Language](https://www.gopl.io/) - [zh-cn](https://docs.hacknode.org/gopl-zh/), by [gopl-zh](https://github.com/golang-china/gopl-zh)
-- [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang): A golang ebook intro how to build a web with golang
-- [Go 语言设计与实现](https://draveness.me/golang/)
-- [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
+### quick start
+- [A Tour of Go](https://tour.golang.org/) with [The Go Playground](https://play.golang.org/)
+- [Go by Example](https://gobyexample.com/) 
+- [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 
 ### standard & style
 - [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
@@ -31,13 +23,18 @@
 - [Go-advices](https://github.com/cristaloleg/go-advice) List of advices and tricks for Go ʕ◔ϖ◔ʔ
 - [uber-go/guide](https://github.com/uber-go/guide) The Uber Go Style Guide.
 
+### books
+- :star:[The Go Programming Language](https://www.gopl.io/) - [zh-cn](https://docs.hacknode.org/gopl-zh/), by [gopl-zh](https://github.com/golang-china/gopl-zh)
+- [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang): A golang ebook intro how to build a web with golang
+- [go-perfbook](https://github.com/dgryski/go-perfbook) - [zh-cn](https://github.com/dgryski/go-perfbook/blob/master/performance-zh.md) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
+- [Go 语言高性能编程](https://github.com/geektutu/high-performance-go): high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps）
+
 ### advanced contents
 - [What Go values look like in memory?](https://research.swtch.com/godata): This post is about basic types, structs, arrays, and slices.
-- [go-perfbook](https://github.com/dgryski/go-perfbook) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
+- :star:[Go 语言设计与实现](https://draveness.me/golang/)：本书的主要内容可以分成四个主要部分，分别是编译原理、运行时、基础知识和进阶知识，这四部分几乎可以覆盖 Go 语言从编译到运行的方方面面，让我们对 Go 语言有更加整体和深刻的认识。
 - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
 - [Go 语言原本](https://github.com/changkun/go-under-the-hood): 一份不太简短的源码研究 - [在线阅读](https://golang.design/under-the-hood)
 - [Go1.5源码剖析](https://github.com/qyuhen/book)
-- [深入解析Go](https://github.com/tiancaiamao/go-internals): dig into implemention of the go programming language
 
 
 

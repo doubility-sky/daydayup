@@ -14,6 +14,7 @@ Lua combines simple procedural syntax with powerful data description constructs 
 - [Lua脚本之语法基础快速入门](http://www.cocos.com/doc/tutorial/show?id=1929)
 - [[lua coding style]]
 - [Lua: Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
+- [浅析android手游lua脚本的加密与解密](https://bbs.pediy.com/thread-216969-1.htm)
 
 ### [Source Code](http://lua-users.org/wiki/LuaSource)
 - <details> <summary> Which OSS codebases out there are so well designed that you would consider them 'must reads'? </summary>
@@ -74,8 +75,8 @@ Lua combines simple procedural syntax with powerful data description constructs 
 ## Projects
 - [DCLua](https://github.com/milochristiansen/lua) A Lua 5.3 VM and compiler written in Go.
 - [一个 Lua 内存泄露检查工具](http://blog.codingnow.com/2012/12/lua_snapshot.html)
-- [浅析android手游lua脚本的加密与解密](https://bbs.pediy.com/thread-216969-1.htm)
 - [Awesome window manager](https://github.com/awesomeWM/awesome) is a highly configurable, next generation framework window manager for X.
+- [lite](https://github.com/rxi/lite) is a lightweight text editor written mostly in Lua — it aims to provide something practical, pretty, small and fast, implemented as simply as possible; easy to modify and extend, or to use without doing either.
 
 
 
