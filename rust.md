@@ -1,11 +1,17 @@
-- https://www.rust-lang.org
+[Rust](https://www.rust-lang.org) is blazingly fast and memory-efficient: with no runtime or garbage collector, it can power performance-critical services, run on embedded devices, and easily integrate with other languages.
+
+- [The Rust Programming Language](https://doc.rust-lang.org/book/)
+- [rustlings](https://github.com/rust-lang/rustlings/)🦀❤️ Small exercises to get you used to reading and writing Rust code!
+- [Rust by Example](https://rustbyexample.com/)
 
 
 
 ## Learn
-- [Rust by Example](https://rustbyexample.com/)
+- [A half-hour to learn Rust](https://fasterthanli.me/articles/a-half-hour-to-learn-rust)
+- [Read Rust](https://readrust.net/) collects interesting posts related to the Rust programming language.
+- [This Week in Rust](https://this-week-in-rust.org/)
 - [Rust for C++ programmers](https://github.com/nrc/r4cppp)
-- https://github.com/rustcc/RustPrimer
+- [The Rust primer](https://github.com/rustcc/RustPrimer) 给初学者的Rust中文教程
 
 
 
@@ -22,4 +28,4 @@
 
 
 ## Resources
-- https://github.com/kud1ing/awesome-rust
+- [Awesome Rust](https://github.com/kud1ing/awesome-rust): A curated list of Rust code and resources.
