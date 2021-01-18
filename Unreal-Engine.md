@@ -1,10 +1,11 @@
-- https://www.unrealengine.com
-- https://github.com/EpicGames
+[Unreal Engine](https://www.unrealengine.com) is the world’s most open and advanced real-time 3D creation tool. Continuously evolving to serve not only its original purpose as a state-of-the-art game engine, today it gives creators across industries the freedom and control to deliver cutting-edge content, interactive experiences, and immersive virtual worlds. 
+
+- [EpicGames](https://github.com/EpicGames)
+- [Documentation](https://docs.unrealengine.com/en-US/index.html)
 
 
 
 ## Learn
-- https://docs.unrealengine.com/en-US/index.html
 - [Allar/ue4-style-guide](https://github.com/Allar/ue4-style-guide) An attempt to make Unreal Engine 4 projects more consistent http://ue4.style
 - [Tom Looman](https://www.tomlooman.com/): Unreal Engine Tutorials and Game Development Blog
   - [tomlooman/ue4-tutorials](https://github.com/tomlooman/ue4-tutorials) Collection of Unreal 4 Tutorials & Experiments by Tom Looman
@@ -35,4 +36,5 @@
 
 
 ## Resources
-- https://github.com/terrehbyte/awesome-ue4
+- [terrehbyte/awesome-ue4](https://github.com/terrehbyte/awesome-ue4): A curated list of resources for working with Unreal Engine 4. (Awesome Unreal Engine 4)
+- [insthync/awesome-ue4](https://github.com/insthync/awesome-ue4): A categorized collection of awesome opensource Unreal Engine 4 repos
