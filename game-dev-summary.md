@@ -6,7 +6,7 @@
 #### 框架选择
 - [[game-client]]
   - [[cocos2d-x]]，最适合 2d、H5，现也部分支持 3d
-  - [[unity3d]]，最适合 3d 游戏，也支持 2d，H5支持比较弱
+  - [[unity]]，最适合 3d 游戏，也支持 2d，H5支持比较弱
 - [[game-server]]
   - 自行实现：纯 [[C]]，或纯现代 [C++](cpp) 或 `C/C++` 混搭(`better C`)开发方式
   - 成熟框架 [[skynet]]，[[kbengine]]，[[pomelo]](低维护)，`smart-fox`，`RakNet` ...

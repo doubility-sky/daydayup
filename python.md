@@ -23,9 +23,7 @@
 - [《Python 3 源码剖析》](https://github.com/flaggo/python3-source-code-analysis)
 - [Legally Free Python Books List](https://www.pythonkitchen.com/legally-free-python-books-list/)
 
-
-
-## Practice
+### practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 - [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师

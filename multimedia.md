@@ -91,7 +91,7 @@
 - [RtAudio](https://github.com/thestk/rtaudio) A set of C++ classes that provide a common API for realtime audio input/output across Linux (native ALSA, JACK, PulseAudio and OSS), Macintosh OS X (CoreAudio and JACK), and Windows (DirectSound, ASIO and WASAPI) operating systems.
 - [ofxPDSP](https://github.com/npisanti/ofxPDSP) is an openFrameworks addon for audio synthesis and generative music.
 
-### Resources
+### resources
 - [awesome-audio-visualization](https://github.com/willianjusten/awesome-audio-visualization): A curated list about Audio Visualization.
 
 

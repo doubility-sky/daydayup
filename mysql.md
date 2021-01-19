@@ -1,11 +1,20 @@
 The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithreaded, multi-user, and robust SQL (Structured Query Language) database server. MySQL Server is intended for mission-critical, heavy-load production systems as well as for embedding into mass-deployed software. 
 
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+- [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
+- [[TiDB]]
+
 
 
 ## Learn
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- [MySQL 5.7 Reference Manual](https://dev.mysql.com/doc/refman/5.7/en/)
-  - [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
+- [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
+
+### practice
+- [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
+- [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
+- [mysql中的慢查询日志](https://www.css3er.com/p/238.html)
+  - 慢查询日志分析工具（mysqldumpslow）
+  - 使用Show Profile进行分析
 
 
 
@@ -240,15 +249,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## Practice
-- [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
-- [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
-- [mysql中的慢查询日志](https://www.css3er.com/p/238.html)
-  - 慢查询日志分析工具（mysqldumpslow）
-  - 使用Show Profile进行分析
-
-
-
 ## Tools
 - [mycli](https://github.com/dbcli/mycli): A command line client for MySQL that can do auto-completion and syntax highlighting.
 
@@ -279,6 +279,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 ## Resources
-- https://github.com/shlomi-noach/awesome-mysql
-- https://github.com/jobbole/awesome-mysql-cn
+- [awesome-mysql](https://github.com/shlomi-noach/awesome-mysql): A curated list of awesome MySQL software, libraries, tools and resources
+- [MySQL 资源大全中文版](https://github.com/jobbole/awesome-mysql-cn)，分析工具、备份、性能测试、配置、部署、GUI 等
 

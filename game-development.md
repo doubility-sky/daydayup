@@ -9,11 +9,10 @@
 - [game-programmer](https://github.com/miloyip/game-programmer): A Study Path for Game Programmer
 - [Game Programming Patterns](https://github.com/munificent/game-programming-patterns) - [游戏编程模式](https://github.com/tkchu/Game-Programming-Patterns-CN)
 - [Game Development](https://gamedevelopment.tutsplus.com/), Free tutorials and online courses to help you learn game development from experienced industry instructors, for building and designing your own games.
+- [Red Blob Games](https://www.redblobgames.com/): Hi! I make interactive visual explanations of math and algorithms, using motivating examples from computer games.
+
+### practice
 - [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
-
-
-
-## Practice
 - [Game-Programmer-Study-Notes](https://github.com/QianMo/Game-Programmer-Study-Notes), 游戏程序员生涯的读书笔记合辑。  
   涉及游戏开发中的图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。  
   Keep Reading , Keep Writing , Keep Coding.

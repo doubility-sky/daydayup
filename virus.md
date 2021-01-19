@@ -7,7 +7,7 @@ A [computer virus](https://en.wikipedia.org/wiki/Computer_virus) is a type of co
 - [BypassAntiVirus](https://github.com/TideSec/BypassAntiVirus): 远控免杀系列文章及配套工具，汇总测试了互联网上的几十种免杀工具、113种白名单免杀方式、8种代码编译免杀、若干免杀实战技术，并对免杀效果进行了一一测试，为远控的免杀和杀软对抗免杀提供参考。
 - [Virus Analysis](https://github.com/TonyChen56/Virus-Analysis): 病毒分析
 
-### Articles
+### articles
 - [计算机病毒发展史：不只有熊猫烧香，一文了解各大“传奇病毒”！](https://zhuanlan.zhihu.com/p/84275890)
 - [手把手教你用c语言编写网络病毒](https://cloud.tencent.com/developer/article/1328436)
 - [Linux内核级木马与病毒攻防：基础工具介绍](https://cloud.tencent.com/developer/article/1657789)

@@ -14,9 +14,7 @@
 - [在2019年学习如何成为现代前端开发人员](https://www.zcfy.cc/article/learn-to-become-a-modern-frontend-developer-in-2019)
 - [Chrome Dev Tools 使用指南](https://wiki.jikexueyuan.com/project/chrome-devtools/overview.html)
 
-
-
-## Practice
+### practice
 - [The perfect Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for modern websites and meticulous developers https://frontendchecklist.io
 - [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/
 

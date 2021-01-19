@@ -1,15 +1,25 @@
 [Game engines](https://en.wikipedia.org/wiki/Game_engine) are tools available for game designers to code and plan out a game quickly and easily without building one from the ground up. Whether they are 2D or 3D based, they offer tools to aid in asset creation and placement.
 
 
-
 - [[Computer Graphics]]
-- [CUSTOM GAME ENGINES: A Small Study](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74)
 - [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 - [game-client by golang](golang#game-client)
 
 
 
-## Html5
+## Learn
+- [CUSTOM GAME ENGINES: A Small Study](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74)
+
+### sprite sheet & texture atlas
+- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
+- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
+
+### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
+
+
+
+## Html5 Game Engine
 - [HTML5 Game Engines](https://html5gameengine.com/): Listed are the cream of the crop of HTML5 / JavaScript game engines - frameworks that are respected and maintained. Click "More Details" for a full description, reviews, important links, and sample games.
 - [What are the best HTML5/JavaScript frameworks for web-based games?](https://www.slant.co/topics/973/~best-html5-javascript-frameworks-for-web-based-games)
 - [2016年最火的15款HTML5游戏引擎](http://www.oschina.net/news/72092/2016-top-15-html5-game-engines)
@@ -28,7 +38,7 @@
 
 
 
-## 2D
+## 2D Game Engine
 - [What are the best 2D game engines?](https://www.slant.co/topics/341/~best-2d-game-engines)
 
 ### recommend
@@ -52,7 +62,7 @@
 
 
 
-## 3D
+## 3D Game Engine
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
 
 ### recommend
@@ -62,7 +72,7 @@
 - [[cocos creator]]
 
 ### nonfree
-- [[unity3d]], [[Unreal Engine]]
+- [[unity]], [[Unreal Engine]]
 
 ### wait-and-see
 - [Urho3D](https://github.com/urho3d/Urho3D) is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by OGRE and Horde3D.
@@ -72,29 +82,18 @@
 
 
 
-## Specific type
+## Specific Types Game Engine
 - [Pyxel](https://github.com/kitao/pyxel) is a retro game engine for Python.
 - [renpy](https://github.com/renpy/renpy) The Ren'Py Visual Novel Engine http://www.renpy.org/
 - [Spring](https://github.com/spring/spring) (formerly TASpring) is an Open Source Real Time Strategy game engine. Visit our [project homepage](https://springrts.com/) for help, suggestions, bugs, community forum and everything spring related.
 
 
 
-## Physics
+## [Physics Engine](https://en.wikipedia.org/wiki/Physics_engine)
 - [bullet3](https://github.com/bulletphysics/bullet3) Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc. http://bulletphysics.org
 - [Box2D](https://github.com/erincatto/Box2D) is a 2D physics engine for games http://box2d.org
   - [box2d-lite](https://github.com/erincatto/box2d-lite) A small 2D physics engine http://box2d.org/
 - [Game Physics Cookbook](https://github.com/gszauer/GamePhysicsCookbook) Source code for Game Physics Cookbook http://gamephysicscookbook.com/
-
-
-
-## Practice
-
-### sprite sheet & texture atlas
-- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
-- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
-
-### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
-- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
 
 
 
@@ -112,4 +111,3 @@
 
 ## FAQs
 - [What's the difference between a game engine and a game development framework? ](https://www.quora.com/Whats-the-difference-between-a-game-engine-and-a-game-development-framework)
-

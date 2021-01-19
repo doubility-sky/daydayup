@@ -1,7 +1,6 @@
 [Hypertext Markup Language](https://en.wikipedia.org/wiki/HTML) (HTML) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as [Cascading Style Sheets](CSS) (CSS) and scripting languages such as [[JavaScript]].
 
 
-
 - [HTML](https://github.com/whatwg/html) Standard https://html.spec.whatwg.org/multipage/
 - [DOM](https://github.com/whatwg/dom) Standard https://dom.spec.whatwg.org/
 
@@ -11,9 +10,7 @@
 - [HTTP 协议入门](https://www.ruanyifeng.com/blog/2016/08/http.html)
 - [HTML Tutorial - w3schools](https://www.w3schools.com/html)
 
-
-
-## Practice
+### practice
 - [jagttt's blog](http://pre-sence.com/trivia) 选定一个后端技术然后前端从 jQuery 开始熟悉，很快就能做出很有成就感的东西。
 
 

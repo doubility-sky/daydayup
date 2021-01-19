@@ -26,9 +26,7 @@
 - [儿童学编程，教什么语言好？](https://www.zhihu.com/question/19705160?wechatShare=1)
 - [codingame](https://www.codingame.com/start) The new way to improve your programming skills while having fun and getting noticed
 
-
-
-## Practice
+### practice
 - :star:[build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 - [Mega Project List](https://github.com/karan/Projects) A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
 

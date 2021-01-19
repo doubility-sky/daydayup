@@ -1,7 +1,8 @@
-[TiDB](https://github.com/pingcap/tidb) (/’taɪdiːbi:/, "Ti" stands for Titanium) is an open-source, distributed, NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is MySQL compatible and features horizontal scalability, strong consistency, and high availability. TiDB can be deployed on-premise or in-cloud.
+[TiDB](https://github.com/pingcap/tidb) (/’taɪdiːbi:/, "Ti" stands for Titanium) is an open-source, distributed, NewSQL database that supports Hybrid Transactional and Analytical Processing (HTAP) workloads. It is [[MySQL]] compatible and features horizontal scalability, strong consistency, and high availability. TiDB can be deployed on-premise or in-cloud.
 
 - [Official Website](https://pingcap.com/en/)
 - [PingCAP University](https://university.pingcap.com/)
+- [[mysql]]
 
 
 
@@ -22,9 +23,7 @@
 ### details
 - [TiKV 是如何存取数据的](https://pingcap.com/blog-cn/how-tikv-store-get-data/)
 
-
-
-## Practice
+### practice
 - [用户案例](https://pingcap.com/cases-cn/user-case-zhihu/)
 - [精选实践汇总](https://asktug.com/t/topic/34701)
 - [新一代数据库TiDB在美团的实践](https://tech.meituan.com/2018/11/22/mysql-pingcap-practice.html)
@@ -44,4 +43,3 @@
 ## FAQ
 - [Ask TiDB User Group](https://asktug.com/): AskTUG-开源分布式_HTAP_数据库 - TiDB_问答
 - [OLAP与OLTP介绍](https://developer.aliyun.com/article/345453)
-

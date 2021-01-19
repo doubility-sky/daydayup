@@ -19,9 +19,7 @@
 - [demo-ball](https://github.com/cocos-creator/demo-ball) A jumping ball demo created by Cocos Creator 3D
 - [Tutorial-Taxi-Game](https://github.com/cocos-creator/tutorial-taxi-game): This is an open source demo game using Cocos Creator 3D v1.0.x, with [17 episodes of video tutorial on Bilibili](https://www.bilibili.com/video/BV1AE411j7L9). From this project, you can learn how to use Cocos Creator 3D to develop a 3D game from sratch.
 
-
-
-## Practice
+### practice
 - [COCOS 文章](https://www.chainnews.com/u/655723746819.htm)，含 官方博客 + 官方微信公众号文章
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [CocosCreator 纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)

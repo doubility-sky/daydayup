@@ -44,9 +44,59 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 > 注  
 1.[Proto Buffers in Lua](http://blog.codingnow.com/2010/08/proto_buffers_in_lua.html)
 
+### [skynet development blog](http://blog.codingnow.com/eo/skynet/)
+链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
+- 三国志战略版服务器卡顿问题 https://blog.codingnow.com/2019/10/sanguo.html
+- 代理服务和过载保护 https://blog.codingnow.com/2016/05/skynet_proxy.html
+- skynet 服务的沙盒保护 https://blog.codingnow.com/2016/05/skynet_memory.html
+  - 经过这次事故，我觉得 skynet 有必要增加一个新特性：允许开发者限制单个 lua vm 使用内存的大小。
+  - 如果需要开启，必须在脚本一开始就调用 skynet.memlimit 设置上限，单位是字节数。一旦该 VM 使用超过这个限制，就会抛出内存错误。
+- 重载一个 skynet 中的 lua 服务 https://blog.codingnow.com/2016/03/skynet_reload.html
+  > 能不能不关闭 skynet 进程，直接重新加载一个 lua 服务。  
+  简单的回答的不能。如果要详细回答，并非完全不行，但这个需求需要使用 skynet 的人自己定制出来。
+- 在 skynet 中处理 TCP 的分包 https://blog.codingnow.com/2016/03/skynet_tcp_package.html  
+  > skynet 的核心并没有规定怎样处理 TCP 的数据流，但在开发网络游戏时，我们往往需要按传统，把 TCP 连接上的数据流分割为一个个数据包。
+- 基于 skynet 的 MMO 服务器设计 http://blog.codingnow.com/2015/04/skynet_mmo.html  
+  > 陌陌 带了他们的一个 CP 到我们公司咨询一下 skynet 做 mmo 游戏项目中遇到的一些问题...
+- skynet 服务的过载保护 http://blog.codingnow.com/2014/10/skynet_overload.html  
+  >《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...
+- skynet 中如何实现邮件达到通知服务 http://blog.codingnow.com/2014/07/skynet_response.html   
+  > 讨论如何实现一个邮件通知服务...
+- 谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) http://blog.codingnow.com/2014/03/mmzb_redis.html  
+  > 在陌陌争霸之前，我们并没有大规模使用过 Redis 。只是直觉上感觉 Redis 很适合我们的架构：我们这个游戏不依赖数据库帮我们处理任何数据，总的数据量虽然较大，但增长速度有限。
+- skynet 服务启动优化 http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
+  > 手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...
+- 如何安全的退出 skynet http://blog.codingnow.com/2013/08/exit_skynet.html  
+  > 如何安全的退出和业务逻辑相关性很强...
+- skynet 下的用户登陆问题 http://blog.codingnow.com/2013/06/skynet_watchdog.html  
+  > 今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...
+- 并发问题 bug 小记 http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
+  > 在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...
+
+### issues
+- 开服问题 https://github.com/cloudwu/skynet/issues/560#issuecomment-264356777
+
+### others
+- [Skynet交流](http://www.dpull.com/blog/2014-12-13-skynet_meeting)
+  - agent启动后进行一次GC
+    - lua 的 GC只关注自身占用了多大内存，然后在合适的时候进行GC，agent再启动时通常会产生一些临时数据，主动GC，会节约很多内存。
+  - GC有一些东西是回收不掉的
+    - table是不缩小的，如某个table有20万条数据，将其所有的value设置为nil，table并不会缩小，只有将其设置为nil或一个新的table，才会减少其占用内存的大小。
+- [关于《三国志·战略版》的若干设计理念](https://thislinux.com/sanguozhi/)
+- [游戏服务器的集群问题](http://blog.findix.cn/2019/03/17/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E9%9B%86%E7%BE%A4%E9%97%AE%E9%A2%98/)
+- [某百万DAU游戏的服务端优化工作](https://zhuanlan.zhihu.com/p/341855913)
+  - [游戏服务端的高并发和高可用](https://zhuanlan.zhihu.com/p/342953318)
 
 
-## Service
+
+## [Build](https://github.com/cloudwu/skynet/wiki/Build)
+- 在 ubuntu 等 linux 发行版本环境下，make 之前需要先一些预先安装
+  - `apt install autoconf libreadline-dev`
+- [skynet-mingw](https://github.com/dpull/skynet-mingw): windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
+
+
+
+## [Service](https://github.com/cloudwu/skynet/wiki/GettingStarted#%E6%9C%8D%E5%8A%A1-service)
 - 定义
   - 从动态库（so 文件）中启动起来的一个符合规范的 C 模块，该模块称为服务(service)。
   - 每个服务都是被一个个消息包驱动，当没有包到来的时候，它们就会处于挂起状态，对 CPU 资源零消耗。
@@ -65,15 +115,20 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-## [[Lua]]
-- https://github.com/cloudwu/skynet/wiki/LuaAPI
-- 标配脚本 （虽然云风一再表明可以使用其他脚本，但是Skynet对Lua是天生的友好，弃用就放弃了太多的历史附加好处） 
-- 使用 snlua xxx.lua 服务 (此处sn应该是 Skynet 的简写) 来启动lua脚本。
+## [LuaAPI](https://github.com/cloudwu/skynet/wiki/LuaAPI)
+- 标配脚本 （虽然云风表明可以使用其他脚本，但是 Skynet 对 [[lua]] 是默认的友好，弃用就放弃了太多的历史附加好处） 
+- 使用 `snlua` (此处 sn 应该是 Skynet 的简写) 服务来启动 `xxx.lua` lua 脚本服务
 - **不可混用coroutine !!!** https://github.com/cloudwu/skynet/wiki/Coroutine 
-- skynet里的coroutine http://blog.codingnow.com/2015/12/skynet_coroutine.html
-- skynet 中的 Lua修改版
+- skynet 里的 coroutine http://blog.codingnow.com/2015/12/skynet_coroutine.html
+- skynet 中的 Lua 修改版
   - https://github.com/cloudwu/skynet/wiki/CodeCache
   - [在不同的 lua vm 间共享 Proto](http://blog.codingnow.com/2014/03/lua_shared_proto.html)
+
+### snax - **deprecated!**
+- https://github.com/cloudwu/skynet/wiki/Snax
+- [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
+- [RPC 之恶](http://blog.codingnow.com/2015/11/rpc.html) - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
+- **综上**：snax拿来参考学习即可，无需深究。
 
 
 
@@ -145,64 +200,9 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 
 
 
-## Practice
-
-### [build](https://github.com/cloudwu/skynet/wiki/Build)
-- https://github.com/dpull/skynet-mingw  
-  windows 版本，作者初衷是方便策划修改自测使用，不要用作真实项目环境
-
-### tools
+## Tools
 - https://github.com/cloudwu/skynet/wiki/Profile
 - https://github.com/cloudwu/skynet/wiki/DebugConsole
-
-### snax - **deprecated!**
-- https://github.com/cloudwu/skynet/wiki/Snax
-- [snax : : a simple skynet auxliliary framework](https://github.com/cloudwu/skynet/pull/89)
-- [RPC 之恶](http://blog.codingnow.com/2015/11/rpc.html) - *snax 是对 skynet api 做的一个 rpc 封装，原意是让使用的人门槛更低。但...*   
-- **综上**：snax拿来参考学习即可，无需深究。
-
-### [skynet development blog](http://blog.codingnow.com/eo/skynet/)
-链接地址上有文章创建的日期（注意时效性，有些或与当前skynet架构不符）
-- 三国志战略版服务器卡顿问题 https://blog.codingnow.com/2019/10/sanguo.html
-- 代理服务和过载保护 https://blog.codingnow.com/2016/05/skynet_proxy.html
-- skynet 服务的沙盒保护 https://blog.codingnow.com/2016/05/skynet_memory.html
-  - 经过这次事故，我觉得 skynet 有必要增加一个新特性：允许开发者限制单个 lua vm 使用内存的大小。
-  - 如果需要开启，必须在脚本一开始就调用 skynet.memlimit 设置上限，单位是字节数。一旦该 VM 使用超过这个限制，就会抛出内存错误。
-- 重载一个 skynet 中的 lua 服务 https://blog.codingnow.com/2016/03/skynet_reload.html
-  > 能不能不关闭 skynet 进程，直接重新加载一个 lua 服务。  
-  简单的回答的不能。如果要详细回答，并非完全不行，但这个需求需要使用 skynet 的人自己定制出来。
-- 在 skynet 中处理 TCP 的分包 https://blog.codingnow.com/2016/03/skynet_tcp_package.html  
-  > skynet 的核心并没有规定怎样处理 TCP 的数据流，但在开发网络游戏时，我们往往需要按传统，把 TCP 连接上的数据流分割为一个个数据包。
-- 基于 skynet 的 MMO 服务器设计 http://blog.codingnow.com/2015/04/skynet_mmo.html  
-  > 陌陌 带了他们的一个 CP 到我们公司咨询一下 skynet 做 mmo 游戏项目中遇到的一些问题...
-- skynet 服务的过载保护 http://blog.codingnow.com/2014/10/skynet_overload.html  
-  >《天天来战》上了腾讯平台，由于瞬间用户量过大，发现了几个 bug...
-- skynet 中如何实现邮件达到通知服务 http://blog.codingnow.com/2014/07/skynet_response.html   
-  > 讨论如何实现一个邮件通知服务...
-- 谈谈陌陌争霸在数据库方面踩过的坑( Redis 篇) http://blog.codingnow.com/2014/03/mmzb_redis.html  
-  > 在陌陌争霸之前，我们并没有大规模使用过 Redis 。只是直觉上感觉 Redis 很适合我们的架构：我们这个游戏不依赖数据库帮我们处理任何数据，总的数据量虽然较大，但增长速度有限。
-- skynet 服务启动优化 http://blog.codingnow.com/2013/12/skynet_agent_pool.html  
-  > 手游即将上线，渠道要求我们首日可以承受 20 万同时在线，100 万活跃用户的规模...
-- 如何安全的退出 skynet http://blog.codingnow.com/2013/08/exit_skynet.html  
-  > 如何安全的退出和业务逻辑相关性很强...
-- skynet 下的用户登陆问题 http://blog.codingnow.com/2013/06/skynet_watchdog.html  
-  > 今天收到一个朋友的邮件，他们使用 skynet 框架的游戏上线后遇到一些问题...
-- 并发问题 bug 小记 http://blog.codingnow.com/2012/10/bug_and_lockfree_queue.html  
-  > 在用机器人对我们的服务器做压力测试时的一个异常状况：机器人都在线的时候，CPU 占用率不算特别高。但是一旦所以机器人都被关闭，系统空跑时，CPU 占用率反而飚升上去。...
-
-### issues
-- 开服问题 https://github.com/cloudwu/skynet/issues/560#issuecomment-264356777
-
-### others
-- [Skynet交流](http://www.dpull.com/blog/2014-12-13-skynet_meeting)
-  - agent启动后进行一次GC
-    - lua 的 GC只关注自身占用了多大内存，然后在合适的时候进行GC，agent再启动时通常会产生一些临时数据，主动GC，会节约很多内存。
-  - GC有一些东西是回收不掉的
-    - table是不缩小的，如某个table有20万条数据，将其所有的value设置为nil，table并不会缩小，只有将其设置为nil或一个新的table，才会减少其占用内存的大小。
-- [关于《三国志·战略版》的若干设计理念](https://thislinux.com/sanguozhi/)
-- [游戏服务器的集群问题](http://blog.findix.cn/2019/03/17/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E9%9B%86%E7%BE%A4%E9%97%AE%E9%A2%98/)
-- [某百万DAU游戏的服务端优化工作](https://zhuanlan.zhihu.com/p/341855913)
-  - [游戏服务端的高并发和高可用](https://zhuanlan.zhihu.com/p/342953318)
 
 
 

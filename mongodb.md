@@ -14,9 +14,7 @@
   - [社区开源工具篇](https://yq.aliyun.com/articles/69195)
 - [知道了这些 MongoDB设计技巧，提升效率50%](https://juejin.im/post/5dae6fb3f265da5baa5b12ec)
 
-
-
-## Practice
+### practice
 - [谈谈陌陌争霸在数据库方面踩过的坑(芒果篇)](https://blog.codingnow.com/2014/03/mmzb_mongodb.html)
 
 
@@ -32,10 +30,9 @@
 
 
 ## FAQs
-- https://github.com/mongodb/homebrew-brew for macOS
+- The Official MongoDB Software [Homebrew Tap](https://github.com/mongodb/homebrew-brew) for macOS
 
 
 
 ## Resources
-- https://github.com/ramnes/awesome-mongodb
-
+- [Awesome MongoDB](https://github.com/ramnes/awesome-mongodb)🍃 A curated list of awesome MongoDB resources, libraries, tools and applications

@@ -9,10 +9,6 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
 - [游戏服务器从入门到关门](https://zhuanlan.zhihu.com/c_1265419283598987264)
 - [游戏服务器](https://www.jianshu.com/c/5121fd868c4f)
 
-
-
-## Practice
-
 ### login/auth
 - [安全的提交密码](https://blog.codingnow.com/2008/01/diffie_hellman.html)
 - [登陆认证系统](https://blog.codingnow.com/2012/12/user_authentication.html)
@@ -110,4 +106,4 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
 
 ## Resources
 - https://github.com/topics/game-server
-- https://github.com/hstcscolor/awesome-gameserver-cn
+- [中文游戏服务器资源大全](https://github.com/hstcscolor/awesome-gameserver-cn)
