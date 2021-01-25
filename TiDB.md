@@ -7,7 +7,7 @@
 
 
 ## Learn
-- [Documents](https://docs.pingcap.com/tidb/stable) - [zh-cn](https://docs.pingcap.com/zh/tidb/stable)
+- [Documents](https://docs.pingcap.com/tidb/stable) - [zh-CN](https://docs.pingcap.com/zh/tidb/stable)
 - [Blog-cn](https://pingcap.com/blog-cn/)
 - [TiDB Community Presentations](https://github.com/pingcap/presentations)
 - [TiDB 精英进阶计划](https://www.bilibili.com/video/BV1pp4y1X7UQ) - [PPTs](https://github.com/pingcap/presentations/tree/master/TiDB-Elite-Training-Camp)

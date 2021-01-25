@@ -18,7 +18,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 
 ## Learn
 - [Official Documentation](https://git-scm.com/doc)
-- [Pro Git book](https://git-scm.com/book/en) - [zh-cn](https://git-scm.com/book/zh)
+- [Pro Git book](https://git-scm.com/book/en) - [zh-CN](https://git-scm.com/book/zh)
 
 ### tutorial
 - [git - the simple guide](http://rogerdudler.github.io/git-guide/): just a simple guide for getting started with git. no deep shit ;)

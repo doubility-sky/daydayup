@@ -5,7 +5,7 @@ Command-line shells require the user to be familiar with commands and their call
 
 
 ## Learn
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-cn](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - :star:[The Linux Command Line](http://linuxcommand.org/) - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
 - [Linux命令大全](https://man.linuxde.net/)

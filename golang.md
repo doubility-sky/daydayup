@@ -24,15 +24,15 @@
 - [uber-go/guide](https://github.com/uber-go/guide) The Uber Go Style Guide.
 
 ### books
-- :star:[The Go Programming Language](https://www.gopl.io/) - [zh-cn](https://docs.hacknode.org/gopl-zh/), by [gopl-zh](https://github.com/golang-china/gopl-zh)
+- :star:[The Go Programming Language](https://www.gopl.io/) - [zh-CN](https://docs.hacknode.org/gopl-zh/), by [gopl-zh](https://github.com/golang-china/gopl-zh)
 - [Go Web 编程](https://github.com/astaxie/build-web-application-with-golang): A golang ebook intro how to build a web with golang
-- [go-perfbook](https://github.com/dgryski/go-perfbook) - [zh-cn](https://github.com/dgryski/go-perfbook/blob/master/performance-zh.md) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
+- [go-perfbook](https://github.com/dgryski/go-perfbook) - [zh-CN](https://github.com/dgryski/go-perfbook/blob/master/performance-zh.md) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
 - [Go 语言高性能编程](https://github.com/geektutu/high-performance-go): high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps）
 
 ### advanced contents
 - [What Go values look like in memory?](https://research.swtch.com/godata): This post is about basic types, structs, arrays, and slices.
 - :star:[Go 语言设计与实现](https://draveness.me/golang/)：本书的主要内容可以分成四个主要部分，分别是编译原理、运行时、基础知识和进阶知识，这四部分几乎可以覆盖 Go 语言从编译到运行的方方面面，让我们对 Go 语言有更加整体和深刻的认识。
-- [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-cn)
+- [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-CN)
 - [Go 语言原本](https://github.com/changkun/go-under-the-hood): 一份不太简短的源码研究 - [在线阅读](https://golang.design/under-the-hood)
 - [Go1.5源码剖析](https://github.com/qyuhen/book)
 

@@ -10,8 +10,8 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 
 ## Kernel
 - [The Linux Kernel Archives](https://www.kernel.org/)
-  - [HOWTO do Linux kernel development](https://www.kernel.org/doc/html/latest/process/howto.html), [zh-cn](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/howto.html)
-  - [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst), [zh-cn](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/coding-style.html)
+  - [HOWTO do Linux kernel development](https://www.kernel.org/doc/html/latest/process/howto.html), [zh-CN](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/howto.html)
+  - [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst), [zh-CN](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/coding-style.html)
 - [linux-insides](https://github.com/0xAX/linux-insides) A book-in-progress about the linux kernel and its insides.
 - [BCC](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
 

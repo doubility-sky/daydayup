@@ -5,7 +5,7 @@
 
 
 ## [996工作制](https://zh.wikipedia.org/wiki/996%E5%B7%A5%E4%BD%9C%E5%88%B6) 
-- [996.ICU](https://github.com/996icu/996.ICU) - [zh-cn](https://github.com/996icu/996.ICU/blob/master/README_CN.md)
+- [996.ICU](https://github.com/996icu/996.ICU) - [zh-CN](https://github.com/996icu/996.ICU/blob/master/README_CN.md)
   - [blacklist](https://github.com/996icu/996.ICU/tree/master/blacklist)
   - [whitelist](https://github.com/996icu/996.ICU/tree/master/whitelist)
   - [community-links](https://github.com/996icu/996.ICU#community-powers)
