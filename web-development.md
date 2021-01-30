@@ -5,8 +5,7 @@
 
 
 ## Learn
-- :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
-  - [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
+- :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development - [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
 - [W3Schools](https://www.w3schools.com) is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content.
   - [W3FOOLS](https://www.w3fools.com) 
     - When W3Fools was launched in 2011, the state of documentation for developers was poor. This site [documented many content errors and issues](https://web.archive.org/web/20110412103745/http://w3fools.com) with the W3Schools website. The [Mozilla Developer Network](http://developer.mozilla.org/) was around but it did not have much support at the time. 
@@ -38,6 +37,7 @@
   - [Elasticsearch学习，请先看这一篇！](https://blog.csdn.net/laoyang360/article/details/52244917)
   - [Elasticsearch索引原理](https://blog.csdn.net/cyony/article/details/65437708)
 - [searx](https://github.com/searx/searx): Privacy-respecting metasearch engine
+- [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)
 
 
 

@@ -13,6 +13,7 @@
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) 《科技爱好者周刊》，每周五发布
 
 ### books
+- [How to Design Programs, Second Edition](https://htdp.org/)
 - :star:[The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
   - [Volume I](http://aosabook.org/en/intro1.html), [Volume II](http://aosabook.org/en/intro2.html)
   - [The Performance of Open Source Applications](http://aosabook.org/en/posa/introduction.html)

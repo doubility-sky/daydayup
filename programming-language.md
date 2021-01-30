@@ -49,3 +49,7 @@ A [programming language](https://en.wikipedia.org/wiki/Programming_language) is 
 ## Tools
 - [awesome-static-analysis](https://github.com/mre/awesome-static-analysis) Static analysis tools for all programming languages https://endler.dev/awesome-static-ana…
 
+
+
+## Resources
+- [A.W.E.S.O.M. O](https://github.com/lk-geimfari/awesomo) is an extensive list of interesting open source projects written in various languages.
