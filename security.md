@@ -43,8 +43,10 @@
 
 
 ## Projects
-- [telegram source code](https://telegram.org/apps#source-code)
-  - [End-to-End Encryption, Secret Chats](https://core.telegram.org/api/end-to-end) This article on MTProto's End-to-End encryption is meant for advanced users. 
+- [Signal](https://www.signal.org/) is a free, [open source](https://github.com/signalapp), messaging app for simple private communication with friends.
+- [Telegram](https://telegram.org/) is a messaging app with a focus on speed and security, it’s super-fast, simple and free.
+  - [telegram source code](https://telegram.org/apps#source-code)
+  - [End-to-End Encryption, Secret Chats](https://core.telegram.org/api/end-to-end) This article on MTProto's End-to-End encryption is meant for advanced users.
 
 ### secure E-mail
 - [ProtonMail](https://protonmail.com/) Secure Email Based in Switzerland
