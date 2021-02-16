@@ -88,6 +88,7 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 ## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
 - [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
 - [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
+- [n2n](https://github.com/ntop/n2n) is a light VPN software which makes it easy to create virtual networks bypassing intermediate firewalls.
 
 ### [WireGuard](https://www.wireguard.com/)
 - [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.

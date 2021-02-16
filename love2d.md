@@ -1,6 +1,5 @@
 [LÖVE](https://love2d.org/) is an *awesome* framework you can use to make 2D games in [[Lua]]. It's free, [open-source](https://github.com/love2d/love), and works on Windows, Mac OS X, Linux, Android and iOS.
 
-- [3DreamEngine](https://github.com/3dreamengine/3DreamEngine) is an *awesome* 3d engine for LÖVE.
 
 
 ## Learn
@@ -12,6 +11,8 @@
 
 
 ## Projects
+- [3DreamEngine](https://github.com/3dreamengine/3DreamEngine) is an *awesome* 3d engine for LÖVE.
+- [g3d](https://github.com/groverburger/g3d): groverburger's 3D engine (g3d) simplifies LÖVE's 3d capabilities to be as simple as possible. View the original forum post [here](https://love2d.org/forums/viewtopic.php?f=5&t=86350).
 - [love.js](https://github.com/TannerRogalsky/love.js): LÖVE ported to the web using Emscripten
   - This project has been inactive for a while! You're probably looking for https://github.com/Davidobot/love.js
 - [love-imgui](https://github.com/slages/love-imgui) imgui module for the LÖVE game engine
