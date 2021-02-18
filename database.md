@@ -6,7 +6,7 @@ A [database](https://en.wikipedia.org/wiki/Database) is an organized collection 
 
 ## Learn
 - [Awesome data engineering learning path](https://github.com/snird/awesome-data-engineering-learning): Awesome list of data engineering learning materials by subject https://awesomedataengineering.com/
-- [《Designing Data-Intensive Application》](https://github.com/Vonng/ddia): DDIA中文翻译 - 设计数据密集型应用
+- [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 
 ### practice
 - 谈谈陌陌争霸在数据库方面踩过的坑
