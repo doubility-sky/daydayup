@@ -4,9 +4,10 @@
 
 
 ## Learn
-- [Teach Yourself Programming in Ten Years](http://norvig.com/21-days.html), [21天学会C++](http://coolshell.cn/articles/2250.html)
+- :star:[Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html), [21天学会C++](https://coolshell.cn/articles/2250.html)
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
 - [freeCodeCamp.org](https://github.com/freeCodeCamp): Learn to code for free with millions of other people around the world
+- [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company. [zh-CN](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md)
 
 ### readings
 - [掘金翻译计划](https://github.com/xitu/gold-miner)是一个翻译优质互联网技术文章的社区，文章来源为 掘金 上的英文分享文章。内容覆盖区块链、人工智能、Android、iOS、前端、后端、设计、产品和其他 等领域，以及各大型优质 官方文档及手册，读者为热爱新技术的新锐开发者。
