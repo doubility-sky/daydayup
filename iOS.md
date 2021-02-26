@@ -34,6 +34,8 @@
 
 
 ## Tools
+- [iOS WebKit Debug Proxy](https://github.com/google/ios-webkit-debug-proxy): A DevTools proxy (Chrome Remote Debugging Protocol) for iOS devices (Safari Remote Web Inspector).
+  - To use Chrome DevTools it's the recommendation to use the [RemoteDebug/remotedebug-ios-webkit-adapter](https://github.com/RemoteDebug/remotedebug-ios-webkit-adapter) project, which has instructions on how to setup Chrome to remote debug iOS devices, much similar to Android debugging.
 - [STCObfuscator](https://github.com/chenxiancai/STCObfuscator) iOS全局自动化 代码混淆 工具！支持cocoapod组件代码一并 混淆，完美避开hardcode方法、静态库方法和系统库方法！
 - [Python-ZFJObsLib完美生成iOS垃圾代码](https://blog.csdn.net/u014220518/article/details/99086206)
 - [App Icon Generator](https://appicon.co/)
