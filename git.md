@@ -28,6 +28,10 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [Git 菜单](https://github.com/geeeeeeeeek/git-recipes): Git recipes in Chinese by Zhongyi Tong. 高质量的Git中文教程. https://geeeeeeeeek.github.io/git-recipes/
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
 
+### commit style
+- [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+- [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y)
+
 ### git flow
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   - [基于git的源代码管理模型——git flow](http://www.ituring.com.cn/article/56870)
