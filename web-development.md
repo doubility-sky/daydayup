@@ -36,6 +36,7 @@
 - [Elasticsearch](https://github.com/elastic/elasticsearch) A Distributed RESTful Search Engine
   - [Elasticsearch学习，请先看这一篇！](https://blog.csdn.net/laoyang360/article/details/52244917)
   - [Elasticsearch索引原理](https://blog.csdn.net/cyony/article/details/65437708)
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) is an open source search and analytics engine derived from Elasticsearch 7.10.2
 - [searx](https://github.com/searx/searx): Privacy-respecting metasearch engine
 - [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)
 
