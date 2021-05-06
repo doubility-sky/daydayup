@@ -16,13 +16,14 @@
 - [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
 - [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
 
-### hot update
-- [unity3d热更新总结 2015.8月的回答](https://www.zhihu.com/question/28079874/answer/57706353) 看“豆一”的回答
+### scripting
+- [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
 - [moonsharp](http://www.moonsharp.org/): A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
 - [xlua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
 - [puerts](https://github.com/Tencent/puerts): write your game with TypeScript in the ue4 or unity
   - [puerts偿还了xLua哪些技术债](https://zhuanlan.zhihu.com/p/195320417)
+- [unity-jsb](https://github.com/ialex32x/unity-jsb): 集成 QuickJS, 为 Unity3D 项目提供 Typescript/Javascript 支持
 
 
 

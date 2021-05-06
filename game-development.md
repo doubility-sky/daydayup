@@ -54,6 +54,7 @@
 ## FAQs
 - [独立游戏开发如何入门？](https://www.zhihu.com/question/20608012)
 - [如何“漂亮”地解决dota类游戏网络延迟同步？](http://www.gameres.com/482069.html)
+- [为什么在游戏里做一扇好用的“门”这么难？](https://www.yystv.cn/p/7800)
 
 
 

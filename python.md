@@ -21,7 +21,6 @@
 - [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide): Python best practices guidebook, written for humans.
 - [《Python Cookbook》 3rd Edition Translation](https://github.com/yidao620c/python3-cookbook)
 - [《Python 3 源码剖析》](https://github.com/flaggo/python3-source-code-analysis)
-- [Legally Free Python Books List](https://www.pythonkitchen.com/legally-free-python-books-list/)
 
 ### practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
@@ -87,3 +86,6 @@
 - [awesome-python-cn](https://github.com/jobbole/awesome-python-cn) Python资源大全中文版，包括：Web框架、网络爬虫、模板引擎、数据库、数据可视化、图片处理等，由伯乐在线持续更新。http://jobbole.github.io/awesome-python-cn/
 - [PythonShare](https://github.com/Yixiaohan/codeparkshare) Python初学者（零基础学习Python、Python入门）书籍、视频、资料、社区推荐
 - [awesome-spider](https://github.com/facert/awesome-spider) - 爬虫集合
+- [Free Python Courses List](https://www.pythonkitchen.com/free-python-courses-list/)
+- [Legally Free Python Books List](https://www.pythonkitchen.com/legally-free-python-books-list/)
+- [Free Python Books](https://github.com/pamoroso/free-python-books)

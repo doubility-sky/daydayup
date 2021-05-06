@@ -39,6 +39,7 @@
   - [人生苦短，我们为 Cocos Creator 开发的插件和工具](https://oedx.github.io/2020/06/30/cocos-creator-extensions/)
   - [TinyCocosFix -- Cocos热更新的非官方解决方案](https://oedx.github.io/2021/02/22/TinyCocosFix/)
 - [Creator星球游戏开发社区](https://cloud.tencent.com/developer/column/80686)文章列表
+- [Cocos Creator—最佳构建部署实践](https://segmentfault.com/a/1190000012424893)
 - [建议creator提供图片资源加密功能](https://forum.cocos.org/t/creator/46017/5)
 - [一种「无侵入」资源加密方案](https://forum.cocos.org/t/cocos-creator/95492)
 
