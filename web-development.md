@@ -50,4 +50,5 @@
 ## Resources
 - https://github.com/andriksantos/awesome-web-development
 - https://github.com/mrmartineau/awesome-web-dev-resources
+- https://github.com/bradtraversy/design-resources-for-developers
 

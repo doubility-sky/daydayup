@@ -4,7 +4,8 @@
 
 
 ## Learn
-- :star:[Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html), [21天学会C++](https://coolshell.cn/articles/2250.html)
+- :star:[Teach Yourself Programming in Ten Years](https://norvig.com/21-days.html)
+  - [“21天教你学会C++”](https://coolshell.cn/articles/2250.html) - 内附译文《用十年来学编程》
 - [Every Programmer Should Know](https://github.com/mtdvio/every-programmer-should-know), A collection of (mostly) technical things every software developer should know
 - [freeCodeCamp.org](https://github.com/freeCodeCamp): Learn to code for free with millions of other people around the world
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company. [zh-CN](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md)

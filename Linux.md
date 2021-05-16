@@ -285,7 +285,8 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 ## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
-#### screen
+### [screen](https://www.gnu.org/software/screen/)
+Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
 - [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
 - Frequently Command:
   ```
@@ -303,9 +304,11 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   ```
 - [man screen](https://www.gnu.org/software/screen/manual/screen.html)
 
-#### [tmux](https://github.com/tmux/tmux)
-与 screen 类似
-- https://en.wikipedia.org/wiki/Tmux
+### [tmux](https://github.com/tmux/tmux)
+[tmux](https://en.wikipedia.org/wiki/Tmux) is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
+
+### [Zellij](https://github.com/zellij-org/zellij)
+[Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
 
 
 

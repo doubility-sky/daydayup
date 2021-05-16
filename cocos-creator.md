@@ -12,6 +12,7 @@
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
 - [Cocos Creator 开发范例](https://github.com/cocos-creator/example-cases): 本项目同时面向 Cocos Creator 引擎开发人员和最终用户，目的是建立一套贯穿开发、测试、学习使用的完整的功能范例。 [在线演示](https://cocos-creator.github.io/example-cases/)
+- [cocos creator 一些使用实例](https://github.com/baiyuwubing/cocos-creator-examples)(刚体挖洞/流体效果/shader/纹理处理)
 - [3.0 TypeScript 问题答疑及经验分享](https://forum.cocos.org/t/topic/106995)
 
 ### [Tutorial](https://github.com/cocos-creator?q=tutorial)
@@ -47,6 +48,7 @@
 - [Cocos Creator性能调优优化集锦](https://zhuanlan.zhihu.com/p/96765699)
 - [一个操作让游戏内存立减50+% - Creator性能优化之压缩纹理](https://forum.cocos.org/t/topic/106919/73)
   - 针对不支持 GLES3.0 的设备，etc2 软解方案 https://github.com/google/angle
+- [etc 压缩格式，使用 Mac 压缩后透明度不对（已解决）](https://forum.cocos.org/t/ios-etc-mac/88456)
 - [Cocos Creator 性能优化：DrawCall](https://forum.cocos.org/t/topic/95043)
 
 
