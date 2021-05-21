@@ -80,5 +80,10 @@ Lua combines simple procedural syntax with powerful data description constructs 
 
 
 
+## FAQs
+- [String Buffers](https://www.lua.org/pil/11.6.html)
+
+
+
 ## Resources
 - [Awesome Lua](https://github.com/LewisJEllis/awesome-lua): A curated list of quality Lua packages and resources.

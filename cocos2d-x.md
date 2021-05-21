@@ -20,6 +20,7 @@
 - [3.7 版本](https://github.com/u0u0/Quick-Cocos2dx-Community)，改动很大，不建议老项目使用
 - [4.0 版本](https://github.com/u0u0/Cocos2d-Lua-Community)，改动更大，不建议老项目使用；可以考虑尝鲜？但更推荐 [[cocos creator]]
 - [Quick-Cocos2dx develop for vscode](https://github.com/leitwolf/vscode-QuickXDev)
+- [形同虚设的cocos默认加密](https://blog.shuax.com/archives/decryptcocos.html)
 
 
 

@@ -14,6 +14,7 @@
 - CPU infomation
   - `sysctl -a | sort | grep cpu`
   - `sysctl -n hw.ncpu`
+  - `sysctl -n hw.physicalcpu`
 - 清屏 Terminal `clear` （实际上仅是滚动光标至顶部）
 - 彻底清屏 Termimal `cmd + k`
 - 选中多个文件 `command+option+i` 查看总大小
