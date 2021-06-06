@@ -134,3 +134,4 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 - [proxychains](https://github.com/haad/proxychains) - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy. Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
   - [proxychains ng](https://github.com/rofl0r/proxychains-ng) (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.
 - [Proxifier](https://www.proxifier.com/) allows network applications that do not support working through proxy servers to operate through a SOCKS or HTTPS proxy and chains.
+  - NOTE: Resolve hostnames through proxy

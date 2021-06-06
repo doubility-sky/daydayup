@@ -349,4 +349,5 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
 
 ## Resources
 - [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
+- [ArchWiki](https://wiki.archlinux.org/)
 

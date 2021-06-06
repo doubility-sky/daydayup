@@ -6,11 +6,11 @@ Command-line shells require the user to be familiar with commands and their call
 
 ## Learn
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-- :star:[The Linux Command Line](http://linuxcommand.org/) - [快乐的 Linux 命令行](https://github.com/billie66/TLCL)
-- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)
-- [Linux命令大全](https://man.linuxde.net/)
-- [改进你的命令行工具](https://docs.xindong.com/utilities/cli-improved.html)
+- :star:[The Linux Command Line](http://linuxcommand.org/tlcl.php) - [zh-CN](https://github.com/billie66/TLCL)
 - [An Introduction To Data Science On The Linux Command Line](https://blog.robertelder.org/data-science-linux-command-line/)
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/index.html): An in-depth exploration of the art of shell scripting
+- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)：本书专注于Linux工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用
+- [Linux命令大全](https://man.linuxde.net/)：查询您所需要的Linux命令教程和相关实例
 
 ### scripting
 - [Shell 脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
@@ -61,6 +61,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 - [shellcheck](https://github.com/koalaman/shellcheck), a static analysis tool for shell scripts https://www.shellcheck.net
 - [cli](https://github.com/urfave/cli) is a simple, fast, and fun package for building command line apps in Go. The goal is to enable developers to write fast and distributable command line applications in an expressive way.
 - [Generic Colouriser](https://github.com/garabik/grc) is yet another colouriser (written in python) for beautifying your logfiles or output of commands.
+- [CLI: improved](https://remysharp.com/2018/08/23/cli-improved) - [zh-CN](https://docs.xindong.com/utilities/cli-improved.html)
 
 ### [[Python]]
 - [我可以使用Python作为Bash替换吗？](http://www.tracholar.top/2018/06/08/can-i-use-python-as-a-bash-replacement/)
