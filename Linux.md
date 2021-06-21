@@ -211,6 +211,7 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   ClientAliveInterval 10
   ClientAliveCountMax 6
   ```
+- [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ...
 
 
 

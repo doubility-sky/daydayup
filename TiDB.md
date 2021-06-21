@@ -11,6 +11,7 @@
 - [Blog-cn](https://pingcap.com/blog-cn/)
 - [TiDB Community Presentations](https://github.com/pingcap/presentations)
 - [TiDB 精英进阶计划](https://www.bilibili.com/video/BV1pp4y1X7UQ) - [PPTs](https://github.com/pingcap/presentations/tree/master/TiDB-Elite-Training-Camp)
+- [开源分布式数据库 TiDB 如何炼成？](https://www.infoq.cn/article/ufembtvyjwmuqtgwtmci)
 
 ### books
 - [TiDB in Action](https://book.tidb.io/)
