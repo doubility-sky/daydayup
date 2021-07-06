@@ -87,6 +87,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 
 
 ## Tools
+- [git filter-repo](https://github.com/newren/git-filter-repo) is a versatile tool for rewriting history
 - [Lepton](https://github.com/hackjutsu/Lepton) is a lean code snippet manager based on GitHub Gist. [Check out its latest release](https://github.com/hackjutsu/Lepton/releases).
 - [GRV](https://github.com/rgburke/grv) is a terminal interface for viewing git repositories
 - [git-crypt](https://github.com/AGWA/git-crypt) enables transparent encryption and decryption of files in a git repository.
