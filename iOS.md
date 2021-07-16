@@ -1,3 +1,5 @@
+iOS is the mobile operating system running on the Apple iPhone, iPod touch, and iPad. 
+
 - [[Objective-C]]
 - [[swift]]
 

@@ -21,5 +21,5 @@
 - 组成员可直接推送发布至 [daydayup.wiki.git](git@github.com:doubility-sky/daydayup.wiki.git)，或使用浏览器在线编辑
 - 非组成员 `clone` [repo](https://github.com/doubility-sky/daydayup)，用支持 [[markdown]] 的本地编辑器撰写后提 [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 - 右侧导航为大主题，做好分类管理，层级适度（3级以内为佳）
-- 新增页面，无歧义情况下以小写字母命名为主
+- 小写字母命名新页面，以 `-` 字符连接，如：[[game-development]]，参考 [stack overflow tags](https://stackoverflow.com/tags)
 - 外部文章/资料，添加可跳转链接至相应的页面

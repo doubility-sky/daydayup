@@ -2,11 +2,11 @@
 
 
 ## [[Computer Science]]
-- [[mathematics]]
-- [[algorithm]]
-- [[theory of computation]]
-- [[compiler]]
-- [[programming language]]
+- [[Mathematics]]
+- [[Algorithm]]
+- [[Theory Of Computation]]
+- [[Compiler]]
+- [[Programming Language]]
   - [[shell]]
   - [[c]]/[c++](cpp)
   - [[lua]]
@@ -14,24 +14,24 @@
   - [[ruby]]
   - [[golang]]
   - [[rust]]
-- [[operating system]]
+- [[Operating System]]
   - [[BSD]]
   - [[Linux]]
   - [[macOS]]
   - [[Windows]]
-- [[networks]]
+- [[Networks]]
   - [[proxy]]
-- [[security]]
+- [[Security]]
   - [[virus]]
-- [[database]]
+- [[Database]]
   - [[MySQL]], [[TiDB]]
   - [[postgresql]]
   - [[mongodb]]
   - [[redis]]
-- [[artificial intelligence]]
+- [[Artificial Intelligence]]
   - [[machine learning]]
   - [NLP](natural-language-processing)
-- [[computer graphics]]
+- [[Computer Graphics]]
 
 
 ## [Programming & Dev](programming-and-development)
@@ -60,14 +60,14 @@
   - [[game client]]
     - [[cocos creator]]
     - [[unity]]
-    - [[Unreal Engine]]
+    - [[unreal engine]]
   - [[game server]]
     - [[skynet]]
     - [[kbengine]]
 - [[Blockchain]]
   - [[bitcoin]]
   - [[ethereum]]
-- [[career]]
+- [[Career]]
 
 
 ## [[Tools]]
@@ -79,4 +79,3 @@
 - [[multimedia]]
 - [[third party]]
 - [[legal rights]]
-
