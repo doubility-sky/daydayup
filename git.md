@@ -145,4 +145,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   - [Microsoft Office and Git](https://www.ficonsulting.com/filabs/MSOfficeGit)
 - [Pushing to Multiple Git Repos](https://gist.github.com/rvl/c3f156e117e22a25f242)
 - [How to restore a deleted branch](https://confluence.atlassian.com/bbkb/how-to-restore-a-deleted-branch-765757540.html)
+- 重命名某个文件时，仅改变大小写问题。如：`a.c` -> `A.c`
+  1. 备份并删除 `a.c` 提交；添加并提交 `A.c`
+  2. `git mv a.c A.c`
 
