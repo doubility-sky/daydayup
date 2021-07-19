@@ -15,7 +15,7 @@
   - [[virus]]
 - [[artificial-intelligence]]
   - [[machine-learning]]
-  - [NLP](natural-language-processing)
+  - [[natural-language-processing]]
 - [[computer-graphics]]
 
 ## [[programming]]
