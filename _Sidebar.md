@@ -1,6 +1,6 @@
 - [[Home]]
 
-### [[computer-science]]
+## [[computer-science]]
 - [[mathematics]]
 - [[algorithm]]
 - [[theory-of-computation]]
@@ -24,7 +24,7 @@
   - [[natural-language-processing]]
 - [[computer-graphics]]
 
-### [[programming]]
+## [[programming]]
 - [[shell]]
 - [[programming-language]]
   - [[c]]/[c++](cpp)
@@ -41,7 +41,7 @@
   - [[git]], [[svn]]
   - [[multimedia]]
 
-### [[software-development]]
+## [[software-development]]
 - [[software-engineering]]
   - [[devops]]
 - [[desktop-development]]
@@ -76,5 +76,5 @@
   - [[ethereum]]
 - [[third-party]]
 
-### [[career]]
+## [[career]]
 - [[legal-rights]]
