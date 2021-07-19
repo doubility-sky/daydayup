@@ -30,6 +30,7 @@
 
 
 ## [Open Games](https://en.wikipedia.org/wiki/List_of_open-source_video_games)
+- [List of commercial video games with available source code](https://en.wikipedia.org/wiki/List_of_commercial_video_games_with_available_source_code)
 - :star:[The Battle for Wesnoth](https://www.wesnoth.org/) is an [open source](https://github.com/wesnoth/wesnoth), turn-based tactical strategy game with a high fantasy theme, featuring both singleplayer and online/hotseat multiplayer combat. Fight a desperate battle to reclaim the throne of Wesnoth, or take hand in any number of other adventures.
 - [Magarena](https://github.com/magarena/magarena) is a single-player fantasy card game played against a computer opponent.
 - [Minetest](https://github.com/minetest/minetest) is an open source voxel game engine with easy modding and game creation
