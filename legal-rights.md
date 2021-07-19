@@ -55,7 +55,7 @@
 ## What's next?
 - Take care your body: [Awesome Health](https://github.com/kakoni/awesome-healthcare):heart:
 - Fight for your rights in public: [awesome-speaking](https://github.com/matteofigus/awesome-speaking)
-- Keep [learning](programming-and-development#Learn), enhance self-value : [不要自称为程序员](http://www.ruanyifeng.com/blog/2011/10/dont_call_yourself_a_programmer.html)
+- Keep [learning](software-development#Learn), enhance self-value : [不要自称为程序员](http://www.ruanyifeng.com/blog/2011/10/dont_call_yourself_a_programmer.html)
 - Make more money: [Freelance](career#Freelance)
 - [Explore the world](https://nomadlist.com/): Join a community of international travelers working remotely 🌍 around the world
 - Enjoy [happiness](https://en.wikipedia.org/wiki/Happiness) life :laughing:
