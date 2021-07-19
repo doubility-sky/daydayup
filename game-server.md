@@ -79,9 +79,9 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
 ## Freameworks
 - [[c]] + [[lua]]
   - [[skynet]]
-- [c++](../C-plus-plus) + [[python]]
+- [c++](cpp) + [[python]]
   - [[kbengine]]
-- [c++](../C-plus-plus)
+- [c++](cpp)
   - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
 - [game-server by golang](golang#game-server)
 - [[javascript]]
