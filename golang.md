@@ -60,7 +60,7 @@
 
 
 
-## [[Game Development]]
+## [[Game-Development]]
 
 ### [[game-client]]
 - [pixel](https://github.com/faiface/pixel) A hand-crafted 2D game library in Go

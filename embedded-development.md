@@ -4,7 +4,7 @@
 
 
 
-## [[operating system]]
+## [[operating-system]]
 - [Xinu](https://github.com/xinu-os/xinu) ("Xinu is not unix", a recursive acronym) is a UNIX-like operating system originally developed by Douglas Comer for instructional purposes at Purdue University in the 1980s.
   - [The Xinu Page](https://xinu.cs.purdue.edu/)
 - [evm](https://github.com/scriptiot/evm) 超轻量级物联网虚拟机 https://scriptiot.github.io

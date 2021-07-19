@@ -1,5 +1,7 @@
 [The career](https://en.wikipedia.org/wiki/Career) is an individual's metaphorical "journey" through learning, work and other aspects of life. There are a number of ways to define career and the term is used in a variety of ways.
 
+- [[legal-rights]]
+
 
 
 ## Freelance

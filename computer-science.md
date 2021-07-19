@@ -6,13 +6,13 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 - [Association for Computing Machinery](https://www.acm.org/) Advancing Computing as a Science & Profession
   - [TURING LECTURES](https://amturing.acm.org/lectures.cfm), Presented by each winner on the topic of their choice at a forum of their choice in the year they received the ACM A.M. Turing Award.
 - [[algorithm]]
-- [[theory of computation]]
+- [[theory-of-computation]]
 - [[compiler]]
-- [[programming language]]
-- [[operating system]]
+- [[programming-language]]
+- [[operating-system]]
 - [[networks]]
-- [[computer graphics]]
-- [[machine learning]]
+- [[computer-graphics]]
+- [[machine-learning]]
 
 
 

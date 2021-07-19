@@ -2,8 +2,8 @@ In computer science, [artificial intelligence](https://en.wikipedia.org/wiki/Art
 
 
 
-- [[machine learning]]
-- [[natural language processing]]
+- [[machine-learning]]
+- [[natural-language-processing]]
 
 
 

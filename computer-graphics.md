@@ -2,7 +2,7 @@
 Computer graphics studies the manipulation of visual and geometric information using computational techniques. It focuses on the mathematical and computational foundations of image generation and processing rather than purely aesthetic issues. Computer graphics is often differentiated from the field of visualization, although the two fields have many similarities.
 
 
-- [[game development]] - [[game client]]
+- [[game-development]] - [[game-client]]
 
 
 

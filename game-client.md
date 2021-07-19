@@ -1,7 +1,7 @@
 [Game engines](https://en.wikipedia.org/wiki/Game_engine) are tools available for game designers to code and plan out a game quickly and easily without building one from the ground up. Whether they are 2D or 3D based, they offer tools to aid in asset creation and placement.
 
 
-- [[Computer Graphics]]
+- [[computer-graphics]]
 - [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 - [game-client by golang](golang#game-client)
 
@@ -26,7 +26,7 @@
 - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
 
 ### recommend
-- [[cocos creator]], [[phaser]], [[godot]]
+- [[cocos-creator]], [[phaser]], [[godot]]
 - [libGDX](https://github.com/libGDX/libGDX) is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS. [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx)
 - [Babylon.js](https://github.com/BabylonJS/Babylon.js) is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
 - [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 

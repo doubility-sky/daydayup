@@ -12,7 +12,7 @@ Lua combines simple procedural syntax with powerful data description constructs 
   - [hopl.pdf](https://www.lua.org/doc/hopl.pdf): The Evolution of Lua - [Lua的演进](https://github.com/spin6lock/the_evolution_of_lua_zh_CN/blob/master/the_evolution_of_lua.md)
 - [Learn Lua in 15 Minutes](http://tylerneylon.com/a/learn-lua/)
 - [Lua脚本之语法基础快速入门](http://www.cocos.com/doc/tutorial/show?id=1929)
-- [[lua coding style]]
+- [[lua-coding-style]]
 - [Lua: Good, bad, and ugly parts](http://notebook.kulchenko.com/programming/lua-good-different-bad-and-ugly-parts)
 - [浅析android手游lua脚本的加密与解密](https://bbs.pediy.com/thread-216969-1.htm)
 

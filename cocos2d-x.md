@@ -3,7 +3,7 @@
 [cocos2d-x](https://github.com/cocos2d/cocos2d-x) is a multi-platform framework for building 2d games, interactive books, demos and other graphical applications. It is based on cocos2d-iphone, but instead of using Objective-C, it uses C++. It works on iOS, Android, macOS, Windows and Linux.
 
 
-- :star:[[cocos creator]]
+- :star:[[cocos-creator]]
 
 
 
