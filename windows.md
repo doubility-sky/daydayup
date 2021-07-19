@@ -1,4 +1,4 @@
-[Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), commonly referred to as Windows, is a group of several [proprietary](https://en.wikipedia.org/wiki/Proprietary_software) [graphical](https://en.wikipedia.org/wiki/Graphical_user_interface) [[operating system]] families, all of which are developed and marketed by [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
+[Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows), commonly referred to as Windows, is a group of several [proprietary](https://en.wikipedia.org/wiki/Proprietary_software) [graphical](https://en.wikipedia.org/wiki/Graphical_user_interface) operating system families, all of which are developed and marketed by [Microsoft](https://en.wikipedia.org/wiki/Microsoft).
 
 
 

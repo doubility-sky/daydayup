@@ -1,6 +1,6 @@
-In [[computer science]], a [data structure](https://en.wikipedia.org/wiki/Data_structure) is a data organization, management, and storage format that enables [efficient](https://en.wikipedia.org/wiki/Algorithmic_efficiency) access and modification. More precisely, a data structure is a collection of [data values](https://en.wikipedia.org/wiki/Data), the relationships among them, and the functions or operations that can be applied to the data.
+In computer science, a [data structure](https://en.wikipedia.org/wiki/Data_structure) is a data organization, management, and storage format that enables [efficient](https://en.wikipedia.org/wiki/Algorithmic_efficiency) access and modification. More precisely, a data structure is a collection of [data values](https://en.wikipedia.org/wiki/Data), the relationships among them, and the functions or operations that can be applied to the data.
 
-In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and [[computer science]], an [algorithm](https://en.wikipedia.org/wiki/Algorithm) is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. Algorithms are unambiguous specifications for performing calculation, data processing, automated reasoning, and other tasks.
+In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and computer science, an [algorithm](https://en.wikipedia.org/wiki/Algorithm) is a finite sequence of well-defined, computer-implementable instructions, typically to solve a class of problems or to perform a computation. Algorithms are unambiguous specifications for performing calculation, data processing, automated reasoning, and other tasks.
 
 
 
