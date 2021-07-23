@@ -148,4 +148,5 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - 重命名某个文件时，仅改变大小写问题。如：`a.c` -> `A.c`
   1. 备份并删除 `a.c` 提交；添加并提交 `A.c`
   2. `git mv a.c A.c`
+- 本地 repo 瘦身 `git reflog expire --expire=now --all && git gc --prune=now --aggressive`
 
