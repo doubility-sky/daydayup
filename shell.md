@@ -49,6 +49,8 @@ Bash is a Unix [[shell]] and command language written by Brian Fox for the GNU P
 
 ### [Zsh](https://www.zsh.org/)
 The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh.
+- [Moving to zsh](https://scriptingosx.com/2019/06/moving-to-zsh/)
+- [你不需要花哨的命令提示符](https://zhuanlan.zhihu.com/p/51008087)
 - [Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh) is an open source, community-driven framework for managing your zsh configuration.
 - [Antigen](https://github.com/zsh-users/antigen) is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what [Vundle](https://github.com/gmarik/vundle) is to vim.
 - [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
