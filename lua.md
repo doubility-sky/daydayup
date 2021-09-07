@@ -82,6 +82,7 @@ Lua combines simple procedural syntax with powerful data description constructs 
 
 ## FAQs
 - [String Buffers](https://www.lua.org/pil/11.6.html)
+- [What are the best 2D Lua game engines?](https://www.slant.co/topics/2590/~best-2d-lua-game-engines)
 
 
 

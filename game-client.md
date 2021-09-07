@@ -48,7 +48,7 @@
 - Lightweight
   - [[love2d]], [[pygame]]
 
-### nonfree
+### proprietary
 - [Stencyl](http://www.stencyl.com/)
 - [GameMaker Studio](https://www.yoyogames.com/) 2 is a tool designed to empower you and your team to make new and innovative games as well as prototype ideas in the fastest and most intuitive way possible across multiple target platforms. 
 - [Construct 3](https://www.construct.net/en) is the best software to create games. Over 100,000 users monthly make & sell thousands of games globally. - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct)
@@ -66,12 +66,12 @@
 - [What are the best 3D game engines?](https://www.slant.co/topics/1495/~best-3d-game-engines)
 
 ### recommend
-- [[godot]], [libGDX](https://github.com/libGDX/libGDX)
+- [[godot]]
+- [libGDX](https://github.com/libGDX/libGDX)
 - [panda3d](https://github.com/panda3d/panda3d), Powerful, mature open-source cross-platform game engine for Python and C++, developed by Disney and CMU https://www.panda3d.org/
-- [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine): A complete 3D game development suite written purely in Java.
 - [[cocos creator]]
 
-### nonfree
+### proprietary
 - [[unity]], [[unreal-engine]]
 
 ### wait-and-see
@@ -79,6 +79,7 @@
 - [KlayGE](https://github.com/gongminmin/KlayGE), KlayGE is a cross-platform open source game engine with plugin-based architecture. It's started since 2003. The explicit goal of KlayGE is: to arm your engine with cutting-edge technology. It provides a framework to make game development, testing, porting as simple as possible.
 - [pmtech](https://github.com/polymonster/pmtech), Lightweight, multi-platform, data-oriented game engine.
 - [Gideros](https://github.com/gideros/gideros)
+- [jMonkeyEngine](https://github.com/jMonkeyEngine/jmonkeyengine): A complete 3D game development suite written purely in Java.
 
 
 

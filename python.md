@@ -78,6 +78,7 @@
 
 ## FAQs
 - [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574/answer/554481284)
+- [What are the best game engines for Python?](https://www.slant.co/topics/10908/~game-engines-for-python)
 
 
 

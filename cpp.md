@@ -80,7 +80,11 @@
 
 
 
+## FAQs
+- [What are the best 3D C++ game engines with full source code access?](https://www.slant.co/topics/3964/~best-3d-c-game-engines-with-full-source-code-access)
+
+
+
 ## Resources
 - [Awesome C++](https://github.com/fffaraz/awesome-cpp), A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.
 - [Awesome Modern C++](https://github.com/rigtorp/awesome-modern-cpp) A collection of resources on modern C++.
-
