@@ -4,6 +4,20 @@
 
 
 
+## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
+- [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
+- [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
+- [n2n](https://github.com/ntop/n2n) is a light VPN software which makes it easy to create virtual networks bypassing intermediate firewalls.
+- L2PT VPN connection on Windows10 must set in `regedit`: Create an option DWORD(32bits) `AssumeUDPEncapsulationContextOnSendRule` and value `2` in `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent`
+
+### [WireGuard](https://www.wireguard.com/)
+- [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.
+- [Getting Started with WireGuard](https://miguelmota.com/blog/getting-started-with-wireguard/)
+- [Wireguard：简约之美](https://zhuanlan.zhihu.com/p/91383212)
+- [Noise 框架：构建安全协议的蓝图](https://zhuanlan.zhihu.com/p/96944134)
+
+
+
 ## Symbol annotation
 - `-cli` short for `client side program`
 - `-svr` short for `server side program`
@@ -85,47 +99,27 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 
 
 
-## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
-- [IPsec VPN Server Auto Setup Scripts](https://github.com/hwdsl2/setup-ipsec-vpn) Set up your own IPsec VPN server in just a few minutes, with both IPsec/L2TP and Cisco IPsec on Ubuntu, Debian and CentOS. All you need to do is provide your own VPN credentials, and let the scripts handle the rest.
-- [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
-- [n2n](https://github.com/ntop/n2n) is a light VPN software which makes it easy to create virtual networks bypassing intermediate firewalls.
-- L2PT VPN connection on Windows10 must set in `regedit`: Create an option DWORD(32bits) `AssumeUDPEncapsulationContextOnSendRule` and value `2` in `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent`
-
-### [WireGuard](https://www.wireguard.com/)
-- [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.
-- [Getting Started with WireGuard](https://miguelmota.com/blog/getting-started-with-wireguard/)
-- [Wireguard：简约之美](https://zhuanlan.zhihu.com/p/91383212)
-- [Noise 框架：构建安全协议的蓝图](https://zhuanlan.zhihu.com/p/96944134)
-
-
-
-## [Outline](https://getoutline.org/)
-Outline is an open source project created by Jigsaw to provide a safer way for news organizations and journalists to access the internet.
-
-- [Outline Client](https://github.com/Jigsaw-Code/outline-client) is a cross-platform VPN or proxy client for Windows, macOS, iOS, Android, and ChromeOS. The Outline Client is designed for use with the Outline Server software, but it is fully compatible with any Shadowsocks server.
-- [Outline Server](https://github.com/Jigsaw-Code/outline-server) Outline Manager, developed by Jigsaw. The Outline Manager application creates and manages Outline servers, powered by Shadowsocks. It uses the Electron framework to offer support for Windows, macOS and Linux. https://getoutline.org/
-
-
-
-## [v2ray](https://github.com/v2ray/v2ray-core) 
+## [v2ray](https://github.com/v2ray) 
 A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
+- [V2Fly](https://github.com/v2fly), a community-driven edition of V2Ray.
 - [V2Ray 配置指南](https://toutyrater.github.io/)
 - [V2RayX](https://github.com/Cenmrev/V2RayX) GUI for v2ray-core on macOS
 - [Qv2ray](https://github.com/Qv2ray/Qv2ray) - Make v2ray real cross-platform
 
 
 
+## [torjan](https://github.com/trojan-gfw/trojan)
+- [trojan-go](https://github.com/p4gefau1t/trojan-go): A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW.
+
+
+
+## [gost](https://github.com/ginuerzh/gost)
+GO Simple Tunnel - a simple tunnel written in golang 
+
+
+
 ## [[OpenWrt]]
 - [路由器 + OpenWrt + SS](https://github.com/softwaredownload/openwrt-fanqiang) https://fanqiang.software-download.name
-
-
-
-## Others
-- [g.f.w - list](https://github.com/gfwlist/gfwlist)
-- [Daily](https://github.com/pexcn/daily)
-- [ios - shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
-- [torjan](https://github.com/trojan-gfw/trojan)
-- [gost](https://github.com/ginuerzh/gost)
 
 
 
@@ -136,3 +130,15 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
   - [proxychains ng](https://github.com/rofl0r/proxychains-ng) (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.
 - [Proxifier](https://www.proxifier.com/) allows network applications that do not support working through proxy servers to operate through a SOCKS or HTTPS proxy and chains.
   - NOTE: Resolve hostnames through proxy
+- [Surge](https://nssurge.com/): Advanced Network Toolbox for Mac & iOS
+
+### [Outline](https://getoutline.org/)
+Outline is an open source project created by Jigsaw to provide a safer way for news organizations and journalists to access the internet.
+- [Outline Client](https://github.com/Jigsaw-Code/outline-client) is a cross-platform VPN or proxy client for Windows, macOS, iOS, Android, and ChromeOS. The Outline Client is designed for use with the Outline Server software, but it is fully compatible with any Shadowsocks server.
+- [Outline Server](https://github.com/Jigsaw-Code/outline-server) Outline Manager, developed by Jigsaw. The Outline Manager application creates and manages Outline servers, powered by Shadowsocks. It uses the Electron framework to offer support for Windows, macOS and Linux. https://getoutline.org/
+
+### Ruls
+- [g.f.w - list](https://github.com/gfwlist/gfwlist)
+- [Daily](https://github.com/pexcn/daily): Poetry and far afield. 🌊
+- [shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
+- [surge-rules](https://github.com/Loyalsoldier/surge-rules): 本项目生成适用于 Surge 的规则集（DOMAIN-SET 和 RULE-SET）
