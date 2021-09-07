@@ -73,6 +73,7 @@
 ### [[game-server]]
 - [agones](https://github.com/googleforgames/agones), [open match](https://github.com/googleforgames/open-match)
 - [Pitaya](https://github.com/topfreegames/pitaya) is an simple, fast and lightweight game server framework with clustering support and client libraries for iOS, Android, Unity and others through the [C SDK](https://github.com/topfreegames/libpitaya). It provides a basic development framework for distributed multiplayer games and server-side applications.
+- [Nakama](https://github.com/heroiclabs/nakama): Distributed server for social and realtime games and apps.
 - [goworld](https://github.com/xiaonanln/goworld): Scalable Distributed Game Server Engine with Hot Reload in Golang
 - [leaf](https://github.com/name5566/leaf): A pragmatic game server framework in Go (golang).
 - [Nano](https://github.com/lonng/nano) is an easy to use, fast, lightweight game server networking library for Go.
