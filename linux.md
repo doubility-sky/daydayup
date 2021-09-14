@@ -177,7 +177,7 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 
-## SSH
+## [SSH](https://en.wikipedia.org/wiki/OpenSSH)
 - [SSH 教程](https://wangdoc.com/ssh/index.html)
 - 远程连接：`ssh -p12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
@@ -211,7 +211,20 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   ClientAliveInterval 10
   ClientAliveCountMax 6
   ```
-- [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ...
+- [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ... https://mosh.org/
+  - Mosh will log the user in via SSH, then start a connection on a UDP port between 60000 and 61000.
+  - install `mosh` on both client and server side. let server `ufw allow 60000:61000/udp`
+- [GlobalSSH](https://docs.ucloud.cn/pathx/globalssh) 是一款致力于提高跨国远程管理服务器效率的产品，旨在解决由于跨国网络不稳定导致的远程管理出现的卡顿、连接失败、传输速度较慢等现象。本产品可极大程度的减少卡顿、连接失败的情况发生，提高运维工作的效率。
+
+
+
+## [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol), 
+- According to OpenSSH developers in April 2019, SCP is outdated, inflexible and not readily fixed; they recommend the use of more modern protocols like sftp and rsync for file transfer. https://www.openssh.com/txt/release-8.0
+
+
+
+## [rsync](https://en.wikipedia.org/wiki/Rsync)
+- Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
 
 
 
