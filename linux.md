@@ -218,13 +218,14 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 
-## [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol), 
-- According to OpenSSH developers in April 2019, SCP is outdated, inflexible and not readily fixed; they recommend the use of more modern protocols like sftp and rsync for file transfer. https://www.openssh.com/txt/release-8.0
+## [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+According to OpenSSH developers in April 2019, SCP is outdated, inflexible and not readily fixed; they recommend the use of more modern protocols like sftp and rsync for file transfer. https://www.openssh.com/txt/release-8.0
 
 
 
 ## [rsync](https://en.wikipedia.org/wiki/Rsync)
-- Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
+Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
+- [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
 
 
 
