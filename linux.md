@@ -82,6 +82,13 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - `uptime`
   - [Linux Load Averages：什么是平均负载？](https://zhuanlan.zhihu.com/p/75975041)
 
+### hostname
+- `hostnamectl set-hostname XXXX`
+- `hostname XXXX` 临时修改主机名为 XXXX
+- `vi /etc/hostname` 永久修改主机名
+  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
+  - `vi /etc/hosts` 添加新主机名回环地址映射
+
 ### [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
 - 1 切换显示各逻辑CPU状况
 - c 切换显示各进程完整命令行
@@ -117,6 +124,21 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 ### cp
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
 
+### [rsync](https://en.wikipedia.org/wiki/Rsync)
+Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
+- [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
+  - `rsync -av SRC DEST` 将 SRC 内容递归复制到 DEST/SRC（不存在则创建）
+  - `rsync -av SRC/ DEST` 将 SRC 内容递归复制到 DEST（不存在则创建）
+  - `rsync -av SRC1 SRC2 ... SRCn DEST` 将 SRC1 ... SRCn 内容递归复制到 DEST/SRC1 ... DEST/SRCn（不存在则创建）
+  - `rsync -av --exclude '.*' SRC/ DEST` 排除隐藏文件 `.*`
+  - `rsync -av --exclude={'f1.txt','f2.txt'} SRC/ DEST` 多个排除选项
+  - `rsync -av --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
+  - `rsync -av --delete SRC/ DEST` 复制并删除 DEST 中，不存在于 SRC 中的文件（即：镜像同步）
+- 用 ssh key 同步远程主机文件
+  - `rsync -avzP -e "ssh -i ~/sshkey.pem" ubuntu@xx.xxx.xx.xxx:Projects/sample.csv ~/sample.csv`
+- 设置 ssh config 后，操作基本同 [SCP](#SCP)，详见 [SSH](#SSH)
+  - 例如：`rsync -av SRC REMOTE:/var/www/html`
+
 ### tar
 - `tar -zcvf xxx.tar.gz [FILE]...`
   -  -z ：压缩类型为 .tar.gz
@@ -134,11 +156,6 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 - https://man.linuxde.net/find
 - 删除指定时间之前的文件\[夹\] （并约束递归深度）
   - `find . -maxdepth 1 -mtime +30 -exec rm -rf {} \;`
-
-### rsync
-
-- 用sshkey同步远程主机文件
-  - `rsync -avzP -e "ssh -i ~/sshkey.pem" ubuntu@xx.xxx.xx.xxx:Projects/sample.csv ~/sample.csv`
 
 ### links
 - Linux链接分两种，一种被称为硬链接（Hard Link），另一种被称为符号链接（Symbolic Link）。默认情况下，ln命令产生硬链接。
@@ -158,15 +175,6 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 
-## Hostname
-- `hostnamectl set-hostname XXXX`
-- `hostname XXXX` 临时修改主机名为 XXXX
-- `vi /etc/hostname` 永久修改主机名
-  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
-  - `vi /etc/hosts` 添加新主机名回环地址映射
-
-
-
 ## User
 - 修改用户密码：
   + 修改当前用户密码：passwd
@@ -177,7 +185,9 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 
 
-## [SSH](https://en.wikipedia.org/wiki/OpenSSH)
+## [[networks]]
+
+### [SSH](https://en.wikipedia.org/wiki/OpenSSH)
 - [SSH 教程](https://wangdoc.com/ssh/index.html)
 - 远程连接：`ssh -p12345 root@xxx.xxx.xxx.xxx`
   - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
@@ -216,25 +226,23 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
   - install `mosh` on both client and server side. let server `ufw allow 60000:61000/udp`
 - [GlobalSSH](https://docs.ucloud.cn/pathx/globalssh) 是一款致力于提高跨国远程管理服务器效率的产品，旨在解决由于跨国网络不稳定导致的远程管理出现的卡顿、连接失败、传输速度较慢等现象。本产品可极大程度的减少卡顿、连接失败的情况发生，提高运维工作的效率。
 
-
-
-## [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+### [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol)
 According to OpenSSH developers in April 2019, SCP is outdated, inflexible and not readily fixed; they recommend the use of more modern protocols like sftp and rsync for file transfer. https://www.openssh.com/txt/release-8.0
+- 推荐使用 [rsync](#rsync)
 
+## FTP
+- [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
+  注：Step2中备份不要用mv，用cp  
+- [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
+- [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
+- 创建用户 `useradd -d /var/www/html -M ftpuser`
+  - `passwd ftpuser`
+  - `chown -R ftpuser /var/www/html`
+- 命令行连接 `ftp [OPTION...] [HOST [PORT]]`
 
-
-## [rsync](https://en.wikipedia.org/wiki/Rsync)
-Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
-- [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
-
-
-
-## netstat
+### netstat
 - [查看当前所有tcp端口使用情况](https://blog.csdn.net/wade3015/article/details/90779669)：`netstat -ntlp`
 
-
-
-## [Firewall](https://en.wikipedia.org/wiki/Firewall_(computing))
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
@@ -287,19 +295,8 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 
 
 
-## FTP
-- [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
-  注：Step2中备份不要用mv，用cp  
-- [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
-- [修改 vsftpd 的默认根目录](http://blog.chinaunix.net/uid-22141042-id-1789602.html)  
-- 创建用户 `useradd -d /var/www/html -M ftpuser`
-  - `passwd ftpuser`
-  - `chown -R ftpuser /var/www/html`
-- 命令行连接 `ftp [OPTION...] [HOST [PORT]]`
-
-
-
 ## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
+
 ### [screen](https://www.gnu.org/software/screen/)
 Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
 - [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  

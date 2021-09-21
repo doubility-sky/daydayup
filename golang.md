@@ -9,7 +9,7 @@
 - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
 
 ### philosophy
-- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](golang/#creators) 
+- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) 
 - [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - [cspbook.pdf](http://www.usingcsp.com/cspbook.pdf) by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 
 ### quick start

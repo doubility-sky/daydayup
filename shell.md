@@ -4,6 +4,11 @@ Command-line shells require the user to be familiar with commands and their call
 
 
 
+- [[linux]]
+- [[macos]]
+
+
+
 ## Learn
 - [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI): Stop relying on GUI; CLI **ROCKS**
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
