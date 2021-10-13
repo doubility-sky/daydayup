@@ -40,6 +40,8 @@
 
 ### Finder
 - :star:[Quick Look plugins](https://github.com/sindresorhus/quick-look-plugins) List of useful Quick Look plugins for developers
+  - install all `brew install qlcolorcode qlstephen qlmarkdown quicklook-json qlimagesize suspicious-package apparency quicklookase qlvideo`
+  - install more `brew install provisionql quicklookapk quicklook-pat`
 - [Go2Shell](https://zipzapmac.com/Go2Shell) opens a terminal window to the current directory in Finder. `brew cask install go2shell`
 - [OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) Finder Toolbar app for macOS to open the current directory in Terminal, iTerm, Hyper or Alacritty.
 
