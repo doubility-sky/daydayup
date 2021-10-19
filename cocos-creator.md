@@ -112,6 +112,9 @@
     @property({serializable:false})
     private num = 0;
     ```
+- [cocos meta 文件 git 显示](https://www.cnblogs.com/manhelp/p/11277654.html)
+  - `git config --global core.autocrlf false`
+  - `git config --global core.safecrlf false`
 
 
 
