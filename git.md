@@ -10,7 +10,8 @@ Git is [easy to learn](https://git-scm.com/doc) and has a [tiny footprint with l
 
 ## [GUI Clients](https://git-scm.com/downloads/guis)
 Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), but there are several third-party tools for users looking for platform-specific experience.
-- :star:[Sourcetree](https://www.sourcetreeapp.com/): A free Git client for Windows and Mac
+- :star:[Fork](https://fork.dev/) for Windows and Mac
+- [Sourcetree](https://www.sourcetreeapp.com/): A free Git client for Windows and Mac
 - [GitKraken](https://www.gitkraken.com/): Legendary Git client for Windows, Mac & Linux. Free for open source
 - [lazygit](https://github.com/jesseduffield/lazygit): simple terminal UI for git commands
 
