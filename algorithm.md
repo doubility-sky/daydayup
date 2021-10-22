@@ -44,6 +44,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and computer science
 
 ## Pathfinding
 - [Amit’s A* Pages](http://theory.stanford.edu/~amitp/GameProgramming/)
+- [PathPlanning](https://github.com/zhm-real/PathPlanning): Common used path planning algorithms with animations.
 
 
 
