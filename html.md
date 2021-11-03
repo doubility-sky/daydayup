@@ -3,12 +3,13 @@
 
 - [HTML](https://github.com/whatwg/html) Standard https://html.spec.whatwg.org/multipage/
 - [DOM](https://github.com/whatwg/dom) Standard https://dom.spec.whatwg.org/
+- [[web-development]]
 
 
 
 ## Learn
+- [Mozilla's HTML Guide](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTTP 协议入门](https://www.ruanyifeng.com/blog/2016/08/http.html)
-- [HTML Tutorial - w3schools](https://www.w3schools.com/html)
 
 ### practice
 - [jagttt's blog](http://pre-sence.com/trivia) 选定一个后端技术然后前端从 jQuery 开始熟悉，很快就能做出很有成就感的东西。
