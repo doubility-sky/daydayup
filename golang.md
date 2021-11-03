@@ -6,7 +6,7 @@
 
 ## Learn
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer
-- [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place https://hoanhan101.github.io/2020/01/06/101-challenges
+- [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place
 
 ### philosophy
 - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) 
@@ -29,7 +29,7 @@
 - [go-perfbook](https://github.com/dgryski/go-perfbook) - [zh-CN](https://github.com/dgryski/go-perfbook/blob/master/performance-zh.md) This document outlines best practices for writing high-performance Go code. The first sections cover writing optimized code in any language. The later sections cover Go-specific techniques.
 - [Go 语言高性能编程](https://github.com/geektutu/high-performance-go): high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps）
 
-### advanced contents
+### internal
 - [What Go values look like in memory?](https://research.swtch.com/godata): This post is about basic types, structs, arrays, and slices.
 - :star:[Go 语言设计与实现](https://draveness.me/golang/)：本书的主要内容可以分成四个主要部分，分别是编译原理、运行时、基础知识和进阶知识，这四部分几乎可以覆盖 Go 语言从编译到运行的方方面面，让我们对 Go 语言有更加整体和深刻的认识。
 - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-CN)

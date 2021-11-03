@@ -7,21 +7,22 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 - [[node.js]]
 - [[typescript]]
+- [[web-development]]
 
 
 ## Learn
-- :star:[Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development
+- [Mozilla's JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+  - [A re-introduction to JavaScript (JS tutorial)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 - [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.im/post/5ca2e1935188254416288eb2)
 
 ### tutorial
 - [The Modern JavaScript Tutorial](https://github.com/javascript-tutorial) - [read online](https://javascript.info/)
-- [Javascript tutorial book](https://github.com/ruanyf/jstutorial) - http://javascript.ruanyifeng.com
-- [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) - https://wangdoc.com/javascript
+- [JavaScript 教程](https://github.com/wangdoc/javascript-tutorial) - [read online](https://wangdoc.com/javascript)
 
 ### books
+- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) A book series on JavaScript. @YDKJS on twitter.
 - [ES6 入门教程](http://es6.ruanyifeng.com/)
 - [学习Javascript的书籍](http://www.ruanyifeng.com/blog/2008/01/javascript_book_recommendation.html)
-- [You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS) A book series on JavaScript. @YDKJS on twitter.
 
 ### coding style
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript), Software engineering principles, from Robert C. Martin's book Clean Code, adapted for JavaScript. This is not a style guide. It's a guide to producing readable, reusable, and refactorable software in JavaScript.
