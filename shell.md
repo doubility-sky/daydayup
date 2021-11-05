@@ -80,6 +80,8 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 
 ## FAQs
+- [Difference between .bashrc and .bash_profile](https://superuser.com/questions/183870/difference-between-bashrc-and-bash-profile)
+- [Linux shell配置文件加载顺序](https://www.jianshu.com/p/0c7ea235b473)
 - [ubuntu中sh执行shell脚本报错问题](https://blog.csdn.net/dylloveyou/article/details/53393906)
 - [Read a JSON Value in Bash](http://dailyraisin.com/read-json-value-in-bash/)
   <details> <summary> view shell codes </summary> 
