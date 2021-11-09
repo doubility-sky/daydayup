@@ -1,21 +1,21 @@
 [Go](http://golang.org/) is an [open source](https://github.com/golang) programming language that makes it easy to build **simple**, **reliable**, and **efficient** software.
 
-- :star:[Wiki](https://github.com/golang/go/wiki), [Documents](https://golang.org/doc/) (`godoc -http=:6060`), [Talks](https://talks.golang.org/)
-
 
 
 ## Learn
+- Official: [Documents](https://golang.org/doc/), [Wiki](https://github.com/golang/go/wiki), [Talks](https://talks.golang.org/)
 - [Go Developer Roadmap](https://github.com/Alikhll/golang-developer-roadmap) Roadmap to becoming a Go developer
 - [Ultimate Go study guide](https://github.com/hoanhan101/ultimate-go), with heavily documented code and programs analysis, all in 1 place
-
-### philosophy
-- [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) 
-- [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - [cspbook.pdf](http://www.usingcsp.com/cspbook.pdf) by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 
 ### quick start
 - [A Tour of Go](https://tour.golang.org/) with [The Go Playground](https://play.golang.org/)
 - [Go by Example](https://gobyexample.com/) 
 - [The Golang Standard Library by Example](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
+
+### other topics
+- [Go Modules 终极入门](https://segmentfault.com/a/1190000021854441)
+- [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
+- [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 
 ### standard & style
 - [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
@@ -30,6 +30,9 @@
 - [Go 语言高性能编程](https://github.com/geektutu/high-performance-go): high performance coding with golang（Go 语言高性能编程，Go 语言陷阱，Gotchas，Traps）
 
 ### internal
+- **philosophy**
+  - [Concurrency is not Parallelism](https://blog.golang.org/concurrency-is-not-parallelism), [Go Concurrency Patterns](https://talks.golang.org/2012/concurrency.slide) by [Rob Pike](https://en.wikipedia.org/wiki/Rob_Pike) 
+  - [CSP - Communicating Sequential Processes](https://en.wikipedia.org/wiki/Communicating_sequential_processes) - [cspbook.pdf](http://www.usingcsp.com/cspbook.pdf) by [Hoare](http://c2.com/cgi/wiki?CarHoare)
 - [What Go values look like in memory?](https://research.swtch.com/godata): This post is about basic types, structs, arrays, and slices.
 - :star:[Go 语言设计与实现](https://draveness.me/golang/)：本书的主要内容可以分成四个主要部分，分别是编译原理、运行时、基础知识和进阶知识，这四部分几乎可以覆盖 Go 语言从编译到运行的方方面面，让我们对 Go 语言有更加整体和深刻的认识。
 - [golang-notes](https://github.com/cch123/golang-notes) Go source code analysis(zh-CN)
@@ -104,8 +107,6 @@
     freebsd 386 / amd64 >= FreeBSD 7
     windows 386 / amd64 >= Windows 2000
     ```
-- [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
-- [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 - [为什么 Go 语言没有泛型](https://draveness.me/whys-the-design-go-generics/)
 
 
