@@ -19,11 +19,11 @@
 
 
 ## Symbol annotation
+- `-SVR` short for `Server`
 - `-cli` short for `client side program`
 - `-svr` short for `server side program`
-- `-SVR` short for `Server`
-- `<->` is short for `lcoal connection`
-- `<···>` is short for `remote connection`
+- `--` is short for `lcoal connection`
+- `···` is short for `remote connection`
 
 
 
@@ -53,12 +53,11 @@
 
 ### solution
 ```
-user-device <-> SS-cli <···> SS-svr <···> target
-             |<--    doing proxy   -->|
+   user-device          PROXY-SVR
+          \             /
+        SS-cli ··· SS-svr ··· target
 ```
-- run `SS-cli` on `user-device`
-- run `SS-svr` on `PROXY-SVR`
-
+- `SS` short for `shadowsocks`
 
 
 
@@ -67,16 +66,11 @@ user-device <-> SS-cli <···> SS-svr <···> target
 
 ### solution
 ```
-     user-device                      PROXY-SVR
-  /               \                 /           \
-<-> SS-cli <-> kcptun-cli <···> kcptun-svr <-> SS-svr <···> target
- |<--------             doing proxy            -------->|
+      user-device               PROXY-SVR
+     /           \            /           \
+ SS-cli -- kcptun-cli ··· kcptun-svr -- SS-svr ··· target
 ```
-- `SS` short for `shadowsocks` 
-- run `SS-svr`, `kcptun-svr` on `PROXY-SVR`
-- run `SS-cli`, `kcptun-cli` on `user-device`
 - `kcptun-cli` may running on another `intermediate server`
-
 
 
 
@@ -86,15 +80,10 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 
 ### solution
 ```
-        user-device                         PROXY-SVR   
-   /                    \               /               \
-<-> SS=kcptun-cli <-> u2r-cli <···> u2r-svr <-> kcptun=SS-svr <···> target
- |<------------             doing proxy            ------------>|
+          user-device                                  PROXY-SVR
+      /                 \                         /                  \
+ SS-cli -- kcptun-cli -- udp2raw-cli ··· udp2raw-svr -- kcptun-svr -- SS-svr ··· target
 ```
-- `SS=kcptun-cli` short for `SS-cli <-> kcptun-cli`
-- `kcptun=SS-svr` short for `kcptun-svr <-> SS-svr`
-- run `udp2raw-svr`, `kcptun-svr`, `SS-svr` on `PROXY-SVR`
-- run `SS-cli`, `kcptun-cli`, `udp2raw-cli` on `user-device`
 - `kcptun-cli`, `udp2raw-cli` may running on another `intermediate server`
 
 
