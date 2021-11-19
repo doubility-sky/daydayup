@@ -15,7 +15,6 @@
 ### other topics
 - [Go Modules 终极入门](https://segmentfault.com/a/1190000021854441)
 - [Go包管理的前世今生](http://www.infoq.com/cn/articles/history-go-package-management)
-- [理解Go 1.5 vendor](http://tonybai.com/2015/07/31/understand-go15-vendor/)
 
 ### standard & style
 - [Effective Go](https://golang.org/doc/effective_go.html) - [中英双语版](https://github.com/bingohuang/effective-go-zh-en)
