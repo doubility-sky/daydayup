@@ -7,6 +7,7 @@
 - [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 
 ### architecture
+- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
   - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
