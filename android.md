@@ -16,6 +16,11 @@
 - [Best practices in Android development](https://github.com/futurice/android-best-practices): Do's and Don'ts for Android development, by Futurice developers
 - [Android Interview Questions](https://github.com/MindorksOpenSource/android-interview-questions)
 
+### build & sign
+- [多渠道打包的进化史](http://www.dss886.com/2017/11/22/01/)
+- 查看签名：`apksigner verify -v ./XXX.apk`
+- 重新签名（仅 V1）：`apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --v4-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
+
 
 
 ## Projects

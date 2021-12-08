@@ -15,6 +15,8 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [mysql中的慢查询日志](https://www.css3er.com/p/238.html)
   - 慢查询日志分析工具（mysqldumpslow）
   - 使用Show Profile进行分析
+- [值75亿美金的GitHub都不用分布式，你的数据库也不需要](https://mp.weixin.qq.com/s/FJOzK-REUduFzH84Z1kFrQ)
+  - [Partitioning GitHub’s relational databases to handle scale](https://github.blog/2021-09-27-partitioning-githubs-relational-databases-scale/)
 
 
 

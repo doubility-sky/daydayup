@@ -7,17 +7,21 @@
 - [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 
 ### architecture
-- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
 - [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
-  - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
-  - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
-  - [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
-  - [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)
-- [负载均衡架构](https://www.jianshu.com/p/8f7242cbf469)
-- [电商平台架构](https://www.jianshu.com/p/6ecb82fee9b2)
-- [微服务架构](https://www.jianshu.com/p/6dc79068e2dc)
 - [网站服务器架构部署方案发展](https://www.cnblogs.com/baobeiqi-e/p/10876334.html)
+- [微服务架构](https://www.jianshu.com/p/6dc79068e2dc)
+
+### [load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+- [负载均衡架构](https://www.jianshu.com/p/8f7242cbf469)
+- [你管这破玩意儿叫负载均衡?](https://mp.weixin.qq.com/s/Rngy_zCopDWFHq4ZUo3m9w)
+
+### cases
+- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
+- [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
+- [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
+- [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
+- [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)
 - [一个打车应用早期架构发展史](https://cloud.tencent.com/developer/article/1521020)
 - [支付宝架构师眼中的高并发架构](https://cloud.tencent.com/developer/article/1417126)
 - [有赞服务化架构演进](https://cloud.tencent.com/developer/article/1522947)
