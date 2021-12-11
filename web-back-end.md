@@ -1,14 +1,16 @@
+In software engineering, the terms [frontend and backend](https://en.wikipedia.org/wiki/Frontend_and_backend) (or sometimes referred to as back end or back-end) refer to the separation of concerns between the presentation layer (frontend), and the data access layer (backend) of a piece of software, or the physical infrastructure or hardware. In the client–server model, the client is usually considered the frontend and the server is usually considered the backend, even when some presentation work is actually done on the server itself.
+
+- [[web-front-end]]
 
 
 
 ## Learn
 - [Back-end Roadmap](https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap)
-- [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 - [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
+- [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 
 ### architecture
 - [服务端高并发分布式架构演进之路](https://segmentfault.com/a/1190000018626163)
-- [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
 - [网站服务器架构部署方案发展](https://www.cnblogs.com/baobeiqi-e/p/10876334.html)
 - [微服务架构](https://www.jianshu.com/p/6dc79068e2dc)
 
@@ -16,7 +18,14 @@
 - [负载均衡架构](https://www.jianshu.com/p/8f7242cbf469)
 - [你管这破玩意儿叫负载均衡?](https://mp.weixin.qq.com/s/Rngy_zCopDWFHq4ZUo3m9w)
 
-### cases
+### system design
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+- [hiredintech system-design](https://www.hiredintech.com/system-design)
+- [System design interview](https://github.com/checkcheckzz/system-design-interview) for IT companies
+
+
+
+### Practice
 - [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
 - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
 - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
@@ -55,10 +64,14 @@
 
 ## Tools
 - [web-servers](https://gist.github.com/willurd/5720255): Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
+  - Python 2.x `python -m SimpleHTTPServer 8000`
+  - Python 3.x `python -m http.server 8000`
+- [Hoppscotch](https://github.com/hoppscotch/hoppscotch), 👽 Open source API development ecosystem https://hoppscotch.io. AKA: [postwoman](https://postwoman.io/)
 
 
 
 ## FAQs
+- [常见的网站服务器架构有哪些？](https://www.zhihu.com/question/20657269)
 - [为什么做java的web开发我们会使用struts2，springMVC和spring这样的框架?](https://github.com/RubyLouvre/agate/issues/8)
 
 

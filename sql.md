@@ -3,7 +3,11 @@
 
 
 ## Learn
+- [Select Star SQL](https://selectstarsql.com/)
+- [SQL Police Department](https://sqlpd.com/)
 - [Quick SQL Cheatsheet](https://github.com/enochtangg/quick-SQL-cheatsheet), A quick reminder of all SQL queries and examples on how to use them.
+
+### practice
 - [SQL 命名约定](https://launchbylunch.com/posts/2014/Feb/16/sql-naming-conventions/) 数据库的表和字段怎么起名？这也是一门学问。下面是数据库的一些命名原则。
   > * __小写__。标识符应该全部用小写字母来书写，使用`first_name`，不是`"First_Name"或者"FirstName"`。
   > * __数据类型不是名称__。避免使用仅为数据类型的名字（如`text`或`timestamp`）。

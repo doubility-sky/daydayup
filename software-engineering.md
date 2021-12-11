@@ -1,3 +1,5 @@
+[Software engineering](https://en.wikipedia.org/wiki/Software_engineering) is the systematic application of engineering approaches to the development of software.
+
 - [[build]]
 - [[profile]]
 - [[document]]
@@ -28,13 +30,6 @@
 - [Design Patterns Cheat Sheet.pdf](http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf)
 - [Reclaiming Design Patterns (20 Years Later)](http://blogs.tedneward.com/post/reclaiming-design-patterns/)
   - [20 年前 GoF 提出的设计模式，对这个时代是否还有指导意义？](https://www.infoq.cn/article/design-patterns-proposed-by-gof-20-years-ago)
-
-
-
-## System Design
-- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
-- [hiredintech system-design](https://www.hiredintech.com/system-design)
-- [System design interview](https://github.com/checkcheckzz/system-design-interview) for IT companies
 
 
 

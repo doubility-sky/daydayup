@@ -1,4 +1,7 @@
+[Front-end web development](https://en.wikipedia.org/wiki/Front-end_web_development) is the development of the graphical user interface of a website, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that website.
+
 - [[HTML]], [[CSS]], [[JavaScript]]
+- [[web-back-end]]
 
 
 
