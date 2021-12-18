@@ -60,3 +60,4 @@ iOS is the mobile operating system running on the Apple iPhone, iPod touch, and 
 ## Resources
 - [awesome-ios](https://github.com/vsouza/awesome-ios)A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects
 - [iOS apps](https://github.com/learn-anything/ios-apps): Awesome iOS apps
+- [Best Resources for iOS Engineers](https://kean.blog/post/learn-ios)

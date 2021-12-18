@@ -23,7 +23,7 @@
 
 ### memory
 - [TCMalloc](https://github.com/google/tcmalloc) is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.
-  - Also see [gperftools](https://github.com/gperftools/gperftools)
+  - See also [gperftools](https://github.com/gperftools/gperftools)
 
 ### serialization
 - [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf) - Google's data interchange format https://developers.google.com/protocol-buffers/

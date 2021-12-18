@@ -252,11 +252,11 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 ## Tools
-- [also see](database#tools)
 - [mycli](https://github.com/dbcli/mycli): A command line client for MySQL that can do auto-completion and syntax highlighting.
 - [Sequel Pro](https://github.com/sequelpro/sequelpro) is a fast, easy-to-use Mac database management application for working with MySQL & MariaDB databases. [Future of Sequel Pro (06/2020)](https://github.com/sequelpro/sequelpro/issues/3705)
   - [Sequel Ace](https://github.com/Sequel-Ace/Sequel-Ace) is the "sequel" to longtime macOS tool Sequel Pro. Sequel Ace is a fast, easy-to-use Mac database management application for working with MySQL & MariaDB databases.
 - [Querious](https://www.araelium.com/querious): THE BEST MYSQL TOOL FOR MACOS
+- See also: [database tools](database#tools)
 
 
 
