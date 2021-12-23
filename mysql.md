@@ -65,10 +65,10 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ## User
 - 创建用户：
   ```sql
-  CREATE USER 'user'@'host' IDENTIFIED BY 'password';
-  CREATE USER 'user'@'%' IDENTIFIED BY '123456'; -- 全部主机
-  CREATE USER 'user'@'localhost' IDENTIFIED BY '123456'; -- 本地登陆
-  CREATE USER 'user'@'192.168.1.101' IDENTIFIED BY '123456'; -- 指定主机
+  CREATE USER 'user'@'host' IDENTIFIED BY 'pwd';
+  CREATE USER 'user'@'%' IDENTIFIED BY 'pwd'; -- 全部主机
+  CREATE USER 'user'@'localhost' IDENTIFIED BY 'pwd'; -- 本地登陆
+  CREATE USER 'user'@'192.168.1.101' IDENTIFIED BY 'pwd'; -- 指定主机
   ```
 - 删除用户：
   ```sql
@@ -78,9 +78,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - 修改密码: `$ mysql -u root`
   ```sql
   use mysql;
-  SET PASSWORD = PASSWORD('123456');  -- 修改当前登陆用户密码
+  SET PASSWORD = PASSWORD('pwd');  -- 修改当前登陆用户密码
   update user set plugin="mysql_native_password";  -- mysql5.7+ required
-  update user set authentication_string=password('123456') where user='root';
+  update user set authentication_string=password('pwd') where user='root';
   flush privileges;
   ```
 - 使用 `mysqladmin` 修改密码: `$ mysqladmin -u root password -p`
@@ -102,90 +102,45 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   REVOKE privilege ON databasename.tablename FROM 'user'@'host';
   REVOKE SELECT ON testdb.* FROM 'user'@'localhost'; 
   ```
-- 允许远程访问 (BTW: 不建议开放 root 账号)
+- 允许远程访问
   ```sql
   use mysql;
-  update user set host = '%' where user = 'root';
+  update user set host = '%' where user = 'XXX';
   ```
 - :star:以上均需刷新生效：`flush privileges;`
 
 
 
-## Backup/Restore
-- [解锁MySQL备份恢复的4种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
+## Optimize
+- [MySQL 性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
+- [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
+  - [mysql-5.7 配置文件 参数优化](https://www.cnblogs.com/cenliang/p/8110473.html)
+- [MySQL 5.7 Performance Tuning After Installation](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/) - [zh-CN](https://www.cnblogs.com/glon/p/6497377.html)
 
-### bin-log
-- [Binlog日志使用总结](https://www.cnblogs.com/kevingrace/p/6065088.html)
-- [利用mysql的binlog恢复数据](http://orangeholic.iteye.com/blog/1698736)
-- [关于binary log那些事](https://www.cnblogs.com/xinysu/p/6607658.html)
-
-### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
-- [Mysqldump备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
-- [基于mysqldump做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
-
-### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
-  - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
-
-### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
-- [Percona XtraBackup 2.4 Documentation](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)
-  - Percona XtraBackup is a set of following tools:
-  - `innobackupex` is the symlink for xtrabackup. innobackupex still supports all features and syntax as 2.2 version did, but is now **deprecated** and will be removed in next major release.
-  - `xtrabackup` a compiled C binary that provides functionality to backup a whole MySQL database instance with MyISAM, InnoDB, and XtraDB tables.
-  - `xbcrypt` utility used for encrypting and decrypting backup files.
-  - `xbstream` utility that allows streaming and extracting files to/from the xbstream format.
-  - `xbcloud` utility used for downloading and uploading full or part of xbstream archive from/to cloud.
-  - After Percona XtraBackup 2.3 release the recommend way to take the backup is using the xtrabackup script. More information on script options can be found in [how to use xtrabackup](https://www.percona.com/doc/percona-xtrabackup/2.4/xtrabackup_bin/xtrabackup_binary.html).
-- [xtrabackup备份 - 原理与应用](https://blog.csdn.net/fanren224/article/details/79693863)
-- [热备工具Xtrabackup简介](http://www.opcai.top/post/2019-04/mysql_xtrabackup/)
-  - [xtrabackup安装及使用](http://www.opcai.top/post/2019-04/mysql_xtrabackup_install_use/)
-- [使用percona xtraback实施物理备份](https://www.jianshu.com/p/af4260de624a)
-- [Xtrabackup备份还原](https://www.centos.bz/2018/08/mysql-xtrabackup%e5%a4%87%e4%bb%bd%e8%bf%98%e5%8e%9f/)
-  - [Xtrabackup备份和恢复应用](https://www.centos.bz/2018/06/mysql%E4%B8%AD-xtrabackup%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E5%BA%94%E7%94%A8/), shell 自动化
-  - [从Xtrabackup完整备份中恢复单个表](https://www.centos.bz/2018/12/mysql%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%BB%8Extrabackup%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E4%B8%AD%E6%81%A2%E5%A4%8D%E5%8D%95%E4%B8%AA%E8%A1%A8/)
-- innobackupex - DEPRECATED
-  - [innobackupex 备份工具使用总结](http://www.fordba.com/mysql-innobackupex-usage-explain.html)
-  - [innobackupex备份恢复+增量备份与恢复](https://cloud.tencent.com/developer/article/1119183)
-
-
-
-## [Replication](https://dev.mysql.com/doc/refman/5.7/en/replication.html)
-- [搭建 MySQL 5.7.19 主从复制，以及复制实现细节分析](https://segmentfault.com/a/1190000010867488)
-- [(8) MySQL主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html)
-  - [(9) MySQL主主复制架构使用方法](https://www.cnblogs.com/huchong/p/10262620.html)
-- [MySQL主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
-- [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
-- [MySQL双主（主主）架构方案](https://blog.51cto.com/ygqygq2/1870864)
-- [Mysql主从复制配置 单向/双向](https://liguoqinjim.com/post/mysql/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%85%8D%E7%BD%AE/)
-
-### FAQs
-- [MySQL主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
-- [3分钟解决MySQL 1032 主从错误](https://cloud.tencent.com/developer/article/1564571)
-
-
-
-## Storage Engine
+### [Storage engine](https://en.wikipedia.org/wiki/Database_engine)
 - [为什么你要用 InnoDB, 而不是 MyISAM ？](https://juejin.im/post/5c43ee36518825254b5a3c3a) 
-- [MyISAM和InnoDB区别和应用场景](https://www.jianshu.com/p/dc60346d55a2)
+- [MyISAM 和 InnoDB 区别和应用场景](https://www.jianshu.com/p/dc60346d55a2)
 - [MyISAM](https://dev.mysql.com/doc/refman/8.0/en/myisam-storage-engine.html)
   - 读取性能极佳
   - 不支持行锁(只有表锁)，不支持事务，不支持外键，不支持崩溃后的安全恢复
-  - 无特殊需求（需要执行大量的SELECT查询），不推荐使用
+  - 不推荐使用（除非需执行大量 SELECT 查询）
 - [InnoDB](https://dev.mysql.com/doc/refman/8.0/en/innodb-introduction.html)
-  - 支持行锁，采用MVCC来支持高并发，有可能死锁；支持事务；支持外键；支持崩溃后的安全恢复；支持全文索引（版本5.6以后）
-  - 推荐使用
+  - 支持行锁，采用 MVCC 来支持高并发，但有可能死锁；
+  - 支持事务；支持外键；支持崩溃后的安全恢复；支持全文索引（MySQL 5.6+）
+  - 推荐使用（MySQL 5.5+ 默认）
 
 ### InnoDB
 - [MySQL Performance: InnoDB Buffers & Directives](https://www.liquidweb.com/kb/mysql-performance-innodb-buffers-directives/)
-- [优化MySQL：3个简单的小调整](https://linux.cn/article-9325-1.html) —— :star:[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)（[帕累托法则](https://zh.wikipedia.org/wiki/%E5%B8%95%E7%B4%AF%E6%89%98%E6%B3%95%E5%88%99)、80/20原则、关键少数法则、八二法則），调整关键配置(20%)，可得到 80% 性能提升。
+- [What is a big innodb_log_file_size?](https://www.percona.com/blog/2016/05/31/what-is-a-big-innodb_log_file_size/)
+- [优化 MySQL：3 个简单的小调整](https://linux.cn/article-9325-1.html) —— 调整关键配置(20%)，可得到 80% 性能提升，:star:[Pareto principle](https://en.wikipedia.org/wiki/Pareto_principle)
   1. 所有表使用 innodb 引擎
-  2. 加大 `innodb_buffer_pool_size`，最大可使用物理机器的70%
+  2. 加大 `innodb_buffer_pool_size`，最大可使用物理机器的 70%
   3. 设置 `innodb_buffer_pool_instances` 来分割 `innodb_buffer_pool_size`，以提高并发性
 - [MySQL性能调优 – 你必须了解的15个重要变量](https://www.centos.bz/2016/11/mysql-performance-tuning-15-config-item/)
   - `innodb_buffer_pool_size` 最重要
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
-  - 当并发用户线程数量小于64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
-- [What is a big innodb_log_file_size?](https://www.percona.com/blog/2016/05/31/what-is-a-big-innodb_log_file_size/)
-- config example:
+  - 当并发用户线程数量小于 64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
+- Config example:
   ```conf
   # Ubuntu18.04LTS, CPU16核心, 32G内存为例，同时运行其他业务
   # vi /etc/mysql/mysql.conf.d/mysqld.cnf
@@ -206,15 +161,6 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   innodb_log_file_size = 2G
   ```
 
-
-
-## Optimize
-- [MySQL性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
-- [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
-  - [mysql-5.7 配置文件 参数优化](https://www.cnblogs.com/cenliang/p/8110473.html)
-- [MySQL 5.7 Performance Tuning](https://www.percona.com/blog/2016/10/12/mysql-5-7-performance-tuning-immediately-after-installation/)
-  - [MySQL 5.7 安装完成后，立即要调整的性能选项](https://www.cnblogs.com/glon/p/6497377.html)
-
 ### [Alternative malloc library](https://dev.mysql.com/doc/refman/5.7/en/mysqld-safe.html#option_mysqld_safe_malloc-lib)
 - [Configuring systemd for MySQL](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#systemd-mysql-configuration)
 - [Migrating from mysqld_safe to systemd](https://dev.mysql.com/doc/refman/5.7/en/using-systemd.html#mysqld-safe-to-systemd-migration)
@@ -222,7 +168,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 #### [jemalloc](https://github.com/jemalloc/jemalloc) OR [tcmalloc](https://github.com/google/tcmalloc)/[gperftools](https://github.com/gperftools/gperftools)
 - `apt install libjemalloc-dev` / `apt install google-perftools`
   - `mkdir -p /etc/systemd/system/mysql.service.d` / `systemctl edit mysql`
-  - `vi /etc/systemd/system/mysql.service.d/override.conf`  
+  - `vi /etc/systemd/system/mysql.service.d/override.conf` 
     ```conf
     [Service]
     Environment="LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libjemalloc.so"
@@ -251,6 +197,67 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
+## Backup/Restore
+- [解锁 MySQL 备份恢复的 4 种正确姿势](https://dbaplus.cn/news-11-1267-1.html)
+
+### bin-log
+- [Binlog 日志使用总结](https://www.cnblogs.com/kevingrace/p/6065088.html)
+- [利用 mysql 的 binlog 恢复数据](http://orangeholic.iteye.com/blog/1698736)
+- [关于 binary log 那些事](https://www.cnblogs.com/xinysu/p/6607658.html)
+
+### [mysqldump](https://dev.mysql.com/doc/refman/5.7/en/mysqldump.html)
+- [Mysqldump 备份说明及数据库备份脚本分享](https://www.cnblogs.com/kevingrace/p/9403353.html)
+- [基于 mysqldump 做备份恢复](https://jkzhao.github.io/2018/04/21/%E5%9F%BA%E4%BA%8Emysqldump%E5%81%9A%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D/)
+
+### [mysqlpump](https://dev.mysql.com/doc/refman/5.7/en/mysqlpump.html)
+  - [mysqlpump 使用说明](https://www.cnblogs.com/kevingrace/p/9760185.html)
+
+### [xtrabackup](https://www.percona.com/software/mysql-database/percona-xtrabackup)
+- [Percona XtraBackup 2.4 Documentation](https://www.percona.com/doc/percona-xtrabackup/2.4/index.html)
+  - Percona XtraBackup is a set of following tools:
+  - `innobackupex` is the symlink for xtrabackup. innobackupex still supports all features and syntax as 2.2 version did, but is now **deprecated** and will be removed in next major release.
+  - `xtrabackup` a compiled C binary that provides functionality to backup a whole MySQL database instance with MyISAM, InnoDB, and XtraDB tables.
+  - `xbcrypt` utility used for encrypting and decrypting backup files.
+  - `xbstream` utility that allows streaming and extracting files to/from the xbstream format.
+  - `xbcloud` utility used for downloading and uploading full or part of xbstream archive from/to cloud.
+  - After Percona XtraBackup 2.3 release the recommend way to take the backup is using the xtrabackup script. More information on script options can be found in [how to use xtrabackup](https://www.percona.com/doc/percona-xtrabackup/2.4/xtrabackup_bin/xtrabackup_binary.html).
+- [xtrabackup 备份 - 原理与应用](https://blog.csdn.net/fanren224/article/details/79693863)
+- [热备工具 Xtrabackup 简介](http://www.opcai.top/post/2019-04/mysql_xtrabackup/)
+  - [xtrabackup 安装及使用](http://www.opcai.top/post/2019-04/mysql_xtrabackup_install_use/)
+- [使用 percona xtraback 实施物理备份](https://www.jianshu.com/p/af4260de624a)
+- [Xtrabackup 备份还原](https://www.centos.bz/2018/08/mysql-xtrabackup%e5%a4%87%e4%bb%bd%e8%bf%98%e5%8e%9f/)
+  - [Xtrabackup 备份和恢复应用](https://www.centos.bz/2018/06/mysql%E4%B8%AD-xtrabackup%E5%A4%87%E4%BB%BD%E5%92%8C%E6%81%A2%E5%A4%8D%E5%BA%94%E7%94%A8/), shell 自动化
+  - [从 Xtrabackup 完整备份中恢复单个表](https://www.centos.bz/2018/12/mysql%E5%A4%87%E4%BB%BD%E6%81%A2%E5%A4%8D%EF%BC%9A%E4%BB%8Extrabackup%E5%AE%8C%E6%95%B4%E5%A4%87%E4%BB%BD%E4%B8%AD%E6%81%A2%E5%A4%8D%E5%8D%95%E4%B8%AA%E8%A1%A8/)
+- innobackupex - DEPRECATED
+  - [innobackupex 备份工具使用总结](http://www.fordba.com/mysql-innobackupex-usage-explain.html)
+  - [innobackupex 备份恢复+增量备份与恢复](https://cloud.tencent.com/developer/article/1119183)
+
+
+
+## [Replication](https://dev.mysql.com/doc/refman/5.7/en/replication.html)
+- [Mysql 主从复制配置 单向/双向](https://liguoqinjim.com/post/mysql/mysql%E4%B8%BB%E4%BB%8E%E5%A4%8D%E5%88%B6%E9%85%8D%E7%BD%AE/)
+
+### [Master-slave replication](https://github.com/donnemartin/system-design-primer#master-slave-replication)
+- [搭建 MySQL 5.7.19 主从复制，以及复制实现细节分析](https://segmentfault.com/a/1190000010867488)
+- [MySQL 5.7 基于 GTID 的主从复制实践](https://www.hi-linux.com/posts/47176.html)
+- [MySQL 主从备份配置](https://www.jianshu.com/p/1eed312e83bf)
+- [MySQL 主从复制架构使用方法](https://www.cnblogs.com/huchong/p/10253522.html)、
+- [MySQL 主从复制——主库已有数据的解决方案](https://www.cnblogs.com/songwenjie/p/9376719.html)
+- [3 分钟解决 MySQL 1032 主从错误](https://cloud.tencent.com/developer/article/1564571)
+
+### [Master-master replication](https://github.com/donnemartin/system-design-primer#master-slave-replication)
+- [MySQL双主（主主）架构方案](https://blog.51cto.com/ygqygq2/1870864)
+- [MySQL主主复制架构使用方法](https://www.cnblogs.com/huchong/p/10262620.html)
+
+
+
+## [Sharding](https://en.wikipedia.org/wiki/Shard_(database_architecture))
+- [system-design-primer - sharding](https://github.com/donnemartin/system-design-primer#sharding)
+- [这四种情况下，才是考虑分库分表的时候！](https://segmentfault.com/a/1190000038944473)
+- [三分钟理解分库分表](https://zhuanlan.zhihu.com/p/136963357)
+
+
+
 ## Tools
 - [mycli](https://github.com/dbcli/mycli): A command line client for MySQL that can do auto-completion and syntax highlighting.
 - [Sequel Pro](https://github.com/sequelpro/sequelpro) is a fast, easy-to-use Mac database management application for working with MySQL & MariaDB databases. [Future of Sequel Pro (06/2020)](https://github.com/sequelpro/sequelpro/issues/3705)
@@ -262,7 +269,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 ## FAQs
 - [Lost connection to MySQL server at 'reading initial communication packet](http://stackoverflow.com/questions/3578147/mysql-error-2013-lost-connection-to-mysql-server-at-reading-initial-communic)  
-- [Ubuntu 开启mysql远程连接](https://dzer.me/2016/05/04/ubuntu-%E5%BC%80%E5%90%AFmysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/)   
+- [Ubuntu 开启 mysql 远程连接](https://dzer.me/2016/05/04/ubuntu-%E5%BC%80%E5%90%AFmysql%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5/)   
   ```sh
   vi /etc/mysql/mysql.conf.d/mysqld.cnf
     #bind-address = 127.0.0.1
@@ -277,7 +284,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - [Truncate Slow Query Log in MySQL](https://stackoverflow.com/questions/577339/truncate-slow-query-log-in-mysql)
   - `> /var/lib/mysql/XXX-slow.log`
 - [Did your logging stop working after you set up logrotate? Then this post might be for you.](https://www.percona.com/blog/2014/11/12/log-rotate-and-the-deleted-mysql-log-file-mystery/)
-- [MySQL获取行数](https://www.jianshu.com/p/0636e13c26c8)
+- [MySQL 获取行数](https://www.jianshu.com/p/0636e13c26c8)
   ```sh
   mysql -h$MYHOST -P$MYPORT -u$MYUSER -p$MYPWD -N -e "SELECT table_name, table_rows FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_SCHEMA = '$DBNAME'"
   ```
