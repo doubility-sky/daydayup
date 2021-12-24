@@ -111,7 +111,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 
-## Optimize
+## Optimization
 - [MySQL 性能优化总结](http://www.cnblogs.com/luxiaoxun/p/4694144.html)
 - [MySQL Optimal Configuration Template](https://github.com/jdaaaaaavid/mysql_best_configuration)
   - [mysql-5.7 配置文件 参数优化](https://www.cnblogs.com/cenliang/p/8110473.html)
