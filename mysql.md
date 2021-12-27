@@ -9,7 +9,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 ## Learn
 - [Complete list of new features in MySQL 5.7](https://www.thecompletelistoffeatures.com/)
 
-### practice
+
+
+## Practice
 - [MySQL运维笔记](https://www.cnblogs.com/kevingrace/category/796278.html)
 - [Linux运维菜 - MySQL](http://www.opcai.top/categories/mysql/)
 - [mysql中的慢查询日志](https://www.css3er.com/p/238.html)

@@ -25,7 +25,9 @@
 ### details
 - [TiKV 是如何存取数据的](https://pingcap.com/blog-cn/how-tikv-store-get-data/)
 
-### practice
+
+
+## Practice
 - [TiDB 最佳实践](https://docs.pingcap.com/zh/tidb/stable/tidb-best-practices)
 - [客户案例](https://pingcap.com/zh/case/)
   - [精选实践汇总1](https://asktug.com/t/topic/34701), [精选实践汇总2](https://asktug.com/t/topic/69927)

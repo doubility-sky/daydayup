@@ -25,7 +25,7 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
 
 
 
-### Practice
+## Practice
 - [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
 - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
 - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)

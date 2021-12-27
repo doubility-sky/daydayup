@@ -8,7 +8,9 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
 - [游戏服务端架构发展史（下）](http://www.skywind.me/blog/archives/1327) 已太监
 - [游戏服务器从入门到关门](https://zhuanlan.zhihu.com/c_1265419283598987264)
 
-### practice
+
+
+## Practice
 - [游戏服务器技术与架构文集](https://www.jianshu.com/c/5121fd868c4f)
 - [某百万DAU游戏的服务端优化工作](https://www.gameres.com/879458.html)
 

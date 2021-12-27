@@ -4,7 +4,11 @@
 
 
 ## Learn
-### practice
+- [Your Ultimate Guide to the Non-Relational Universe!](https://hostingdata.co.uk/nosql-database/)
+
+
+
+## Practice
 - 谈谈陌陌争霸在数据库方面踩过的坑
   - [前篇](https://blog.codingnow.com/2014/03/mmzb_db.html)
   - [排行榜篇](https://blog.codingnow.com/2014/03/mmzb_db_2.html)

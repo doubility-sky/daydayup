@@ -12,7 +12,9 @@
 - [Android Examples](https://github.com/nisrulz/android-examples) :shipit: [Examples] Simple basic isolated apps, for budding android devs.
 - [Android Tips & Tricks](https://github.com/nisrulz/android-tips-tricks) ☑️ [Cheatsheet] Tips and tricks for Android Development
 
-### practice
+
+
+## Practice
 - [Best practices in Android development](https://github.com/futurice/android-best-practices): Do's and Don'ts for Android development, by Futurice developers
 - [Android Interview Questions](https://github.com/MindorksOpenSource/android-interview-questions)
 

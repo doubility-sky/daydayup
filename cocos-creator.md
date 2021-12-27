@@ -28,7 +28,9 @@
 - [Editor API](https://docs.cocos.com/creator/api/zh/#editor-api)
 - [《creator插件开发常用API命令列表》备忘录 ](https://forum.cocos.org/t/topic/92605)
 
-### practice
+
+
+## Practice
 - [Cocos Creator—最佳构建部署实践](https://segmentfault.com/a/1190000012424893)
 - [腾讯在线教育部技术博客](https://oedx.github.io/)
   - [基于 Cocos 的高性能跨平台开发方案](https://www.hahack.com/codes/cocos-based-high-performance-cross-platform-app-developing/)
@@ -37,13 +39,13 @@
   - [人生苦短，我们为 Cocos Creator 开发的插件和工具](https://oedx.github.io/2020/06/30/cocos-creator-extensions/)
   - [TinyCocosFix -- Cocos热更新的非官方解决方案](https://oedx.github.io/2021/02/22/TinyCocosFix/)
 
-#### crypto
+### crypto
 - [建议creator提供图片资源加密功能](https://forum.cocos.org/t/creator/46017/5)
 - [一种「无侵入」资源加密方案](https://forum.cocos.org/t/cocos-creator/95492)
 - [适用于 Cocos 的 JSC 加解密工具](https://oedx.github.io/2018/09/14/jsc-encryption-and-decryption-tools-for-cocos/)
   - [cocos-jsc-endecryptor](https://github.com/OEDx/cocos-jsc-endecryptor)
 
-#### [texture compression](https://en.wikipedia.org/wiki/Texture_compression)
+### [texture compression](https://en.wikipedia.org/wiki/Texture_compression)
 - [支持ETC1 + Alpha 纹理压缩](https://oedx.github.io/2019/05/15/cocos-creator-support-etc1-alpha/)
   - [纹理压缩插件化](https://oedx.github.io/2019/06/20/CocosCreator-TextureCompression-Plugin/)
     - [纹理压缩插件](https://github.com/OEDx/ccc-texturecompression)
@@ -51,7 +53,7 @@
   - 针对不支持 GLES3.0 的设备，etc2 软解方案 https://github.com/google/angle
 - [etc 压缩格式，使用 Mac 压缩后透明度不对（已解决）](https://forum.cocos.org/t/ios-etc-mac/88456)
 
-#### optimize
+### optimize
 - [Cocos Creator性能调优优化集锦](https://zhuanlan.zhihu.com/p/96765699)
 - [Cocos Creator 性能优化：DrawCall](https://forum.cocos.org/t/topic/95043)
 

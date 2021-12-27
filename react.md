@@ -10,7 +10,9 @@
 - [React 入门实例教程](http://www.ruanyifeng.com/blog/2015/03/react.html)
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 
-### practice
+
+
+## Practice
 - [My Decade in Review](https://overreacted.io/my-decade-in-review/) - [zh-CN](https://overreacted.io/zh-hans/my-decade-in-review/) 著名 JavaScript 程序员、Redux 作者 Dan Abramov 回顾自己的过去十年，从一个没有上大学的俄罗斯高中毕业生，到 Facebook 公司 React 团队的重要成员。
 
 

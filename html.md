@@ -11,7 +11,9 @@
 - [Mozilla's HTML Guide](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTTP 协议入门](https://www.ruanyifeng.com/blog/2016/08/http.html)
 
-### practice
+
+
+## Practice
 - [jagttt's blog](http://pre-sence.com/trivia) 选定一个后端技术然后前端从 jQuery 开始熟悉，很快就能做出很有成就感的东西。
 
 
