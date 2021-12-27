@@ -57,6 +57,13 @@
 - [Cocos Creator性能调优优化集锦](https://zhuanlan.zhihu.com/p/96765699)
 - [Cocos Creator 性能优化：DrawCall](https://forum.cocos.org/t/topic/95043)
 
+### [hot-update](https://docs.cocos.com/creator/manual/zh/advanced-topics/hot-update.html)
+- [Cocos Creator 热更新](https://www.jianshu.com/p/094cd0e95e55)
+  - [Cocos Creator 大厅+子游戏模式](https://www.jianshu.com/p/fe54ca980384)
+- [Cocos Creator 大厅+子游戏，从入门到进阶！](https://zhuanlan.zhihu.com/p/370746386)
+- [Cocos Creator 实现大厅+子游戏模式](https://www.cnblogs.com/zhong-dev/p/10782834.html)
+- [我理解的 cocosCreator asset Bundle 版本2.4.4（跨域资源服务器+大厅子游戏模式+热更新+相关详细功能+相当易懂的介绍+demo）](https://forum.cocos.org/t/topic/113061)
+
 
 
 ## [[TypeScript]]
