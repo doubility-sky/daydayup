@@ -21,6 +21,7 @@ Therefore, software development may include research, new development, prototypi
 
 ### books
 - [How to Design Programs, Second Edition](https://htdp.org/)
+- [The Software Foundations series](https://softwarefoundations.cis.upenn.edu/) is a broad introduction to the mathematical underpinnings of reliable software. - [软件基础（中译版）](https://github.com/Coq-zh/SF-zh)
 - :star:[The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
   - [Volume I](http://aosabook.org/en/intro1.html), [Volume II](http://aosabook.org/en/intro2.html)
   - [The Performance of Open Source Applications](http://aosabook.org/en/posa/introduction.html)

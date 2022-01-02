@@ -26,15 +26,17 @@
 - [HTML5游戏引擎深度测评](http://www.jianshu.com/p/0469cd7b1711)
 
 ### recommend
-- [[cocos-creator]], [[phaser]], [[godot]]
+- [[phaser]], [[godot]], [[cocos-creator]]
 - [libGDX](https://github.com/libGDX/libGDX) is a cross-platform Java game development framework based on OpenGL (ES) that works on Windows, Linux, Mac OS X, Android, your WebGL enabled browser and iOS. [awesome-libgdx](https://github.com/rafaskb/awesome-libgdx)
 - [Babylon.js](https://github.com/BabylonJS/Babylon.js) is a powerful, beautiful, simple, and open game and rendering engine packed into a friendly JavaScript framework.
-- [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
-  - This is [the source](https://github.com/Stencyl/stencyl-engine) to Stencyl's Haxe-based game engine.
 - [PlayCanvas](https://github.com/playcanvas/engine) is an open-source game engine. It uses HTML5 and WebGL to run games and other interactive 3D content in any mobile or desktop browser.
 
-### not very active
-- [[egret]], ~~[[layabox]]~~
+### proprietary
+- [Stencyl](http://www.stencyl.com/) Create Flash, HTML5, iOS, Android, Mac, Windows and Linux games with no code with Stencyl. 
+  - This is [the source](https://github.com/Stencyl/stencyl-engine) to Stencyl's Haxe-based game engine.
+
+### others
+- inactive: [[egret]], ~~[[layabox]]~~
 
 
 
@@ -43,7 +45,7 @@
 
 ### recommend
 - Moderate
-  - [[cocos creator]]/[[cocos2d-x]], [[godot]], [[phaser]]
+  - [[godot]], [[cocos creator]]/[[cocos2d-x]], [[phaser]]
   - [libGDX](https://github.com/libGDX/libGDX)
 - Lightweight
   - [[love2d]], [[pygame]]
@@ -53,11 +55,10 @@
 - [GameMaker Studio](https://www.yoyogames.com/) 2 is a tool designed to empower you and your team to make new and innovative games as well as prototype ideas in the fastest and most intuitive way possible across multiple target platforms. 
 - [Construct 3](https://www.construct.net/en) is the best software to create games. Over 100,000 users monthly make & sell thousands of games globally. - [Awesome Construct](https://github.com/WebCreationClub/awesome-construct)
 
-### wait-and-see
-- [[ejoy2d]]: not very active
+### others
+- [[ejoy2d]]: inactive
 - [GDevelop](https://github.com/4ian/GDevelop) is an open-source, cross-platform game engine designed to be used by everyone. https://gdevelop-app.com
 - [Orx](https://github.com/orx/orx) is a 2.5D data-driven game development engine. It is open source, ultra-fast, multi-platform and full-featured for C/C++ programmers: beginners and experts alike. http://orx-project.org
-- [Oxygine](https://github.com/oxygine/oxygine-framework) is C++ engine and framework for 2D games on iOS, Android, Windows, Linux and Mac http://oxygine.org/
 - [Gideros](https://github.com/gideros/gideros) is a cross-platform development environment for creating amazing games and interactive applications in 2D or 3D. It is easy to pick up, quick to develop and robust to deploy. Code your game once and deploy to Android, iOS, MacOS, tvOS, Windows, HTML 5 and more. - [Awesome Gideros](https://github.com/stetso/awesome-gideros)
 
 
@@ -74,7 +75,7 @@
 ### proprietary
 - [[unity]], [[unreal-engine]]
 
-### wait-and-see
+### others
 - [Urho3D](https://github.com/urho3d/Urho3D) is a free lightweight, cross-platform 2D and 3D game engine implemented in C++ and released under the MIT license. Greatly inspired by OGRE and Horde3D.
 - [KlayGE](https://github.com/gongminmin/KlayGE), KlayGE is a cross-platform open source game engine with plugin-based architecture. It's started since 2003. The explicit goal of KlayGE is: to arm your engine with cutting-edge technology. It provides a framework to make game development, testing, porting as simple as possible.
 - [pmtech](https://github.com/polymonster/pmtech), Lightweight, multi-platform, data-oriented game engine.
