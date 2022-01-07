@@ -29,10 +29,7 @@
 ### I/O event
 - [libevent](https://github.com/libevent/libevent) – an event notification library
 - [libev](http://software.schmorp.de/pkg/libev.html)A full-featured and high-performance ([see benchmark](http://libev.schmorp.de/bench.html)) event loop that is loosely modelled after libevent, but without its limitations and bugs. It is used in [GNU Virtual Private Ethernet](http://software.schmorp.de/pkg/gvpe.html), [rxvt-unicode](http://software.schmorp.de/pkg/rxvt-unicode.html), [auditd](http://people.redhat.com/sgrubb/audit/), the [Deliantra MORPG](http://www.deliantra.net/) Server and Client, and many other programs.
-- [libuv](https://github.com/libuv/libuv) Cross-platform asynchronous I/O https://libuv.org/
-  - [An Introduction to libuv](https://github.com/nikhilm/uvbook)
-  - [libuv 初窥](http://blog.codingnow.com/2012/01/libuv.html) - 云风的 BLOG
-  - [Learn uv](https://github.com/thlorenz/learnuv) for fun and profit, a self guided workshop to the library that powers Node.js.
+- [libuv](node.js#libuv) is a multi-platform support library with a focus on asynchronous I/O. It was primarily developed for use by Node.js, but it's also used by Luvit, Julia, uvloop, and others.
 
 ### [coroutine](https://en.wikipedia.org/wiki/Coroutine)
 - [Protothreads](http://dunkels.com/adam/pt/index.html)

@@ -1,19 +1,9 @@
 Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) [LEEN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key) or /ˈlɪnʊks/ [LIN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a family of [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(computing)) first released on September 17, 1991, by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) in a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 
-
-
 - 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
 - [[shell]]
 - [[OpenWrt]]
-
-
-
-## Kernel
-- [The Linux Kernel Archives](https://www.kernel.org/)
-  - [HOWTO do Linux kernel development](https://www.kernel.org/doc/html/latest/process/howto.html), [zh-CN](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/howto.html)
-  - [Linux kernel coding style](https://www.kernel.org/doc/Documentation/process/coding-style.rst), [zh-CN](https://www.kernel.org/doc/html/latest/translations/zh_CN/process/coding-style.html)
-- [linux-insides](https://github.com/0xAX/linux-insides) A book-in-progress about the linux kernel and its insides.
-- [BCC](https://github.com/iovisor/bcc) - Tools for BPF-based Linux IO analysis, networking, monitoring, and more
+- [[linux-kernel]]
 
 
 
