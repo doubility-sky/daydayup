@@ -42,6 +42,7 @@ A [programming language](https://en.wikipedia.org/wiki/Programming_language) is 
 
 
 ## Tools
+- [Semgrep](https://github.com/returntocorp/semgrep) is a fast, open-source, static analysis tool for finding bugs and enforcing code standards at editor, commit, and CI time.
 - [awesome-static-analysis](https://github.com/mre/awesome-static-analysis) Static analysis tools for all programming languages https://endler.dev/awesome-static-ana…
 
 

@@ -10,13 +10,13 @@ Any browser. Any host. Any OS. Open source.
 
 ## Learn
 - [Official Documentation](https://www.typescriptlang.org/docs/home.html)
-- [Official Playground](https://www.typescriptlang.org/play)
-  - https://typescript-play.js.org/
-- 🌟[TypeScript Handbook](https://github.com/Microsoft/TypeScript-Handbook) - [read online](https://www.typescriptlang.org/docs/handbook/intro.html)
-  - [TypeScript 使用手册](https://github.com/zhongsp/TypeScript) - [在线阅读](https://zhongsp.gitbook.io/typescript-handbook/)
+- 🌟[TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) - [zh-CN](https://github.com/zhongsp/TypeScript)
+- [TypeScript Deep Dive](https://github.com/basarat/typescript-book) - [read online](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html), [深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
 - [TypeScript 入门教程](https://github.com/xcatliu/typescript-tutorial) - [在线阅读](https://ts.xcatliu.com/)
-- [TypeScript Deep Dive](https://github.com/basarat/typescript-book/) - [read online](https://basarat.gitbooks.io/typescript/content/docs/getting-started.html)
-  - [深入理解 TypeScript](https://github.com/jkchao/typescript-book-chinese) - [在线阅读](https://jkchao.github.io/typescript-book-chinese/)
+
+### Playground
+- [Official Playground](https://www.typescriptlang.org/play)
+- [Better TypeScript playground](https://typescript-play.js.org), [open source](https://github.com/agentcooper/typescript-play)
 
 
 

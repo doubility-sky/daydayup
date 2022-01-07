@@ -26,6 +26,7 @@
 
 ## Softwares
 - [Homebrew](https://github.com/Homebrew/brew): 🍺 The missing package manager for macOS (or Linux)
+- [Homebrew Cask](https://github.com/Homebrew/homebrew-cask): 🍻 A CLI workflow for the administration of macOS applications distributed as binaries
 
 ### Command-line
 - [neofetch](https://github.com/dylanaraps/neofetch): Fast, highly customisable system info script
