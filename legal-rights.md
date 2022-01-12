@@ -51,6 +51,9 @@
 - [博客文章 - 我在拼多多的三年](https://www.leadroyal.cn/?p=1228) - [LeadroyaL/pdd_3years](https://github.com/LeadroyaL/pdd_3years/blob/master/pdd_3year.md)
 - [知乎 - 漩涡中的拼多多，和漩涡边的职场人](https://www.zhihu.com/special/20087817): 员工猝死、跳楼、被逼离职……拼多多被卷进舆论风波。而这场风波，与每一位职场人息息相关。
 
+### Others
+- [成都IT公司黑名单/培训机构名单](https://github.com/Hootrix/Chengdu-IT-company-blacklist)
+
 
 
 ## What's next?

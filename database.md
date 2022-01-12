@@ -16,7 +16,7 @@ A [database](https://en.wikipedia.org/wiki/Database) is an organized collection 
 
 ## Tools
 - [usql](https://github.com/xo/usql) A universal command-line interface for PostgreSQL, MySQL, Oracle Database, SQLite3, Microsoft SQL Server, and many other databases including NoSQL and non-relational databases!
+- [Adminer](https://github.com/vrana/adminer) - Database management in a single PHP file. Supports: MySQL, MariaDB, PostgreSQL, SQLite, MS SQL, Oracle, Elasticsearch, MongoDB, SimpleDB (plugin), Firebird (plugin), ClickHouse (plugin)
 - [DBeaver](https://github.com/dbeaver/dbeaver): Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports any database which has JDBC driver (which basically means - ANY database). EE version also supports non-JDBC datasources (MongoDB, Cassandra, Couchbase, Redis, BigTable, DynamoDB, etc).
-- :star:[TablePlus](https://github.com/TablePlus/TablePlus): TablePlus is a native app which helps you easily edit database data and structure. TablePlus currently Supports: PostgreSQL, MySQL, RedShift, MariaDB... High-end security ensured
-  - TablePlus is free and has no limit on trial time, but I'd be very happy if you purchased a license to support development.
+- [TablePlus](https://github.com/TablePlus/TablePlus): TablePlus is a native app which helps you easily edit database data and structure. TablePlus currently Supports: PostgreSQL, MySQL, RedShift, MariaDB... High-end security ensured
 - [Percona Monitoring and Management](https://www.percona.com/software/database-tools/percona-monitoring-and-management), A single pane of glass to easily view and monitor the performance of your MySQL, MongoDB, PostgreSQL, and MariaDB databases.

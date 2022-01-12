@@ -67,6 +67,7 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
   - Python 2.x `python -m SimpleHTTPServer 8000`
   - Python 3.x `python -m http.server 8000`
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch), 👽 Open source API development ecosystem https://hoppscotch.io. AKA: [postwoman](https://postwoman.io/)
+- [GoAccess](https://github.com/allinurl/goaccess) is an open source real-time web log analyzer and interactive viewer that runs in a terminal on *nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly. More info at: https://goaccess.io.
 
 
 

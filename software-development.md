@@ -6,7 +6,7 @@ Therefore, software development may include research, new development, prototypi
 
 
 - [[software-engineering]]
-- [development/design tools](Tools)
+- [development/design tools](tools)
 
 
 

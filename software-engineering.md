@@ -10,7 +10,6 @@
 
 ## Learn
 - [谷歌工程实践](https://github.com/xindoo/eng-practices-cn)
-- [掘金翻译计划](https://github.com/xitu/gold-miner)，可能是世界最大最好的英译中技术社区，最懂读者和译者的翻译平台： https://juejin.im/tag/掘金翻译计划
 - [为什么这么设计](https://draveness.me/whys-the-design/)（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一个具体的问题并从不同的角度讨论这种设计的优缺点、对具体实现造成的影响。如果你有想要了解的问题，可以在文章下面留言。
 
 ### architecture
