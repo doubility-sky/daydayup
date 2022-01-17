@@ -11,17 +11,20 @@
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
   - [配置代码编辑环境](https://docs.cocos.com/creator/manual/zh/getting-started/coding-setup.html?h=vscode)
-- [Cocos Creator 开发范例](https://github.com/cocos-creator/example-cases): 本项目同时面向 Cocos Creator 引擎开发人员和最终用户，目的是建立一套贯穿开发、测试、学习使用的完整的功能范例。 [在线演示](https://cocos-creator.github.io/example-cases/)
-- [cocos creator 一些使用实例](https://github.com/baiyuwubing/cocos-creator-examples)(刚体挖洞/流体效果/shader/纹理处理)
 - [3.0 TypeScript 问题答疑及经验分享](https://forum.cocos.org/t/topic/106995)
 - [Creator星球游戏开发社区](https://cloud.tencent.com/developer/column/80686)文章列表
 
-### [Tutorial](https://github.com/cocos-creator?q=tutorial)
+### [tutorials](https://github.com/cocos-creator?q=tutorial)
 - [cocos-creator/tutorial-first-game](https://github.com/cocos-creator/tutorial-first-game), Quick start game for Cocos Creator
 - [cocos-creator/tutorial-blackjack](https://github.com/cocos-creator/tutorial-blackjack), 21点游戏 - Cocos Creator 制造
 - [cocos-creator/tutorial-dark-slash](https://github.com/cocos-creator/tutorial-dark-slash), 暗黑斩游戏制作演示 - Cocos Creator制造
 - [demo-ball](https://github.com/cocos-creator/demo-ball) A jumping ball demo created by Cocos Creator 3D
 - [Tutorial-Taxi-Game](https://github.com/cocos-creator/tutorial-taxi-game): This is an open source demo game using Cocos Creator 3D v1.0.x, with [17 episodes of video tutorial on Bilibili](https://www.bilibili.com/video/BV1AE411j7L9). From this project, you can learn how to use Cocos Creator 3D to develop a 3D game from sratch.
+
+### examples
+- [Cocos Creator 开发范例](https://github.com/cocos-creator/example-cases): 本项目同时面向 Cocos Creator 引擎开发人员和最终用户，目的是建立一套贯穿开发、测试、学习使用的完整的功能范例。 [在线演示](https://cocos-creator.github.io/example-cases/)
+- [cocos creator 一些使用实例](https://github.com/baiyuwubing/cocos-creator-examples)(刚体挖洞/流体效果/shader/纹理处理)
+- [CococsCreator 技术方案分享](https://github.com/cocos-creator/CococsCreator-public-technology-solutions), 来源自论坛、github 开源仓库、gitee 开源仓库、热心开发者、Cocos 引擎开发团队、cocos 技术支持团队。
 
 ### creator 编辑器插件
 - [编辑器 API 参考文档](https://docs.cocos.com/creator/manual/zh/extension/api/)

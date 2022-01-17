@@ -14,6 +14,7 @@
 
 ### architecture
 - [The Software Architecture Chronicles](https://herbertograca.com/2017/07/03/the-software-architecture-chronicles/), [软件架构编年史](https://www.jianshu.com/p/b477b2cc6cfa)
+- [Software Architecture Patterns: 5 minute read](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
 - [我做系统架构的一些原则](https://coolshell.cn/articles/21672.html)
 
 
