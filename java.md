@@ -31,6 +31,23 @@
 
 
 
+## FAQs
+- [How to install Java 9 and 10 on Mac with Homebrew?](https://stackoverflow.com/questions/54566362/how-to-install-java-9-and-10-on-mac-with-homebrew/55775518)
+  - `brew tap adoptopenjdk/openjdk`
+  - `brew install --cask adoptopenjdk9`
+  - `export JAVA_HOME=$(/usr/libexec/java_home)`
+- [Cask adoptopenjdk8 exists in multiple taps](https://github.com/AdoptOpenJDK/homebrew-openjdk/issues/106)
+  - `brew install --cask adoptopenjdk/openjdk/adoptopenjdk8`
+- Switch JDK
+  ```shell
+  function jdk() {
+    export JAVA_HOME=$(/usr/libexec/java_home -v $1);
+    java -version
+  }
+  ```
+
+
+
 ## Resources
 - [Awesome Java](https://github.com/akullpp/awesome-java), A curated list of awesome frameworks, libraries and software for the Java programming language.
 - [Java 技术书籍大全](https://github.com/sorenduan/awesome-java-books)

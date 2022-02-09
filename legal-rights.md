@@ -7,12 +7,13 @@
 ## [996工作制](https://zh.wikipedia.org/wiki/996%E5%B7%A5%E4%BD%9C%E5%88%B6) 
 - [996.ICU](https://github.com/996icu/996.ICU) - [zh-CN](https://github.com/996icu/996.ICU/blob/master/README_CN.md)
   - [blacklist](https://github.com/996icu/996.ICU/tree/master/blacklist)
-  - [whitelist](https://github.com/996icu/996.ICU/tree/master/whitelist)
   - [community-links](https://github.com/996icu/996.ICU#community-powers)
+
+### Work Life Balance (WLB)
+- [955.WLB](https://github.com/formulahendry/955.WLB)
+- [whitelist](https://github.com/996icu/996.ICU/tree/master/whitelist)
 - [Microsoft and GitHub Workers Support 996.ICU](https://github.com/MSWorkers/support.996.ICU)
   - [微软日本公司宣布今年8月每周休三天 并发放补助金](https://tech.163.com/19/0423/13/EDEUJ4U100097U7T.html)
-- [955.WLB](https://github.com/formulahendry/955.WLB)
-- [WorkerLivesMatter](https://github.com/WorkerLivesMatter/WorkerLivesMatter)
 
 ### News
 - [人民日报发声：崇尚奋斗，不等于强制996 ](https://www.sohu.com/a/307927700_481640)
