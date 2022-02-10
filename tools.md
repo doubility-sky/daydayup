@@ -21,29 +21,39 @@
 
 
 ## Editor
-- [vim](https://www.vim.org/) 编辑器之神
-  - [The Ultimate vimrc](https://github.com/amix/vimrc)
-- [emacs](https://www.gnu.org/software/emacs/) 神的编辑器
-- [atom](https://github.com/doubility-sky/daydayup/wiki/atom-editor "GitHub 出品，好吧现在也是微软的了- -|||") 基于 [[electron]]
-- [sublime](http://www.sublimetext.com/) 速度快 (打开大文件表现好），更新慢
-  - [20 个强大的 Sublime Text 插件](https://www.oschina.net/translate/20-powerful-sublimetext-plugins)
-  - [Package Control](https://packagecontrol.io/installation)
-- Windows Only
-  - [notepad++](https://notepad-plus-plus.org/)
-  - [source insight](http://www.sourceinsight.com/) 收费
 
-### [Visual Studio Code](https://code.visualstudio.com/)
-[vscode](https://github.com/microsoft/vscode) 由微软出品，与 atom 一样基于 [[electron]]，活跃且迭代非常快
+### [Vi](https://en.wikipedia.org/wiki/Vi)
+- [Vim](https://www.vim.org/) is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as "vi" with most UNIX systems and with Apple OS X.
+  - [The ultimate Vim configuration (vimrc)](https://github.com/amix/vimrc)
+- [neovim](https://github.com/neovim/neovim): Vim-fork focused on extensibility and usability
+  - [NvChad](https://github.com/NvChad/NvChad): An attempt to make neovim cli as functional as an IDE while being very beautiful, blazing fast startuptime ~ 0.05 secs
+
+### [Emacs](https://en.wikipedia.org/wiki/Emacs)
+- [GNU Emacs](https://www.gnu.org/software/emacs/): An extensible, customizable, free/libre text editor — and more.
+
+### [Sublime](http://www.sublimetext.com/)
+- The sophisticated text editor for code, markup and prose.
+- [Package Control](https://packagecontrol.io/installation)
+- [20 个强大的 Sublime Text 插件](https://www.oschina.net/translate/20-powerful-sublimetext-plugins)
+
+### [Atom](atom-editor)
+- [Atom](https://github.com/atom/atom) is a hackable text editor for the 21st century, built on [[Electron]], and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
+
+### [VS Code](https://code.visualstudio.com/)
+- [Visual Studio Code](https://github.com/microsoft/vscode) 与 [Atom](https://github.com/atom/atom) 一样基于 [[electron]]，活跃且迭代非常快
 - [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
 - [code-server](https://github.com/cdr/code-server) VS Code in the browser
-- [Code Runner](https://github.com/formulahendry/vscode-code-runner)
-- [史上最全vscode配置使用教程](https://zhuanlan.zhihu.com/p/113222681)
+- [史上最全 vscode 配置使用教程](https://zhuanlan.zhihu.com/p/113222681)
+- **Extensions**
+  - https://code.visualstudio.com/docs/editor/variables-reference
+  - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
+  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
+  - [Visualize Data Structures in VSCode](https://addyosmani.com/blog/visualize-data-structures-vscode/)
+  - [Code Runner](https://github.com/formulahendry/vscode-code-runner)
 
-#### extensions
-- https://code.visualstudio.com/docs/editor/variables-reference
-- [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
-- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
-- [Visualize Data Structures in VSCode](https://addyosmani.com/blog/visualize-data-structures-vscode/)
+### Windows Only
+- [notepad++](https://notepad-plus-plus.org/)
+- [source insight](http://www.sourceinsight.com/)
 
 
 
