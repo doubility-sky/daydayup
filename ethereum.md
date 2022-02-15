@@ -1,9 +1,11 @@
 [Ethereum](https://www.ethereum.org/) is a global, open-source platform for decentralized applications.
 
+- [Ethereum Wiki](https://eth.wiki)
+
 
 
 ## Learn
-- [White Paper](https://github.com/ethereum/wiki/wiki/White-Paper)
+- [White Paper](https://ethereum.org/en/whitepaper)
 - [EthFans wiki](https://github.com/EthFans/wiki/wiki)
 - https://github.com/ZtesoftCS/go-ethereum-code-analysis
 
