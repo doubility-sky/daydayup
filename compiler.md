@@ -11,6 +11,7 @@ A [compiler](https://en.wikipedia.org/wiki/Compiler) is a computer program that 
 - [A Compiler Writing Journey](https://github.com/DoctorWkt/acwj)
 - [Write a C Compiler!](https://github.com/nlsandler/write_a_c_compiler) This is a set of C test programs to help you write your own compiler. They were written to accompany this [tutorial](https://norasandler.com/2017/11/29/Write-a-Compiler.html).
 - [shecc](https://github.com/jserv/shecc) : self-hosting and educational C compiler
+- [Crafting Interpreters](https://craftinginterpreters.com/) contains everything you need to implement a full-featured, efficient scripting language.
 
 
 

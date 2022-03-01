@@ -16,6 +16,7 @@ Mathematics is essential in many fields, including natural science, engineering,
 
 ### books
 - [BYRNE’S EUCLID](https://www.c82.net/euclid/) THE FIRST SIX BOOKS OF THE ELEMENTS OF EUCLID WITH COLOURED DIAGRAMS AND SYMBOLS
+- [Isomorphism -- Mathematics of Programming](https://github.com/liuxinyu95/unplugged): This book introduces the mathematics behind computer programming.
 
 ### sites
 - [mathworld](https://mathworld.wolfram.com/)

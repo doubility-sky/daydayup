@@ -10,6 +10,38 @@ When mistakes were found in a standard output, the submission will be unsuccessf
 
 
 
+## [International Olympiad in Informatics](https://en.wikipedia.org/wiki/International_Olympiad_in_Informatics) (IOI)
+- [OI-Public-Library](https://github.com/enkerewpo/OI-Public-Library), OI essays and learning materials
+- [Wiki for OI / ICPC](https://github.com/OI-wiki/OI-wiki) （某大型游戏线上攻略，内含炫酷算术魔法） https://oi-wiki.org
+  - OI Wiki 致力于成为一个免费开放且持续更新的知识整合站点，大家可以在这里获取关于 编程竞赛 (competitive programming) 有趣又实用的知识，我们为大家准备了竞赛中的基础知识、常见题型、解题思路以及常用工具等内容，帮助大家更快速深入地学习编程竞赛。
+- [shareOI](https://github.com/hzwer/shareOI) 算法竞赛课件分享
+
+
+
+## [International Collegiate Programming Contest](https://en.wikipedia.org/wiki/International_Collegiate_Programming_Contest) (ICPC)
+- [Stanford ACM-ICPC](https://github.com/jaehyunp/stanfordacm), This is a repository for the Stanford ACM-ICPC teams. It currently hosts (a) the team notebook, and (b) complete lecture slides for [CS 97SI](http://stanford.edu/class/cs97si/).  
+  The team notebook is compiled from codes written by previous Stanford team members and coaches.
+- http://web.mit.edu/~ecprice/acm/notebook.pdf
+- [ACM Cheat Sheet](https://github.com/soulmachine/acm-cheat-sheet)
+- [ACM-ICPC Algorithms](https://github.com/matthewsamuel95/ACM-ICPC-Algorithms), Algorithms used in Competitive Programming
+- [ACM-ICPC Preparation](https://github.com/BedirT/ACM-ICPC-Preparation), This program has been developed to learn Algorithms for use in Competitive Prorgamming
+
+
+
+## [LeetCode](https://leetcode.com)
+- [LeetCode Animation All in One](https://github.com/MisterBooo/LeetCodeAnimation): Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）
+- [labuladong 的算法小抄](https://github.com/labuladong/fucking-algorithm): Crack LeetCode, not only how, but also why.
+- [LeetCode Solutions](https://github.com/azl397985856/leetcode): A Record of My Problem Solving Journey
+- [算法模板](https://github.com/greyireland/algorithm-pattern)，最科学的刷题方式，最快速的刷题路径，你值得拥有~
+- [熟能生巧 – 刷题的一些技巧的经验之谈](https://justyy.com/archives/44858)
+
+### answers
+- [Complete solutions to LeetCode](https://github.com/doocs/leetcode), LCOF and LCCI problems, updated daily
+- [LeetCode-Go](https://github.com/halfrost/LeetCode-Go), LeetCode Cookbook
+- [LeetCode In Action](https://github.com/algorhythms/LeetCode) - Python Solutions
+
+
+
 ## [Project Euler](https://projecteuler.net/) 
 ![Euler](https://projecteuler.net/images/euler_portrait.png "Watching you!")
 
@@ -20,12 +52,6 @@ Originally developed by Henri Cohen and his co-workers (Université Bordeaux I, 
 - `gp` is an easy-to-use interactive shell giving access to the PARI functions.
 - `GP` is the name of gp's scripting language.
 - `gp2c`, the GP-to-C compiler, combines the best of both worlds by compiling GP scripts to the C language and transparently loading the resulting functions into gp. (gp2c-compiled scripts will typically run 3 or 4 times faster.) gp2c currently only understands a subset of the GP language.
-
-
-
-## [LeetCode](https://leetcode.com)
-- [LeetCode??????????????](https://zhuanlan.zhihu.com/p/104983442)
-- [LeetCode In Action](https://github.com/algorhythms/LeetCode) - Python Solutions
 
 
 
