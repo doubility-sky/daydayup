@@ -70,6 +70,7 @@
 - [[blockchain]]
   - [[bitcoin]]
   - [[ethereum]]
+  - [[fnfn]]
 - [[third-party]]
 
 ## [[career]]
