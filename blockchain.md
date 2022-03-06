@@ -1,5 +1,6 @@
 - [[bitcoin]]
 - [[ethereum]]
+- [[fnfn]]
 
 
 
