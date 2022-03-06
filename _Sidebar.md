@@ -71,6 +71,7 @@
     - [[login]]
   - [[other-technology]]
     - [[PvP synchronization]]
+  - [[game-art]]
 - [[blockchain]]
   - [[bitcoin]]
   - [[ethereum]]
