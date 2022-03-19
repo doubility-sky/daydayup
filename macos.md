@@ -21,6 +21,7 @@
 - 查看 Bundle ID: 
   - `osascript -e 'id of app "SomeApp"'`
   - `mdls -name kMDItemCFBundleIdentifier -r AbsolutePathOfSomeApp.app`
+- 查看当前监听的端口列表： `netstat -AaLlnW`
 
 
 
@@ -98,6 +99,9 @@
       launchctl unload /Library/LaunchAgents/com.epson.scannermonitor.plist
       ```
     - 修改 plist 文件，将 KeepAlive 和 RunAtLoad 等改为 false
+- xargs 之类的 shell 命令，参数格式与 Linux 有些不一样，如何与 Linux 统一起来？
+  - 需要 GNU 系列工具 `brew install coreutils gnu-sed`
+  - 把 PATH 路径放到前面，确保使用的都是 brew 安装的 GNU 命令
 
 
 

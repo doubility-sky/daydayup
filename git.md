@@ -106,9 +106,16 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 
 ### self-hosted
 - [Gitlab](https://about.gitlab.com/), 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用
-  - [Gitlab简单教程](https://wuyuans.com/2017/05/gitlab-simple-tutorial)
-  - [Gitlab架构](https://docs.gitlab.com/ee/development/architecture.html)
-  - [Gitlab高可用](https://docs.gitlab.com/ee/administration/high_availability/)
+  - [GitLab architecture](https://docs.gitlab.com/ee/development/architecture.html)
+  - 自建 Docker 版本，端口映射内外不一致时（容器内部端口为默认）， 项目页面点击 `clone` 按钮后的 URL 展示问题
+    - 假设：`--publish 8443:443 --publish 8080:80 --publish 8022:22`
+    - 编辑配置 `vi /etc/gitlab/gitlab.rb` 
+    - 选项 `Clone with SSH` 下的 URL
+      - `gitlab_rails['gitlab_shell_ssh_port'] = 8022`
+    - 选项 `Clone with HTTP[S]` 下的 URL
+      - 修改 `external_url` 并带上端口（如果 docker 启动时未设置正确的话）
+      - 重写 `nginx['listen_port'] = 80`（如不重写此端口，将会根据 `external_url` 改变监听端口）
+    - `gitlab-ctl reconfigure`
 - [Gogs](https://github.com/gogs/gogs) is a painless self-hosted Git service https://gogs.io
 - [gitea](https://github.com/go-gitea/gitea) Git with a cup of tea, painless self-hosted git service https://gitea.io
 - [onedev](https://github.com/theonedev/onedev) Super Easy All-In-One DevOps Platform
