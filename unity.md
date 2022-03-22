@@ -3,8 +3,12 @@
 
 
 ## Learn
+- [User Manual](https://docs.unity3d.com/Manual/index.html), [Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
 - [Unity Learn](https://learn.unity.com/)
+
+### tutorials
 - [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/)
+- [Unity 从入门到放弃](https://www.zhihu.com/column/c_1237044646569447424)
 
 
 
@@ -19,10 +23,11 @@
 - [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
 - [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
 
-### scripting
-- [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
+
+
+## Script binding
 - [moonsharp](http://www.moonsharp.org/): A Lua interpreter written entirely in C# for the .NET, Mono and Unity platforms.
-- [xlua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
+- [xLua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
 - [puerts](https://github.com/Tencent/puerts): write your game with TypeScript in the ue4 or unity
   - [puerts偿还了xLua哪些技术债](https://zhuanlan.zhihu.com/p/195320417)
@@ -45,6 +50,12 @@
   - [UIWebView和WKWebView与JS的交互详解](https://juejin.im/post/5d5148f2f265da03da2488d7)
 - [MemoryProfiler](https://github.com/larryhou/MemoryProfiler) CPU and memory profiling tools for Unity3D
 - [SuperTiled2Unity](https://github.com/Seanba/SuperTiled2Unity) is a Unity Package that gives you the ability to import your [Tiled Map Editor](https://www.mapeditor.org/) maps directly into your Unity projects.
+- [ILRuntime](https://github.com/Ourpalm/ILRuntime): Pure C# IL Intepreter Runtime, which is fast and reliable for scripting requirement on enviorments, where jitting isn't possible.
+
+
+
+## FAQs
+- [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
 
 
 

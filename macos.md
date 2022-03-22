@@ -102,6 +102,7 @@
 - xargs 之类的 shell 命令，参数格式与 Linux 有些不一样，如何与 Linux 统一起来？
   - 需要 GNU 系列工具 `brew install coreutils gnu-sed`
   - 把 PATH 路径放到前面，确保使用的都是 brew 安装的 GNU 命令
+- 重置 launchpad：`defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock`
 
 
 
