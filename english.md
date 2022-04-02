@@ -21,6 +21,7 @@
 
 ## [Vocabulary](https://learnenglish.britishcouncil.org/vocabulary)
 - [程序员英语词汇宝典](https://github.com/Wei-Xia/most-frequent-technology-english-words)
+- [How to Improve English Vocabulary (4 Best Ways to Learn New Words)](https://engfluent.com/how-to-improve-english-vocabulary/)
 
 ### [Test Your Vocabulary](http://testyourvocab.com/)
 - [Test Your Vocabulary Online With VocabularySize.com](https://my.vocabularysize.com/) – Free tools to measure your students' vocabulary size
@@ -33,9 +34,16 @@
 - [LibriVox](https://librivox.org/) audiobooks are free for anyone to listen to, on their computers, iPods or other mobile device, or to burn onto a CD.
 - [1,000 Free Audio Books](https://www.openculture.com/freeaudiobooks): Download Great Books for Free
 - [How to Really Improve Your English Listening Skills](https://engfluent.com/how-to-improve-english-listening-skills)
-  - [How to Learn English with TV Series and Movies (Best Methods)](https://engfluent.com/learn-english-with-tv-series-and-movies/)
-  - [English Conversations You Can Download for Free (Spoken English MP3/Audio Files)](https://engfluent.com/english-conversation-audio-free-download/)
-  - [English Listening Practice: Exercises for Beginners & Intermediates](https://engfluent.com/english-listening-practice/)
+- [English Listening Practice: Exercises for Beginners & Intermediates](https://engfluent.com/english-listening-practice/)
+
+### conversations
+- [English Conversations You Can Download for Free (Spoken English MP3/Audio Files)](https://engfluent.com/english-conversation-audio-free-download/)
+
+### movie & TV shows
+- [How to Learn English with TV Series and Movies (Best Methods)](https://engfluent.com/learn-english-with-tv-series-and-movies/)
+- [How to Learn English with Movies (New Technique)](https://www.youtube.com/watch?v=uH1aDCjypKg)
+  - **Watching movies with delayed subtitles.** (This approach improves your listening and vocabulary, and you don't have to watch movies twice.)
+  - [Watching movies with delayed subtitles (Additional Information)](https://engfluent.com/learn-english-through-movies/)
 
 
 
@@ -54,7 +62,7 @@ Improve your spoken English Free!
 ## Reading
 - [Blink of the Day](https://www.blinkist.com/en/nc/daily): Learn something new everyday with this free dose of inspiration to read or listen to, from our library.
 - [Project Gutenberg](https://www.gutenberg.org/) is a library of over 60,000 free eBooks
-- [Best Books to Read to Improve Your English (Novels & Nonfiction)](https://engfluent.com/english-reading-material/)
+- [How to Improve English Reading Skills (Become a Master Reader)](https://engfluent.com/how-to-improve-english-reading-skills/)
 
 ### articles
 - [Quick and Dirty Tips](https://www.quickanddirtytips.com/): This site was founded by English teacher Mignon Fogerty (also known as “Grammar Girl”). It features a series of articles about [English grammar](https://www.quickanddirtytips.com/grammar-girl) and other topics like productivity, relationships, and fitness.
@@ -63,6 +71,7 @@ Improve your spoken English Free!
 - [How Stuff Works](https://www.howstuffworks.com/)is a great website to expand your general knowledge. It has articles that explains thousands of topics, ranging from the flu to black holes to conspiracy theories.
 
 ### books
+- [Best Books to Read to Improve Your English (Novels & Nonfiction)](https://engfluent.com/english-reading-material/)
 - [新编英语阅读手册](https://github.com/xiaolai/a-new-english-reading-handbook)
 
 
@@ -70,12 +79,17 @@ Improve your spoken English Free!
 ## Writing
 - [How to write in plain English](http://www.plainenglish.co.uk/how-to-write-in-plain-english.html)
 - [How to Improve English Writing Skills (4 Best Ways)](https://engfluent.com/how-to-improve-english-writing-skills/)
-  - [How to Improve English Writing Skills (without studying grammar)](https://www.youtube.com/watch?v=jTEATmzxdro)
-    - Find something written by a native English speaker (an article on the Internet, a chapter from a book, a resume, etc.)
-      1. Read one sentence, make sure you understand everything, then take a moment to memorize it.
-      2. Switch to a text editor, and write down the sentence from memory. If you can't remember some of the words in the sentence, you make a guess or use other words with similar meanings.
-      3. Compare what you wrote with the original to see if you made any mistakes. If you did, correct them, go `step 2` do it again. If you didn't, choose the following sentence, go `step 1`.
-    - Read a lot in English regularly.
+  - **Read**
+  - **Practice Imitation**
+  - Write freely
+  - Study writing guides
+- [How to Improve English Writing Skills (without studying grammar)](https://www.youtube.com/watch?v=jTEATmzxdro)
+  - Find something written by a native English speaker (an article on the Internet, a chapter from a book, a resume, etc.)
+    1. Read one sentence, make sure you understand everything, then take a moment to memorize it.
+    2. Switch to a text editor, and write down the sentence from memory. If you can't remember some of the words in the sentence, you make a guess or use other words with similar meanings.
+    3. Compare what you wrote with the original to see if you made any mistakes. If you did, correct them, go `step 2` do it again. If you didn't, choose the following sentence, go `step 1`.
+  - Read a lot in English regularly.
+
 
 
 
