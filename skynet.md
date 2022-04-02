@@ -167,6 +167,12 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   - 注：云风在[重新设计并实现了 skynet 的 harbor 模块](http://blog.codingnow.com/2014/06/skynet_harbor_redesign.html)一文中有推荐。
     - 此外，对于松散的集群结构，我推荐使用 skynet 的单结点模式，在上层用 tcp 连接互连，并只使用简单的 rpc 协议。
 - [cluster query/call 不存在的node，永久挂起问题](https://github.com/cloudwu/skynet/pull/819#issuecomment-381824733)
+- hostname坑：cluster发消息是由clustersender服务来做的，每一个远端对应一个clustersendfer服务。创建该服务的时候会传入一个内部的nodename，它是
+  由hostname和数字组成的。如果hostname中间有空格，会导致传参时将后面的变量（如port）挤掉，这样就连接不上远端了。解决办法是将本机hostname空格去掉：
+```
+Macos:
+sudo scutil --set HostName XXX
+```
 
 ### net packet
 - http://blog.codingnow.com/2015/08/skynet_cluster_rpc_limit.html  
