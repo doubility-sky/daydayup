@@ -28,6 +28,7 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 - [Open Source Society University - computer science](https://github.com/ossu/computer-science), Path to a free self-taught education in Computer Science!
 
 ### books
+- [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html) - [zh-CN](https://www.ituring.com.cn/book/1019)
 - [Electronic References](https://csgordon.github.io/books.html): a loosely-categorized collection of links to CS textbooks in a variety of areas that are freely available online
 - [SICP - JS](https://sicp.comp.nus.edu.sg/) 经典计算机教材 SICP 的 JavaScript 语言版，新加坡国立大学改编的。
 - [Programming in Java · Computer Science · An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/): textbooks for a first course in computer science for the next generation of scientists and engineers
