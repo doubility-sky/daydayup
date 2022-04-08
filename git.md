@@ -171,3 +171,12 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   git branch -m master
   git push -f origin master
   ```
+- Push an existing folder
+  ```shell
+  cd existing_folder
+  git init --initial-branch=main
+  git remote add origin XXXURL
+  git add .
+  git commit -m "Initial commit"
+  git push -u origin main
+  ```

@@ -21,6 +21,7 @@
 
 ## [Vocabulary](https://learnenglish.britishcouncil.org/vocabulary)
 - [程序员英语词汇宝典](https://github.com/Wei-Xia/most-frequent-technology-english-words)
+- [The best way to improve your English vocabulary](https://www.youtube.com/watch?v=awIXN5LgWKY)
 - [How to Improve English Vocabulary (4 Best Ways to Learn New Words)](https://engfluent.com/how-to-improve-english-vocabulary/)
 
 ### [Test Your Vocabulary](http://testyourvocab.com/)
@@ -37,9 +38,15 @@
 - [English Listening Practice: Exercises for Beginners & Intermediates](https://engfluent.com/english-listening-practice/)
 
 ### conversations
+- [How to practice English listening skills (without spending extra time)](https://www.youtube.com/watch?v=uDVoZ39mONk)
 - [English Conversations You Can Download for Free (Spoken English MP3/Audio Files)](https://engfluent.com/english-conversation-audio-free-download/)
 
 ### movie & TV shows
+- [English Listening Practice: How to Understand Movies Without Subtitles](https://www.youtube.com/watch?v=todTT866rx8)
+  - Easy -> Normal -> Difficult
+  - Make it easy in the beginning, slow down the video's speed.
+  - Keep challenging yourself, step out of your comfort zone.
+  - Listen to different people with different speaking styles.
 - [How to Learn English with TV Series and Movies (Best Methods)](https://engfluent.com/learn-english-with-tv-series-and-movies/)
 - [How to Learn English with Movies (New Technique)](https://www.youtube.com/watch?v=uH1aDCjypKg)
   - **Watching movies with delayed subtitles.** (This approach improves your listening and vocabulary, and you don't have to watch movies twice.)
