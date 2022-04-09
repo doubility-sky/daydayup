@@ -15,8 +15,12 @@
 
 
 ## Practice
-- [Unity3D中实现帧同步 - Part 1](http://jjyy.guru/unity3d-lock-step-part-1)
-- [Unity3D中实现帧同步 - Part 2](http://jjyy.guru/unity3d-lock-step-part-2)
+- [How I Cut Unity Compile Times by 75%](https://www.screaminggoose.com/blog/2019/2/4/how-i-cut-unity-compile-times-by-75)
+- [How to reduce Unity build times](https://caioteixeira.dev/blog/how-to-reduce-unity-build-times/)
+
+### synchronization
+- [Unity3D中实现帧同步 - Part 1](https://www.freesion.com/article/7285895467/)
+- [Unity3D中实现帧同步 - Part 2](https://www.freesion.com/article/1348895460/)
 - [Unity3D RTS游戏中帧同步实现](https://gameinstitute.qq.com/community/detail/113377)
 
 ### google play
