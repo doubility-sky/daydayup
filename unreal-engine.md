@@ -38,3 +38,22 @@
 ## Resources
 - [terrehbyte/awesome-ue4](https://github.com/terrehbyte/awesome-ue4): A curated list of resources for working with Unreal Engine 4. (Awesome Unreal Engine 4)
 - [insthync/awesome-ue4](https://github.com/insthync/awesome-ue4): A categorized collection of awesome opensource Unreal Engine 4 repos
+
+## Note
+### 配置Android工程，基于[官方教程](https://docs.unrealengine.com/4.27/zh-CN/SharingAndReleasing/Mobile/Android/Setup/AndroidStudio/)
+ - 下载虚幻引擎（5或4.27）
+ - 下载android studio
+   + 进入Tools/SDK Manager
+   + SDK Platforms安装最新的sdk
+   + SDK Tools安装NDK(Side by side)、Android SDK Command-line tools(latest)
+   + SDK Tools的Build—Tools，**卸载**默认安装的最新的Build-Tools，**安装**29.0.2版本
+ - windows，修改引擎目录下Engine\Extras\Android\SetupAndroid.bat并执行
+```
+set SDKMANAGER=%STUDIO_SDK_PATH%\tools\bin\sdkmanager.bat
+改成
+set SDKMANAGER=%STUDIO_SDK_PATH%\cmdline-tools\latest\bin\sdkmanager.bat
+```
+ - 项目内除了教程中的配置，还需要配置keystore
+   + 使用android studio (https://blog.csdn.net/tzhenxiong/article/details/109901468)
+   + 使用命令行 (windows)[https://blog.csdn.net/Gold_brick/article/details/52850169]
+ - 项目的minSDKVersion改成21以上
