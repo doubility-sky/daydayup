@@ -50,6 +50,16 @@
   - File -> Invalidate Caches/Restart...
 - [Error type 3 Error: Activity class {} does not exist](https://stackoverflow.com/questions/20915266/error-type-3-error-activity-class-does-not-exist)
   - File -> Invalidate Caches/Restart...
+- 查看手机 OpenGLES 版本方法
+  ```sh
+  adb shell getprop ro.opengles.version
+  # 确认返回值
+  # ro.opengles.version=65535 # OpenGL ES 1.0
+  # ro.opengles.version=65536 # OpenGL ES 1.1
+  # ro.opengles.version=131072 # OpenGL ES 2.0
+  # ro.opengles.version=196608 # OpenGL ES 3.0
+  # ro.opengles.version=196609 # OpenGL ES 3.1
+  ```
 
 
 

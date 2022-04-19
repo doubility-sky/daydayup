@@ -57,6 +57,7 @@
 - [MemoryProfiler](https://github.com/larryhou/MemoryProfiler) CPU and memory profiling tools for Unity3D
 - [SuperTiled2Unity](https://github.com/Seanba/SuperTiled2Unity) is a Unity Package that gives you the ability to import your [Tiled Map Editor](https://www.mapeditor.org/) maps directly into your Unity projects.
 - [ILRuntime](https://github.com/Ourpalm/ILRuntime): Pure C# IL Intepreter Runtime, which is fast and reliable for scripting requirement on enviorments, where jitting isn't possible.
+- [huatuo](https://github.com/focus-creative-games/huatuo): Zero-cost, high-performance unity c# hot update solution
 
 
 
