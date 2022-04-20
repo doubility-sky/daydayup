@@ -9,14 +9,24 @@
 - [Unity Learn](https://learn.unity.com/)
 
 ### tutorials
-- [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/)
+- [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) - [zh-CN](https://zhuanlan.zhihu.com/p/346208723)
 - [Unity 从入门到放弃](https://www.zhihu.com/column/c_1237044646569447424)
 
 
 
 ## Practice
+
+### build
 - [How I Cut Unity Compile Times by 75%](https://www.screaminggoose.com/blog/2019/2/4/how-i-cut-unity-compile-times-by-75)
 - [How to reduce Unity build times](https://caioteixeira.dev/blog/how-to-reduce-unity-build-times/)
+
+### memory
+- [Unity游戏内存分布概览](https://zhuanlan.zhihu.com/p/370467923)
+
+### optimization
+- [《天谕》手游分析报告(上)-资源分析](https://zhuanlan.zhihu.com/p/358309455)
+- [《天谕》手游分析报告(下)-性能优化分析](https://zhuanlan.zhihu.com/p/358310704)
+- [《天谕》手游背后的技术究竟有多强？](https://mp.weixin.qq.com/s/9V9AvaCwtQeezXKNxjhbVA)
 
 ### synchronization
 - [Unity3D中实现帧同步 - Part 1](https://www.freesion.com/article/7285895467/)
