@@ -1,9 +1,22 @@
 Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) [LEEN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key) or /ˈlɪnʊks/ [LIN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a family of [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(computing)) first released on September 17, 1991, by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) in a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 
 - 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
-- [[shell]]
 - [[OpenWrt]]
 - [[linux-kernel]]
+- [[c]]
+
+
+
+## Learn
+- [[shell]]
+- [Linux SysOps Handbook](https://abarrak.gitbook.io/linux-sysops-handbook): A study notes book for the common knowledge and tasks of a Linux system admin.
+- [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html): [Linux is not a secure operating system](https://madaidans-insecurities.github.io/linux.html). However, there are steps you can take to improve it. This guide aims to explain how to harden Linux as much as possible for security and privacy. This guide attempts to be distribution-agnostic and is not tied to any specific one.
+- [An Introduction To Data Science On The Linux Command Line](https://blog.robertelder.org/data-science-linux-command-line/): This article will provide the reader with a brief overview for a number of different Linux commands. 
+
+### books
+- :star:[The Linux Command Line](http://linuxcommand.org/tlcl.php) - [zh-CN](https://github.com/billie66/TLCL)
+- [Linux Guide for Complete Beginners](https://happypeter.github.io/LGCB/): 本书摘取了 [The Linux Commandline](https://billie66.github.io/TLCL/) 中最常用的部分，结合一些开发中比较实用的操作而整理出来的。
+- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)：本书专注于Linux工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用
 
 
 
@@ -122,6 +135,7 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `rsync -avP SRC1 SRC2 ... SRCn DEST` 将 SRC1 ... SRCn 内容递归复制到 DEST/SRC1 ... DEST/SRCn（不存在则创建）
   - `rsync -avP --exclude '.*' SRC/ DEST` 排除隐藏文件 `.*`
   - `rsync -avP --exclude={'f1.txt','f2.txt'} SRC/ DEST` 多个排除选项
+  - `rsync -avP --include="*.lua" --exclude='*' SRC/ DEST` 仅复制指定文件，需配合 exclude
   - `rsync -avP --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
   - `rsync -avP --delete SRC/ DEST` 复制并删除 DEST 中，不存在于 SRC 中的文件（即：镜像同步）
 - 用 ssh key 同步远程主机文件

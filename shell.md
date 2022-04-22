@@ -3,22 +3,18 @@ In [computing](https://en.wikipedia.org/wiki/Computing), a [shell](https://en.wi
 Command-line shells require the user to be familiar with commands and their calling [syntax](https://en.wikipedia.org/wiki/Syntax), and to understand concepts about the shell-specific scripting language (for example, [bash](https://en.wikipedia.org/wiki/Bash_shell)).
 
 
-
 - [[linux]]
 - [[macos]]
+- [[operating-system]]
 
 
 
 ## Learn
 - [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI): Stop relying on GUI; CLI **ROCKS**
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
-- :star:[The Linux Command Line](http://linuxcommand.org/tlcl.php) - [zh-CN](https://github.com/billie66/TLCL)
-- [An Introduction To Data Science On The Linux Command Line](https://blog.robertelder.org/data-science-linux-command-line/)
-- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/index.html): An in-depth exploration of the art of shell scripting
-- [Linux工具快速教程](https://github.com/me115/linuxtools_rst)：本书专注于Linux工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用
-- [Linux命令大全](https://man.linuxde.net/)：查询您所需要的Linux命令教程和相关实例
 
 ### scripting
+- [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/index.html): An in-depth exploration of the art of shell scripting
 - [Shell 脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
 - [Shell 脚本传参方法总结](https://www.jianshu.com/p/d3cd36c97abc)
   ```shell

@@ -7,11 +7,12 @@
 - [c++](cpp)
 - [c--](https://www.cs.tufts.edu/~nr/c--/index.html)
 - [C compilers](compiler#C)
+- [[linux]]
 
 
 
 ## Learn
-- [Linux C编程一站式学习](https://github.com/learning-linux-c-cpp/akabook)
+- [Linux C编程一站式学习](https://akaedu.github.io/book/)
 - [Build your own Lisp](https://github.com/orangeduck/BuildYourOwnLisp), Learn C and build your own programming language in under 1000 lines of code!
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
 - [最值得阅读学习的 10 个 C 语言开源项目代码](https://my.oschina.net/zhoukuo/blog/335788#OSC_h3_2)

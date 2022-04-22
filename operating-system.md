@@ -2,6 +2,7 @@ An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is sy
 
 
 - Common OS: [[BSD]], [[Linux]], [[macOS]], [[Windows]]
+- [DistroWatch](https://distrowatch.com/) is a website dedicated to talking about, reviewing and keeping up to date with [open source](https://distrowatch.com/dwres.php?resource=glossary#opensource) [operating systems](https://distrowatch.com/dwres.php?resource=glossary#os). This site particularly focuses on [Linux](https://distrowatch.com/dwres.php?resource=glossary#linux) [distributions](https://distrowatch.com/dwres.php?resource=glossary#distribution) and flavours of [BSD](https://distrowatch.com/dwres.php?resource=glossary#bsd), though other open source operating systems are sometimes discussed. There is a lot of information out there on Linux distributions and this site tries to collect and present that information in a consistent manner to make it easier to locate.
 
 
 
