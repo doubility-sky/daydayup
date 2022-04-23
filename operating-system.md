@@ -7,8 +7,9 @@ An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is sy
 
 
 ## Learn
+- [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/), a free online operating systems book! The book is centered around three conceptual pieces that are fundamental to operating systems: virtualization, concurrency, and persistence. In understanding the conceptual, you will also learn the practical, including how an operating system does things like schedule the CPU, manage memory, and store files persistently. 
+- [The little book about OS development](https://littleosbook.github.io/): This text is a practical guide to writing your own x86 operating system. It is designed to give enough help with the technical details while at the same time not reveal too much with samples and code excerpts.
 - [os-tutorial](https://github.com/cfenollosa/os-tutorial) How to create an OS from scratch
-- [littleosbook](https://github.com/littleosbook/littleosbook/) Source for the little book about OS development http://littleosbook.github.io/
 - [How to Make a Computer Operating System in C++](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System) https://samypesse.gitbook.io/how-to-create-an-operating-system
 - [ucore_os_lab](https://github.com/chyyuu/ucore_os_lab) os kernel labs for operating systems course in Tsinghua University.
 
