@@ -18,18 +18,34 @@
 ## Practice
 - [我6个月的学习编程经历：从”大齿怪“到“狂欢者”](http://www.aqee.net/post/first-six-months.html)
 - [Game-Programmer-Study-Notes](https://github.com/QianMo/Game-Programmer-Study-Notes), 游戏程序员生涯的读书笔记合辑。  
-  涉及游戏开发中的图形学、实时渲染、编程实践、GPU编程、设计模式、软件工程等内容。  
-  Keep Reading , Keep Writing , Keep Coding.
 - [[game-dev-summary]]
 - [心动网络技术与开发文档库](https://github.com/xindong/docs)
 - [实现大逃杀手游的要点与难点](https://gameinstitute.qq.com/community/detail/117502)
-- [王者荣耀的技术修炼之路](https://blog.csdn.net/byeweiyang/article/details/80129478)
+- [弱联网优化之道](https://www.gameres.com/767209.html)
 
-### synchronization
+
+
+## Synchronization
 - [帧锁定同步算法](http://www.skywind.me/blog/archives/131)
+- [lockstep 网络游戏同步方案](https://blog.codingnow.com/2018/08/lockstep.html)
 - [游戏中的网络同步机制——Lockstep](https://bindog.github.io/blog/2015/03/10/synchronization-in-multiplayer-networked-game-lockstep/)
-- [腾讯专家樊华恒：弱联网优化之道](https://gameinstitute.qq.com/community/detail/115152)
+- [干货丨腾讯高级工程师宝爷：帧同步游戏在技术层面的实现细节](https://mp.weixin.qq.com/s/F1j_01VZwLG43ZOeAe444Q)
+- [网络游戏网络同步方案的选择](https://blog.csdn.net/D_Guco/article/details/53207076)
+  - [用ECS架构完美实现帧同步](https://blog.csdn.net/D_Guco/article/details/103108234)
+
+### cases
 - [从王者荣耀聊聊游戏的帧同步](https://gameinstitute.qq.com/community/detail/116978)
+  - [《王者荣耀》技术总监复盘回炉历程：没跨过这三座大山，就是另一款MOBA霸占市场了](http://youxiputao.com/articles/11842)
+  - [《王者荣耀》技术总监：我们为什么要在技术架构与网络同步方案上做出这些改变？](http://youxiputao.com/articles/12939)
+
+
+
+## ECS
+- [Overwatch Gameplay Architecture and Netcode](https://www.youtube.com/watch?v=W3aieHjyNvw) - [《守望先锋》架构设计与网络同步](https://mp.weixin.qq.com/s/y8-Xb0az43pmjTlBXtNhdA)
+- [浅谈《守望先锋》中的 ECS 构架](https://blog.codingnow.com/2017/06/overwatch_ecs.html)
+- [游戏开发中的ECS 架构概述](https://zhuanlan.zhihu.com/p/30538626)
+- [Entitas](https://github.com/sschmid/Entitas-CSharp) - The Entity Component System Framework for C# and Unity
+- [iam-ecs-typescript](https://github.com/dualface/iam-ecs-typescript): 使用 TypeScript 实现的一个 ECS 系统. [demo](https://github.com/dualface/iam-ecs-typescript-demo)
 
 
 
