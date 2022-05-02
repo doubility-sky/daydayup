@@ -27,18 +27,17 @@
 
 ## Synchronization
 - [网络游戏同步法则](http://www.skywind.me/blog/archives/112)
+  - [再谈网游同步技术](https://www.skywind.me/blog/archives/1343)
 - [细谈网络同步在游戏历史中的发展变化（上）](https://zhuanlan.zhihu.com/p/130702310), [（中）](https://zhuanlan.zhihu.com/p/164686867), [（下）](https://zhuanlan.zhihu.com/p/336869551)
 - [网络游戏网络同步方案的选择](https://blog.csdn.net/D_Guco/article/details/53207076)
 
 ### 帧同步（帧锁定，乐观帧锁定，lockstep，bucket 同步，...）
-- [漫话帧同步](https://zhuanlan.zhihu.com/p/381339755)
-- [帧锁定同步算法](http://www.skywind.me/blog/archives/131)
+- [关于“帧同步”说法的历史由来](https://zhuanlan.zhihu.com/p/165293116)
+  - [帧锁定同步算法](http://www.skywind.me/blog/archives/131)
   - [影子跟随算法（2007年老文一篇）](http://www.skywind.me/blog/archives/1145)
-  - [再谈网游同步技术](https://www.skywind.me/blog/archives/1343)
-  - [关于“帧同步”说法的历史由来](https://zhuanlan.zhihu.com/p/165293116)
+- [漫话帧同步](https://zhuanlan.zhihu.com/p/381339755)
 - [动作手游实时PVP帧同步方案（客户端）](https://blog.csdn.net/qq_27880427/article/details/52692772)
 - [帧同步联机战斗（预测，快照，回滚）](https://zhuanlan.zhihu.com/p/38468615)
-- [帧同步的相关问题](https://www.igiven.com/dotnet-2019-11-01-lock-step/)
 - [帧同步的一些坑](http://www.vimer.cn/2020/04/20/zheng-tong-bu-de-yi-xie-keng/)
 
 ### lockstep
@@ -59,6 +58,8 @@
 - [浅谈《守望先锋》中的 ECS 构架](https://blog.codingnow.com/2017/06/overwatch_ecs.html)
 - [游戏开发中的ECS 架构概述](https://zhuanlan.zhihu.com/p/30538626)
 - [用ECS架构完美实现帧同步](https://blog.csdn.net/D_Guco/article/details/103108234)
+
+### implementation
 - [Entitas](https://github.com/sschmid/Entitas-CSharp) - The Entity Component System Framework for C# and Unity
 - [iam-ecs-typescript](https://github.com/dualface/iam-ecs-typescript): 使用 TypeScript 实现的一个 ECS 系统. [demo](https://github.com/dualface/iam-ecs-typescript-demo)
 
