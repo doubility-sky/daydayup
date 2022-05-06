@@ -135,7 +135,9 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `rsync -avP SRC1 SRC2 ... SRCn DEST` 将 SRC1 ... SRCn 内容递归复制到 DEST/SRC1 ... DEST/SRCn（不存在则创建）
   - `rsync -avP --exclude '.*' SRC/ DEST` 排除隐藏文件 `.*`
   - `rsync -avP --exclude={'f1.txt','f2.txt'} SRC/ DEST` 多个排除选项
-  - `rsync -avP --include="*.lua" --exclude='*' SRC/ DEST` 仅复制指定文件，需配合 exclude
+  - ~~`rsync -avP --include="*.lua" --exclude='*' SRC/ DEST`~~ 仅复制指定文件，需配合 exclude
+    - `rsync -avP --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
+    - 详见：[rsync copy over only certain types of files using include option](https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option)
   - `rsync -avP --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
   - `rsync -avP --delete SRC/ DEST` 复制并删除 DEST 中，不存在于 SRC 中的文件（即：镜像同步）
 - 用 ssh key 同步远程主机文件
