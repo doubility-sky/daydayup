@@ -5,6 +5,7 @@
 
 
 ## Learn
+- [[c#]]
 - [User Manual](https://docs.unity3d.com/Manual/index.html), [Scripting API](https://docs.unity3d.com/ScriptReference/index.html)
 - [Unity Learn](https://learn.unity.com/)
 
@@ -57,7 +58,6 @@
 - [QFramework](https://github.com/liangxiegame/QFramework) K.I.S.S Unity 3D Framework. https://liangxiegame.com/qf/intro
 - [GameFramework](https://github.com/EllanJiang/GameFramework) is literally a game framework, based on Unity game engine. 
 - [TinaX Framework](https://github.com/yomunsam/TinaX) : Unity based Game Client Framework https://tinax.corala.space/
-- [xasset](https://github.com/xasset/xasset) 是一个简易轻量的 Unity 资源管理框架
 
 
 
