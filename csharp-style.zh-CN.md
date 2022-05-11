@@ -1,4 +1,6 @@
-# C# at Google Style Guide
+译自：[C# at Google Style Guide](https://google.github.io/styleguide/csharp-style.html)
+
+# C# 谷歌风格指南
 
 This style guide is for C# code developed internally at Google, and is the
 default style for C# code at Google. It makes stylistic choices that conform to
@@ -229,7 +231,7 @@ int SomeProperty => _someProperty
 *   不要用在方法定义。
 *   与方法和其他作用域代码块一样，将右括号对齐到包含左括号的行的第一个字符。
 
-### 结构体(Struct) 和 类(Class):
+### 结构体(Struct) 和 类(Class)
 
 *   Struct 和 class 有很大的不同:
 
@@ -354,7 +356,7 @@ C# (像许多其他语言一样) 不提供明显的机制在迭代期间从容�
 
 ### `var` 关键字
 
-*   如能通过避免（啰嗦的、显而易见的、不重要的）类型名来增加可读性，则鼓励使用 `var`，
+*   如能通过避免（啰嗦的、显而易见的、不重要的）类型名来增加可读性，则鼓励使用 `var`
 *   以下情况，鼓励使用:
 
     *   当类型是明显的 - 例如： `var apple = new Apple();` 或 `var request = Factory.Create<HttpRequest>();`

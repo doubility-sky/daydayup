@@ -22,6 +22,7 @@
 - [[shell]]
 - [[programming-language]]
   - [[c]] / [c++](cpp)
+  - [[java]], [[c#]]
   - [[lua]], [[python]], [[ruby]]
   - [[golang]], [[rust]]
 - [[tools]]
