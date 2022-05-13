@@ -173,6 +173,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 Macos:
 sudo scutil --set HostName XXX
 ```
+- [关于cluster的启动和调用](https://www.jianshu.com/p/17e7db950d1e)
 
 ### net packet
 - http://blog.codingnow.com/2015/08/skynet_cluster_rpc_limit.html  
