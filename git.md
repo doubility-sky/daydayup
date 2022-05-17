@@ -107,6 +107,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 ### self-hosted
 - [Gitlab](https://about.gitlab.com/), 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用
   - [GitLab architecture](https://docs.gitlab.com/ee/development/architecture.html)
+  - [Running GitLab in a memory-constrained environment](https://docs.gitlab.com/omnibus/settings/memory_constrained_envs.html)
   - 自建 Docker 版本，端口映射内外不一致时（容器内部端口为默认）， 项目页面点击 `clone` 按钮后的 URL 展示问题
     - 假设：`--publish 8443:443 --publish 8080:80 --publish 8022:22`
     - 编辑配置 `vi /etc/gitlab/gitlab.rb` 
