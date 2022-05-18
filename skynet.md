@@ -112,7 +112,7 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
 - 其他
   - [skynet任务调度分析](http://spartan1.iteye.com/blog/2059120)
   - [skynet服务的本质与缺陷](http://blog.csdn.net/mycwq/article/details/47379277)
-
+  - [skynet.dispatch和skynet.register_protocol的关系](https://www.jianshu.com/p/0748e83dff04)
 
 
 ## [LuaAPI](https://github.com/cloudwu/skynet/wiki/LuaAPI)
