@@ -1,3 +1,5 @@
+![Well well well](image/the_great_master.gif "前进吧骚年！伟大的领袖看好你呦！")
+
 
 ## Introduction
 - 感谢郭嘉
