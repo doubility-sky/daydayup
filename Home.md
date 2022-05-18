@@ -1,4 +1,4 @@
-![Well well well](image/the_great_master.gif "前进吧骚年！伟大的领袖看好你呦！")
+![Well well well](image/the_great_master.gif "听我说，谢谢你！因为有你，温暖了四季～ 我说，谢谢你，谢谢你，谢谢，谢...")
 
 
 ## Introduction
