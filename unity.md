@@ -79,3 +79,4 @@
 ## Resources
 - [Awesome Unity](https://github.com/RyanNielson/awesome-unity): A categorized community-driven collection of high-quality awesome Unity assets, projects, and resources. Free assets and resources are prioritized over paid when possible.
 - [GitHub上有哪些Unity3D项目推荐？](https://zhuanlan.zhihu.com/p/53913159)
+- [Unity项目在github上如何团队协作](https://blog.csdn.net/weixin_43347688/article/details/107054460)
