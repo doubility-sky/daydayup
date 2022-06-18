@@ -95,6 +95,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [git-crypt](https://github.com/AGWA/git-crypt) enables transparent encryption and decryption of files in a git repository.
 - [Git Extensions](https://github.com/gitextensions/gitextensions) is a standalone UI tool for managing git repositories. It also integrates with Windows Explorer and Microsoft Visual Studio
 - [hexo](https://hexo.io/): A fast, simple & powerful blog framework
+- [dulwich](https://github.com/jelmer/dulwich): Pure-Python Git implementation
 
 ### statistics
 - [▁▅▆▃▅ Git quick statistics](https://github.com/arzzen/git-quick-stats) is a simple and efficient way to access various statistics in git repository.

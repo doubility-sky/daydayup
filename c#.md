@@ -24,3 +24,4 @@ C# encompasses static typing, strong typing, lexically scoped, imperative, decla
   - `const` can be declared inside the method, `readonly` cannot.
   - `const` cannot be used with static modifiers, `readonly` can.
   - In `const` fields, we can only assign values in declaration part. In `readonly` fields, we can assign values in declaration and in the constructor part.
+- [Arrays of arrays](https://ericlippert.com/2009/08/17/arrays-of-arrays/)

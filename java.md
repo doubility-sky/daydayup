@@ -38,6 +38,8 @@
   - `export JAVA_HOME=$(/usr/libexec/java_home)`
 - [Cask adoptopenjdk8 exists in multiple taps](https://github.com/AdoptOpenJDK/homebrew-openjdk/issues/106)
   - `brew install --cask adoptopenjdk/openjdk/adoptopenjdk8`
+- See all the Java versions installed on Mac
+  - `/usr/libexec/java_home -V`
 - Switch JDK
   ```shell
   function jdk() {
