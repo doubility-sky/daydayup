@@ -136,6 +136,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
     - 不要手动去设置 `core.autocrlf`，默认即可(`linux`,`macosx`为`false`, `win`为`true`)  
     - 设置: `git config --global core.safecrlf true`
     - 特别需求添加 `.gitattributes` 去约束
+      - 由于 `win` 为 `true`，会对文本文件自动添加 `CR`，如不希望此行为，将其视为二进制文件
 - push卡住的问题
   - **Q** push时卡在write objects.后续报fatal:The remote end hung up unexpectedly
   - **A** 问题原因是http.postBuffer默认上限为1M所致。将上限设为500M： 
@@ -182,3 +183,5 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   git commit -m "Initial commit"
   git push -u origin main
   ```
+- Unload submodule from project but not remove/delete it.
+  - `git submodule deinit -f SUB_PATH`
