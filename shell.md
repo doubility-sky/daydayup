@@ -43,6 +43,7 @@ Bash is a Unix [[shell]] and command language written by Brian Fox for the GNU P
 - [bash-tutorial](https://github.com/wangdoc/bash-tutorial) 本教程介绍 Linux 命令行 Bash 的基本用法和脚本编程。 https://wangdoc.com/bash/
   - [ruanyf/simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) A collection of simple Bash scripts
 - [bash cheatsheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/bash.sh), [中文速查表](https://github.com/skywind3000/awesome-cheatsheets/blob/master/languages/bash.sh)
+- [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner): A collection of handy Bash One-Liners and terminal tricks for data processing and Linux system maintenance.
 - :star:[[linux]] default `sh` is `dash` 
   - `ls -al /bin/sh`
     - `lrwxrwxrwx 1 root root 4 Feb 20 14:30 /bin/sh -> dash`
