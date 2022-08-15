@@ -40,6 +40,11 @@
 - [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
 - [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
 
+### [texture compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [你所需要了解的几种纹理压缩格式原理](https://zhuanlan.zhihu.com/p/237940807)
+- [Using ASTC Texture Compression for Game Assets](https://developer.nvidia.com/astc-texture-compression-for-game-assets)
+- [ASTC纹理压缩格式详解](https://zhuanlan.zhihu.com/p/158740249)
+
 
 
 ## Script binding
