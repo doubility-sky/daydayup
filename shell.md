@@ -12,6 +12,9 @@ Command-line shells require the user to be familiar with commands and their call
 ## Learn
 - [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI): Stop relying on GUI; CLI **ROCKS**
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
+- [命令行通配符教程](https://www.ruanyifeng.com/blog/2018/09/bash-wildcards.html)
+  - [What do double-asterisk (**) wildcards mean?](https://stackoverflow.com/questions/28176590/what-do-double-asterisk-wildcards-mean/28199633#28199633)
+
 
 ### scripting
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/index.html): An in-depth exploration of the art of shell scripting
