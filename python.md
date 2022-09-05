@@ -82,6 +82,13 @@
 - [Python 的练手项目有哪些值得推荐？](https://www.zhihu.com/question/29372574/answer/554481284)
 - [What are the best game engines for Python?](https://www.slant.co/topics/10908/~game-engines-for-python)
 - [pyinstaller打包的exe太大？](https://zhuanlan.zhihu.com/p/76974787)
+- [How to correctly close files in Python](https://www.30secondsofcode.org/articles/s/python-file-close)
+  - Use a `with` statement which will ensure the file is closed when the code that uses it finishes running. This holds true even if an exception is thrown.
+    ```py
+      with open('filename', 'w') as f:
+        f.write('Hello world!')
+    ```
+- `list.sort()` 使用 ASCII 字符顺序，字典序排序: `list.sort(key=str.lower)`
 
 
 

@@ -192,6 +192,7 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 
 
 ## [[networks]]
+- `udp` connection test: `nc -vuz SOME_IP SOME_PORT`
 
 ### [SSH](https://en.wikipedia.org/wiki/OpenSSH)
 - [SSH 教程](https://wangdoc.com/ssh/index.html)
