@@ -74,6 +74,13 @@
 
 ## Tools
 - [pyenv](https://github.com/pyenv/pyenv) lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
+  - `pyenv install -l` List all available versions
+  - `pyenv install 2.7.18`
+  - `pyenv versions` Show the current Python version(s) and its origin
+  - `pyenv global 2.7.18`
+  - `python --version`
+  - FAQ: after `pyenv global system` got: `pyenv: python: command not found ...` on macOS 12+
+    - `ln -s /usr/local/bin/python3 /usr/local/bin/python`
 - [BeeWare](https://github.com/beeware) allows you to write your app in Python and release it on multiple platforms. No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
 
 

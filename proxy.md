@@ -131,3 +131,11 @@ Outline is an open source project created by Jigsaw to provide a safer way for n
 - [Daily](https://github.com/pexcn/daily): Poetry and far afield. 🌊
 - [shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
 - [surge-rules](https://github.com/Loyalsoldier/surge-rules): 本项目生成适用于 Surge 的规则集（DOMAIN-SET 和 RULE-SET）
+
+
+
+## FAQs
+- method aes-256-gcm not supported
+  - `pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip -U`
+  - `sudo apt-get install -y libsodium*`
+
