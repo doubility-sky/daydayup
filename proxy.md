@@ -138,4 +138,6 @@ Outline is an open source project created by Jigsaw to provide a safer way for n
 - method aes-256-gcm not supported
   - `pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip -U`
   - `sudo apt-get install -y libsodium*`
-
+- ['Cannot open BPF device' error on c.open()](https://github.com/mscdex/cap/issues/47)
+  - `sudo chmod o+r /dev/bpf*` should help in reading of Berkley Packet Filter.
+  - `sudo chmod o+r+w /dev/bpf*` for udp2raw on macOS
