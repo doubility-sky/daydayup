@@ -185,3 +185,5 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   ```
 - Unload submodule from project but not remove/delete it.
   - `git submodule deinit -f SUB_PATH`
+- 远程分支推送
+  - `git push --prune <new-remote> +refs/remotes/<old-remote>/*:refs/heads/* +refs/tags/*:refs/tags/*`
