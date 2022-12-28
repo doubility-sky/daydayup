@@ -60,6 +60,12 @@
   # ro.opengles.version=196608 # OpenGL ES 3.0
   # ro.opengles.version=196609 # OpenGL ES 3.1
   ```
+- 使用 adb 卸载指定 app
+  ```
+  adb devices
+  adb shell pm list packages
+  adb uninstall com.xxx.xxx
+  ```
 - [adb: error: failed to read copy response](https://github.com/Genymobile/scrcpy/issues/3241)
   - You should try with another USB cable/port: https://github.com/Genymobile/scrcpy/blob/master/FAQ.md#device-disconnected
   - If this does not fix the problem, might be a bug in the ROM (try with another device to confirm).

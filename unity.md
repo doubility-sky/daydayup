@@ -79,6 +79,8 @@
 ## FAQs
 - [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
 - [Android Phones Returning Screen.safeArea Incorrectly](https://forum.unity.com/threads/android-phones-returning-screen-safearea-incorrectly.1051514/#post-7684444)
+- [Program type already present: com.tencent.a.a.a.a.a的解决方法](https://blog.csdn.net/weixin_43991241/article/details/121676781)
+  - delete `./Library/Bee/Android/Prj/IL2CPP/Gradle` under your project.
 
 
 
