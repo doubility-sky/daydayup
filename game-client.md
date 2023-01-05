@@ -47,6 +47,7 @@
 - Moderate
   - [[godot]], [[cocos creator]]/[[cocos2d-x]], [[phaser]]
   - [libGDX](https://github.com/libGDX/libGDX)
+  - [[Defold]]
 - Lightweight
   - [[love2d]], [[pygame]]
 
