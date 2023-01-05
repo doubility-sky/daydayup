@@ -23,6 +23,9 @@
 - 查看签名：`apksigner verify -v ./XXX.apk`
 - 重新签名（仅 V1）：`apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --v4-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
 
+### [Android App Bundles](https://developer.android.com/guide/app-bundle)
+- [Bundletool](https://github.com/google/bundletool) is a command-line tool to manipulate Android App Bundles
+
 
 
 ## Projects
