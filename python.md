@@ -97,6 +97,16 @@
         f.write('Hello world!')
     ```
 - `list.sort()` 使用 ASCII 字符顺序，字典序排序: `list.sort(key=str.lower)`
+- PyInstaller打包后某些文件未包含进去，需要用[--add-data](https://pyinstaller.org/en/stable/spec-files.html#adding-data-files)或[--add-binary](https://pyinstaller.org/en/stable/spec-files.html#adding-binary-files)。
+```
+格式：pyinstaller --add-data="SRC;DST"
+例如将第三方库zhconv/zhcdict.json打包到zhconv目录下：
+# cmd:
+  pyinstaller --add-data="%LocalAppData%\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\zhconv\zhcdict.json;zhconv" -F translate.py --distpath "."
+# powershell:
+  pyinstaller --add-data="$env:LocalAppData\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\zhconv\zhcdict.json;zhconv" -F translate.py --distpath "."
+
+```
 
 
 
