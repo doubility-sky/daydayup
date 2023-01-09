@@ -39,6 +39,7 @@
 - [ Unity3d接入googleplay内购详细说明（二）](http://blog.csdn.net/qq15233635728/article/details/44016403)
 - [ Unity3d接入googleplay内购详细说明（三）](http://blog.csdn.net/qq15233635728/article/details/44017543)
 - [ Unity3d接入googleplay内购详细说明（四）](http://blog.csdn.net/qq15233635728/article/details/44018079)
+- [Unity + Play Asset Delivery | 突破Google Play 商店 150 MB 的限制](https://medium.com/akatsuki-taiwan-technology/unity-play-asset-delivery-1d468fd90c2d)
 
 ### [texture compression](https://en.wikipedia.org/wiki/Texture_compression)
 - [你所需要了解的几种纹理压缩格式原理](https://zhuanlan.zhihu.com/p/237940807)

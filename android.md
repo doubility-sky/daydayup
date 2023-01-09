@@ -72,6 +72,9 @@
 - [adb: error: failed to read copy response](https://github.com/Genymobile/scrcpy/issues/3241)
   - You should try with another USB cable/port: https://github.com/Genymobile/scrcpy/blob/master/FAQ.md#device-disconnected
   - If this does not fix the problem, might be a bug in the ROM (try with another device to confirm).
+- [App size increases when upgrading build tools and gradle version](https://github.com/flutter/flutter/issues/79619)
+  - v3.6+ The so library is no longer compressed, so that the operating system can map the so memory.
+  - [Native libraries packaged uncompressed by default](https://developer.android.com/studio/past-releases/past-agp-releases/agp-3-6-0-release-notes#extractNativeLibs)
 
 
 
