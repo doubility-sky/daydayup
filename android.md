@@ -25,6 +25,7 @@
 
 ### [Android App Bundles](https://developer.android.com/guide/app-bundle)
 - [Bundletool](https://github.com/google/bundletool) is a command-line tool to manipulate Android App Bundles
+  - 查询 aab version code `bundletool dump manifest --xpath /manifest/@android:versionCode --bundle AAB_FILE_PATH`
 
 
 
