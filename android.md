@@ -22,6 +22,8 @@
 - [多渠道打包的进化史](http://www.dss886.com/2017/11/22/01/)
 - 查看签名：`apksigner verify -v ./XXX.apk`
 - 重新签名（仅 V1）：`apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --v4-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
+- `keytool -printcert -jarfile XXX.apk`
+- `keytool -list -v -keystore XXX.keystore`
 
 ### [Android App Bundles](https://developer.android.com/guide/app-bundle)
 - [Bundletool](https://github.com/google/bundletool) is a command-line tool to manipulate Android App Bundles
@@ -50,6 +52,8 @@
   - [Android旋转屏幕时阻止activity重建](https://blog.csdn.net/u011421608/article/details/50883665)
     - `android:configChanges="orientation|screenSize"`
   - [最近碰到的接微信支付引起的坑爹问题](https://www.cnblogs.com/lbfamous/p/5144425.html)
+- [网易MuMu模拟器MacOS环境连接调试](https://www.jianshu.com/p/9e6fc03705f3)
+  - `adb connect 127.0.0.1:22471`
 - [AndroidStudio 代码全红，但可正常运行解决方法及解决后续代理的问题](https://blog.csdn.net/liujie33852964/article/details/80590554)
   - File -> Invalidate Caches/Restart...
 - [Error type 3 Error: Activity class {} does not exist](https://stackoverflow.com/questions/20915266/error-type-3-error-activity-class-does-not-exist)
