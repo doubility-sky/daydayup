@@ -228,6 +228,12 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   ClientAliveInterval 10
   ClientAliveCountMax 6
   ```
+- [HowTo: Disable SSH Host Key Checking](https://www.shellhacks.com/disable-ssh-host-key-checking/)
+  ```sh
+  Host *
+  StrictHostKeyChecking no
+  UserKnownHostsFile=/dev/null
+  ```
 - [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ... https://mosh.org/
   - Mosh will log the user in via SSH, then start a connection on a UDP port between 60000 and 61000.
   - install `mosh` on both client and server side. let server `ufw allow 60000:61000/udp`
