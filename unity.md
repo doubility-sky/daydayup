@@ -83,6 +83,7 @@
 - [Program type already present: com.tencent.a.a.a.a.a的解决方法](https://blog.csdn.net/weixin_43991241/article/details/121676781)
   - delete `./Library/Bee/Android/Prj/IL2CPP/Gradle` under your project.
 - [AsyncOperation always returns 0 or 0.9 (coroutine only resumes at 0.9)](https://forum.unity.com/threads/asyncoperation-always-returns-0-or-0-9-coroutine-only-resumes-at-0-9.538258/#post-3556950)
+- [Particle System Flash With Wrong Size And Position](https://forum.unity.com/threads/particle-system-flash-with-wrong-size-and-position.1321995/)
 
 
 
