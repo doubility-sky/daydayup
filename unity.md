@@ -73,7 +73,8 @@
 - [MemoryProfiler](https://github.com/larryhou/MemoryProfiler) CPU and memory profiling tools for Unity3D
 - [SuperTiled2Unity](https://github.com/Seanba/SuperTiled2Unity) is a Unity Package that gives you the ability to import your [Tiled Map Editor](https://www.mapeditor.org/) maps directly into your Unity projects.
 - [ILRuntime](https://github.com/Ourpalm/ILRuntime): Pure C# IL Intepreter Runtime, which is fast and reliable for scripting requirement on enviorments, where jitting isn't possible.
-- [huatuo](https://github.com/focus-creative-games/huatuo): Zero-cost, high-performance unity c# hot update solution
+- [HybridCLR](https://github.com/focus-creative-games/hybridclr) 是一个特性完整、零成本、高性能、低内存的 Unity 全平台原生 c# 热更方案。 HybridCLR is a fully featured, zero-cost, high-performance, low-memory solution for Unity's all-platform native c# hotupdate.
+  - [inspect_hybridclr](https://github.com/focus-creative-games/inspect_hybridclr)深入剖析 il2cpp 及 HybridCLR 实现的技术专栏
 
 
 
