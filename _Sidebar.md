@@ -49,7 +49,7 @@
   - [[ros]]
 - [[database]]
   - [[mysql]], [[tidb]]
-  - [[postgresql]]
+  - [[postgresql]], [[sqlite]]
   - [[redis]], [[mongodb]]
 - [[web-development]]
   - [[html]]
