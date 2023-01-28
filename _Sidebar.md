@@ -36,6 +36,7 @@
 ## [[software-development]]
 - [[software-engineering]]
   - [[devops]]
+    - [[ansible]]
 - [[desktop-development]]
   - [[qt]]
   - [[electron]]
