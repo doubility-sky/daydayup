@@ -188,3 +188,5 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   - `git submodule deinit -f SUB_PATH`
 - 远程分支推送
   - `git push --prune <new-remote> +refs/remotes/<old-remote>/*:refs/heads/* +refs/tags/*:refs/tags/*`
+- 检查忽略源头 `git check-ignore -v Data~`
+- 查看全局忽略文件 `git config --global core.excludesFile`
