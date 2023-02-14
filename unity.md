@@ -12,6 +12,8 @@
 ### tutorials
 - [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/) - [zh-CN](https://zhuanlan.zhihu.com/p/346208723)
 - [Unity 从入门到放弃](https://www.zhihu.com/column/c_1237044646569447424)
+- [Guide to Extending Unity Editor’s Menus](https://blog.redbluegames.com/guide-to-extending-unity-editors-menus-b2de47a746db)
+  > As a quick aside, if you change a menu item’s existing sort priority, you may not see it reflected in the Menus. I think Unity is caching the value, so to get it to update you can either **restart your Editor**, or do some gymnastics where you first remove the Priority from your attribute, compile, then add the new priority.
 
 
 
