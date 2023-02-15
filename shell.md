@@ -51,6 +51,7 @@ Bash is a Unix [[shell]] and command language written by Brian Fox for the GNU P
   - `ls -al /bin/sh`
     - `lrwxrwxrwx 1 root root 4 Feb 20 14:30 /bin/sh -> dash`
   - let `sh` to be `bash`: `ln -sf /bin/bash /bin/sh`
+- [Bash Shortcuts](https://gist.github.com/tuxfight3r/60051ac67c5f0445efee)
 
 ### [Zsh](https://www.zsh.org/)
 The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh.
