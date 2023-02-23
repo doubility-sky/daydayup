@@ -104,6 +104,7 @@
   - 把 PATH 路径放到前面，确保使用的都是 brew 安装的 GNU 命令
 - 重置 launchpad：`defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock`
 - 弹框无法关闭 `Command ＋ Option + Shift ＋ Ecs`
+- [MacBook Pro充不进电?](https://www.zhihu.com/question/27832008)
 
 
 
