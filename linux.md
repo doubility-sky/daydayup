@@ -60,6 +60,7 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
     dpkg -L                # 查看系统中安装包的的详细清单，同时执行 -c
     ```
 - 进程信息树：`systemctl status PID`
+- [xargs](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
 
 
 
@@ -162,6 +163,8 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 - https://man.linuxde.net/find
 - 删除指定时间之前的文件\[夹\] （并约束递归深度）
   - `find . -maxdepth 1 -mtime +30 -exec rm -rf {} \;`
+- 配合 `xargs` 批量处理 
+  - `find . -name '*.txt' | xargs -I file bash -c 'echo "Hello" > file'`
 
 ### links
 - Linux链接分两种，一种被称为硬链接（Hard Link），另一种被称为符号链接（Symbolic Link）。默认情况下，ln命令产生硬链接。
