@@ -138,7 +138,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   1. 所有表使用 innodb 引擎
   2. 加大 `innodb_buffer_pool_size`，最大可使用物理机器的 70%
   3. 设置 `innodb_buffer_pool_instances` 来分割 `innodb_buffer_pool_size`，以提高并发性
-- [MySQL性能调优 – 你必须了解的15个重要变量](https://www.centos.bz/2016/11/mysql-performance-tuning-15-config-item/)
+- [MySQL性能调优 – 你必须了解的15个重要变量](https://developer.aliyun.com/article/710237?userCode=okjhlpr5)
   - `innodb_buffer_pool_size` 最重要
 - [MySQL Innodb 并发涉及参数](https://www.cnblogs.com/xinysu/p/6439715.html)
   - 当并发用户线程数量小于 64，建议设置 `innodb_thread_concurrency=0` (保持默认不变)
