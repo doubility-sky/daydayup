@@ -32,6 +32,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
 
 ### commit style
+- `git log --oneline $fromId..$toId`
 - [Commit message 和 Change log 编写指南](http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 - [AngularJS Git Commit Message Conventions](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y)
 
