@@ -19,6 +19,7 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 
 ## Learn
 - :star:[Teach Yourself Computer Science](https://teachyourselfcs.com/) - [zh-CN](https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md)
+- [CS 自学指南](https://github.com/pkuflyingpig/cs-self-learning/)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university), This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company. [zh-CN](https://github.com/jwasham/coding-interview-university/blob/main/translations/README-cn.md)
 - [learn](https://github.com/gyuho/learn), The best way to learn is to teach what you have learned to other people. I tried YouTube channel, which was hard to maintain. So I decided to write my own textbook. I am still learning, and I may say things out of ignorance. Every post is working in progress, non-committal on a timeline. The point is to review and improve over time. This is a personal white-board where I scribble anything, organize my code, learning experiences.
 
