@@ -65,7 +65,10 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
 ## Tools
 - [web-servers](https://gist.github.com/willurd/5720255): Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
   - Python 2.x `python -m SimpleHTTPServer 8000`
-  - Python 3.x `python -m http.server 8000`
+  - Python 3.x `python -m http.server` (default on port 8000)
+  - `twistd -n web --path .` (default on port 8080)
+  - `twistd -n web -p "tcp:port=8000" --path .`
+  - Node.js `http-server -bgp 8000 --cors`
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch), 👽 Open source API development ecosystem https://hoppscotch.io. AKA: [postwoman](https://postwoman.io/)
 - [GoAccess](https://github.com/allinurl/goaccess) is an open source real-time web log analyzer and interactive viewer that runs in a terminal on *nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly. More info at: https://goaccess.io.
 
