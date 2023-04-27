@@ -69,6 +69,7 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
   - `twistd -n web --path .` (default on port 8080)
   - `twistd -n web -p "tcp:port=8000" --path .`
   - Node.js `http-server -bgp 8000 --cors`
+    - [Missing HTTP Response Header "Content-Encoding: gzip"](https://github.com/http-party/http-server/issues/780)
 - [Hoppscotch](https://github.com/hoppscotch/hoppscotch), 👽 Open source API development ecosystem https://hoppscotch.io. AKA: [postwoman](https://postwoman.io/)
 - [GoAccess](https://github.com/allinurl/goaccess) is an open source real-time web log analyzer and interactive viewer that runs in a terminal on *nix systems or through your browser. It provides fast and valuable HTTP statistics for system administrators that require a visual server report on the fly. More info at: https://goaccess.io.
 
