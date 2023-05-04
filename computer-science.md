@@ -31,7 +31,7 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 ### books
 - [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html) - [zh-CN](https://www.ituring.com.cn/book/1019)
 - [Electronic References](https://csgordon.github.io/books.html): a loosely-categorized collection of links to CS textbooks in a variety of areas that are freely available online
-- [SICP - JS](https://sicp.comp.nus.edu.sg/) 经典计算机教材 SICP 的 JavaScript 语言版，新加坡国立大学改编的。
+- [Structure and Interpretation of Computer Programs - JavaScript Edition](https://sourceacademy.org/sicpjs)
 - [Programming in Java · Computer Science · An Interdisciplinary Approach](https://introcs.cs.princeton.edu/java/home/): textbooks for a first course in computer science for the next generation of scientists and engineers
 - [Introduction to Programming in Python](https://introcs.cs.princeton.edu/python/home/): a textbook for a first course in computer science for the next generation of scientists and engineers
 - [《计算机体系结构基础》](https://github.com/foxsen/archbase)，龙芯团队胡伟武老师等人编写的《计算机体系结构基础》（第三版）的开源版本。本书纸质版本由机械工业出版社发行，前两版可以通过各种常规渠道购买，第三版纸质版本也即将发行。 [read online](https://foxsen.github.io/archbase/)
