@@ -8,7 +8,7 @@
 ### standards
 - [中文技术文档的写作规范 - ruanyf](https://github.com/ruanyf/document-style-guide)
 - [中文文案排版指北 - sparanoid](https://github.com/sparanoid/chinese-copywriting-guidelines)
-- [中文文档编写规范 - creator-docs](https://github.com/cocos-creator/creator-docs/blob/v2.2/zh/CONTRIBUTING.md)
+- [中文文档编写规范 - creator-docs](https://github.com/cocos/cocos-docs/blob/v3.7-release/zh/CONTRIBUTING.md)
 - [语种名称代码](http://www.ruanyifeng.com/blog/2008/02/codes_for_language_names.html)
   - 以往，人们常用 `zh-CN` 表示在中国大陆地区使用的中文，也就是简体中文，用 `zh-TW` 表示在台湾地区使用的中文，也就是繁体中文。但是，这种表示法很不完善
   - 目前，语言的标签表示法的国际标准是[RFC 4646](https://www.ietf.org/rfc/rfc4646.txt)，名称是《[Tags for Identifying Languages](https://tools.ietf.org/html/bcp47)》，简单说，这个文件规定，一种语言的标签应该按照如下方式排列：
