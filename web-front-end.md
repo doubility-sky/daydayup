@@ -13,6 +13,17 @@
 
 
 
+## Browser
+- Inside look at modern web browser [part1](https://developers.google.com/web/updates/2018/09/inside-browser-part1), [part2](https://developers.google.com/web/updates/2018/09/inside-browser-part2), [part3](https://developers.google.com/web/updates/2018/09/inside-browser-part3), [part4](https://developers.google.com/web/updates/2018/09/inside-browser-part4)
+  - [深入理解现代浏览器](https://mp.weixin.qq.com/s/6aivgDpvXfiDER7Hu2u2CQ)
+- [Google Chrome](https://www.google.com/chrome/) is made possible by the [Chromium](https://www.chromium.org/) open source project and other [open source software](chrome://credits/).
+  - [chrome comic book](https://www.google.com/googlebooks/chrome/)
+  - [Vimium](https://github.com/philc/vimium) is a Chrome extension that provides keyboard-based navigation and control of the web in the spirit of the Vim editor.
+- [BrowserGap](https://github.com/dosyago/BrowserGap) - Browser you can embed in your app. Per-seat or per-site licensing. Discounts for governments and non-profits.
+- [深入浅出浏览器渲染原理](https://github.com/ljianshu/Blog/issues/51)
+
+
+
 ## Practice
 - [The perfect Front-End Checklist](https://github.com/thedaviddias/Front-End-Checklist) for modern websites and meticulous developers https://frontendchecklist.io
 - [Front-end Job Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions): A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore. https://h5bp.org/Front-end-Developer-Interview-Questions/

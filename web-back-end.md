@@ -62,6 +62,18 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
 
 
 
+## Search Engine
+- [Apache Lucene and Solr](https://github.com/apache/lucene-solr). Apache Lucene is a high-performance, full featured text search engine library written in Java. Apache Solr is an enterprise search platform written using Apache Lucene. Major features include full-text search, index replication and sharding, and result faceting and highlighting.
+  - [Lucene入门简介](https://www.cnblogs.com/rodge-run/p/6551152.html)
+- [Elasticsearch](https://github.com/elastic/elasticsearch) A Distributed RESTful Search Engine
+  - [Elasticsearch学习，请先看这一篇！](https://blog.csdn.net/laoyang360/article/details/52244917)
+  - [Elasticsearch索引原理](https://blog.csdn.net/cyony/article/details/65437708)
+- [OpenSearch](https://github.com/opensearch-project/OpenSearch) is an open source search and analytics engine derived from Elasticsearch 7.10.2
+- [searx](https://github.com/searx/searx): Privacy-respecting metasearch engine
+- [Regular Expression Matching with a Trigram Index or How Google Code Search Worked](https://swtch.com/~rsc/regexp/regexp4.html)
+
+
+
 ## Tools
 - [web-servers](https://gist.github.com/willurd/5720255): Each of these commands will run an ad hoc http static server in your current (or specified) directory, available at http://localhost:8000. Use this power wisely.
   - Python 2.x `python -m SimpleHTTPServer 8000`
