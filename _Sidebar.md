@@ -7,7 +7,7 @@
 - [[compiler]]
 - [[operating-system]]
   - [[bsd]], [[macos]]
-  - [[linux]]
+  - [[linux]], [[ubuntu]]
   - [[windows]]
 - [[networks]]
   - [[proxy]]
