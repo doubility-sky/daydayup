@@ -1,9 +1,11 @@
 Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) [LEEN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key) or /ˈlɪnʊks/ [LIN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a family of [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(computing)) first released on September 17, 1991, by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) in a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 
-- 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
-- [[OpenWrt]]
-- [[linux-kernel]]
 - [[c]]
+- [[linux-kernel]]
+- [[OpenWrt]]
+- Distribution
+  - [[ubuntu]]
+- 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
 
 
 
@@ -45,21 +47,8 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - Date time
   - `date "+%Y-%m-%d %H:%M:%S"`
 - Package Manager
-  - CentOS:`yum update`
-  - Debian/Ubuntu:`apt update`
-    ```bash
-    dpkg –l | grep package # 查询deb包的详细信息，没有指定包则显示全部已安装包
-    dpkg -s package        # 查看已经安装的指定软件包的详细信息
-    dpkg -L package        # 列出一个包安装的所有文件清单
-    dpkg -S file           # 查看系统中的某个文件属于哪个软件包,搜索已安装的软件包
-    dpkg -i                # 安装指定deb包
-    dpkg -R                # 后面加上目录名，用于安装该目录下的所有deb安装包
-    dpkg -r                # remove，移除某个已安装的软件包
-    dpkg -P                # 彻底的卸载，包括软件的配置文件
-    dpkg -c                # 查询deb包文件中所包含的文件
-    dpkg -L                # 查看系统中安装包的的详细清单，同时执行 -c
-    ```
-- 进程信息树：`systemctl status PID`
+  - CentOS: `yum update`
+- 进程信息树: `systemctl status PID`
 - [xargs](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
 
 
@@ -142,7 +131,7 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `rsync -avP --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
   - `rsync -avP --delete SRC/ DEST` 复制并删除 DEST 中，不存在于 SRC 中的文件（即：镜像同步）
 - 用 ssh key 同步远程主机文件
-  - `rsync -avzP -e "ssh -i ~/sshkey.pem" ubuntu@xx.xxx.xx.xxx:Projects/sample.csv ~/sample.csv`
+  - `rsync -avzP -e "ssh -i ~/sshkey.pem" USER@xx.xxx.xx.xxx:Projects/sample.csv ~/sample.csv`
 - 设置 ssh config 后，操作基本同 [SCP](#SCP)，详见 [SSH](#SSH)
   - 例如：`rsync -avP SRC REMOTE:/var/www/html`
 
@@ -262,17 +251,6 @@ According to OpenSSH developers in April 2019, SCP is outdated, inflexible and n
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
-### [UFW](https://help.ubuntu.com/community/UFW)
-- `ufw allow ssh` 生效前最好先放行 ssh
-- `ufw enable`  生效，执行后，未 allow 的端口均无法访问
-- `ufw status [numbered]` 列出状态(规则列表）[是否加上编号以便删除]
-- `ufw allow 80`  允许端口外部访问
-- `ufw allow xxx:yyy/tcp` 开放 [xxx, yyy] 端口范围
-- `ufw allow from 192.168.0.1` 允许特定 ip 访问全部端口
-- `ufw allow from 192.168.0.1 to any port 80`  允许特定 ip 访问指定端口
-- `ufw deny 80`    禁止端口外部访问
-- `ufw delete XXX` 删除指定规则（其中 XXX 为之前 ufw 后跟的表达式）
-
 ### [firewall-cmd](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
 - [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
 - 启动/开机启动 
@@ -338,11 +316,6 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
 
 ### [Zellij](https://github.com/zellij-org/zellij)
 [Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
-
-
-
-## Service 
-- [Ubuntu Service系统服务说明与使用方法](http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html)
 
 
 
