@@ -26,10 +26,14 @@
 ### memory
 - [Unity游戏内存分布概览](https://zhuanlan.zhihu.com/p/370467923)
 
+### graphics
+- [Lightmapping Troubleshooting Guide](https://forum.unity.com/threads/lightmapping-troubleshooting-guide.1340936/)
+
 ### optimization
 - [《天谕》手游分析报告(上)-资源分析](https://zhuanlan.zhihu.com/p/358309455)
 - [《天谕》手游分析报告(下)-性能优化分析](https://zhuanlan.zhihu.com/p/358310704)
 - [《天谕》手游背后的技术究竟有多强？](https://mp.weixin.qq.com/s/9V9AvaCwtQeezXKNxjhbVA)
+- [对移动设备后处理的优化与替代方案](https://zhuanlan.zhihu.com/p/545654006)
 
 ### synchronization
 - [Unity3D中实现帧同步 - Part 1](https://www.freesion.com/article/7285895467/)
@@ -83,6 +87,7 @@
 
 
 ## FAQs
+- [URP - How to access the Rendering Debugger window](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@16.0/manual/features/rendering-debugger.html)
 - [Multiple dlls with same name from packages](https://forum.unity.com/threads/multiple-dlls-with-same-name-from-packages.1042849/#post-6752233)
 - [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
 - [Android Phones Returning Screen.safeArea Incorrectly](https://forum.unity.com/threads/android-phones-returning-screen-safearea-incorrectly.1051514/#post-7684444)

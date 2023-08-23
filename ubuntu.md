@@ -32,10 +32,16 @@
 - `ufw status [numbered]` 列出状态(规则列表）[是否加上编号以便删除]
 - `ufw allow 80`  允许端口外部访问
 - `ufw allow xxx:yyy/tcp` 开放 [xxx, yyy] 端口范围
-- `ufw allow from 192.168.0.1` 允许特定 ip 访问全部端口
-- `ufw allow from 192.168.0.1 to any port 80`  允许特定 ip 访问指定端口
+- 允许特定 ip 
+  - 访问全部端口 `ufw allow from 192.168.0.1` 
+  - 访问指定端口 `ufw allow from 192.168.0.1 to any port 80`
+- 允许特定网段访问，如：
+  - `ufw allow from 10.1.0.0/16`
+  - `ufw allow from 172.16.19.0/24`
 - `ufw deny 80`    禁止端口外部访问
-- `ufw delete XXX` 删除指定规则（其中 XXX 为之前 ufw 后跟的表达式）
+- `ufw delete RULE|NUM` 删除指定规则
+  - RULE 为之前 ufw 后跟的表达式
+  - NUM 为 `ufw status numbered` 中的编号
 
 
 

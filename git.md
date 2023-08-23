@@ -186,6 +186,13 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   git commit -m "Initial commit"
   git push -u origin main
   ```
+- [should have been pointers, but weren't](https://stackoverflow.com/questions/46704572/git-error-encountered-7-files-that-should-have-been-pointers-but-werent)
+  ```shell
+  git lfs uninstall
+  git reset --hard
+  git lfs install
+  git lfs pull
+  ```
 - Unload submodule from project but not remove/delete it.
   - `git submodule deinit -f SUB_PATH`
 - 远程分支推送
