@@ -1,4 +1,12 @@
-[C++构建系统的选择](https://www.jianshu.com/p/31bf731fec22)
+[Build automation](https://en.wikipedia.org/wiki/Build_automation) is the process of automating the creation of a software build and the associated processes including: compiling computer source code into binary code, packaging binary code, and running automated tests.
+
+
+
+## Learn
+- [构建工具从 Make 到 Ninja](https://blog.codingnow.com/2021/05/make_to_ninja.html)
+- [C++构建系统的选择](https://www.jianshu.com/p/31bf731fec22)
+- [C++ 工程中常用的构建系统（Build System）](https://zhuanlan.zhihu.com/p/570846866)
+- [500 Lines or Less Contingent: A Fully Dynamic Build System](https://aosabook.org/en/500L/contingent-a-fully-dynamic-build-system.html)
 
 
 
