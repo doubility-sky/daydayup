@@ -219,3 +219,4 @@ sudo scutil --set HostName XXX
 - [watchdog 使用了agent池后,发现回收之后再使用的agent不能垃圾回收内存](https://github.com/cloudwu/skynet/issues/1059)
   > 把 agent 独立到一个 vm 中最重要的一个原因就是可以把连接相关的数据独立出来可以增加生命期管理的健壮性。我看不到复用它的任何好处。
   > 如果你希望加快新建 agent 的速度，我建议你可以做一个 agent 分配服务。它不去复用老的 agent ，而是在空闲的时候（提前）初始化新的 agent 备用，控制一下总量就好了。
+- [ld: warning: ignoring file liblua.a, building for macOS-x86_64 but attempting to link with file built for unknown-unsupported file format (0x21 0x3C ... ](https://stackoverflow.com/questions/73065842/ld-warning-ignoring-file-liblua-a-building-for-macos-x86-64-but-attempting-to)
