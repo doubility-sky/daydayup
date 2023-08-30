@@ -347,6 +347,8 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
   fi
   export HISTTIMEFORMAT="%F %T $USER_IP:`whoami` "
   ```
+- [Disable "Permanently added <host> ..." warning on local LAN](https://superuser.com/questions/1005055/disable-permanently-added-host-warning-on-local-lan)
+  - add `LogLevel ERROR` to `~/.ssh/config`
 
 
 

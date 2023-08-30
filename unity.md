@@ -95,6 +95,8 @@
   - delete `./Library/Bee/Android/Prj/IL2CPP/Gradle` under your project.
 - [AsyncOperation always returns 0 or 0.9 (coroutine only resumes at 0.9)](https://forum.unity.com/threads/asyncoperation-always-returns-0-or-0-9-coroutine-only-resumes-at-0-9.538258/#post-3556950)
 - [Particle System Flash With Wrong Size And Position](https://forum.unity.com/threads/particle-system-flash-with-wrong-size-and-position.1321995/)
+- [Failed to load LightingData.asset](https://forum.unity.com/threads/failed-to-load-lightingdata-asset.723668/)
+  - `lfs` or `eol` problem
 
 
 
