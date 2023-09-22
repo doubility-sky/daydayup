@@ -188,10 +188,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   ```
 - [should have been pointers, but weren't](https://stackoverflow.com/questions/46704572/git-error-encountered-7-files-that-should-have-been-pointers-but-werent)
   ```shell
-  git lfs uninstall
-  git reset --hard
-  git lfs install
-  git lfs pull
+  git lfs uninstall && git reset --hard && git lfs install && git lfs pull
   ```
 - Unload submodule from project but not remove/delete it.
   - `git submodule deinit -f SUB_PATH`

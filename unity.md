@@ -97,6 +97,9 @@
 - [Particle System Flash With Wrong Size And Position](https://forum.unity.com/threads/particle-system-flash-with-wrong-size-and-position.1321995/)
 - [Failed to load LightingData.asset](https://forum.unity.com/threads/failed-to-load-lightingdata-asset.723668/)
   - `lfs` or `eol` problem
+- [Unity: ArgumentNullException: Argument cannot be null](https://github.com/JamesNK/Newtonsoft.Json/issues/1521#issuecomment-1304726752)
+- [Newtonsoft.Json - Unable to deserialize hashsets](https://forum.unity.com/threads/unable-to-deserialize-hashsets.962805/)
+  - https://github.com/jilleJr/Newtonsoft.Json-for-Unity/wiki/Fix-AOT-using-link.xml
 
 
 

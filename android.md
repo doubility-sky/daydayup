@@ -18,10 +18,20 @@
 - [Best practices in Android development](https://github.com/futurice/android-best-practices): Do's and Don'ts for Android development, by Futurice developers
 - [Android Interview Questions](https://github.com/MindorksOpenSource/android-interview-questions)
 
-### build & sign
+### build
 - [多渠道打包的进化史](http://www.dss886.com/2017/11/22/01/)
-- 查看签名：`apksigner verify -v ./XXX.apk`
-- 重新签名（仅 V1）：`apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --v4-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
+
+### apk unpack & repack
+- `apktool d test.apk`
+- `apktool b test -o test.apk`
+- ~~`jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore test.keystore test.apk test -signedjar test_signed.apk`~~
+- `apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --ks test.keystore test.apk`
+
+### sign
+- 查看签名：
+  - `apksigner verify -v ./XXX.apk`
+- 重新签名（仅 V1）：
+  - `apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
 - `keytool -printcert -jarfile XXX.apk`
 - `keytool -list -v -keystore XXX.keystore`
 

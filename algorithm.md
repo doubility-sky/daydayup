@@ -20,6 +20,7 @@ In [mathematics](https://en.wikipedia.org/wiki/Mathematics) and computer science
 - [Algorithms in the "Real World"](http://www.cs.cmu.edu/~guyb/realworld.html)
 
 ### visualization
+- [Hello-Algo](https://github.com/krahets/hello-algo)
 - [Algorithm Visualizer](https://github.com/algorithm-visualizer/algorithm-visualizer)
 - [VisuAlgo](https://visualgo.net/en) visualising data structures and algorithms through animation
 
