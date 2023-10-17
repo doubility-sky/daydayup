@@ -17,6 +17,12 @@
 - [Software Architecture Patterns: 5 minute read](https://orkhanscience.medium.com/software-architecture-patterns-5-mins-read-e9e3c8eb47d2)
 - [我做系统架构的一些原则](https://coolshell.cn/articles/21672.html)
 
+### system design
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer) Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.
+- [hiredintech system-design](https://www.hiredintech.com/system-design)
+- [System design interview](https://github.com/checkcheckzz/system-design-interview) for IT companies
+- [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+
 
 
 ## Laws & Tips
@@ -33,6 +39,18 @@
 - [Design Patterns Cheat Sheet.pdf](http://www.lug.or.kr/files/cheat_sheet/design_pattern_cheatsheet_v1.pdf)
 - [Reclaiming Design Patterns (20 Years Later)](http://blogs.tedneward.com/post/reclaiming-design-patterns/)
   - [20 年前 GoF 提出的设计模式，对这个时代是否还有指导意义？](https://www.infoq.cn/article/design-patterns-proposed-by-gof-20-years-ago)
+
+
+
+## Practice
+- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
+- [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
+- [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
+- [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
+- [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)
+- [一个打车应用早期架构发展史](https://cloud.tencent.com/developer/article/1521020)
+- [支付宝架构师眼中的高并发架构](https://cloud.tencent.com/developer/article/1417126)
+- [有赞服务化架构演进](https://cloud.tencent.com/developer/article/1522947)
 
 
 

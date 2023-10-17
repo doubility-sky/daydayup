@@ -12,6 +12,7 @@
 
 
 ## Learn
+- [Why Is SQLite Coded In C](https://www.sqlite.org/whyc.html)
 - [Linux C编程一站式学习](https://akaedu.github.io/book/)
 - [Build your own Lisp](https://github.com/orangeduck/BuildYourOwnLisp), Learn C and build your own programming language in under 1000 lines of code!
 - [interview](https://github.com/huihut/interview): C/C++ 技术面试基础知识总结，包括语言、程序库、数据结构、算法、系统、网络、链接装载库等知识及面试经验、招聘、内推等信息。 https://interview.huihut.com
