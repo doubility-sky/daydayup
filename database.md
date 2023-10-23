@@ -6,9 +6,9 @@ A [database](https://en.wikipedia.org/wiki/Database) is an organized collection 
 
 
 ## Learn
+- [Database of Databases](https://dbdb.io/) Discover and learn about 951 database management systems
 - [DB-ENGINES](https://db-engines.com/en/) Knowledge Base of Relational and NoSQL Database Management Systems
 - [Awesome data engineering learning path](https://github.com/snird/awesome-data-engineering-learning): Awesome list of data engineering learning materials by subject https://awesomedataengineering.com/
-- [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 - [BigData-Notes](https://github.com/heibaiying/BigData-Notes) 大数据入门指南
 
 

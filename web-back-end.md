@@ -6,7 +6,6 @@ In software engineering, the terms [frontend and backend](https://en.wikipedia.o
 
 ## Learn
 - [Back-end Roadmap](https://github.com/kamranahmedse/developer-roadmap#back-end-roadmap)
-- [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 - [后端架构师技术图谱](https://github.com/xingshaocheng/architect-awesome)
 
 ### architecture

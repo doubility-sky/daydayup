@@ -100,6 +100,9 @@
 - [Unity: ArgumentNullException: Argument cannot be null](https://github.com/JamesNK/Newtonsoft.Json/issues/1521#issuecomment-1304726752)
 - [Newtonsoft.Json - Unable to deserialize hashsets](https://forum.unity.com/threads/unable-to-deserialize-hashsets.962805/)
   - https://github.com/jilleJr/Newtonsoft.Json-for-Unity/wiki/Fix-AOT-using-link.xml
+- [Unity 适配 Android 刘海屏显示](https://networm.me/2021/02/28/unity-android-display-cutout/)
+- [Debug.isDebugBuild is false even with "development build" set to true](https://forum.unity.com/threads/debug-isdebugbuild-is-false-even-with-development-build-set-to-true.1348352/#post-8517191)
+  - I presume it's not about these settings in particular, but just requires making some change to the platform settings in order to get it to refresh.
 
 
 

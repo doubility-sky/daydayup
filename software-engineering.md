@@ -22,6 +22,7 @@
 - [hiredintech system-design](https://www.hiredintech.com/system-design)
 - [System design interview](https://github.com/checkcheckzz/system-design-interview) for IT companies
 - [System Design 101](https://github.com/ByteByteGoHq/system-design-101)
+- [《设计数据密集型应用》](https://github.com/Vonng/ddia) 《Designing Data-Intensive Application》DDIA中文翻译
 
 
 
