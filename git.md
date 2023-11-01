@@ -190,6 +190,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   ```shell
   git lfs uninstall && git reset --hard && git lfs install && git lfs pull
   ```
+- [GIT LFS file lock/unlocking and unable to write the file after unlock with --force option.](https://github.com/git-lfs/git-lfs/issues/3733)
 - Unload submodule from project but not remove/delete it.
   - `git submodule deinit -f SUB_PATH`
 - 远程分支推送

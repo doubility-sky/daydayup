@@ -13,7 +13,6 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - [[shell]]
 - [Linux SysOps Handbook](https://abarrak.gitbook.io/linux-sysops-handbook): A study notes book for the common knowledge and tasks of a Linux system admin.
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html): [Linux is not a secure operating system](https://madaidans-insecurities.github.io/linux.html). However, there are steps you can take to improve it. This guide aims to explain how to harden Linux as much as possible for security and privacy. This guide attempts to be distribution-agnostic and is not tied to any specific one.
-- [An Introduction To Data Science On The Linux Command Line](https://blog.robertelder.org/data-science-linux-command-line/): This article will provide the reader with a brief overview for a number of different Linux commands. 
 
 ### books
 - :star:[The Linux Command Line](http://linuxcommand.org/tlcl.php) - [zh-CN](https://github.com/billie66/TLCL)
