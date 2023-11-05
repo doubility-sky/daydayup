@@ -13,6 +13,7 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - [[shell]]
 - [Linux SysOps Handbook](https://abarrak.gitbook.io/linux-sysops-handbook): A study notes book for the common knowledge and tasks of a Linux system admin.
 - [Linux Hardening Guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html): [Linux is not a secure operating system](https://madaidans-insecurities.github.io/linux.html). However, there are steps you can take to improve it. This guide aims to explain how to harden Linux as much as possible for security and privacy. This guide attempts to be distribution-agnostic and is not tied to any specific one.
+- [The early days of Linux](https://lwn.net/Articles/928581/)
 
 ### books
 - :star:[The Linux Command Line](http://linuxcommand.org/tlcl.php) - [zh-CN](https://github.com/billie66/TLCL)
@@ -210,7 +211,11 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `PasswordAuthentication no`
   - `service sshd restart`
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
-- [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)  
+- [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)
+- [ssh 鲜为人知的三种用法](https://www.yanxurui.cc/posts/tool/2017-07-14-ssh-port-forward/)
+  - `vi /etc/ssh/sshd_config` 打开 `GatewayPorts yes`
+  - 远程端口转发至本地端口 `ssh -N -R [REMOTE_BIND:]REMOTE_PORT:LOCAL_IP:LOCAL_PORT user@remote_host`
+- [使用 SSH TUNNEL 打通公司和家里的网络](https://www.jianshu.com/p/388a93b1e7f7)
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 - SSH Broken pipe
@@ -225,6 +230,7 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   StrictHostKeyChecking no
   UserKnownHostsFile=/dev/null
   ```
+- [How to Keep SSH Session Alive](https://linuxiac.com/how-to-keep-ssh-session-alive/)
 - [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ... https://mosh.org/
   - Mosh will log the user in via SSH, then start a connection on a UDP port between 60000 and 61000.
   - install `mosh` on both client and server side. let server `ufw allow 60000:61000/udp`

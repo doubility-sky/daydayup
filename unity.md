@@ -107,6 +107,11 @@
 
 
 ## Resources
+- [OpenUPM](https://openupm.com/): Open Source Unity Package Registry
 - [Awesome Unity](https://github.com/RyanNielson/awesome-unity): A categorized community-driven collection of high-quality awesome Unity assets, projects, and resources. Free assets and resources are prioritized over paid when possible.
+- [awesome-unity3d](https://github.com/insthync/awesome-unity3d): A categorized collection of awesome opensource unity3d resources (including some projects related to game development)
+- [Unity Script Collection](https://github.com/michidk/Unity-Script-Collection): A maintained collection of useful & free unity scripts / libraries / plugins and extensions.
+- [Awesome Unity Open Source on GitHub (800+)](https://github.com/baba-s/awesome-unity-open-source-on-github)
 - [GitHub上有哪些Unity3D项目推荐？](https://zhuanlan.zhihu.com/p/53913159)
 - [Unity项目在github上如何团队协作](https://blog.csdn.net/weixin_43347688/article/details/107054460)
+- [Unity3d 100 个开源项目推荐！](https://www.bilibili.com/read/cv10038189/)

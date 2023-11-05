@@ -44,7 +44,8 @@
 
 
 ## Practice
-- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://www.quastor.org/p/how-whatsapp-scaled-to-1-billion)
+- [How WhatsApp scaled to 1 billion users with only 50 engineers](https://blog.quastor.org/p/whatsapp-scaled-1-billion-users-50-engineers)
+- [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million)
 - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
 - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
 - [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
