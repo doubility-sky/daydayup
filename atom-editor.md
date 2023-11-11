@@ -1,5 +1,6 @@
+[Sunsetting Atom](https://github.blog/2022-06-08-sunsetting-atom/), **We are archiving Atom and all projects under the Atom organization for an official sunset on December 15, 2022.**
 
-https://atom.io/
+- https://atom.io/
 
 ## 常用快捷键
 - **Ctrl/Cmd + Shift + P**  打开命令搜索面板。  
@@ -42,6 +43,3 @@ https://atom.io/
   依文件后缀名，添加目录树及标签中文件的图标
 - **minimap**  
   类似sublime侧边栏代码map的效果
-
-
-

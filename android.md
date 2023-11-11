@@ -90,6 +90,7 @@
 - [App size increases when upgrading build tools and gradle version](https://github.com/flutter/flutter/issues/79619)
   - v3.6+ The so library is no longer compressed, so that the operating system can map the so memory.
   - [Native libraries packaged uncompressed by default](https://developer.android.com/studio/past-releases/past-agp-releases/agp-3-6-0-release-notes#extractNativeLibs)
+- [关于Android12安装apk出现-108异常INSTALL_PARSE_FAILED_MANIFEST_MALFORMED的解决方法](https://stars-one.site/2022/11/22/android12-install-108)
 
 
 

@@ -39,17 +39,8 @@
 ### [Atom](atom-editor)
 - [Atom](https://github.com/atom/atom) is a hackable text editor for the 21st century, built on [[Electron]], and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.
 
-### [VS Code](https://code.visualstudio.com/)
-- [Visual Studio Code](https://github.com/microsoft/vscode) 与 [Atom](https://github.com/atom/atom) 一样基于 [[electron]]，活跃且迭代非常快
-- [awesome-vscode](https://github.com/viatsko/awesome-vscode), A curated list of delightful Visual Studio Code packages and resources. 
-- [code-server](https://github.com/cdr/code-server) VS Code in the browser
-- [史上最全 vscode 配置使用教程](https://zhuanlan.zhihu.com/p/113222681)
-- **Extensions**
-  - https://code.visualstudio.com/docs/editor/variables-reference
-  - [Settings Sync](https://github.com/shanalikhan/code-settings-sync) Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
-  - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
-  - [Visualize Data Structures in VSCode](https://addyosmani.com/blog/visualize-data-structures-vscode/)
-  - [Code Runner](https://github.com/formulahendry/vscode-code-runner)
+### [Visual Studio Code](vscode)
+- [VSCode](https://github.com/microsoft/vscode) 与 [Atom](https://github.com/atom/atom) 一样基于 [[Electron]]，活跃且迭代非常快
 
 ### Windows Only
 - [notepad++](https://notepad-plus-plus.org/)
@@ -89,4 +80,3 @@
 ## SAAS
 - [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) List of "only yours" cloud services for everyday needs
 - [discount-for-student-dev](https://github.com/AchoArnold/discount-for-student-dev) This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students
-
