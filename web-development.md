@@ -12,6 +12,7 @@
 - [Full Stack open](https://fullstackopen.com/en/) Deep Dive Into Modern Web Development
 - [Spellbook of Modern Web Dev](https://github.com/dexteryy/spellbook-of-modern-webdev) A Big Picture, Thesaurus, and Taxonomy of Modern JavaScript Web Development 
   - [现代 Web 开发的现状与未来（JSDC 2019 演讲全文）](https://zhuanlan.zhihu.com/p/88616149)
+  - [重新理解 Web](https://zhuanlan.zhihu.com/p/581977751)
 - [ruanyf/jstraining](https://github.com/ruanyf/jstraining) 全栈工程师培训材料
 - [Concurrent Programming for Scalable Web Architectures](http://berb.github.io/diploma-thesis/original/)
 

@@ -24,6 +24,7 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [TCP 的那些事儿（上）](https://coolshell.cn/articles/11564.html), [TCP 的那些事儿（下）](https://coolshell.cn/articles/11609.html)
 - [TIME_WAIT and its design implications for protocols and scalable client server systems](http://www.serverframework.com/asynchronousevents/2011/01/time-wait-and-its-design-implications-for-protocols-and-scalable-servers.html)
 - [TCP TIME-WAIT state on busy Linux servers](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)
+- [anonymous - 网络传输](https://www.zhihu.com/column/c_1539243008150597632): 浙江温州皮鞋湿，下雨进水不会胖。
 
 
 
