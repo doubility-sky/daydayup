@@ -10,6 +10,7 @@
 ## [Machine Learning](https://en.wikipedia.org/wiki/Machine_learning)
 - [Simplest artificial neural network](https://github.com/gokadin/ai-simplest-network) The simplest form of an artificial neural network explained and demonstrated.
 - [Machine Learning Crash Course - with TensorFlow APIs](https://developers.google.com/machine-learning/crash-course/), Google's fast-paced, practical introduction to machine learning
+- [Machine Learning for Beginners - A Curriculum](https://github.com/microsoft/ML-For-Beginners)
 - [The Facebook Field Guide to Machine Learning](https://research.fb.com/the-facebook-field-guide-to-machine-learning-video-series/) is a six-part video series developed by the Facebook ads machine learning team. The series shares best real-world practices and provides practical tips about how to apply machine-learning capabilities to real-world problems.
 - [Top-down learning path](https://github.com/ZuzooVn/machine-learning-for-software-engineers), A complete daily plan for studying to become a machine learning engineer.
 - [Mathematics For Machine Learning](https://github.com/mml-book/mml-book.github.io/tree/master/book), pdf
