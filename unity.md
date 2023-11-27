@@ -108,6 +108,7 @@
 
 
 ## Resources
+- [Unity Official Resources for Games](https://resources.unity.com/games): Bring your game to life with the most complete and flexible real-time development platform. Unity enables you to quickly create, easily operate, and fully monetize your game.
 - [OpenUPM](https://openupm.com/): Open Source Unity Package Registry
 - [Awesome Unity](https://github.com/RyanNielson/awesome-unity): A categorized community-driven collection of high-quality awesome Unity assets, projects, and resources. Free assets and resources are prioritized over paid when possible.
 - [awesome-unity3d](https://github.com/insthync/awesome-unity3d): A categorized collection of awesome opensource unity3d resources (including some projects related to game development)

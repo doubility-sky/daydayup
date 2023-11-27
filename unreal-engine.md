@@ -11,7 +11,8 @@
   - [tomlooman/ue4-tutorials](https://github.com/tomlooman/ue4-tutorials) Collection of Unreal 4 Tutorials & Experiments by Tom Looman
   - [Simple C++ FPS Template for Unreal Engine 4](https://github.com/tomlooman/SimpleFPSTemplate)
   - [EpicSurvivalGameSeries](https://github.com/tomlooman/EpicSurvivalGameSeries) Third-person Survival Game for Unreal Engine 4. https://www.tomlooman.com/survival-sample-game-for-ue4/
-- [为Unity开发者准备的虚幻引擎指南](https://mp.weixin.qq.com/s/Ki0tzShblD6Xy7xzWFHMjg)
+- [Unreal Engine for Unity Developers](https://docs.unrealengine.com/en-US/unreal-engine-for-unity-developers/)
+  - [为Unity开发者准备的虚幻引擎指南](https://mp.weixin.qq.com/s/Ki0tzShblD6Xy7xzWFHMjg)
 
 
 
