@@ -91,6 +91,9 @@
   - v3.6+ The so library is no longer compressed, so that the operating system can map the so memory.
   - [Native libraries packaged uncompressed by default](https://developer.android.com/studio/past-releases/past-agp-releases/agp-3-6-0-release-notes#extractNativeLibs)
 - [关于Android12安装apk出现-108异常INSTALL_PARSE_FAILED_MANIFEST_MALFORMED的解决方法](https://stars-one.site/2022/11/22/android12-install-108)
+- [This app was built for an older version of Android and doesn't include the latest privacy protections](https://stackoverflow.com/questions/73517346/this-app-was-built-for-an-older-version-of-android-and-doesnt-include-the-lates/73933945#73933945)
+  - Google started to enforce using minimum targetSdkVersion of 26 for APK installed outside the Google Play Store.
+  - Playing with Android 14 Beta 3 and targetSdkVersion is minimum at '28' now.
 
 
 

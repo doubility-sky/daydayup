@@ -104,6 +104,8 @@
 - [Unity 适配 Android 刘海屏显示](https://networm.me/2021/02/28/unity-android-display-cutout/)
 - [Debug.isDebugBuild is false even with "development build" set to true](https://forum.unity.com/threads/debug-isdebugbuild-is-false-even-with-development-build-set-to-true.1348352/#post-8517191)
   - I presume it's not about these settings in particular, but just requires making some change to the platform settings in order to get it to refresh.
+- [PRODUCT_NAME_APP in User-Defined Settings not correct](https://forum.unity.com/threads/product_name_app-in-user-defined-settings-not-correct.1101985/)
+- [releasing render texture that is set as Camera.targetTexture!](https://forum.unity.com/threads/releasing-render-texture-that-is-set-as-camera-targettexture.403325/)
 
 
 
