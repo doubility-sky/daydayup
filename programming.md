@@ -17,6 +17,7 @@ Programming involves tasks such as: analysis, generating algorithms, profiling a
 ## Practice
 - [build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
 - [Mega Project List](https://github.com/karan/Projects) A list of practical projects that anyone can solve in any programming language (See [solutions](https://github.com/thekarangoel/Projects-Solutions)). These projects are divided in multiple categories, and each category has its own folder.
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning): A list of programming tutorials in which aspiring software developers learn how to build an application from scratch. These tutorials are divided into different primary programming languages. Tutorials may involve multiple technologies and languages.
 
 
 

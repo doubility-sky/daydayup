@@ -218,6 +218,8 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 - [使用 SSH TUNNEL 打通公司和家里的网络](https://www.jianshu.com/p/388a93b1e7f7)
 - [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 - [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
+- [Fail2Ban](https://github.com/fail2ban/fail2ban): ban hosts that cause multiple authentication errors
+  - [Protect SSH with Fail2Ban](https://linuxiac.com/how-to-protect-ssh-with-fail2ban/)
 - SSH Broken pipe
   ```sh
   # vi /etc/ssh/sshd_config (server side)
