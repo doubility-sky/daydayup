@@ -13,6 +13,7 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
 ## Practice
 - [游戏服务器技术与架构文集](https://www.jianshu.com/c/5121fd868c4f)
 - [某百万DAU游戏的服务端优化工作](https://www.gameres.com/879458.html)
+- [《江湖X:汉家江湖》两万人在线服务器架构](https://www.gameres.com/770107.html)
 
 ### login/auth
 - [安全的提交密码](https://blog.codingnow.com/2008/01/diffie_hellman.html)

@@ -70,6 +70,13 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
     - `cat /proc/cpuinfo| grep "processor"| wc -l`
   - 查看是否为超线程，如 `cpu cores` 数量和 `siblings` 一致，则未启用超线程
     - `cat /proc/cpuinfo | grep -e "cpu cores"  -e "siblings" | sort | uniq`
+- setup swapfile
+  - `swapon --show`
+  - `fallocate -l 16G /swapfile`
+  - `chmod 600 /swapfile`
+  - `mkswap /swapfile`
+  - `swapon /swapfile`
+  - `vi /etc/fstab` add line `/swapfile none swap sw 0 0`
 - time zone switch
   - `cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime`
 - `uptime`

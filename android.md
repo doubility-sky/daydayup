@@ -30,6 +30,9 @@
 ### sign
 - 查看签名：
   - `apksigner verify -v ./XXX.apk`
+  - [Get APK Certificate Signature](https://gist.github.com/arturokunder/161a2a0d70bdca13931c0303bab348a9)
+    - unzip the APK and extract the file `/META-INF/XXX.RSA`
+    - `keytool -printcert -file XXX.RSA`
 - 重新签名（仅 V1）：
   - `apksigner sign --v1-signing-enabled true --v2-signing-enabled false --v3-signing-enabled false --ks ./XXX.keystore ./XXX.apk`
 - `keytool -printcert -jarfile XXX.apk`
