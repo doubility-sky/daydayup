@@ -13,6 +13,7 @@
 ### tutorial
 - [learn-python](https://github.com/trekhleb/learn-python) Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
 - [OnlinePythonTutor](https://github.com/pgbovine/OnlinePythonTutor), Visualize Python, Java, JavaScript, TypeScript, Ruby, C, and C++ code execution in your Web browser http://pythontutor.com/
+- [What the f*ck Python! 😱](https://github.com/satwikkansal/wtfpython) Exploring and understanding Python through surprising snippets.
 
 ### books
 - [A Byte of Python](https://python.swaroopch.com/)

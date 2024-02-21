@@ -1,5 +1,7 @@
 [Skynet](https://github.com/cloudwu/skynet) is a lightweight online game framework which can be used in many other fields.
 
+- [[game-server]]
+
 
 
 ## Learn
@@ -83,9 +85,13 @@ Skynet (2016-01-14 以tree命令导出, 3rd/jemalloc/ 处有删减)
   - GC有一些东西是回收不掉的
     - table是不缩小的，如某个table有20万条数据，将其所有的value设置为nil，table并不会缩小，只有将其设置为nil或一个新的table，才会减少其占用内存的大小。
 - [关于《三国志·战略版》的若干设计理念](https://thislinux.com/sanguozhi/)
+  - https://github.com/ejoy/goscon
+  - [三国志战略版服务器卡顿问题](https://blog.codingnow.com/2019/10/sanguo.html)
 - [游戏服务器的集群问题](http://blog.findix.cn/2019/03/17/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84%E9%9B%86%E7%BE%A4%E9%97%AE%E9%A2%98/)
 - [某百万DAU游戏的服务端优化工作](https://zhuanlan.zhihu.com/p/341855913)
   - [游戏服务端的高并发和高可用](https://zhuanlan.zhihu.com/p/342953318)
+- [skynet_fly](https://github.com/huahua132/skynet_fly) 基于云风的skynet，搭建开箱即用的微服务框架，提供优雅的服务热更新
+- [不停服更新方案](https://www.jianshu.com/p/9f5f2b2cbdea)
 
 
 

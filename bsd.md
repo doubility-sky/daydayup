@@ -24,6 +24,7 @@ Although these proprietary BSD derivatives were largely superseded in the 1990s 
 ## NetBSD
 - [NetBSD](http://www.netbsd.org/) is a free, fast, secure, and highly portable Unix-like Open Source operating system. It is available for a wide range of platforms, from large-scale servers and powerful desktop systems to handheld and embedded devices.
 - [NetBSD Explained: The Unix System That Can Run on Anything](https://www.makeuseof.com/what-is-netbsd/)
+- [That Old NetBSD Server, Running Since 2010](https://it-notes.dragas.net/2023/08/27/that-old-netbsd-server-running-since-2010/)
 
 
 
