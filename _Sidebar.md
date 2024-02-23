@@ -68,8 +68,6 @@
     - [[skynet]]
   - [[game-platform]]
     - [[login]]
-  - [[other-technology]]
-    - [[PvP synchronization]]
   - [[game-art]]
 - [[blockchain]]
   - [[bitcoin]]
