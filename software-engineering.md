@@ -30,6 +30,7 @@
 - [hacker-laws](https://github.com/dwmkerr/hacker-laws), Laws, Theories, Principles and Patterns that developers will find useful. [中文版](https://github.com/nusr/hacker-laws-zh)
 - [31-days-of-API-Security-Tips](https://github.com/smodnix/31-days-of-API-Security-Tips)
 - [Awesome Falsehood](https://github.com/kdeldycke/awesome-falsehood): 😱 Falsehoods Programmers Believe in
+- [认知偏差知识手册](https://s75w5y7vut.feishu.cn/docs/doccn3BatnScBJe7wD7K3S5poFf)
 
 
 
@@ -46,6 +47,7 @@
 ## Practice
 - [How WhatsApp scaled to 1 billion users with only 50 engineers](https://blog.quastor.org/p/whatsapp-scaled-1-billion-users-50-engineers)
 - [How Instagram scaled to 14 million users with only 3 engineers](https://engineercodex.substack.com/p/how-instagram-scaled-to-14-million)
+- [How Pinterest scaled to 11 million users with only 6 engineers](https://read.engineerscodex.com/p/how-pinterest-scaled-to-11-million)
 - [A Digest of Evernote’s Architecture](https://evernote.com/blog/a-digest-of-evernotes-architecture/)
 - [How We've Scaled Dropbox](https://www.youtube.com/watch?v=PE4gwstWhmc)
 - [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)

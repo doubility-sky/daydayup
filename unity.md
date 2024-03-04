@@ -84,6 +84,7 @@
 - ~~[ILRuntime](https://github.com/Ourpalm/ILRuntime): Pure C# IL Intepreter Runtime, which is fast and reliable for scripting requirement on enviorments, where jitting isn't possible.~~
 - [HybridCLR](https://github.com/focus-creative-games/hybridclr) 是一个特性完整、零成本、高性能、低内存的 Unity 全平台原生 c# 热更方案。 HybridCLR is a fully featured, zero-cost, high-performance, low-memory solution for Unity's all-platform native c# hotupdate.
   - [inspect_hybridclr](https://github.com/focus-creative-games/inspect_hybridclr)深入剖析 il2cpp 及 HybridCLR 实现的技术专栏
+  - [划时代的代码热更新方案hybridclr（wolong）源码流程解析](https://www.lfzxb.top/hybridclr-source-analyze/)
 
 
 
@@ -106,6 +107,8 @@
   - I presume it's not about these settings in particular, but just requires making some change to the platform settings in order to get it to refresh.
 - [PRODUCT_NAME_APP in User-Defined Settings not correct](https://forum.unity.com/threads/product_name_app-in-user-defined-settings-not-correct.1101985/)
 - [releasing render texture that is set as Camera.targetTexture!](https://forum.unity.com/threads/releasing-render-texture-that-is-set-as-camera-targettexture.403325/)
+- [Display Resolution Dialog Deprecation](https://forum.unity.com/threads/display-resolution-dialog-deprecation.793611/)
+- [unity native crash —— 横竖屏切换导致的crash](https://zoucz.com/blog/2022/11/30/66788390-70bc-11ed-9fa0-5dbc93f9d3ee/)
 
 
 
