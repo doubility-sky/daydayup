@@ -15,19 +15,32 @@ Computer graphics studies the manipulation of visual and geometric information u
 
 
 
-## OpenGL
+## [OpenGL](https://en.wikipedia.org/wiki/OpenGL)
 - [JoeyDeVries/LearnOpenGL](https://github.com/JoeyDeVries/LearnOpenGL) - [read online](https://learnopengl.com/)
   - [LearnOpenGL-CN](https://github.com/LearnOpenGL-CN/LearnOpenGL-CN) - [read online](https://learnopengl-cn.github.io/)
 
-### WebGL
+### [WebGL](https://en.wikipedia.org/wiki/WebGL)
 - [(Web) Graphics Related Lessons](https://github.com/gfxfundamentals)
-- [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
 - [pixi.js](https://github.com/pixijs/pixi.js): The HTML5 Creation Engine: Create beautiful digital content with the fastest, most flexible 2D WebGL renderer.
 - [three.js](https://github.com/mrdoob/three.js/), JavaScript 3D library. https://threejs.org/  
   The aim of the project is to create an easy to use, lightweight, 3D library with a default WebGL renderer. The library also provides Canvas 2D, SVG and CSS3D renderers in the examples.
   - [React renderer for Threejs](https://github.com/react-spring/react-three-fiber) (web and react-native) https://spectrum.chat/react-three-fiber
 - [WebGLStudio.js](https://github.com/jagenjo/webglstudio.js) is an open-source, browser-based 3D graphics suite. You can edit scenes and materials, design effects and shaders, code behaviours, and share your work - all within a browser using standard web technologies.
 - [Tiny-Canvas](https://github.com/bitnenfer/tiny-canvas) is a lightweight minimal implementation of a batched and stack matrix based canvas similar to HTML5 Canvas2D with WebGL backend.
+
+
+
+## [WebGPU](https://en.wikipedia.org/wiki/WebGPU)
+- https://github.com/gpuweb/gpuweb
+- [WebGPU Fundamentals](https://github.com/webgpu/webgpufundamentals) - [webgpufundamentals.org](https://webgpufundamentals.org/)
+- [LearningWebGPU](https://github.com/hjlld/LearningWebGPU) WebGPU tutorials inspired by LearningWebGL.com
+- [I want to talk about WebGPU](https://cohost.org/mcc/post/1406157-i-want-to-talk-about-webgpu)
+- [谷歌正式发布WebGPU！90多位贡献者研发6年，浏览器终于可以利用底层硬件了](https://mp.weixin.qq.com/s/-Zt8LSAHgq2sKTwIcqpPyg)
+- [从WebGL到WebGPU，网页图形的全新时代](https://mp.weixin.qq.com/s/4LfaNHP77s9n9SghucYoaA)
+
+### [WGSL](https://www.w3.org/TR/WGSL/)
+- https://gpuweb.github.io/gpuweb/wgsl/
+- [Tour of WGSL](https://google.github.io/tour-of-wgsl/)
 
 
 
