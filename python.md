@@ -6,6 +6,7 @@
 
 
 ## Learn
+- [The Python Wiki](https://wiki.python.org)
 - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
   - `python -m SimpleHTTPServer 8000` OR `python3 -m http.server`
@@ -44,13 +45,15 @@
 ## Frameworks
 - [Twisted](https://github.com/twisted/twisted) is an event-based framework for internet applications, supporting Python 2.7 and Python 3.5+.
 
-### [web](https://wiki.python.org/moin/WebFrameworks)
+### [Web Frameworks for Python](https://wiki.python.org/moin/WebFrameworks)
 - [Django](https://github.com/django/django) is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 - [Tornado](https://github.com/tornadoweb/tornado) is a Python web framework and asynchronous networking library, originally developed at FriendFeed. By using non-blocking network I/O, Tornado can scale to tens of thousands of open connections, making it ideal for long polling, WebSockets, and other applications that require a long-lived connection to each user. 
   - [Introduction to Tornado](https://docs.hacknode.org/itt2zh/)
 - [Flask](https://github.com/pallets/flask) is a lightweight [WSGI](https://wsgi.readthedocs.io/) web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications. It began as a simple wrapper around [Werkzeug](https://www.palletsprojects.com/p/werkzeug/) and [Jinja](https://www.palletsprojects.com/p/jinja/) and has become one of the most popular Python web application frameworks.
+- [FastAPI](https://github.com/tiangolo/fastapi) framework, high performance, easy to learn, fast to code, ready for production
 
 ### GUI
+- [BeeWare](https://github.com/beeware) allows you to write your app in Python and release it on multiple platforms. No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
 - [Kivy](https://github.com/kivy/kivy): Open source UI framework written in Python, running on Windows, Linux, macOS, Android and iOS
   - [python-for-android](https://github.com/kivy/python-for-android) is a packaging tool for Python apps on Android. You can create your own Python distribution including the modules and dependencies you want, and bundle it in an APK along with your own code.
   - [Kivy for iOS](https://github.com/kivy/kivy-ios): Toolchain for compiling Python / Kivy / other libraries for iOS
@@ -82,7 +85,6 @@
   - `python --version`
   - FAQ: after `pyenv global system` got: `pyenv: python: command not found ...` on macOS 12+
     - `ln -s /usr/local/bin/python3 /usr/local/bin/python`
-- [BeeWare](https://github.com/beeware) allows you to write your app in Python and release it on multiple platforms. No need to rewrite the app in multiple programming languages. It means no issues with build tools, environments, compatibility, etc.
 
 
 
