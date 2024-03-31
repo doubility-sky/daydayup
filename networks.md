@@ -4,19 +4,20 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 
 - [[proxy]]
 - [[security]]
+- [[linux]]
 
 
 
 ## Learn
 - [Computer Networks: A Systems Approach](https://github.com/ruanyf/book-computer-networks) A free ebook. Built upon the source from [SystemsApproach/book](https://github.com/SystemsApproach/book). Read online https://book.systemsapproach.org
+- [The C10K problem](http://www.kegel.com/c10k.html)
+- [Beej's Guide to Network Programming](https://github.com/beejjorgensen/bgnet) - [read online](https://beej.us/guide/bgnet/)
 
 
 
 ## TCP/IP
 - [TCP/IP Illustrated](https://www.google.com/search?q=TCP%2FIP+Illustrated&ie=utf-8&oe=utf-8&aq=t&gws_rd=ssl)
 - [tcpdump](http://www.tcpdump.org/tcpdump_man.html)
-- [Beej's Guide to Network Programming](http://beej.us/guide/bgnet/output/html/multipage/index.html)
-- [The C10K problem](http://www.kegel.com/c10k.html)
 - [Tornado - ioloop.py](https://github.com/tornadoweb/tornado/blob/master/tornado/ioloop.py)
 - [Linux source](https://github.com/torvalds/linux/tree/master/net/ipv4)
 - [XNU source](http://www.opensource.apple.com/source/xnu/xnu-3248.20.55/bsd/netinet/)

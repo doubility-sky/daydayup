@@ -29,3 +29,5 @@
   - count(字段) 无法统计字段为 NULL 的值，count(*) 可以统计值为 NULL 的行
   - 当字段为主键的时候，字段会自动设置为 NOT NULL
   - NULL 导致的坑让人防不胜防，强烈建议创建字段的时候字段不允许为 NULL，给个默认值
+- [SQL 多表查询之 where 和 INNER JOIN](https://www.cnblogs.com/Transkai/p/13414146.html)
+  - 使用 inner join，而不是 where

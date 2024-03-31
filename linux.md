@@ -3,6 +3,7 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - [[c]]
 - [[linux-kernel]]
 - [[OpenWrt]]
+- [[networks]]
 - Distribution
   - [[ubuntu]]
 - 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
@@ -192,6 +193,9 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 
 ## [[networks]]
 - `udp` connection test: `nc -vuz SOME_IP SOME_PORT`
+- [如何在 Ubuntu 服务器 22.04 上设置静态 IP 地址](https://linux.cn/article-15181-1.html)
+  - `vi /etc/netplan/00-installer-config.yaml`
+  - `netplan apply`
 
 ### [SSH](https://en.wikipedia.org/wiki/OpenSSH)
 - [SSH 教程](https://wangdoc.com/ssh/index.html)
