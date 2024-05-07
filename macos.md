@@ -105,6 +105,8 @@
 - 重置 launchpad：`defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock`
 - 弹框无法关闭 `Command ＋ Option + Shift ＋ Ecs`
 - [MacBook Pro充不进电?](https://www.zhihu.com/question/27832008)
+- [macOS App debug](https://twitter.com/tualatrix/status/1777574176330789143?s=61&t=5RWMOkan8LQlrorqSXmjQw)
+  - [-_NS_4445425547 YES](https://mjtsai.com/blog/2024/03/22/_eventfirstresponderchaindescription/#comment-4059578)
 
 
 
