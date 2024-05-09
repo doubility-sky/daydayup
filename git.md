@@ -147,6 +147,8 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
     git config --global http.postBuffer 524288000
     ```
 - [gitlab fetch/pull 失败](https://stackoverflow.com/questions/21277806/fatal-early-eof-fatal-index-pack-failed)
+- [error: RPC failed; curl 92 HTTP/2 stream 0 was not closed cleanly: PROTOCOL_ERROR (err 1)](https://stackoverflow.com/questions/59282476/error-rpc-failed-curl-92-http-2-stream-0-was-not-closed-cleanly-protocol-erro)
+  - `git config --global http.version HTTP/1.1`
 - 解决冲突出错
   - `git reset --hard` 无效  
     ```
