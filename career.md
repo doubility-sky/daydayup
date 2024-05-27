@@ -1,6 +1,7 @@
 [The career](https://en.wikipedia.org/wiki/Career) is an individual's metaphorical "journey" through learning, work and other aspects of life. There are a number of ways to define career and the term is used in a variety of ways.
 
 - [[legal-rights]]
+- [[startup]]
 
 
 
@@ -16,6 +17,9 @@
 - [90% 以上的独立开发者，败在了认知环节](https://juejin.im/post/5be0fc31e51d4552d47d1213)
 - [Marketing-for-Engineers](https://github.com/LisaDziuba/Marketing-for-Engineers): A curated collection of marketing articles & tools to grow your product.
 - [A programmer's guide to live longer](https://github.com/geekan/HowToLiveLonger)
+
+### Self-media
+- [✍ WeChat Markdown Editor](https://github.com/doocs/md) | 一款高度简洁的微信 Markdown 编辑器：支持 Markdown 语法、色盘取色、多图上传、一键下载文档、自定义 CSS 样式、一键重置等特性
 
 
 

@@ -77,3 +77,4 @@
 
 ## [[career]]
 - [[legal-rights]]
+- [[startup]]

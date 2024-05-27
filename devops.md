@@ -13,6 +13,9 @@
 
 ## Container
 - [[docker]], [[kubernetes]]
+- [The What, Why and How of Containers](https://www.annwan.me/computers/what-why-how-containers/)
+  - Alternate title: An history of OS-Level Virtualisation on UNIX and then Linux.
+  - This post is part of an entry for [the Handmade Network’s Learning Jam 2024](https://handmade.network/jam/learning-2024)
 - [LXC](https://github.com/lxc/lxc) is the well-known and heavily tested low-level Linux container runtime. It is in active development since 2008 and has proven itself in critical production environments world-wide. Some of its core contributors are the same people that helped to implement various well-known containerization features inside the Linux kernel.
   - https://linuxcontainers.org/lxc/
   - [LXC 1.0](https://stgraber.org/2013/12/20/lxc-1-0-blog-post-series/) 10 blog posts covering what I think are some of the most exciting features of LXC

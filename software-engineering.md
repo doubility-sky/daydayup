@@ -53,6 +53,7 @@
 - [How Does Facebook Work? The Nuts and Bolts [Technology Explained]](https://www.makeuseof.com/tag/facebook-work-nuts-bolts-technology-explained/)
 - [Stack Overflow Architecture](http://highscalability.com/blog/2009/8/5/stack-overflow-architecture.html)
 - [一个打车应用早期架构发展史](https://cloud.tencent.com/developer/article/1521020)
+- [十年前的微信消息收发架构长啥样？](https://mp.weixin.qq.com/s/dD-aPhnynOqSC3MUYLjeAA)
 - [支付宝架构师眼中的高并发架构](https://cloud.tencent.com/developer/article/1417126)
 - [有赞服务化架构演进](https://cloud.tencent.com/developer/article/1522947)
 
