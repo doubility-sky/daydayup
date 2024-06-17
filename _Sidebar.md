@@ -43,6 +43,7 @@
 - [[mobile-development]]
   - [[ios]]
   - [[android]]
+  - [[mini-app]]
 - [[embedded-development]]
   - [[raspberrypi]]
   - [[openwrt]]

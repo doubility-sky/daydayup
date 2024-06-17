@@ -67,7 +67,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 It optionally supports mathematical extensions such as big integers (BigInt), big floating point numbers (BigFloat) and operator overloading.
 - [jerryscript](https://github.com/jerryscript-project/jerryscript) is a lightweight JavaScript engine for resource-constrained devices such as microcontrollers. It can run on devices with less than 64 KB of RAM and less than 200 KB of flash memory.
 - [mJS](https://github.com/cesanta/mjs) is designed for microcontrollers with limited resources. Main design goals are: small footprint and simple C/C++ interoperability. mJS implements a strict subset of ES6 (JavaScript version 6)
-
+- [Duktape](https://github.com/svaarala/duktape) - embeddable Javascript engine with a focus on portability and compact footprint
 
 
 ## Tools
