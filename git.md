@@ -193,9 +193,17 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
   git lfs uninstall && git reset --hard && git lfs install && git lfs pull
   ```
 - [GIT LFS file lock/unlocking and unable to write the file after unlock with --force option.](https://github.com/git-lfs/git-lfs/issues/3733)
+- git lfs untrack
+  - pull/update all lfs to local `git lfs pull`
+  - remove all tracks `git lfs untrack "*.filetype1" "*.filetype2" ...`
+  - refresh all cache `git rm --cached "*.filetype1" "*.filetype2" ...`
+  - add `.gitattributes`
+  - commit all previous lfs files
 - Unload submodule from project but not remove/delete it.
   - `git submodule deinit -f SUB_PATH`
 - 远程分支推送
   - `git push --prune <new-remote> +refs/remotes/<old-remote>/*:refs/heads/* +refs/tags/*:refs/tags/*`
 - 检查忽略源头 `git check-ignore -v Data~`
 - 查看全局忽略文件 `git config --global core.excludesFile`
+- [git clone: warning: --depth is ignored in local clones; use file:// instead](https://stackoverflow.com/questions/40383230/git-clone-warning-depth-is-ignored-in-local-clones-use-file-instead)
+  - `git clone --depth 1 file://$(pwd)/src_repo new_repo`
