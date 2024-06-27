@@ -2,20 +2,17 @@
 
 
 - [[computer-graphics]]
-- [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 - [game-client by golang](golang#game-client)
 
 
 
 ## Learn
+- [List of game engines](https://en.wikipedia.org/wiki/List_of_game_engines)
 - [CUSTOM GAME ENGINES: A Small Study](https://gist.github.com/raysan5/909dc6cf33ed40223eb0dfe625c0de74)
 
-### sprite sheet & texture atlas
-- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
-- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
-
-### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
-- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
+### select
+- [EnginesDatabase](https://enginesdatabase.com/) is website to help Game Developers search the right tool for the job, learn about new technologies, or discover new and fun Game Engines to use and get inspired by.
+- [The Generous Space of Alternative Game Engines (A Curation)](http://www.nathalielawhead.com/candybox/the-generous-space-of-alternative-game-engines-a-curation)
 
 
 
@@ -100,6 +97,17 @@
 
 
 
+## Practice
+
+### sprite sheet & texture atlas
+- [What is a sprite sheet?](https://www.codeandweb.com/what-is-a-sprite-sheet)
+- [What is the difference between a sprite sheet and a texture atlas?](https://gamedev.stackexchange.com/questions/69895/what-is-the-difference-between-a-sprite-sheet-and-a-texture-atlas/69898)
+
+### [Texture Compression](https://en.wikipedia.org/wiki/Texture_compression)
+- [手游性能优化之深入理解Texture Compression](https://gameinstitute.qq.com/community/detail/105271)
+
+
+
 ## Tools
 - [xLua](https://github.com/Tencent/xLua) is a lua programming solution for C# ( Unity, .Net, Mono) , it supports android, ios, windows, linux, osx, etc.
   - [直接在 cs 里调用 luaL_error 真的没问题么？](https://github.com/Tencent/xLua/issues/14)
@@ -114,4 +122,3 @@
 
 ## FAQs
 - [What's the difference between a game engine and a game development framework? ](https://www.quora.com/Whats-the-difference-between-a-game-engine-and-a-game-development-framework)
-- [The Generous Space of Alternative Game Engines (A Curation)](http://www.nathalielawhead.com/candybox/the-generous-space-of-alternative-game-engines-a-curation)
