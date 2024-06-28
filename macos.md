@@ -35,6 +35,8 @@
 - [OS X 磁盘空间分析工具: ncdu](http://www.yewen.us/blog/2015/09/ncdu-on-os-x/)
   - `brew install ncdu`
   - `ncdu / --exclude /Volumes`
+- `du -hd1` 以 human readable 格式，展示当前目录所有子目录大小
+  - 注：与 linux 下不同，a 与 d 互斥
 
 ### Menu-bar
 - [eul](https://github.com/gao-sun/eul): 🖥️ macOS status monitoring app written in SwiftUI.

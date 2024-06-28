@@ -110,6 +110,10 @@
 - [Display Resolution Dialog Deprecation](https://forum.unity.com/threads/display-resolution-dialog-deprecation.793611/)
 - [unity native crash —— 横竖屏切换导致的crash](https://zoucz.com/blog/2022/11/30/66788390-70bc-11ed-9fa0-5dbc93f9d3ee/)
 - [error CS0619: 'GUIText' is obsolete: 'GUIText has been removed. Use UI.Text instead.'](https://forum.unity.com/threads/error-cs0619-guitext-is-obsolete-guitext-has-been-removed-use-ui-text-instead.826746/#post-5724169)
+- release your disk space
+  - `find . -maxdepth 2 -type d -name "Library" -exec rm -rf {} \;`
+- copy .gitignore for all projects 
+  - `find . -type d -depth 1 -exec sh -c 'if ! test -e "$1/.gitignore"; then cp "Unity.gitignore" "$1/.gitignore"; echo "Copy Unity.gitignore to $1 !!!"; else echo "Skip $1"; fi' _ {} \;`
 
 
 
