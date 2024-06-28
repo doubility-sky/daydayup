@@ -2,7 +2,9 @@
 
 
 - [Official Blog](https://www.cocos.com/category/blog), [Download Cocos Creator](https://www.cocos.com/creator)
-- [cocos-engine](https://github.com/cocos/cocos-engine)
+- [cocos-engine](https://github.com/cocos/cocos-engine): This repo is the engine framework for Cocos Creator. Cocos Creator's in-editor scene view and web runtime share the same framework, which is the content of this repo. It's originally forked from [Cocos2d-html5](https://github.com/cocos2d/cocos2d-html5/), we build up an Entity Component architecture on it to meet the needs of Cocos Creator.
+- [engine-native](https://github.com/cocos/engine-native), the native backend of Cocos Creator. It works on iOS, Android, Mac OS and Windows. 
+  - AKA: [cocos2d-x-lite](https://github.com/cocos-creator/cocos2d-x-lite): Lite version [[cocos2d-x]] based on Cocos Runtime; Cocos2d-x compact version, It is based on cocos2d-x[version 3.9], but remove 3D and other features. It works on iOS, Android, macOS and Windows.
 
 
 
