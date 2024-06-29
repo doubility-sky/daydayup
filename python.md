@@ -8,8 +8,6 @@
 ## Learn
 - [The Python Wiki](https://wiki.python.org)
 - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
-- [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
-  - `python -m SimpleHTTPServer 8000` OR `python3 -m http.server`
 
 ### tutorial
 - [learn-python](https://github.com/trekhleb/learn-python) Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.
@@ -85,6 +83,9 @@
   - `python --version`
   - FAQ: after `pyenv global system` got: `pyenv: python: command not found ...` on macOS 12+
     - `ln -s /usr/local/bin/python3 /usr/local/bin/python`
+- [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
+  - `python -m SimpleHTTPServer 8000` OR `python3 -m http.server`
+- [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
 
 
 
