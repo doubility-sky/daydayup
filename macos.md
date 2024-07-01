@@ -67,6 +67,17 @@
 
 
 
+## Tools
+- [mackup](https://github.com/lra/mackup) Keep your application settings in sync (OS X/Linux)
+- [How to set a file or folder to be ignored](https://help.dropbox.com/sync/ignored-files)
+  - If you’re running macOS 12.3 or earlier:
+    - Ignore it `xattr -w com.dropbox.ignored 1 '/Users/yourname/Dropbox (Personal)/YourFileName.pdf'`
+    - Don't ignore `xattr -d com.dropbox.ignored '/Users/yourname/Dropbox (Personal)/YourFileName.pdf'`
+  - If you’re running macOS 12.5 or later and have the updated version of Dropbox for macOS on File Provider:
+    - Switch it `xattr -d 'com.apple.fileprovider.ignore#P' '/Users/yourname/Library/CloudStorage/Dropbox-Personal/YourFileName.pdf'`
+
+
+
 ## FAQs
 - [How to identify the terminal from a script?](https://superuser.com/questions/683962/how-to-identify-the-terminal-from-a-script)
   - `$TERM_PROGRAM`, iTerm sets it to `iTerm.app`, and Terminal.app to `Apple_Terminal`.
