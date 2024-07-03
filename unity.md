@@ -89,31 +89,36 @@
 
 
 ## FAQs
-- [URP - How to access the Rendering Debugger window](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@16.0/manual/features/rendering-debugger.html)
 - [Multiple dlls with same name from packages](https://forum.unity.com/threads/multiple-dlls-with-same-name-from-packages.1042849/#post-6752233)
-- [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
-- [Android Phones Returning Screen.safeArea Incorrectly](https://forum.unity.com/threads/android-phones-returning-screen-safearea-incorrectly.1051514/#post-7684444)
-- [Program type already present: com.tencent.a.a.a.a.a的解决方法](https://blog.csdn.net/weixin_43991241/article/details/121676781)
   - delete `./Library/Bee/Android/Prj/IL2CPP/Gradle` under your project.
 - [AsyncOperation always returns 0 or 0.9 (coroutine only resumes at 0.9)](https://forum.unity.com/threads/asyncoperation-always-returns-0-or-0-9-coroutine-only-resumes-at-0-9.538258/#post-3556950)
-- [Particle System Flash With Wrong Size And Position](https://forum.unity.com/threads/particle-system-flash-with-wrong-size-and-position.1321995/)
 - [Failed to load LightingData.asset](https://forum.unity.com/threads/failed-to-load-lightingdata-asset.723668/)
   - `lfs` or `eol` problem
 - [Unity: ArgumentNullException: Argument cannot be null](https://github.com/JamesNK/Newtonsoft.Json/issues/1521#issuecomment-1304726752)
 - [Newtonsoft.Json - Unable to deserialize hashsets](https://forum.unity.com/threads/unable-to-deserialize-hashsets.962805/)
   - https://github.com/jilleJr/Newtonsoft.Json-for-Unity/wiki/Fix-AOT-using-link.xml
-- [Unity 适配 Android 刘海屏显示](https://networm.me/2021/02/28/unity-android-display-cutout/)
 - [Debug.isDebugBuild is false even with "development build" set to true](https://forum.unity.com/threads/debug-isdebugbuild-is-false-even-with-development-build-set-to-true.1348352/#post-8517191)
   - I presume it's not about these settings in particular, but just requires making some change to the platform settings in order to get it to refresh.
 - [PRODUCT_NAME_APP in User-Defined Settings not correct](https://forum.unity.com/threads/product_name_app-in-user-defined-settings-not-correct.1101985/)
-- [releasing render texture that is set as Camera.targetTexture!](https://forum.unity.com/threads/releasing-render-texture-that-is-set-as-camera-targettexture.403325/)
+- [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
+- [Program type already present: com.tencent.a.a.a.a.a的解决方法](https://blog.csdn.net/weixin_43991241/article/details/121676781)
+
+### screen
+- [Android Phones Returning Screen.safeArea Incorrectly](https://forum.unity.com/threads/android-phones-returning-screen-safearea-incorrectly.1051514/#post-7684444)
 - [Display Resolution Dialog Deprecation](https://forum.unity.com/threads/display-resolution-dialog-deprecation.793611/)
+- [Unity 适配 Android 刘海屏显示](https://networm.me/2021/02/28/unity-android-display-cutout/)
 - [unity native crash —— 横竖屏切换导致的crash](https://zoucz.com/blog/2022/11/30/66788390-70bc-11ed-9fa0-5dbc93f9d3ee/)
+
+### rendering
+- [URP - How to access the Rendering Debugger window](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@16.0/manual/features/rendering-debugger.html)
+- [releasing render texture that is set as Camera.targetTexture!](https://forum.unity.com/threads/releasing-render-texture-that-is-set-as-camera-targettexture.403325/)
+
+### particle
+- [Why does a ParticleSystem.Main is a struct yet changes value in the inspector?](https://forum.unity.com/threads/why-does-a-particlesystem-main-is-a-struct-yet-changes-value-in-the-inspector.1202149/)
+- [Particle System Flash With Wrong Size And Position](https://forum.unity.com/threads/particle-system-flash-with-wrong-size-and-position.1321995/)
+
+### upgrade
 - [error CS0619: 'GUIText' is obsolete: 'GUIText has been removed. Use UI.Text instead.'](https://forum.unity.com/threads/error-cs0619-guitext-is-obsolete-guitext-has-been-removed-use-ui-text-instead.826746/#post-5724169)
-- release your disk space
-  - `find . -maxdepth 2 -type d -name "Library" -exec rm -rf {} \;`
-- copy .gitignore for all projects 
-  - `find . -type d -depth 1 -exec sh -c 'if ! test -e "$1/.gitignore"; then cp "Unity.gitignore" "$1/.gitignore"; echo "Copy Unity.gitignore to $1 !!!"; else echo "Skip $1"; fi' _ {} \;`
 
 
 
