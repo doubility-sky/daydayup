@@ -41,6 +41,9 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
   - [基于git的源代码管理模型——git flow](http://www.ituring.com.cn/article/56870)
 
+### others
+- [Git 的故事：這一次沒這麼好玩](https://blog.brachiosoft.com/posts/git/)
+
 
 
 ## Common Usage

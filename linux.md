@@ -21,6 +21,9 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - [Linux Guide for Complete Beginners](https://happypeter.github.io/LGCB/): 本书摘取了 [The Linux Commandline](https://billie66.github.io/TLCL/) 中最常用的部分，结合一些开发中比较实用的操作而整理出来的。
 - [Linux工具快速教程](https://github.com/me115/linuxtools_rst)：本书专注于Linux工具的最常用用法，以便读者能以最快时间掌握，并在工作中应用
 
+### others
+- [The early days of Linux](https://lwn.net/Articles/928581/)
+
 
 
 ## Shortcuts
