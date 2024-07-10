@@ -28,11 +28,12 @@
 - [如何使用 Mac 制作 Windows 10 U 盘启动盘](https://www.freecodecamp.org/chinese/news/how-make-a-windows-10-usb-using-your-mac-build-a-bootable-iso-from-your-macs-terminal/)
   - `diskutil list`
   - `diskutil eraseDisk MS-DOS "WIN10" GPT /dev/disk2` （假设 U盘 为：/dev/disk2）
-    - 老旧硬件可能需要 `diskutil eraseDisk MS-DOS "WIN10" MBR /dev/disk2`
+    - 注意：老旧 U 盘可能需要 `diskutil eraseDisk MS-DOS "WIN10" MBR /dev/disk2`
   - 挂载 iso `hdiutil mount ~/Downloads/Win10_1903_V1_English_x64.iso`
   - `rsync -vha --exclude=sources/install.wim /Volumes/CCCOMA_X64FRE_EN-US_DV9/* /Volumes/WIN10` （此处忽略大文件 `install.wim`）
   - `brew install wimlib`
   - `wimlib-imagex split /Volumes/CCCOMA_X64FRE_EN-US_DV9/sources/install.wim /Volumes/WIN10/sources/install.swm 3800`
+- [Windows could not prepare the computer to boot into the next phase of installation](https://superuser.com/questions/1381492/why-does-windows-10-fail-to-install-on-uefi-gpt-laptop)
 
 
 
