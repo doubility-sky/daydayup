@@ -111,6 +111,7 @@
   pyinstaller --add-data="$env:LocalAppData\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\zhconv\zhcdict.json;zhconv" -F translate.py --distpath "."
 
 ```
+- [On MacOS 14, pip install throws error: externally-managed-environment](https://discuss.python.org/t/on-macos-14-pip-install-throws-error-externally-managed-environment/50352/6)
 
 
 
