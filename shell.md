@@ -74,11 +74,14 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 - [Distrobox](https://github.com/89luca89/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
 
 ### [[Python]]
-- [我可以使用Python作为Bash替换吗？](http://www.tracholar.top/2018/06/08/can-i-use-python-as-a-bash-replacement/)
+- [When You Should Use Bash Over Python](https://dnastacio.medium.com/bash-over-python-39e0eba502f9/)
 - [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh
 - [xonsh](https://github.com/xonsh/xonsh) is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.5+ with additional shell primitives. xonsh (pronounced conch) is meant for the daily use of experts and novices alike.
 - [sarge](https://bitbucket.org/vinay.sajip/sarge/src/master/), a wrapper for subprocess which aims to make life easier for anyone who needs to interact with external applications from their Python code.
 - (:warning:May be outdated)[Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
+
+### [[Ruby]]
+- [Ruby: a great language for shell scripts!](https://lucasoshiro.github.io/posts-en/2024-06-17-ruby-shellscript/)
 
 
 
