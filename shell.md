@@ -33,6 +33,7 @@ Command-line shells require the user to be familiar with commands and their call
   ```
 - [useful scripts](https://github.com/oldratlee/useful-scripts) for making developer's everyday life easier and happier, involved java, shell etc. 
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
+- [Advanced Shell Scripting Techniques: Automating Complex Tasks with Bash](https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/)
 
 
 

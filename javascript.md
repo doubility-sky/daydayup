@@ -29,6 +29,7 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 - [JavaScript编码规范](https://github.com/fex-team/styleguide/blob/master/javascript.md)
 - [Cocos Creator 推荐编码规范](https://docs.cocos.com/creator/manual/zh/scripting/reference/coding-standards.html)
+- [Optimizing Javascript for fun and for profit](https://romgrk.com/posts/optimizing-javascript)
 
 
 
