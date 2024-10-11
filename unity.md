@@ -102,6 +102,11 @@
 - [PRODUCT_NAME_APP in User-Defined Settings not correct](https://forum.unity.com/threads/product_name_app-in-user-defined-settings-not-correct.1101985/)
 - [为什么Unity没有实现iOS平台代码热更新？](https://www.zhihu.com/question/28079874/answer/57706353)
 - [Program type already present: com.tencent.a.a.a.a.a的解决方法](https://blog.csdn.net/weixin_43991241/article/details/121676781)
+- [去除Unity打包出来右下角trial version 水印](https://blog.csdn.net/qq_41789645/article/details/134851440)
+  - 退出 Unity 
+  - Hub 中退回个人版许可证，然后退出
+  - 再将 VPN 切换国外流量，重新申请许可证
+  - 打开 Unity 重新构建
 
 ### screen
 - [Android Phones Returning Screen.safeArea Incorrectly](https://forum.unity.com/threads/android-phones-returning-screen-safearea-incorrectly.1051514/#post-7684444)
