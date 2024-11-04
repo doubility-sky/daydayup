@@ -31,6 +31,7 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [Githug](https://github.com/Gazler/githug) is designed to give you a practical way of learning git. It has a series of levels, each requiring you to use git commands to arrive at a correct answer.
 - [Git 菜单](https://github.com/geeeeeeeeek/git-recipes): Git recipes in Chinese by Zhongyi Tong. 高质量的Git中文教程. https://geeeeeeeeek.github.io/git-recipes/
 - [Git的奇技淫巧](https://github.com/521xueweihan/git-tips)
+- [Debugging Till Dawn: How Git Bisect Saved My Demo](https://www.mikebuss.com/posts/debugging-till-dawn)
 
 ### commit style
 - `git log --oneline $fromId..$toId`
