@@ -177,11 +177,12 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - clean history and re-init
   ```shell
   git checkout --orphan latest_branch
+  git reset
   git add -A
   git commit -am "init"
-  git branch -D master
-  git branch -m master
-  git push -f origin master
+  git branch -D main
+  git branch -m main
+  git push -f origin main
   ```
 - Push an existing folder
   ```shell
