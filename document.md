@@ -4,6 +4,7 @@
 
 ## Learn
 - [Technical Writing Courses](https://developers.google.com/tech-writing) This collection of courses and learning resources aims to improve your technical documentation. Learn how to plan and author technical documents. You can also learn about the role of technical writers at Google.
+- [On Typesetting Engines: A Programmer's Perspective](https://blog.ppresume.com/posts/on-typesetting-engines) - [排版引擎纵谈：程序员的视角](https://blog.ppresume.com/posts/zh-cn/on-typesetting-engines)
 
 ### standards
 - [中文技术文档的写作规范 - ruanyf](https://github.com/ruanyf/document-style-guide)
