@@ -88,6 +88,8 @@
   adb uninstall com.xxx.xxx
   ```
 - [小米电视使用ADB模式安装软件](https://zhuanlan.zhihu.com/p/374069891)
+  - `关于` 中打开开发者模式
+  - `账号与安全` 中允许 `ADB 调试`
   - 局域网链接 `adb connect 192.168.50.91`
   - 文本输入   `adb shell input text "something very long ...."`
 - [adb: error: failed to read copy response](https://github.com/Genymobile/scrcpy/issues/3241)
