@@ -3,6 +3,7 @@ In computer science, [artificial intelligence](https://en.wikipedia.org/wiki/Art
 
 
 - [[machine-learning]]
+  - [[llm]]
 - [[natural-language-processing]]
 
 
