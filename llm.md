@@ -12,14 +12,38 @@ LLM 的代表性模型包括 OpenAI 的 GPT 系列、Google 的 BERT 和 T5 等�
 
 - [[artificial-intelligence]]
   - [[machine-learning]]
-- [🦁 WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild](https://huggingface.co/spaces/allenai/WildBench)
-- [🏆 Chatbot Arena LLM Leaderboard: Community-driven Evaluation for Best LLM and AI chatbots](https://lmarena.ai/?leaderboard)
 
+
+## Chat Now
+- [ChatGPT](https://chat.openai.com)
+- [Gemini](https://gemini.google.com/)
+- [Microsoft Copilot](https://copilot.microsoft.com/) is your digital companion designed to inform, entertain, and inspire. Using advanced AI, Copilot understands your questions and requests, provides direct answers, assists with writing, and even creates images. It's like having a smart, helpful friend at your fingertips!
+- [Grok](https://x.com/i/grok?focus=1) is an AI developed by xAI, designed to provide helpful and truthful answers to a wide range of questions. 
+- [Duck.ai](https://duck.ai/): Anonymous access to popular AI models, including GPT-4o mini, Claude 3, and open-source Llama 3.3 and Mistral.
+- [Poe](https://poe.com/): The best AI, all in one place
 
 
 ## Learn
 - [Build a Large Language Model (From Scratch)](https://github.com/rasbt/LLMs-from-scratch), Implement a ChatGPT-like LLM in PyTorch from scratch, step by step
+- [Hugging Face](https://huggingface.co/): Transformers, Datasets, Tokenizers, and more
 
+### Ranks
+- [🦁 WildBench: Benchmarking LLMs with Challenging Tasks from Real Users in the Wild](https://huggingface.co/spaces/allenai/WildBench)
+- [🏆 Chatbot Arena LLM Leaderboard: Community-driven Evaluation for Best LLM and AI chatbots](https://lmarena.ai/?leaderboard)
+- [LLM Pricing](https://llmpricecheck.com/): Compare and calculate the latest prices for LLM (Large Language Models) APIs from leading providers such as OpenAI GPT-4, Anthropic Claude, Google Gemini, Mate Llama 3, and more. Use our streamlined LLM Price Check tool to start optimizing your AI budget efficiently today!
+
+
+## Development
+
+### Frameworks
+- [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 应用的框架
+- [LlamaIndex](https://github.com/jerryjliu/llama_index)：数据框架
+- [Transformers](https://github.com/huggingface/transformers)：Hugging Face 的模型库
+
+### Engines
+- [FastChat](https://github.com/lm-sys/FastChat) is an open platform for training, serving, and evaluating large language model based chatbots.
+- [vLLM](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference): A Rust, Python and gRPC server for text generation inference. Used in production at Hugging Face to power Hugging Chat, the Inference API and Inference Endpoint.
 
 
 ## GPT
@@ -34,7 +58,7 @@ GPT (Generative Pre-trained Transformer) 是由 OpenAI 开发的大语言模型�
 - [OpenAI GPT-4](https://openai.com/gpt-4)
 - [GPT-3 论文](https://arxiv.org/abs/2005.14165)
 - [ChatGPT](https://chat.openai.com)
-
+- [OpenAI Platform](https://platform.openai.com/)：API 服务
 
 
 ## [Claude](https://claude.ai/)
@@ -44,9 +68,7 @@ GPT (Generative Pre-trained Transformer) 是由 OpenAI 开发的大语言模型�
 - Continuously enhanced with iterative feedback mechanisms  
 
 
-
 ## Gemini
-
 Gemini 是 Google 在 2023 年推出的多模态大语言模型，被认为是 Google 对 GPT-4 的直接竞争产品。主要特点包括：
 
 1. **多模态理解**：能够同时处理文本、图像、音频和视频等多种形式的输入。
@@ -58,22 +80,6 @@ Gemini 是 Google 在 2023 年推出的多模态大语言模型，被认为是 G
 - [Google Gemini](https://blog.google/technology/ai/google-gemini-ai/)
 - [Google AI Studio](https://makersuite.google.com/)
 - [Gemini API](https://ai.google.dev/)
-
-
-
-## Copilot
-Copilot 是由 GitHub 开发的 AI 编程助手，旨在提高开发者的生产力和代码质量。以下是 Copilot 的一些主要特点：
-
-1. **代码补全**：基于上下文提供智能代码补全建议，帮助开发者快速编写代码。
-2. **多语言支持**：支持多种编程语言，包括 Python、JavaScript、TypeScript、Ruby 等。
-3. **学习和适应**：通过分析开发者的编码风格和项目上下文，提供个性化的建议。
-4. **集成开发环境**：与 Visual Studio Code 等主流 IDE 无缝集成，提升开发体验。
-
-相关资源：
-- [GitHub Copilot](https://github.com/features/copilot)
-- [Copilot 文档](https://docs.github.com/en/copilot)
-- [Copilot 常见问题](https://github.com/github/feedback/discussions/categories/copilot)
-
 
 
 ## LLaMA
@@ -90,17 +96,12 @@ LLaMA 的推出为自然语言处理领域提供了新的工具和方法，进�
 - [LLaMA 官方文档](https://ai.facebook.com/research/publications/llama)
 - [LLaMA 论文](https://arxiv.org/abs/2302.13971)
 - [LLaMA 模型下载](https://github.com/facebookresearch/llama)
-
-### tools
-- [llama.cpp](https://github.com/ggerganov/llama.cpp)
-- [ollama](https://github.com/ollama/ollama)
-
+- [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference of Meta's [LLaMA](https://arxiv.org/abs/2302.13971) model (and others) in pure C/C++
 
 
 ## [Grok](https://x.ai/grok)
 Grok is a fresh creation by x.ai, designed with a playful spirit and a knack for keen language insights. 
 It delivers engaging text outputs with surprising originality, making it a smart choice for anyone looking to elevate their content generation process.
-
 
 
 ## [DeepSeek](https://www.deepseek.com/)
@@ -112,35 +113,55 @@ DeepSeek, unravel the mystery of AGI with curiosity. Answer the essential questi
 - [Awesome DeepSeek Integrations](https://github.com/deepseek-ai/awesome-deepseek-integration)
 
 
+## API 
+- [One API](https://github.com/songquanpeng/one-api), LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.
 
-## [SiliconFlow](https://siliconflow.cn/)
-SiliconCloud 基于优秀的开源基础模型，提供高性价比的 GenAI 服务。
+### Providers
+- [OpenRouter](https://openrouter.ai/), Discover and use the latest LLMs. 300+ models, explorable data, private chat, & a unified API.
+- [SiliconFlow](https://siliconflow.cn/), SiliconCloud 基于优秀的开源基础模型，提供高性价比的 GenAI 服务。
+   - [使用手册](https://docs.siliconflow.cn)
 
-- [使用手册](https://docs.siliconflow.cn)
 
+## AI for Programming
+
+### GitHub Copilot
+Copilot 是由 GitHub 开发的 AI 编程助手，旨在提高开发者的生产力和代码质量。以下是 Copilot 的一些主要特点：
+
+1. **代码补全**：基于上下文提供智能代码补全建议，帮助开发者快速编写代码。
+2. **多语言支持**：支持多种编程语言，包括 Python、JavaScript、TypeScript、Ruby 等。
+3. **学习和适应**：通过分析开发者的编码风格和项目上下文，提供个性化的建议。
+4. **集成开发环境**：与 Visual Studio Code 等主流 IDE 无缝集成，提升开发体验。
+
+相关资源：
+- [GitHub Copilot](https://github.com/features/copilot)
+- [Copilot 文档](https://docs.github.com/en/copilot)
+- [Copilot 常见问题](https://github.com/github/feedback/discussions/categories/copilot)
 
 
 ## Tools
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app you were looking for.
+Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
 
-### 开发框架
-   - [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 应用的框架
-   - [LlamaIndex](https://github.com/jerryjliu/llama_index)：数据框架
-   - [Transformers](https://github.com/huggingface/transformers)：Hugging Face 的模型库
+### Local Deployment
+- [LM Studio](https://lmstudio.ai/): Discover, download, and run local LLMs
+- [ollama](https://github.com/ollama/ollama): Get up and running with large language models. Run Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2, and other models, locally. 
+   - Ollama is a simple, easy-to-use tool for running large language models on your own machine. It supports a variety of models, including GPT-3, GPT-4, and more.
 
-### 部署工具
-   - [vLLM](https://github.com/vllm-project/vllm)：高性能推理引擎
-   - [Text Generation Inference](https://github.com/huggingface/text-generation-inference)
-   - [FastChat](https://github.com/lm-sys/FastChat)
+### Desktop Client
+- [Chatbox](https://github.com/Bin-Huang/chatbox) is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux
+- [🍒 Cherry Studio](https://github.com/CherryHQ/cherry-studio) is a desktop client that supports for multiple LLM providers. Support deepseek-r1
 
-### 开发平台
-   - [Hugging Face](https://huggingface.co/)：模型托管和分享平台
-   - [OpenAI Platform](https://platform.openai.com/)：API 服务
-   - [Claude](https://claude.ai)：Anthropic 的 AI 助手
+### Web Client
+- [Open WebUI](https://github.com/open-webui/open-webui) is an extensible, feature-rich, and user-friendly self-hosted AI platform designed to operate entirely offline. 
+It supports various LLM runners like Ollama and OpenAI-compatible APIs, with built-in inference engine for RAG, making it a powerful AI deployment solution.
+- [Page Assist](https://github.com/n4ze3m/page-assist) is an open-source browser extension that provides a sidebar and web UI for your local AI model. It allows you to interact with your model from any webpage.
 
+### Others
+- [DeepAI](https://deepai.org)
+- [AI Dungeon](https://play.aidungeon.io)
 
 
 ## FAQs
-
 1. **如何选择合适的 LLM？**
    - 考虑因素：计算资源、隐私需求、特定任务性能、成本等
    
@@ -150,7 +171,6 @@ SiliconCloud 基于优秀的开源基础模型，提供高性价比的 GenAI 服
 3. **开源模型与闭源模型如何选择？**
    - 开源优势：可定制、本地部署、成本可控
    - 闭源优势：性能稳定、维护成本低、即用即得
-
 
 
 ## Resources
