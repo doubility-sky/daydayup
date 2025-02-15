@@ -12,6 +12,7 @@ An [operating system](https://en.wikipedia.org/wiki/Operating_system) (OS) is sy
 - [os-tutorial](https://github.com/cfenollosa/os-tutorial) How to create an OS from scratch
 - [How to Make a Computer Operating System in C++](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System) https://samypesse.gitbook.io/how-to-create-an-operating-system
 - [ucore_os_lab](https://github.com/chyyuu/ucore_os_lab) os kernel labs for operating systems course in Tsinghua University.
+- [Writing an Operating System in 1,000 Lines](https://github.com/nuta/operating-system-in-1000-lines)
 
 
 
