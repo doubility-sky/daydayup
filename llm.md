@@ -12,15 +12,13 @@ LLM 的代表性模型包括 OpenAI 的 GPT 系列、Google 的 BERT 和 T5 等�
 
 - [[artificial-intelligence]]
   - [[machine-learning]]
-
-
-## Chat Now
-- [ChatGPT](https://chat.openai.com)
-- [Gemini](https://gemini.google.com/)
-- [Microsoft Copilot](https://copilot.microsoft.com/) is your digital companion designed to inform, entertain, and inspire. Using advanced AI, Copilot understands your questions and requests, provides direct answers, assists with writing, and even creates images. It's like having a smart, helpful friend at your fingertips!
-- [Grok](https://x.com/i/grok?focus=1) is an AI developed by xAI, designed to provide helpful and truthful answers to a wide range of questions. 
-- [Duck.ai](https://duck.ai/): Anonymous access to popular AI models, including GPT-4o mini, Claude 3, and open-source Llama 3.3 and Mistral.
-- [Poe](https://poe.com/): The best AI, all in one place
+- Chat Now
+  - [ChatGPT](https://chat.openai.com)
+  - [Gemini](https://gemini.google.com/)
+  - [Microsoft Copilot](https://copilot.microsoft.com/) is your digital companion designed to inform, entertain, and inspire. Using advanced AI, Copilot understands your questions and requests, provides direct answers, assists with writing, and even creates images. It's like having a smart, helpful friend at your fingertips!
+  - [Grok](https://x.com/i/grok?focus=1) is an AI developed by xAI, designed to provide helpful and truthful answers to a wide range of questions. 
+  - [Duck.ai](https://duck.ai/): Anonymous access to popular AI models, including GPT-4o mini, Claude 3, and open-source Llama 3.3 and Mistral.
+  - [Poe](https://poe.com/): The best AI, all in one place
 
 
 ## Learn
@@ -36,14 +34,19 @@ LLM 的代表性模型包括 OpenAI 的 GPT 系列、Google 的 BERT 和 T5 等�
 ## Development
 
 ### Frameworks
-- [LangChain](https://github.com/langchain-ai/langchain)：构建 LLM 应用的框架
-- [LlamaIndex](https://github.com/jerryjliu/llama_index)：数据框架
-- [Transformers](https://github.com/huggingface/transformers)：Hugging Face 的模型库
+- [LangChain](https://github.com/langchain-ai/langchain) is a framework for developing applications powered by large language models (LLMs).
+- [LlamaIndex](https://github.com/jerryjliu/llama_index) is the leading framework for building LLM-powered agents over your data.
+- [Dify](https://github.com/langgenius/dify) is an open-source LLM app development platform. Its intuitive interface combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
 
 ### Engines
 - [FastChat](https://github.com/lm-sys/FastChat) is an open platform for training, serving, and evaluating large language model based chatbots.
 - [vLLM](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
 - [Text Generation Inference](https://github.com/huggingface/text-generation-inference): A Rust, Python and gRPC server for text generation inference. Used in production at Hugging Face to power Hugging Chat, the Inference API and Inference Endpoint.
+
+### Local Deployment
+- [LM Studio](https://lmstudio.ai/): Discover, download, and run local LLMs
+- [ollama](https://github.com/ollama/ollama): Get up and running with large language models. Run Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2, and other models, locally. 
+   - Ollama is a simple, easy-to-use tool for running large language models on your own machine. It supports a variety of models, including GPT-3, GPT-4, and more.
 
 
 ## GPT
@@ -139,13 +142,7 @@ Copilot 是由 GitHub 开发的 AI 编程助手，旨在提高开发者的生产
 
 
 ## Tools
-- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app you were looking for.
-Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
-
-### Local Deployment
-- [LM Studio](https://lmstudio.ai/): Discover, download, and run local LLMs
-- [ollama](https://github.com/ollama/ollama): Get up and running with large language models. Run Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2, and other models, locally. 
-   - Ollama is a simple, easy-to-use tool for running large language models on your own machine. It supports a variety of models, including GPT-3, GPT-4, and more.
+- [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
 
 ### Desktop Client
 - [Chatbox](https://github.com/Bin-Huang/chatbox) is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux
@@ -174,6 +171,7 @@ It supports various LLM runners like Ollama and OpenAI-compatible APIs, with bui
 
 
 ## Resources
+- [🤗 Transformers](https://github.com/huggingface/transformers) provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
 - [awesome-LLM](https://github.com/Hannibal046/Awesome-LLM): A curated list of large language model resources and tools
 - [awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): Prompt examples for ChatGPT
