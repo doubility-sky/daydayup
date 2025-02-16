@@ -15,7 +15,7 @@
   - [[virus]]
 - [[artificial-intelligence]]
   - [[machine-learning]]
-    - [[llm]]
+    - [[llm]], [[aigc]]
   - [[natural-language-processing]]
 - [[computer-graphics]]
 

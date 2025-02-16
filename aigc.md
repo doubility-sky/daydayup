@@ -3,8 +3,8 @@
 [AI-Generated Content](https://en.wikipedia.org/wiki/Artificial_intelligence_in_art) (AIGC) refers to any content created or modified using artificial intelligence technologies.
 
 - [[artificial-intelligence]]
-  - [[generative-ai]]
   - [[machine-learning]]
+    - [[llm]]
 
 ## Text
 - [[llm|Large Language Models]]
