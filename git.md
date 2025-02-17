@@ -93,6 +93,34 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 - [🦄 Sourcerer app](https://github.com/sourcerer-io/sourcerer-app) makes a visual profile from your GitHub and git repositories.
 - [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)⚡ Dynamically generated stats for your github readmes
 
+### FAQs
+- [Using SSH over the HTTPS port](https://docs.github.com/en/authentication/troubleshooting-ssh/using-ssh-over-the-https-port)
+  - Sometimes, firewalls refuse to allow SSH connections entirely. If using HTTPS cloning with credential caching is not an option, you can attempt to clone using an SSH connection made over the HTTPS port. Most firewall rules should allow this, but proxy servers may interfere.
+  - [规避代理 22 端口被禁用的问题](https://blog.zjuyk.site/notes/%E8%A7%A3%E5%86%B3%E6%9C%BA%E5%9C%BA%E7%A6%81%E7%94%A8-22-%E7%AB%AF%E5%8F%A3%E5%AF%BC%E8%87%B4-github-%E6%97%A0%E6%B3%95-ssh-%E9%97%AE%E9%A2%98/)
+
+
+
+## Self-hosted
+
+### [Gitlab](https://about.gitlab.com/)
+- [GitLab architecture](https://docs.gitlab.com/ee/development/architecture.html)
+- [Running GitLab in a memory-constrained environment](https://docs.gitlab.com/omnibus/settings/memory_constrained_envs.html)
+- 自建 Docker 版本，端口映射内外不一致时（容器内部端口为默认）， 项目页面点击 `clone` 按钮后的 URL 展示问题
+  - 假设：`--publish 8443:443 --publish 8080:80 --publish 8022:22`
+  - 编辑配置 `vi /etc/gitlab/gitlab.rb` 
+  - 选项 `Clone with SSH` 下的 URL
+    - `gitlab_rails['gitlab_shell_ssh_port'] = 8022`
+  - 选项 `Clone with HTTP[S]` 下的 URL
+    - 修改 `external_url` 并带上端口（如果 docker 启动时未设置正确的话）
+    - 重写 `nginx['listen_port'] = 80`（如不重写此端口，将会根据 `external_url` 改变监听端口）
+  - `gitlab-ctl reconfigure`
+- [Alternative SSH port](https://docs.gitlab.com/user/gitlab_com/#alternative-ssh-port): GitLab.com can be reached by using a different SSH port for git+ssh.
+
+### others
+- [Gogs](https://github.com/gogs/gogs) is a painless self-hosted Git service https://gogs.io
+- [gitea](https://github.com/go-gitea/gitea) Git with a cup of tea, painless self-hosted git service https://gitea.io
+- [onedev](https://github.com/theonedev/onedev) Super Easy All-In-One DevOps Platform
+
 
 
 ## Tools
@@ -111,23 +139,6 @@ Git comes with built-in GUI tools for committing (git-gui) and browsing (gitk), 
 ### collaborate
 - [Gitalk](https://github.com/gitalk/gitalk) is a modern comment component based on Github Issue and Preact.
 - [git-bug](https://github.com/MichaelMure/git-bug): Distributed, offline-first bug tracker embedded in git, with bridges
-
-### self-hosted
-- [Gitlab](https://about.gitlab.com/), 可自建的Git服务器，web可视化界面、操作便捷，适合公司/团体使用
-  - [GitLab architecture](https://docs.gitlab.com/ee/development/architecture.html)
-  - [Running GitLab in a memory-constrained environment](https://docs.gitlab.com/omnibus/settings/memory_constrained_envs.html)
-  - 自建 Docker 版本，端口映射内外不一致时（容器内部端口为默认）， 项目页面点击 `clone` 按钮后的 URL 展示问题
-    - 假设：`--publish 8443:443 --publish 8080:80 --publish 8022:22`
-    - 编辑配置 `vi /etc/gitlab/gitlab.rb` 
-    - 选项 `Clone with SSH` 下的 URL
-      - `gitlab_rails['gitlab_shell_ssh_port'] = 8022`
-    - 选项 `Clone with HTTP[S]` 下的 URL
-      - 修改 `external_url` 并带上端口（如果 docker 启动时未设置正确的话）
-      - 重写 `nginx['listen_port'] = 80`（如不重写此端口，将会根据 `external_url` 改变监听端口）
-    - `gitlab-ctl reconfigure`
-- [Gogs](https://github.com/gogs/gogs) is a painless self-hosted Git service https://gogs.io
-- [gitea](https://github.com/go-gitea/gitea) Git with a cup of tea, painless self-hosted git service https://gitea.io
-- [onedev](https://github.com/theonedev/onedev) Super Easy All-In-One DevOps Platform
 
 ### others
 - [Gource](https://github.com/acaudwell/Gource) is a visualization tool for source control repositories.
