@@ -88,10 +88,11 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 
 ### hostname
 - `hostnamectl set-hostname XXXX`
-- `hostname XXXX` 临时修改主机名为 XXXX
-- `vi /etc/hostname` 永久修改主机名
-  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
+  - `hostname XXXX` 临时修改主机名为 XXXX
+  - `vi /etc/hostname` 永久修改主机名
+- 其他云主机相关
   - `vi /etc/hosts` 添加新主机名回环地址映射
+  - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
 
 ### [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
 - 1 切换显示各逻辑CPU状况
