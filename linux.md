@@ -132,20 +132,29 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 ### [rsync](https://en.wikipedia.org/wiki/Rsync)
 Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
 - [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
-  - `rsync -avP SRC DEST` 将 SRC 内容递归复制到 DEST/SRC（不存在则创建）
-  - `rsync -avP SRC/ DEST` 将 SRC 内容递归复制到 DEST（不存在则创建）
-  - `rsync -avP SRC1 SRC2 ... SRCn DEST` 将 SRC1 ... SRCn 内容递归复制到 DEST/SRC1 ... DEST/SRCn（不存在则创建）
-  - `rsync -avP --exclude '.*' SRC/ DEST` 排除隐藏文件 `.*`
-  - `rsync -avP --exclude={'f1.txt','f2.txt'} SRC/ DEST` 多个排除选项
-  - ~~`rsync -avP --include="*.lua" --exclude='*' SRC/ DEST`~~ 仅复制指定文件，需配合 exclude
-    - `rsync -avP --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
+- 将 `SRC` 目录同步至 `DEST/SRC`（不存在则创建）：`rsync -av SRC  DEST`
+- 将 `SRC` 目录同步至 `DEST    `（不存在则创建）：`rsync -av SRC/ DEST`
+  - `-a`/`--archive` 存档模式，保存所有的元数据
+  - `-v` 输出细节。`-vv` 输出更详细的信息，`-vvv` 输出最详细的信息。
+- 将 `SRC` 目录镜像至 `DEST`：`rsync -av --delete SRC/ DEST`
+- 将 `SRC1 ... SRCn` 同步至 `DEST/SRC1 ... DEST/SRCn`（不存在则创建）
+  - `rsync -av SRC1 SRC2 ... SRCn DEST`
+- **exclude**
+  - 将 `SRC` 目录同步至 `DEST`，且排除隐藏文件 `.*`
+    - `rsync -av --exclude '.*' SRC/ DEST`
+  - 将 `SRC` 目录同步至 `DEST`，且有多个排除选项
+    - `rsync -av --exclude={'f1.txt','f2.txt'} SRC/ DEST`
+- **include** 一般需配合 exclude 使用
+  - ~~`rsync -av --include="*.lua" --exclude='*' SRC/ DEST`~~ 仅复制指定文件
+    - `rsync -av --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
     - 详见：[rsync copy over only certain types of files using include option](https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option)
-  - `rsync -avP --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
-  - `rsync -avP --delete SRC/ DEST` 复制并删除 DEST 中，不存在于 SRC 中的文件（即：镜像同步）
+  - `rsync -av --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
 - 用 ssh key 同步远程主机文件
-  - `rsync -avzP -e "ssh -i ~/sshkey.pem" USER@xx.xxx.xx.xxx:Projects/sample.csv ~/sample.csv`
+  - `rsync -avzP -e "ssh -i ~/sshkey.pem" user@IP:xxx/sample.csv ~/sample.csv`
 - 设置 ssh config 后，操作基本同 [SCP](#SCP)，详见 [SSH](#SSH)
-  - 例如：`rsync -avP SRC REMOTE:/var/www/html`
+  - 同步 xxx 至 $REMOTE:/var/www/html/xxx
+    - `rsync -avzP xxx $REMOTE:/var/www/html`
+      - 压缩传输(-z), 显示进度(-P)
 
 ### tar
 - `tar -zcvf xxx.tar.gz [FILE]...`
