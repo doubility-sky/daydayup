@@ -149,9 +149,7 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
     - `rsync -av --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
     - 详见：[rsync copy over only certain types of files using include option](https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option)
   - `rsync -av --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
-- 用 ssh key 同步远程主机文件
-  - `rsync -avzP -e "ssh -i ~/sshkey.pem" user@IP:xxx/sample.csv ~/sample.csv`
-- 设置 ssh config 后，操作基本同 [SCP](#SCP)，详见 [SSH](#SSH)
+- 设置 [ssh](#SSH) config 后，操作基本同 [scp](#SCP)
   - 同步 xxx 至 $REMOTE:/var/www/html/xxx
     - `rsync -avzP xxx $REMOTE:/var/www/html`
       - 压缩传输(-z), 显示进度(-P)
