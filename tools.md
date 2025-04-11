@@ -1,9 +1,8 @@
 
+- version control system: [[git]], [[svn]]
 - [[build]] tools
-- development [[document]] tools
 - [[testing]] tools
 - [[profile]] tools
-- version control system: [[git]], [[svn]]
 - [[multimedia]] tools
 
 
