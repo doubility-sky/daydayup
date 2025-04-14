@@ -4,7 +4,7 @@
 ## Introduction
 - 感谢郭嘉
 - 积累，交流，进步，自由
-- 点击本页右上方按钮 :star:`Star`，:sailboat:驶向星辰大海:milky_way:！
+- 点击本页右上方按钮 :star:`Star`，驶向星辰大海！
 - 项目 [repo](https://github.com/doubility-sky/daydayup.git) 和本 wiki 基本同步
 
 
