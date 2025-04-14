@@ -62,6 +62,7 @@
 
 #### jpg/jpeg
 - [jpeg-archive](https://github.com/danielgtaylor/jpeg-archive) Utilities for archiving JPEGs for long term storage.
+- [Merge JPG](https://imageonline.co/merge-jpg.php) - Free online tool
 
 #### png
 - [Crunch](https://github.com/chrissimpkins/Crunch) Insane(ly slow but wicked good) PNG image optimization

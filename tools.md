@@ -79,3 +79,11 @@
 ## SAAS
 - [Atarity/deploy-your-own-saas](https://github.com/Atarity/deploy-your-own-saas) List of "only yours" cloud services for everyday needs
 - [discount-for-student-dev](https://github.com/AchoArnold/discount-for-student-dev) This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students
+
+
+
+## Toolkit
+- [帮小忙](https://tool.browser.qq.com/)
+- [ToolOnline.net](https://toolonline.net/)
+- [在线工具](https://tool.lu/)
+- [OnlineToolsBook](https://github.com/zhaoolee/OnlineToolsBook)
