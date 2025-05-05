@@ -5,13 +5,12 @@
 - [[stock]]
 - [[blockchain]]
 
+
 ## Learn
 - [Quantitative Trading - An Introduction](https://www.investopedia.com/articles/trading/06/algorithmictrading.asp) - Investopedia关于量化交易的介绍
 - [Quantitative Trading: How to Build Your Own Algorithmic Trading Business](https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064/) - Ernie Chan著作的经典入门书籍
 - [Machine Learning for Trading](https://www.oreilly.com/library/view/machine-learning-for/9781492053354/) - 应用机器学习于量化交易
 - [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089) - Marcos Lopez de Prado的金融机器学习前沿著作
-
-## Practice
 - [Algorithmic Trading Strategies](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp) - 算法交易策略基础
 - [Backtesting](https://www.investopedia.com/terms/b/backtesting.asp) - 回测策略方法论
 - [Risk Management](https://www.investopedia.com/articles/trading/11/risk-management-techniques.asp) - 风险管理技术
@@ -28,25 +27,19 @@
 - [GARCH Models](https://arch.readthedocs.io/en/latest/univariate/introduction.html) - GARCH波动率模型介绍
 - [Factor Models](https://www.investopedia.com/terms/m/multifactor-model.asp) - 多因子模型解析
 
+
 ## Tools
+
+### Libraries
+- [QuantLib](https://www.quantlib.org/) - 金融量化分析的C++库
+
+### Frameworks
+- [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+
+### Platforms
 - [QuantConnect](https://www.quantconnect.com/) - 开源的算法交易平台
-- [Zipline](https://github.com/quantopian/zipline) - Quantopian开源的Python算法交易库
-- [BackTrader](https://github.com/backtrader/backtrader) - Python回测框架
-- [Pandas TA](https://github.com/twopirllc/pandas-ta) - Python技术分析库
+- [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
 
-### Data Science Libraries
-- [NumPy](https://numpy.org/) - 科学计算基础包
-- [pandas](https://pandas.pydata.org/) - 数据分析和操作工具
-- [SciPy](https://scipy.org/) - 算法和数学工具包
-- [scikit-learn](https://scikit-learn.org/) - 机器学习库
-- [TensorFlow](https://www.tensorflow.org/) - 深度学习框架
-- [PyTorch](https://pytorch.org/) - 深度学习框架
-
-### Development Tools
-- [Jupyter Notebook](https://jupyter.org/) - 交互式编程环境
-- [Git](https://git-scm.com/) - 版本控制系统
-- [Docker](https://www.docker.com/) - 容器化部署
-- [Airflow](https://airflow.apache.org/) - 工作流调度
 
 ## FAQs
 - [量化交易和传统交易有什么区别？](https://www.investopedia.com/articles/active-trading/112614/high-frequency-traders-not-market-makers.asp) - 量化与传统交易方法的对比
@@ -55,6 +48,7 @@
 - [回测结果与实盘差异大怎么办？](https://www.quantstart.com/articles/Why-Backtesting-is-Not-Enough-for-Algorithmic-Trading-Success/) - 回测与实盘差异的原因分析
 - [如何获取高质量的金融数据？](https://blog.quantinsti.com/data-science-resources-algorithmic-traders/) - 金融数据来源和处理方法
 - [量化策略失效的常见原因是什么？](https://www.aqr.com/Insights/Research/Journal-Article/Challenges-of-Implementing-Tactical-Alpha) - 策略失效分析
+
 
 ## Resources
 - [Quantopian - Lectures](https://github.com/quantopian/research_public) - Quantopian公司的研究代码库

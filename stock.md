@@ -4,6 +4,7 @@
 - [[trading]]
 - [[quant]]
 
+
 ## Learn
 - [A Random Walk Down Wall Street](https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338) - Burton G. Malkiel的经典著作
 - [The Intelligent Investor](https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661) - Benjamin Graham的价值投资经典
@@ -15,7 +16,6 @@
 - [Stock Market Indexes](https://www.investopedia.com/terms/i/index.asp) - 股票市场指数介绍
 - [IPO Process](https://www.investopedia.com/terms/i/ipo.asp) - 首次公开募股流程
 
-## Practice
 ### Analysis Methods
 - [Fundamental Analysis](https://www.investopedia.com/terms/f/fundamentalanalysis.asp) - 基本面分析介绍
 - [Technical Analysis](https://www.investopedia.com/terms/t/technicalanalysis.asp) - 技术分析介绍
@@ -34,7 +34,9 @@
 - [Financial Modeling in Excel](https://corporatefinanceinstitute.com/resources/excel/financial-modeling-best-practices/) - Excel金融建模
 - [Web Scraping for Stock Data](https://realpython.com/python-web-scraping-practical-introduction/) - 网络爬虫获取股票数据
 
+
 ## Tools
+
 ### Research Platforms
 - [Yahoo Finance](https://finance.yahoo.com/) - 股票数据和新闻
 - [Bloomberg](https://www.bloomberg.com/) - 专业金融信息服务
@@ -60,6 +62,7 @@
 - [D3.js](https://d3js.org/) - JavaScript数据可视化库
 - [Tableau](https://www.tableau.com/) - 商业智能和数据可视化工具
 
+
 ## FAQs
 - [股票和债券的区别？](https://www.investopedia.com/ask/answers/033015/what-difference-between-bonds-and-stocks.asp) - 股票代表公司所有权，债券代表债务
 - [如何评估股票价值？](https://www.investopedia.com/articles/fundamental-analysis/09/elements-stock-value.asp) - 股票估值的基本方法
@@ -68,6 +71,7 @@
 - [什么是股票分割？](https://www.investopedia.com/terms/s/stocksplit.asp) - 股票分割解释及影响
 - [如何阅读公司财务报表？](https://www.investopedia.com/articles/basics/06/financialreporting.asp) - 解读财务报表的要点
 - [算法交易如何影响股票市场？](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp) - 算法交易对股市的影响
+
 
 ## Resources
 - [Investopedia Stock Basics](https://www.investopedia.com/investing/investing-basics/) - 股票投资基础知识
@@ -83,7 +87,6 @@
 - [OpenBB Terminal](https://github.com/OpenBB-finance/OpenBBTerminal) - 投资研究平台开源替代品
 - [FinanceDatabase](https://github.com/JerBouma/FinanceDatabase) - 分类金融工具数据库
 - [StockSharp](https://github.com/StockSharp/StockSharp) - 开源交易平台
-- [Zipline](https://github.com/quantopian/zipline) - 算法交易库
 
 ### Communities
 - [r/stocks](https://www.reddit.com/r/stocks/) - Reddit股票讨论社区

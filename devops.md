@@ -62,6 +62,8 @@ In software engineering, continuous integration (CI) is the practice of merging 
 
 ## [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment) (CD)
 - [Ansible](./ansible), Ansible is a suite of software tools that enables infrastructure as code. It is open-source and the suite includes software provisioning, configuration management, and application deployment functionality.
+- [Apache Airflow®](https://airflow.apache.org/) is a platform created by the community to programmatically author, schedule and monitor workflows.
+
 
 ## Tools
 - [free-for.dev](https://github.com/ripienaar/free-for-dev) A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev 
