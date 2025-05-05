@@ -1,6 +1,7 @@
 [Trading](https://www.investopedia.com/terms/t/trading.asp) is the buying and selling of securities, such as stocks, bonds, currencies and commodities, on financial markets with the objective of generating returns that outperform buy-and-hold investing. Trading strategies often utilize technical analysis, chart patterns, and various market indicators to make decisions.
 
 - [[finance]]
+- [[stock]]
 - [[quant]]
 
 ## Learn

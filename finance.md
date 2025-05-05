@@ -1,18 +1,16 @@
 [Finance](https://en.wikipedia.org/wiki/Finance) is the study and discipline of money, currency and capital assets. It is related to, but not synonymous with economics, which is the study of production, distribution, and consumption of goods and services. Finance activities include banking, leverage or debt, credit, capital markets, money, investments, and the creation and oversight of financial systems.
 
-- [[quant]]
 - [[trading]]
 - [[stock]]
 - [[blockchain]]
   - [[bitcoin]]
   - [[ethereum]]
   - [[fnfn]]
+- [[quant]]
 
 ## Learn
-- [Financial Market](https://www.investopedia.com/terms/f/financial-market.asp) - Investopedia关于金融市场的基础知识
-- [Corporate Finance](https://www.investopedia.com/terms/c/corporatefinance.asp) - 公司金融基础知识
-- [Personal Finance For Dummies](https://www.amazon.com/Personal-Finance-Dummies-Eric-Tyson/dp/1119517893) - 个人理财入门书籍
-- [The Intelligent Investor](https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661) - Benjamin Graham的投资经典著作
+- [Financial Markets](https://www.investopedia.com/terms/f/financial-market.asp): Role in the Economy, Importance, Types, and Examples
+- [Corporate Finance](https://www.investopedia.com/terms/c/corporatefinance.asp): Definition and Activities
 
 ### Financial Theories
 - [Modern Portfolio Theory](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) - 现代投资组合理论

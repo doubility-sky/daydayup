@@ -2,6 +2,7 @@
 
 - [[finance]]
 - [[trading]]
+- [[quant]]
 
 ## Learn
 - [A Random Walk Down Wall Street](https://www.amazon.com/Random-Walk-Down-Wall-Street/dp/0393330338) - Burton G. Malkiel的经典著作

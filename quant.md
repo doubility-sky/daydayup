@@ -1,6 +1,9 @@
 [Quantitative Trading](https://en.wikipedia.org/wiki/Quantitative_trading) is a trading strategy that relies on mathematical and statistical models to identify and execute opportunities. It utilizes quantitative analysis, algorithmic trading systems, and often high-frequency approaches to implement trading strategies.
 
 - [[finance]]
+- [[trading]]
+- [[stock]]
+- [[blockchain]]
 
 ## Learn
 - [Quantitative Trading - An Introduction](https://www.investopedia.com/articles/trading/06/algorithmictrading.asp) - Investopedia关于量化交易的介绍
