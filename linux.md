@@ -232,6 +232,8 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `vi /etc/ssh/sshd_config`
   - `PasswordAuthentication no`
   - `service sshd restart`
+- 创建合作伙伴的 SSH 账号
+  - sudo adduser --shell /usr/sbin/nologin partner_tunnel_user
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)
 - [ssh 鲜为人知的三种用法](https://www.yanxurui.cc/posts/tool/2017-07-14-ssh-port-forward/)

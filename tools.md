@@ -82,6 +82,18 @@
 
 
 
+## Share
+
+### File Server
+- `python -m http.server` - Python 3.x
+  - `python -m SimpleHTTPServer` - Python 2.x
+- [gohttpserver](https://github.com/codeskyblue/gohttpserver) - The best HTTP Static File Server, write with golang+vue
+
+### File Transfer
+- [localsend](https://github.com/localsend/localsend) - An open-source cross-platform alternative to AirDrop
+
+
+
 ## Toolkit
 - [帮小忙](https://tool.browser.qq.com/)
 - [ToolOnline.net](https://toolonline.net/)

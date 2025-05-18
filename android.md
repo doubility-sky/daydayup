@@ -67,6 +67,7 @@
   - [最近碰到的接微信支付引起的坑爹问题](https://www.cnblogs.com/lbfamous/p/5144425.html)
 - [网易MuMu模拟器MacOS环境连接调试](https://www.jianshu.com/p/9e6fc03705f3)
   - `adb connect 127.0.0.1:22471`
+  - `adb kill-server && adb server && adb devices`
 - [AndroidStudio 代码全红，但可正常运行解决方法及解决后续代理的问题](https://blog.csdn.net/liujie33852964/article/details/80590554)
   - File -> Invalidate Caches/Restart...
 - [Error type 3 Error: Activity class {} does not exist](https://stackoverflow.com/questions/20915266/error-type-3-error-activity-class-does-not-exist)
