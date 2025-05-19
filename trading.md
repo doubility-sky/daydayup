@@ -84,6 +84,7 @@
 - [Trading Technologies](https://www.tradingtechnologies.com/) - 专业交易软件
 - [MetaTrader](https://www.metatrader4.com/) - 流行的外汇和CFD交易平台
 - [Interactive Brokers](https://www.interactivebrokers.com/) - 专业交易者的经纪平台
+- [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) - This is a proof of concept for an AI-powered hedge fund. The goal of this project is to explore the use of AI to make trading decisions. This project is for educational purposes only and is not intended for real trading or investment.
 
 ### Libraries
 - [Alpaca-py](https://github.com/alpacahq/alpaca-py) - Python股票交易API
@@ -93,14 +94,19 @@
 
 ### Crypto Currency
 - [CCXT](https://github.com/ccxt/ccxt) – CryptoCurrency eXchange Trading Library
-- [Catalyst](https://github.com/enigmampc/catalyst) - 加密货币算法交易库
+- [Freqtrade](https://github.com/freqtrade/freqtrade) is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+- [Hummingbot](https://github.com/hummingbot/hummingbot) is an open-source framework that helps you design and deploy automated trading strategies, or bots, that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues.
+- [Gekko](https://github.com/askmike/gekko) - 比特币交易机器人
 
 ### Frameworks
-- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
+- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
+- [Jesse](https://github.com/jesse-ai/jesse) is an advanced crypto trading framework that aims to simplify researching and defining YOUR OWN trading strategies for backtesting, optimizing, and live trading.
 - [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 
 ### Backtesting
-- [backtrader](https://github.com/backtrader/backtrader) - Python交易策略回测
+- [Backtesting.py](https://github.com/kernc/backtesting.py) - Backtest trading strategies with Python.
+- [backtrader](https://github.com/backtrader/backtrader) - Python Backtesting library for trading strategies
 - [bt](https://github.com/pmorissette/bt) - Flexible Backtesting for Python
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) is a Python based library that enables you to analyze market data and also to backtest trading strategies using a simple to use API, which has prebuilt templates for you to define backtest.
 
@@ -126,12 +132,6 @@
 - [Babypips](https://www.babypips.com/) - 外汇交易学校
 - [Quantopian - Lectures](https://github.com/quantopian/research_public) - Quantopian公司的研究代码库
 - [awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 优秀量化交易资源列表
-
-### Open Source Trading Projects
-- [freqtrade](https://github.com/freqtrade/freqtrade) - 免费开源加密货币交易机器人
-- [Jesse](https://github.com/jesse-ai/jesse) - 先进的加密货币交易框架
-- [bfx-hf-algo](https://github.com/bitfinexcom/bfx-hf-algo) - Bitfinex算法订单框架
-- [Gekko](https://github.com/askmike/gekko) - 比特币交易机器人
 
 ### Open Data
 - [Yahoo Finance](https://finance.yahoo.com/) - 免费金融数据
