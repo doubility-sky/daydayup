@@ -102,6 +102,7 @@
 - [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
 - [Jesse](https://github.com/jesse-ai/jesse) is an advanced crypto trading framework that aims to simplify researching and defining YOUR OWN trading strategies for backtesting, optimizing, and live trading.
 - [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+- [Qbot](https://github.com/UFund-Me/Qbot) is an AI-oriented automated quantitative investment platform, which aims to realize the potential, empower AI technologies in quantitative investment. Qbot supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL.
 - [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 
 ### Backtesting
