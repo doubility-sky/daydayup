@@ -259,7 +259,8 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 - [How to Keep SSH Session Alive](https://linuxiac.com/how-to-keep-ssh-session-alive/)
 - [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ... https://mosh.org/
   - Mosh will log the user in via SSH, then start a connection on a UDP port between 60000 and 61000.
-  - install `mosh` on both client and server side. let server `ufw allow 60000:61000/udp`
+  - install `mosh` on both client and server side. 
+  - let server `ufw allow 60000:61000/udp` and run mosh-server.
 - [GlobalSSH](https://docs.ucloud.cn/pathx/globalssh) 是一款致力于提高跨国远程管理服务器效率的产品，旨在解决由于跨国网络不稳定导致的远程管理出现的卡顿、连接失败、传输速度较慢等现象。本产品可极大程度的减少卡顿、连接失败的情况发生，提高运维工作的效率。
 
 ### [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol)
