@@ -232,8 +232,21 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
   - `vi /etc/ssh/sshd_config`
   - `PasswordAuthentication no`
   - `service sshd restart`
-- 创建合作伙伴的 SSH 账号
-  - sudo adduser --shell /usr/sbin/nologin partner_tunnel_user
+- 创建 SSH 账号，仅供打开 SSH 隧道使用，禁止其登录服务器
+  - adduser --shell /usr/sbin/nologin some_tunnel_user
+- 创建仅能访问服务器某目录的用户
+  - docker run -d --name log_reader_jail --restart always -v /root/logs:/logs:ro -w /logs ubuntu:22.04 tail -f /dev/null
+  - 创建用户 `someone`，并设置其密码
+    ```shell
+    useradd -m -s /bin/bash someone
+    passwd someone
+    ```
+  - `vi /etc/ssh/sshd_config` 末尾添加如下内容，令 `someone` 用户登录后直接进入 docker 容器的 bash 环境
+    ```shell
+    Match User someone
+      ForceCommand docker exec -it log_reader_jail /bin/bash
+    ```
+  - systemctl restart sshd
 - [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
 - [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)
 - [ssh 鲜为人知的三种用法](https://www.yanxurui.cc/posts/tool/2017-07-14-ssh-port-forward/)
