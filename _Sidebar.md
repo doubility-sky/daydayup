@@ -79,6 +79,7 @@
   - [[fnfn]]
 - [[finance]]
   - [[trading]]
+    - [[freqtrade]]
 - [[third-party]]
 
 ## [[career]]
