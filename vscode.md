@@ -13,6 +13,11 @@
 - [What is the Language Server Protocol?](https://microsoft.github.io/language-server-protocol/overviews/lsp/overview/)
 - [language-server-protocol](https://github.com/Microsoft/language-server-protocol): Defines a common protocol for language servers.
 - [Tools supporting the LSP](https://microsoft.github.io/language-server-protocol/implementors/tools/)
+- LSP 与 VS Code 插件开发
+  - [（一）语言服务器架构](https://imbant.github.io/blog/2024/08/24/LSP1/)
+  - [（二）语义构建](https://imbant.github.io/blog/2024/12/31/LSP2/)
+  - [（三）语言服务器协议](https://imbant.github.io/blog/2025/01/17/LSP3/)
+  - [（四）开发小技巧](https://imbant.github.io/blog/2025/03/21/LSP4/)
 
 
 
