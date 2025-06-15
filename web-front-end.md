@@ -32,12 +32,25 @@
 
 
 
+## Libraries
+- [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
+- [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
+- [Lodash](https://github.com/lodash/lodash) - A modern JavaScript utility library delivering modularity, performance, & extras.
+- [Modernizr](https://github.com/modernizr/modernizr) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. https://modernizr.com
+- [Lit](https://github.com/lit/lit) is a simple library for building fast, lightweight web components.
+- [htmx](https://github.com/bigskysoftware/htmx) allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
+
+
+
 ## Frameworks
-- [[react]] - [react native](react#react-native)
-- [[vue]] - [weex](vue#weex)
-- [[angular]] - [ionic](https://ionicframework.com/)
-- [Bootstrap](https://getbootstrap.com/) is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
-- [Bulma](https://bulma.io/) is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers.
+- [[react]], [[vue]], [[angular]]
+- [Svelte](https://github.com/sveltejs/svelte) is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+
+
+
+### Visualization
+- [D3](https://github.com/d3/d3): Data-Driven Documents (or D3.js) is a JavaScript library for visualizing data using web standards. 
+  - [Learn D3](https://observablehq.com/@d3/learn-d3)
 - [ECharts](https://echarts.baidu.com/): A Declarative Framework for Rapid Construction of Web-based Visualization
 
 

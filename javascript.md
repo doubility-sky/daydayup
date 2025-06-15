@@ -33,20 +33,6 @@ ECMAScript is commonly used for client-side scripting on the World Wide Web, and
 
 
 
-## Libraries
-- [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
-- [D3](https://github.com/d3/d3): Data-Driven Documents (or D3.js) is a JavaScript library for visualizing data using web standards. 
-  - [Learn D3](https://observablehq.com/@d3/learn-d3)
-- [Modernizr](https://github.com/modernizr/modernizr) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. https://modernizr.com
-
-
-
-## Frameworks
-- [[react]], [[vue]]
-- [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
-
-
-
 ## Projects
 - [Best of JavaScript](https://github.com/bestofjs/bestofjs-webui) gathers the latest trends about open source projects related to Node.js and the web platform: JavaScript of course (client and server side) but also HTML, CSS...
 - [JavaScript Algorithms and Data Structures](https://github.com/trekhleb/javascript-algorithms), This repository contains JavaScript based examples of many popular algorithms and data structures. [zh-CN](https://github.com/trekhleb/javascript-algorithms/blob/master/README.zh-CN.md)
