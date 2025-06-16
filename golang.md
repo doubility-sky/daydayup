@@ -56,8 +56,10 @@
 - [go-micro](https://github.com/micro/go-micro) A Go microservices development framework https://go-micro.dev
 
 ### [web](https://github.com/speedwheel/awesome-go-web-frameworks)
+- [⚡ Go web framework benchmark](https://github.com/smallnest/go-web-framework-benchmark)
 - [beego](https://github.com/astaxie/beego) is used for rapid development of RESTful APIs, web apps and backend services in Go. It is inspired by [Tornado](python#Frameworks), Sinatra and [Flask](python#Frameworks). beego has some Go-specific features such as interfaces and struct embedding.
 - [gin](https://github.com/gin-gonic/gin) is a web framework written in Go (Golang). It features a martini-like API with performance that is up to 40 times faster thanks to [httprouter](https://github.com/julienschmidt/httprouter). If you need performance and good productivity, you will love Gin.
+- [Fiber](https://github.com/gofiber/fiber) is an Express inspired web framework built on top of Fasthttp, the fastest HTTP engine for Go. Designed to ease things up for fast development with zero memory allocation and performance in mind.
 - [iris](https://github.com/kataras/iris) is a fast, simple yet fully featured and very efficient web framework for Go.
 
 

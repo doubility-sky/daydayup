@@ -1,18 +1,12 @@
 A [programming language](https://en.wikipedia.org/wiki/Programming_language) is a formal language, which comprises a set of instructions that produce various kinds of output. Programming languages are used in computer programming to implement algorithms.
 
 - [Comparison of programming languages](https://en.wikipedia.org/wiki/Comparison_of_programming_languages) 
-- [[c]]/[c++](cpp)
-- [[c#]]
-- [[java]]
-- [[javascript]]
-- [[lua]]
-- [[golang]]
-- [[rust]]
-- [[python]]
-- [[ruby]]
-- [[erlang]]
-- [[lisp]]
-- [[haskell]]
+- [[c]] / [c++](cpp)
+- [[java]], [[c#]]
+- [[javascript]], [[typescript]]
+- [[python]], [[php]], [[ruby]], [[lua]]
+- [[golang]], [[rust]]
+- [[erlang]], [[lisp]], [[haskell]]
 
 
 

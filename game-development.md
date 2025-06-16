@@ -2,7 +2,6 @@
 - [[game-server]]
 - AI: see game section of [[machine-learning]]
 - [[game-platform]]
-- [[other-technology]]
 - [[game-art]]
 
 

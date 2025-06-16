@@ -1,7 +1,8 @@
 [Python](https://www.python.org) is a programming language that lets you work quickly and integrate systems more effectively. >>>[Learn More](https://www.python.org/doc/)
 
-- [[pygame]]
 - [python for shell](shell#python)
+- [[django]]
+- [[pygame]]
 
 
 

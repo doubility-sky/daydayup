@@ -7,6 +7,10 @@
   - AKA: [cocos2d-x-lite](https://github.com/cocos-creator/cocos2d-x-lite): Lite version [[cocos2d-x]] based on Cocos Runtime; Cocos2d-x compact version, It is based on cocos2d-x[version 3.9], but remove 3D and other features. It works on iOS, Android, macOS and Windows.
 
 
+- [[game-development]]
+  - [[game-client]]
+
+
 
 ## Learn
 - [Cocos Creator 用户手册](https://docs.cocos.com/creator/manual/zh/)
