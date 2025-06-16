@@ -33,18 +33,30 @@
 
 
 ## Libraries
-- [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
+
+### DOM
 - [jQuery](https://github.com/jquery/jquery) JavaScript Library https://jquery.com/
+- [Prototype](https://github.com/prototypejs/prototype) is a JavaScript framework that aims to ease development of dynamic web applications. It offers a familiar class-style OO framework, extensive Ajax support, higher-order programming constructs, and easy DOM manipulation.
+
+### Utility
 - [Lodash](https://github.com/lodash/lodash) - A modern JavaScript utility library delivering modularity, performance, & extras.
+
+### UI
+- [Radix UI](https://github.com/radix-ui) - Components, icons, colors, and templates for building high-quality, accessible UI. Free and open-source. 
+
+### Animation
+- [Motion](https://github.com/motiondivision/motion) is the only animation library with first-class APIs for both JavaScript and React.
+
+### Others
 - [Modernizr](https://github.com/modernizr/modernizr) is a JavaScript library that detects HTML5 and CSS3 features in the user’s browser. https://modernizr.com
-- [Lit](https://github.com/lit/lit) is a simple library for building fast, lightweight web components.
-- [htmx](https://github.com/bigskysoftware/htmx) allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
 
 
 
 ## Frameworks
 - [[react]], [[vue]], [[angular]]
 - [Svelte](https://github.com/sveltejs/svelte) is a new way to build web applications. It's a compiler that takes your declarative components and converts them into efficient JavaScript that surgically updates the DOM.
+- [Lit](https://github.com/lit/lit) is a simple library for building fast, lightweight web components.
+- [htmx](https://github.com/bigskysoftware/htmx) allows you to access AJAX, CSS Transitions, WebSockets and Server Sent Events directly in HTML, using attributes, so you can build modern user interfaces with the simplicity and power of hypertext
 
 
 
