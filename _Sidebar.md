@@ -78,6 +78,7 @@
   - [[ethereum]]
 - [[finance]]
   - [[trading]]
+    - [[high-frequency-trading]]
     - [[freqtrade]]
 - [[embedded-development]]
   - [[raspberrypi]]

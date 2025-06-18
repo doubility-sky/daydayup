@@ -2,9 +2,9 @@
 It is designed to support all major exchanges and be controlled via Telegram or webUI.
 It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 
+- [[blockchain]]
 - [[finance]]
   - [[trading]]
-- [[blockchain]]
 
 
 ## Learn

@@ -25,6 +25,16 @@
 
 
 
+## Implementation
+- [Numba](https://github.com/numba/numba) is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.
+- [Cython](https://github.com/cython/cython) is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on [Pyrex](https://www.csse.canterbury.ac.nz/greg.ewing/python/Pyrex/)). It makes writing C extensions for Python as easy as Python itself.
+- [PyPy](https://github.com/pypy/pypy) is a replacement for CPython. It is built using the RPython language that was co-developed with it. The main reason to use it instead of CPython is speed: it runs generally faster (see next section).
+- [Pythran](https://github.com/serge-sans-paille/pythran) is an ahead of time compiler for a subset of the Python language, with a focus on scientific computing.
+- [Codon](https://github.com/exaloop/codon) is a high-performance Python implementation that compiles to native machine code without any runtime overhead. 
+- [Nuitka](https://github.com/Nuitka/Nuitka) is a Python compiler written in Python. It's fully compatible with Python 2.6, 2.7, 3.4-3.13. You feed it your Python app, it does a lot of clever things, and spits out an executable or extension module.
+
+
+
 ## Practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
@@ -60,9 +70,6 @@
 - [DearPyGui](https://github.com/hoffstadt/DearPyGui): A GPU Accelerated Python GUI Framework
 - [fbs](https://github.com/mherrmann/fbs) is the fastest way to create a Python GUI. It solves common pain points such as packaging and deployment. Based on Python and Qt, fbs is a lightweight alternative to Electron.
   - [tutorial](https://github.com/mherrmann/fbs-tutorial) for creating Python/Qt GUIs with fbs
-
-### others
-- [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 
 
 

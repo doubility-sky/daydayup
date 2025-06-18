@@ -84,7 +84,7 @@ A [game server](https://en.wikipedia.org/wiki/Game_server) (also sometimes refer
   - [[skynet]]
 - [c++](cpp) + [[python]]/[[lua]]
   - [[kbengine]]
-  - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame/tree/master-new)
+  - [NoahGameFrame](https://github.com/ketoo/NoahGameFrame)
 - [game-server by golang](golang#game-server)
 - [[javascript]]
   - [colyseus](https://github.com/gamestdio/colyseus), [mage](https://github.com/mage/mage), ~~[[pomelo]]~~

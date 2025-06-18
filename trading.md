@@ -8,135 +8,111 @@
 
 
 ## Learn
-- [Technical Analysis of the Financial Markets](https://www.amazon.com/Technical-Analysis-Financial-Markets-Comprehensive/dp/0735200661) - John Murphy的经典技术分析著作
-- [Trading in the Zone](https://www.amazon.com/Trading-Zone-Confidence-Discipline-Attitude/dp/0735201447) - Mark Douglas的交易心理学著作
-- [Chart Patterns](https://www.investopedia.com/articles/technical/112601.asp) - Investopedia的图表形态分析指南
-- [The Disciplined Trader](https://www.amazon.com/Disciplined-Trader-Developing-Winning-Attitudes/dp/0132157519) - 培养交易心理与纪律
-- [Quantitative Trading - An Introduction](https://www.investopedia.com/articles/trading/06/algorithmictrading.asp) - Investopedia关于量化交易的介绍
-- [Quantitative Trading: How to Build Your Own Algorithmic Trading Business](https://www.amazon.com/Quantitative-Trading-Build-Algorithmic-Business/dp/1119800064/) - Ernie Chan著作的经典入门书籍
-- [Machine Learning for Trading](https://www.oreilly.com/library/view/machine-learning-for/9781492053354/) - 应用机器学习于量化交易
-- [Advances in Financial Machine Learning](https://www.amazon.com/Advances-Financial-Machine-Learning-Marcos/dp/1119482089) - Marcos Lopez de Prado的金融机器学习前沿著作
-- [Algorithmic Trading Strategies](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp) - 算法交易策略基础
-- [Backtesting](https://www.investopedia.com/terms/b/backtesting.asp) - 回测策略方法论
-- [Risk Management](https://www.investopedia.com/articles/trading/11/risk-management-techniques.asp) - 风险管理技术
-
-### Books
-- [Trading for a Living](https://www.amazon.com/Trading-Living-Psychology-Tactics-Management/dp/0471592242) - Alexander Elder的交易者生存手册
-- [Market Wizards](https://www.amazon.com/Market-Wizards-Updated-Interviews-Traders/dp/1118273052) - Jack Schwager的市场奇才访谈
-- [Reminiscences of a Stock Operator](https://www.amazon.com/Reminiscences-Stock-Operator-Edwin-Lef%C3%A8vre/dp/0471770884) - 股票操作回忆录
+- [How to Spot Key Stock Chart Patterns](https://www.investopedia.com/articles/technical/112601.asp) - Investopedia的图表形态分析指南
+- [Basics of Algorithmic Trading: Concepts and Examples](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp)
+- [Fundamental vs. Technical Analysis: What's the Difference?](https://www.investopedia.com/ask/answers/difference-between-fundamental-and-technical-analysis/)
+- [Backtesting: Definition, How It Works, and Downsides](https://www.investopedia.com/terms/b/backtesting.asp)
+- [High-Frequency Trading (HFT): What It Is, How It Works, and Example](https://www.investopedia.com/terms/h/high-frequency-trading.asp)
+- [Examining Different Trailing Stop Techniques](https://www.investopedia.com/articles/trading/03/080603.asp)
+- [m 宽 - CSDN 量化专栏](https://blog.csdn.net/m0_58598240/category_12041011.html)
 
 ### Academic
-- [ArXiv Quantitative Finance](https://arxiv.org/archive/q-fin) - 量化金融学术论文
-- [Journal of Portfolio Management](https://jpm.pm-research.com/) - 投资组合管理期刊
-- [Quantitative Finance Papers](https://www.tandfonline.com/journals/rquf20) - 量化金融相关论文
+- [ArXiv Quantitative Finance](https://arxiv.org/archive/q-fin)
+- [Quantitative Finance Papers](https://www.tandfonline.com/journals/rquf20)
+- [Journal of Portfolio Management](https://jpm.pm-research.com/)
 
 ### Technical Analysis
-- [Technical Indicators](https://www.investopedia.com/terms/t/technicalindicator.asp) - 技术指标介绍
-- [Candlestick Patterns](https://www.investopedia.com/trading/candlestick-charting-what-is-it/) - 蜡烛图形态分析
-- [Volume Analysis](https://www.investopedia.com/articles/technical/02/091802.asp) - 交易量分析方法
-- [Elliott Wave Theory](https://www.investopedia.com/articles/technical/111401.asp) - 艾略特波浪理论
+- [Technical Indicator: Definition, Analyst Uses, Types and Examples](https://www.investopedia.com/terms/t/technicalindicator.asp)
+- [Understanding Basic Candlestick Charts](https://www.investopedia.com/trading/candlestick-charting-what-is-it/)
+- [Elliott Wave Theory: What You Need To Know](https://www.investopedia.com/articles/technical/111401.asp)
 
 ### Trading Strategies
-- [Position Trading](https://www.investopedia.com/terms/p/positiontrader.asp) - 长期持有交易
-- [Swing Trading](https://www.investopedia.com/terms/s/swingtrading.asp) - 中期持有交易
-- [Day Trading](https://www.investopedia.com/terms/d/daytrader.asp) - 日内交易
-- [Scalping](https://www.investopedia.com/articles/trading/02/081902.asp) - 短线交易
+- [Position Trader Definition, Strategies, Pros and Cons](https://www.investopedia.com/terms/p/positiontrader.asp)
+- [What Is Swing Trading?](https://www.investopedia.com/terms/s/swingtrading.asp)
+- [Day Trader: Definition, Techniques, Strategies, and Risks](https://www.investopedia.com/terms/d/daytrader.asp)
+- [Introduction to Trading: Scalpers](https://www.investopedia.com/articles/trading/02/081902.asp)
 
 ### Risk Management
-- [Proper Position Sizing](https://www.investopedia.com/articles/trading/09/determine-position-size.asp) - 仓位管理
-- [Risk-to-Reward Ratio](https://www.investopedia.com/terms/r/riskrewardratio.asp) - 风险收益比
-- [Stop Loss Strategies](https://www.investopedia.com/articles/active-trading/091813/which-stop-loss-order-best-your-strategy.asp) - 止损策略
-- [Kelly Criterion](https://www.investopedia.com/articles/trading/04/091504.asp) - 凯利公式仓位管理
+- [How To Reduce Risk With Optimal Position Size](https://www.investopedia.com/articles/trading/09/determine-position-size.asp)
+- [Risk/Reward Ratio: What It Is, How Stock Investors Use It](https://www.investopedia.com/terms/r/riskrewardratio.asp)
+- [Using the Kelly Criterion for Asset Allocation and Money Management](https://www.investopedia.com/articles/trading/04/091504.asp)
 
 ### Automated Trading
-- [Algorithmic Trading Basics](https://www.investopedia.com/articles/active-trading/101014/basics-algorithmic-trading-concepts-and-examples.asp) - 算法交易基础
-- [Building a Trading Bot](https://www.datacamp.com/tutorial/finance-python-trading) - 使用Python构建交易机器人
-- [API Trading](https://medium.com/swlh/build-a-cryptocurrency-trading-bot-with-r-1445c429e1a1) - API交易入门
-- [Backtesting Strategies](https://www.investopedia.com/articles/trading/05/030205.asp) - 策略回测方法
-
-### Programming
-- [Python for Quants](https://www.pythonforquants.com/) - Python量化金融编程指南
-- [Financial Python](https://www.financialpython.com/) - 金融Python应用
-- [R for Quant Finance](https://www.r-bloggers.com/2016/06/quantitative-finance-applications-in-r-1-introduction/) - R语言在量化金融中的应用
-- [C++ in Quantitative Finance](https://www.quantstart.com/articles/C-in-Quantitative-Finance/) - C++在量化金融中的应用
+- [Python For Finance Tutorial: Algorithmic Trading](https://www.datacamp.com/tutorial/finance-python-trading)
+- [The Importance of Backtesting Trading Strategies](https://www.investopedia.com/articles/trading/05/030205.asp)
 
 ### Statistical Models
-- [Time Series Analysis](https://otexts.com/fpp2/) - 时间序列分析教程
-- [ARIMA Models](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/) - ARIMA模型在Python中的实现
-- [GARCH Models](https://arch.readthedocs.io/en/latest/univariate/introduction.html) - GARCH波动率模型介绍
-- [Factor Models](https://www.investopedia.com/terms/m/multifactor-model.asp) - 多因子模型解析
+- [Forecasting: Principles and Practice (2nd ed)](https://otexts.com/fpp2/)
+- [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/)
+- [Autoregressive Conditional Heteroskedasticity](https://github.com/bashtage/arch/) (ARCH) and other tools for financial econometrics, written in Python (with Cython and/or Numba used to improve performance)
+- [Multi-Factor Model: Definition and Formula for Comparing Factors](https://www.investopedia.com/terms/m/multifactor-model.asp)
 
 ### Communities
-- [r/trading](https://www.reddit.com/r/trading/) - Reddit交易社区
-- [r/algotrading](https://www.reddit.com/r/algotrading/) - 算法交易社区
-- [Elite Trader](https://www.elitetrader.com/) - 专业交易者论坛
-- [Forex Factory](https://www.forexfactory.com/) - 外汇交易社区
-- [TradingView Community](https://www.tradingview.com/ideas/) - 交易想法分享社区
-- [Quantitative Finance Stack Exchange](https://quant.stackexchange.com/) - 量化金融问答社区
-- [QuantNet](https://quantnet.com/) - 量化分析师社区
-- [Quantocracy](https://quantocracy.com/) - 量化金融博客聚合
+- [r/trading](https://www.reddit.com/r/trading/) - Professional Traders Discussing Financial Markets
+- [r/algotrading](https://www.reddit.com/r/algotrading/) - Algorithmic Trading
+- [QuantNet](https://quantnet.com/)
+- [Quantocracy](https://quantocracy.com/) is a curated mashup of trading blogs that deal in the quantitative and the empirical. 
+- [EliteTrader.com](https://www.elitetrader.com/) is a group of 115,000+ financial traders that have meaningful conversations to help each other learn faster, develop new relationships, and avoid costly mistakes. Currently there are more than 280,000 discussion threads containing over 5 million posts.
+- [TradingView - Community ideas](https://www.tradingview.com/ideas/) - Trading Ideas and Technical Analysis From Top Traders
+- [StackExchange - Quantitative Finance](https://quant.stackexchange.com/)
+- [Forex Factory](https://www.forexfactory.com/) - Forex markets for the smart money.
 
 
-## Tools
-- [TradingView](https://www.tradingview.com/), a charting platform and social network used by 100M+ traders and investors worldwide to spot opportunities across global markets.
-- [QuantConnect](https://www.quantconnect.com/) - 开源的算法交易平台
-  - [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
-- [Trading Technologies](https://www.tradingtechnologies.com/) - 专业交易软件
-- [MetaTrader](https://www.metatrader4.com/) - 流行的外汇和CFD交易平台
-- [Interactive Brokers](https://www.interactivebrokers.com/) - 专业交易者的经纪平台
-- [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) - This is a proof of concept for an AI-powered hedge fund. The goal of this project is to explore the use of AI to make trading decisions. This project is for educational purposes only and is not intended for real trading or investment.
+## Platform
+- [Interactive Brokers](https://www.interactivebrokers.com/) - A leading online brokerage firm that provides trading in stocks, options, futures, forex, and fixed income.
+- [FTMO](https://ftmo.com/en/) | The Modern Prop Trading Firm since 2015
+- [Apex Trader Funding](https://apextraderfunding.com/) is the leading futures funding evaluation firm in the world.
+- [StockSharp](https://github.com/StockSharp/StockSharp) - Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).
 
-### Libraries
-- [Alpaca-py](https://github.com/alpacahq/alpaca-py) - Python股票交易API
-- [TA-Lib](https://ta-lib.org/) - 技术分析库，多种编程语言支持
-- [Zipline](https://github.com/quantopian/zipline) - Quantopian开源的Python算法交易库
-- [QuantLib](https://www.quantlib.org/) - 金融量化分析的C++库
 
-### Crypto Currency
-- [CCXT](https://github.com/ccxt/ccxt) – CryptoCurrency eXchange Trading Library
-- [Freqtrade](https://github.com/freqtrade/freqtrade) is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
-- [Hummingbot](https://github.com/hummingbot/hummingbot) is an open-source framework that helps you design and deploy automated trading strategies, or bots, that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues.
-- [Gekko](https://github.com/askmike/gekko) - 比特币交易机器人
-
-### Frameworks
-- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
-- [Jesse](https://github.com/jesse-ai/jesse) is an advanced crypto trading framework that aims to simplify researching and defining YOUR OWN trading strategies for backtesting, optimizing, and live trading.
-- [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
-- [Qbot](https://github.com/UFund-Me/Qbot) is an AI-oriented automated quantitative investment platform, which aims to realize the potential, empower AI technologies in quantitative investment. Qbot supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL.
-- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
-
-### Backtesting
+## Backtesting
 - [Backtesting.py](https://github.com/kernc/backtesting.py) - Backtest trading strategies with Python.
 - [backtrader](https://github.com/backtrader/backtrader) - Python Backtesting library for trading strategies
 - [bt](https://github.com/pmorissette/bt) - Flexible Backtesting for Python
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) is a Python based library that enables you to analyze market data and also to backtest trading strategies using a simple to use API, which has prebuilt templates for you to define backtest.
 
 
+## Libraries
+- [QuantLib](https://github.com/lballabio/quantlib): a free/open-source library for quantitative finance
+- [Zipline](https://github.com/quantopian/zipline), a Pythonic Algorithmic Trading Library
+- [TA-Lib](https://ta-lib.org/) - Technical Analysis Library
+- [CCXT](https://github.com/ccxt/ccxt) – CryptoCurrency eXchange Trading Library
+- [Alpaca](https://github.com/alpacahq) builds high performance APIs for Stock and Crypto Trading
+
+
+## Frameworks
+- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
+- [Jesse](https://github.com/jesse-ai/jesse) is an advanced crypto trading framework that aims to simplify researching and defining YOUR OWN trading strategies for backtesting, optimizing, and live trading.
+- [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
+- [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+- [RQAlpha](https://github.com/ricequant/rqalpha) 从数据获取、算法交易、回测引擎，实盘模拟，实盘交易到数据分析，为程序化交易者提供了全套解决方案。仅限非商业使用。
+- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
+
+
+## Bots
+- [Freqtrade](https://github.com/freqtrade/freqtrade) is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
+- [Hummingbot](https://github.com/hummingbot/hummingbot) is an open-source framework that helps you design and deploy automated trading strategies, or bots, that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues.
+- [Qbot](https://github.com/UFund-Me/Qbot) is an AI-oriented automated quantitative investment platform, which aims to realize the potential, empower AI technologies in quantitative investment. Qbot supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL.
+
+
+## Tools
+- [TradingView](https://www.tradingview.com/), a charting platform and social network used by 100M+ traders and investors worldwide to spot opportunities across global markets.
+- [QuantConnect](https://www.quantconnect.com/) - Python and C# algorithmic trading platform
+  - [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
+- [Trading Technologies](https://www.tradingtechnologies.com/) - The most advanced trading solutions for modern traders.
+- [MetaTrader 4](https://www.metatrader4.com/) is a platform for trading Forex, analyzing financial markets and using Expert Advisors. Mobile trading, Trading Signals and the Market are the integral parts of MetaTrader 4 that enhance your Forex trading experience.
+- [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) - This is a proof of concept for an AI-powered hedge fund. The goal of this project is to explore the use of AI to make trading decisions. This project is for educational purposes only and is not intended for real trading or investment.
+
+
 ## FAQs
-- [什么是交易策略？](https://www.investopedia.com/ask/answers/063015/what-are-some-best-trading-strategies-high-volatility-market.asp) - 交易策略是用于买卖金融工具的系统方法
-- [技术分析和基本面分析的区别？](https://www.investopedia.com/ask/answers/difference-between-fundamental-and-technical-analysis/) - 两种常见分析方法的比较
-- [如何控制交易情绪？](https://www.investopedia.com/articles/trading/03/080603.asp) - 情绪控制对交易的重要性
-- [如何选择交易时间框架？](https://www.investopedia.com/articles/trading/11/trading-with-multiple-time-frames.asp) - 不同交易时间框架的选择
-- [交易系统开发的步骤是什么？](https://www.investopedia.com/articles/trading/09/how-to-build-a-trading-system.asp) - 构建交易系统步骤
-- [如何衡量交易系统的性能？](https://www.investopedia.com/ask/answers/05/sharperatio.asp) - 交易系统评估指标
-- [什么是高频交易(HFT)？](https://www.investopedia.com/terms/h/high-frequency-trading.asp) - 高频交易介绍
-- [量化交易和传统交易有什么区别？](https://www.investopedia.com/articles/active-trading/112614/high-frequency-traders-not-market-makers.asp) - 量化与传统交易方法的对比
-- [如何开始量化交易？](https://medium.com/@tech_in_finance/how-to-start-a-career-in-quantitative-trading-3e8c4d2c0b7c) - 入行量化交易的基本步骤
-- [量化交易需要什么编程语言？](https://www.quantinsti.com/blog/python-best-programming-language-algorithmic-trading) - 各种编程语言在量化交易中的应用
-- [回测结果与实盘差异大怎么办？](https://www.quantstart.com/articles/Why-Backtesting-is-Not-Enough-for-Algorithmic-Trading-Success/) - 回测与实盘差异的原因分析
-- [如何获取高质量的金融数据？](https://blog.quantinsti.com/data-science-resources-algorithmic-traders/) - 金融数据来源和处理方法
-- [量化策略失效的常见原因是什么？](https://www.aqr.com/Insights/Research/Journal-Article/Challenges-of-Implementing-Tactical-Alpha) - 策略失效分析
+- [量化投资学习推荐的书籍都有哪些？](https://www.zhihu.com/question/54727745)
+- [国内目前的量化交易是否很少涉及到机器学习？](https://www.zhihu.com/question/47913794/answer/2738718627)
+- [有独立开发完成一个量化系统开发的人吗？](https://www.zhihu.com/question/35977425/answer/2870343463)
+  - [源码分析](https://www.zhihu.com/question/35977425/answer/3526582652)
+- [个人做量化建议做高频还是卷因子？](https://www.zhihu.com/question/542960174/answer/46505312305)
 
 
 ## Resources
-- [Investopedia Trading Education](https://www.investopedia.com/trading-4427765) - 交易教育资源
-- [Babypips](https://www.babypips.com/) - 外汇交易学校
-- [Quantopian - Lectures](https://github.com/quantopian/research_public) - Quantopian公司的研究代码库
-- [awesome-quant](https://github.com/wilsonfreitas/awesome-quant) - 优秀量化交易资源列表
-
-### Open Data
-- [Yahoo Finance](https://finance.yahoo.com/) - 免费金融数据
-- [Alpha Vantage](https://www.alphavantage.co/) - 免费API的股票数据
-- [Quandl](https://www.quandl.com/) - 金融、经济和替代数据
-- [FRED](https://fred.stlouisfed.org/) - 美联储经济数据
-- [World Bank Open Data](https://data.worldbank.org/) - 世界银行开放数据
+- [Awesome Quant](https://github.com/wilsonfreitas/awesome-quant) - A curated list of insanely awesome libraries, packages and resources for Quants (Quantitative Finance)
+- [Awesome Systematic Trading](https://github.com/wangzhe3224/awesome-systematic-trading) - A curated list of insanely awesome libraries, packages and resources for systematic trading. Crypto, Stock, Futures, Options, CFDs, FX, and more | 量化交易 | 量化投资
+- [Research Projects & Lecture Content](https://github.com/quantopian/research_public) - Quantitative research and educational materials
