@@ -5,9 +5,10 @@
 
 
 ## Learn
+- [Investopedia](https://www.investopedia.com/)
+  - [Financial Terms Dictionary](https://www.investopedia.com/financial-term-dictionary-4769738)
 - [Financial Markets: Role in the Economy, Importance, Types, and Examples](https://www.investopedia.com/terms/f/financial-market.asp)
 - [Corporate Finance: Definition and Activities](https://www.investopedia.com/terms/c/corporatefinance.asp)
-- [Financial Terms Dictionary](https://www.investopedia.com/financial-term-dictionary-4769738)
 
 ### Courses
 - [CrashCourse - Economics](https://www.youtube.com/watch?v=9I_-ADGrKQo&list=PL8dPuuaLjXtPNZwz5_o_5uirJ8gQXnhEO)
@@ -48,6 +49,7 @@
 - [What Is a Budget? Plus 11 Budgeting Myths Holding You Back](https://www.investopedia.com/terms/b/budget.asp)
 - [Tax Planning: What It Is, How It Works, Examples](https://www.investopedia.com/terms/t/tax-planning.asp)
 - [What Is Estate Planning? Definition, Meaning, and Key Components](https://www.investopedia.com/terms/e/estateplanning.asp)
+- [Harry Browne’s 17 Golden Rules of Financial Safety](https://thetaoofwealth.wordpress.com/2013/02/17/harry-brownes-17-golden-rules-of-financial-safety/)
 
 ### Communities
 - [r/finance](https://www.reddit.com/r/finance/)

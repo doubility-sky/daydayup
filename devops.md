@@ -1,25 +1,16 @@
 [DevOps](https://en.wikipedia.org/wiki/DevOps) is a set of practices that combines software development (Dev) and information-technology operations (Ops) which aims to shorten the systems development life cycle and provide continuous delivery with high software quality.
 
-
-
 - [Let's talk DevOps job titles](https://mattouille.com/articles/2018-06/lets-talk-devops-job-titles/)
+
+
+- [[container]]
+  - [[docker]]
+  - [[kubernetes]]
 
 
 
 ## Learn
 - [DevOps Roadmap](https://github.com/kamranahmedse/developer-roadmap#devops-roadmap)
-
-
-
-## Container
-- [[docker]], [[kubernetes]]
-- [The What, Why and How of Containers](https://www.annwan.me/computers/what-why-how-containers/)
-  - Alternate title: An history of OS-Level Virtualisation on UNIX and then Linux.
-  - This post is part of an entry for [the Handmade Network’s Learning Jam 2024](https://handmade.network/jam/learning-2024)
-- [LXC](https://github.com/lxc/lxc) is the well-known and heavily tested low-level Linux container runtime. It is in active development since 2008 and has proven itself in critical production environments world-wide. Some of its core contributors are the same people that helped to implement various well-known containerization features inside the Linux kernel.
-  - https://linuxcontainers.org/lxc/
-  - [LXC 1.0](https://stgraber.org/2013/12/20/lxc-1-0-blog-post-series/) 10 blog posts covering what I think are some of the most exciting features of LXC
-- [Nomad](https://github.com/hashicorp/nomad) is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations. https://www.nomadproject.io/
 
 
 
@@ -60,9 +51,12 @@ In software engineering, continuous integration (CI) is the practice of merging 
         - rake test2
     ```
 
+
+
 ## [Continuous Deployment](https://en.wikipedia.org/wiki/Continuous_deployment) (CD)
 - [Ansible](./ansible), Ansible is a suite of software tools that enables infrastructure as code. It is open-source and the suite includes software provisioning, configuration management, and application deployment functionality.
 - [Apache Airflow®](https://airflow.apache.org/) is a platform created by the community to programmatically author, schedule and monitor workflows.
+
 
 
 ## Tools

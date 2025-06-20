@@ -71,18 +71,20 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 - [cheat](https://github.com/cheat/cheat) allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.
 - [cli](https://github.com/urfave/cli) is a simple, fast, and fun package for building command line apps in Go. The goal is to enable developers to write fast and distributable command line applications in an expressive way.
 - [Generic Colouriser](https://github.com/garabik/grc) is yet another colouriser (written in python) for beautifying your logfiles or output of commands.
+
+### alternative
 - [CLI: improved](https://remysharp.com/2018/08/23/cli-improved) - [zh-CN](https://docs.xindong.com/utilities/cli-improved.html)
 - [Modern Unix](https://github.com/ibraheemdev/modern-unix): A collection of modern/faster/saner alternatives to common unix commands.
-- [Distrobox](https://github.com/89luca89/distrobox): Use any linux distribution inside your terminal. Enable both backward and forward compatibility with software and freedom to use whatever distribution you’re more comfortable with.
+- [fzf](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder.
 
-### [[Python]]
+### [[python]]
 - [When You Should Use Bash Over Python](https://dnastacio.medium.com/bash-over-python-39e0eba502f9/)
 - [sh](https://github.com/amoffat/sh) Python process launching http://amoffat.github.com/sh
 - [xonsh](https://github.com/xonsh/xonsh) is a Python-powered, cross-platform, Unix-gazing shell language and command prompt. The language is a superset of Python 3.5+ with additional shell primitives. xonsh (pronounced conch) is meant for the daily use of experts and novices alike.
 - [sarge](https://bitbucket.org/vinay.sajip/sarge/src/master/), a wrapper for subprocess which aims to make life easier for anyone who needs to interact with external applications from their Python code.
 - (:warning:May be outdated)[Plumbum](https://github.com/tomerfiliba/plumbum): Shell Combinators http://plumbum.readthedocs.org
 
-### [[Ruby]]
+### [[ruby]]
 - [Ruby: a great language for shell scripts!](https://lucasoshiro.github.io/posts-en/2024-06-17-ruby-shellscript/)
 
 
