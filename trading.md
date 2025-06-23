@@ -5,6 +5,8 @@
 
 - [[blockchain]]
 - [[finance]]
+  - [[high-frequency-trading]]
+  - [[freqtrade]]
 
 
 ## Learn
@@ -57,7 +59,6 @@
 - [EliteTrader.com](https://www.elitetrader.com/) is a group of 115,000+ financial traders that have meaningful conversations to help each other learn faster, develop new relationships, and avoid costly mistakes. Currently there are more than 280,000 discussion threads containing over 5 million posts.
 - [TradingView - Community ideas](https://www.tradingview.com/ideas/) - Trading Ideas and Technical Analysis From Top Traders
 - [StackExchange - Quantitative Finance](https://quant.stackexchange.com/)
-- [Forex Factory](https://www.forexfactory.com/) - Forex markets for the smart money.
 
 
 ## Platform

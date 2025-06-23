@@ -2,6 +2,8 @@
 
 - [[blockchain]]
 - [[trading]]
+  - [[high-frequency-trading]]
+  - [[freqtrade]]
 
 
 ## Learn
@@ -57,8 +59,8 @@
 - [r/personalfinance](https://www.reddit.com/r/personalfinance/)
 - [r/stocks](https://www.reddit.com/r/stocks/)
 - [StockTwits](https://stocktwits.com/)
+- [Forex Factory](https://www.forexfactory.com/) - Forex markets for the smart money.
 - [Bogleheads](https://www.bogleheads.org/forum/index.php) - Investing Advice Inspired by Jack Bogle
-- [Seeking Alpha](https://seekingalpha.com/) - 股票研究和分析社区
 
 ### News
 - [Yahoo Finance](https://finance.yahoo.com) - Stock Market Live, Quotes, Business & Finance News
@@ -66,6 +68,7 @@
 
 
 ## Platform
+- [Seeking Alpha](https://seekingalpha.com/) is the leading platform for investors to research and discuss US-traded stocks and ETFs. Our platform helps investors to find successful investing ideas and to successfully manage their portfolios. It provides investment ideas, analysis, news, ratings, investing tools and community discussion.
 - [OpenBB](https://github.com/OpenBB-finance/OpenBB) - Investment Research for Everyone, Everywhere.
 - [Bloomberg Terminal](https://www.bloomberg.com/professional/solution/bloomberg-terminal/)
 - [FactSet](https://www.factset.com/)
