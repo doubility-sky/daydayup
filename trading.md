@@ -67,13 +67,6 @@
 - [StockSharp](https://github.com/StockSharp/StockSharp) - Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).
 
 
-## Backtesting
-- [Backtesting.py](https://github.com/kernc/backtesting.py) - Backtest trading strategies with Python.
-- [backtrader](https://github.com/backtrader/backtrader) - Python Backtesting library for trading strategies
-- [bt](https://github.com/pmorissette/bt) - Flexible Backtesting for Python
-- [finmarketpy](https://github.com/cuemacro/finmarketpy) is a Python based library that enables you to analyze market data and also to backtest trading strategies using a simple to use API, which has prebuilt templates for you to define backtest.
-
-
 ## Libraries
 - [QuantLib](https://github.com/lballabio/quantlib): a free/open-source library for quantitative finance
 - [Zipline](https://github.com/quantopian/zipline), a Pythonic Algorithmic Trading Library
@@ -82,20 +75,30 @@
 - [Alpaca](https://github.com/alpacahq) builds high performance APIs for Stock and Crypto Trading
 
 
-## Frameworks
-- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
-- [Jesse](https://github.com/jesse-ai/jesse) is an advanced crypto trading framework that aims to simplify researching and defining YOUR OWN trading strategies for backtesting, optimizing, and live trading.
-- [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
-- [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
-- [Howtrader](https://github.com/51bitquant/howtrader): A crypto quant framework for developing, backtesting, and executing your own trading strategies. Seamlessly integrates with TradingView and other third-party signals. Simply send a post request to automate trading and order placement. Supports Binance and Okex exchanges.
-- [RQAlpha](https://github.com/ricequant/rqalpha) 从数据获取、算法交易、回测引擎，实盘模拟，实盘交易到数据分析，为程序化交易者提供了全套解决方案。仅限非商业使用。
-- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
+## Backtesting
+- [Backtesting.py](https://github.com/kernc/backtesting.py) - Backtest trading strategies with Python.
+- [vectorbt](https://github.com/polakowo/vectorbt) is a Python package for quantitative analysis that takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
+- [bt](https://github.com/pmorissette/bt) - Flexible Backtesting for Python
+- [finmarketpy](https://github.com/cuemacro/finmarketpy) is a Python based library that enables you to analyze market data and also to backtest trading strategies using a simple to use API, which has prebuilt templates for you to define backtest.
+- [backtrader](https://github.com/mementum/backtrader) - Python Backtesting library for trading strategies
 
 
 ## Bots
 - [Freqtrade](https://github.com/freqtrade/freqtrade) is a free and open source crypto trading bot written in Python. It is designed to support all major exchanges and be controlled via Telegram or webUI. It contains backtesting, plotting and money management tools as well as strategy optimization by machine learning.
 - [Hummingbot](https://github.com/hummingbot/hummingbot) is an open-source framework that helps you design and deploy automated trading strategies, or bots, that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues.
+- [Jesse](https://github.com/jesse-ai/jesse) - An advanced crypto trading bot written in Python
+- [Octobot](https://github.com/Drakkar-Software/OctoBot) is a powerful open-source cryptocurrency trading robot.
+- [Lumibot](https://github.com/Lumiwealth/lumibot) - A Backtesting and Trading Library for Stocks, Options, Crypto, Futures, FOREX and More!
 - [Qbot](https://github.com/UFund-Me/Qbot) is an AI-oriented automated quantitative investment platform, which aims to realize the potential, empower AI technologies in quantitative investment. Qbot supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL.
+
+
+## Frameworks
+- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
+- [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
+- [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+- [Howtrader](https://github.com/51bitquant/howtrader): A crypto quant framework for developing, backtesting, and executing your own trading strategies. Seamlessly integrates with TradingView and other third-party signals. Simply send a post request to automate trading and order placement. Supports Binance and Okex exchanges.
+- [RQAlpha](https://github.com/ricequant/rqalpha) 从数据获取、算法交易、回测引擎，实盘模拟，实盘交易到数据分析，为程序化交易者提供了全套解决方案。仅限非商业使用。
+- [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 
 
 ## Tools
