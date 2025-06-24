@@ -4,6 +4,7 @@
 
 
 ## Learn
+- [Quickstart for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/quickstart-for-writing-on-github)
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 - [Markdown: Syntax](http://daringfireball.net/projects/markdown/syntax "hello, markdown!") 
 - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
