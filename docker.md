@@ -19,6 +19,32 @@
 ### 针对 GFW
 - 使用 [DaoCloud](https://dashboard.daocloud.io/nodes/new)，选择自己的主机，安装好后就是从 DaoCloud 拉取 images 了。
 
+### Common Usage
+```bash
+# 列出运行中的容器
+docker ps
+# 列出所有容器（包括已停止的）
+docker ps -a
+# 查看容器日志
+docker logs container_name
+# 停止容器
+docker stop container_name
+# 启动容器
+docker start container_name
+# 重启容器
+docker restart container_name
+# 删除容器（容器必须先停止）
+docker rm container_name
+# 强制删除容器
+docker rm -f container_name
+# 查看容器详细信息
+docker inspect container_name
+# 查看容器资源使用情况
+docker stats container_name
+# 进入容器
+docker exec -it container_name /bin/sh
+```
+
 ### 制作尽可能小的镜像
 - 选择最小的适合的 image 开始，比如 golang，就直接使用
 
