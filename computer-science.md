@@ -24,9 +24,13 @@ Fields of [mathematics](https://en.wikipedia.org/wiki/Mathematics). Theoretical 
 - [learn](https://github.com/gyuho/learn), The best way to learn is to teach what you have learned to other people. I tried YouTube channel, which was hard to maintain. So I decided to write my own textbook. I am still learning, and I may say things out of ignorance. Every post is working in progress, non-committal on a timeline. The point is to review and improve over time. This is a personal white-board where I scribble anything, organize my code, learning experiences.
 
 ### courses
-- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) - [计算机教育中缺失的一课](https://missing-semester-cn.github.io/): Classes teach you all about advanced topics within CS, from operating systems to machine learning, but there’s one critical subject that’s rarely covered, and is instead left to students to figure out on their own: proficiency with their tools. We’ll teach you how to master the command-line, use a powerful text editor, use fancy features of version control systems, and much more!
 - :star:[Crash Course, Computer Science](https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo) - [zh-CN](https://github.com/1c7/crash-course-computer-science-chinese) - [bilibili](https://www.bilibili.com/video/av21376839/)
 - [Open Source Society University - computer science](https://github.com/ossu/computer-science), Path to a free self-taught education in Computer Science!
+
+### [terminal](https://en.wikipedia.org/wiki/Terminal_emulator)
+- [[shell]]
+- [玩转 Terminal 终端：入门指南及进阶技巧](https://sspai.com/post/45534)
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) - [计算机教育中缺失的一课](https://missing-semester-cn.github.io/): Classes teach you all about advanced topics within CS, from operating systems to machine learning, but there’s one critical subject that’s rarely covered, and is instead left to students to figure out on their own: proficiency with their tools. We’ll teach you how to master the command-line, use a powerful text editor, use fancy features of version control systems, and much more!
 
 ### books
 - [Foundations of Computer Science](http://infolab.stanford.edu/~ullman/focs.html) - [zh-CN](https://www.ituring.com.cn/book/1019)
