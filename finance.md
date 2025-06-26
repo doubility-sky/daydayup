@@ -1,6 +1,9 @@
 [Finance](https://en.wikipedia.org/wiki/Finance) is the study and discipline of money, currency and capital assets. It is related to, but not synonymous with economics, which is the study of production, distribution, and consumption of goods and services. Finance activities include banking, leverage or debt, credit, capital markets, money, investments, and the creation and oversight of financial systems.
 
-- [[blockchain]]
+- [[stocks]], [[futures]], [[forex]]
+- [[cryptocurrency]]
+  - [[blockchain]]
+  - [[bitcoin]], [[ethereum]]
 - [[trading]]
   - [[high-frequency-trading]]
   - [[freqtrade]]
@@ -17,6 +20,10 @@
 - [Khan Academy - Finance and capital markets](https://www.khanacademy.org/economics-finance-domain/core-finance)
 - [Coursera - Financial Markets](https://www.coursera.org/learn/financial-markets-global)
 - [edX - Finance Courses](https://www.edx.org/learn/finance)
+
+### Academics
+- [International Journal of Financial Studies](https://www.mdpi.com/journal/ijfs)
+- [Journal of Risk and Financial Management](https://www.mdpi.com/journal/jrfm)
 
 ### Theories
 - [Modern Portfolio Theory: What MPT Is and How Investors Use It](https://www.investopedia.com/terms/m/modernportfoliotheory.asp)

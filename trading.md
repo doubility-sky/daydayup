@@ -3,8 +3,10 @@
 [Quantitative Trading](https://en.wikipedia.org/wiki/Quantitative_trading) is a trading strategy that relies on mathematical and statistical models to identify and execute opportunities. It utilizes quantitative analysis, algorithmic trading systems, and often high-frequency approaches to implement trading strategies.
 
 
-- [[blockchain]]
 - [[finance]]
+  - [[stocks]], [[futures]], [[forex]]
+  - [[cryptocurrency]]
+    - [[bitcoin]], [[ethereum]]
   - [[high-frequency-trading]]
   - [[freqtrade]]
 
@@ -20,7 +22,8 @@
 - 知乎话题：[量化交易](https://www.zhihu.com/topic/19815465/index)、[宽客 (Quant)](https://www.zhihu.com/topic/19557481/index)
 - [m 宽 - CSDN 量化专栏](https://blog.csdn.net/m0_58598240/category_12041011.html)
 
-### Academic
+### [Academic](https://scholar.google.com/)
+- [SSRN](https://www.ssrn.com/index.cfm/en/)
 - [ArXiv Quantitative Finance](https://arxiv.org/archive/q-fin)
 - [Quantitative Finance Papers](https://www.tandfonline.com/journals/rquf20)
 - [Journal of Portfolio Management](https://jpm.pm-research.com/)

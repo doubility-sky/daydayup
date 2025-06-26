@@ -1,5 +1,7 @@
-- [[bitcoin]]
-- [[ethereum]]
+The [blockchain](https://en.wikipedia.org/wiki/Blockchain) is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes.
+
+- [[cryptocurrency]]
+  - [[bitcoin]], [[ethereum]]
 
 
 
