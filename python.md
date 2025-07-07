@@ -83,6 +83,7 @@
 
 
 ## Tools
+- [pipx](https://github.com/pypa/pipx) — Install and Run Python Applications in Isolated Environments
 - [pyenv](https://github.com/pyenv/pyenv) lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
   - `pyenv install -l` List all available versions
   - `pyenv install 2.7.18`
