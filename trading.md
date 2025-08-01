@@ -65,6 +65,7 @@
 
 
 ## Libraries
+- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
 - [QuantLib](https://github.com/lballabio/quantlib): a free/open-source library for quantitative finance
 - [Zipline](https://github.com/quantopian/zipline), a Pythonic Algorithmic Trading Library
 - [TA-Lib](https://ta-lib.org/) - Technical Analysis Library
@@ -90,7 +91,9 @@
 
 
 ## Frameworks
-- [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
+- [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) is an open-source, high-performance, production-grade algorithmic trading platform, providing quantitative traders with the ability to backtest portfolios of automated trading strategies on historical data with an event-driven engine, and also deploy those same strategies live, with no code changes.
+- [QuantConnect](https://www.quantconnect.com/) - Python and C# algorithmic trading platform
+  - [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 - [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
 - [NexusTrader](https://github.com/Quantweb3-com/NexusTrader) is a professional-grade open-source quantitative trading platform
@@ -100,9 +103,6 @@
 
 
 ## [Platform](https://github.com/topics/trading-platform)
-- [QuantConnect](https://www.quantconnect.com/) - Python and C# algorithmic trading platform
-  - [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
-- [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) is an open-source, high-performance, production-grade algorithmic trading platform, providing quantitative traders with the ability to backtest portfolios of automated trading strategies on historical data with an event-driven engine, and also deploy those same strategies live, with no code changes.
 - [Interactive Brokers](https://www.interactivebrokers.com/) - A leading online brokerage firm that provides trading in stocks, options, futures, forex, and fixed income.
 - [FTMO](https://ftmo.com/en/) | The Modern Prop Trading Firm since 2015
 - [Apex Trader Funding](https://apextraderfunding.com/) is the leading futures funding evaluation firm in the world.
