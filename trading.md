@@ -93,6 +93,7 @@
 - [Qlib](https://github.com/microsoft/qlib) is an open-source, AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms, including supervised learning, market dynamics modeling, and reinforcement learning.
 - [vnpy](https://github.com/vnpy/vnpy) 基于Python的开源量化交易平台开发框架 http://www.vnpy.com
 - [zvt](https://github.com/zvtvz/zvt) - modular quant framework.
+- [NexusTrader](https://github.com/Quantweb3-com/NexusTrader) is a professional-grade open-source quantitative trading platform
 - [Howtrader](https://github.com/51bitquant/howtrader): A crypto quant framework for developing, backtesting, and executing your own trading strategies. Seamlessly integrates with TradingView and other third-party signals. Simply send a post request to automate trading and order placement. Supports Binance and Okex exchanges.
 - [RQAlpha](https://github.com/ricequant/rqalpha) 从数据获取、算法交易、回测引擎，实盘模拟，实盘交易到数据分析，为程序化交易者提供了全套解决方案。仅限非商业使用。
 - [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
