@@ -1,6 +1,7 @@
 [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) is a [[Linux]] distribution based on Debian and composed mostly of free and open-source software.
 
 - https://ubuntu.com
+- https://xubuntu.org/
 
 
 

@@ -1,13 +1,14 @@
-Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) [LEEN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key) or /ˈlɪnʊks/ [LIN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a family of [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(computing)) first released on September 17, 1991, by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) in a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
+[Linux](https://en.wikipedia.org/wiki/Linux) (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commons/0/03/Linus-linux.ogg)) [LEEN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key) or /ˈlɪnʊks/ [LIN-uuks](https://en.wikipedia.org/wiki/Help:Pronunciation_respelling_key)) is a family of [open-source](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Unix-like](https://en.wikipedia.org/wiki/Unix-like) operating systems based on the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel), an [operating system kernel](https://en.wikipedia.org/wiki/Kernel_(computing)) first released on September 17, 1991, by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds). Linux is typically [packaged](https://en.wikipedia.org/wiki/Package_manager) in a [Linux distribution](https://en.wikipedia.org/wiki/Linux_distribution).
 
 - [[c]]
 - [[linux-kernel]]
 - [[OpenWrt]]
 - [[networks]]
 - Distribution
-  - [[ubuntu]]
+  - [[debian]]
+    - [[ubuntu]]
+  - [[redhat]]
 - 本页大部分内容也适用于其他 [Unix-like](https://en.wikipedia.org/wiki/Unix-like) 系统：[[BSD]], [[macOS]]
-
 
 
 ## Learn
@@ -25,7 +26,6 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - [The early days of Linux](https://lwn.net/Articles/928581/)
 
 
-
 ## Shortcuts
 - ctrl + w 往回删除一个单词，光标放在最末尾
 - ctrl + u 删除光标以前的字符
@@ -33,7 +33,6 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - ctrl + a 移动光标至的字符头
 - ctrl + e 移动光标至的字符尾
 - ctrl + l 清屏
-
 
 
 ## Common
@@ -54,7 +53,6 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
   - CentOS: `yum update`
 - 进程信息树: `systemctl status PID`
 - [xargs](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
-
 
 
 ## System 
@@ -94,7 +92,8 @@ Linux (/ˈlinʊks/ (:sound:[listen](https://upload.wikimedia.org/wikipedia/commo
 - 其他云主机相关
   - `vi /etc/cloud/cloud.cfg` 将 `preserve_hostname` 为 `true`
 
-### [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
+
+## [top](https://www.cnblogs.com/peida/archive/2012/12/24/2831353.html)
 - 1 切换显示各逻辑CPU状况
 - c 切换显示各进程完整命令行
 - x 高亮排序属性列
@@ -112,7 +111,6 @@ iftop does for network usage what top(1) does for CPU usage. It listens to netwo
 Glances is a cross-platform monitoring tool which aims to present a large amount of monitoring information through a curses or Web based interface. The information dynamically adapts depending on the size of the user interface.
 
 
-
 ## File 
 - [Linux shell 之 提取文件名和目录名的一些方法](https://blog.csdn.net/ljianhui/article/details/43128465)
   ```shell
@@ -128,31 +126,6 @@ Glances is a cross-platform monitoring tool which aims to present a large amount
 
 ### cp
 - `cp -r xxx/. yyy/` 递归拷贝xxx至yyy，含隐藏文件
-
-### [rsync](https://en.wikipedia.org/wiki/Rsync)
-Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
-- [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
-- 将 `SRC` 目录同步至 `DEST/SRC`（不存在则创建）：`rsync -av SRC  DEST`
-- 将 `SRC` 目录同步至 `DEST    `（不存在则创建）：`rsync -av SRC/ DEST`
-  - `-a`/`--archive` 存档模式，保存所有的元数据
-  - `-v` 输出细节。`-vv` 输出更详细的信息，`-vvv` 输出最详细的信息。
-- 将 `SRC` 目录镜像至 `DEST`：`rsync -av --delete SRC/ DEST`
-- 将 `SRC1 ... SRCn` 同步至 `DEST/SRC1 ... DEST/SRCn`（不存在则创建）
-  - `rsync -av SRC1 SRC2 ... SRCn DEST`
-- **exclude**
-  - 将 `SRC` 目录同步至 `DEST`，且排除隐藏文件 `.*`
-    - `rsync -av --exclude '.*' SRC/ DEST`
-  - 将 `SRC` 目录同步至 `DEST`，且有多个排除选项
-    - `rsync -av --exclude={'f1.txt','f2.txt'} SRC/ DEST`
-- **include** 一般需配合 exclude 使用
-  - ~~`rsync -av --include="*.lua" --exclude='*' SRC/ DEST`~~ 仅复制指定文件
-    - `rsync -av --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
-    - 详见：[rsync copy over only certain types of files using include option](https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option)
-  - `rsync -av --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
-- 设置 [ssh](#SSH) config 后，操作基本同 [scp](#SCP)
-  - 同步 xxx 至 $REMOTE:/var/www/html/xxx
-    - `rsync -avzP xxx $REMOTE:/var/www/html`
-      - 压缩传输(-z), 显示进度(-P)
 
 ### tar
 - `tar -zcvf xxx.tar.gz [FILE]...`
@@ -191,7 +164,6 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 - [理解 Linux 的硬链接与软链接](https://www.ibm.com/developerworks/cn/linux/l-cn-hardandsymb-links/index.html)
 
 
-
 ## User
 - 修改用户密码：
   + 修改当前用户密码：passwd
@@ -201,86 +173,21 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
 - 踢人 `who`/`w` then `pkill -kill -t XXX_TTY`
 
 
-
-## [[networks]]
+## [[Networks]]
 - `udp` connection test: `nc -vuz SOME_IP SOME_PORT`
 - [如何在 Ubuntu 服务器 22.04 上设置静态 IP 地址](https://linux.cn/article-15181-1.html)
   - `vi /etc/netplan/00-installer-config.yaml`
   - `netplan apply`
 
-### [SSH](https://en.wikipedia.org/wiki/OpenSSH)
-- [SSH 教程](https://wangdoc.com/ssh/index.html)
-- 远程连接：`ssh -p12345 root@xxx.xxx.xxx.xxx`
-  - 其中 12345 为端口，无 `-p` 选项则为默认 22 端口。
-- ssh copy 文件至远端 `scp -P12345 xx.txt root@xxx.xxx.xxx.xxx:~/` 
-  - 注意此处指定端口与 ssh 不同，需要大写 `-P`
-- ssh key 免密连接配置
-  - 生成密钥对 `ssh-keygen -t rsa -P ''`
-  - 将公钥 `id_rsa.pub` 内容，写入远端文件 `~/.ssh/authorized_keys`
-    - 可使用 `ssh-copy-id [-i ~/.ssh/id_rsa.pub] root@xxx.xxx.xxx.xxx` 自动写入
-- ssh 设置远端别名
-  - 修改本地文件 `~/.ssh/config` (没有则用 `touch` 创建), 按如下格式添加内容，其中 Port 默认为 22 
-    ```
-    Host Xsvr
-    HostName 172.217.31.238
-    Port 12345
-    User root
-    IdentityFile ~/.ssh/id_rsa
-    ```
-  - 即可 `ssh Xsvr`
-- 禁止密码登录（仅 RSA key 登录更安全）
-  - `vi /etc/ssh/sshd_config`
-  - `PasswordAuthentication no`
-  - `service sshd restart`
-- 创建 SSH 账号，仅供打开 SSH 隧道使用，禁止其登录服务器
-  - adduser --shell /usr/sbin/nologin some_tunnel_user
-- 创建仅能访问服务器某目录的用户
-  - docker run -d --name log_reader_jail --restart always -v /root/logs:/logs:ro -w /logs ubuntu:22.04 tail -f /dev/null
-  - 创建用户 `someone`，并设置其密码
-    ```shell
-    useradd -m -s /bin/bash someone
-    passwd someone
-    ```
-  - `vi /etc/ssh/sshd_config` 末尾添加如下内容，令 `someone` 用户登录后直接进入 docker 容器的 bash 环境
-    ```shell
-    Match User someone
-      ForceCommand docker exec -it log_reader_jail /bin/bash
-    ```
-  - systemctl restart sshd
-- [ssh免密码登录](http://chenlb.iteye.com/blog/211809)
-- [SSH设置别名访问远程服务器](http://blog.csdn.net/xlgen157387/article/details/50282483)
-- [ssh 鲜为人知的三种用法](https://www.yanxurui.cc/posts/tool/2017-07-14-ssh-port-forward/)
-  - `vi /etc/ssh/sshd_config` 打开 `GatewayPorts yes`
-  - 远程端口转发至本地端口 `ssh -N -R [REMOTE_BIND:]REMOTE_PORT:LOCAL_IP:LOCAL_PORT user@remote_host`
-- [使用 SSH TUNNEL 打通公司和家里的网络](https://www.jianshu.com/p/388a93b1e7f7)
-- [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
-- [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
-- [Fail2Ban](https://github.com/fail2ban/fail2ban): ban hosts that cause multiple authentication errors
-  - [Protect SSH with Fail2Ban](https://linuxiac.com/how-to-protect-ssh-with-fail2ban/)
-- SSH Broken pipe
-  ```sh
-  # vi /etc/ssh/sshd_config (server side)
-  ClientAliveInterval 10
-  ClientAliveCountMax 6
-  ```
-- [HowTo: Disable SSH Host Key Checking](https://www.shellhacks.com/disable-ssh-host-key-checking/)
-  ```sh
-  Host *
-  StrictHostKeyChecking no
-  UserKnownHostsFile=/dev/null
-  ```
-- [How to Keep SSH Session Alive](https://linuxiac.com/how-to-keep-ssh-session-alive/)
-- [Mosh](https://github.com/mobile-shell/mosh) is a remote terminal application that supports intermittent connectivity, allows roaming, and provides speculative local echo and line editing of user keystrokes. It aims to support the typical interactive uses of SSH, plus ... https://mosh.org/
-  - Mosh will log the user in via SSH, then start a connection on a UDP port between 60000 and 61000.
-  - install `mosh` on both client and server side. 
-  - let server `ufw allow 60000:61000/udp` and run mosh-server.
-- [GlobalSSH](https://docs.ucloud.cn/pathx/globalssh) 是一款致力于提高跨国远程管理服务器效率的产品，旨在解决由于跨国网络不稳定导致的远程管理出现的卡顿、连接失败、传输速度较慢等现象。本产品可极大程度的减少卡顿、连接失败的情况发生，提高运维工作的效率。
+### [ssh](https://en.wikipedia.org/wiki/OpenSSH)
+- 详见: [[ssh]]
 
-### [SCP](https://en.wikipedia.org/wiki/Secure_copy_protocol)
+### [scp](https://en.wikipedia.org/wiki/Secure_copy_protocol)
 According to OpenSSH developers in April 2019, SCP is outdated, inflexible and not readily fixed; they recommend the use of more modern protocols like sftp and rsync for file transfer. https://www.openssh.com/txt/release-8.0
 - 推荐使用 [rsync](#rsync)
+- ssh copy 文件至远端 `scp -P12345 xx.txt root@xxx.xxx.xxx.xxx:~/`, 注意大写 `-P`
 
-## FTP
+### ftp
 - [vsftp](http://www.krizna.com/centos/setup-ftp-server-centos-7-vsftp/)  
   注：Step2中备份不要用mv，用cp  
 - [vsftpd允许root用户登录](http://blog.itpub.net/196700/viewspace-745364/)  
@@ -296,42 +203,36 @@ According to OpenSSH developers in April 2019, SCP is outdated, inflexible and n
 ### iptables
 - [iptables 添加，删除，查看，修改](http://blog.51yip.com/linux/1404.html)
 
-### [firewall-cmd](https://fedoraproject.org/wiki/Features/FirewalldRichLanguage)
-- [CentOS 上的 FirewallD 简明指南](https://linux.cn/article-8098-1.html)
-- 启动/开机启动 
-  - `systemctl start firewalld` / `systemctl enable firewalld`
-- 停止/禁用 
-  - `systemctl stop firewalld` / `systemctl disable firewalld`
-- 查看状态 
-  - `firewall-cmd --state`
-- 开放指定端口 
-  - `firewall-cmd --zone=public --add-port=12345/tcp --permanent`
-- 关闭指定端口 
-  - `firewall-cmd --zone=public --remove-port=12345/tcp --permanent`
-- 查看配置
-  - `firewall-cmd --zone=public --list-all`
-  - `firewall-cmd --list-all-zones` 所有区域的配置
-- 端口转发 local:80 => local:12345
-  - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=12345` 
-- 转发远程主机 local:80 => 123.456.78.9:8080
-  - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=8080:toaddr=123.456.78.9` 
-  - 在需要的区域中激活 masquerade `firewall-cmd --zone=public --add-masquerade`
-  - 删除规则 `firewall-cmd --zone=public --remove-masquerade`
-- 应急模式，阻断或放开所有网络 
-  - `firewall-cmd --panic-on` / `firewall-cmd --panic-off`
-- :star:令修改生效（重新加载 FirewallD 配置） `firewall-cmd --reload`
-- Rich Rules
-  ```bash
-  # 允许来自指定远程主机的所有 IPv4 流量
-  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=123.456.78.9 accept'
-  # 拒绝来自指定主机到 22 端口的 IPv4 的 TCP 流量
-  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=123.456.78.9 port port=22 protocol=tcp reject'
-  # 允许来自指定主机到 80 端口的 IPv4 的 TCP 流量，并将流量转发到 6532 端口上
-  firewall-cmd --zone=public --add-rich-rule 'rule family=ipv4 source address=123.456.78.9 forward-port port=80 protocol=tcp to-port=6532'
-  # 移除相应 rich rule 
-  firewall-cmd --zone=public --remove-rich-rule '... XXXX ...'
-  ```
+### [fail2ban](https://github.com/fail2ban/fail2ban)
+- Daemon to ban hosts that cause multiple authentication errors
+- [Protect SSH with Fail2Ban](https://linuxiac.com/how-to-protect-ssh-with-fail2ban/)
+- [VPS 防止 SSH 暴力登录尝试攻击](http://www.lovelucy.info/vps-anti-ssh-login-attempts-attack.html)
 
+
+## [Rsync](https://en.wikipedia.org/wiki/Rsync)
+Similar to cp, rcp and scp, rsync requires the specification of a source and of a destination, of which at least one must be local.
+- [rsync 用法教程](http://www.ruanyifeng.com/blog/2020/08/rsync.html)
+- 将 `SRC` 目录同步至 `DEST/SRC`（不存在则创建）：`rsync -av SRC  DEST`
+- 将 `SRC` 目录同步至 `DEST    `（不存在则创建）：`rsync -av SRC/ DEST`
+  - `-a`/`--archive` 存档模式，保存所有的元数据
+  - `-v` 输出细节。`-vv` 输出更详细的信息，`-vvv` 输出最详细的信息。
+- 将 `SRC` 目录镜像至 `DEST`：`rsync -av --delete SRC/ DEST`
+- 将 `SRC1 ... SRCn` 同步至 `DEST/SRC1 ... DEST/SRCn`（不存在则创建）
+  - `rsync -av SRC1 SRC2 ... SRCn DEST`
+- **exclude**
+  - 将 `SRC` 目录同步至 `DEST`，且排除隐藏文件 `.*`
+    - `rsync -av --exclude '.*' SRC/ DEST`
+  - 将 `SRC` 目录同步至 `DEST`，且有多个排除选项
+    - `rsync -av --exclude={'f1.txt','f2.txt'} SRC/ DEST`
+- **include** 一般需配合 exclude 使用
+  - ~~`rsync -av --include="*.lua" --exclude='*' SRC/ DEST`~~ 仅复制指定文件
+    - `rsync -av --include='*/' --include="*.lua" --exclude='*' SRC/ DEST`
+    - 详见：[rsync copy over only certain types of files using include option](https://stackoverflow.com/questions/11111562/rsync-copy-over-only-certain-types-of-files-using-include-option)
+  - `rsync -av --include="*.txt" --exclude='f1.txt' SRC/ DEST` 指定复制规则，同时排除特定
+- 设置 [ssh](#SSH) config 后，操作基本同 [scp](#SCP)
+  - 同步 xxx 至 $REMOTE:/var/www/html/xxx
+    - `rsync -avzP xxx $REMOTE:/var/www/html`
+      - 压缩传输(-z), 显示进度(-P)
 
 
 ## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
@@ -363,7 +264,6 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
 [Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
 
 
-
 ## Schedule
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 - [如何在重启或启动时执行命令或脚本](https://zhuanlan.zhihu.com/p/145739918)
@@ -373,7 +273,6 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
     - `@reboot (sleep 30; bash ~/xx.sh)`
     - 执行 `select-editor` 可重新选择编辑器
     - 也可以添加在 `/etc/crontab`，但是注意需要指定 user，如：`@reboot root (sleep 30; bash ~/xx.sh)`
-
 
 
 ## FAQs
@@ -396,8 +295,6 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
   - add `LogLevel ERROR` to `~/.ssh/config`
 
 
-
 ## Resources
 - [Awesome Linux](https://github.com/aleksandar-todorovic/awesome-linux), A list of awesome projects and resources that make Linux even more awesome
 - [ArchWiki](https://wiki.archlinux.org/)
-
