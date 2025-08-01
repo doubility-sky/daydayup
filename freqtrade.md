@@ -28,7 +28,7 @@ It contains backtesting, plotting and money management tools as well as strategy
 - [Hyperopt](https://www.freqtrade.io/en/stable/hyperopt/) - How to optimize your trading strategies using hyperparameter optimization
 - [Advanced Strategies](https://www.freqtrade.io/en/stable/strategy-advanced/) - Advanced strategy techniques including reinforcement learning
 
-### example
+### examples
 - [Example Strategies](https://github.com/freqtrade/freqtrade-strategies) - Collection of strategies for Freqtrade
 - [NostalgiaForInfinity](https://github.com/iterativv/NostalgiaForInfinity) - Trading strategy for the Freqtrade crypto bot. For backtesting results, check out the comments in the individual commit page.
 
@@ -42,6 +42,11 @@ It contains backtesting, plotting and money management tools as well as strategy
 - [Telegram Integration](https://www.freqtrade.io/en/stable/telegram-usage/) - Control your bot via Telegram messaging
 - [Freqtrade REST API](https://www.freqtrade.io/en/stable/rest-api/) - API for programmatic interaction
 - [Webhook Notifications](https://www.freqtrade.io/en/stable/webhook-config/) - Send trade notifications to external services
+
+
+## FAQs
+- [Got resolution-too-deep error when updating the version from 2025.5 to 2025.6 (or 2025.7)](https://github.com/freqtrade/freqtrade/issues/12057)
+  - active venv then `uv pip install -U -r requirements.txt`
 
 
 ## Resources

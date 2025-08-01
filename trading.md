@@ -64,13 +64,6 @@
 - [StackExchange - Quantitative Finance](https://quant.stackexchange.com/)
 
 
-## Platform
-- [Interactive Brokers](https://www.interactivebrokers.com/) - A leading online brokerage firm that provides trading in stocks, options, futures, forex, and fixed income.
-- [FTMO](https://ftmo.com/en/) | The Modern Prop Trading Firm since 2015
-- [Apex Trader Funding](https://apextraderfunding.com/) is the leading futures funding evaluation firm in the world.
-- [StockSharp](https://github.com/StockSharp/StockSharp) - Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).
-
-
 ## Libraries
 - [QuantLib](https://github.com/lballabio/quantlib): a free/open-source library for quantitative finance
 - [Zipline](https://github.com/quantopian/zipline), a Pythonic Algorithmic Trading Library
@@ -105,10 +98,18 @@
 - [Basana](https://github.com/gbeced/basana) is a Python async and event driven framework for algorithmic trading, with a focus on crypto currencies.
 
 
-## Tools
-- [TradingView](https://www.tradingview.com/), a charting platform and social network used by 100M+ traders and investors worldwide to spot opportunities across global markets.
+## [Platform](https://github.com/topics/trading-platform)
 - [QuantConnect](https://www.quantconnect.com/) - Python and C# algorithmic trading platform
   - [LEAN](https://github.com/QuantConnect/Lean) is an event-driven, professional-caliber algorithmic trading platform built with a passion for elegant engineering and deep quant concept modeling. Out-of-the-box alternative data and live-trading support.
+- [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) is an open-source, high-performance, production-grade algorithmic trading platform, providing quantitative traders with the ability to backtest portfolios of automated trading strategies on historical data with an event-driven engine, and also deploy those same strategies live, with no code changes.
+- [Interactive Brokers](https://www.interactivebrokers.com/) - A leading online brokerage firm that provides trading in stocks, options, futures, forex, and fixed income.
+- [FTMO](https://ftmo.com/en/) | The Modern Prop Trading Firm since 2015
+- [Apex Trader Funding](https://apextraderfunding.com/) is the leading futures funding evaluation firm in the world.
+- [StockSharp](https://github.com/StockSharp/StockSharp) - Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).
+
+
+## Tools
+- [TradingView](https://www.tradingview.com/), a charting platform and social network used by 100M+ traders and investors worldwide to spot opportunities across global markets.
 - [Trading Technologies](https://www.tradingtechnologies.com/) - The most advanced trading solutions for modern traders.
 - [MetaTrader 4](https://www.metatrader4.com/) is a platform for trading Forex, analyzing financial markets and using Expert Advisors. Mobile trading, Trading Signals and the Market are the integral parts of MetaTrader 4 that enhance your Forex trading experience.
 - [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) - This is a proof of concept for an AI-powered hedge fund. The goal of this project is to explore the use of AI to make trading decisions. This project is for educational purposes only and is not intended for real trading or investment.
