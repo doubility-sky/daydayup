@@ -4,7 +4,6 @@
 - https://xubuntu.org/
 
 
-
 ## Common
 - Debian/Ubuntu: `apt update`
   ```bash
@@ -19,12 +18,6 @@
   dpkg -c                # 查询deb包文件中所包含的文件
   dpkg -L                # 查看系统中安装包的的详细清单，同时执行 -c
   ```
-
-
-
-## Service 
-- [Ubuntu Service系统服务说明与使用方法](http://www.mikewootc.com/wiki/linux/usage/ubuntu_service_usage.html)
-
 
 
 ## [UFW](https://help.ubuntu.com/community/UFW)
@@ -43,7 +36,6 @@
 - `ufw delete RULE|NUM` 删除指定规则
   - RULE 为之前 ufw 后跟的表达式
   - NUM 为 `ufw status numbered` 中的编号
-
 
 
 # FAQ

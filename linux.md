@@ -264,6 +264,51 @@ Screen is a full-screen window manager that multiplexes a physical terminal betw
 [Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
 
 
+## Systemctl
+`systemctl` 是与 `systemd` 交互的主要工具，用于管理服务和其他系统单元。
+
+### 管理服务状态
+这些命令用于控制服务的实时状态，`[服务名]` 通常可以省略 `.service` 后缀，例如 `nginx`。
+```bash
+systemctl start nginx
+systemctl stop nginx
+systemctl restart nginx
+systemctl reload nginx
+systemctl status nginx
+```
+
+### 管理开机自启
+这些命令决定服务是否在系统启动时自动运行。
+```bash
+systemctl enable nginx
+systemctl disable nginx
+systemctl is-enabled nginx
+# 启用并立即启动服务
+systemctl enable --now nginx
+```
+
+### 查看服务单元信息
+用于列出和检查系统中的所有 `systemd` 单元。
+```bash
+# 列出所有正在运行的服务单元
+systemctl list-units --type=service
+# 列出所有已安装的服务单元 (无论是否启动)
+systemctl list-unit-files --type=service
+# 显示服务单元的配置文件内容
+systemctl cat nginx
+# 显示服务单元的依赖关系
+systemctl list-dependencies nginx
+```
+
+### 查看日志 (通过 journalctl)
+`systemd` 集成了自己的日志系统 `journald`，通过 `journalctl` 命令查看。
+```bash
+journalctl -u nginx
+# 实时跟踪服务的日志 (类似 tail -f)
+journalctl -u nginx -f
+```
+
+
 ## Schedule
 - [定时任务crontab](http://www.cnblogs.com/peida/archive/2013/01/08/2850483.html)
 - [如何在重启或启动时执行命令或脚本](https://zhuanlan.zhihu.com/p/145739918)
