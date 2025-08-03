@@ -5,7 +5,6 @@
 - [[pygame]]
 
 
-
 ## Learn
 - [The Python Wiki](https://wiki.python.org)
 - [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
@@ -24,7 +23,6 @@
 - [《Python 3 源码剖析》](https://github.com/flaggo/python3-source-code-analysis)
 
 
-
 ## Implementation
 - [Numba](https://github.com/numba/numba) is an open source JIT compiler that translates a subset of Python and NumPy code into fast machine code.
 - [Cython](https://github.com/cython/cython) is an optimising static compiler for both the Python programming language and the extended Cython programming language (based on [Pyrex](https://www.csse.canterbury.ac.nz/greg.ewing/python/Pyrex/)). It makes writing C extensions for Python as easy as Python itself.
@@ -34,13 +32,29 @@
 - [Nuitka](https://github.com/Nuitka/Nuitka) is a Python compiler written in Python. It's fully compatible with Python 2.6, 2.7, 3.4-3.13. You feed it your Python app, it does a lot of clever things, and spits out an executable or extension module.
 
 
-
 ## Practice
 - [Python 练习册](https://github.com/Yixiaohan/show-me-the-code)
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 - [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
   - Make English as your working language. Practice makes perfect. All experience comes from mistakes. Don't be one of the leeches. Either stand out or kicked out.
 
+### environment
+- [pipx](https://github.com/pypa/pipx) — Install and Run Python Applications in Isolated Environments
+- [venv](https://docs.python.org/3/library/venv.html) — Creation of virtual environments
+- [virtualenv](https://github.com/pypa/virtualenv) - A tool for creating isolated virtual python environments.
+- [pyenv](https://github.com/pyenv/pyenv) lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
+  - `pyenv install -l` List all available versions
+  - `pyenv install 2.7.18`
+  - `pyenv versions` Show the current Python version(s) and its origin
+  - `pyenv global 2.7.18`
+  - `python --version`
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) is a pyenv plugin that provides features to manage virtualenvs and conda environments for Python on UNIX-like systems.
+- FAQs
+  - [What is the difference between venv, pyvenv, pyenv, virtualenv, virtualenvwrapper, pipenv, etc?](https://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+  - [一文了解virtualenv、pyvenv、pyenv、pyenv virtualenv](https://cloud.tencent.com/developer/article/1593451)
+    - [pyenv 神器原理分析](https://cloud.tencent.com/developer/article/1593478)
+  - After `pyenv global system` got: `pyenv: python: command not found ...` on macOS 12+
+    - `ln -s /usr/local/bin/python3 /usr/local/bin/python`
 
 
 ## Libraries
@@ -48,7 +62,6 @@
 - [Pillow](https://github.com/python-pillow/Pillow), The friendly PIL fork (Python Imaging Library) https://python-pillow.org
 - [openpyxl](https://openpyxl.readthedocs.io/en/stable/) is a Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files.
 - [pywebview](https://github.com/r0x0r/pywebview) is a lightweight cross-platform wrapper around a webview component that allows to display HTML content in its own native GUI window.
-
 
 
 ## Frameworks
@@ -72,7 +85,6 @@
   - [tutorial](https://github.com/mherrmann/fbs-tutorial) for creating Python/Qt GUIs with fbs
 
 
-
 ## Crawlers
 - [scrapy](https://scrapy.org/), An open source and collaborative framework for extracting the data you need from websites. In a fast, simple, yet extensible way.
 - [pyspider](https://github.com/binux/pyspider), A Powerful Spider(Web Crawler) System in Python. http://docs.pyspider.org/
@@ -81,21 +93,10 @@
 - [Grab](https://github.com/lorien/grab) is a python web scraping framework. Grab provides a number of helpful methods to perform network requests, scrape web sites and process the scraped content ...
 
 
-
 ## Tools
-- [pipx](https://github.com/pypa/pipx) — Install and Run Python Applications in Isolated Environments
-- [pyenv](https://github.com/pyenv/pyenv) lets you easily switch between multiple versions of Python. It's simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.
-  - `pyenv install -l` List all available versions
-  - `pyenv install 2.7.18`
-  - `pyenv versions` Show the current Python version(s) and its origin
-  - `pyenv global 2.7.18`
-  - `python --version`
-  - FAQ: after `pyenv global system` got: `pyenv: python: command not found ...` on macOS 12+
-    - `ln -s /usr/local/bin/python3 /usr/local/bin/python`
 - [SimpleHTTPServer](https://docs.python.org/2/library/simplehttpserver.html)  
   - `python -m SimpleHTTPServer 8000` OR `python3 -m http.server`
 - [Python's many command-line utilities](https://www.pythonmorsels.com/cli-tools/)
-
 
 
 ## FAQs
@@ -120,7 +121,6 @@
     pyinstaller --add-data="$env:LocalAppData\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\zhconv\zhcdict.json;zhconv" -F translate.py --distpath "."
   ```
 - [On MacOS 14, pip install throws error: externally-managed-environment](https://discuss.python.org/t/on-macos-14-pip-install-throws-error-externally-managed-environment/50352/6)
-
 
 
 ## Resources
