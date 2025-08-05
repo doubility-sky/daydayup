@@ -56,10 +56,31 @@ The [Secure Shell Protocol](https://en.wikipedia.org/wiki/Secure_Shell) (SSH Pro
   - `vi /etc/ssh/sshd_config` 打开 `GatewayPorts yes`
   - 远程端口转发至本地端口 `ssh -N -R [REMOTE_BIND:]REMOTE_PORT:LOCAL_IP:LOCAL_PORT user@remote_host`
 - [使用 SSH TUNNEL 打通公司和家里的网络](https://www.jianshu.com/p/388a93b1e7f7)
-- [linux管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
+  - 上传相关公钥至远程服务器
+  - `vi /etc/systemd/system/reverse-ssh-tunnel.service` 配置 `USERNAME` 及 `REMOTE_IP`
+  ```shell
+  [Unit]
+  Description=AutoSSH tunnel to Cloud Server
+  Wants=network-online.target
+  After=network-online.target
+  [Service]
+  User=USERNAME
+  ExecStart=/usr/bin/autossh -M 0 -o "ServerAliveInterval=5" -o "ServerAliveCountMax=3" -N -R 8822:localhost:22 USERNAME@REMOTE_IP
+  Restart=always
+  RestartSec=10
+  [Install]
+  WantedBy=multi-user.target
+  ```
+  - 重新加载 systemd 配置并启用服务
+  ```bash
+  systemctl daemon-reload
+  systemctl enable reverse-ssh-tunnel
+  systemctl start reverse-ssh-tunnel
+  ```
 
 
 ## FAQs
+- [linux如何管理多个ssh公钥密钥](https://blog.csdn.net/qq_23827747/article/details/54986905)
 - SSH Broken pipe
   ```sh
   # vi /etc/ssh/sshd_config (server side)
