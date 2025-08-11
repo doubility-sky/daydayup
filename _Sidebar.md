@@ -88,7 +88,7 @@
   - [[bitcoin]], [[ethereum]]
 - [[trading]]
   - [[high-frequency-trading]]
-  - [[freqtrade]]
+  - [[freqtrade]], [[hummingbot]]
 
 ## [[career]]
 - [[legal-rights]]

@@ -8,7 +8,7 @@
   - [[cryptocurrency]]
     - [[bitcoin]], [[ethereum]]
   - [[high-frequency-trading]]
-  - [[freqtrade]]
+  - [[freqtrade]], [[hummingbot]]
 
 
 ## Learn
