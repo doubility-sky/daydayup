@@ -76,6 +76,7 @@
 ## Backtesting
 - [Backtesting.py](https://github.com/kernc/backtesting.py) - Backtest trading strategies with Python.
 - [vectorbt](https://github.com/polakowo/vectorbt) is a Python package for quantitative analysis that takes a novel approach to backtesting: it operates entirely on pandas and NumPy objects, and is accelerated by Numba to analyze any data at speed and scale. This allows for testing of many thousands of strategies in seconds.
+- [hftbacktest](https://github.com/nkaz001/hftbacktest) - Free, open source, a high frequency trading and market making backtesting and trading bot, which accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world crypto trading examples for Binance and Bybit
 - [bt](https://github.com/pmorissette/bt) - Flexible Backtesting for Python
 - [finmarketpy](https://github.com/cuemacro/finmarketpy) is a Python based library that enables you to analyze market data and also to backtest trading strategies using a simple to use API, which has prebuilt templates for you to define backtest.
 - [backtrader](https://github.com/mementum/backtrader) - Python Backtesting library for trading strategies
