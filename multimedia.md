@@ -118,4 +118,5 @@
 
 
 ## Projects
+- [SmartTube](https://github.com/yuliskov/SmartTube) is a free and open-source advanced media player for Android TVs and TV boxes. It allows you to play content from various public sources.
 - [NodeTube](https://github.com/mayeaux/nodetube) is an open-source YouTube alt that offers video, audio and image uploads, livestreaming and built-in monetization
