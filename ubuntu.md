@@ -40,3 +40,7 @@
 
 # FAQ
 - 默认账号 ubuntu, `sudo passwd` 设置 root 密码
+- Update `/swap.img` size to 96G:
+  - `swapoff /swap.img`
+  - `fallocate -l 96G /swap.img`
+  - `chmod 600 /swap.img; mkswap /swap.img; swapon /swap.img`
