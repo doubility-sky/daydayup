@@ -47,6 +47,8 @@
   whatis free
     free (1)             - Display amount of free and used memory in the system
   ```
+- Monitor memory usage every 0.5 second
+  - `watch -n 0.5 free -h`
 - Date time
   - `date "+%Y-%m-%d %H:%M:%S"`
 - Package Manager
