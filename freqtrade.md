@@ -36,7 +36,7 @@ It contains backtesting, plotting and money management tools as well as strategy
 ## [Backtesting](https://www.freqtrade.io/en/stable/backtesting/)
 - [Data Downloading](https://www.freqtrade.io/en/stable/data-download/) - Obtaining historical data for backtesting
 - [Assumptions made by backtesting](https://www.freqtrade.io/en/latest/backtesting/#assumptions-made-by-backtesting)
-- Backtest Traps
+- :warning:[Backtest Traps](https://brookmiles.github.io/freqtrade-stuff/2021/04/12/backtesting-traps/)
   - [Trailing Stoploss](https://botacademy.ddns.net/2023/07/09/backtest-traps-trailing-stoploss/)
     - The bot mostly gonna check profit based of high value, then in case of a long green candle, you might exit near the high, especially if you set a very tight trailing.
     - [FSD – Trailing stoploss](https://botacademy.ddns.net/2023/10/18/fsd-trailing-stoploss/)
