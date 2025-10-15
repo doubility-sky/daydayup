@@ -35,6 +35,25 @@ It contains backtesting, plotting and money management tools as well as strategy
 
 ## [Backtesting](https://www.freqtrade.io/en/stable/backtesting/)
 - [Data Downloading](https://www.freqtrade.io/en/stable/data-download/) - Obtaining historical data for backtesting
+- [Assumptions made by backtesting](https://www.freqtrade.io/en/latest/backtesting/#assumptions-made-by-backtesting)
+- Backtest Traps
+  - [Trailing Stoploss](https://botacademy.ddns.net/2023/07/09/backtest-traps-trailing-stoploss/)
+    - The bot mostly gonna check profit based of high value, then in case of a long green candle, you might exit near the high, especially if you set a very tight trailing.
+    - [FSD – Trailing stoploss](https://botacademy.ddns.net/2023/10/18/fsd-trailing-stoploss/)
+  - [Custom Exit](https://botacademy.ddns.net/2023/07/09/backtest-traps-custom-exit/)
+    ```py
+    def custom_exit(self, pair: str, trade: Trade, current_time: datetime, current_rate: float, current_profit: float, **kwargs) -> Optional[Union[str, bool]]:
+        dataframe, _ = self.dp.get_analyzed_dataframe(pair, self.timeframe)
+        current_candle = dataframe.iloc[-1].squeeze()
+        current_profit = trade.calc_profit_ratio(current_candle['close'])
+    ```
+    - The snippet above will make sure your current_profit tied to last closed candle’s close rate, ensuring that your backtesting results are consistent with live trading results.
+    - [FSD – Custom exit](https://botacademy.ddns.net/2023/10/18/fsd-custom-exit/)
+  - [ROI](https://botacademy.ddns.net/2023/07/12/backtest-traps-roi/)
+    - Using time intervals that correspond to your timeframe will help you avoid falling into the ROI trap.
+  - [Backtest in batches](https://botacademy.ddns.net/2024/10/10/hidden-trap-of-doing-backtest-in-batches/)
+    - Can you avoid such issue while still doing backtest in batches? Sure, if your average trade duration is very short.
+- [Improved backtest accuracy](https://www.freqtrade.io/en/develop/backtesting/#improved-backtest-accuracy)
 - [Analyzing Results](https://www.freqtrade.io/en/stable/plotting/) - Visualizing and analyzing backtest results
 
 
