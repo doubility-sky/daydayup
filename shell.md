@@ -8,14 +8,12 @@ Command-line shells require the user to be familiar with commands and their call
 - [[operating-system]]
 
 
-
 ## Learn
 - [You Don't Need GUI](https://github.com/you-dont-need/You-Dont-Need-GUI): Stop relying on GUI; CLI **ROCKS**
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line), Master the command line, in one page. - [zh-CN](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 - [命令行通配符教程](https://www.ruanyifeng.com/blog/2018/09/bash-wildcards.html)
   - [What do double-asterisk (**) wildcards mean?](https://stackoverflow.com/questions/28176590/what-do-double-asterisk-wildcards-mean/28199633#28199633)
 - [Modern PATH environment variable](https://blog.izissise.net/posts/env-path/)
-
 
 ### scripting
 - [Advanced Bash-Scripting Guide](https://tldp.org/LDP/abs/html/index.html): An in-depth exploration of the art of shell scripting
@@ -35,7 +33,6 @@ Command-line shells require the user to be familiar with commands and their call
 - [useful scripts](https://github.com/oldratlee/useful-scripts) for making developer's everyday life easier and happier, involved java, shell etc. 
 - [Minimal safe Bash script template](https://betterdev.blog/minimal-safe-bash-script-template/)
 - [Advanced Shell Scripting Techniques: Automating Complex Tasks with Bash](https://omid.dev/2024/06/19/advanced-shell-scripting-techniques-automating-complex-tasks-with-bash/)
-
 
 
 ## [Bourne shell](https://en.wikipedia.org/wiki/Bourne_shell) (sh)
@@ -64,6 +61,145 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 - [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins): A collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
 
 
+## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
+
+### [screen](https://www.gnu.org/software/screen/)
+Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
+- [How To Use Screen](https://linuxize.com/post/how-to-use-linux-screen/)
+- [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
+- Frequently Command:
+  ```
+  screen -ls             列出当前所有的session
+         -r <作业名称>    恢复离线的screen作业。
+  ```
+- In Session Command:
+  ```
+  C-a n -> Next，切换到下一个 window 
+  C-a p -> Previous，切换到前一个 window 
+  C-a d -> detach，暂时离开当前session，
+          将目前的 screen session (可能含有多个 windows) 丢到后台执行，
+          并会回到还没进 screen 时的状态，此时在 screen session 里，
+          每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
+  ```
+- [man screen](https://www.gnu.org/software/screen/manual/screen.html)
+
+### [tmux](https://github.com/tmux/tmux) 
+[tmux](https://en.wikipedia.org/wiki/Tmux) is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
+- [Getting Started](https://github.com/tmux/tmux/wiki/Getting-Started)
+- [Gentle Guide to Get Started With tmux](https://pragmaticpineapple.com/gentle-guide-to-get-started-with-tmux/)
+- [Getting started with Tmux](https://linuxize.com/post/getting-started-with-tmux/)
+- [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
+- frequently used commands
+  ```bash
+  tmux ls                         # or `tmux list-session`
+  tmux new -s <session-name>
+  tmux at -t <session-name>       # or `tmux attach -t <session-name>`
+  tmux rename-session -t <session-name> <new-name>
+  tmux switch -t <session-name>
+  tmux detach                         # or `C-b d`
+  tmux kill-session -t <session-name>
+  # inside a tmux session
+  tmux new-window -n <window-name>    # or `C-b c`
+  tmux rename-window <new-name>
+  tmux select-window -t <window-name>
+  ```
+- frequently used shortcuts (prefix key `C-b`):
+  - `C-b c` Create a new window
+  - `C-b s` List all sessions
+  - `C-b w` List all sessions' windows
+  - `C-b n` Next window in current session
+  - `C-b p` Previous window in current session
+  - `C-b <0~9>` Select window 0~9 in current session
+  - `C-b $` Rename current session
+  - `C-b t` Show a clock
+- [tmux shortcuts & cheatsheet](https://gist.github.com/MohamedAlaa/2961058) - [zh-CN](https://gist.github.com/ryerh/14b7c24dfd623ef8edc7)
+
+
+<details> <summary> tmux help `C-b ?` </summary>
+
+```
+C-b Space   Select next layout
+C-b !       Break pane to a new window
+C-b "       Split window vertically
+C-b #       List all paste buffers
+C-b $       Rename current session
+C-b %       Split window horizontally
+C-b &       Kill current window
+C-b '       Prompt for window index to select
+C-b (       Switch to previous client
+C-b )       Switch to next client
+C-b ,       Rename current window
+C-b -       Delete the most recent paste buffer
+C-b .       Move the current window
+C-b /       Describe key binding
+C-b <0~9>   Select window 0~9
+C-b :       Prompt for a command
+C-b ;       Move to the previously active pane
+C-b =       Choose a paste buffer from a list
+C-b ?       List key bindings
+C-b C       Customize options
+C-b D       Choose and detach a client from a list
+C-b E       Spread panes out evenly
+C-b L       Switch to the last client
+C-b M       Clear the marked pane
+C-b [       Enter copy mode
+C-b ]       Paste the most recent paste buffer
+C-b c       Create a new window
+C-b d       Detach the current client
+C-b f       Search for a pane
+C-b i       Display window information
+C-b l       Select the previously current window
+C-b m       Toggle the marked pane
+C-b n       Select the next window
+C-b o       Select the next pane
+C-b p       Select the previous window
+C-b q       Display pane numbers
+C-b r       Redraw the current client
+C-b s       Choose a session from a list
+C-b t       Show a clock
+C-b w       Choose a window from a list
+C-b x       Kill the active pane
+C-b z       Zoom the active pane
+C-b {       Swap the active pane with the pane above
+C-b }       Swap the active pane with the pane below
+C-b ~       Show messages
+C-b DC      Reset so the visible part of the window follows the cursor
+C-b PPage   Enter copy mode and scroll up
+C-b Up      Select the pane above the active pane
+C-b Down    Select the pane below the active pane
+C-b Left    Select the pane to the left of the active pane
+C-b Right   Select the pane to the right of the active pane
+C-b M-1     Set the even-horizontal layout
+C-b M-2     Set the even-vertical layout
+C-b M-3     Set the main-horizontal layout
+C-b M-4     Set the main-vertical layout
+C-b M-5     Select the tiled layout
+C-b M-6     Set the main-horizontal-mirrored layout
+C-b M-7     Set the main-vertical-mirrored layout
+C-b M-n     Select the next window with an alert
+C-b M-o     Rotate through the panes in reverse
+C-b M-p     Select the previous window with an alert
+C-b M-Up    Resize the pane up by 5
+C-b M-Down  Resize the pane down by 5
+C-b M-Left  Resize the pane left by 5
+C-b M-Right Resize the pane right by 5
+C-b C-b     Send the prefix key
+C-b C-o     Rotate through the panes
+C-b C-z     Suspend the current client
+C-b C-Up    Resize the pane up
+C-b C-Down  Resize the pane down
+C-b C-Left  Resize the pane left
+C-b C-Right Resize the pane right
+C-b S-Up    Move the visible part of the window up
+C-b S-Down  Move the visible part of the window down
+C-b S-Left  Move the visible part of the window left
+C-b S-Right Move the visible part of the window right
+```
+</details>
+
+### [Zellij](https://github.com/zellij-org/zellij)
+[Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
+
 
 ## Tools
 - :star:[shellcheck](https://github.com/koalaman/shellcheck), a static analysis tool for shell scripts https://www.shellcheck.net
@@ -86,7 +222,6 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 ### [[ruby]]
 - [Ruby: a great language for shell scripts!](https://lucasoshiro.github.io/posts-en/2024-06-17-ruby-shellscript/)
-
 
 
 ## FAQs
@@ -115,7 +250,6 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
   ```
   </details>
 - [如何在Python中实现常见的bash习惯用法？](https://www.codenong.com/209470/)
-
 
 
 ## Resources

@@ -233,35 +233,6 @@ Similar to cp, rcp and scp, rsync requires the specification of a source and of 
       - 压缩传输(-z), 显示进度(-P)
 
 
-## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
-
-### [screen](https://www.gnu.org/software/screen/)
-Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
-- [linux screen 命令详解](http://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)  
-- Frequently Command:
-  ```
-  screen -ls             列出当前所有的session
-         -r <作业名称> 　  恢复离线的screen作业。
-  ```
-- In Session Command:
-  ```
-  C-a n -> Next，切换到下一个 window 
-  C-a p -> Previous，切换到前一个 window 
-  C-a d -> detach，暂时离开当前session，
-          将目前的 screen session (可能含有多个 windows) 丢到后台执行，
-          并会回到还没进 screen 时的状态，此时在 screen session 里，
-          每个 window 内运行的 process (无论是前台/后台)都在继续执行，即使 logout 也不影响。 
-  ```
-- [man screen](https://www.gnu.org/software/screen/manual/screen.html)
-
-### [tmux](https://github.com/tmux/tmux)
-[tmux](https://en.wikipedia.org/wiki/Tmux) is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen. tmux may be detached from a screen and continue running in the background, then later reattached.
-- [Gentle Guide to Get Started With tmux](https://pragmaticpineapple.com/gentle-guide-to-get-started-with-tmux/)
-
-### [Zellij](https://github.com/zellij-org/zellij)
-[Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
-
-
 ## Systemctl
 `systemctl` 是与 `systemd` 交互的主要工具，用于管理服务和其他系统单元。
 
@@ -321,9 +292,8 @@ journalctl -u nginx -f
 ## FAQs
 - [How To Secure A Linux Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
 - [服务器操作系统应该选择 Debian/Ubuntu 还是 CentOS？](https://www.zhihu.com/question/19599986/answer/26359309)
-- [CentOS: 永远有多远就离它多远](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)
-- [在linux上做机器学习，请问centos和ubuntu有区别吗？](https://www.zhihu.com/question/334455564)
-  - TensorFlow 用 Ubuntu
+  - [CentOS: 永远有多远就离它多远](https://feng.si/posts/2019/07/centos-the-last-linux-distro-you-should-ever-consider/)
+  - [在linux上做机器学习，请问centos和ubuntu有区别吗？](https://www.zhihu.com/question/334455564) - **TensorFlow 用 Ubuntu**
 - [Linux 配置 history 命令显示操作时间、用户和登录 IP](https://blog.csdn.net/m0_37886429/article/details/78520434)
   ```bash
   export HISTSIZE=4096
