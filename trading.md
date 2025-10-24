@@ -123,6 +123,7 @@
 - [有独立开发完成一个量化系统开发的人吗？](https://www.zhihu.com/question/35977425/answer/2870343463)
   - [源码分析](https://www.zhihu.com/question/35977425/answer/3526582652)
 - [个人做量化建议做高频还是卷因子？](https://www.zhihu.com/question/542960174/answer/46505312305)
+- [量化交易系统中，把策略和行情交易进程分离，使用共享内存通信，有什么利弊？](https://www.zhihu.com/question/629152445/answer/3281335454)
 
 
 ## Resources
