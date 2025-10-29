@@ -37,6 +37,10 @@
 - [101 NumPy Exercises for Data Analysis (Python)](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
 - [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) Python - 100天从新手到大师
   - Make English as your working language. Practice makes perfect. All experience comes from mistakes. Don't be one of the leeches. Either stand out or kicked out.
+- 预编译 Python 文件为字节码
+  - `python -m compileall file.py`
+  - `python -m compileall /path/to/directory`
+  - `python -m compileall -r /path/to/directory`
 
 ### environment
 - [pipx](https://github.com/pypa/pipx) — Install and Run Python Applications in Isolated Environments
