@@ -49,9 +49,10 @@
 
 ## [Hummingbot API](https://hummingbot.org/hummingbot-api/)
 - [Hummingbot API Quickstart Guide](https://hummingbot.org/hummingbot-api/quickstart/)
-
-### Architecture
 ```mermaid
+---
+title: Architecture
+---
 graph TB
     subgraph "Clients"
         direction LR
