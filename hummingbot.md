@@ -7,6 +7,11 @@
 ## Learn
 - [Official Documentation](https://hummingbot.org/docs/)
   - https://hummingbot.org/guides/
+- [Academy](https://hummingbot.org/blog/category/academy/)
+  - [What is Market Making](https://hummingbot.org/blog/what-is-market-making/)
+  - [What is Arbitrage](https://hummingbot.org/blog/what-is-arbitrage/)
+  - [What is Cross Exchange Market Making?](https://hummingbot.org/blog/what-is-cross-exchange-market-making/)
+- [Blog](https://hummingbot.org/blog/)
 
 ### Installation
 - [Installation Methods Comparison](https://hummingbot.org/installation/install-overview/)
