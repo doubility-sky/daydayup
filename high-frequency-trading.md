@@ -2,3 +2,6 @@
 
 
 
+## Learn
+- [高频交易，足矣！](https://mp.weixin.qq.com/s/fRhgKDWW3TigoPuLRF8Kjg) - 本文来自作者对《High-frequency trading a practical guide to algorithmic strategies and trading systems》一书的脱水解读
+- [高频做市模型的演进](https://mp.weixin.qq.com/s/FxbEI5O3hPGGc5aSWXpH4g)
