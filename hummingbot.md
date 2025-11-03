@@ -1,7 +1,7 @@
 [Hummingbot](https://github.com/hummingbot/hummingbot) is an open-source framework that helps you design and deploy automated trading strategies, or bots, that can run on many centralized or decentralized exchanges. Over the past year, Hummingbot users have generated over $34 billion in trading volume across 140+ unique trading venues.
 
 - https://hummingbot.org/
-- https://github.com/hummingbot/hummingbot
+- https://github.com/hummingbot/
 
 
 ## Learn
@@ -14,6 +14,7 @@
   - [What is Cross Exchange Market Making?](https://hummingbot.org/blog/what-is-cross-exchange-market-making/)
   - [Liquidity Mining in Hummingbot vs DeFi](https://hummingbot.org/blog/liquidity-mining-in-hummingbot-vs-defi/), [Part-2](https://hummingbot.org/blog/liquidity-mining-in-hummingbot-vs-defi---part-2/)
 - [Blog](https://hummingbot.org/blog/)
+- https://github.com/hummingbot/hummingbot-site
 
 ### Installation
 - [Installation Methods Comparison](https://hummingbot.org/installation/install-overview/)
@@ -70,7 +71,7 @@ graph TB
     
     subgraph "Hummingbot API"
         direction LR
-        API["FastAPI<br/>Server<br/>"]
+        API["FastAPI Server"]
         PG[(PostgreSQL<br/>Database)]
         MQTT[EMQX<br/>Message Broker]
     end
@@ -80,7 +81,7 @@ graph TB
     end
     
     subgraph "Exchanges"
-        EX[Binance, OKX,<br/>Hyperliquid, etc.]
+        EX[Binance, OKX, Hyperliquid, etc.]
     end
     
     %% Client connections using API Client
