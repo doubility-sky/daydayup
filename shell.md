@@ -223,6 +223,17 @@ C-b S-Right Move the visible part of the window right
 ### [[ruby]]
 - [Ruby: a great language for shell scripts!](https://lucasoshiro.github.io/posts-en/2024-06-17-ruby-shellscript/)
 
+### terminal emulators
+- [流行终端模拟器 汇总](https://www.v2ex.com/t/900640)
+- [kitty](https://github.com/kovidgoyal/kitty) - the fast, feature-rich, cross-platform, GPU based terminal
+  - [Add Cursor Trail Feature to Enhance Cursor Visibility](https://github.com/kovidgoyal/kitty/pull/7970)
+- 👻 [Ghostty](https://github.com/ghostty-org/ghostty) is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+- [Tabby](https://github.com/eugeny/tabby) (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows 10, macOS and Linux
+- [Alacritty](https://github.com/alacritty/alacritty) - A fast, cross-platform, OpenGL terminal emulator
+- [wezterm](https://github.com/wezterm/wezterm) - A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust
+- [hyper](https://github.com/vercel/hyper) - A terminal built on web technologies
+- [sshx](https://github.com/ekzhang/sshx) - Fast, collaborative live terminal sharing over the web
+
 
 ## FAQs
 - [Difference between .bashrc and .bash_profile](https://superuser.com/questions/183870/difference-between-bashrc-and-bash-profile)
