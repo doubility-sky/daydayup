@@ -226,6 +226,7 @@ C-b S-Right Move the visible part of the window right
 ### terminal emulators
 - [流行终端模拟器 汇总](https://www.v2ex.com/t/900640)
 - [kitty](https://github.com/kovidgoyal/kitty) - the fast, feature-rich, cross-platform, GPU based terminal
+  - [Search current terminal contents](https://github.com/kovidgoyal/kitty/issues/718)
   - [Add Cursor Trail Feature to Enhance Cursor Visibility](https://github.com/kovidgoyal/kitty/pull/7970)
 - 👻 [Ghostty](https://github.com/ghostty-org/ghostty) is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 - [Tabby](https://github.com/eugeny/tabby) (formerly Terminus) is a highly configurable terminal emulator, SSH and serial client for Windows 10, macOS and Linux
