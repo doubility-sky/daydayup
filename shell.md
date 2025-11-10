@@ -62,6 +62,7 @@ The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell
 
 
 ## [Terminal multiplexer](https://en.wikipedia.org/wiki/Terminal_multiplexer)
+- [Zellij](https://github.com/zellij-org/zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called "Terminal Multiplexers".
 
 ### [screen](https://www.gnu.org/software/screen/)
 Screen is a full-screen window manager that multiplexes a physical terminal between several processes, typically interactive shells.
