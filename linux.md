@@ -55,6 +55,9 @@
   - CentOS: `yum update`
 - 进程信息树: `systemctl status PID`
 - [xargs](https://www.ruanyifeng.com/blog/2019/08/xargs-tutorial.html)
+- `reboot`/`shutdown`
+  - `shutdown now`
+  - `poweroff`
 
 
 ## System 
