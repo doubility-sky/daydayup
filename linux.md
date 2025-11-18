@@ -24,6 +24,9 @@
 
 ### others
 - [The early days of Linux](https://lwn.net/Articles/928581/)
+- [Linux Commands Cheat Sheet](https://linux-commands.labex.io/) - A clean and minimal guide to 491 Linux commands
+- [Linux Commands Cheat Sheet](https://www.geeksforgeeks.org/linux-unix/linux-commands-cheat-sheet/)
+- [Linux-cheat-sheet](https://github.com/sudheerj/Linux-cheat-sheet)
 
 
 ## Shortcuts
