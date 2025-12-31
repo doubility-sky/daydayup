@@ -1,11 +1,9 @@
 A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digital telecommunications network for sharing resources between nodes, which are computing devices that use a common telecommunications technology. Data transmission between nodes is supported over data links consisting of physical cable media, such as twisted pair or fiber-optic cables, or by wireless methods, such as Wi-Fi, microwave transmission, or free-space optical communication.
 
 
-
 - [[proxy]]
 - [[security]]
 - [[linux]]
-
 
 
 ## Learn
@@ -13,6 +11,11 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [The C10K problem](http://www.kegel.com/c10k.html)
 - [Beej's Guide to Network Programming](https://github.com/beejjorgensen/bgnet) - [read online](https://beej.us/guide/bgnet/)
 
+### misc
+- [NAT](https://www.ietf.org/rfc/rfc1631.txt)
+- [DNS](https://www.ietf.org/rfc/rfc1035.txt)
+- [tuntap](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)
+- [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
 
 
 ## TCP/IP
@@ -27,9 +30,7 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [TCP TIME-WAIT state on busy Linux servers](https://vincent.bernat.ch/en/blog/2014-tcp-time-wait-state-linux)
 - [anonymous - 网络传输](https://www.zhihu.com/column/c_1539243008150597632): 浙江温州皮鞋湿，下雨进水不会胖。
 
-
-
-## HTTP
+### HTTP
 - [HTTP: The Definitive Guide](http://shop.oreilly.com/product/9781565925090.do)
 - [HTTP/1.1](https://www.ietf.org/rfc/rfc2616.txt)
 - [HTTP/2 draft](https://tools.ietf.org/html/draft-ietf-httpbis-http2-16)
@@ -43,50 +44,26 @@ A [computer network](https://en.wikipedia.org/wiki/Computer_network) is a digita
 - [HTTPie](https://github.com/jakubroztocil/httpie) (pronounced aitch-tee-tee-pie) is a command line HTTP client. Its goal is to make CLI interaction with web services as human-friendly as possible. It provides a simple http command that allows for sending arbitrary HTTP requests using a simple and natural syntax, and displays colorized output. HTTPie can be used for testing, debugging, and generally interacting with HTTP servers.
 - [whistle](https://github.com/avwo/whistle) HTTP, HTTP2, HTTPS, Websocket debugging proxy https://wproxy.org/
 
-
-
-## Socket
-- [luasocket](https://github.com/diegonehab/luasocket)
-- [socket.io](https://github.com/socketio/socket.io)
-
 ### [WebSocket](https://en.wikipedia.org/wiki/WebSocket)
 - [RFC 6455 - The WebSocket Protocol](https://tools.ietf.org/html/rfc6455)
 - [WebSocket协议：5分钟从入门到精通](https://www.cnblogs.com/chyingp/p/websocket-deep-in.html)
 - [WebSocket 协议深入探究](https://www.infoq.cn/article/deep-in-websocket-protocol)
 - [Gorilla WebSocket](https://github.com/gorilla/websocket) is a Go implementation of the WebSocket protocol.
 
+### Socket
+- [luasocket](https://github.com/diegonehab/luasocket)
+- [socket.io](https://github.com/socketio/socket.io)
 
-
-## KCP
-- [KCP - A Fast and Reliable ARQ Protocol](https://github.com/skywind3000/kcp)
-- [kcp-go](https://github.com/xtaci/kcp-go)
+### KCP
+- ⚡ [KCP](https://github.com/skywind3000/kcp) - A Fast and Reliable ARQ Protocol
+- [kcp-go](https://github.com/xtaci/kcp-go) - A crypto-secure Reliable-UDP library for Golang with FEC support.
 - [可靠 UDP，KCP 协议快在哪？](https://testerhome.com/topics/14688)
 
-### kcptun
-- [kcptun](https://github.com/xtaci/kcptun)
 
-
-
-## [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)
-
-### [gRPC](https://www.grpc.io/)
-gRPC is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
-- https://github.com/grpc-ecosystem
-- https://github.com/grpc-ecosystem/awesome-grpc
-
-
-
-## DNS
-- [DNS](https://www.ietf.org/rfc/rfc1035.txt)
-
-
-
-## Protocols and APIs
-- [tuntap](https://www.kernel.org/doc/Documentation/networking/tuntap.txt)
-- [NAT](https://www.ietf.org/rfc/rfc1631.txt)
-- [Android VpnService](http://developer.android.com/reference/android/net/VpnService.html)
-- [Network Extension](https://developer.apple.com/library/prerelease/ios/documentation/NetworkExtension/Reference/Network_Extension_Framework_Reference/index.html#//apple_ref/doc/uid/TP40016234)
-
+## Libraries
+- [gRPC](https://www.grpc.io/) is a modern open source high performance RPC framework that can run in any environment. It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking and authentication. It is also applicable in last mile of distributed computing to connect devices, mobile applications and browsers to backend services.
+  - https://github.com/grpc-ecosystem
+  - https://github.com/grpc-ecosystem/awesome-grpc
 
 
 ## Tools
@@ -95,14 +72,30 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - [iperf3](https://github.com/esnet/iperf) : A TCP, UDP, and SCTP network bandwidth measurement tool
 - [curl](https://github.com/curl/curl) A command line tool and library for transferring data with URL syntax, supporting HTTP, HTTPS, FTP, FTPS, GOPHER, TFTP, SCP, SFTP, SMB, TELNET, DICT, LDAP, LDAPS, FILE, IMAP, SMTP, POP3, RTSP and RTMP. libcurl offers a myriad of powerful features https://curl.haxx.se/
   - [POST examples](https://gist.github.com/subfuzion/08c5d85437d5d4f00e58)
-- [clumsy](https://github.com/jagt/clumsy) makes your network condition on Windows significantly worse, but in a controlled and interactive manner. http://jagt.github.io/clumsy/
 - [comcast](https://github.com/tylertreat/comcast) Simulating shitty network connections so you can build better systems.
 - [Netdata](https://github.com/netdata/netdata) is distributed, real-time, performance and health monitoring for systems and applications. It is a highly-optimized monitoring agent you install on all your systems and containers.
 - [echoip](https://github.com/mpolden/echoip): A simple service for looking up your IP address. This is the code that powers https://ifconfig.co.
   - `curl ip.gs`
+  - other services:
+    ```bash
+    curl myip.ipip.net
+    curl ip.sb
+    curl ipinfo.io/ip
+    curl icanhazip.com
+    curl ipecho.net/plain
+    ```
+
+### proxy
+- [[nginx]]
+- [frp](https://github.com/fatedier/frp) is a fast reverse proxy that allows you to expose a local server located behind a NAT or firewall to the Internet. It currently supports TCP and UDP, as well as HTTP and HTTPS protocols, enabling requests to be forwarded to internal services via domain name. frp also offers a P2P connect mode.
+
+### tunnel
+- [gost](https://github.com/go-gost/gost), GO Simple Tunnel - a simple tunnel written in golang
+- [kcptun](https://github.com/xtaci/kcptun) - A quantum-safe, secure tunnel built on QPP, KCP, FEC, and multiplexing.
 
 ### analyzer
 - [Wireshark](https://github.com/wireshark/wireshark) Wireshark is a network traffic analyzer, or "sniffer", for Linux, macOS, *BSD and other Unix and Unix-like operating systems and for Windows. It uses Qt, a graphical user interface library, and libpcap and npcap as packet capture and filtering libraries. https://www.wireshark.org/
+- [clumsy](https://github.com/jagt/clumsy) makes your network condition on Windows significantly worse, but in a controlled and interactive manner. http://jagt.github.io/clumsy/
 
 ### download
 - [aria2](https://github.com/aria2/aria2) is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. https://aria2.github.io/
@@ -110,19 +103,6 @@ gRPC is a modern open source high performance RPC framework that can run in any 
 - [qBittorrent](https://github.com/qbittorrent/qBittorrent) is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg. https://www.qbittorrent.org/
   - [Search plugins](https://github.com/qbittorrent/search-plugins) for the search feature
 - Download whole website `wget -r -p -np -k https://golang.org/`
-
-
-
-## FAQs
-- 获取公网 IP
-  ```bash
-  curl myip.ipip.net
-  curl ip.sb
-  curl ipinfo.io/ip
-  curl icanhazip.com
-  curl ipecho.net/plain
-  ```
-
 
 
 ## Resources

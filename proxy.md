@@ -1,10 +1,8 @@
 
-
 - [[networks]]
 - for running world-wide productions
 - fast your [[game-client]] communicate with [[game-server]], or other softwares
 - [haoel.github.io](https://github.com/haoel/haoel.github.io) open internet right way.
-
 
 
 ## [VPN](https://en.wikipedia.org/wiki/Virtual_private_network)
@@ -12,6 +10,8 @@
 - [DSVPN](https://github.com/jedisct1/dsvpn) is a Dead Simple VPN, designed to address the most common use case for using a VPN
 - [n2n](https://github.com/ntop/n2n) is a light VPN software which makes it easy to create virtual networks bypassing intermediate firewalls.
 - L2PT VPN connection on Windows10 must set in `regedit`: Create an option DWORD(32bits) `AssumeUDPEncapsulationContextOnSendRule` and value `2` in `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PolicyAgent`
+- [Android VpnService](http://developer.android.com/reference/android/net/VpnService.html)
+- [iOS - Network Extension](https://developer.apple.com/library/prerelease/ios/documentation/NetworkExtension/Reference/Network_Extension_Framework_Reference/index.html#//apple_ref/doc/uid/TP40016234)
 
 ### [WireGuard](https://www.wireguard.com/)
 - [Mirror](https://github.com/WireGuard) of various WireGuard-related projects. See https://www.wireguard.com/repositories/ for official repositories.
@@ -20,14 +20,12 @@
 - [Noise 框架：构建安全协议的蓝图](https://zhuanlan.zhihu.com/p/96944134)
 
 
-
 ## Symbol annotation
 - `-SVR` short for `Server`
 - `-cli` short for `client side program`
 - `-svr` short for `server side program`
 - `--` is short for `lcoal connection`
 - `···` is short for `remote connection`
-
 
 
 ## [SOCKS](https://en.wikipedia.org/wiki/SOCKS)
@@ -53,6 +51,10 @@
 - [Redirect attack on Shadowsocks stream ciphers](https://github.com/edwardz246003/shadowsocks)  
   - Do not use : shadowsocks-py, shadowsocoks-go, shadowsocoks-nodejs.  
   - Only Use: shadowsocks-libev, go-shadowsocks2 and only use the AEAD ciphers  
+- FAQs
+  - method aes-256-gcm not supported
+    - `pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip -U`
+    - `sudo apt-get install -y libsodium*`
 
 ### solution
 ```
@@ -61,7 +63,6 @@
         SS-cli ··· SS-svr ··· target
 ```
 - `SS` short for `shadowsocks`
-
 
 
 ## [kcptun](https://github.com/xtaci/kcptun)
@@ -76,10 +77,13 @@
 - `kcptun-cli` may running on another `intermediate server`
 
 
-
 ## [udp2raw](https://github.com/wangyu-/udp2raw-tunnel)
 A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by using Raw Socket, helps you Bypass UDP FireWalls(or Unstable UDP Environment). It can defend Replay-Attack and supports Multiplexing. It also acts as a Connection Stabilizer.
 - [udp2raw-multiplatform](https://github.com/wangyu-/udp2raw-multiplatform) for macOS
+- FAQs 
+  - ['Cannot open BPF device' error on c.open()](https://github.com/mscdex/cap/issues/47)
+    - `sudo chmod o+r /dev/bpf*` should help in reading of Berkley Packet Filter.
+    - `sudo chmod o+r+w /dev/bpf*` for udp2raw on macOS
 
 ### solution
 ```
@@ -90,7 +94,6 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 - `kcptun-cli`, `udp2raw-cli` may running on another `intermediate server`
 
 
-
 ## [v2ray](https://github.com/v2ray) 
 A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
 - [V2Fly](https://github.com/v2fly), a community-driven edition of V2Ray.
@@ -99,30 +102,25 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 - [Qv2ray](https://github.com/Qv2ray/Qv2ray) - Make v2ray real cross-platform
 
 
-
 ## [torjan](https://github.com/trojan-gfw/trojan)
 - [trojan-go](https://github.com/p4gefau1t/trojan-go): A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW.
-
-
-
-## [gost](https://github.com/ginuerzh/gost)
-GO Simple Tunnel - a simple tunnel written in golang 
-
 
 
 ## [[OpenWrt]]
 - [路由器 + OpenWrt + SS](https://github.com/softwaredownload/openwrt-fanqiang) https://fanqiang.software-download.name
 
 
-
 ## Tools
-- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) Chromium Extension: Manage and switch between multiple proxies quickly & easily.
 - [Charles](https://www.charlesproxy.com/) is an HTTP proxy / HTTP monitor / Reverse Proxy that enables a developer to view all of the HTTP and SSL / HTTPS traffic between their machine and the Internet. This includes requests, responses and the HTTP headers (which contain the cookies and caching information).
 - [proxychains](https://github.com/haad/proxychains) - a tool that forces any TCP connection made by any given application to follow through proxy like TOR or any other SOCKS4, SOCKS5 or HTTP(S) proxy. Supported auth-types: "user/pass" for SOCKS4/5, "basic" for HTTP.
   - [proxychains ng](https://github.com/rofl0r/proxychains-ng) (new generation) - a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies. continuation of the unmaintained proxychains project. the sf.net page is currently not updated, use releases from github release page instead.
 - [Proxifier](https://www.proxifier.com/) allows network applications that do not support working through proxy servers to operate through a SOCKS or HTTPS proxy and chains.
   - NOTE: Resolve hostnames through proxy
 - [Surge](https://nssurge.com/): Advanced Network Toolbox for Mac & iOS
+
+### Extensions
+- [SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) Chromium Extension: Manage and switch between multiple proxies quickly & easily.
+  - [ZeroOmega](https://github.com/zero-peak/ZeroOmega), forked from SwitchyOmega compatible with manifest v3
 
 ### [Outline](https://getoutline.org/)
 Outline is an open source project created by Jigsaw to provide a safer way for news organizations and journalists to access the internet.
@@ -134,13 +132,3 @@ Outline is an open source project created by Jigsaw to provide a safer way for n
 - [Daily](https://github.com/pexcn/daily): Poetry and far afield. 🌊
 - [shadowrocket rules](https://github.com/h2y/Shadowrocket-ADBlock-Rules)
 - [surge-rules](https://github.com/Loyalsoldier/surge-rules): 本项目生成适用于 Surge 的规则集（DOMAIN-SET 和 RULE-SET）
-
-
-
-## FAQs
-- method aes-256-gcm not supported
-  - `pip install https://github.com/shadowsocks/shadowsocks/archive/master.zip -U`
-  - `sudo apt-get install -y libsodium*`
-- ['Cannot open BPF device' error on c.open()](https://github.com/mscdex/cap/issues/47)
-  - `sudo chmod o+r /dev/bpf*` should help in reading of Berkley Packet Filter.
-  - `sudo chmod o+r+w /dev/bpf*` for udp2raw on macOS
