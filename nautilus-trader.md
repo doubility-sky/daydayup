@@ -326,6 +326,9 @@ graph TB
 
 ## FAQs
 - [Frequently Asked Questions](https://nautilustrader.io/docs/faq/)
+- Install on macOS x86_64
+  - `export RUSTFLAGS="-C link-arg=-Wl,-undefined,dynamic_lookup"`
+  - `uv pip install nautilus_trader`
 - Common Issues
   - **Performance**: Ensure compiled with release mode for production
   - **Data**: Use Parquet format for efficient historical data storage
