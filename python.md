@@ -43,6 +43,7 @@
   - `python -m compileall -r /path/to/directory`
 
 ### environment
+- [uv](https://github.com/astral-sh/uv) - An extremely fast Python package and project manager, written in Rust.
 - [pipx](https://github.com/pypa/pipx) — Install and Run Python Applications in Isolated Environments
 - [venv](https://docs.python.org/3/library/venv.html) — Creation of virtual environments
 - [virtualenv](https://github.com/pypa/virtualenv) - A tool for creating isolated virtual python environments.
