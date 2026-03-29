@@ -16,8 +16,7 @@
 - [[computer-graphics]]
 - [[artificial-intelligence]]
   - [[machine-learning]]
-    - [[llm]]
-      - [[llm-agent]]
+    - [[llm]], [[llm-agent]]
     - [[aigc]]
   - [[natural-language-processing]]
 
