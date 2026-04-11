@@ -198,6 +198,113 @@ C-b S-Right Move the visible part of the window right
 ```
 </details>
 
+<details> <summary> ~/.tmux.conf — 精简实用配置（适配 Ghostty 终端） </summary>
+
+```bash
+# =============================================================================
+# ~/.tmux.conf — 精简实用配置（适配 Ghostty 终端）
+# 放到 ~/.tmux.conf
+# - 无 server 运行时，tmux new 会自动加载
+# - server 已运行时，需手动加载：tmux source-file ~/.tmux.conf
+#   或在 tmux 内按 Ctrl-b r 热重载
+# - history-limit 只对之后新建的 pane 生效
+# =============================================================================
+
+# ── 终端与显示 ──────────────────────────────────────────────
+
+# 告诉 tmux 内部程序"你运行在什么终端里"
+# screen-256color 兼容性最好，几乎所有服务器都有这个 terminfo
+set -g default-terminal "screen-256color"
+
+# 告诉 tmux："如果外层终端是 ghostty 或 xterm-256color，就启用真彩色"
+# Tc = True Color，RGB 颜色不会被降级成 256 色
+set -ga terminal-overrides ",xterm-ghostty:Tc,xterm-256color:Tc"
+
+# 减少按 ESC 后的等待时间（毫秒）
+# 默认 500ms，在 vim/neovim 里按 ESC 会明显卡顿，设成 10 基本无感
+set -g escape-time 10
+
+# ── 滚动与历史 ──────────────────────────────────────────────
+
+# 每个 pane 保留多少行历史（默认只有 2000 行，太少了）
+# 注意：只对设置后新创建的 pane 生效
+set -g history-limit 50000
+
+# ── 鼠标 ──────────────────────────────────────────────────────
+
+# 开启鼠标支持后：
+#   - 滚轮 → 自动进入 copy mode 并滚动（不用记 Ctrl-b [）
+#   - 点击 pane → 切换焦点
+#   - 拖拽 pane 边框 → 调整大小
+#   - 点击状态栏窗口名 → 切换窗口
+set -g mouse on
+
+# ── 编号 ──────────────────────────────────────────────────────
+
+# 窗口和面板编号从 1 开始（键盘上 1 比 0 好按）
+set -g base-index 1
+setw -g pane-base-index 1
+
+# 关闭某个窗口后，后面的窗口编号自动补位（不会出现 1,3,4 的空洞）
+set -g renumber-windows on
+
+# ── Copy Mode（复制模式）─────────────────────────────────────
+
+# 在 copy mode 中使用 vi 风格的按键
+# 进入: Ctrl-b [    退出: q
+# 移动: h/j/k/l 或方向键    搜索: / 或 ?
+# 选择: v（开始） → y（复制并退出）
+setw -g mode-keys vi
+bind -T copy-mode-vi v send -X begin-selection
+bind -T copy-mode-vi y send -X copy-selection-and-cancel
+
+# ── 快捷键 ────────────────────────────────────────────────────
+
+# 前缀键保持默认 Ctrl-b（不改，避免和其他工具冲突）
+
+# 竖直分屏（左|右），保留当前目录
+#   默认是 Ctrl-b %，不直观
+bind | split-window -h -c "#{pane_current_path}"
+
+# 水平分屏（上—下），保留当前目录
+#   默认是 Ctrl-b "，不直观
+bind - split-window -v -c "#{pane_current_path}"
+
+# 新建窗口时保留当前目录（默认会跳回 home）
+bind c new-window -c "#{pane_current_path}"
+
+# 快速重载本配置文件（修改 .tmux.conf 后不用退出 tmux）
+bind r source-file ~/.tmux.conf \; display "配置已重载!"
+
+# ── 状态栏 ────────────────────────────────────────────────────
+
+# 简洁的深色状态栏
+set -g status-style "bg=#282c34,fg=#abb2bf"
+set -g status-left "#[fg=#61afef,bold] #S "      # 左侧显示 session 名
+set -g status-right "#[fg=#98c379] %m-%d %H:%M "  # 右侧显示日期时间
+set -g status-left-length 20
+setw -g window-status-current-style "fg=#61afef,bold,underscore"  # 当前窗口高亮
+
+# =============================================================================
+# 常用操作速查（不是配置，纯注释备忘）
+#
+# Ctrl-b d        脱离 session（回到普通 shell，session 后台继续运行）
+# Ctrl-b |        竖直分屏（上面自定义的）
+# Ctrl-b -        水平分屏（上面自定义的）
+# Ctrl-b 方向键   切换到相邻面板
+# Ctrl-b c        新建窗口
+# Ctrl-b 1/2/3    切换到第 1/2/3 号窗口
+# Ctrl-b ,        重命名当前窗口
+# Ctrl-b x        关闭当前面板（会确认）
+# Ctrl-b z        当前面板全屏/恢复（zoom toggle）
+# Ctrl-b [        进入 copy mode（然后用滚轮或 j/k 翻页）
+# Ctrl-b r        重载配置（上面自定义的）
+# tmux ls         列出所有 session
+# tmux attach     重新连回 session
+# =============================================================================
+```
+</details>
+
 ### [Zellij](https://github.com/zellij-org/zellij)
 [Zellij](https://en.wikipedia.org/wiki/Zellij) is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. At its core, it is a terminal multiplexer (similar to tmux and screen), but this is merely its infrastructure layer.
 
