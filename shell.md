@@ -220,10 +220,12 @@ C-b S-Right Move the visible part of the window right
 # screen-256color 兼容性最好，几乎所有服务器都有这个 terminfo
 set -g default-terminal "screen-256color"
 
-# 告诉 tmux："如果外层终端是 ghostty 或 xterm-256color，就启用真彩色和 OSC 52 剪贴板"
+# 告诉 tmux："如果外层终端是 ghostty 或 xterm-256color，就启用真彩色"
 # Tc = True Color，RGB 颜色不会被降级成 256 色
-# Ms = 声明终端支持 OSC 52 剪贴板（远程 SSH 场景必须，否则 tmux 不会发送 OSC 52）
-set -ga terminal-overrides ",xterm-ghostty:Tc:Ms=\\E]52;c;%p2%s\\7,xterm-256color:Tc:Ms=\\E]52;c;%p2%s\\7"
+# 注意：tmux ≥ 3.2 内置 terminal-features 已包含 xterm*:clipboard，
+#   会自动处理 OSC 52 剪贴板，不需要再手动添加 Ms=... 声明。
+#   手动添加 Ms 反而会覆盖内置机制导致剪贴板失效！
+set -ga terminal-overrides ",xterm-ghostty:Tc,xterm-256color:Tc"
 
 # 减少按 ESC 后的等待时间（毫秒）
 # 默认 500ms，在 vim/neovim 里按 ESC 会明显卡顿，设成 10 基本无感
@@ -331,7 +333,7 @@ ESC ] 52 ; c ; <base64编码的文本> ST
 - `copy-selection-and-cancel`：只复制到 **tmux 内部 paste buffer**，`Ctrl-b ]` 可粘贴，但 `Cmd+V` 无法粘贴
 - `copy-pipe-and-cancel`（推荐）：复制到 tmux buffer 的同时，通过 OSC 52 发送到终端写入系统剪贴板
 - `set -g set-clipboard on`：启用 OSC 52 支持（比默认值 `external` 更宽松，允许 copy mode 和内部应用都使用）
-- `terminal-overrides` 中的 `Ms=\E]52;c;%p2%s\7`：**关键！** 告诉 tmux 该终端支持 OSC 52。没有这个声明，即使 `set-clipboard on`，tmux 也不会发送 OSC 52 序列
+- `terminal-overrides` 中的 `Ms=...`：仅 **tmux < 3.2** 需要，用于告诉 tmux 该终端支持 OSC 52。**tmux ≥ 3.2 不要添加**，内置的 `terminal-features`（`xterm*:clipboard`）已自动处理，手动 `Ms` 会覆盖内置格式导致剪贴板失效
 
 #### 排查 OSC 52 不生效
 1. 先在 tmux **外面**（裸 SSH shell）测试终端是否支持 OSC 52：
@@ -339,8 +341,11 @@ ESC ] 52 ; c ; <base64编码的文本> ST
    printf '\033]52;c;%s\a' "$(echo -n 'hello clipboard' | base64)"
    # 然后 Cmd+V，能粘贴出 "hello clipboard" 说明终端链路正常
    ```
-2. 确认 `terminal-overrides` 包含 `Ms=...` 声明
-3. 修改 `terminal-overrides` 后必须 **重启 tmux server**（`tmux kill-server && tmux new`），`source-file` 不够
+2. 在 tmux **里面**也跑同样的 printf 测试，如果外面正常、里面失败，说明 tmux 配置问题
+3. 检查 tmux 版本（`tmux -V`）：
+   - **≥ 3.2**：确认 `terminal-overrides` 中**没有** `Ms=...`（会与内置 `terminal-features` 冲突）
+   - **< 3.2**：需要手动添加 `Ms=\E]52;c;%p2%s\7` 到 `terminal-overrides`
+4. 修改 `terminal-overrides` 后必须 **重启 tmux server**（`tmux kill-server && tmux new`），`source-file` 不够
 
 #### macOS 本地 tmux 与远程 tmux 的区别
 | 场景 | 鼠标拖选 | `v` → `y` 复制 | `Cmd+V` 粘贴 |
@@ -348,7 +353,9 @@ ESC ] 52 ; c ; <base64编码的文本> ST
 | macOS 本地 tmux | Ghostty 可能直接处理（按住 Option 拖选绕过 tmux） | 需要 `set-clipboard on` + `copy-pipe-and-cancel` | 依赖 OSC 52 |
 | SSH 远程 Ubuntu tmux | 同上 | 同上，远程 `~/.tmux.conf` 也需要配置 | OSC 52 穿透 SSH 到本地终端 |
 
-> **注意**：远程服务器的 tmux 版本需 ≥ 3.3 才能可靠支持 OSC 52。可用 `tmux -V` 检查版本。
+> **注意**：远程服务器的 tmux 版本需 ≥ 3.2 才能使用内置 `terminal-features` 自动支持 OSC 52。可用 `tmux -V` 检查版本。
+>
+> **踩坑记录**：tmux ≥ 3.2 的 `terminal-features` 内置 `xterm*:clipboard`，已自动用标准格式 `\E]52;%p1%s;%p2%s\007` 处理 OSC 52。如果在 `terminal-overrides` 中手动添加 `Ms=\E]52;c;%p2%s\7`，会覆盖内置的标准格式，导致 tmux 内部参数处理出错、剪贴板完全失效。症状：tmux 外 printf 测试正常、tmux 内失败。修复：去掉 `Ms=...`，只保留 `Tc`。
 
 </details>
 
