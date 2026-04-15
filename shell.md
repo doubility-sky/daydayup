@@ -264,6 +264,9 @@ set -g renumber-windows on
 setw -g mode-keys vi
 bind -T copy-mode-vi v send -X begin-selection
 bind -T copy-mode-vi y send -X copy-pipe-and-cancel
+# fix for mosh : 复制到 tmux buffer 的同时，通过 OSC 52 发送到终端写入系统剪贴板
+bind -T copy-mode-vi y send -X copy-pipe-and-cancel 'printf "\033]52;c;%s\a" "$(base64 -w0)" > #{pane_tty}'
+bind -T copy-mode-vi MouseDragEnd1Pane send -X copy-pipe-and-cancel 'printf "\033]52;c;%s\a" "$(base64 -w0)" > #{pane_tty}'
 
 # ── 剪贴板（OSC 52）─────────────────────────────────────────
 
