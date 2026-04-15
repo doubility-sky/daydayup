@@ -208,6 +208,10 @@ C-b S-Right Move the visible part of the window right
 # - server 已运行时，需手动加载：tmux source-file ~/.tmux.conf
 #   或在 tmux 内按 Ctrl-b r 热重载
 # - history-limit 只对之后新建的 pane 生效
+# - terminal-overrides 等终端能力相关的修改，source-file 不够，
+#   需要重启 tmux server 才能生效：
+#     tmux kill-server
+#     tmux new -s main
 # =============================================================================
 
 # ── 终端与显示 ──────────────────────────────────────────────
@@ -216,9 +220,10 @@ C-b S-Right Move the visible part of the window right
 # screen-256color 兼容性最好，几乎所有服务器都有这个 terminfo
 set -g default-terminal "screen-256color"
 
-# 告诉 tmux："如果外层终端是 ghostty 或 xterm-256color，就启用真彩色"
+# 告诉 tmux："如果外层终端是 ghostty 或 xterm-256color，就启用真彩色和 OSC 52 剪贴板"
 # Tc = True Color，RGB 颜色不会被降级成 256 色
-set -ga terminal-overrides ",xterm-ghostty:Tc,xterm-256color:Tc"
+# Ms = 声明终端支持 OSC 52 剪贴板（远程 SSH 场景必须，否则 tmux 不会发送 OSC 52）
+set -ga terminal-overrides ",xterm-ghostty:Tc:Ms=\\E]52;c;%p2%s\\7,xterm-256color:Tc:Ms=\\E]52;c;%p2%s\\7"
 
 # 减少按 ESC 后的等待时间（毫秒）
 # 默认 500ms，在 vim/neovim 里按 ESC 会明显卡顿，设成 10 基本无感
@@ -326,6 +331,16 @@ ESC ] 52 ; c ; <base64编码的文本> ST
 - `copy-selection-and-cancel`：只复制到 **tmux 内部 paste buffer**，`Ctrl-b ]` 可粘贴，但 `Cmd+V` 无法粘贴
 - `copy-pipe-and-cancel`（推荐）：复制到 tmux buffer 的同时，通过 OSC 52 发送到终端写入系统剪贴板
 - `set -g set-clipboard on`：启用 OSC 52 支持（比默认值 `external` 更宽松，允许 copy mode 和内部应用都使用）
+- `terminal-overrides` 中的 `Ms=\E]52;c;%p2%s\7`：**关键！** 告诉 tmux 该终端支持 OSC 52。没有这个声明，即使 `set-clipboard on`，tmux 也不会发送 OSC 52 序列
+
+#### 排查 OSC 52 不生效
+1. 先在 tmux **外面**（裸 SSH shell）测试终端是否支持 OSC 52：
+   ```bash
+   printf '\033]52;c;%s\a' "$(echo -n 'hello clipboard' | base64)"
+   # 然后 Cmd+V，能粘贴出 "hello clipboard" 说明终端链路正常
+   ```
+2. 确认 `terminal-overrides` 包含 `Ms=...` 声明
+3. 修改 `terminal-overrides` 后必须 **重启 tmux server**（`tmux kill-server && tmux new`），`source-file` 不够
 
 #### macOS 本地 tmux 与远程 tmux 的区别
 | 场景 | 鼠标拖选 | `v` → `y` 复制 | `Cmd+V` 粘贴 |
