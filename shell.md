@@ -256,7 +256,15 @@ set -g renumber-windows on
 # 选择: v（开始） → y（复制并退出）
 setw -g mode-keys vi
 bind -T copy-mode-vi v send -X begin-selection
-bind -T copy-mode-vi y send -X copy-selection-and-cancel
+bind -T copy-mode-vi y send -X copy-pipe-and-cancel
+
+# ── 剪贴板（OSC 52）─────────────────────────────────────────
+
+# 允许 tmux 通过 OSC 52 转义序列将复制内容写入系统剪贴板
+# 配合上面的 copy-pipe-and-cancel，按 y 复制后可直接 Cmd+V 粘贴
+# 适用于 SSH 远程场景：远程 tmux → SSH → 本地终端 → 系统剪贴板
+# 需要本地终端支持 OSC 52（Ghostty/kitty/iTerm2 等均支持）
+set -g set-clipboard on
 
 # ── 快捷键 ────────────────────────────────────────────────────
 
@@ -303,6 +311,30 @@ setw -g window-status-current-style "fg=#61afef,bold,underscore"  # 当前窗口
 # tmux attach     重新连回 session
 # =============================================================================
 ```
+</details>
+
+<details> <summary> tmux 剪贴板与 OSC 52 </summary>
+
+#### 什么是 OSC 52
+[OSC 52](https://invisible-island.net/xterm/ctlseqs/ctlseqs.html) 是 xterm 控制序列标准中的一个转义序列（Operating System Command #52），允许终端内运行的程序通过发送特殊转义字符**直接操作宿主终端的系统剪贴板**：
+```
+ESC ] 52 ; c ; <base64编码的文本> ST
+```
+关键价值：**穿透 SSH 和 tmux 等中间层**。即使 SSH 到远程服务器、在 tmux 里运行程序，只要本地终端（Ghostty、kitty、iTerm2 等）支持 OSC 52，转义码会一路传递到本地终端并写入系统剪贴板，不需要在远程安装 `pbcopy`、`xclip` 等工具。
+
+#### tmux 复制相关配置说明
+- `copy-selection-and-cancel`：只复制到 **tmux 内部 paste buffer**，`Ctrl-b ]` 可粘贴，但 `Cmd+V` 无法粘贴
+- `copy-pipe-and-cancel`（推荐）：复制到 tmux buffer 的同时，通过 OSC 52 发送到终端写入系统剪贴板
+- `set -g set-clipboard on`：启用 OSC 52 支持（比默认值 `external` 更宽松，允许 copy mode 和内部应用都使用）
+
+#### macOS 本地 tmux 与远程 tmux 的区别
+| 场景 | 鼠标拖选 | `v` → `y` 复制 | `Cmd+V` 粘贴 |
+|------|---------|----------------|---------------|
+| macOS 本地 tmux | Ghostty 可能直接处理（按住 Option 拖选绕过 tmux） | 需要 `set-clipboard on` + `copy-pipe-and-cancel` | 依赖 OSC 52 |
+| SSH 远程 Ubuntu tmux | 同上 | 同上，远程 `~/.tmux.conf` 也需要配置 | OSC 52 穿透 SSH 到本地终端 |
+
+> **注意**：远程服务器的 tmux 版本需 ≥ 3.3 才能可靠支持 OSC 52。可用 `tmux -V` 检查版本。
+
 </details>
 
 ### [Zellij](https://github.com/zellij-org/zellij)
