@@ -84,6 +84,7 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
   - ['Cannot open BPF device' error on c.open()](https://github.com/mscdex/cap/issues/47)
     - `sudo chmod o+r /dev/bpf*` should help in reading of Berkley Packet Filter.
     - `sudo chmod o+r+w /dev/bpf*` for udp2raw on macOS
+- NOTE (2026): the `faketcp` mode is increasingly fingerprintable by GFW deep-packet-inspection — its handshake never completes a real TCP state machine, and bursty UDP-over-fake-TCP shows up as an obvious anomaly. Pair it with `shadow-tls` (below) as a real-TLS fallback.
 
 ### solution
 ```
@@ -94,6 +95,29 @@ A Tunnel which turns UDP Traffic into Encrypted FakeTCP/UDP/ICMP Traffic by usin
 - `kcptun-cli`, `udp2raw-cli` may running on another `intermediate server`
 
 
+## [shadow-tls](https://github.com/ihciah/shadow-tls)
+A proxy that wraps Shadowsocks (or any TCP stream) inside a **real** TLS 1.3 handshake with a chosen camouflage site, so on-wire traffic is indistinguishable from genuine HTTPS to that SNI. Designed as the modern successor to `simple-obfs` / `v2ray-plugin tls`, both of which are now reliably detected by GFW.
+- v3 protocol adds `--strict` server mode + per-session password binding, defeating the active-probing attacks that broke v1/v2.
+- Single static-musl binary (Rust); runs alongside the existing `ss-server`, no library deps.
+- Pick an SNI that 1) is not behind Cloudflare/Fastly (the IP must plausibly belong to that CDN edge), 2) supports TLS 1.3, 3) is not blocked. Apple / Microsoft / cloud-storage hostnames work well; e.g. `gateway.icloud.com:443`, `mp.weixin.qq.com:443` are popular.
+- Both endpoints must agree on `--password`; the *client* `--sni` must equal the *server* `--tls` host.
+- End-device options:
+  1. **Native shadow-tls plugin** on the device — Surge / Shadowrocket / sing-box / Clash.Meta all support it directly.
+  2. **Domestic relay** — run a `shadow-tls client` on a CN jump host or LAN gateway; downstream devices then see only a plain SS endpoint, no plugin needed.
+
+### solution
+```
+            user-device                                              PROXY-SVR
+        /                  \                                     /                  \
+   SS-cli  ──  shadow-tls-cli  ·····TLS 1.3 to chosen SNI·····  shadow-tls-svr  ──  SS-svr  ··· target
+```
+or with an in-CN relay (devices stay on plain SS):
+```
+   device --SS-- jumpHost(shadow-tls-cli) ···TLS··· VPS(shadow-tls-svr) -- SS-svr ··· target
+```
+- Combine with the `kcptun + udp2raw` chain by listening on different public ports on the same VPS (e.g. UDP `7043` for kcp, fake-TCP `8053` for udp2raw, real-TLS `443` for shadow-tls). Different links degrade independently under GFW pressure.
+
+
 ## [v2ray](https://github.com/v2ray) 
 A platform for building proxies to bypass network restrictions. https://www.v2ray.com/
 - [V2Fly](https://github.com/v2fly), a community-driven edition of V2Ray.
@@ -102,8 +126,14 @@ A platform for building proxies to bypass network restrictions. https://www.v2ra
 - [Qv2ray](https://github.com/Qv2ray/Qv2ray) - Make v2ray real cross-platform
 
 
-## [torjan](https://github.com/trojan-gfw/trojan)
+## [trojan](https://github.com/trojan-gfw/trojan)
 - [trojan-go](https://github.com/p4gefau1t/trojan-go): A Trojan proxy written in Go. An unidentifiable mechanism that helps you bypass GFW.
+- Architecturally similar to shadow-tls (real TLS to a fronting hostname), but couples the proxy protocol to its own TLS termination. shadow-tls keeps Shadowsocks as the inner protocol, so existing SS infrastructure / clients / rules can be reused unchanged.
+
+
+## [VLESS + Reality](https://github.com/XTLS/Xray-core)
+- The XTLS Reality transport: like shadow-tls, it borrows the certificate / handshake of a real public site to camouflage traffic, but runs natively inside Xray (no external TLS termination). Currently the strongest single-protocol option against active probing.
+- Choose between the two by ecosystem: Reality if you're already on the v2ray/Xray stack; shadow-tls if you want to keep a Shadowsocks core.
 
 
 ## [[OpenWrt]]
