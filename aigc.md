@@ -11,6 +11,7 @@
 - [Jasper](https://www.jasper.ai/) - AI writing assistant
 - [Copy.ai](https://www.copy.ai/) - Marketing copy generator
 - [Writesonic](https://writesonic.com/) - Content writing platform
+- [CreatorSkills](https://creatorskills.co) - Marketplace of 30+ downloadable AI skills for content creators covering YouTube scripting, sponsorship analysis, and audience growth. Works with Claude and ChatGPT.
 
 ## Image
 - [Midjourney](https://www.midjourney.com/) - Create artistic images via Discord
