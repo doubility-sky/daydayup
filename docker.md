@@ -8,6 +8,7 @@
 
 ## Learn
 - Official [docker docs](https://docs.docker.com/)
+  - https://docs.docker.com/engine/install/ubuntu/
 - [Docker guide](https://www.robertcooper.me/docker-guide)
 - [Docker Curriculum](https://github.com/prakhar1989/docker-curriculum)🐬 A comprehensive tutorial on getting started with Docker!
 - [Docker 入门教程](http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html)
