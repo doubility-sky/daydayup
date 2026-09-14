@@ -35,18 +35,18 @@ LLM 的代表性模型包括 OpenAI 的 GPT 系列、Google 的 BERT 和 T5 等�
 
 ### Frameworks
 - [LangChain](https://github.com/langchain-ai/langchain) is a framework for developing applications powered by large language models (LLMs).
-- [LlamaIndex](https://github.com/jerryjliu/llama_index) is the leading framework for building LLM-powered agents over your data.
+- [LlamaIndex](https://github.com/run-llama/llama_index) is the leading framework for building LLM-powered agents over your data.
 - [Dify](https://github.com/langgenius/dify) is an open-source LLM app development platform. Its intuitive interface combines agentic AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.
 
 ### Engines
 - [FastChat](https://github.com/lm-sys/FastChat) is an open platform for training, serving, and evaluating large language model based chatbots.
 - [vLLM](https://github.com/vllm-project/vllm): A high-throughput and memory-efficient inference and serving engine for LLMs
-- [Text Generation Inference](https://github.com/huggingface/text-generation-inference): A Rust, Python and gRPC server for text generation inference. Used in production at Hugging Face to power Hugging Chat, the Inference API and Inference Endpoint.
+- [Text Generation Inference](https://github.com/huggingface/text-generation-inference): A Rust, Python and gRPC server for text generation inference. Used in production at Hugging Face to power Hugging Chat, the Inference API and Inference Endpoint. :warning: 仓库已 archived（2026-03 起只读）
 
 ### Local Deployment
 - [LM Studio](https://lmstudio.ai/): Discover, download, and run local LLMs
-- [ollama](https://github.com/ollama/ollama): Get up and running with large language models. Run Llama 3.3, DeepSeek-R1, Phi-4, Mistral, Gemma 2, and other models, locally. 
-   - Ollama is a simple, easy-to-use tool for running large language models on your own machine. It supports a variety of models, including GPT-3, GPT-4, and more.
+- [ollama](https://github.com/ollama/ollama): Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.
+   - Ollama is a simple, easy-to-use tool for running large language models on your own machine. Running a model locally requires downloadable weights — Llama, Qwen, DeepSeek, Mistral, Gemma, Phi, and OpenAI's open-weight `gpt-oss`. The GPT-3/GPT-4 weights were never released, so those models cannot run under Ollama at all; some newer models are offered only as Ollama cloud models, which execute on Ollama's servers rather than on your machine.
 
 
 ## GPT
@@ -96,10 +96,10 @@ LLaMA 旨在通过更高效的训练和更少的计算资源，提供与其他�
 
 LLaMA 的推出为自然语言处理领域提供了新的工具和方法，进一步推动了大语言模型技术的发展和应用。LLaMA
 
-- [LLaMA 官方文档](https://ai.facebook.com/research/publications/llama)
+- [LLaMA 论文页](https://ai.meta.com/research/publications/llama-open-and-efficient-foundation-language-models/)
 - [LLaMA 论文](https://arxiv.org/abs/2302.13971)
-- [LLaMA 模型下载](https://github.com/facebookresearch/llama)
-- [llama.cpp](https://github.com/ggerganov/llama.cpp): Inference of Meta's [LLaMA](https://arxiv.org/abs/2302.13971) model (and others) in pure C/C++
+- [LLaMA 模型下载](https://github.com/meta-llama/llama-models) —— 原 [meta-llama/llama](https://github.com/meta-llama/llama) 自 Llama 3.1 起官方标记为 deprecated，只保留 Llama 2
+- [llama.cpp](https://github.com/ggml-org/llama.cpp): Inference of Meta's [LLaMA](https://arxiv.org/abs/2302.13971) model (and others) in pure C/C++
 
 
 ## [Grok](https://x.ai/grok)
@@ -138,14 +138,14 @@ Copilot 是由 GitHub 开发的 AI 编程助手，旨在提高开发者的生产
 相关资源：
 - [GitHub Copilot](https://github.com/features/copilot)
 - [Copilot 文档](https://docs.github.com/en/copilot)
-- [Copilot 常见问题](https://github.com/github/feedback/discussions/categories/copilot)
+- [Copilot 常见问题](https://github.com/orgs/community/discussions/categories/copilot)
 
 
 ## Tools
 - [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm): The all-in-one AI app you were looking for. Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
 
 ### Desktop Client
-- [Chatbox](https://github.com/Bin-Huang/chatbox) is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux
+- [Chatbox](https://github.com/chatboxai/chatbox) is a desktop client for ChatGPT, Claude and other LLMs, available on Windows, Mac, Linux
 - [🍒 Cherry Studio](https://github.com/CherryHQ/cherry-studio) is a desktop client that supports for multiple LLM providers. Support deepseek-r1
 
 ### Web Client
@@ -174,5 +174,5 @@ It supports various LLM runners like Ollama and OpenAI-compatible APIs, with bui
 - [🤗 Transformers](https://github.com/huggingface/transformers) provides thousands of pretrained models to perform tasks on different modalities such as text, vision, and audio.
 - [awesome-LLM](https://github.com/Hannibal046/Awesome-LLM): A curated list of large language model resources and tools
 - [awesome-ChatGPT-repositories](https://github.com/taishi-i/awesome-ChatGPT-repositories)
-- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts): Prompt examples for ChatGPT
+- [prompts.chat](https://github.com/f/prompts.chat)（原 awesome-chatgpt-prompts）: Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
 - [Awesome ChatGPT API](https://github.com/reorx/awesome-chatgpt-api): Curated list of apps and tools that not only use the new ChatGPT API, but also allow users to configure their own API keys, enabling free and on-demand usage of their own quota.
