@@ -39,10 +39,10 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 - 获取临时密码 `grep "temporary password" /var/log/mysqld.log`
 - 连接 `mysql -uroot -p` 修改密码，并允许远程连接
   ```sql
-  use mysql;
   ALTER USER 'root'@'localhost' IDENTIFIED BY 'XXX_NEW_PASSWORD';
-  update user set host = '%' where user = 'root';
-  flush privileges;
+  -- 另建远程管理账号，而不是把 root@localhost 改掉；host 尽量限定网段而非 '%'
+  CREATE USER 'admin'@'10.0.0.%' IDENTIFIED BY 'XXX_ADMIN_PASSWORD';
+  GRANT ALL ON *.* TO 'admin'@'10.0.0.%' WITH GRANT OPTION;
   ```
 - 使用 [firewall-cmd](linux#firewall-cmd) 开放端口
   - `firewall-cmd --zone=public --add-port=3306/tcp --permanent`
@@ -50,9 +50,9 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
 
 ## Run/Stop
-- As a service 
-  - RPM package platforms `service mysql {start|stop|restart|status}`
-  - Debian package platforms `systemctl {start|stop|restart|status} mysqld`
+- As a service（服务名不同：Oracle RPM（EL/Fedora）是 `mysqld`，Debian/Ubuntu 与 SLES 是 `mysql`，发行版自带的 MariaDB 是 `mariadb`）
+  - RPM package platforms `systemctl {start|stop|restart|status} mysqld`
+  - Debian package platforms `systemctl {start|stop|restart|status} mysql`
 - Command line
   - Run `mysqld/mysqld_safe &`
   - Stop `mysqladmin -uroot -p shutdown`
@@ -78,40 +78,54 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   DROP USER 'user'@'host';
   ```
 - 修改密码: `$ mysql -u root`
-  ```sql
-  use mysql;
-  SET PASSWORD = PASSWORD('pwd');  -- 修改当前登陆用户密码
-  -- mysql5.7+ required；必须带 WHERE，否则会改写 auth_socket 等系统账号
-  update user set plugin="mysql_native_password" where user='root';
-  update user set authentication_string=password('pwd') where user='root';
-  flush privileges;
-  ```
+  - MySQL 5.7 / 8.0 通用写法（`PASSWORD()` 函数已在 8.0 移除，不要再直接 UPDATE `mysql.user`）：
+    ```sql
+    ALTER USER USER() IDENTIFIED BY 'pwd';              -- 修改当前登录用户密码
+    ALTER USER 'root'@'localhost' IDENTIFIED BY 'pwd';  -- 修改指定用户密码
+    ```
+  - 8.0 默认认证插件是 `caching_sha2_password`，旧客户端连不上时可指定插件：
+    ```sql
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pwd';
+    ```
+    - `mysql_native_password` 自 8.0.34 起 deprecated，8.4 起默认不加载（`ERROR 1524 Plugin ... is not loaded`），需在 `[mysqld]` 中显式 `mysql_native_password=ON`；9.0 已彻底移除
+  - :warning: 不带 `WITH` 的 `IDENTIFIED BY` 会把该账号的认证插件重置为服务器默认插件。想保留原插件，用 `SET PASSWORD FOR 'user'@'host' = 'pwd';`，或显式写出 `IDENTIFIED WITH`
+  - `ALTER USER` / `SET PASSWORD` 会立即生效，不需要 `flush privileges;`
 - 使用 `mysqladmin` 修改密码: `$ mysqladmin -u root -p password` 会依次提示输入当前密码与新密码
   - 不要写成 `mysqladmin -u root -p password 'NEW'`，新密码会明文出现在 `ps` 和 shell history 中
 
 ### Privileges
 - 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
 - 查询权限：`show grants for root@'localhost';`
-- 修改数据库权限
+- 修改数据库权限（8.0 移除了 `GRANT ... IDENTIFIED BY`，必须先 `CREATE USER` 再 `GRANT`）
   ```sql
+  -- GRANT 不再隐式建号，账号必须先存在
+  CREATE USER 'user'@'host' IDENTIFIED BY 'pwd';
+  -- 以下三条是三种粒度的示例，按需选一（授了 ALL 之后后两条基本没有意义，但 WITH GRANT OPTION 除外：全局 ALL 不含它）
   -- 全部权限
-  GRANT ALL ON *.* TO 'user'@'%' IDENTIFIED BY 'pwd';
+  GRANT ALL ON *.* TO 'user'@'host';
   -- 该用户可以给其他用户授权
-  GRANT privileges ON db.tbl TO 'user'@'host' IDENTIFIED BY 'pwd' WITH GRANT OPTION;
+  GRANT privileges ON db.tbl TO 'user'@'host' WITH GRANT OPTION;
   -- 特定权限
-  GRANT SELECT,UPDATE,INSERT,DELETE ON testdb.* TO 'user'@'host' IDENTIFIED BY 'pwd';
+  GRANT SELECT,UPDATE,INSERT,DELETE ON testdb.* TO 'user'@'host';
   ```
 - 取消权限
   ```sql
   REVOKE privilege ON databasename.tablename FROM 'user'@'host';
   REVOKE SELECT ON testdb.* FROM 'user'@'localhost'; 
   ```
-- 允许远程访问
+- 允许远程访问：账号的可登录来源是 `'user'@'host'` 里的 host，不要直接改 `mysql.user`
   ```sql
-  use mysql;
-  update user set host = '%' where user = 'XXX';
+  -- 推荐：保留本地账号，另建一个限定来源网段的远程账号
+  CREATE USER 'XXX'@'10.0.0.%' IDENTIFIED BY 'pwd';
+  GRANT ALL ON db.* TO 'XXX'@'10.0.0.%';
+  -- 或者把已有账号整体改为可远程（注意这是「移动」，原 localhost 账号不再存在）
+  RENAME USER 'XXX'@'localhost' TO 'XXX'@'10.0.0.%';
   ```
-- :star:以上均需刷新生效：`flush privileges;`
+  - Debian/Ubuntu 的 root 默认用 `auth_socket` 认证，只能走 Unix socket。这类账号改完 host 仍然连不上，需要先给它换个带密码的插件：`ALTER USER ... IDENTIFIED BY 'pwd';`（只有为了迁就旧客户端才需要 `IDENTIFIED WITH mysql_native_password`，且 8.4+ 该插件默认不加载，见上文）
+  - 8.0+ 新建的账号默认是 `caching_sha2_password`，首次认证（以及重启 / `flush privileges` 清空缓存后）需要 TLS 或服务端 RSA 公钥；命中缓存后普通连接即可
+  - 8.0.22+ 若被改名的账号是任何存储对象（视图/触发器/事件/存储过程/函数）的 `DEFINER`，`RENAME USER` 会直接报错；有 `SET_USER_ID` 权限时改名会成功但只给一个 warning，那些存储对象的 `DEFINER` 就悬空了
+- :star:`CREATE/ALTER/RENAME/DROP USER`、`GRANT`、`REVOKE`、`SET PASSWORD` 都会立即重新加载权限表，**不**需要 `flush privileges;`；只有直接 `INSERT/UPDATE/DELETE` 授权表（`mysql.user` 等）后才必须执行 `flush privileges;`
+  - 已连接会话的**静态**全局权限与密码要等下次连接才生效（动态权限立即生效），这与 `flush privileges;` 无关
 
 
 
