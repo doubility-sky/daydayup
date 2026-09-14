@@ -23,7 +23,7 @@
   - 生成 android icon 集合
     ```shell
     #!/bin/sh
-    if [ "$1" == "" ]; then
+    if [ -z "$1" ]; then
         echo "must have name of png"
         exit 1
     fi

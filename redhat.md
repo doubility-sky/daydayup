@@ -22,8 +22,8 @@
   - `firewall-cmd --list-all-zones` 所有区域的配置
 - 端口转发 local:80 => local:12345
   - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=12345` 
-- 转发远程主机 local:80 => 123.456.78.9:8080
-  - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=8080:toaddr=123.456.78.9` 
+- 转发远程主机 local:80 => 203.0.113.9:8080
+  - `firewall-cmd --zone="public" --add-forward-port=port=80:proto=tcp:toport=8080:toaddr=203.0.113.9` 
   - 在需要的区域中激活 masquerade `firewall-cmd --zone=public --add-masquerade`
   - 删除规则 `firewall-cmd --zone=public --remove-masquerade`
 - 应急模式，阻断或放开所有网络 
@@ -32,11 +32,11 @@
 - Rich Rules
   ```bash
   # 允许来自指定远程主机的所有 IPv4 流量
-  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=123.456.78.9 accept'
+  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=203.0.113.9 accept'
   # 拒绝来自指定主机到 22 端口的 IPv4 的 TCP 流量
-  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=123.456.78.9 port port=22 protocol=tcp reject'
+  firewall-cmd --zone=public --add-rich-rule 'rule family="ipv4" source address=203.0.113.9 port port=22 protocol=tcp reject'
   # 允许来自指定主机到 80 端口的 IPv4 的 TCP 流量，并将流量转发到 6532 端口上
-  firewall-cmd --zone=public --add-rich-rule 'rule family=ipv4 source address=123.456.78.9 forward-port port=80 protocol=tcp to-port=6532'
+  firewall-cmd --zone=public --add-rich-rule 'rule family=ipv4 source address=203.0.113.9 forward-port port=80 protocol=tcp to-port=6532'
   # 移除相应 rich rule 
   firewall-cmd --zone=public --remove-rich-rule '... XXXX ...'
   ```

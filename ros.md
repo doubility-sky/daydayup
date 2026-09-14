@@ -8,7 +8,7 @@ http://www.ros.org/
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt-get update
-sudo apt-upgrade
+sudo apt-get upgrade
 
 # 如果遇到no public key的错误，执行
 sudo apt-get install debian-keyring debian-archive-keyring

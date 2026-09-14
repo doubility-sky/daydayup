@@ -81,11 +81,13 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
   ```sql
   use mysql;
   SET PASSWORD = PASSWORD('pwd');  -- 修改当前登陆用户密码
-  update user set plugin="mysql_native_password";  -- mysql5.7+ required
+  -- mysql5.7+ required；必须带 WHERE，否则会改写 auth_socket 等系统账号
+  update user set plugin="mysql_native_password" where user='root';
   update user set authentication_string=password('pwd') where user='root';
   flush privileges;
   ```
-- 使用 `mysqladmin` 修改密码: `$ mysqladmin -u root password -p`
+- 使用 `mysqladmin` 修改密码: `$ mysqladmin -u root -p password` 会依次提示输入当前密码与新密码
+  - 不要写成 `mysqladmin -u root -p password 'NEW'`，新密码会明文出现在 `ps` 和 shell history 中
 
 ### Privileges
 - 权限列表：http://dev.mysql.com/doc/refman/5.7/en/privileges-provided.html
@@ -188,7 +190,7 @@ The [MySQL](https://www.mysql.com)™ software delivers a very fast, multithread
 
   - [安装 jemalloc for mysql](https://www.cnblogs.com/DataArt/p/9978187.html)
   - `git clone https://github.com/jemalloc/jemalloc`
-  - `cd jemalloc & git checkout master`
+  - `cd jemalloc && git checkout master`
   - `./autogen.sh && ./configure && make && make install`
   - `cp /usr/local/lib/libjemalloc.* /usr/lib/`
   - run mysqld with jemalloc

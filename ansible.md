@@ -22,7 +22,7 @@
                   hosts: lab #Labels from inventory
                   tasks:
                     - name: connection_check # Name of the task
-                    ping: # Module to call
+                      ping: # Module to call
                 ```
 
                 `output`
@@ -88,7 +88,7 @@
     `Solution`  Change Permission to "0400" to set RO to owner only
     ```yml
     - name: Copy Private key to host
-        copy:
+      copy:
         src: ../keys/id_rsa
         dest: /root/gitlab.key
         mode: "0400"

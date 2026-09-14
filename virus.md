@@ -34,12 +34,12 @@ A [computer virus](https://en.wikipedia.org/wiki/Computer_virus) is a type of co
   - [PHP-fpm 远程代码执行漏洞(CVE-2019-11043)分析](https://paper.seebug.org/1063/)
   - [PHP7被曝出一个远程执行代码漏洞](https://www.infoq.cn/article/gB5J27dSA6SBcrtepsT5)
   - [THINKPHP 5.X RCE 漏洞分析与利用总结](https://0kee.360.cn/blog/thinkphp-5-x-rce-%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8%E6%80%BB%E7%BB%93/)
-- Add shell script to `/etc/crontab`
+- 将清理脚本保存为 `/usr/local/bin/clean-miner.sh`（`chmod +x`），再在 `/etc/crontab` 中加一行定时执行：
+  `*/5 * * * * root /usr/local/bin/clean-miner.sh`
   ```shell
   #!/bin/sh
-  # killall kdevtmpfsi kinsing
-  ps aux |grep kinsing|awk '{print $2}'|xargs kill -9
-  ps aux |grep kdevtmpfsi |awk '{print $2}'|xargs kill -9
+  pkill -9 -x kinsing
+  pkill -9 -x kdevtmpfsi
   rm -rf /tmp/kinsing
   rm -rf /tmp/kdevtmpfsi
   #rm -rf /tmp/.ICE-unix
@@ -47,7 +47,7 @@ A [computer virus](https://en.wikipedia.org/wiki/Computer_virus) is a type of co
   rm -rf /var/tmp/kinsing
   rm -rf /var/tmp/kdevtmpfsi
   #rm -rf /var/tmp/.ICE-unix
-  rm /var/spool/cron/crontabs/www-data
+  rm -f /var/spool/cron/crontabs/www-data
   ```
 
 <details> <summary> View Mal-Shell </summary>

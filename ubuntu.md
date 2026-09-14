@@ -7,7 +7,7 @@
 ## Common
 - Debian/Ubuntu: `apt update`
   ```bash
-  dpkg –l | grep package # 查询deb包的详细信息，没有指定包则显示全部已安装包
+  dpkg -l | grep package # 查询deb包的详细信息，没有指定包则显示全部已安装包
   dpkg -s package        # 查看已经安装的指定软件包的详细信息
   dpkg -L package        # 列出一个包安装的所有文件清单
   dpkg -S file           # 查看系统中的某个文件属于哪个软件包,搜索已安装的软件包

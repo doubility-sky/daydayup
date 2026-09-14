@@ -32,17 +32,17 @@
 		var userAgent = navigator.userAgent.toLowerCase();
 		// windows
 		if (platform.indexOf("win") > -1) {
-			if (userAgent.indexOf("Windows NT 5.0") > -1 || userAgent.indexOf("Windows 2000") > -1) {
+			if (userAgent.indexOf("windows nt 5.0") > -1 || userAgent.indexOf("windows 2000") > -1) {
 				return "Win2000";
-			} else if (userAgent.indexOf("Windows NT 5.1") > -1 || userAgent.indexOf("Windows XP") > -1) {
+			} else if (userAgent.indexOf("windows nt 5.1") > -1 || userAgent.indexOf("windows xp") > -1) {
 				return "WinXP";
-			} else if (userAgent.indexOf("Windows NT 5.2") > -1 || userAgent.indexOf("Windows 2003") > -1) {
+			} else if (userAgent.indexOf("windows nt 5.2") > -1 || userAgent.indexOf("windows 2003") > -1) {
 				return "Win2003";
-			} else if (userAgent.indexOf("Windows NT 6.0") > -1 || userAgent.indexOf("Windows Vista") > -1) {
+			} else if (userAgent.indexOf("windows nt 6.0") > -1 || userAgent.indexOf("windows vista") > -1) {
 				return "WinVista";
-			} else if (userAgent.indexOf("Windows NT 6.1") > -1 || userAgent.indexOf("Windows 7") > -1) {
+			} else if (userAgent.indexOf("windows nt 6.1") > -1 || userAgent.indexOf("windows 7") > -1) {
 				return "Win7";
-			} else if (userAgent.indexOf("Windows NT 10.0") > -1 || userAgent.indexOf("Windows 10") > -1) {
+			} else if (userAgent.indexOf("windows nt 10.0") > -1 || userAgent.indexOf("windows 10") > -1) {
 				return "Win10";
 			} else {
 				return "Other Windows";
