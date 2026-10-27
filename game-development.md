@@ -96,6 +96,7 @@
 
 ## Resources
 - [GameDev-Resources](https://github.com/Kavex/GameDev-Resources) 🎮 🎲 A wonderful list of Game Development resources.
+- [RespawnStack](https://respawnstack.com) — Curated directory of AI tools for game developers.
 - [Game-Networking-Resources](https://github.com/MFatihMAR/Game-Networking-Resources): A Curated List of Game Network Programming Resources
 - [Awesome Gamedev](https://github.com/Calinou/awesome-gamedev), A curated list of good stuff related to the development of games. This list contains only [free software](https://www.fsf.org/about/what-is-free-software) for code, sellers who aren't evil for physical resources, and [free cultural works](http://freedomdefined.org/Definition) for assets.
 - [ellisonleao/magictools](https://github.com/ellisonleao/magictools), A curated list of game development resources to make magic happen.
